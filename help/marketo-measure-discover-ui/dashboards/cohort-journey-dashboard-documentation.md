@@ -3,7 +3,7 @@ unique-page-id: 42762648
 description: 집단 여정 대시보드 설명서 - [!DNL Marketo Measure] - 제품 설명서
 title: 집단 여정 대시보드 설명서
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
+source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >모든 Discover 대시보드에서 Lead 또는 Contact 중 하나의 개인 객체만 보고할 수 있습니다. 이 설정값은 [!UICONTROL Settings] > [!UICONTROL Reporting] > [!UICONTROL Attribution Settings] > [!UICONTROL Default Dashboard Object].
 
-이 대시보드는 다음 필터를 지원합니다.
+대시보드는 다음 필터를 지원합니다.
 
 * 집단 단계: 시작 집단 단계를 선택합니다. 다음 모든 단계의 레코드는 집단 단계의 레코드에서 진화됩니다.
 * 집단 날짜 범위: 선택한 집단 스테이지의 시간대를 선택합니다. 집단 스테이지와 함께 시작 데이터 세트를 정의합니다.
@@ -53,8 +53,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >세그먼트 필터는 LC 단계 및 이후에만 적용됩니다. 집단 단계가 알 수 없음 또는 알려짐 이고 세그먼트 필터 중 하나에 값이 있는 경우 대시보드는 결과를 반환하지 않습니다.
-
-![](assets/cohort-journey-dashboard-documentation-3.png)
 
 단계에는 미지정, 알려진 단계, LC, 오픈 리드/접촉 단계(설정 > CRM > 단계 매핑), OC, 오픈 기회 단계의 선택된 단계 단계(설정 > CRM > 단계 매핑) 및 거래(마감된 최종 기회)가 포함됩니다.
 
