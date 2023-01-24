@@ -3,9 +3,9 @@ unique-page-id: 18874763
 description: "[!DNL Microsoft Dynamics] CRM 설치 안내서 - Marketo Measure - Product Documentation"
 title: "[!DNL Microsoft Dynamics] CRM 설치 안내서"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -138,11 +138,11 @@ Adobe Admin Console에 액세스하면 [!DNL Marketo Measure] 개요 섹션에 �
 
 >[!NOTE]
 >
->다음을 수행하려면 [!DNL Marketo Measure] 관리자(위치 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}), 사용자를 사용자로 추가해야 합니다 _및_ 모든 사용자에게 관리자 [!DNL Marketo Measure] 내 제품 프로필 [!DNL Marketo Measure] 제품 카드.
+>다음을 수행하려면 [!DNL Marketo Measure] 관리자(위치 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), 사용자를 사용자로 추가해야 합니다 _및_ 모든 사용자에게 관리자 [!DNL Marketo Measure] 내 제품 프로필 [!DNL Marketo Measure] 제품 카드.
 
 **에 로그인[!DNL Marketo Measure]**
 
-사용자가 제품 프로필에 추가되면 해당 사용자에 액세스할 수 있습니다 [!DNL Marketo Measure] 인스턴스를 선택하여 **Adobe ID으로 로그인** 옵션 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+사용자가 제품 프로필에 추가되면 해당 사용자에 액세스할 수 있습니다 [!DNL Marketo Measure] 인스턴스를 선택하여 **Adobe ID으로 로그인** 옵션 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 ![](assets/microsoft-dynamics-crm-installation-guide-15.png)
 
@@ -217,3 +217,7 @@ Adobe Admin Console에 액세스하면 [!DNL Marketo Measure] 개요 섹션에 �
    >기본적으로 [!DNL Marketo Measure] 작업이 CRM에 데이터를 보낼 때마다 API 크레딧당 200개의 레코드를 내보냅니다. 대부분의 고객의 경우 이 API 크레딧은 [!DNL Marketo Measure] 및 CRM의 CPU 리소스 요구 사항입니다. 그러나 워크플로우 및 트리거와 같은 복잡한 CRM 구성이 있는 고객의 경우 일괄 처리 크기를 작게 지정하면 CRM 성능을 향상시키는 데 도움이 될 수 있습니다. 이를 위해 [!DNL Marketo Measure] 고객이 CRM 내보내기 배치 크기를 구성할 수 있습니다. 이 설정은 페이지의 설정 > CRM > 일반 페이지에서 사용할 수 있습니다 [!DNL Marketo Measure] 웹 애플리케이션 및 고객은 일괄 처리 크기 200(기본값), 100, 50 또는 25 중에서 선택할 수 있습니다.
    >
    >이 설정을 수정할 때는 작은 일괄 처리 크기가 CRM에서 더 많은 API 크레딧을 사용한다는 점에 유의하십시오. CRM에서 CPU 시간 초과 또는 높은 CPU 로드가 발생하는 경우에만 일괄 처리 크기를 줄이는 것이 좋습니다.
+
+   >[!NOTE]
+   >
+   >Marketo Measurement를 Dynamics로 데이터 내보내기를 비활성화하면 기존 데이터가 제거되지 않습니다. 기존 데이터 제거에 대한 도움말을 보려면 Dynamics 지원 팀에 문의하십시오.
