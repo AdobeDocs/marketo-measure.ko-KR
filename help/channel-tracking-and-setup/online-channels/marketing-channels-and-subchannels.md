@@ -6,7 +6,7 @@ exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 * 두 번 클릭
 * Capterra
 * 드립 캠페인
-* linkedIn 광고
+* LinkedIn 광고
 
 **컨텐츠(백서, 페이지 URL, 블로그 게시물)**
 

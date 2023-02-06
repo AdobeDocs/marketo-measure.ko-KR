@@ -5,14 +5,14 @@ title: 마케팅 채널 비용
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
 
 # 마케팅 채널 비용 {#marketing-channel-costs}
 
-사용의 가장 기본적인 이점 중 하나 [!DNL Marketo Measure] 은 원하는 만큼 세부적인 기능을 사용하여 마케팅 활동을 매출에 미치는 영향에 직접 연결할 수 있습니다. 터치 포인트 수준에서 투자 수익률을 확인할 수 있습니다. 이러한 이점을 활용하려면 채널 비용을 [!DNL Marketo Measure] 앱. ROI 보고서는 **마케팅 ROI 대시보드** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+사용의 가장 기본적인 이점 중 하나 [!DNL Marketo Measure] 은 원하는 만큼 세부적인 기능을 사용하여 마케팅 활동을 매출에 미치는 영향에 직접 연결할 수 있습니다. 터치 포인트 수준에서 투자 수익률을 확인할 수 있습니다. 이러한 이점을 활용하려면 채널 비용을 [!DNL Marketo Measure] 앱. ROI 보고서는 **마케팅 ROI 대시보드** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [지침에 직접 이동하려면 여기를 클릭하십시오.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 

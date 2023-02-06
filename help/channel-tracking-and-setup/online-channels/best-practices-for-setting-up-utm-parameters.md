@@ -5,7 +5,7 @@ title: UTM 매개 변수 설정에 대한 우수 사례
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 UTM 매개 변수는 마케팅 데이터를 분류하고 분류하는 좋은 방법입니다. [!DNL Marketo Measure] 은 을 사용하고 모든 UTM 매개 변수를 캡처하여 Salesforce 및 [!DNL Marketo Measure] 앱. 이러한 정보를 통해 리드, 영업 기회, 거래 성사/거래 성사 등에 대한 세부 사항을 파악할 수 있습니다.
 
-를 활용할 수 있습니다 [Google URL 빌더](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;} 를 사용하여 UTM 매개 변수를 설정하고 마케팅 활동 내에 링크에 추가할 수 있습니다. 다음 사용 [Google 스프레드시트](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0)모든 UTM 링크를 보다 쉽게 추적하려면 {target=&quot;_blank&quot;}.
+를 활용할 수 있습니다 [Google URL 빌더](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} 모든 UTM 링크를 보다 쉽게 추적하려면 다음을 수행하십시오.
 
 ## 각 매개 변수에 대한 높은 수준 값 {#high-level-values-for-each-parameter}
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 용어/채널은 중복되지 않으며 utm_term은 이 경우에는 사용되지 않습니다.
 
-질문이 있는 경우 고객 성공 관리자에게 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+질문이 있는 경우 고객 성공 관리자에게 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

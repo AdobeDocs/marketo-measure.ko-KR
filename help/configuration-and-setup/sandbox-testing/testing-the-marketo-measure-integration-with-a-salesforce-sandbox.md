@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874765
-description: Salesforce 샌드박스와 Marketo Measure Integration 테스트 - [!DNL Marketo Measure] - 제품 설명서
-title: Salesforce 샌드박스와 Marketo Measurement 통합 테스트
+description: Salesforce 샌드박스와 Marketo Measure 통합 테스트 - [!DNL Marketo Measure] - 제품 설명서
+title: Salesforce 샌드박스와 Marketo Measure 통합 테스트
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Salesforce 샌드박스와 Marketo Measurement 통합 테스트 {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
+# Salesforce 샌드박스와 Marketo Measure 통합 테스트 {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
 >

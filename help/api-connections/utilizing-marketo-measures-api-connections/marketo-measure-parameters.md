@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] 매개 변수"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ UTM을 사용하여 보다 자세한 통찰력을 얻으려면 [!DNL Marketo Mea
 
 >[!NOTE]
 >
->일치 유형에 대한 자세한 내용은 [관련 AdWords 문서](https://support.google.com/adwords/answer/2497836?hl=en){target=&quot;_blank&quot;}.
+>일치 유형에 대한 자세한 내용은 [관련 AdWords 문서](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
 * `_bn={network}`
-   * 광고 네트워크 유형을 나타냅니다. [표시 또는 검색](https://support.google.com/adwords/answer/1752334?hl=en){target=&quot;_blank&quot;}.
+   * 광고 네트워크 유형을 나타냅니다. [표시 또는 검색](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
    * 이는 UTM 소스 매개 변수와 유사합니다.
 
 * `_bg={adgroupID}`

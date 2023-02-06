@@ -5,7 +5,7 @@ title: 권장 [!DNL Salesforce] 에 대한 권한 [!DNL Marketo Measure] 연결�
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ If [!DNL Marketo Measure] 가 여전히 데이터를 읽거나 쓰는 데 문제
 
 필드 수준 보안 및 필드 액세스 가능성은 관련이 있지만 몇 가지 주요 차이점이 있습니다. 필드 수준 보안은 지정된 프로필에 대한 필드 가시성을 정의하는 반면, 필드 액세스 가능성은 필드 수준 보안 및 페이지 레이아웃 구성을 기반으로 필드를 편집할 수 있는지 여부를 결정합니다. 사용 [!DNL Marketo Measure] 패키지의 권한 집합은 필요한 필드 개체 보안 설정을 받게 됩니다. 경우에 따라 올바른 필드 액세스 가능성이 있으려면 연결된 사용자가 [!DNL Marketo Measure] 페이지 레이아웃의 필드. [!DNL Marketo Measure] 레이아웃의 필드에서 [!DNL Marketo Measure] 매핑할 데이터 [!DNL Salesforce]. 이는 특정 항목에 따라 달라집니다 [!DNL Salesforce] 환경.
 
-모든 조직의 [!DNL Salesforce] 개별 요구 사항을 가지고 있지만, Dell은 사용자에게 균형을 맞추기 위한 요구 사항을 제공합니다 [!DNL Marketo Measure] 보안 프로토콜로 액세스 요구 사항 망설이지 말고 연락하세요 [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+모든 조직의 [!DNL Salesforce] 개별 요구 사항을 가지고 있지만, Dell은 사용자에게 균형을 맞추기 위한 요구 사항을 제공합니다 [!DNL Marketo Measure] 보안 프로토콜로 액세스 요구 사항 망설이지 말고 연락하세요 [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

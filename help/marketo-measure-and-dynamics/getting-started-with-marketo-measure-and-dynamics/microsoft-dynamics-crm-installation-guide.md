@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874763
-description: "[!DNL Microsoft Dynamics] CRM 설치 안내서 - Marketo Measure - Product Documentation"
+description: "[!DNL Microsoft Dynamics] CRM 설치 안내서 - Marketo Measure - 제품 설명서"
 title: "[!DNL Microsoft Dynamics] CRM 설치 안내서"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c
@@ -220,4 +220,4 @@ Adobe Admin Console에 액세스하면 [!DNL Marketo Measure] 개요 섹션에 �
 
    >[!NOTE]
    >
-   >Marketo Measurement를 Dynamics로 데이터 내보내기를 비활성화하면 기존 데이터가 제거되지 않습니다. 기존 데이터 제거에 대한 도움말을 보려면 Dynamics 지원 팀에 문의하십시오.
+   >Marketo Measure에서 Dynamics로 데이터 내보내기를 비활성화하면 기존 데이터가 제거되지 않습니다. 기존 데이터 제거에 대한 도움말을 보려면 Dynamics 지원 팀에 문의하십시오.

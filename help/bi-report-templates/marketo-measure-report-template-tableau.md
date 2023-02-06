@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] 보고서 템플릿 - 타블로"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2297'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 시작하기 {#getting-started}
 
-에 액세스할 수 있습니다 [!DNL Tableau] 보고서 템플릿 [여기](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+에 액세스할 수 있습니다 [!DNL Tableau] 보고서 템플릿 [여기](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 를 엽니다. [!DNL Adobe Marketo] 측정 단위 보고 템플리트 타블로 통합 문서 파일.
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 데이터 연결 {#data-connection}
 
-Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이렇게 하려면 사용자 이름 및 암호와 함께 서버 이름이 필요합니다. 이 정보를 찾고 암호를 재설정할 위치에 대한 자세한 내용은 문서화되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이렇게 하려면 사용자 이름 및 암호와 함께 서버 이름이 필요합니다. 이 정보를 찾고 암호를 재설정할 위치에 대한 자세한 내용은 문서화되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -109,7 +109,7 @@ Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이렇게 
 
 전체 크기 버전을 보려면 아래 이미지를 클릭하십시오.
 
-[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
 
 ### 관계 및 데이터 흐름 {#relationships-and-data-flow}
 
@@ -152,7 +152,7 @@ Opportunity Stage Transitions와 Lead Stage Transitions는 이 모델의 한 테
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-에서 바로 오는 열에 대한 정의를 보려면 [!DNL Snowflake]를 보려면 [data warehouse 설명서](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}.
+에서 바로 오는 열에 대한 정의를 보려면 [!DNL Snowflake]를 보려면 [data warehouse 설명서](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## 템플릿과 검색 간의 불일치 {#discrepancies-between-templates-and-discover}
 

@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] 유지 관리"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 **추적할 도메인 목록 업데이트(월 1일)**
 
-Marketo Measurement는 Javascript가 활성 상태인 모든 페이지 및 하위 도메인을 추적하지만, 우리가 알고 있는 도메인에 대해서만 추적합니다. 최근 새 도메인을 처음 만들었거나, 국제적으로 확장했거나, 주 도메인을 변경한 경우 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} 계정을 적절하게 업데이트하도록 했습니다.
+Marketo Measure은 Javascript가 활성화된 모든 페이지 및 하위 도메인을 추적하지만, 우리가 알고 있는 도메인에 대해서만 추적합니다. 최근 새 도메인을 처음 만들었거나, 국제적으로 확장했거나, 주 도메인을 변경한 경우 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} Adobe에서 귀하의 계정을 적절하게 업데이트하도록 하십시오.
 
 **정확성을 위한 사용자 지정 채널 매핑 검토(월 1회)**
 
-온보딩 중에 온라인 및 오프라인 마케팅 활동에 대한 사용자 지정 채널 매핑을 설정합니다. 마케팅 전략 및 Marketo Measurement 사용이 발전함에 따라 모든 터치포인트가 적절하게 분류되도록 해당 매핑 로직을 주시해야 합니다.
+온보딩 중에 온라인 및 오프라인 마케팅 활동에 대한 사용자 지정 채널 매핑을 설정합니다. 마케팅 전략 및 Marketo Measure 사용이 발전함에 따라 모든 터치포인트가 적절하게 분류되도록 해당 매핑 로직을 주시해야 합니다.
 
 기억해 [!DNL Marketo Measure] 매핑 논리를 편집할 때 데이터를 재처리하므로 7일에 한 번 이상 이러한 규칙을 변경할 수 없습니다.
 

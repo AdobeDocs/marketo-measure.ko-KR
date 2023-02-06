@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586069
-description: Marketo Measurement Js에서 GDPR에 대한 동의 확인 - Marketo 측정 - 제품 설명서
+description: Marketo Measure Js에서 GDPR에 대한 동의 확인 - Marketo Measure - 제품 설명서
 title: Marketo Measure Js에서 GDPR에 대한 동의 보장
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458

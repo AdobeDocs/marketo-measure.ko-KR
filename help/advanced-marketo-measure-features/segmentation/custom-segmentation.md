@@ -5,7 +5,7 @@ title: 사용자 지정 세그멘테이션
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 2단계 - 로그인하고 세그먼트 기능을 찾습니다.
 
-* 이동 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} 및 로그인
+* 이동 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} 로그인하고
 * 아래에 [!UICONTROL My Account] 탭, 선택 [!UICONTROL Settings]
 * 선택 [!UICONTROL Segments] 사이드바의 옵션(왼쪽, 아래)에서 [!UICONTROL Reporting] 섹션
 

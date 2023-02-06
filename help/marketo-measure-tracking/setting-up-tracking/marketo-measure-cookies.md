@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Marketo 측정 쿠키 {#marketo-measure-cookies}
+# Marketo Measure 쿠키 {#marketo-measure-cookies}
 
 다양한 [!DNL Marketo Measure] 를 적용할 때 사이트에 로드되는 쿠키 [!DNL Marketo Measure] 랜딩 페이지에 JavaScript를 추가합니다. 이 정보는 구현 중에 웹 개발 팀에 유용할 수 있습니다.
 

@@ -5,7 +5,7 @@ title: 일반적인 사용 사례
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -80,4 +80,4 @@ Dimension 필터를 변경하여 그룹을 다음과 같이 변경합니다. 하
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 대학: 소개 [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target=&quot;_blank&quot;}
+>[[!DNL Marketo Measure] 대학: 소개 [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}

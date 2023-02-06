@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874586
-description: Marketo 측정 단위 필드 용어집 - Marketo 측정 단위 - 제품 설명서
-title: Marketo 측정 단위 필드 용어집
+description: Marketo Measure 필드 용어집 - Marketo Measure - 제품 설명서
+title: Marketo Measure 필드 용어집
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Marketo 측정 단위 필드 용어집 {#glossary-of-marketo-measure-fields}
+# Marketo Measure 필드 용어집 {#glossary-of-marketo-measure-fields}
 
-이 문서에서는 Marketo Measurement 기본 패키지에서 Salesforce에 추가되는 모든 Marketo Measurement 필드에 대한 용어집을 제공합니다. 또한, 필드를 찾을 수 있는 개체 및 각 필드가 정보로 채워지는 방법에 대한 정보를 찾을 수 있습니다.
+이 문서에서는 Marketo Measure 기본 패키지에서 Salesforce에 추가된 모든 Marketo Measure 필드에 대한 용어집을 제공합니다. 또한, 필드를 찾을 수 있는 개체 및 각 필드가 정보로 채워지는 방법에 대한 정보를 찾을 수 있습니다.
 
-각 Marketo 측정 단위 필드가 관련된 맵의 경우 다음을 수행하십시오 [여기를 클릭하십시오.](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+각 Marketo Measure 필드와 관련된 개체의 맵에 대해서는 [여기를 클릭하십시오.](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ 질문 ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 `3)` 터치포인트가 Salesforce 캠페인에서 발생하면 Salesforce 캠페인의 이름이 여기에 표시됩니다.
 
-`4)` 이렇게 하면 Marketo 측정값 계정 내에 작성된 활동에서 생성된 터치포인트에 대해 정의된 캠페인 이름이 채워집니다.
+`4)` 이렇게 하면 Marketo Measure 계정 내에 구축된 활동에서 생성된 터치포인트에 대해 정의된 캠페인 이름으로 채워집니다.
 
 위의 필드가 없으면 이 필드는 비어 있습니다.
 
@@ -126,9 +126,9 @@ ht-degree: 0%
 
 ## B {#b}
 
-**Marketo 측정 기회 금액** | Salesforce Opportunity
+**Marketo Measure 기회 금액** | Salesforce Opportunity
 
-사용자 지정 금액 필드를 사용하여 Opportunity 수익을 보고하는 경우 Marketo Measurement에서 이러한 사용자 지정 금액 필드를 읽을 수 없습니다. Marketo 측정 기회 금액 은 Marketo Measurement가 Opportunity에서 사용자 정의 금액 필드를 읽을 수 있도록 하는 워크플로우를 만드는 데 사용되는 숨겨진 필드입니다.
+사용자 지정 금액 필드를 사용하여 Opportunity 수익을 보고하는 경우 Marketo Measure에서 이러한 사용자 지정 금액 필드를 읽을 수 없습니다. Marketo Measure Opportunity Amount는 Marketo Measure이 Opportunity에서 사용자 정의 Amount 필드를 읽을 수 있도록 하는 워크플로우를 만드는 데 사용되는 숨김 필드입니다.
 
 **브라우저** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -196,29 +196,29 @@ ht-degree: 0%
 
 ## D {#d}
 
-보고된 날짜 | Marketo Measure ABTest, Marketo 측정 이벤트
+보고된 날짜 | Marketo Measure ABTest, Marketo Measure 이벤트
 
-Marketo 측정 이벤트 - 사용자가 웹 사이트에서 특정 작업을 수행하여 이벤트를 활성화한 날짜입니다
+Marketo Measure 이벤트 - 사용자가 웹 사이트에서 특정 작업을 수행하여 이벤트를 활성화한 날짜입니다
 
-Marketo 측정 ABTest - 사용자가 웹 사이트에서 A/B 테스트에 참여한 날짜입니다
+Marketo Measure ABTest - 사용자가 웹 사이트에서 A/B 테스트에 참여한 날짜입니다
 
 [페이지 맨 위로 돌아가려면 여기를 클릭하십시오.](#top)
 
 ## E {#e}
 
-**이벤트 이름** | Marketo 측정 이벤트
+**이벤트 이름** | Marketo Measure 이벤트
 
 이 필드에는 이벤트를 트리거한 작업 이름(즉, 페이지 보기)이 표시됩니다.
 
-**이벤트 값** | Marketo 측정 이벤트
+**이벤트 값** | Marketo Measure 이벤트
 
 이벤트에 대한 설명(즉, 홈 페이지)
 
-**실험 이름** | Marketo 측정 ABTest
+**실험 이름** | Marketo Measure ABTest
 
 이 필드에는 실험 이름(예: 평가판 단추)이 표시됩니다
 
-**실험 ID** |Marketo 측정 AB 테스트
+**실험 ID** |Marketo Measure AB 테스트
 
 각 실험에 대한 고유 식별 코드
 
@@ -298,7 +298,7 @@ Marketo 측정 ABTest - 사용자가 웹 사이트에서 A/B 테스트에 참여
 
 **마케팅 채널** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-이 필드는 터치포인트가 속한 마케팅 활동 또는 마케팅 채널의 일반 그룹(즉, 유료 검색, 직접, 소셜 등)을 보여줍니다. 터치포인트는 Marketo 측정 앱에서 채널이 설정된 방식에 따라 그룹화됩니다. 마케팅 채널 또는 채널 설정 방법에 대한 자세한 내용은 다음을 참조하십시오 [여기를 클릭하십시오.](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+이 필드는 터치포인트가 속한 마케팅 활동 또는 마케팅 채널의 일반 그룹(즉, 유료 검색, 직접, 소셜 등)을 보여줍니다. 터치포인트는 Marketo Measure 앱에서 채널이 설정된 방법에 따라 그룹화됩니다. 마케팅 채널 또는 채널 설정 방법에 대한 자세한 내용은 다음을 참조하십시오 [여기를 클릭하십시오.](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **마케팅 채널 - 경로** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -316,7 +316,7 @@ Marketo 측정 ABTest - 사용자가 웹 사이트에서 A/B 테스트에 참여
 
 `4)` 이 경우 터치 포인트를 생성한 관련 활동의 활동 유형 값으로 채워집니다.
 
-위의 값이 없는 경우 Marketo Measurement는 자동으로 중간 값을 설정합니다.
+위의 값이 없는 경우 Marketo Measure은 자동으로 중간 값을 설정합니다.
 
 [페이지 맨 위로 돌아가려면 여기를 클릭하십시오.](#top)
 
@@ -392,7 +392,7 @@ S
 
 **세그먼트** | 구매자 기여도 분석 터치포인트
 
-이 필드에는 터치 포인트가 속한 세그먼트가 표시됩니다. 이는 Marketo 측정 앱에서 세그먼테이션 규칙을 구성한 방법에 따라 다릅니다.
+이 필드에는 터치 포인트가 속한 세그먼트가 표시됩니다. 이는 Marketo Measure 앱에서 세그먼테이션 규칙을 구성한 방법에 따라 다릅니다.
 
 [페이지 맨 위로 돌아가려면 여기를 클릭하십시오.](#top)
 
@@ -462,7 +462,7 @@ U
 
 각 터치 포인트에 연결된 고유 ID입니다
 
-**사용자 ID** | Marketo 측정 ABTest
+**사용자 ID** | Marketo Measure ABTest
 
 각 사용에 대한 최적화의 고유 식별 코드
 
@@ -470,11 +470,11 @@ U
 
 ## V {#v}
 
-**변형** | Marketo 측정 ABTest
+**변형** | Marketo Measure ABTest
 
 A/B 테스트의 변형 이름
 
-**변형 ID** | Marketo 측정 ABTest
+**변형 ID** | Marketo Measure ABTest
 
 각 A/B 테스트 변형에 대한 고유한 식별 코드입니다.
 

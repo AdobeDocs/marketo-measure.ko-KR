@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874672
-description: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 - Marketo 측정 - 제품 설명서
+description: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 - Marketo Measure - 제품 설명서
 title: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9

@@ -5,18 +5,18 @@ title: A/B 테스트 설정 및 보고
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 # A/B 테스트 설정 및 보고 {#a-b-testing-set-up-and-reporting}
 
-다음 [!DNL Marketo Measure] A/B 테스트 통합을 사용하면 사용자의 매출에 미치는 영향을 추적할 수 있습니다 [최적](https://optimizely.com/){target=&quot;_blank&quot;} 및 VWO 사이트 실험. 이 문서에서는 추가 방법에 대한 지침을 제공합니다 [!DNL Marketo Measure] A/B 테스트의 리드 섹션, [!UICONTROL Contact], Case 및 [!UICONTROL Opportunity] 페이지 레이아웃. 또한 실행을 위한 일반 보고 작업 및 권장 사항도 다룹니다 [!DNL Marketo Measure] A/B 보고서 유형.
+다음 [!DNL Marketo Measure] A/B 테스트 통합을 사용하면 사용자의 매출에 미치는 영향을 추적할 수 있습니다 [최적](https://optimizely.com/){target="_blank"} 및 VWO 사이트 실험. 이 문서에서는 추가 방법에 대한 지침을 제공합니다 [!DNL Marketo Measure] A/B 테스트의 리드 섹션, [!UICONTROL Contact], Case 및 [!UICONTROL Opportunity] 페이지 레이아웃. 또한 실행을 위한 일반 보고 작업 및 권장 사항도 다룹니다 [!DNL Marketo Measure] A/B 보고서 유형.
 
 ## 설정 {#set-up}
 
-추가 [!DNL Marketo Measure] A/B Lead, Contact, Case 및 Opportunity 의 테스트 섹션 [!DNL Marketo Measure] A/B 테스트 통합을 사용하면 사용자의 매출에 미치는 영향을 추적할 수 있습니다 [최적](https://optimizely.com/){target=&quot;_blank&quot;} 및 [VWO](https://vwo.com/){target=&quot;_blank&quot;} 사이트 실험.
+추가 [!DNL Marketo Measure] A/B Lead, Contact, Case 및 Opportunity 의 테스트 섹션 [!DNL Marketo Measure] A/B 테스트 통합을 사용하면 사용자의 매출에 미치는 영향을 추적할 수 있습니다 [최적](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} 사이트 실험.
 
 1. 패키지를 사용 중인지 확인합니다 [!DNL Marketo Measure] v3.9 이상 이 작업은 [!UICONTROL Salesforce] >[!UICONTROL Set Up] > [!UICONTROL Installed packages].
 1. 리드 페이지 레이아웃을 편집하고 **[!DNL Marketo Measure]A/B 테스트** 관련 페이지 목록
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    ![](assets/3.png)
 
-1. 다음 사항에 문의하십시오. [!DNL Marketo Measure] 담당자 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} 기능을 사용하도록 설정합니다.
+1. 다음 사항에 문의하십시오. [!DNL Marketo Measure] 담당자 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 를 클릭하여 기능을 활성화합니다.
 
 ## 보고 {#reporting}
 

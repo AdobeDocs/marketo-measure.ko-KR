@@ -5,7 +5,7 @@ title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ AdWords &amp; 와 유사합니다 [!DNL Bing Ads] 통합, [!DNL Facebook] 통합
 
 설정에 대해서는 7단계를 [!DNL Marketo Measure] 앱.
 
-1. 다음으로 이동 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} 하고 로그인합니다.
+1. 다음으로 이동 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} 로그인하고
 1. 내 계정 아래에서 을 선택합니다. **[!UICONTROL Settings]**.
 1. 통합에서 을 선택합니다 **[!UICONTROL Connections]**.
 1. 선택 **[!UICONTROL Set Up New Ads Connection]** 그러면 팝업이 나타납니다. 선택 **[!UICONTROL Facebook]** facebook 자격 증명을 사용하여 로그인합니다.

@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] 보고서 템플릿 - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2557'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ## 시작하기 {#getting-started}
 
-Power BI 보고서 템플릿에 액세스할 수 있습니다 [여기](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+Power BI 보고서 템플릿에 액세스할 수 있습니다 [여기](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Adobe 열기 [!DNL Marketo Measure] 보고 템플릿 Power BI 파일입니다.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-에서 특정 서버, 웨어하우스 및 스키마 정보를 찾을 수 있습니다 [!DNL Marketo Measure] 의 UI [!DNL Data Warehouse] 정보 페이지. 이 페이지를 찾는 방법에 대한 지침은 자세히 설명되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+에서 특정 서버, 웨어하우스 및 스키마 정보를 찾을 수 있습니다 [!DNL Marketo Measure] 의 UI [!DNL Data Warehouse] 정보 페이지. 이 페이지를 찾는 방법에 대한 지침은 자세히 설명되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 가져온 데이터의 양을 제한하는 데 QueryFilterStartDate 및 QueryFilterEndDate 매개 변수를 사용합니다. 이러한 매개 변수는 보낸 쿼리에 사용되는 대로 SQL 형식이어야 합니다 [!DNL Snowflake]. 예를 들어 지난 2년으로 데이터를 제한하려면 QueryFilterStartDate는 dateadd(year,-2,current_date())입니다. 이러한 매개 변수는 datetime 데이터 형식과 비교되므로 QueryFilterEndDate에 dateadd(day,1,current_date())를 사용하여 모든 데이터를 현재 시간으로 반환하는 것이 좋습니다.
 
 ## 데이터 연결 {#data-connection}
 
-파일을 열 때 입력한 매개 변수는 Data Warehouse에서 테이블을 가져오는 기본 쿼리를 구성하는 데 사용됩니다. 에 대한 데이터 연결을 설정해야 합니다 [!DNL Snowflake] 인스턴스. 이를 위해서는 사용자 이름 및 암호와 함께 동일한 서버 및 웨어하우스 이름이 필요합니다. 사용자 이름을 찾고 암호를 재설정할 위치에 대한 자세한 내용은 문서화되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+파일을 열 때 입력한 매개 변수는 Data Warehouse에서 테이블을 가져오는 기본 쿼리를 구성하는 데 사용됩니다. 에 대한 데이터 연결을 설정해야 합니다 [!DNL Snowflake] 인스턴스. 이를 위해서는 사용자 이름 및 암호와 함께 동일한 서버 및 웨어하우스 이름이 필요합니다. 사용자 이름을 찾고 암호를 재설정할 위치에 대한 자세한 내용은 문서화되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## 데이터 가져오기 {#data-import}
 
@@ -105,7 +105,7 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 ### 대/소문자 구분 ID 전환 {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] 데이터에는 기본 키(ID) 값이 대소문자를 구분하는 두 개의 테이블, 즉 Touchpoint 및 Campaign이 있습니다. Power BI 모델링 레이어를 구동하는 데이터 엔진은 대/소문자를 구분하지 않으므로 &quot;중복된&quot; ID 값이 발생합니다. 이러한 키 값의 대/소문자 구분을 보존하기 위해 데이터 엔진 계층에서 평가할 때 ID의 고유성을 유지하면서 소문자로 보이지 않는 문자를 첨부하는 변환 단계를 구현했습니다. 문제에 대한 자세한 내용과 우리가 사용한 방법에 대한 자세한 단계는 찾을 수 있습니다 [여기] (https://blog.crossjoin.co.uk/2019 /10/06/power-bi-and-case-sensitivity/){target=&quot;_blank&quot;}. 이러한 대/소문자 구분 ID 값은 &quot;조인 ID&quot;로 레이블이 지정되며, 관계 계층에서 조인 키로 사용됩니다. 보이지 않는 문자가 잘라내기/붙여넣기 함수 및 필터링을 방해할 수 있으므로 보고 레이어에서 조인 ID를 숨겨 원래 ID 값을 보고에 사용할 수 있도록 했습니다.
+[!DNL Marketo Measure] 데이터에는 기본 키(ID) 값이 대소문자를 구분하는 두 개의 테이블, 즉 Touchpoint 및 Campaign이 있습니다. Power BI 모델링 레이어를 구동하는 데이터 엔진은 대/소문자를 구분하지 않으므로 &quot;중복된&quot; ID 값이 발생합니다. 이러한 키 값의 대/소문자 구분을 보존하기 위해 데이터 엔진 계층에서 평가할 때 ID의 고유성을 유지하면서 소문자로 보이지 않는 문자를 첨부하는 변환 단계를 구현했습니다. 문제에 대한 자세한 내용과 우리가 사용한 방법에 대한 자세한 단계는 찾을 수 있습니다 [여기] (https://blog.crossjoin.co.uk/2019){target="_blank"}. 이러한 대/소문자 구분 ID 값은 &quot;조인 ID&quot;로 레이블이 지정되며, 관계 계층에서 조인 키로 사용됩니다. 보이지 않는 문자가 잘라내기/붙여넣기 함수 및 필터링을 방해할 수 있으므로 보고 레이어에서 조인 ID를 숨겨 원래 ID 값을 보고에 사용할 수 있도록 했습니다.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -125,7 +125,7 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 전체 크기 버전을 보려면 아래 이미지를 클릭하십시오.
 
-[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### 관계 및 데이터 흐름 {#relationships-and-data-flow}
 
@@ -178,7 +178,7 @@ Power BI은 한 열의 테이블 간 관계만 허용하므로 금액(기회 및
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-에서 바로 오는 열에 대한 정의를 보려면 [!DNL Snowflake]를 보려면 [data warehouse 설명서](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}
+에서 바로 오는 열에 대한 정의를 보려면 [!DNL Snowflake]를 보려면 [data warehouse 설명서](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## 템플릿과 검색 간의 불일치 {#discrepancies-between-templates-and-discover}
 

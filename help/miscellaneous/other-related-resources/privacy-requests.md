@@ -4,7 +4,7 @@ title: 개인 정보 보호 요청
 exl-id: 883e475f-9868-412a-b505-230556f38484
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 0%
 
 개별 요청을 제출하여 다음 위치에서 소비자 데이터에 액세스하고 삭제할 수 있습니다. [!DNL Marketo Measure] 두 가지 방법으로 다음을 수행합니다.
 
-* 사용 [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=&quot;_blank&quot;}.
-* 사용 **[!DNL Privacy Service]API**. 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=&quot;_blank&quot;} 및 API 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target=&quot;_blank&quot;}.
+* 사용 [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* 사용 **[!DNL Privacy Service]API**. 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-다음 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;}은 두 가지 유형의 요청을 지원합니다. 데이터 액세스 및 데이터 삭제
+다음 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} 에서는 두 가지 유형의 요청을 지원합니다. 데이터 액세스 및 데이터 삭제
 
 액세스 및 삭제 요청을 만드는 방법을 살펴보겠습니다.
 

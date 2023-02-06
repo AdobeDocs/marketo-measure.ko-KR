@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] 리소스 목록"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 **문제 해결**
 
 * [부여 [!DNL Marketo Measure] SFDC 액세스 지원](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
-* 연락처: [[!DNL Marketo] 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}
+* 연락처: [[!DNL Marketo] 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
 
 ## 비디오 {#videos}
 

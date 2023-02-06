@@ -5,14 +5,14 @@ title: 드리프트 통합 FAQ
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # 드리프트 통합 FAQ {#drift-integration-faq}
 
-의 일부로 [!DNL Marketo Measure] Lift와의 통합을 통해 가장 자주 묻는 질문 중 몇 가지를 간략하게 설명했습니다. 아래에 요약되지 않은 질문이 있는 경우 고객 성공 관리자에게 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+의 일부로 [!DNL Marketo Measure] Lift와의 통합을 통해 가장 자주 묻는 질문 중 몇 가지를 간략하게 설명했습니다. 아래에 요약되지 않은 질문이 있는 경우 고객 성공 관리자에게 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **통합은 어떻게 활성화됩니까?**
 

@@ -5,7 +5,7 @@ title: 추가 중 [!DNL Marketo Measure] 스크립트
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->확실히 [에서 모든 적절한 도메인이 요청됨 [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md)배포 외에 {target=&quot;_blank&quot;} [!DNL Marketo Measure] JavaScript.
+>확실히 [에서 모든 적절한 도메인이 요청됨 [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} 배포 외에 [!DNL Marketo Measure] JavaScript.
 
 시작 시 [!DNL Marketo Measure]를 추가할 수 있는 방법에는 두 가지가 있습니다 [!DNL Marketo Measure] 웹 사이트에 JavaScript 추가:
 
@@ -33,7 +33,7 @@ JavaScript를 `<head>` 이 경우 [!DNL Marketo Measure] 스크립트가 먼저 
 
 >[!TIP]
 >
->스크립트가 [GDPR 준수](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target=&quot;_blank&quot;}.
+>스크립트가 [GDPR 준수](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
 
 ## Tag Management 시스템 {#tag-management-systems}
 
@@ -47,7 +47,7 @@ JavaScript를 `<head>` 이 경우 [!DNL Marketo Measure] 스크립트가 먼저 
 
 [!DNL Marketo Measure] 는 모든 페이지 보기에서 태그가 실행되도록 합니다. 게다가, [!DNL Marketo Measure] 실행 순서에서 가장 높은 우선 순위를 가지며 앞에 동기 스크립트가 없는지 확인합니다. [!DNL Marketo Measure] 태그에 가깝게 포함했습니다.
 
-추가 정보는 [여기에서](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target=&quot;_blank&quot;}.
+추가 정보는 [여기에서](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target="_blank"}.
 
 ## 추가 고려 사항 {#additional-considerations}
 
@@ -57,7 +57,7 @@ JavaScript를 `<head>` 이 경우 [!DNL Marketo Measure] 스크립트가 먼저 
 
 타사 페이지를 사용하는 경우, 사용 사례에 대해 사용자의 [!DNL Marketo Measure] 컨설턴트. 일반적으로 의 사용자 지정 버전을 추가할 수 있는지 확인해야 합니다 [!DNL Marketo Measure] JavaScript 를 사용하여 적절한 경우 해당 페이지를 추적합니다. 불가능한 경우 CRM Campaign 터치포인트를 통한 추적이 와 함께 탐색됩니다 [!DNL Marketo Measure] 컨설턴트.
 
-추적해서는 안 되는 양식이 있습니까? [!DNL Marketo Measure] 이는 기여도 분석에 적합하지 않으므로(예: 양식 가입 해지, 고객 로그인 등) 그럴 경우 제외 코드를 추가할 수 있습니다 [이 문서](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)각 양식에 대한 {target=&quot;_blank&quot;}
+추적해서는 안 되는 양식이 있습니까? [!DNL Marketo Measure] 이는 기여도 분석에 적합하지 않으므로(예: 양식 가입 해지, 고객 로그인 등) 그럴 경우 제외 코드를 추가할 수 있습니다 [이 문서](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} 각 양식에
 
 비보안 페이지가 있습니까? 그런 경우 보안/비보안 페이지 간을 탐색하면 추적 세션이 중단되므로 이러한 쿠키를 보호해야 합니다.
 
@@ -72,7 +72,7 @@ JavaScript를 `<head>` 이 경우 [!DNL Marketo Measure] 스크립트가 먼저 
 **다중 양식 제출**
 
 * 문제: 단일 양식 제출의 일부로 연결된 양식이 여러 개 있는 경우 전체 양식이 제출되지 않더라도 첫 번째 양식이 터치 포인트를 생성할 수 있습니다.
-* 솔루션: 양식 중 하나를 강제로 사용자에게 보고해야 합니다 [!DNL Marketo Measure] 캐시된 데이터를 기반으로 중단 사례에 대해 설명합니다. 일반적으로 [보고서 사용자 코드](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target=&quot;_blank&quot;}에서 이 문제를 해결할 수 있습니다.
+* 솔루션: 양식 중 하나를 강제로 사용자에게 보고해야 합니다 [!DNL Marketo Measure] 캐시된 데이터를 기반으로 중단 사례에 대해 설명합니다. 일반적으로 [보고서 사용자 코드](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} 해결할 수 있습니다.
 
 **계정 로그인(생성 아님)**
 
@@ -106,7 +106,7 @@ JavaScript를 `<head>` 이 경우 [!DNL Marketo Measure] 스크립트가 먼저 
 **Forms 구성 `<div>` 포맷**
 
 * 문제: [!DNL Marketo Measure] JS에서는 `<div>` 형식을 지정하여 사용자 지정 코드가 필요할 수 있습니다.
-* 솔루션: 다음 [보고서 사용자 템플릿](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md)웹 개발 팀에서 {target=&quot;_blank&quot;} 코드를 사용하여 필요한 코드를 추가할 수 있습니다.
+* 솔루션: 다음 [보고서 사용자 템플릿](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} 웹 개발 팀에서 필요한 코드를 추가하는 데 사용할 수 있습니다.
 
 **채팅**
 

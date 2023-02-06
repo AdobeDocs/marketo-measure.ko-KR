@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] CRM 패키지 없는 통합"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ A [!DNL Marketo Measure] CRM 패키지 없이 통합하려면 여전히 리드 �
 
 [!DNL Microsoft Dynamics] 고객, [여기](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-위의 단계를 모두 완료하면 쉽게 이동할 수 있습니다. 도중에 문제가 발생하는 경우 주저하지 마시고 [!DNL Marketo Measure] 담당자 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+위의 단계를 모두 완료하면 쉽게 이동할 수 있습니다. 도중에 문제가 발생하는 경우 주저하지 마시고 [!DNL Marketo Measure] 담당자 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >

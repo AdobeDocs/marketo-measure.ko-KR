@@ -5,7 +5,7 @@ title: 터치포인트를 삭제하지 않아야 하는 이유
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Opportunity에 속성 크레딧이 잘못 할당된 터치포인트가 있는 �
 
 ![](assets/1.png)
 
-SFDC에서 터치포인트가 삭제된 경우 연락처에 문의하십시오 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} 을 입력하여 데이터 재가져오기를 요청합니다.
+SFDC에서 터치포인트가 삭제된 경우 연락처에 문의하십시오 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 를 눌러 데이터의 재가져오기를 요청합니다.

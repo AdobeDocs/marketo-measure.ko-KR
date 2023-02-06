@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874771
 description: Data Loader를 사용하여 업데이트 [!DNL Marketo Measure] 사용자 지정 금액 필드 - [!DNL Marketo Measure] - 제품 설명서
-title: Data Loader를 사용하여 Marketo 측정 사용자 지정 금액 필드 업데이트
+title: Data Loader를 사용하여 Marketo Measure 사용자 지정 금액 필드 업데이트
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt

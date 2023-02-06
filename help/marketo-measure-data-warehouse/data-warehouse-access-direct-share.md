@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## Snowflake 계정 ID 입력 {#enter-snowflake-account-id}
 
-를 엽니다. **설정** Marketo 측정 앱의 섹션을 찾아 **Data Warehouse** 페이지. 에서 **직접 공유** 섹션에서 [Snowflake 계정 id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} 제공된 상자에서 를 클릭하고 **Connect**.
+를 엽니다. **설정** Marketo Measure 앱의 섹션을 찾아 **Data Warehouse** 페이지. 에서 **직접 공유** 섹션에서 [Snowflake 계정 id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} 제공된 상자에서 를 클릭하고 **Connect**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

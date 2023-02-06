@@ -5,7 +5,7 @@ title: UTM 매개 변수
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 URL 태깅은 디지털 마케팅 활동에 대한 데이터를 캡처하는 간단하고 효과적인 방법입니다. 데이터를 수집하고 기록하는 URL 끝에 매개 변수를 추가하는 프로세스입니다. 가장 일반적으로 사용되는 매개 변수는 Google에서 지원하는 UTM(Urchin Tracking Module)입니다. 사용할 수 있는 기본 UTM 매개 변수는 5개입니다. 미디어, 소스, 캠페인, 컨텐츠 및 용어. 이러한 내용은 다음 섹션에서 자세히 설명합니다.
 
-UTM 매개 변수는 URL에 수동으로 추가하거나 예를 들어 AdWords와 같은 특정 플랫폼과 함께 자동 태깅을 통해 추가할 수 있습니다. 자동 태깅은 URL에 매개 변수를 추가하는 프로세스를 자동화합니다. 다음 옵션을 사용할 수도 있습니다 [URL 빌더](https://ga-dev-tools.appspot.com/campaign-url-builder/){target=&quot;_blank&quot;} 를 사용하여 수동으로 URL 태깅 속도를 높일 수 있습니다. URL 빌더를 사용하면 각 매개 변수에 사용할 값을 지정해야 하며 빌더에 URL 형식이 지정됩니다.
+UTM 매개 변수는 URL에 수동으로 추가하거나 예를 들어 AdWords와 같은 특정 플랫폼과 함께 자동 태깅을 통해 추가할 수 있습니다. 자동 태깅은 URL에 매개 변수를 추가하는 프로세스를 자동화합니다. 다음 옵션을 사용할 수도 있습니다 [URL 빌더](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} 를 입력하여 수동으로 URL에 태깅 작업을 수행할 수 있습니다. URL 빌더를 사용하면 각 매개 변수에 사용할 값을 지정해야 하며 빌더에 URL 형식이 지정됩니다.
 
 ## UTM 매개 변수란 무엇입니까? {#what-are-utm-parameters}
 

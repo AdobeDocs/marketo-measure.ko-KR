@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586140
-description: Data Warehouse 스키마 - Marketo 측정 - 제품 설명서
+description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
@@ -8030,7 +8030,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>varchar</p>
       </td>
       <td>이벤트 유형을 나타냅니다.</td>
-      <td>노출 횟수</td>
+      <td>노출</td>
     </tr>
     <tr>
       <td>

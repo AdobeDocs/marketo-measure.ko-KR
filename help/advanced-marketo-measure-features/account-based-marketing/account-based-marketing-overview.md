@@ -5,16 +5,16 @@ title: 계정 기반 마케팅 개요
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
 
 # 계정 기반 마케팅 개요 {#account-based-marketing-overview}
 
-다음은 ABM의 구성 요소인 [!DNL Marketo Measure] ABM 기능 및 기능을 [!DNL Salesforce] 페이지 레이아웃. ABM에 대해 자세히 알아보려면 다음을 확인하십시오 [이 페이지](https://www.marketo.com/account-based-marketing/){target=&quot;_blank&quot;}.
+다음은 ABM의 구성 요소인 [!DNL Marketo Measure] ABM 기능 및 기능을 [!DNL Salesforce] 페이지 레이아웃. ABM에 대해 자세히 알아보려면 다음을 확인하십시오 [이 페이지](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-내에서 ABM 설정을 위한 지침으로 직접 이동하려면 [!DNL Salesforce] 예 [여기를 클릭하십시오.](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target=&quot;_blank&quot;}.
+내에서 ABM 설정을 위한 지침으로 직접 이동하려면 [!DNL Salesforce] 예 [여기를 클릭하십시오.](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## ABM이란 무엇입니까? {#what-is-abm}
 

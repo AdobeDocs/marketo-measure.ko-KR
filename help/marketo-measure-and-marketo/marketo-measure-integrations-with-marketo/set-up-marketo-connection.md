@@ -38,7 +38,7 @@ Marketo에 대한 연결을 설정하는 방법은 다음과 같습니다.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Marketo Engage에서 **LaunchPoint** 왼쪽에 있는 나무. Marketo Measurement에 연결할 사용자 지정 서비스를 찾고 **세부 사항 보기**.
+1. Marketo Engage에서 **LaunchPoint** 왼쪽에 있는 나무. Marketo Measure에 연결할 사용자 지정 서비스를 찾아 **세부 사항 보기**.
 
    ![](assets/set-up-marketo-connection-6.png)
 

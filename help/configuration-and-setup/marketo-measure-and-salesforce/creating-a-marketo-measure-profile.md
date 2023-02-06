@@ -5,7 +5,7 @@ title: 만들기 [!DNL Marketo Measure] 프로필
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 0%
 1. 모든 트리거, 워크플로우 및 프로세스에서 이 프로필을 제외합니다.
 1. 에 로그인합니다. [!DNL Marketo Measure] 계정 및 재인증 [!DNL Salesforce] 새 사용자와 연결:
 
-   * 이동 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} 하고 새 사용자 프로덕션 Salesforce 자격 증명으로 로그인합니다.
+   * 이동 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} 새 사용자 프로덕션 Salesforce 자격 증명으로 로그인
    * 선택 &quot;[!UICONTROL Settings]&quot;[!UICONTROL My Account]&quot; 드롭다운
    * 선택 &quot;[!UICONTROL Connections]&quot;[!UICONTROL Integrations]&quot; 그룹화
    * 연결된 현재 오른쪽에 있는 키 아이콘을 클릭합니다 [!DNL Salesforce] 연결 을 선택하고 프로덕션에 재인증을 선택합니다. 그런 다음 메시지가 표시되면 새 사용자 자격 증명으로 다시 로그인합니다
 
    완료!
 
-   전용 만들기 작업에 대한 질문이 있을 경우 [!DNL Marketo Measure] 프로필 은 고객 성공 관리자 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+   전용 만들기 작업에 대한 질문이 있을 경우 [!DNL Marketo Measure] 프로필 은 고객 성공 관리자 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874791
 description: 부여 [!DNL Salesforce] 액세스 권한 [!DNL Marketo Measure] 지원 - [!DNL Marketo Measure] - 제품 설명서
-title: 부여 [!DNL Salesforce] Marketo 측정 지원 액세스
+title: 부여 [!DNL Salesforce] Marketo Measure 지원 액세스
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 2%
 
 ---
 
-# 부여 [!DNL Salesforce] Marketo 측정 지원 액세스 {#granting-salesforce-access-to-marketo-measure-support}
+# 부여 [!DNL Salesforce] Marketo Measure 지원 액세스 {#granting-salesforce-access-to-marketo-measure-support}
 
 어떤 경우에는 [!DNL Marketo Measure] 지원이 [!DNL Salesforce] 구현 중에 진단 문제 해결 또는 Salesforce 구성을 지원하기 위한 환경입니다.
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 스폰서 콘텐츠: 스폰서가 있는 컨텐츠 통합은 [!DNL Marketo Measure] 대상 URL에 태그를 지정하려면 다음을 수행하십시오 [!DNL LinkedIn] 궁극적으로 [!DNL Marketo Measure] 사용자의 전체 터치포인트 여정을 통해 사용자를 따르고 활동을 다시 특정 [!DNL LinkedIn] Campaign과 Creative. 이를 통해 고객에게 ROI에 대한 통찰력을 얻을 수 있습니다 [!DNL LinkedIn] 활동.
 
-리드 젠 Forms: Marketo은 LinkedIn의 Lead Gen Forms과의 통합을 통해 LinkedIn 플랫폼을 통해 제출된 양식에 대한 통찰력을 제공합니다. 이러한 양식 채우기는 CRM의 리드와 일치하거나 [!DNL Marketo Engage] 예를 들어 속성이 기여하도록 허용합니다. 양식을 생성하는 데 도움이 되는 캠페인, 크리에이티브 및 양식에 대한 통찰력을 통해 팀은 이제 LinkedIn 마케팅 및 광고 비용을 더욱 최적화할 수 있습니다.
+리드 젠 Forms: LinkedIn의 Lead Gen Forms과의 통합을 통해 Marketo Measure은 LinkedIn 플랫폼을 통해 제출된 양식에 대한 통찰력을 얻을 수 있습니다. 이러한 양식 채우기는 CRM의 리드와 일치하거나 [!DNL Marketo Engage] 예를 들어 속성이 기여하도록 허용합니다. 양식을 생성하는 데 도움이 되는 캠페인, 크리에이티브 및 양식에 대한 통찰력을 통해 팀은 이제 LinkedIn 마케팅 및 광고 비용을 더욱 최적화할 수 있습니다.
 
 ## 사용 가능 {#availability}
 

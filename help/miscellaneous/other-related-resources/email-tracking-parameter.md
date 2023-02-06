@@ -26,7 +26,7 @@ ht-degree: 1%
 
 고객은 평소대로 이메일 템플릿을 작성합니다. 추적할 작업을 위한 랜딩 페이지에 추가할 때가 되면 Marketing Automation 플랫폼에서 각 개인의 값을 동적으로 표시하기 위해 토큰, 변수 태그 또는 매크로를 결정해야 합니다.
 
-Marketo 측정값은 다음 값을 허용합니다. 이메일 주소, Salesforce 리드 Id 또는 Salesforce 연락처 Id.
+Marketo Measure은 다음 값을 허용합니다. 이메일 주소, Salesforce 리드 Id 또는 Salesforce 연락처 Id.
 
 ## 태그 예 {#tag-examples}
 

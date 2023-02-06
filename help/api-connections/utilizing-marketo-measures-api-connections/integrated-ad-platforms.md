@@ -5,7 +5,7 @@ title: 통합 광고 플랫폼
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ ht-degree: 0%
 [!DNL Marketo Measure] 에서 추적 템플릿 검색 [!DNL AdWords] 계정:
 
 * *옵션 A*: 추적 템플릿이 있습니다. [!DNL Marketo Measure] 템플릿에 해당 매개 변수를 추가합니다.
-* *옵션 B*: 타사 리디렉션을 찾습니다. 추적 템플릿에 타사 리디렉션이 있는 경우, [!DNL Marketo Measure] 작업을 수행할 수 없습니다. 을(를) 수동으로 추가해야 합니다 [!DNL Marketo Measure] 태그에 다음 코드를 배치하십시오. 타사 리디렉션의 예로는 Kenshoo 또는 Marin과 같은 입찰 관리 도구가 있습니다. 방법에 대해 자세히 알아보기 [입찰 관리 도구가 영향을 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* *옵션 B*: 타사 리디렉션을 찾습니다. 추적 템플릿에 타사 리디렉션이 있는 경우, [!DNL Marketo Measure] 작업을 수행할 수 없습니다. 을(를) 수동으로 추가해야 합니다 [!DNL Marketo Measure] 태그에 다음 코드를 배치하십시오. 타사 리디렉션의 예로는 Kenshoo 또는 Marin과 같은 입찰 관리 도구가 있습니다. 방법에 대해 자세히 알아보기 [입찰 관리 도구가 영향을 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *옵션 C*: 추적 템플릿을 찾을 수 없습니다. [!DNL Marketo Measure] 은(는) 모든 광고 대상 URL을 [!DNL Marketo Measure] 매개 변수. 검사를 기준으로 할 경우
    * 매개 변수가 있습니다. 설치가 완료되었습니다!
    * 매개 변수를 찾을 수 없습니다. [!DNL Marketo Measure] 은 해당 매개 변수를 광고 대상 URL의 끝에 추가합니다. [!DNL Marketo Measure] 새 광고를 만든 후 2시간 내에 추가합니다. 매개 변수가 템플릿에 추가되지 않습니다.
 
-추가 정보 [[!DNL AdWords] 자동 태깅 기능](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target=&quot;_blank&quot;}.
+추가 정보 [[!DNL AdWords] 자동 태깅 기능](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## 활성화 방법 [!DNL Marketo Measure] Adwords에 대한 자동 태그 지정 {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 추적 템플릿이 준비되면 아래 지침에 따라 활성화하십시오 [!DNL Marketo Measure] 자동 태깅. 참고: [!DNL Marketo Measure] 또한 은 계정에 일시 중지된 모든 광고에 자동으로 태그를 지정합니다.
 
-1. 사용자 [!DNL Marketo Measure] 계정 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+1. 사용자 [!DNL Marketo Measure] 계정 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. 이동 [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections].
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## AdWords에서 추적 템플릿을 설정하는 방법 [!DNL Marketo Measure] 매개 변수 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-에서 추적 템플릿을 추가해야 한다는 점에 유의하십시오 [!UICONTROL Account], [!UICONTROL Campaign] 또는 AdWords의 광고 그룹 수준입니다. 키워드, Sitelink 또는 광고 수준에 추적 템플릿을 추가하는 경우 광고를 검토 및 승인 프로세스를 진행해야 하며 광고 성능 내역을 다시 시작할 수 있습니다. 추가 정보 [추적 템플릿 만들기](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;}.
+에서 추적 템플릿을 추가해야 한다는 점에 유의하십시오 [!UICONTROL Account], [!UICONTROL Campaign] 또는 AdWords의 광고 그룹 수준입니다. 키워드, Sitelink 또는 광고 수준에 추적 템플릿을 추가하는 경우 광고를 검토 및 승인 프로세스를 진행해야 하며 광고 성능 내역을 다시 시작할 수 있습니다. 추가 정보 [추적 템플릿 만들기](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. 에 로그인 [!DNL Google AdWords] 계정.
 1. 다음 위치로 이동 [!UICONTROL Campaigns] 왼쪽 탐색 막대에서 보기
@@ -96,21 +96,21 @@ UTM 태그는 처음에는 만들기 어려울 수 있지만 UTM 매개 변수�
 
 **[!DNL Google URL]빌더**
 
-Google URL Builder 는 UTM 태그로 올바르게 형식이 지정된 URL을 작성하는 표준 도구입니다. 각 매개 변수의 URL과 원하는 값을 입력하고 &quot; &quot;를 클릭하면 됩니다.[!UICONTROL Generate URL]&quot;. 태깅할 URL이 몇 개만 있는 경우 사용할 수 있는 이상적인 도구입니다. 도구 액세스 [여기](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;}.
+Google URL Builder 는 UTM 태그로 올바르게 형식이 지정된 URL을 작성하는 표준 도구입니다. 각 매개 변수의 URL과 원하는 값을 입력하고 &quot; &quot;를 클릭하면 됩니다.[!UICONTROL Generate URL]&quot;. 태깅할 URL이 몇 개만 있는 경우 사용할 수 있는 이상적인 도구입니다. 도구 액세스 [여기](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
 
 **EpikOne에서 생성된 Google 스프레드시트**
 
-이 스프레드시트에는 태그가 지정된 대상 URL을 자동으로 생성하는 수식이 있습니다. 많은 수의 링크에 태그를 지정해야 하는 경우 사용할 수 있는 훌륭한 도구입니다. 스프레드시트에 액세스합니다 [여기](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target=&quot;_blank&quot;}.
+이 스프레드시트에는 태그가 지정된 대상 URL을 자동으로 생성하는 수식이 있습니다. 많은 수의 링크에 태그를 지정해야 하는 경우 사용할 수 있는 훌륭한 도구입니다. 스프레드시트에 액세스합니다 [여기](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
 
 **링크 태깅 도구 트래픽**
 
 Rafflecopter에서 만든 스프레드시트는 [!DNL EpikOne's] 스프레드시트. 또한 사용할 수 있도록 태그가 지정된 대상 링크를 자동으로 생성하는 수식이 포함되어 있습니다.
 
-이러한 각 도구에는 필요에 맞게 사용하고 수정하는 방법에 대한 자세한 지침이 있습니다. 도구를 사용할 수 있습니다 [여기](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;}.
+이러한 각 도구에는 필요에 맞게 사용하고 수정하는 방법에 대한 자세한 지침이 있습니다. 도구를 사용할 수 있습니다 [여기](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}.
 
 **Effin Amazing UTM Builder**
 
-이 도구는 UTM 태그를 신속하게 생성할 수 있는 Chrome 확장 프로그램입니다. 찾기 [여기](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target=&quot;_blank&quot;}.
+이 도구는 UTM 태그를 신속하게 생성할 수 있는 Chrome 확장 프로그램입니다. 찾기 [여기](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"}.
 
 ## Bing 광고 {#bing-ads}
 
@@ -136,17 +136,17 @@ Bing Ads의 자동 태깅은 다음 사용자 지정 매개 변수도 추가합�
 
 자동 태그 지정은 [!DNL Marketo Measure] 그래서 [!DNL Marketo Measure] 매개 변수를 자동으로 추가할 수 있습니다. Bing Ads를 사용하면 이전 광고 성능 내역을 잃을 위험이 없습니다.
 
-다음 방문 [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls)플랫폼에서 태그를 추가하는 방법에 대한 자세한 내용은 {target=&quot;_blank&quot;} 웹 사이트를 참조하십시오.
+다음 방문 [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} 웹 사이트 를 참조하십시오.
 
 ## Facebook 광고 {#facebook-ads}
 
-다음 [!DNL Marketo Measure] 통합 [!DNL Facebook] 에서는 광고 정보를 자동으로 다운로드하고 매개 변수로 URL에 태그를 지정할 수 있습니다. [!DNL Marketo Measure] 자동 태깅을 통해 캠페인 및 광고 세트 정보를 가져옵니다. 광고 세트가 광고 그룹 이름 필드를 채웁니다. 에서 URL 태그 설정에 대한 자세한 내용은 [!DNL Facebook] 플랫폼, [!DNL Facebook] [비즈니스](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target=&quot;_blank&quot;} 페이지.
+다음 [!DNL Marketo Measure] 통합 [!DNL Facebook] 에서는 광고 정보를 자동으로 다운로드하고 매개 변수로 URL에 태그를 지정할 수 있습니다. [!DNL Marketo Measure] 자동 태깅을 통해 캠페인 및 광고 세트 정보를 가져옵니다. 광고 세트가 광고 그룹 이름 필드를 채웁니다. 에서 URL 태그 설정에 대한 자세한 내용은 [!DNL Facebook] 플랫폼, [!DNL Facebook] [비즈니스](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} 페이지.
 
 자동 태깅을 사용하기 전에 [!DNL Facebook Ads]이전 성능 내역을 CSV로 내보내는 것이 중요합니다. 이 시점에서 [!DNL Marketo Measure] 태그 [!DNL Facebook Ads] _bf 매개 변수와 함께 [!DNL Facebook] 광고를 새 브랜드로 읽고 성능 내역을 지웁니다. 따라서 사용자와 조직에 중요한 내용이 있는 경우 이전 성과 기록을 내보내는 것이 중요합니다.
 
 귀하의 [!DNL Facebook] 언제든지 [!DNL Marketo Measure] 앱과 데이터가 손실되지 않습니다. 자동 태깅이 활성화된 경우에만 성능 기록이 지워집니다.
 
-[이 문서를 참조하십시오](https://www.facebook.com/business/help/393890194130036)facebook에서 {target=&quot;_blank&quot;} 내보내기에 대한 자세한 내용을 참조하십시오 [!DNL Facebook] 광고 보고서.
+[이 문서를 참조하십시오](https://www.facebook.com/business/help/393890194130036){target="_blank"} facebook에서 내보내기에 대한 자세한 정보 [!DNL Facebook] 광고 보고서.
 
 ## linkedIn 스폰서 콘텐츠 {#linkedin-sponsored-content}
 

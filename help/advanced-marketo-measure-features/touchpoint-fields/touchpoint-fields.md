@@ -5,7 +5,7 @@ title: 터치 포인트 필드
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1942'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 추출물
 
-추출 연산자는 다음과 같은 다른 위치에서 값을 필드에서 가져옵니다. 캠페인 필드, 리드 필드 또는 고급 사용 사례에서 사용할 수 있습니다. [랜딩 페이지에서 사용자 지정 매개 변수 추출](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;}. 터치 포인트 필드에 배치합니다( [매핑 대상 예](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;} #2).
+추출 연산자는 다음과 같은 다른 위치에서 값을 필드에서 가져옵니다. 캠페인 필드, 리드 필드 또는 고급 사용 사례에서 사용할 수 있습니다. [랜딩 페이지에서 사용자 지정 매개 변수 추출](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **예 #1**
 
@@ -220,7 +220,7 @@ Segment__c 및 Grade__c에 대한 Opportunity 객체에는 사용자가 보고�
 
 **추출 표현식이 유효한지 확인하고 올바른 값을 가져오려면 어떻게 해야 합니까?**
 
-온라인 도구([https://regex101.com/](https://regex101.com/){target=&quot;_blank&quot;}) 표현식을 실행하고 테스트할 수 있습니다. 표현식은 유효하거나 잘못된 경우 빨간색으로 표시됩니다. 또한 오른쪽 상단에 있는 설명 상자가 유용하며, 추출하는 항목을 알려줍니다.
+온라인 도구([https://regex101.com/](https://regex101.com/){target="_blank"}) 표현식을 실행하고 테스트할 수 있습니다. 표현식은 유효하거나 잘못된 경우 빨간색으로 표시됩니다. 또한 오른쪽 상단에 있는 설명 상자가 유용하며, 추출하는 항목을 알려줍니다.
 
 ![](assets/twelve.png)
 

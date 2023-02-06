@@ -4,7 +4,7 @@ title: 우수 사례 [!DNL Marketo Measure] CRM 패키지
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ CRM 패키지 설정은 초기 구현 중에 다루지만 매년 1회 CRM 패키
 
 >[!NOTE]
 >
->Marketo Measurement를 Salesforce로 데이터 내보내기를 비활성화하면 기존 데이터가 제거되지 않습니다. 제거하려면 다음 단계를 수행하십시오. [이 Salesforce 도움말 문서](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target=&quot;_blank&quot;}.
+>Salesforce로 데이터 내보내기를 비활성화하면 기존 데이터가 제거되지 않습니다. 제거하려면 다음 단계를 수행하십시오. [이 Salesforce 도움말 문서](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [구매자 터치포인트 패키지 업데이트](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] 권한 집합](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [보고서 및 대시보드 폴더 공유](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
->* [Salesforce에 Marketo 측정 연결](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+>* [Salesforce에 Marketo Measure 연결](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
 

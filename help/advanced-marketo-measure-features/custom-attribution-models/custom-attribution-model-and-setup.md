@@ -5,7 +5,7 @@ title: 사용자 지정 속성 모델 및 설정
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    사용자 지정 속성 모델 작성을 시작하려면 마케팅 팀에 중요한 단계를 선택해야 합니다. 추가 [!DNL Marketo Measure] 이정표 단계(FT, LC, OC, Closed) 사용자 정의 모델에 최대 6개의 리드/연락처 상태 또는 영업 기회 단계를 추가할 수 있습니다. 예를 들어 MQL 단계가 사용자 지정 모델에 포함되는 것이 일반적입니다. 마케팅 팀은 MQL 단계로 전환을 유도하는 노력이나 채널을 알고 싶을 때가 있습니다.
 
-   에 로그인 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. 이동 [!UICONTROL My Account] > [!UICONTROL Settings] > 및 CRM 섹션 아래에서 을 선택합니다. **[!UICONTROL Stage Mapping]**.
+   에 로그인 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. 이동 [!UICONTROL My Account] > [!UICONTROL Settings] > 및 CRM 섹션 아래에서 을 선택합니다. **[!UICONTROL Stage Mapping]**.
 
    여기에서, **[!UICONTROL Include in Model]** 상자.
 

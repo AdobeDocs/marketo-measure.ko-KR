@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874566
-description: 마케팅 기여도 분석 - Marketo 측정값 - 제품 설명서
+description: 마케팅 기여도 분석 - Marketo Measure - 제품 설명서
 title: 마케팅 기여도 분석
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
@@ -12,9 +12,9 @@ ht-degree: 4%
 
 # 마케팅 기여도 분석 {#marketing-attribution}
 
-## Marketo 측정 시작 {#welcome-to-marketo-measure}
+## Marketo Measure 시작 {#welcome-to-marketo-measure}
 
-Marketo Measure는 마케터에게 기업의 매출을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 데 도움이 됩니다. Marketo 측정 은 채널 성과를 자동으로 추적 및 보고하여 고객 참여를 가장 많이 유도하는 채널을 파악하고 그에 따라 마케팅 비용을 최적화할 수 있도록 하는 마케팅 속성 솔루션입니다.
+Marketo Measure는 마케터에게 기업의 매출을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 데 도움이 됩니다. Marketo Measure은 채널 성과를 자동으로 추적 및 보고하여 가장 많은 고객 참여를 유도하는 채널을 확인하고 그에 따라 마케팅 비용을 최적화할 수 있도록 하는 마케팅 속성 솔루션입니다.
 
 ## 마케팅 기여도 분석 {#marketing-attribution-1}
 
@@ -24,7 +24,7 @@ Marketo Measure는 마케터에게 기업의 매출을 증대시키는 데 가�
 
 ![](assets/1.png)
 
-이러한 이정표의 터치는 Marketo Measure의 기초입니다 **기여도 분석 모델**. Marketo Measure는 6개의 속성 모델을 제공합니다. 각 모델은 고객 여정의 다양한 단계에 중점을 두고 마케팅 접점에 매출 크레딧을 적용하는 일반적인 구조를 제공합니다. 사용하는 모델은 측정에 가장 관심이 있는 여정의 단계와 보고하려는 데이터의 양에 따라 다릅니다. Marketo Measurement가 제공하는 속성 모델은 다음과 같습니다.
+이러한 이정표의 터치는 Marketo Measure의 기초이다 **기여도 분석 모델**. Marketo Measure은 6개의 속성 모델을 제공합니다. 각 모델은 고객 여정의 다양한 단계에 중점을 두고 마케팅 접점에 매출 크레딧을 적용하는 일반적인 구조를 제공합니다. 사용하는 모델은 측정에 가장 관심이 있는 여정의 단계와 보고하려는 데이터의 양에 따라 다릅니다. Marketo Measure이 제공하는 속성 모델은 다음과 같습니다.
 
 * 첫 번째 터치
 * 리드 만들기

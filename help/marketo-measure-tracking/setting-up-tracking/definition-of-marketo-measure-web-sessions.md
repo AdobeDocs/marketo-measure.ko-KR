@@ -5,7 +5,7 @@ title: 정의 [!DNL Marketo Measure] 웹 세션
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -65,4 +65,4 @@ _하지만_&#x200B;헤일리의 첫 웹 세션이 Web Direct에서 시작되었�
 
 ## Google Analytics 세션 {#google-analytics-sessions}
 
-비슷한 점이 있습니다 [!DNL Marketo Measure] 및 Google Analytics은 세션을 정의합니다. Google Analytics이 세션을 정의하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target=&quot;_blank&quot;}
+비슷한 점이 있습니다 [!DNL Marketo Measure] 및 Google Analytics은 세션을 정의합니다. Google Analytics이 세션을 정의하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

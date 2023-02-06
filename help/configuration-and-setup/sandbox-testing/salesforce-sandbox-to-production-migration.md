@@ -5,7 +5,7 @@ title: Salesforce Sandbox에서 프로덕션 마이그레이션으로 마이그�
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 * 두 개 설치 [!DNL Marketo Measure] 는 &quot;[!UICONTROL All Users]&quot; 설정
 
-   * [기본 패키지](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;}
-   * [대시보드 확장 패키지](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}
+   * [기본 패키지](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [대시보드 확장 패키지](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * 에 대한 자세한 정보 [!DNL Marketo Measure] 관계 [!DNL Salesforce]를 살펴보고 [이 문서](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * 약간 [!DNL Salesforce] 구성이 필요합니다. 특정 작업 항목은 아래에 요약되어 있습니다. [아래의 4단계](#salesforce-configuration)
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 [권한 집합](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[보고서 공유](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target=&quot;_blank&quot;}
+[보고서 공유](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
 [불필요한 보고서 유형 숨기기](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

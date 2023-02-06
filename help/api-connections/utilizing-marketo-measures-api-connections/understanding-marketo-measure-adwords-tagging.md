@@ -5,7 +5,7 @@ title: 이해 [!DNL Marketo Measure] AdWords 태그 지정
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 **If [!DNL Marketo Measure] 추적 템플릿을 찾습니다.**
 
 * [!DNL Marketo Measure] 은 추적 템플릿에 해당 매개 변수를 추가합니다.
-* Kenshoo 또는 Marin과 같은 추적 템플릿에 타사 리디렉션이 있는 경우, [!DNL Marketo Measure] 아무 조치도 취하지 않을 것입니다. 대신 다음을 수행해야 합니다. [추가 [!DNL Marketo Measure] 계정에서 타사 도구에 매개 변수를 채우는 방법을 설명합니다.](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* Kenshoo 또는 Marin과 같은 추적 템플릿에 타사 리디렉션이 있는 경우, [!DNL Marketo Measure] 아무 조치도 취하지 않을 것입니다. 대신 다음을 수행해야 합니다. [추가 [!DNL Marketo Measure] 계정에서 타사 도구에 매개 변수를 채우는 방법을 설명합니다.](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 그러나 추적 템플릿이 없으면 [!DNL Marketo Measure] 다음 작업을 수행합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 추적 템플릿 {#tracking-templates}
 
-설명 [!DNL Google AdWords]: 추적 템플릿은 랜딩 페이지에 도달하는 데 사용되는 URL입니다. 수집된 추적 정보는 광고 트래픽을 이해하는 데 사용됩니다. [여기를 클릭하십시오.](https://support.google.com/adwords/answer/7197008?hl=en){target=&quot;_blank&quot;} 을 참조하십시오. Google
+설명 [!DNL Google AdWords]: 추적 템플릿은 랜딩 페이지에 도달하는 데 사용되는 URL입니다. 수집된 추적 정보는 광고 트래픽을 이해하는 데 사용됩니다. [여기를 클릭하십시오.](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} 자세한 내용은 Google을 참조하십시오.
 
 [!DNL Marketo Measure] 광고 기록 중단 또는 삭제 위험 없이 모든 광고에 대한 매개 변수를 추가 및 감산할 수 있으므로 계정 수준, 캠페인 수준 또는 광고 그룹 수준 추적 템플릿을 사용하는 것이 좋습니다.
 
@@ -108,6 +108,6 @@ A: 4시간
 
 >[!NOTE]
 >
->변경 사항이 적용되면 작업이 수행됩니다. 언제든지 연락하여 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support)설정 중에 질문이 있는 경우 {target=&quot;_blank&quot;}.
+>변경 사항이 적용되면 작업이 수행됩니다. 언제든지 연락하여 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 설정 중에 질문이 있을 경우
 
-[여기를 클릭하십시오.](https://support.google.com/adwords/answer/6076199?hl=en#tracking)계정 수준 추적 템플릿 만들기에 대한 Google의 지침에 대해 {target=&quot;_blank&quot;}.
+[여기를 클릭하십시오.](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} 계정 수준 추적 템플릿 만들기에 대한 Google의 지침에 대해 설명합니다.

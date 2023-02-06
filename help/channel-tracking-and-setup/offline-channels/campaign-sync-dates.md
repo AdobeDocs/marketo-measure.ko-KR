@@ -5,7 +5,7 @@ title: 캠페인 동기화 날짜
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 새로운 사람이면 [!DNL Marketo Measure] 고객은 SFDC Campaign을 통해 추적한 마케팅 데이터 중 일부를 가져오는 데 관심이 있을 수 있습니다. 그러나 온라인 SFDC 캠페인에 터치포인트를 사용하려는 경우 다음 기간 동안 속성 이중 계산 문제를 해결할 수 있습니다 [!DNL Marketo Measure] 은 온라인 마케팅 활동을 위해 터치포인트를 자동으로 만듭니다. 데이터 두 번 카운팅을 방지하기 위해, 캠페인 터치포인트 종료 날짜를 사용하여 만든 터치 포인트 날짜에 제한을 설정할 수 있습니다. [!DNL Marketo Measure] ( SFDC 캠페인) 아래에 그룹화됩니다. 예를 들어, SFDC에서 추적한 소셜 캠페인에 대해 소급 전환을 추가하려 하지만, 다음을 추가했다는 것을 알고 있습니다 [!DNL Marketo Measure] 7월 1일(온라인 터치포인트를 만드는) JavaScript를 통해 7월 1일과 같은 터치포인트 종료 날짜를 포함하도록 Social SFDC 캠페인을 편집하고 해당 캠페인에 대해 Buyer Touchpoint를 활성화할 수 있습니다.
 
-터치 포인트 종료 날짜에 대한 다른 사용 사례가 많이 있을 수 있습니다. 특정 상황을 파악하는 데 도움이 필요하면 주저하지 말고 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+터치 포인트 종료 날짜에 대한 다른 사용 사례가 많이 있을 수 있습니다. 특정 상황을 파악하는 데 도움이 필요하면 주저하지 말고 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

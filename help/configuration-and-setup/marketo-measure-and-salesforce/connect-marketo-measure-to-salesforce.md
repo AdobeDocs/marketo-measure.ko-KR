@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874580
-description: Salesforce에 Marketo 측정 연결 - [!DNL Marketo Measure] - 제품 설명서
-title: Salesforce에 Marketo 측정 연결
+description: Salesforce에 Marketo Measure 연결 - [!DNL Marketo Measure] - 제품 설명서
+title: Salesforce에 Marketo Measure 연결
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Salesforce에 Marketo 측정 연결 {#connect-marketo-measure-to-salesforce}
+# Salesforce에 Marketo Measure 연결 {#connect-marketo-measure-to-salesforce}
 
 이 문서에서는 [!DNL Salesforce] 계정 [!DNL Marketo Measure] 계정이 필요합니다.
 

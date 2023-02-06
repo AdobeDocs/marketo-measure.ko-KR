@@ -5,20 +5,20 @@ title: 추가 중 [!DNL Marketo Measure] 를 통해 스크립트 [!DNL Google Ta
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
 # 추가 중 [!DNL Marketo Measure] 를 통해 스크립트 [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
-설치 시 [!DNL Marketo Measure] javascript를 적극 권장합니다. [스크립트를 하드 코딩합니다.](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target=&quot;_blank&quot;} 를 사이트에 바로 삽입할 수 있습니다. 그러나 불가능한 경우 다음을 사용할 수도 있습니다 [!DNL Google Tag Manager] (GTM)를 로드하여 [!DNL Marketo Measure] JS. 주의하십시오 [!DNL Marketo Measure] GTM을 통해 로드된 JS는 지연에 취약합니다. 지연은 스크립트 로드 시간이 지연되어 모든 양식 제출의 약 3~5%가 누락될 수 있습니다.
+설치 시 [!DNL Marketo Measure] javascript를 적극 권장합니다. [스크립트를 하드 코딩합니다.](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} 사이트에 바로 액세스할 수 있습니다. 그러나 불가능한 경우 다음을 사용할 수도 있습니다 [!DNL Google Tag Manager] (GTM)를 로드하여 [!DNL Marketo Measure] JS. 주의하십시오 [!DNL Marketo Measure] GTM을 통해 로드된 JS는 지연에 취약합니다. 지연은 스크립트 로드 시간이 지연되어 모든 양식 제출의 약 3~5%가 누락될 수 있습니다.
 
 GTM을 통해 스크립트를 추가하기로 결정한 경우, 다음을 설정하십시오. [!DNL Marketo Measure] 스크립트를 실행 순서에서 가장 높은 우선 순위로 설정하고 앞에 동기 스크립트가 없는지 확인합니다. [!DNL Marketo Measure] 태그로 래핑되어 있습니다.
 
 >[!NOTE]
 >
->이것을 사용하세요 [Google의 지원 문서](https://support.google.com/tagmanager/answer/2772421?hl=en)자세한 내용은 {target=&quot;_blank&quot;}을 참조하십시오.
+>이것을 사용하세요 [Google의 지원 문서](https://support.google.com/tagmanager/answer/2772421?hl=en){target="_blank"} 추가 정보
 
 ## 추가 방법 [!DNL Marketo Measure] 를 통한 JS [!DNL Google Tag Manager] {#how-to-add-marketo-measure-js-via-google-tag-manager}
 

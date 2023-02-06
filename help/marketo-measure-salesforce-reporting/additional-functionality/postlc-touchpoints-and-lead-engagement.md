@@ -1,11 +1,11 @@
 ---
 unique-page-id: 18874562
-description: PostLC 터치포인트 및 리드 참여 - Marketo 측정 - 제품 설명서
+description: PostLC 터치포인트 및 리드 참여 - Marketo Measure - 제품 설명서
 title: PostLC 터치포인트 및 리드 참여
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ PostLC 터치포인트는 동적입니다. 잠재 고객 또는 연락처가 Pos
 
 **리드**
 
-1. 에 로그인합니다. [!DNL Marketo Measure] 계정 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} (으)로 이동하고 [!UICONTROL Settings].
+1. 에 로그인합니다. [!DNL Marketo Measure] 계정 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} 그리고 [!UICONTROL Settings].
 
 1. CRM에서 **[!UICONTROL Leads]**.
 
@@ -46,7 +46,7 @@ PostLC 터치포인트는 동적입니다. 잠재 고객 또는 연락처가 Pos
 
 **연락처**
 
-1. 에 로그인합니다. [!DNL Marketo Measure] 계정 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} (으)로 이동하고 [!UICONTROL Settings].
+1. 에 로그인합니다. [!DNL Marketo Measure] 계정 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} 그리고 [!UICONTROL Settings].
 
 1. CRM에서 **[!UICONTROL Contacts]**.
 

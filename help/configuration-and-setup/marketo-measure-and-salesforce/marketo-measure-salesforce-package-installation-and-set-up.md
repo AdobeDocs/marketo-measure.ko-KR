@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] [!DNL Salesforce] 패키지 설치 및 설정"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 아래 절차에 따라 을(를) 설치하십시오. [!DNL Marketo Measure Salesforce] 기본 패키지
 
-1. Incognito 브라우저를 사용하여 [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;} 하고 로그인합니다.
+1. Incognito 브라우저를 사용하여 [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} 로그인하고
 
 1. 에 를 설치합니다. [!DNL Marketo Measure] 샌드박스 또는 프로덕션에 있는 패키지
 
@@ -41,17 +41,17 @@ ht-degree: 0%
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-설치를 완료하면 [[!DNL Salesforce] 페이지 레이아웃](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target=&quot;_blank&quot;}( [!DNL Marketo Measure] 원하는 경우 필드를 선택합니다.
+설치를 완료하면 [[!DNL Salesforce] 페이지 레이아웃](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} 사용 [!DNL Marketo Measure] 원하는 경우 필드를 선택합니다.
 
 >[!NOTE]
 >
->다음 문서를 참조하십시오 [!DNL Marketo Measure] 만든 권한 집합 및 [사용 방법](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target=&quot;_blank&quot;}.
+>다음 문서를 참조하십시오 [!DNL Marketo Measure] 만든 권한 집합 및 [사용 방법](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## 설치 [!DNL Marketo Measure] 대시보드 패키지 {#install-marketo-measure-dashboard-package}
 
 다음 [!UICONTROL Dashboard] 확장 패키지에는 미리 빌드된 3개의 대시보드가 포함되어 있습니다. 설치를 권장합니다 [!UICONTROL within] 모든 사용자를 위한 프로덕션.
 
-1. 에서 패키지 설치 [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}.
+1. 에서 패키지 설치 [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
 
 1. 선택 **[!UICONTROL Install for All Users]**.
 

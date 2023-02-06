@@ -5,14 +5,14 @@ title: Salesforce 활동 속성
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
 # Salesforce 활동 속성 {#salesforce-activities-attribution}
 
-다음 [!DNL Marketo Measure] Salesforce 활동 통합은 특정 작업 및 이벤트 레코드를 속성 모델로 가져옵니다. 크레딧을 받지 못한 판매 이메일이나 판매 전화 통화와 같은 것을 추적하기 시작합니다. 활동 규칙을 구성하려면 다음 위치로 이동해야 합니다 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. 거기에서 다음 위치로 이동합니다. **[!UICONTROL Settings]** 탭을 클릭하고 **[!UICONTROL Activities]** 탭.
+다음 [!DNL Marketo Measure] Salesforce 활동 통합은 특정 작업 및 이벤트 레코드를 속성 모델로 가져옵니다. 크레딧을 받지 못한 판매 이메일이나 판매 전화 통화와 같은 것을 추적하기 시작합니다. 활동 규칙을 구성하려면 다음 위치로 이동해야 합니다 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. 거기에서 다음 위치로 이동합니다. **[!UICONTROL Settings]** 탭을 클릭하고 **[!UICONTROL Activities]** 탭.
 
 영업 팀을 매우 기쁘게 만들 것입니다! 간단한 자습서를 살펴보십시오.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ![](assets/5.png)
 
-이 새로운 터치포인트를 적절한 위치에 배치해야 할 것입니다 [마케팅 채널](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target=&quot;_blank&quot;}. 이렇게 하려면 방금 만든 새 캠페인 매핑으로 채널을 정의하여 할 수 있습니다. 캠페인이 아웃바운드로 시작되는 BDR 채널에 대해 새 행을 만들 수도 있습니다.
+이 새로운 터치포인트를 적절한 위치에 배치해야 할 것입니다 [마케팅 채널](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. 이렇게 하려면 방금 만든 새 캠페인 매핑으로 채널을 정의하여 할 수 있습니다. 캠페인이 아웃바운드로 시작되는 BDR 채널에 대해 새 행을 만들 수도 있습니다.
 
 >[!TIP]
 >
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 ![](assets/6.png)
 
-마지막으로, 하지만 가장 중요한 것은, 새 채널에 대한 비용을 입력할 수 있다는 것입니다. Adobe [마케팅 비용 업로드](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target=&quot;_blank&quot;} 채널 수준, 하위 채널 수준 또는 캠페인 수준에서 비용을 입력할 수 있습니다. 새로운 [!DNL Marketo Measure] 캠페인에서 이러한 관련 비용을 월별로 추가한 다음 각 캠페인에 대한 ROI를 확인할 수 있습니다.
+마지막으로, 하지만 가장 중요한 것은, 새 채널에 대한 비용을 입력할 수 있다는 것입니다. Adobe [마케팅 비용 업로드](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} 채널 수준, 하위 채널 수준 또는 캠페인 수준에서 지출을 입력할 수 있습니다. 새로운 [!DNL Marketo Measure] 캠페인에서 이러한 관련 비용을 월별로 추가한 다음 각 캠페인에 대한 ROI를 확인할 수 있습니다.
 
 ![](assets/7.png)
 

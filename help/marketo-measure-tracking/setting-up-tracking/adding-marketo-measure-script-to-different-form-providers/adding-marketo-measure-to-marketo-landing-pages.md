@@ -5,7 +5,7 @@ title: 추가 중 [!DNL Marketo Measure] Marketo 랜딩 페이지로 이동
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 * 여러 개의 랜딩 페이지 템플릿이 사용 중일 수 있으며, 양식이 있는 모든 템플릿에 코드를 추가해야 합니다.
 
-* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지가 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [대량 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target=&quot;_blank&quot;}.
+* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지가 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [대량 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

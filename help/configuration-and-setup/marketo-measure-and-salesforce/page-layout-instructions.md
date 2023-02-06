@@ -72,7 +72,7 @@ ht-degree: 1%
 
 1. 아래의 렌치를 클릭합니다. [!DNL VisualForce] 페이지를 표시하고 높이를 100으로 변경하고 스크롤 막대를 활성화합니다.
 
-1. 메뉴에서 [!UICONTROL Canvas Apps] 섹션을 보고 터치포인트 아래에 &quot;Marketo 측정 인사이트&quot;라는 새 섹션을 만듭니다 [!DNL VisualForce] 방금 만든 섹션을 참조하십시오.
+1. 메뉴에서 [!UICONTROL Canvas Apps] 섹션을 보고 터치포인트 아래에 &quot;Marketo Measure 인사이트&quot;라는 새 섹션을 만듭니다 [!DNL VisualForce] 방금 만든 섹션을 참조하십시오.
 
    >[!NOTE]
    >

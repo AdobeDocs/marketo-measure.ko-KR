@@ -5,14 +5,14 @@ title: 부메랑 단계 설정
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # 부메랑 단계 설정 {#setting-up-boomerang-stages}
 
-활성화하려면 [!UICONTROL Boomerang] 계정의 단계는 계정 관리자여야 합니다. 또는 및에 연락하여 활성화할 수 있습니다 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}. 기능이 활성화되면 다음 지침에 따라 설정하십시오.
+활성화하려면 [!UICONTROL Boomerang] 계정의 단계는 계정 관리자여야 합니다. 또는 및에 연락하여 활성화할 수 있습니다 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. 기능이 활성화되면 다음 지침에 따라 설정하십시오.
 
 ## 부메랑 스테이지 설정 {#boomerang-stage-setup}
 
