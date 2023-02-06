@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] 보고서 템플릿 - 타블로 - [!DNL Marketo Measure] - 제품 설명서"
 title: "[!DNL Marketo Measure] 보고서 템플릿 - 타블로"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 1b0d043e9015f2f8e2f6a3a2a49849bb792c7f21
 workflow-type: tm+mt
-source-wordcount: '2297'
+source-wordcount: '2296'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 에 액세스할 수 있습니다 [!DNL Tableau] 보고서 템플릿 [여기](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
-를 엽니다. [!DNL Adobe Marketo] 측정 단위 보고 템플리트 타블로 통합 문서 파일.
+를 엽니다. [!DNL Adobe Marketo Measure] 보고 템플릿 타블로 통합 문서 파일입니다.
 
 기존 연결 데이터를 특정 Snowflake 연결 정보로 업데이트해야 합니다. 을(를) 클릭합니다. [!UICONTROL Edit Connection] 버튼을 클릭하고 [[!UICONTROL Data Connection]](#data-connection) 섹션을 참조하십시오.
 
