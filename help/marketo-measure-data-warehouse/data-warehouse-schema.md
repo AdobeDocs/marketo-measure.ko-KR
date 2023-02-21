@@ -3,9 +3,9 @@ unique-page-id: 35586140
 description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 6e2d438da273511c3465d02eef6813f64e7aec5d
 workflow-type: tm+mt
-source-wordcount: '22593'
+source-wordcount: '22615'
 ht-degree: 4%
 
 ---
@@ -15554,14 +15554,16 @@ order by 1
 
 **한 번의 기회에 모든 구매자 기여도 분석 터치포인트(BAT) 및 해당 성향 수익을 표시합니다.**
 
+>[!NOTE]
+>
+>이 쿼리는 w 모양 모델의 속성 수입을 반환합니다. 속성 수익 계산에서 필드를 갱신하여 모델을 변경합니다.
+
 ```
---Note: This query returns attributed revenue for the w shape model.  Change the model by updating the field in the attributed revenue calculation.  
- 
 select bat.id
       ,bat.touchpoint_date
       ,bat.email
-      ,listagg(osd.stage_name)                        as touchpoint_position
-      ,sum(opp.amount*(bat.w_shape_percentage/100))   as attributed_revenue
+      ,opp.amount*(bat.w_shape_percentage/100)             as attributed_revenue
+      ,listagg(osd.stage_name,', ')                        as touchpoint_position
   from biz_opportunities               opp
        inner join
        biz_attribution_touchpoints     bat
@@ -15579,8 +15581,8 @@ select bat.id
        and osd._deleted_date        is null
  where opp._deleted_date    is null
    and opp.id               = [opportunity id]
-group by 1,2,3, osd.rank
-order by touchpoint_date, osd.rank
+group by 1,2,3,4
+order by touchpoint_date
 ```
 
 [맨 위로 돌아가기](#data-warehouse-schema)
