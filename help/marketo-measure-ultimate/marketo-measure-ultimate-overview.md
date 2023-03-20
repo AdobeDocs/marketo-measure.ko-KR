@@ -1,12 +1,10 @@
 ---
 description: '`[!DNL Marketo Measure] Ultimate 개요 - [!DNL Marketo Measure] - 제품 설명서'''
 title: '`[!DNL Marketo Measure] Ultimate 개요'''
-hide: true
-hidefromtoc: true
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 604db0227cc48e09743db317cc72488755586a48
+source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -28,29 +26,29 @@ ht-degree: 0%
 
 * RTCDP(B2B 또는 B2P Edition)와 통합하여 RTCDP 고객을 RTCDP로 지원하고 [!DNL Marketo Measure] 두 작업 모두 중앙 집중식 Adobe Experience Platform(AEP) 데이터에서 작동합니다.
 
-**Marketo Measure 계층 1-3**
+**[!DNL Marketo Measure]계층 1-3**
 
 ![](assets/marketo-measure-ultimate-overview-1.png)
 
-**Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]**
 
 ![](assets/marketo-measure-ultimate-overview-2.png)
 
 ## 의 새로운 기능 [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
-**헤더 제목 - AEP를 통해 B2B 데이터 가져오기**
+**AEP를 통해 B2B 데이터 가져오기**
 
 마케터는 AEP를 통해 B2B 데이터(예: 계정, 기회, 연락처, 리드, 캠페인, 캠페인 구성원, 활동)를 가져와야 합니다. Ultimate에서는 직접 CRM 및 Marketo Engage 연결을 더 이상 사용할 수 없습니다. 마케터는 직접 연결 및 을 통해 웹 활동 추적을 통해 광고 플랫폼 데이터를 계속 가져옵니다 [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**헤더 제목 - 기본 통화 설정**
+**기본 통화 설정**
 
-개요 소개???
+[!DNL Marketo Measure Ultimate] 사용자가 변경할 때까지 기본 통화를 USD로 설정합니다. 새 기본 통화를 설정하면 재처리 없이 데이터가 업데이트됩니다. 선택한 통화가 대상 ISO 코드로 존재하는 한 전환율을 제출할 필요가 없습니다.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**헤더 제목 - Marketo Measure Ultimate 샌드박스**
+**[!DNL Marketo Measure Ultimate]샌드박스**
 
 [!DNL Marketo Measure Ultimate] 인스턴스를 생성하려면 먼저 AEP 샌드박스에 매핑해야 합니다 [!DNL Marketo Measure] AEP의 대상 데이터 흐름.
 
@@ -64,7 +62,7 @@ ht-degree: 0%
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**헤더 제목 - 단계 매핑**
+**스테이지 매핑**
 
 모두 [!DNL Marketo Measure Ultimate] 규칙은 데이터 세트에 따라 다릅니다. 모든 데이터 세트 및 선택한 모든 단계에 대해 단계 매핑 규칙을 만들어야 합니다.
 
