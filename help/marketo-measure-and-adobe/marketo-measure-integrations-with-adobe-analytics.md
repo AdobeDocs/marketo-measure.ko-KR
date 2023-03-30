@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] Adobe Analytics과의 통합 - [!DNL Marketo Measure] - 제품 설명서"
 title: "[!DNL Marketo Measure] 통합 [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ B2B 고객 속성 통합을 통해 [!DNL Marketo Measure] 그리고 Adobe Analyt
 
 1. 을(를) 클릭합니다. **[!UICONTROL Set Up New Customer Attributes Connection]** 버튼을 클릭하고 지침에 따라 고객 속성 통합을 구성합니다. UI에서 핵심 서비스 콘솔에서 고객 속성 소스를 만들 때 획득한 별칭 ID 및 FTP 연결 정보를 확인하고, 여기에 동기화할 계정 속성 세트를 선택하라는 메시지를 표시합니다 [!DNL Adobe Analytics] 계정이 필요합니다.
 
-   Adobe IMS 조직 ID도 입력해야 합니다. 이 ID는 Adobe Experience Cloud Admin Console의 오른쪽 아래 모서리에 표시됩니다. 이 ID를 찾는 데 도움이 필요하면 고객 성공 관리자에게 문의하십시오.
+   Adobe IMS 조직 ID도 입력해야 합니다. 이 ID는 Adobe Experience Cloud Admin Console의 오른쪽 아래 모서리에 표시됩니다. 이 ID를 찾는 데 도움이 필요하면 Adobe 계정 팀(계정 관리자)에 문의하십시오.
 
 1. 에서 연결 만들기를 완료하면 [!DNL Marketo Measure] account: Experience Cloud 콘솔으로 돌아가야 합니다 [스키마 유효성 검사](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). FTP 파일 업로드에 대해 걱정할 필요가 없습니다. [!DNL Marketo Measure] 는 자동으로 해당 부분을 제공합니다. 1단계에서 만든 고객 속성 소스에 대한 &quot;보기/편집&quot; 스키마 화면으로 이동하여 해당 속성에 대해 데이터 유형이 무엇인지 Adobe에 알려면 됩니다 [!DNL Marketo Measure] 를 대신 업로드했습니다. 원하는 경우 업로드한 속성에 대해 새 디스플레이 친숙한 이름을 생성할 수도 있습니다.
 

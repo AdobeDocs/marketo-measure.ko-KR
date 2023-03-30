@@ -3,9 +3,9 @@ unique-page-id: 18874734
 description: 리드 병합에 대한 우수 사례 - [!DNL Marketo Measure] - 제품 설명서
 title: 리드 병합에 대한 우수 사례
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 여기에서 리드를 병합하고 [!DNL Marketo Measure] 데이터가 새 레코드로 전달됩니다.
 
-질문이 있는 경우 고객 성공 관리자에게 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+질문이 있는 경우 Adobe 계정 팀(계정 관리자)에 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

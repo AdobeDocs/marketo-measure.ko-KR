@@ -2,9 +2,9 @@
 description: "[!DNL Marketo Measure] 보고 안내서 - [!DNL Marketo Measure] - 제품 설명서"
 title: "[!DNL Marketo Measure] 보고 안내서"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '6392'
+source-wordcount: '6395'
 ht-degree: 0%
 
 ---
@@ -557,7 +557,7 @@ BAT의 주요 관계가 Opportunity와 관련된 것으로, 다음과 같은 질
 
 >[!NOTE]
 >
->사용자 지정 속성 모델은 모든 고객에게 제공되지 않는 추가 기능입니다. 이 기능을 계정에 추가하는 방법에 대한 자세한 내용은 고객 성공 관리자에게 문의하십시오.
+>사용자 지정 속성 모델은 모든 고객에게 제공되지 않는 추가 기능입니다. 계정에 이 기능을 추가하는 방법에 대한 자세한 내용은 Adobe 계정 팀(계정 관리자)에 문의하십시오.
 
 일반적으로 마케터는 &quot;내 Opportunity 는 어디에서 오는 것입니까?&quot;를 알아야 합니다. 리드 수준 보고와 유사하게, 이 질문은 이전에 단일 차원 값(예: 기본 캠페인 소스)으로 응답되었습니다. 그러나 Adobe는 단일 Contact의 단일 접점보다 Opportunity의 개발에 훨씬 많은 부분이 관여한다는 것을 알고 있습니다. 일반적으로 여러 채널과 Opportunity 가 생성되도록 영향을 주는 여러 이해 관계자에 의한 여러 접점이 있습니다. 사용 [!DNL Marketo Measure], Adobe에서는 Opportunity 가 어디에서 왔는지를 가장 잘 파악하기 위해 Account 의 모든 터치포인트를 표시할 수 있습니다. 그러나 그 이후에도 Opportunity 가 생성된 후 Opportunity 가 종료될 때까지 발생한 모든 Touchpoint 를 계속 표시할 수 있습니다. 이를 통해 Opportunity 가 어디에서 왔는지를 파악하는 데 멀티 터치 방식을 사용할 수 있을 뿐만 아니라 Opportunity 가 Close에 영향을 주었고 궁극적으로 Closed Won Revenue를 나타낼 수 있습니다. 이를 통해 &quot;마케팅이 딜 마감에 영향을 미치는 것은 무엇입니까?&quot;, &quot;어떤 마케팅이 매출 성과를 저해하고 있습니까?&quot;와 같은 다양한 질문에 대한 통찰력을 얻을 수 있습니다. 그리고 궁극적으로 &quot;내 마케팅 활동 중 가장 큰 ROI를 나타내는 것은 무엇입니까?&quot;를
 

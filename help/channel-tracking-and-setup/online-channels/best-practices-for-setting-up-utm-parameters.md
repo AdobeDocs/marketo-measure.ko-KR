@@ -3,9 +3,9 @@ unique-page-id: 18874732
 description: UTM 매개 변수 설정에 대한 우수 사례 - [!DNL Marketo Measure] - 제품 설명서
 title: UTM 매개 변수 설정에 대한 우수 사례
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ UTM 매개 변수는 마케팅 데이터를 분류하고 분류하는 좋은 방
 
 **utm_medium**: 이 필드는 중간 필드에 매핑됩니다. utm_medium을 사용하여 높은 수준의 채널을 나타냅니다.
 
-예: [!UICONTROL Social], CPC, 이메일, 웹, 유기
+예, [!UICONTROL Social], CPC, 이메일, 웹, 유기
 
 이 필드를 사용하여 하위 채널을 호출하지 마십시오.
 
 **utm_source**: 이 필드는 터치 포인트 소스 필드에 매핑됩니다. utm_source를 사용하여 리드가 시작되는 하위 채널을 정의합니다.
 
-예: Facebook, Twitter, Linkedin, Dropping_email, Email_blast, 뉴스레터
+예: Facebook, Twitter, Linkedin, Dropping_email, Email_blast, newsletter.
 
 간단합니다. 이 매개 변수를 사용하여 재타겟팅, 스폰서 등과 같은 광고 유형을 표시하지 마십시오. utm_source = homepage, webdirect, website를 추가하지 마십시오. [!DNL Marketo Measure] 이 정보는 자동으로 입력됩니다.
 
@@ -40,7 +40,7 @@ UTM 매개 변수는 마케팅 데이터를 분류하고 분류하는 좋은 방
 
 **utm_content**: 광고 컨텐츠에 매핑됩니다. utm_content 매개 변수에서 광고 제목을 사용합니다. 이미지 광고인 경우 광고 제목을 사용하고 광고 차원을 포함합니다.
 
-예: [광고 제목] 200x400px
+예, [광고 제목] 200x400px
 
 **utm_term**: 키워드 텍스트에 매핑됩니다. 이 매개 변수를 사용하여 광고 실행과 관련된 키워드를 나타냅니다.
 
@@ -54,7 +54,7 @@ UTM 매개 변수는 마케팅 데이터를 분류하고 분류하는 좋은 방
 
 보통 > [!UICONTROL Source] > [!UICONTROL Campaign] > [!UICONTROL Content/Term]
 
-예: 다음과 같은 경우 [!UICONTROL display] 광고가 Facebook에 배치되면, 다음을 권장합니다.
+예: [!UICONTROL display] 광고가 Facebook에 배치되면, 다음을 권장합니다.
 
 fakewebsite.com/
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 용어/채널은 중복되지 않으며 utm_term은 이 경우에는 사용되지 않습니다.
 
-질문이 있는 경우 고객 성공 관리자에게 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+질문이 있는 경우 Adobe 계정 팀(계정 관리자)에 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

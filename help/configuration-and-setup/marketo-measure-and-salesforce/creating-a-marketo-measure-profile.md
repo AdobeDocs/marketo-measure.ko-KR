@@ -3,9 +3,9 @@ unique-page-id: 18874698
 description: 만들기 [!DNL Marketo Measure] 프로필 - [!DNL Marketo Measure] - 제품 설명서
 title: 만들기 [!DNL Marketo Measure] 프로필
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ ht-degree: 0%
 
    완료!
 
-   전용 만들기 작업에 대한 질문이 있을 경우 [!DNL Marketo Measure] 프로필 은 고객 성공 관리자 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   전용 만들기 작업에 대한 질문이 있을 경우 [!DNL Marketo Measure] Adobe 계정 팀(계정 관리자)이나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

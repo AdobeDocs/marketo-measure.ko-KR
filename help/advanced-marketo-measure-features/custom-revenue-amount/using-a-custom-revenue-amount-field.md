@@ -3,9 +3,9 @@ unique-page-id: 18874793
 description: 사용자 지정 매출 금액 필드 사용 - [!DNL Marketo Measure] - 제품 설명서
 title: 사용자 지정 수익 금액 필드 사용
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ Opportunity에서 사용자 지정 금액 필드를 사용하는 경우 Buyer To
 
    SFDC 내에서 Data Loader를 통해 영업 기회를 실행하여 이를 수행할 수 있습니다. 에서 데이터 로더 사용에 대한 자세한 내용을 확인하십시오. [이 문서](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-이 과정에서 질문이 있는 경우 고객 성공 관리자에게 문의하거나 [[!DNL Marketo] 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+이 과정에서 질문이 있는 경우 Adobe 계정 팀(계정 관리자)에 문의하거나 [[!DNL Marketo] 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

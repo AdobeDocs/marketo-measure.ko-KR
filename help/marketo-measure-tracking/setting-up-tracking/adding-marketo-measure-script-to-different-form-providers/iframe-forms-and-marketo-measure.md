@@ -3,9 +3,9 @@ unique-page-id: 18874741
 description: IFrame Forms 및 [!DNL Marketo Measure] - [!DNL Marketo Measure] - 제품 설명서
 title: IFrame Forms 및 [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ JavaScript를 IFrame의 헤드 내에 배치하는 것이 좋습니다. 여기�
 
 ![](assets/1-1.png)
 
-IFrame 양식에 JavaScript를 추가하는 것과 관련된 질문이 있는 경우 고객 성공 관리자에게 문의하십시오. 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+IFrame 양식에 JavaScript를 추가하는 것과 관련된 질문이 있는 경우 Adobe 계정 팀(계정 관리자)에 문의하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
