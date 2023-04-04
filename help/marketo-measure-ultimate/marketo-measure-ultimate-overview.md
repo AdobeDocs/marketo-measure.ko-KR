@@ -2,9 +2,9 @@
 description: '`[!DNL Marketo Measure] Ultimate 개요 - [!DNL Marketo Measure] - 제품 설명서'''
 title: '`[!DNL Marketo Measure] Ultimate 개요'''
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
+source-git-commit: 4a5e720a91e8b229ad2f2889dbf87f5c43767411
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -110,4 +110,4 @@ Ultimate에는 직접 CRM 연결이 없으므로 속성 터치포인트가 CRM�
 
 >[!MORELIKETHIS]
 >
->[대상 연결](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md){target="_blank"}
+>[Marketo Measure Ultimate 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
