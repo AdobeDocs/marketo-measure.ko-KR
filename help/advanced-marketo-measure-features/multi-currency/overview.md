@@ -3,22 +3,24 @@ unique-page-id: 27656735
 description: 개요 - [!DNL Marketo Measure] - 제품 설명서
 title: 개요
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '335'
 ht-degree: 1%
 
 ---
 
 # 개요 {#overview}
 
-오늘, [!DNL Marketo Measure] 응용 프로그램은 단일 통화(USD로 가정)만 지원하는 반면, 우리는 알고 있으며 전 세계 고객은 자체 기업 및 사용자 통화에 대해 보고해야 합니다. 이 기능은 사용자가 보고된 지출 또는 판매 매출을 확인할 때 다른 통화 간에 전환할 수 있는 기능을 구축합니다.
+오늘, [!DNL Marketo Measure] 응용 프로그램은 단일 통화(USD로 가정)만 지원하는 반면, 우리는 알고 있으며 전 세계 고객은 자체 기업 및 사용자 통화에 대해 보고해야 합니다. 이 기능을 사용하면 보고된 지출 또는 판매 매출을 볼 때 사용자가 CRM에서 사용하는 동일한 통화 간에 전환할 수 있습니다 [!DNL Marketo Measure].
 
 ## 사용 가능 {#availability}
 
 계층 2 이상
 
 ## 요구 사항 {#requirements}
+
+[!DNL Marketo Measure] 은(는) 고객의 CRM에서 통화 설정을 자동으로 가져옵니다. 의 수동 구성 [!DNL Marketo Measure] CRM과 일치시키기 위해 는 더 이상 필요하지 않습니다. 통화 설정은 &quot;CRM&quot; 아래의 &quot;일반&quot; 페이지에서 찾을 수 있습니다.
 
 in [!DNL Salesforce]를 활성화하면 고객이 &quot;여러 통화 활성화&quot;를 활성화해야 합니다. 고객이 &quot;예, 고급 통화 관리를 사용으로 설정하려고 합니다&quot;를 선택할 수도 있습니다(선택적).
 
