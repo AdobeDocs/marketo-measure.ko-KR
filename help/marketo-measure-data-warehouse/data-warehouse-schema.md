@@ -3,9 +3,9 @@ unique-page-id: 35586140
 description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: d1f1a3d1d0dd3111b984fbe9d0a8e8d3ed9289d2
+source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
 workflow-type: tm+mt
-source-wordcount: '22622'
+source-wordcount: '22610'
 ht-degree: 5%
 
 ---
@@ -4331,10 +4331,10 @@ _전체 크기 버전의 이미지를 클릭합니다_
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>다음 [!DNL Marketo Measure] 연락처가 연령 및 단계를 기준으로 Opportunity 를 Close할 수 있는지 여부를 예측하는 알고리즘</p>
+        <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>해당 없음</p>
       </td>
     </tr>
     <tr>
@@ -9557,10 +9557,10 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>다음 [!DNL Marketo Measure] 리드가 연령 및 단계를 기반으로 변환되는지 추정하는 알고리즘.</p>
+        <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>해당 없음</p>
       </td>
     </tr>
     <tr>
@@ -10175,10 +10175,10 @@ Lead 또는 Contact에 대한 Stage 전환.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>다음 [!DNL Marketo Measure] 연령 및 단계를 기반으로 영업 기회의 마감 여부를 추정하는 알고리즘.</p>
+        <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
-        <p>0.8225108385086060000</p>
+        <p>해당 없음</p>
       </td>
     </tr>
     <tr>
