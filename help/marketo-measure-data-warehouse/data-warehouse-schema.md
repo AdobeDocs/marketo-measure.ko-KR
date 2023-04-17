@@ -3,10 +3,10 @@ unique-page-id: 35586140
 description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: 6e2d438da273511c3465d02eef6813f64e7aec5d
+source-git-commit: d1f1a3d1d0dd3111b984fbe9d0a8e8d3ed9289d2
 workflow-type: tm+mt
-source-wordcount: '22615'
-ht-degree: 4%
+source-wordcount: '22622'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,9 @@ Data Warehouse을 사용하면 원하는 만큼 추적하고 원하는 곳에 �
 
 >[!IMPORTANT]
 >
->_DELETED_DATE 값이 있는 행은 15일 동안 유지된 후 Snowflake에서 제거됩니다. Snowflake 시간대는 UTC입니다.
+>* _DELETED_DATE 값이 있는 행은 7일 동안 유지된 후 Snowflake에서 제거됩니다.
+>* Snowflake에 사용되는 시간대는 UTC(Coordinated Universal Time)를 따릅니다.
+
 
 >[!NOTE]
 >
@@ -8030,7 +8032,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>varchar</p>
       </td>
       <td>이벤트 유형을 나타냅니다.</td>
-      <td>노출</td>
+      <td>노출 횟수</td>
     </tr>
     <tr>
       <td>
