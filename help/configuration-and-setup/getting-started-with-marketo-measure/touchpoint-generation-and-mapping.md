@@ -3,9 +3,9 @@ unique-page-id: 18874554
 description: 터치 포인트 생성 및 매핑 - [!DNL Marketo Measure] - 제품 설명서
 title: 터치 포인트 생성 및 매핑
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 950dbfacf48cbb81acad9c40033c25a765287bee
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 터치 포인트 생성 방법
 
 터치 포인트 생성 프로세스는 다음과 같은 질문에 답합니다. &quot;어떻게 [!DNL Marketo Measure] 이것이 일어났다는 것을 알고 싶습니까?&quot; 잠재 고객이 가질 수 있는 기능 세트와 상호 작용 유형에 따라 최대 3가지 방법이 있습니다 [!DNL Marketo Measure] 은 상호 작용을 선택하고 터치 포인트를 만들어 나타낼 수 있습니다.
+
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] 세션당 하나의 터치포인트만 생성합니다. 두 개 이상의 양식이 작성되면 첫 번째 양식 채우기만 캡처됩니다.
 
 | **상호 작용 유형** | **예** | **터치 포인트 생성 방법** |
 |---|---|---|
