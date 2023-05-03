@@ -2,11 +2,11 @@
 cloud: Experience Cloud
 product: Bizible
 audience: end-user
-user-guide-title: "[!DNL Marketo Measure] 가이드"
+user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 는 마케터에게 기업의 매출을 증대시키는 데 가장 효과적인 마케팅 활동에 대한 통찰력을 제공합니다."
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 1%
       + [[!DNL Marketo Measure] CRM 패키지 없는 통합](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] 및 Salesforce {#marketo-measure-and-salesforce}
       + [[!DNL Marketo Measure] Salesforce 패키지 설치 및 설정](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
+      + [[!DNL Salesforce] 패키지 통합](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [Connect [!DNL Marketo Measure] Salesforce로 이동](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [우수 사례 [!DNL Marketo Measure] CRM 패키지](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce 개체](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
@@ -189,7 +190,7 @@ ht-degree: 1%
       + [[!DNL Marketo Measure] 101 보고서 개요](marketo-measure-salesforce-reporting/marketo-measure-reports/marketo-measure-101-reports-overview.md)
       + [마케팅 채널별 기회](marketo-measure-salesforce-reporting/marketo-measure-reports/opportunities-by-marketing-channel.md)
       + [마케팅 채널별 영업 기회 상실](marketo-measure-salesforce-reporting/marketo-measure-reports/closed-lost-opportunities-by-marketing-channel.md)
-      + [[!UICONTROL Leads with Buyer Touchpoints] 보고서](marketo-measure-salesforce-reporting/marketo-measure-reports/leads-with-buyer-touchpoints-report.md)
+      + [[!UICONTROL Leads with Buyer Touchpoints] 보고](marketo-measure-salesforce-reporting/marketo-measure-reports/leads-with-buyer-touchpoints-report.md)
       + [구매자 속성 터치포인트를 사용하거나 사용하지 않는 기회 보고](marketo-measure-salesforce-reporting/marketo-measure-reports/reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints.md)
       + [내 보고서에 중복 레코드](marketo-measure-salesforce-reporting/marketo-measure-reports/duplicate-records-in-my-report.md)
    + 추가 기능 {#additional-functionality}
