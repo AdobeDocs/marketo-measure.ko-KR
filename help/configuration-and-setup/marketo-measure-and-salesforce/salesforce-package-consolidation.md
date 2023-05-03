@@ -1,9 +1,9 @@
 ---
 description: "[!DNL Salesforce] 패키지 통합 - [!DNL Marketo Measure] - 제품 설명서"
 title: "[!DNL Salesforce] 패키지 통합"
-source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
+source-git-commit: e0a471a8e74cdba23a01bea02054c82ede82de9b
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Marketo Measure Salesforce 패키지에 예정된 변경 사항을 발표하게 
       * V2_EXT 쿼리:
          * bizible2_ext__Ad_Content_FT__c에 Outreach 포함
 
-![](assets/salesforce-package-consolidation-1.png)
+![](assets/package-consolidation-1.png)
 
 * 통합 패키지의 해당 쿼리:
    * bizible2__Touchpoint_Position__c에는 FT 및 FT가 포함되어 있습니다.
