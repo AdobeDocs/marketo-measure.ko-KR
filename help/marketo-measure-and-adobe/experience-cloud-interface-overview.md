@@ -1,15 +1,15 @@
 ---
-description: Adobe Experience Cloud 인터페이스 - [!DNL Marketo Measure] - 제품 설명서
-title: Adobe Experience Cloud 인터페이스
+description: Adobe Experience Cloud 인터페이스 개요 - [!DNL Marketo Measure] - 제품 설명서
+title: Adobe Experience Cloud 인터페이스 개요
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: a14b977fc4c3d2f3eccd2c03bc8d96c2a71e6bc6
+source-git-commit: dc6c66daebd10b95333d8c27c2326a95555c555b
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Cloud 인터페이스 {#unified-shell-overview}
+# Adobe Experience Cloud 인터페이스 개요 {#experience-cloud-interface-overview}
 
 Adobe Experience Cloud 인터페이스는 Adobe Experience Cloud 애플리케이션 및 서비스의 모양과 느낌을 조정합니다. 하지만, 그것은 단지 새로운 디자인 그 이상입니다. 단일 인스턴스에서 사용자 경험을 제공하는 단일 페이지 애플리케이션입니다.
 
