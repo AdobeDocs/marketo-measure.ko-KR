@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 는 마케터에게 기업의 매출을 증대시키는 데 가장 효과적인 마케팅 활동에 대한 통찰력을 제공합니다."
-source-git-commit: 5a27c4fc89925ae143affa2de14eca3b8a51bd11
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 1%
    + [[!DNL Marketo Measure] Adobe Analytics과 통합](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] Adobe Launch와의 통합](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [도메인 관리](marketo-measure-and-adobe/domain-management.md)
-   + [통합 셸 개요](marketo-measure-and-adobe/unified-shell-overview.md)
+   + [Adobe Experience Cloud 인터페이스 개요](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
 + [!DNL Marketo Measure] 및 Dynamics {#marketo-measure-and-dynamics}
    + 시작하기 [!DNL Marketo Measure] 및 Dynamics {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] Dynamics 스키마](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)

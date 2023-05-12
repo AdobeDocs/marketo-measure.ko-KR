@@ -2,16 +2,16 @@
 description: 도메인 관리 - [!DNL Marketo Measure] - 제품 설명서
 title: 도메인 관리
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
 
 # 도메인 관리 {#domain-management}
 
-실행 중인 IMS 사용 테넌트의 경우 [!DNL Marketo Measure] 통합 쉘에서 [!DNL Marketo Measure] 에서는 사용자가 고유한 도메인 목록을 관리할 수 있는 인터페이스를 제공합니다. [!DNL Marketo Measure] 사용자는에서 추적할 도메인을 먼저 확인해야 합니다 [Adobe Admin Console](https://adminconsole.adobe.com/). Admin Console에서 도메인이 확인되면 사용자가 다음을 관리할 수 있습니다 [!DNL Marketo Measure] 는 웹 사이트 트래픽을 추적하기 위해 이러한 도메인을 사용합니다.
+실행 중인 IMS 사용 테넌트의 경우 [!DNL Marketo Measure] Experience Cloud 인터페이스에서 [!DNL Marketo Measure] 에서는 사용자가 고유한 도메인 목록을 관리할 수 있는 인터페이스를 제공합니다. [!DNL Marketo Measure] 사용자는에서 추적할 도메인을 먼저 확인해야 합니다 [Adobe Admin Console](https://adminconsole.adobe.com/). Admin Console에서 도메인이 확인되면 사용자가 다음을 관리할 수 있습니다 [!DNL Marketo Measure] 는 웹 사이트 트래픽을 추적하기 위해 이러한 도메인을 사용합니다.
 
 ## Admin Console에서 도메인 추가 {#adding-domains-in-admin-console}
 
