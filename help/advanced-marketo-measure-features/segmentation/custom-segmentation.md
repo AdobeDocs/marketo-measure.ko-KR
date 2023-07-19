@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: 사용자 정의 세분화 - [!DNL Marketo Measure] - 제품 설명서
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+source-git-commit: 7d037783805567370daa412629d58a5dee175722
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용자 지정 세그멘테이션을 사용하면 카테고리(필터 이름) 및 규칙(필터 값)별로 터치포인트를 필터링할 수 있습니다. 계층 1은 하나의 세그먼트를, 계층 2는 10을 가져옵니다.
+>사용자 지정 세그멘테이션을 사용하면 카테고리(필터 이름) 및 규칙(필터 값)별로 터치포인트를 필터링할 수 있습니다. Tier 1 고객은 하나의 세그먼트를, Tier 2 고객은 10 개의 세그먼트를 갖게 됩니다.
 
 **사용자 정의 세분화 기능은 언제 유용합니까?**
 
