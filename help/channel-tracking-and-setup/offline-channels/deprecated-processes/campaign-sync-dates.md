@@ -4,9 +4,9 @@ description: Campaign 동기화 날짜 - [!DNL Marketo Measure] - 제품 설명�
 title: Campaign 동기화 날짜
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Campaign 동기화 날짜 {#campaign-sync-dates}
 
 Campaign 동기화 날짜 기능이 수행하는 작업을 알아보고 이 기능에 대한 사용 사례를 제공합니다.
+
+>[!NOTE]
+>
+>이 문서에서는 오래된 프로세스를 다룹니다. 사용자는 다음을 사용할 것을 권장합니다. [새롭고 개선된 인앱 프로세스](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 **[!DNL Marketo Measure]패키지 필요: 6.9 이상**
 

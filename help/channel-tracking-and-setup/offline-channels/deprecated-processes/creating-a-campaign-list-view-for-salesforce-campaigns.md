@@ -4,9 +4,9 @@ description: 캠페인 목록 보기 만들기 [!DNL Salesforce Campaigns] - [!D
 title: 캠페인 목록 보기 만들기 [!DNL Salesforce] 캠페인
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 캠페인 목록 보기 만들기 [!DNL Salesforce] 캠페인 {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 구매자 터치포인트와 동기화하려는 캠페인에 대한 목록 보기를 만드는 방법을 알아봅니다.
+
+>[!NOTE]
+>
+>이 문서에서는 오래된 프로세스를 다룹니다. 사용자는 다음을 사용할 것을 권장합니다. [새롭고 개선된 인앱 프로세스](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 만들 수 있는 캠페인 목록 보기를 통해 &#39;이동&#39; 위치를 통해 &#39;유형&#39; 및 &#39;구매자 터치포인트 활성화&#39; 필드를 확인하고 관리하여 각 항목을 확인할 수 있습니다. [!DNL Salesforce] 오프라인 마케팅 채널을 알리는 캠페인이 제대로 설정되어 있습니다.
 

@@ -4,9 +4,9 @@ description: 오프라인 캠페인 동기화 - [!DNL Marketo Measure] - 제품 
 title: 오프라인 캠페인 동기화
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 오프라인 캠페인 동기화 {#syncing-offline-campaigns}
 
 오프라인 캠페인을 정확하게 추적하고 이러한 캠페인이 디지털 마케팅 활동과 어떻게 다른지 이해하는 것은 어려울 수 있습니다. [!DNL Marketo Measure] 에서 오프라인 캠페인에 터치포인트를 추적하고 지정할 수 있습니다. [!DNL Salesforce], 다음과 같은 상황에서도 [!DNL Salesforce] 캠페인은 이벤트 후 몇 주가 지나야 만들어집니다.
+
+>[!NOTE]
+>
+>이 문서에서는 오래된 프로세스를 다룹니다. 사용자는 다음을 사용할 것을 권장합니다. [새롭고 개선된 인앱 프로세스](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## 동기화하기 전에 {#before-you-sync}
 

@@ -4,9 +4,9 @@ description: 캠페인 및 캠페인 멤버 - [!DNL Marketo Measure] - 제품 �
 title: 캠페인 및 캠페인 멤버
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 캠페인 및 캠페인 멤버 {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] 캠페인은 마케팅 프로그램 또는 활동과 연관된 잠재 고객 및 연락처 목록을 추적하기 위한 것입니다. 예를 들어 이것은 일반적으로 웨비나 등록 또는 부스 방문입니다. 마케터는 터치포인트 여정에서 캠페인이 크레딧을 받아야 하는지 여부를 선택할 수 있습니다.
+
+>[!NOTE]
+>
+>이 문서에서는 오래된 프로세스를 다룹니다. 사용자는 다음을 사용할 것을 권장합니다. [새롭고 개선된 인앱 프로세스](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## 접점 활성화 {#enabling-touchpoints}
 

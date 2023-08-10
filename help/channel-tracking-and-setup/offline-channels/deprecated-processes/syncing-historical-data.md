@@ -4,9 +4,9 @@ description: 이전 데이터 동기화 - [!DNL Marketo Measure] - 제품 설명
 title: 이전 데이터 동기화
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 이전 데이터 동기화 {#syncing-historical-data}
 
 [!DNL Marketo Measure] 는 가장 세분화되고 실행 가능한 데이터를 제공하는 솔루션입니다. 그러나 기여도 분석이 필요한 기존 데이터가 있을 수 있음을 이해합니다. 이전 데이터에 대한 터치포인트를 생성할 수 있지만 이 프로세스를 진행하기 전에 몇 가지 요소를 고려하는 것이 중요합니다.
+
+>[!NOTE]
+>
+>이 문서에서는 오래된 프로세스를 다룹니다. 사용자는 다음을 사용할 것을 권장합니다. [새롭고 개선된 인앱 프로세스](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## 고려해야 할 요소 {#factors-to-consider}
 
