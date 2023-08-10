@@ -4,10 +4,10 @@ description: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 -
 title: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 14%
+source-wordcount: '1716'
+ht-degree: 13%
 
 ---
 
@@ -721,6 +721,20 @@ ht-degree: 14%
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Salesforce 계정 내에서 삭제 이벤트를 캡처하는 Marketo Measure의 정확성을 보장하려면 아래 개체에 대해 복제 가능한 권한이 필요합니다. 복제 가능한 권한은 다음 개체와 함께 표준으로 제공됩니다.
+>
+>* 계정
+>* 캠페인
+>* 캠페인 멤버
+>* 연락처
+>* Event
+>* 리드
+>* 기회
+>* 작업
+
 
 ## [!DNL Marketo Measure] 의 사용자 지정 개체 [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
