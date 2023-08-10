@@ -3,7 +3,8 @@ unique-page-id: 18874523
 description: "[!DNL Marketo Measure] Dynamics 스키마 - [!DNL Marketo Measure] - 제품 설명서"
 title: "[!DNL Marketo Measure] Dynamics 스키마"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 17%
@@ -14,25 +15,25 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]&quot;은 설명서이지만 CRM에서 &quot;Bizible&quot;을 참조하십시오. 업데이트를 위해 노력하고 있으며 리브랜딩이 곧 CRM에 반영됩니다.
+>&quot; &quot;을 지정하는 지침이 표시될 수 있습니다.[!DNL Marketo Measure]설명서에는 &quot;가 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-아래에서는 을 시작하기 위해 필요한 Dynamics 스키마를 찾을 수 있습니다 [!DNL Marketo Measure]. 필요한 읽기 및/또는 쓰기 액세스와 함께 모든 개체 및 필드가 나열됩니다.
+시작하기 위해 필요한 Dynamics 스키마를 아래에서 찾을 수 있습니다. [!DNL Marketo Measure]. 필요한 읽기 및/또는 쓰기 권한과 함께 모든 엔티티와 필드가 나열됩니다.
 
-## 구매자 터치포인트 {#buyer-touchpoints}
+## 구매자 접점 {#buyer-touchpoints}
 
-구매자 터치포인트는 [!DNL Marketo Measure] 연락처 및 리드에 대한 마케팅 상호 작용을 캡슐화할 사용자 지정 엔티티입니다.
+구매자 접점은 [!DNL Marketo Measure] 연락처 및 리드에 대한 마케팅 상호 작용을 캡슐화할 사용자 지정 엔티티.
 
 ## 구매자 접점 관계 {#buyer-touchpoint-relationships}
 
-이 다이어그램은 Dynamics Stock 엔티티와 구매자 터치포인트 간의 관계를 보여주는 높은 수준의 시각화입니다.
+이 다이어그램은 Dynamics Stock 엔티티와 구매자 접점 간의 관계에 대한 높은 수준의 시각화입니다.
 
-## 구매자 터치포인트 {#buyer-touchpoint}
+## 구매자 접점 {#buyer-touchpoint}
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -235,7 +236,7 @@ ht-degree: 17%
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page_Raw</p></td> 
+   <td><p>bizible2_레퍼러_페이지 원시</p></td> 
    <td><p>맞춤형</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -303,21 +304,21 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-## 구매자 기여도 분석 터치포인트 {#buyer-attribution-touchpoint}
+## 구매자 속성 접점 {#buyer-attribution-touchpoint}
 
-구매자 기여도 분석 터치포인트는 [!DNL Marketo Measure] Opportunity에 대한 마케팅의 영향을 캡슐화하는 사용자 지정 항목입니다.
+구매자 속성 터치포인트는 [!DNL Marketo Measure] 영업 기회에 대한 마케팅의 영향을 캡슐화할 사용자 지정 엔티티입니다.
 
-## 구매자 속성 터치포인트 관계 {#buyer-attribution-touchpoint-relationships}
+## 구매자 속성 접점 관계 {#buyer-attribution-touchpoint-relationships}
 
-이 다이어그램은 Dynamics Stock 엔티티와 구매자 속성 터치포인트 간의 관계에 대한 높은 수준의 시각화입니다.
+이 다이어그램은 Dynamics Stock 엔티티와 구매자 속성 접점 간의 관계에 대한 높은 수준의 시각화입니다.
 
-## 구매자 기여도 분석 터치포인트 {#buyer-attribution-touchpoints}
+## 구매자 기여도 분석 접점 {#buyer-attribution-touchpoints}
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -580,7 +581,7 @@ ht-degree: 17%
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Referrer_Page_Raw</p></td> 
+   <td><p>bizible2_레퍼러_페이지 원시</p></td> 
    <td><p>맞춤형</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -720,7 +721,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -805,7 +806,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -872,7 +873,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -909,9 +910,9 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-## Dynamics 표준 엔터티 {#dynamics-standard-entities}
+## Dynamics 표준 엔티티 {#dynamics-standard-entities}
 
-이 목록은 [!DNL Marketo Measure] 는 이러한 엔티티에 추가하는 사용자 지정 필드뿐만 아니라 과 상호 작용합니다.
+이 목록은 다음과 같은 Dynamics 표준 엔티티를 제공합니다. [!DNL Marketo Measure] 는 와 상호 작용하며 이러한 엔티티에 추가하는 사용자 정의 필드도 제공합니다.
 
 **리드**
 
@@ -919,12 +920,12 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
   <tr> 
-   <td><p>리드</p></td> 
+   <td><p>leadid</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -942,7 +943,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>statecode</p></td> 
+   <td><p>statuscode</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -954,19 +955,19 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>컨텍스트</p></td> 
+   <td><p>contactid</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>자격 증명 기회id</p></td> 
+   <td><p>qualfyingopportunityid</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1004,12 +1005,12 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
   <tr> 
-   <td><p>컨텍스트</p></td> 
+   <td><p>contactid</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1033,7 +1034,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1053,7 +1054,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -1076,7 +1077,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1096,12 +1097,12 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
   <tr> 
-   <td><p>visitor id</p></td> 
+   <td><p>opportunityid</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1119,7 +1120,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1149,13 +1150,13 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>견적:종료 날짜</p></td> 
+   <td><p>estimatedclosedate</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>액츄에이트 값</p></td> 
+   <td><p>실제 값</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1181,24 +1182,24 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
   <tr> 
-   <td><p>campaign id</p></td> 
+   <td><p>campaignid</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>유형 코드</p></td> 
+   <td><p>타이프 코드</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>typencodename</p></td> 
+   <td><p>타이프코드명</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1210,7 +1211,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1254,7 +1255,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -1271,7 +1272,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>activitytypename</p></td> 
+   <td><p>activitytypecodename</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1283,19 +1284,19 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>responsecode</p></td> 
+   <td><p>응답 코드</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>responsecodename</p></td> 
+   <td><p>응답형</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1307,7 +1308,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>관련 정보</p></td> 
+   <td><p>레가딘고베스티드</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1351,7 +1352,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -1380,7 +1381,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1400,7 +1401,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -1417,7 +1418,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>listmember id</p></td> 
+   <td><p>listmemberid</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1429,7 +1430,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1443,7 +1444,7 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <th><p>스키마 이름</p></th> 
-   <th><p>표준/사용자 지정</p></th> 
+   <th><p>Standard/Custom</p></th> 
    <th><p>읽기</p></th> 
    <th><p>쓰기</p></th> 
   </tr> 
@@ -1460,7 +1461,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>activitytypename</p></td> 
+   <td><p>activitytypecodename</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1472,7 +1473,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>수정 사항</p></td> 
+   <td><p>수정됨</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1484,7 +1485,7 @@ ht-degree: 17%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>관련 정보</p></td> 
+   <td><p>레가딘고베스티드</p></td> 
    <td><p>표준</p></td> 
    <td><p>x</p></td> 
    <td> </td> 

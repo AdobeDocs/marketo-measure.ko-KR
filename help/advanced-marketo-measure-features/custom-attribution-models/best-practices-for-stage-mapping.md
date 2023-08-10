@@ -2,7 +2,8 @@
 description: 스테이지 매핑 우수 사례 - [!DNL Marketo Measure] - 제품 설명서
 title: 스테이지 매핑 우수 사례
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
+feature: Tracking, Custom Models
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%

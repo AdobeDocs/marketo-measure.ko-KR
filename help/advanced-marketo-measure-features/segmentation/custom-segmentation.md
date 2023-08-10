@@ -3,7 +3,8 @@ unique-page-id: 18874604
 description: 사용자 정의 세분화 - [!DNL Marketo Measure] - 제품 설명서
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: e3a2ef7a305fff4edb6b0f21861c1ef5516212b8
+feature: Segmentation
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 **사용자 정의 세분화 기능은 언제 유용합니까?**
 
-사용자 정의 세그먼테이션을 사용하여 특정 레코드 유형의 데이터를 볼 수 있습니다. 필터 논리를 매핑하면 [!DNL Marketo Measure] 대시보드의 Demand Waterfall 보기—CRM에서 볼 수 있는 것과 동일한 데이터입니다.
+사용자 정의 세그먼테이션을 사용하여 특정 레코드 유형의 데이터를 볼 수 있습니다. 필터 논리를 매핑하면 [!DNL Marketo Measure] 대시보드의 Demand Waterfall 보기—CRM에 표시되는 것과 동일한 데이터.
 
 **어떻게 설정해야 합니까?**
 
