@@ -4,7 +4,7 @@ description: 이전 데이터 동기화 - [!DNL Marketo Measure] - 제품 설명
 title: 이전 데이터 동기화
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 0%
@@ -91,7 +91,7 @@ b. 멤버가 캠페인에 추가되거나 응답됨으로 표시된 날짜가 �
 
 따라서 접점 날짜에 사용될 마케팅 목록의 모든 사용자에 대한 날짜를 일괄적으로 설정할 수 있습니다. 보다 정확한 이전 날짜를 확보하려면 동일한 캠페인에 대해 고유한 터치포인트 날짜가 있는 여러 마케팅 목록을 만듭니다. Campaign의 시간이 짧은 경우 각 날에 대한 마케팅 목록을 만드는 것이 좋습니다. Campaign의 기간이 긴 경우 매주 마케팅 목록을 만드는 것이 적절할 수 있습니다.
 
-마케팅 목록 동기화에 대한 자세한 내용은 여기에서 확인하십시오. [[!DNL Dynamics] 캠페인 및 마케팅 목록](/help/marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
+마케팅 목록 동기화에 대한 자세한 내용은 여기에서 확인하십시오. [[!DNL Dynamics] 캠페인 및 마케팅 목록](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
 >

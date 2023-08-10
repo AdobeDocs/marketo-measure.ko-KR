@@ -3,7 +3,7 @@ description: 오프라인 채널에 대한 우수 사례 - [!DNL Marketo Measure
 title: 오프라인 채널에 대한 우수 사례
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -72,9 +72,9 @@ ht-degree: 0%
 >
 >* [오프라인 채널 설정](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [사용자 지정 캠페인 동기화 - 앱 동기화](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [오프라인 캠페인 동기화 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
->* [오프라인 캠페인 및 캠페인 멤버 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
->* [Campaign 동기화 날짜 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
+>* [오프라인 캠페인 동기화 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [오프라인 캠페인 및 캠페인 멤버 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+>* [Campaign 동기화 날짜 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
 >* [여러 캠페인 레코드 유형에 대한 구성](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [캠페인 목록 보기 만들기](/help/channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [이전 데이터 동기화](/help/channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
+>* [캠페인 목록 보기 만들기](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [이전 데이터 동기화](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)

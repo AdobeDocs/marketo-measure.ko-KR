@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] 리소스 목록 - [!DNL Marketo Measure] -
 title: "[!DNL Marketo Measure] 리소스 목록"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 * [오프라인 채널 설정](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [UTM 매개 변수란 무엇입니까?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [UTM 우수 사례](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [SFDC 캠페인을 구매자 터치포인트와 동기화](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
+* [SFDC 캠페인을 구매자 터치포인트와 동기화](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
 * [마케팅 비용 업로드](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [광고 계정 다시 연결](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [추가 중 [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)

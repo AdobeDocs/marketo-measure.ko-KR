@@ -4,7 +4,7 @@ description: 오프라인 사용자 지정 채널 설정 - [!DNL Marketo Measure
 title: 오프라인 사용자 지정 채널 설정
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -59,7 +59,7 @@ SFDC 캠페인 유형은 아래 나열된 오프라인 채널의 탭에 표시�
 
 시간을 내어 다음으로 이동 [!DNL Salesforce] 포함할 기존 레코드 유형의 수와 특성 및 위의 정보를 기반으로 추가 캠페인을 만들어야 하는지 여부를 결정합니다. 필요한 정보를 모두 작성했으면 업로드할 준비가 된 것입니다.
 
-자세히 알아보기 [오프라인 동기화 중 [!DNL Salesforce] 캠페인 [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md).
+자세히 알아보기 [오프라인 동기화 중 [!DNL Salesforce] 캠페인 [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
 
 ## 온라인 마케팅 활동을 위한 SFDC 캠페인 처리 {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

@@ -4,7 +4,7 @@ description: 접점 생성 및 매핑 - [!DNL Marketo Measure] - 제품 설명�
 title: 접점 생성 및 매핑
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [온라인 터치포인트 매핑 대상 [!DNL Marketo Measure] 채널/하위 채널](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [SFDC 내에서 CRM 캠페인 동기화](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
+>* [SFDC 내에서 CRM 캠페인 동기화](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 >* [내에서 CRM 캠페인 동기화 [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [CRM 캠페인 매핑 [!DNL Marketo Measure] 채널/하위 채널](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [판매 활동에서 접점 만들기](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
