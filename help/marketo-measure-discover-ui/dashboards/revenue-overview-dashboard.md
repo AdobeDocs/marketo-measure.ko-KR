@@ -4,7 +4,7 @@ title: 수익 개요 대시보드
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: a90a3c7a8ed7ec83bc50060da8b7ca1e69bd37bd
+source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 3%
@@ -46,30 +46,25 @@ ht-degree: 3%
   <tr>
     <td>총 거래 타일</td>
     <td>CRM에서 "성공한 거래"로 표시된 총 거래 수입니다.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>속성 수익 타일</td>
     <td>터치포인트를 기록한 "마감된 원화" 기회의 총 귀속 수익.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>귀속 거래 타일</td>
     <td>기회로 인한 "마감된 원화" 거래의 총 수입니다.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>수익 및 속성 수익 차트</td>
     <td>이 시계열 막대 차트는 총 수익 과 속성 수익을 병치하여 속성 적용 범위를 포괄적으로 볼 수 있도록 합니다.
     <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
-    <td> </td>
   </tr>
   <tr>
     <td>속성 적용 범위 차트</td>
     <td>이 파이 차트는 속성 수익과 비속성 수익 간의 명확한 시각적 비교를 제공합니다. 그 파이는 전체 수입을 망라한다.
     <br/>
     <img src="assets/revenue-overview-dashboard-2.png"></td>
-    <td> </td>
   </tr>
 </tbody>
 </table>
