@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '788'
 ht-degree: 1%
 
 ---
@@ -150,9 +150,15 @@ ht-degree: 1%
       + [FAQ (다중 통화)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + [!DNL Marketo Measure] Discover UI {#marketo-measure-discover-ui}
    + 대시보드 {#dashboards}
-      + [집단 여정 대시보드 설명서](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [Passport Dashboard 설명서](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [스냅샷 대시보드 설명서](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
+      + [대시보드 기본 사항 살펴보기](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [수익 개요 대시보드](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [속성 수익 대시보드](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [ROI 대시보드](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Passport 대시보드](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+   + 기존 대시보드 {#legacy-dashboards}
+      + [집단 여정 대시보드 설명서](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [Passport Dashboard 설명서](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [스냅샷 대시보드 설명서](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
    + 사용 [!DNL Marketo Measure]의 보고 플랫폼 {#using-marketo-measures-reporting-platform}
       + [일반적인 사용 사례](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [정의 및 백과사전](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
