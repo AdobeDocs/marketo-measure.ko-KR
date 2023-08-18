@@ -2,9 +2,9 @@
 description: 속성 수익 대시보드 - [!DNL Marketo Measure] - 제품
 title: 속성 수익 대시보드
 feature: Reporting
-source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
+source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---
@@ -66,3 +66,7 @@ ht-degree: 3%
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
