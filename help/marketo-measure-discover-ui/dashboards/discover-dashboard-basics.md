@@ -1,10 +1,8 @@
 ---
 description: 대시보드 기본 사항 살펴보기 - [!DNL Marketo Measure] - 제품
 title: 대시보드 기본 사항 살펴보기
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%

@@ -1,13 +1,11 @@
 ---
 description: 수익 개요 대시보드 - [!DNL Marketo Measure] - 제품
 title: 수익 개요 대시보드
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 3%
    <th>구성 요소</th> 
    <th>설명</th>
    <th>드릴스루 필드</th>
-   <th>데이터 유형</th>
+   <th>날짜 유형</th>
    <th>필터</th>
   </tr>
   <tr>
