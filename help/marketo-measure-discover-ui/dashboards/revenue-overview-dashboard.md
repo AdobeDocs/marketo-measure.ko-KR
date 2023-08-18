@@ -4,7 +4,7 @@ title: 수익 개요 대시보드
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 3%
@@ -20,8 +20,8 @@ ht-degree: 3%
 * 매출의 몇 퍼센트가 우리의 마케팅 노력에 기인하는가?
 * 마케팅 노력에 의해 영향을 받은 &quot;원화 마감&quot; 거래의 비율은 얼마입니까?
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>구성 요소</th> 
    <th>설명</th>
@@ -58,13 +58,13 @@ ht-degree: 3%
   <tr>
     <td>수익 및 속성 수익 차트</td>
     <td>이 시계열 막대 차트는 총 수익 과 속성 수익을 병치하여 속성 적용 범위를 포괄적으로 볼 수 있도록 합니다.
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>속성 적용 범위 차트</td>
     <td>이 파이 차트는 속성 수익과 비속성 수익 간의 명확한 시각적 비교를 제공합니다. 그 파이는 전체 수입을 망라한다.
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>

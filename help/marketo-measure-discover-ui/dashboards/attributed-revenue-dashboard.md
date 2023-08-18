@@ -4,11 +4,67 @@ title: 속성 수익 대시보드
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
-source-wordcount: '10'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 3%
 
 ---
 
 # 속성 수익 대시보드 {#attributed-revenue-dashboard}
+
+속성 매출 대시보드는 마케팅 노력과 직접 연결된 매출에 초점을 맞춘 관점을 제공합니다. 마케팅 전략이 계약을 체결하는 데 어떻게 중요했는지 자세히 살펴보십시오.
+
+질문과 대답은 다음과 같습니다.
+
+수익 측면에서 가장 높은 순위를 차지하는 채널, 하위 채널 또는 캠페인은 무엇입니까?
+귀속된 매출의 총액과 귀속된 마감된 거래의 수는 얼마입니까?
+
+<table style="table-layout:auto"> 
+<tbody>
+  <tr> 
+   <th>구성 요소</th> 
+   <th>설명</th>
+   <th>드릴스루 필드</th>
+   <th>데이터 유형</th>
+   <th>필터</th>
+  </tr>
+  <tr>
+    <td>총 수익 타일</td>
+    <td>속성 매출을 포함하여 CRM에서 가져온 총 매출입니다.</td>
+    <td rowspan="6"><li>영업 기회 ID</li>
+<li>영업 기회 이름</li>
+<li>영업 기회 생성 날짜</li>
+<li>영업 기회 종료 날짜</li>
+<li>닫힘(Y/N)</li>
+<li>성공(Y/N)</li>
+<li>현재 단계</li>
+<li>매출</li></td>
+    <td rowspan="6">마감일</td>
+    <td rowspan="6">날짜</td>
+  </tr>
+  <tr>
+    <td>총 거래 타일</td>
+    <td>CRM에서 "성공한 거래"로 표시된 총 거래 수입니다.</td>
+  </tr>
+  <tr>
+    <td>속성 수익 타일</td>
+    <td>터치포인트를 기록한 "마감된 원화" 기회의 총 귀속 수익.</td>
+  </tr>
+  <tr>
+    <td>귀속 거래 타일</td>
+    <td>기회로 인한 "마감된 원화" 거래의 총 수입니다.</td>
+  </tr>
+  <tr>
+    <td>수익 및 속성 수익 차트</td>
+    <td>이 시계열 막대 차트는 총 수익 과 속성 수익을 병치하여 속성 적용 범위를 포괄적으로 볼 수 있도록 합니다.
+    <br/>PICC</td>
+  </tr>
+  <tr>
+    <td>속성 적용 범위 차트</td>
+    <td>이 파이 차트는 속성 수익과 비속성 수익 간의 명확한 시각적 비교를 제공합니다. 그 파이는 전체 수입을 망라한다.
+    <br/>
+    PICC</td>
+  </tr>
+</tbody>
+</table>
