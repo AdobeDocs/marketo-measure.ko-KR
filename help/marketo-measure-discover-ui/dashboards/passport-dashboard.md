@@ -2,9 +2,9 @@
 description: Passport 대시보드 - [!DNL Marketo Measure] - 제품
 title: Passport 대시보드
 feature: Reporting
-source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
+source-git-commit: 73f7d14f94b236b5e078a4c8ff7a1e81d13779ee
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '290'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,15 @@ Passport 대시보드는 마케터에게 지정된 기간 내에 다양한 단�
 <li>시작 날짜와 종료 날짜는 모두 포괄적입니다.</li>
 <br/><img src="assets/passport-dashboard-1.png" width="600"></td>
     <td rowspan="2">전환 날짜</td>
-    <td></td>
+    <td><li>영업 기회 ID</li>
+<li>영업 기회 이름</li>
+<li>제작일</li>
+<li>마감일</li>
+<li>닫힘(Y/N)</li>
+<li>성공(Y/N)</li>
+<li>현재 단계</li>
+<li>전환 입력 날짜</li>
+<li>전환 종료 날짜</li></td>
     <td rowspan="2"><li>날짜</li>
 <li>채널</li>
 <li>부채널</li>
