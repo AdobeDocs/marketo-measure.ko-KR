@@ -4,9 +4,9 @@ title: 대시보드 기본 사항 살펴보기
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 대시보드 기본 사항 살펴보기 {#discover-dashboard-basics}
 
 이 문서는 다시 설계된 인터페이스의 기본 기능을 안내하므로 데이터를 쉽게 액세스하고 해석할 수 있습니다. 필터 창의 역학을 자세히 살펴보고 드릴 기능, 교차 필터링 및 툴팁과 같은 향상된 보고 기능의 복잡성을 찾아냅니다.
+
+>[!NOTE]
+>
+>이 대시보드는 현재 베타 버전입니다. 이 전환 단계에서는 현재 및 새 대시보드에 모두 액세스할 수 있습니다. 현재 대시보드는 완전히 전환하여 최적의 기능을 보장하면 더 이상 사용되지 않습니다.
 
 ## 필터 창 {#filter-pane}
 
@@ -23,26 +27,36 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <th>이름</th> 
-   <th>아이콘</th>
    <th>설명</th>
   </tr> 
   <tr> 
-   <td>햄버거 단추</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>필터 창을 열거나 닫으려면 전환합니다.</td>
+   <td>필터 전환 단추</td>
+   <td>필터 창을 열거나 닫으려면 전환합니다.
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>재설정</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>필터를 기본 설정으로 되돌립니다.</td>
+   <td>재설정 단추</td>
+   <td>필터를 기본 설정으로 되돌립니다.
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>시각화에 대한 필터</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>시각화의 오른쪽 상단 모서리로 마우스를 가져간 다음 버튼을 클릭하여 활성 필터를 확인합니다.</td>
+   <td>적용 단추</td>
+   <td>을(를) 클릭하여 대시보드에서 필터 변경 사항을 확인하고 구현합니다.
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>세그먼트 단추</td>
+   <td>세그먼트 필터가 있는 대시보드에서 필터 창 하단의 세그먼트 버튼을 클릭하여 세그먼트로 전환합니다.
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## 시각화에 대한 필터 {#filters-on-visual}
+
+적용된 필터의 읽기 전용 목록을 보려면 시각적 개체의 오른쪽 상단 모서리에 마우스를 가져다 대십시오.
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## 보고서 기능 {#report-capabilities}
 
@@ -70,21 +84,24 @@ ht-degree: 0%
 
 ### 드릴스루 {#drill-through}
 
-* 시각적 요소 뒤의 데이터를 탐색하려면 시각적 요소를 마우스 오른쪽 단추로 클릭하고 &quot;드릴스루&quot; 옵션을 선택합니다.
+시각적 요소 뒤의 데이터를 탐색하려면 시각적 요소를 마우스 오른쪽 단추로 클릭하고 &quot;드릴스루&quot; 옵션을 선택합니다.
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* 기본 데이터를 내보내려면 드릴스루 페이지의 오른쪽 상단 모서리로 마우스를 가져간 후 &quot;추가 옵션&quot; 단추를 누르고 &quot;데이터 내보내기&quot;를 선택합니다.
+### 데이터 내보내기 {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+시각화에서 기본 데이터를 내보내려면 오른쪽 상단 모서리로 마우스를 가져갑니다. &quot;기타 옵션&quot; 버튼을 클릭하고 &quot;데이터 내보내기&quot;를 선택한 다음 선호하는 형식을 선택한 다음 &quot;내보내기&quot;를 클릭합니다.
+![](assets/discover-dashboard-basics-10.gif)
 
-* 특정 시각적 또는 타일을 확대하려면 오른쪽 상단 모서리로 마우스를 가져간 후 &quot;포커스&quot; 버튼을 선택합니다.
+### 포커스 모드 {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+특정 시각적 또는 타일을 확대하려면 오른쪽 상단 모서리로 마우스를 가져간 후 &quot;포커스&quot; 버튼을 선택합니다.
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### 교차 필터링 {#cross-filtering}
 
-기본적으로 하나의 시각화에서 값 또는 축 레이블을 선택하면 보고서 페이지의 다른 시각화가 교차 필터링되어 관련성 있고 필터링된 데이터만 표시됩니다.
+하나의 시각화에서 값 또는 축 레이블을 선택하면 보고서 페이지의 다른 시각화가 상호 필터링되어 관련성이 있고 필터링된 데이터만 표시됩니다.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
