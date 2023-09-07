@@ -4,9 +4,9 @@ title: 대시보드 기본 사항 살펴보기
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
+source-git-commit: db435a669ca9a24a0661191bef9e14a8f8c78eb6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,23 @@ ht-degree: 0%
    <th>설명</th>
   </tr> 
   <tr> 
-   <td>필터 전환 단추</td>
+   <td><b>필터 전환 단추</b></td>
    <td>필터 창을 열거나 닫으려면 전환합니다.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>재설정 단추</td>
-   <td>필터를 기본 설정으로 되돌립니다.
+   <td><b>검색창</b></td>
+   <td>필터 창 상단의 검색을 사용하여 특정 필터를 검색합니다. 각 필터에는 자체 검색 창도 있습니다.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>적용 단추</td>
-   <td>을(를) 클릭하여 대시보드에서 필터 변경 사항을 확인하고 구현합니다.
+   <td><b>필터 지우기 단추</b></td>
+   <td>필터를 지우려면 각 필터의 오른쪽 상단 모서리에 있는 지우개 아이콘을 클릭합니다.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>세그먼트 단추</td>
-   <td>세그먼트 필터가 있는 대시보드에서 필터 창 하단의 세그먼트 버튼을 클릭하여 세그먼트로 전환합니다.
+   <td><b>적용 단추</b></td>
+   <td>을(를) 클릭하여 대시보드에서 필터 변경 사항을 확인하고 구현합니다.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
