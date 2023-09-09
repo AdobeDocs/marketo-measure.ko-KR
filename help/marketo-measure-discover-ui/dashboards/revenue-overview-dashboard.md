@@ -4,7 +4,7 @@ title: 수익 개요 대시보드
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 ### KPI 타일 {#kpi-tiles}
 
-* 총 수익: 접점이 없는 기회를 포함하여 &quot;성공한 마감&quot; 기회의 총 수익입니다.
-* 총 거래: 터치포인트가 없는 기회를 포함하여 &quot;마감된&quot; 기회 수.
-* 속성 매출: 터치포인트가 있는 &quot;마감된 원&quot; 기회의 총 매출입니다.
-* 속성 거래: 터치포인트가 있는 &quot;마감된&quot; 기회 수
+* **총 수익**: 터치포인트가 없는 기회를 포함하여 &quot;성공한 마감&quot; 기회의 총 매출액.
+* **총 거래 수**: 터치포인트가 없는 기회를 포함한 &quot;성공한 마감&quot; 기회 수
+* **속성 수익**: 터치포인트가 있는 &quot;성공한 마감&quot; 기회의 총 매출액.
+* **속성 거래**: 터치포인트가 있는 &quot;마감된 성공&quot; 기회 수
 
 ### 수익 및 속성 수익 차트 {#revenue-and-attributed-revenue-chart}
 

@@ -4,9 +4,9 @@ title: Passport 대시보드
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Passport 대시보드는 마케터에게 지정된 기간 내에 다양한 단�
 
 ![](assets/passport-dashboard-1.png)
 
-### 단계 이름별 단계에 있는 연락처 {#contacts-in-stage-by-stage-name}
+### 단계 이름별 단계의 잠재 고객 또는 연락처 {#leads-or-contacts-in-stage-by-stage-name}
 
 * 각 단계에는 지정된 일정에 따라 연결된 터치포인트가 있는 잠재 고객 또는 연락처 수가 표시됩니다.
    * &quot;잠재 고객&quot; 또는 &quot;연락처&quot;를 표시할지 여부는 설정 > 속성 설정 > 기본 대시보드 개체에 설정된 기본 설정에 따라 결정됩니다.
