@@ -4,9 +4,9 @@ title: 속성 수익 대시보드
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### KPI 타일 {#kpi-tiles}
 
-* **속성 수익**: 선택한 속성 모델을 기반으로, 필터링된 날짜 기간 내에 마감된 터치포인트가 있는 기회 의 총 수익 기여도
+* **속성 수익**: 터치포인트가 있는 기회에서 선택한 속성 모델을 기반으로 한 총 수익 기여도
 * **속성 거래**: 터치포인트가 있는 &quot;마감된 성공&quot; 기회 수
 
 ### 시간 경과에 따른 채널별 속성 수익 차트 {#attributed-revenue-by-channel-over-time-chart}
