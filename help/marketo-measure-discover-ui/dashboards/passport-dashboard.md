@@ -1,10 +1,8 @@
 ---
 description: Passport 대시보드 - [!DNL Marketo Measure] - 제품
 title: Passport 대시보드
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
+source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -54,7 +52,7 @@ Passport 대시보드는 마케터에게 지정된 기간 내에 다양한 단�
 * 날짜(전환 날짜 기준)
 * 속성 모델
 * 채널, 하위 채널
-* 캠페인
+* Campaign
 * 세그먼트
 
 >[!MORELIKETHIS]
