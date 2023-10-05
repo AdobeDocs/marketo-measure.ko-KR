@@ -4,7 +4,7 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 2%
@@ -161,15 +161,15 @@ ht-degree: 2%
       + [집단 여정 대시보드 설명서](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Passport Dashboard 설명서](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
       + [스냅샷 대시보드 설명서](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
-         + 사용 [!DNL Marketo Measure]의 보고 플랫폼 {#using-marketo-measures-reporting-platform}
-            + [일반적인 사용 사례](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
-            + [정의 및 백과사전](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-            + [드릴스루](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
-            + [필터](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
-            + [FAQ](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
-            + [참여 경로](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
-            + [마케팅 운영 타일](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-            + [개요 보드 타일](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
+      + 사용 [!DNL Marketo Measure]의 보고 플랫폼 {#using-marketo-measures-reporting-platform}
+         + [일반적인 사용 사례](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
+         + [정의 및 백과사전](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
+         + [드릴스루](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
+         + [필터](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
+         + [FAQ](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
+         + [참여 경로](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
+         + [마케팅 운영 타일](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
+         + [개요 보드 타일](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] 및 Adobe {#marketo-measure-and-adobe}
    + [[!DNL Marketo Measure] Adobe Analytics과 통합](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] Adobe Launch와 통합](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
