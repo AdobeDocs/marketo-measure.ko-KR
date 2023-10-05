@@ -2,9 +2,10 @@
 description: 새로운 Discover Dashboard 안내서 - [!DNL Marketo Measure] - 제품
 title: 새로운 Discover Dashboard 안내서
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -502,3 +503,9 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
 ## 피드백 {#feedback}
 
 귀하의 경험을 향상시키기 위해 지속적으로 노력하고 있으므로, 이 최신 업데이트에 대한 귀하의 의견에 대단히 감사드립니다. 여러분의 생각은 향후 개선에 직접적인 영향을 미쳐 당사의 플랫폼이 항상 고객의 요구에 부합하도록 합니다. Marketo Measure의 피드백 양식을 확인하십시오.
+
+>[!MORELIKETHIS]
+>
+>* [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [대시보드 데이터 가시성 정책](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+
