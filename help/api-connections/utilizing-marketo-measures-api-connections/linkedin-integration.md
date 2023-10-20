@@ -4,9 +4,9 @@ description: LinkedIn 통합 - [!DNL Marketo Measure] - 제품 설명서
 title: LinkedIn 통합
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 사용 가능 {#availability}
 
-모든 고객이 사용할 수 있습니다.
+모든 사용자가 사용할 수 있습니다.
 
 ## 요구 사항 {#requirements}
 
@@ -127,6 +127,12 @@ Creative C : 공유 234\
 
 ## 작동 방법: 리드 젠 Forms {#how-it-works-lead-gen-forms}
 
+**[!DNL LinkedIn's]고유한 자동 태그 지정 요구 사항**
+
+[!DNL Marketo Measure] 을(를) 추적하는 데 도움이 될 수 있음 [!DNL LinkedIn] 랜딩 페이지에 자동 태깅하여 캠페인 성과를 높입니다.
+
+[!DNL Marketo Measure] 고유한 LinkedIn 공유로 크리에이티브를 검색하고 다음을 추가합니다. `?_bl={creativeId}` 매개 변수를 끝에 추가합니다.
+
 **프로세스**
 
 까지 [!DNL LinkedIn's] 광고 양식 API 및 광고 양식 응답 API를 사용하면 광고 계정에 대한 양식 제출 데이터를 수집하고 이메일 주소를 CRM 또는 Marketo의 리드에 연결할 수 있습니다.
@@ -162,95 +168,99 @@ Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터�
  </colgroup> 
  <tbody> 
   <tr> 
-   <th>접점 필드</th> 
+   <th style="width:30%">접점 필드</th> 
    <th>샘플 값</th> 
   </tr> 
   <tr> 
-   <td><p>광고 Id </p></td> 
-   <td><p>84186224 </p></td> 
+   <td>광고 Id</td>
+   <td>84186224</td>
   </tr> 
   <tr> 
-   <td><p>광고 콘텐츠 </p></td> 
-   <td><p>copy-1-image-2-man #B2B 마케터의 95%가 수요 창출 전략을 성공으로 간주합니다. 자세히 알아보기: [!DNL https]://lnkd.in/jgdi50vKrgv</p></td> 
+   <td>광고 콘텐츠</td>
+   <td>copy-1-image-2-man #B2B 마케터의 95%가 수요 창출 전략을 성공으로 간주합니다. 자세히 알아보기: [!DNL https]://lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
-   <td><p>광고 그룹 ID </p></td> 
-   <td><p>(공백) </p></td> 
+   <td>광고 그룹 ID</td>
+   <td>(공백)</td>
   </tr> 
   <tr> 
-   <td><p>광고 그룹 이름 </p></td> 
-   <td><p>(공백) </p></td> 
+   <td>광고 그룹 이름</td>
+   <td>(공백)</td>
   </tr> 
   <tr> 
-   <td><p>광고 캠페인 Id </p></td> 
-   <td><p>138949954 </p></td> 
+   <td>광고 캠페인 Id</td>
+   <td>138949954</td>
   </tr> 
   <tr> 
-   <td><p>광고 캠페인 이름 </p></td> 
-   <td><p>SU - COM 계정 - 수요 기술 </p></td> 
+   <td>광고 캠페인 이름</td>
+   <td>SU - COM 계정 - 수요 기술</td>
   </tr> 
   <tr> 
-   <td><p>광고 대상 URL </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>광고 대상 URL <b>*</b></td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>양식 URL </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>양식 URL</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>양식 URL - 원시 </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>양식 URL - 원시</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>키워드 ID </p></td> 
-   <td><p>(공백) </p></td> 
+   <td>키워드 ID</td> 
+   <td>(공백)</td> 
   </tr> 
   <tr> 
-   <td><p>키워드 일치 유형 </p></td> 
-   <td><p>(공백) </p></td> 
+   <td>키워드 일치 유형</td> 
+   <td>(공백)</td> 
   </tr> 
   <tr> 
-   <td><p>랜딩 페이지 </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders </p></td> 
+   <td>랜딩 페이지</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
   </tr> 
   <tr> 
-   <td><p>랜딩 페이지 - 원시 </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>랜딩 페이지 - 원시</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>마케팅 채널 </p></td> 
-   <td><p>유료 소셜 </p></td> 
+   <td>마케팅 채널</td> 
+   <td>유료 소셜</td> 
   </tr> 
   <tr> 
-   <td><p>마케팅 채널 - 경로 </p></td> 
-   <td><p>유료 Social.LinkedIn </p></td> 
+   <td>마케팅 채널 - 경로</td> 
+   <td>유료 Social.LinkedIn</td> 
   </tr> 
   <tr> 
-   <td><p>미디엄 </p></td> 
-   <td><p>"cpc" 또는 "리드 젠 양식"</p></td> 
+   <td>미디엄</td> 
+   <td>"cpc" 또는 "리드 젠 양식"</td> 
   </tr> 
   <tr> 
-   <td><p>레퍼러 페이지 </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>레퍼러 페이지</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>레퍼러 페이지 - 원시 </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>레퍼러 페이지 - 원시</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>검색 구문 </p></td> 
-   <td><p>(공백) </p></td> 
+   <td>검색 구문</td> 
+   <td>(공백)</td> 
   </tr> 
   <tr> 
-   <td><p>접점 유형 </p></td> 
-   <td><p>웹 양식 </p></td> 
+   <td>접점 유형</td> 
+   <td>웹 양식</td>
   </tr> 
   <tr> 
-   <td><p>접점 소스 </p></td> 
-   <td><p>LinkedIn </p></td> 
+   <td>접점 소스</td>
+   <td>LinkedIn</td>
   </tr> 
  </tbody> 
 </table>
+
+**&#42;** _&quot;광고 대상 URL&quot; 필드는 스폰서된 콘텐츠에 대해서만 채워집니다. 리드 겐 Forms에 대해 채워져 있지 않습니다._
+
+<br>
 
 ## 비용 {#costs}
 
@@ -288,7 +298,7 @@ Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터�
 
 **예전 창작물에는 어떤 일이 일어날까요 [!DNL Marketo Measure] 의 새 버전을 만드시겠습니까?**
 
-날짜 [!DNL Marketo Measure] 공유를 다시 만들고 새 Creative에 배치하면 이전 Creative가 보관됩니다. 이것이 바로 이 이유 때문입니다 [!DNL Marketo Measure] 은 보관된 캠페인 또는 크리에이티브에 태그를 지정하지 않으며, 그렇지 않으면 와 반복됩니다. [!DNL Marketo Measure] 무기한으로 태그를 지정하려고 합니다.
+날짜 [!DNL Marketo Measure] 공유를 다시 만들고 새 Creative에 배치하면 이전 Creative가 보관됩니다. 이 또한 그 이유입니다 [!DNL Marketo Measure] 은 보관된 캠페인 또는 크리에이티브에 태그를 지정하지 않으며, 그렇지 않으면 와 반복됩니다. [!DNL Marketo Measure] 무기한으로 태그를 지정하려고 합니다.
 
 **만든 광고의 대상 URL이 원본 광고와 일치하지 않는 이유는 무엇입니까?**
 

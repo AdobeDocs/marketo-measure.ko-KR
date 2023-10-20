@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: 2d2fe74998abd853f6592c5e65edfe2ce39d7ce6
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '793'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,6 @@ ht-degree: 2%
    + 사용자 정의 수익 금액 {#custom-revenue-amount}
       + [사용자 지정 수익 금액 활용에 대한 우수 사례](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [사용자 정의 수익 금액 필드 사용](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-      + [테스트 문서](advanced-marketo-measure-features/custom-revenue-amount/doc.md)
       + [데이터 로더를 사용하여 업데이트 [!DNL Marketo Measure] 사용자 정의 금액 필드](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
    + 속성을 통해 보기 {#view-through-attribution}
       + [[!DNL Marketo Measure] 기여도 분석을 통한 보기 FAQ](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
