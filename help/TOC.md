@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
+source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '793'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 2%
       + [[!DNL Marketo Measure] 쿠키](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
       + [정의 [!DNL Marketo Measure] 웹 세션](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [테스트 우수 사례](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
-      + [쿠키 동기화 지연](marketo-measure-tracking/setting-up-tracking/delayed-cookie-sync.md)
 + 구성 및 설정 {#configuration-and-setup}
    + 시작하기 [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [접점 생성 및 매핑](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
