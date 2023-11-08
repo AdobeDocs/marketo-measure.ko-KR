@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '797'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 2%
    + 시작하기 [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [접점 생성 및 매핑](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [속성 매핑 방법론](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
+      + [Adobe Admin Console 설정](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [구매자 접점 및 구매자 속성 접점 간의 차이](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [BT 및 간 접점 위치와 생성에 대한 설명 [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] CRM 패키지 없는 통합](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
@@ -80,13 +81,13 @@ ht-degree: 2%
       + [오프라인 사용자 지정 채널 설정](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [사용자 지정 캠페인 동기화](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
       + [여러 캠페인 레코드 유형에 대한 구성](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + 더 이상 사용되지 않는 프로세스 {#deprecated-processes}
-         + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
-         + [Campaign 동기화 날짜](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
-         + [캠페인 목록 보기 만들기 [!DNL Salesforce] 캠페인](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-         + [Dynamics 캠페인 및 마케팅 목록](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
-         + [이전 데이터 동기화](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
-         + [오프라인 캠페인 동기화](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+      + 이전 프로세스 {#legacy-processes}
+         + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+         + [Campaign 동기화 날짜](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+         + [캠페인 목록 보기 만들기 [!DNL Salesforce] 캠페인](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Dynamics 캠페인 및 마케팅 목록](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
+         + [이전 데이터 동기화](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+         + [오프라인 캠페인 동기화](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 + API 연결 {#api-connections}
    + 활용 [!DNL Marketo Measure]의 API 연결 {#utilizing-marketo-measures-api-connections}
       + [통합 광고 플랫폼](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)

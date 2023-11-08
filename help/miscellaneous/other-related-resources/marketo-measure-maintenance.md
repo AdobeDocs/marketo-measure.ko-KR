@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] 유지 관리 - [!DNL Marketo Measure] - �
 title: "[!DNL Marketo Measure] 유지 관리"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 **새 오프라인 캠페인에 대한 구매자 접점 동기화(2x/월)**
 
-온보딩 중에 배운 대로 [!DNL Marketo Measure] crm의 캠페인과 동기화하여 오프라인 마케팅 활동에 대한 정보를 가져옵니다. 조직에서 새 캠페인을 시작할 때 각 캠페인에 대한 구매자 터치포인트를 적절하게 활성화해야 합니다. 체크아웃 [이 문서](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)추가 정보.
+온보딩 중에 배운 대로 [!DNL Marketo Measure] crm의 캠페인과 동기화하여 오프라인 마케팅 활동에 대한 정보를 가져옵니다. 조직에서 새 캠페인을 시작할 때 각 캠페인에 대한 구매자 터치포인트를 적절하게 활성화해야 합니다. 체크아웃 [이 문서](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)추가 정보.
 
 **모든 채널에 대한 지출 업로드(1x/월)**
 

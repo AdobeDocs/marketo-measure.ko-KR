@@ -3,7 +3,7 @@ description: 지출 관리 방법 - [!DNL Marketo Measure] - 제품 설명서
 title: 지출 관리 방법
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 활성화하면 이 기능이 다음 기준을 충족하는 CRM 캠페인/프로그램에서 비용을 자동으로 가져옵니다
 
-난... [!DNL Marketo Measure] 먼저 Campaign/Program이 일치에서 터치포인트를 만들고 있는지 확인합니다 [Campaign 동기화 규칙](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 을(를) 만들었거나 일치시킵니다. [프로그램 동기화 규칙](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) 또는 을(를) 만들었습니다. [구매자 접점 값 활성화](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) 는 &quot;모든 캠페인 멤버 포함&quot; 또는 &quot;응답한&quot; 캠페인 멤버 포함&quot;입니다.
+난... [!DNL Marketo Measure] 먼저 Campaign/Program이 일치에서 터치포인트를 만들고 있는지 확인합니다 [Campaign 동기화 규칙](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 을(를) 만들었거나 일치시킵니다. [프로그램 동기화 규칙](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) 또는 을(를) 만들었습니다. [구매자 접점 값 활성화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) 는 &quot;모든 캠페인 멤버 포함&quot; 또는 &quot;응답한&quot; 캠페인 멤버 포함&quot;입니다.
 
 아.. 캠페인/프로그램에 시작 날짜를 채워야 합니다.
 
