@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Salesforce 패키지 설치 및 설정 - [!
 title: "[!DNL Marketo Measure] [!DNL Salesforce] 패키지 설치 및 설정"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -48,16 +48,6 @@ ht-degree: 0%
 >
 >에 대해 읽기 [!DNL Marketo Measure] 권한 집합을 만들고 [사용 방법](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
-## 설치 [!DNL Marketo Measure] 대시보드 패키지 {#install-marketo-measure-dashboard-package}
-
-다음 [!UICONTROL Dashboard] 확장 패키지에는 3개의 사전 빌드된 대시보드가 포함되어 있습니다. 다음을 설치하는 것이 좋습니다. [!UICONTROL within] 모든 사용자를 위한 프로덕션.
-
-1. 에서 패키지 설치 [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
-
-1. 선택 **[!UICONTROL Install for All Users]**.
-
-   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
-
 ## 만들기 [!DNL Marketo Measure] 프로필 및 사용자 {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] 연결된 을(를) 통해 데이터 전송 및 수신 [!DNL Salesforce] 다음 내의 사용자 [!DNL Marketo Measure] 앱.
@@ -98,3 +88,7 @@ ht-degree: 0%
 1. 선택 **[!UICONTROL Connections]** 다음 범위 내 **[!UICONTROL Integrations]** 그룹화.
 
 1. 현재 연결된 항목 오른쪽에 있는 키 아이콘 을 클릭합니다 [!DNL Salesforce] 연결 및 선택 **프로덕션으로 재인증**. 새 사용자 자격 증명으로 다시 로그인합니다(메시지가 표시되면).
+
+>[!MORELIKETHIS]
+>
+>[Adobe Admin Console 설정](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
