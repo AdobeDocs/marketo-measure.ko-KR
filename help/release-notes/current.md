@@ -1,5 +1,5 @@
 ---
-description: 최신 릴리스 정보 - [!DNL Marketo Measure] - 제품 설명서
+description: 현재 릴리스 정보 -  [!DNL Marketo Measure]  - 제품 설명서
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
