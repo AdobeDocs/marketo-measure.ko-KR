@@ -4,9 +4,9 @@ description: "[!DNL Microsoft Dynamics] CRM 설치 안내서 - Marketo Measure -
 title: "[!DNL Microsoft Dynamics] CRM 설치 안내서"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 ![](assets/3.png)
 
-## [!DNL Marketo Measure] 사용자 권한 {#marketo-measure-user-permissions}
+## 만들기 [!DNL Marketo Measure] 사용자 {#creating-a-marketo-measure-user}
 
-전용 을 만드는 것이 좋습니다 [!DNL Marketo Measure] Dynamics for us 내의 사용자가 을 통해 데이터를 내보내고 가져와 CRM의 다른 사용자와 관련된 문제를 방지할 수 있습니다. 사용자 이름 및 암호와 끝점 URL을 참고하십시오. [!DNL Marketo Measure] 계정입니다.
+CRM의 다른 사용자와 관련된 문제를 방지하기 위해 을 통해 데이터를 내보내고 가져올 수 있도록 Dynamics 내에서 &quot;애플리케이션 사용자&quot;로 전용 Marketo Measure 사용자를 만드는 것이 좋습니다. 사용자 이름 및 암호와 끝점 URL을 기록해 두십시오. [!DNL Marketo Measure] 계정입니다.
 
 ## 보안 역할 {#security-roles}
 
