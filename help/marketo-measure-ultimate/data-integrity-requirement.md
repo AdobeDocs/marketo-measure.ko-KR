@@ -4,7 +4,7 @@ title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: 3725ef14f90269ebdada1d81692f3b7283e6ec6e
+source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 18%
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 ## 엔티티 개체 {#entity-object}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>XDM 클래스</th>
     <th>XDM 필드 그룹</th>
@@ -1051,7 +1051,7 @@ ht-degree: 18%
 
 ## ExperienceEvent 유형 지원됨 {#experienceevent-type-supported}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>이벤트 유형</th>
     <th>XDM 이벤트 유형</th>
