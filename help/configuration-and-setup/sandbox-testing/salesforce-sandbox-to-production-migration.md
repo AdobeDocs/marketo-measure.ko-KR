@@ -4,9 +4,9 @@ description: Salesforce 샌드박스를 프로덕션으로 마이그레이션 - 
 title: Salesforce 샌드박스를 프로덕션으로 마이그레이션
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 테스트를 선택한 경우 [!DNL Marketo Measure] 다음 기간: [!DNL Salesforce] 샌드박스 환경입니다. 준비가 되면 다음 지침에 따라 프로덕션으로 마이그레이션하십시오. 다음 지침은 를 이미 다운로드했다고 가정합니다. [!DNL Marketo Measure] 를 샌드박스 조직에 패키지화하여 필요한 테스트를 수행하고 푸시할 준비가 되었습니다. [!DNL Marketo Measure] 프로덕션에
 
-## 1단계: 설치 [!DNL Marketo Measure] 프로덕션에 패키지 [!DNL Salesforce] 인스턴스 {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## 1단계: 설치 [!DNL Marketo Measure] 프로덕션에 패키지 [!DNL Salesforce] 인스턴스
 
-* 두 개 설치 [!DNL Marketo Measure] 를 사용하여 프로덕션에 패키지[!UICONTROL All Users]&quot; 설정
+* 설치 [!DNL Marketo Measure] 를 사용하여 프로덕션에 패키지[!UICONTROL All Users]&quot; 설정
 
    * [기본 패키지](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
