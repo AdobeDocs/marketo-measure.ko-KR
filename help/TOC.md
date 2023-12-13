@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
+source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '806'
+ht-degree: 1%
 
 ---
 
@@ -154,6 +154,7 @@ ht-degree: 2%
       + [새로운 Discover Dashboard 안내서](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [수익 개요 대시보드](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [속성 수익 대시보드](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+        [참여 대시보드](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [ROI 대시보드](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Passport 대시보드](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [웹 트래픽 대시보드](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
@@ -200,7 +201,7 @@ ht-degree: 2%
       + [[!DNL Marketo Measure] 101 보고서 개요](marketo-measure-salesforce-reporting/marketo-measure-reports/marketo-measure-101-reports-overview.md)
       + [마케팅 채널별 기회](marketo-measure-salesforce-reporting/marketo-measure-reports/opportunities-by-marketing-channel.md)
       + [마케팅 채널별 영업 기회 손실 마감](marketo-measure-salesforce-reporting/marketo-measure-reports/closed-lost-opportunities-by-marketing-channel.md)
-      + [[!UICONTROL Leads with Buyer Touchpoints] 보고](marketo-measure-salesforce-reporting/marketo-measure-reports/leads-with-buyer-touchpoints-report.md)
+      + [[!UICONTROL Leads with Buyer Touchpoints] 보고서](marketo-measure-salesforce-reporting/marketo-measure-reports/leads-with-buyer-touchpoints-report.md)
       + [구매자 속성 터치포인트가 있거나 없는 기회 보고](marketo-measure-salesforce-reporting/marketo-measure-reports/reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints.md)
       + [내 보고서의 레코드 복제](marketo-measure-salesforce-reporting/marketo-measure-reports/duplicate-records-in-my-report.md)
    + 추가 기능 {#additional-functionality}
