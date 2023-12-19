@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
+source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '812'
 ht-degree: 1%
 
 ---
@@ -152,13 +152,16 @@ ht-degree: 1%
    + 대시보드 {#dashboards}
       + [대시보드 기본 사항 살펴보기](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [새로운 Discover Dashboard 안내서](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [수익 개요 대시보드](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [속성 수익 대시보드](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-        [참여 대시보드](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [ROI 대시보드](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Passport 대시보드](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [웹 트래픽 대시보드](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [대시보드 데이터 가시성 정책](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [속성 수익 대시보드](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [참여 대시보드](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [리드 속도 대시보드](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [영업 기회 속도 대시보드](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Passport 대시보드](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [수익 개요 대시보드](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [ROI 대시보드](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [웹 트래픽 대시보드](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+
    + 기존 대시보드 {#legacy-dashboards}
       + [집단 여정 대시보드 설명서](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Passport Dashboard 설명서](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
