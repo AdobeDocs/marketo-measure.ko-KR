@@ -4,9 +4,9 @@ title: '[!DNL Marketo Measure] Ultimate 구현 안내서'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 도입 문장
 
-표준 계층보다 Ultimate 사용 시 주요 차이점 {#main-differences-when-using-ultimate-over-standard-tiers}
+## 표준 계층보다 Ultimate 사용 시 주요 차이점 {#main-differences-when-using-ultimate-over-standard-tiers}
 
 AEP를 통해 B2B 데이터 가져오기: 마케터는 AEP를 통해 B2B 데이터(예: 계정, 기회, 연락처, 리드, 캠페인, 캠페인 멤버, 활동)를 가져와야 합니다. 거의 모든 데이터 소스와 동일한 유형의 여러 데이터 소스에서 수집하여 속성에 대한 모든 데이터를 가져옵니다.
 
@@ -36,42 +36,42 @@ Ultimate 사용자에게 AEP가 제공됩니다. 이미 AEP가 있는 경우 새
 
 ## 스키마 및 데이터 세트 {#schemas-and-datasets}
 
->[!TIP]
+>[!NOTE]
 >
 >체크아웃 [스키마의 빌딩 블록](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) 스키마, 클래스 및 필드 그룹에 대한 개요입니다.
 
-XDM 스키마 = 클래스 + 스키마 필드 그룹*
+**XDM 스키마 = 클래스 + 스키마 필드 그룹&#42;**
 
 * 필수 필드는 변경할 수 없습니다. 고객은 필요에 따라 사용자 정의 필드를 만들고 추가할 수 있습니다.
 * 계층 구조를 기반으로 한 필드 이름의 예: accountOrganization.annualRevenue.amount
 
 &#42; _스키마는 클래스와 0개 이상의 스키마 필드 그룹으로 구성됩니다. 즉, 필드 그룹을 사용하지 않고 데이터 세트 스키마를 구성할 수 있습니다._
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-ExL: 데이터 세트 개요: AEP에 성공적으로 수집된 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구성입니다.
+[데이터 세트 개요](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): AEP에 성공적으로 수집된 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구성입니다.
 
 ## 스키마 만들기 {#creating-a-schema}
 
-고객은 자동 생성 유틸리티를 사용하여 10개의 표준 B2B 스키마를 생성하는 것이 좋습니다.
+자동 생성 유틸리티를 사용하여 10개의 표준 B2B 스키마를 생성하는 것이 좋습니다.
 
-유틸리티를 다운로드하고 설정하는 단계는 ExL: B2B 네임스페이스 및 스키마의 &quot;B2B 네임스페이스 및 스키마 자동 생성 유틸리티 설정&quot; 섹션에서 확인할 수 있습니다
+* 유틸리티를 다운로드하고 설정하는 단계 [은(는) 여기에서 찾을 수 있음](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
 
-CDP 권한이 있는 고객의 경우: 소스 페이지로 이동하여 스키마를 만듭니다.
+이 있는 사용자의 경우 _**CDP 권한**_: 소스 페이지로 이동하여 스키마를 만듭니다.
 
-소스에서 데이터 추가 > 템플릿 사용을 선택합니다.
+* 소스에서 데이터 추가 > 템플릿 사용을 선택합니다.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-계정 및 모든 B2B 템플릿을 선택하여 10개의 표준 B2B 스키마를 만듭니다.
+* 계정 및 모든 B2B 템플릿을 선택하여 10개의 표준 B2B 스키마를 만듭니다.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## 데이터 흐름 {#dataflows}
 
-ExL: 데이터 흐름 개요
+[데이터 흐름 개요](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
 
-데이터 흐름을 만드는 절차:
+**데이터 흐름을 만드는 절차:**
 
 1. 소스를 선택합니다.
 1. 기존 계정을 선택하거나 계정을 만듭니다.
@@ -91,23 +91,30 @@ ExL: 데이터 흐름 개요
    >* 데이터 흐름을 편집할 수 있지만 매핑이 변경될 때 데이터가 채워지지 않습니다.
    >* 필수 필드가 NULL이면 전체 흐름이 거부됩니다.
 
-ExL: Marketo Measure Ultimate Data Integrity 요구 사항
+   >[!NOTE]
+   >
+   >[Marketo Measure Ultimate Data Integrity 요구 사항](help/marketo-measure-ultimate/data-integrity-requirement.md)
 
 1. 데이터 로드 케이던스를 설정합니다.
 1. 검토 및 완료.
 1. 데이터 흐름 상태에 대한 측정값 UI 설정의 &quot;계정 상태&quot; 페이지를 확인하십시오.
 
-모니터링: 소스 → 데이터 흐름 페이지에서 데이터 흐름의 상태를 확인 데이터 세트의 활동 세부 정보를 보려면 데이터 세트를 클릭하면 됩니다. 데이터 흐름 오류를 보려면 데이터 흐름을 선택하고 데이터 흐름 실행을 선택한 다음 &quot;오류 진단 미리 보기&quot;를 클릭하십시오.
+**모니터링:**
+
+소스 > 데이터 흐름 페이지에서 데이터 흐름의 상태를 확인
+
+* 데이터 세트의 활동 세부 정보를 보려면 데이터 세트를 클릭하면 됩니다.
+* 데이터 흐름 오류를 보려면 데이터 흐름을 선택하고 데이터 흐름 실행을 선택한 다음 &quot;오류 진단 미리 보기&quot;를 클릭합니다.
 
 ## 데이터 검사 {#data-inspection}
 
-ExL: Marketo Measure Ultimate Data Integrity Requirement 이 문서에는 각 XDM에 대한 필수 필드와 검사 쿼리가 포함됩니다. ExL에 게시됩니다.
+ExL: Marketo Measure Ultimate Data Integrity Requirement 이 문서에는 각 XDM에 대한 필수 필드와 검사 쿼리가 포함됩니다. ExL에 게시됩니다. - 이미 위에 태그가 지정되었습니다. 다시 POST???
 
 옵션 1: UI에서 직접 쿼리를 실행하려면 데이터 관리 아래의 쿼리 탭에 액세스합니다.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-옵션 2: PSQL 다운로드 및 사용(더 빠르고 안정적인) ExL: PSQL을 쿼리 서비스에 연결
+옵션 2: [PSQL 다운로드 및 사용](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (더 빠르고 안정적인)
 
 ## Marketo Measure에 대한 데이터 세트 활성화 {#activate-dataset-for-marketo-measure}
 
@@ -118,35 +125,46 @@ ExL: Marketo Measure Ultimate Data Integrity Requirement 이 문서에는 각 XD
 >선택한 후에는 변경할 수 없습니다.
 
 1. AEP에서 &quot;대상 > Marketo Measure 페이지&quot;로 이동하여 데이터 세트를 내보냅니다.
-
 1. 대상을 구성합니다.
-
 1. 데이터 세트를 활성화합니다.
-
 1. 데이터 흐름 상태에 대한 측정값 UI 설정의 &quot;계정 상태&quot; 페이지를 확인하십시오.
 
-주의할 사항: 지정된 소스의 지정된 엔티티(예: 계정)에 대한 데이터는 하나의 데이터 세트에만 들어갈 수 있습니다. 각 데이터 세트는 하나의 데이터 흐름에만 포함될 수 있습니다. 위반을 하면 런타임에 데이터 흐름이 중지됩니다.
-AEP에서 전체 대상을 삭제하여 측정에서 데이터를 삭제합니다. 비활성화하면 새 데이터 내보내기만 중지되고 이전 데이터는 유지됩니다.
-측정값 구성은 대부분 동일하게 보이지만 스테이지 매핑과 같은 일부 부분은 다르게 표시됩니다.
-새 데이터 흐름이 플로우 실행을 생성하는 데 몇 시간이 소요되며, 그런 다음 규칙적인 시간 간격으로 발생합니다.
+>[!NOTE]
+>
+>* 지정된 소스의 지정된 엔티티(예: 계정)에 대한 데이터는 하나의 데이터 세트에만 들어갈 수 있습니다. 각 데이터 세트는 하나의 데이터 흐름에만 포함될 수 있습니다. 위반을 하면 런타임에 데이터 흐름이 중지됩니다.
+>* AEP에서 전체 대상을 삭제하여 측정에서 데이터를 삭제합니다. 비활성화하면 새 데이터 내보내기만 중지되고 이전 데이터는 유지됩니다.
+>* 측정값 구성은 대부분 동일하게 보이지만 스테이지 매핑과 같은 일부 부분은 다르게 표시됩니다.
+>* 새 데이터 흐름이 플로우 실행을 생성하는 데 몇 시간이 소요되며, 그런 다음 규칙적인 시간 간격으로 발생합니다.
 
-Measure에서 기본 통화는 &quot;통화&quot; 섹션에서 설정해야 합니다. 고객이 다중 통화를 사용하는 경우 AEP에서 통화 전환율 스키마를 채워야 전환에 사용하고 읽습니다.
+Measure에서 기본 통화는 &quot;통화&quot; 섹션에 설정해야 합니다.
 
-단계 매핑 고객 데이터에서 단계를 자동으로 가져오지 않으므로 모든 단계를 수동으로 매핑해야 합니다.
+* 다중 통화를 사용하는 경우 AEP에서 통화 전환율 스키마를 채워야 전환용으로 읽고 사용할 수 있습니다.
 
-사용자는 서로 다른 소스의 단계를 매핑할 수 있습니다.
+**스테이지 매핑:**
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+사용자 데이터에서 단계를 자동으로 가져오지 않으므로 모든 단계를 수동으로 매핑해야 합니다.
+
+* 사용자는 서로 다른 소스의 단계를 매핑할 수 있습니다.
+
+![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 단계를 매핑하지 않으면 데이터가 이동할 곳이 없기 때문에 시스템이 작동하지 않습니다.
-캠페인 멤버 규칙은 데이터 세트를 선택하고 각각에 대한 규칙을 설정해야 합니다.
 
-경험 이벤트 규칙 데이터 세트를 선택하고 활동 유형을 선택해야 합니다.
-사용자 지정 활동은 아직 지원되지 않습니다.
-고객에게 사용 가능한 옵션에 맞지 않는 활동이 있는 경우 이를 &quot;즐거운 순간&quot;으로 분류하고 사용자 정의 필드를 사용하여 구분하는 것이 좋습니다.
+**캠페인 멤버 규칙:**
 
-오프라인 채널 데이터 세트별 채널 매핑 규칙을 수행하지 않으므로 전역적입니다.
-결국 CRM 캠페인 유형과 채널을 모두 일치시켜야 하지만, 현재는 해결 방법으로 채널 이름을 두 필드에 모두 매핑할 수 있습니다.
-채널 규칙: 채워진 데이터에는 단계 전환 데이터가 포함되지 않습니다.
+데이터 세트를 선택하고 각각에 대한 규칙을 설정해야 합니다.
+
+**경험 이벤트 규칙:**
+
+데이터 세트를 선택하고 활동 유형을 선택해야 합니다.
+
+* 사용자 지정 활동은 아직 지원되지 않습니다.
+* 고객에게 사용 가능한 옵션에 맞지 않는 활동이 있는 경우 이를 &quot;즐거운 순간&quot;으로 분류하고 사용자 정의 필드를 사용하여 구분하는 것이 좋습니다.
+
+**오프라인 채널:**
+
+* 데이터 세트별 채널 매핑 규칙은 수행하지 않으므로 전역입니다.
+* 결국 CRM 캠페인 유형과 채널을 모두 일치시켜야 하지만, 현재는 해결 방법으로 채널 이름을 두 필드에 모두 매핑할 수 있습니다.
+* **채널 규칙: 채워진 데이터에는 단계 전환 데이터가 포함되지 않습니다.**
 
 접점 및 세그먼트 설정은 동일하게 유지됩니다.
