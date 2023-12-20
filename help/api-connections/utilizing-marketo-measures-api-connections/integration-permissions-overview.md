@@ -4,7 +4,7 @@ title: 통합 권한 개요
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 <table>
 <thead>
   <tr>
-    <th>통합</th>
-    <th>데이터 유형
+    <th style="width:10%">통합</th>
+    <th style="width:20%">데이터 유형
     <li>웹 인터랙션 데이터</li>
     <li>B2B 시스템 데이터</li>
     <li>광고 플랫폼 데이터</li></th>
-    <th>추적 항목</th>
-    <th>권한 요구 사항</th>
+    <th style="width:30%">추적 항목</th>
+    <th style="width:40%">권한 요구 사항</th>
   </tr>
 </thead>
 <tbody>
