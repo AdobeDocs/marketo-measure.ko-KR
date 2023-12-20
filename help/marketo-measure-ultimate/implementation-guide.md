@@ -4,7 +4,7 @@ title: '[!DNL Marketo Measure] Ultimate 구현 안내서'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
+source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Ultimate 사용자에게 AEP가 제공됩니다. 이미 AEP가 있는 경우 새
 
 * 제공된 AEP 버전에는 모든 소스 커넥터, 스키마 데이터 모델링, 데이터 세트, Ad Hoc Query Service 및 Marketo Measure 전용 대상이 포함됩니다.
 
-자세히 알아보기 [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md).
+자세히 알아보기 [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
 ## 스키마 및 데이터 세트 {#schemas-and-datasets}
 
 >[!NOTE]
 >
->체크아웃 [스키마의 빌딩 블록](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) 스키마, 클래스 및 필드 그룹에 대한 개요입니다.
+>체크아웃 [스키마의 빌딩 블록](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} 스키마, 클래스 및 필드 그룹에 대한 개요입니다.
 
 **XDM 스키마 = 클래스 + 스키마 필드 그룹&#42;**
 
@@ -49,13 +49,13 @@ Ultimate 사용자에게 AEP가 제공됩니다. 이미 AEP가 있는 경우 새
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[데이터 세트 개요](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): AEP에 성공적으로 수집된 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구성입니다.
+[데이터 세트 개요](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: AEP에 성공적으로 수집된 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 집합은 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구성입니다.
 
 ## 스키마 만들기 {#creating-a-schema}
 
 자동 생성 유틸리티를 사용하여 10개의 표준 B2B 스키마를 생성하는 것이 좋습니다.
 
-* 유틸리티를 다운로드하고 설정하는 단계 [은(는) 여기에서 찾을 수 있음](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
+* 유틸리티를 다운로드하고 설정하는 단계 [은(는) 여기에서 찾을 수 있음](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 이 있는 사용자의 경우 _**CDP 권한**_: 소스 페이지로 이동하여 스키마를 만듭니다.
 
@@ -69,7 +69,7 @@ Ultimate 사용자에게 AEP가 제공됩니다. 이미 AEP가 있는 경우 새
 
 ## 데이터 흐름 {#dataflows}
 
-[데이터 흐름 개요](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
+[데이터 흐름 개요](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **데이터 흐름을 만드는 절차:**
 
@@ -93,7 +93,7 @@ Ultimate 사용자에게 AEP가 제공됩니다. 이미 AEP가 있는 경우 새
 
    >[!NOTE]
    >
-   >[Marketo Measure Ultimate Data Integrity 요구 사항](help/marketo-measure-ultimate/data-integrity-requirement.md)
+   >[Marketo Measure Ultimate Data Integrity 요구 사항](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. 데이터 로드 케이던스를 설정합니다.
 1. 검토 및 완료.
@@ -114,7 +114,7 @@ ExL: Marketo Measure Ultimate Data Integrity Requirement 이 문서에는 각 XD
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-옵션 2: [PSQL 다운로드 및 사용](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (더 빠르고 안정적인)
+옵션 2: [PSQL 다운로드 및 사용](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (더 빠르고 안정적).
 
 ## Marketo Measure에 대한 데이터 세트 활성화 {#activate-dataset-for-marketo-measure}
 
