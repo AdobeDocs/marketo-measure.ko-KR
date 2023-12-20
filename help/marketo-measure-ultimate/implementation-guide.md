@@ -1,19 +1,17 @@
 ---
 description: '[!DNL Marketo Measure] Ultimate 구현 안내서 - [!DNL Marketo Measure] - 제품 설명서'
 title: '[!DNL Marketo Measure] Ultimate 구현 안내서'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
+source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate 구현 안내서 {#marketo-measure-ultimate-implementation-guide}
 
-도입 문장
+이 문서는 Marketo Measure Ultimate의 구현 가이드 역할을 하며, 성공적인 통합 및 활용을 보장하기 위한 명확한 단계와 통찰력을 제공합니다.
 
 ## 표준 계층보다 Ultimate 사용 시 주요 차이점 {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -84,7 +82,7 @@ Ultimate 사용자에게 AEP가 제공됩니다. 이미 AEP가 있는 경우 새
    >* 한 스키마 유형을 동일한 다른 스키마 유형에 매핑하면 자동으로 수행됩니다.
    >* 시스템의 다른 흐름에서 매핑을 가져올 수도 있습니다.
    >* 하나의 소스 필드를 여러 대상 필드에 매핑할 수 있지만 반대는 수행할 수 없습니다.
-   >* 계산된 필드를 만들 수 있습니다(예: 데이터 준비 매핑 함수).
+   >* 계산된 필드를 만들 수 있습니다([데이터 준비 매핑 함수](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Ultimate 사용자에게 AEP가 제공됩니다. 이미 AEP가 있는 경우 새
 * 데이터 흐름 오류를 보려면 데이터 흐름을 선택하고 데이터 흐름 실행을 선택한 다음 &quot;오류 진단 미리 보기&quot;를 클릭합니다.
 
 ## 데이터 검사 {#data-inspection}
-
-ExL: Marketo Measure Ultimate Data Integrity Requirement 이 문서에는 각 XDM에 대한 필수 필드와 검사 쿼리가 포함됩니다. ExL에 게시됩니다. - 이미 위에 태그가 지정되었습니다. 다시 POST???
 
 옵션 1: UI에서 직접 쿼리를 실행하려면 데이터 관리 아래의 쿼리 탭에 액세스합니다.
 
