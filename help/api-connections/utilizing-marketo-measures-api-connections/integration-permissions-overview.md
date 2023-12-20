@@ -4,7 +4,7 @@ title: 통합 권한 개요
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
+source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 3%
@@ -33,24 +33,24 @@ ht-degree: 3%
     <td>B2B 시스템 데이터    
 </td>
     <td>Marketo Measure이 추적 중:
-    <br>
+    <p>
     <li>계정</li>
-<li>Campaign</li>
-<li>CampaignMember</li>
-<li>연락처</li>
-<li>CurrencyConversionRange</li>
-<li>통화 상태</li>
-<li>이벤트</li>
-<li>FieldHistory(Lead, Contact 및 Opportunity)</li>
-<li>리드</li>
-<li>기회</li>
-<li>영업 기회 연락처 역할</li>
-<li>영업 기회 내역</li>
-<li>작업</li>
-<br>
+    <li>Campaign</li>
+    <li>CampaignMember</li>
+    <li>연락처</li>
+    <li>CurrencyConversionRange</li>
+    <li>통화 상태</li>
+    <li>이벤트</li>
+    <li>FieldHistory(Lead, Contact 및 Opportunity)</li>
+    <li>리드</li>
+    <li>기회</li>
+    <li>영업 기회 연락처 역할</li>
+    <li>영업 기회 내역</li>
+    <li>작업</li>
+<p>
 만들어진 터치포인트와 기타 데이터는 계정, 캠페인, 캠페인 멤버, 사례, 연락처, 잠재 고객 및 기회에 대한 사용자 지정 bizible 필드에 작성됩니다.</td>
     <td><b>Salesforce 연결된 사용자 권한(필수)</b>
-    <br>
+    <p>
     <b>전용 사용자에 대한 Marketo Measure 관리자 권한 집합:</b> SFDC 관리자가 marketo 측정 개체에 대해 CRUD 작업을 수행할 수 있도록 허용합니다.
     <br>
     <b>전환된 잠재 고객 사용 권한 집합 보기 및 편집:</b> 이렇게 하면 Marketo Measure은 잠재 고객을 연락처로 전환한 후 데코레이트할 수 있습니다.
