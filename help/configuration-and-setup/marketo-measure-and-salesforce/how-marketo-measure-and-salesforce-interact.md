@@ -4,10 +4,10 @@ description: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 -
 title: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
+source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 13%
+source-wordcount: '1268'
+ht-degree: 19%
 
 ---
 
@@ -42,148 +42,148 @@ ht-degree: 13%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>이메일</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>이메일</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>상태</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>상태</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>마지막 수정 날짜</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>마지막 수정 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>전환일</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>전환일</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedContactId</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedContactId</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOpportunityId</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedOpportunityId</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>웹 사이트</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>웹 사이트</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>회사</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>회사</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Account__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Account__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,106 +193,106 @@ ht-degree: 13%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>계정</p></td> 
-   <td><p>표준</p></td> 
+   <td>계정</td> 
+   <td>표준</td> 
    <td><span>x</span></td> 
    <td><br></td> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>이메일</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>이메일</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>만든 날짜</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>만든 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>마지막 수정 날짜</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>마지막 수정 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,100 +302,100 @@ ht-degree: 13%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>마지막 수정 날짜</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>마지막 수정 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SuppliedEmail</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>SuppliedEmail</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,119 +405,187 @@ ht-degree: 13%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>웹 사이트</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>웹 사이트</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>마지막 수정 날짜</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>마지막 수정 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Engagement_Score__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Engagement_Score__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
 
-**기회**
+**영업 기회**
 
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>계정</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>이름</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td><br></td> 
-  </tr> 
+  </tr>
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>계정</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td><br></td> 
+  </tr>
+  <tr> 
+   <td>ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>마지막 수정 날짜</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>마지막 수정 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsWon</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsWon</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>닫힘</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>닫힘</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CloseDate</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>CloseDate</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>StageName</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>StageName</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>금액</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>금액</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Bizible_Opportunity_Amount__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Bizible_Opportunity_Amount__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**영업 기회 연락처 역할**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
+  </tr> 
+  <tr> 
+   <td>ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>CreatedDate</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>IsDeleted</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>마지막 수정 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>영업 기회 ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>연락처 ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+
+<tr> 
+   <td>Isprimary</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>역할</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -533,87 +601,87 @@ ht-degree: 13%
  </colgroup> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>이메일</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>이메일</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>상태</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>상태</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>마지막 수정 날짜</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>마지막 수정 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>전환일</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>전환일</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedContactId</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedContactId</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOpportunityId</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedOpportunityId</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>웹 사이트</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>웹 사이트</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>회사</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>회사</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>유형</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>유형</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td><br></td> 
   </tr> 
  </tbody> 
@@ -624,100 +692,100 @@ ht-degree: 13%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>마지막 수정 날짜</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>마지막 수정 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>최초 응답일</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>최초 응답일</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>HasResponded</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>HasResponded</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>연락처 ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>연락처 ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>잠재 고객 ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>잠재 고객 ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>캠페인 ID</p></td> 
-   <td><p>표준</p></td> 
-   <td><p>x</p></td> 
+   <td>캠페인 ID</td> 
+   <td>표준</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Bizible_Touchpoint_Date__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Bizible_Touchpoint_Date__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Date__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Status_Date__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Contact__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Status_Contact__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Leade__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Status_Leade__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Opportunity__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Status_Opportunity__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -727,10 +795,10 @@ ht-degree: 13%
 >Salesforce 계정 내에서 삭제 이벤트를 캡처하는 Marketo Measure의 정확성을 보장하려면 아래 개체에 대해 복제 가능한 권한이 필요합니다. 복제 가능한 권한은 다음 개체와 함께 표준으로 제공됩니다.
 >
 >* 계정
->* 캠페인
+>* Campaign
 >* 캠페인 멤버
 >* 연락처
->* Event
+>* 이벤트
 >* 리드
 >* 기회
 >* 작업
@@ -747,262 +815,262 @@ SFDC의 표준 오브젝트에서 사용자 정의 필드를 만드는 것 외�
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Bizible_Person__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Bizible_Person__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__SF_Campaign__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__SF_Campaign__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_Path__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Type__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Type__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Content__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Content__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Group_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Group_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Group_Name__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Group_Name__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Name__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Name__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Name__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Name__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Form_URL__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Form_URL__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Form_URL_Raw__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Form_URL_Raw__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Platform__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Platform__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Browser__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Browser__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_City__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_City__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Country__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Country__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Region__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Region__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_MatchType__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_MatchType__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Position__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Position__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Text__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Text__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_Raw__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Medium__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page_Raw__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Search_Phrase__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Search_Phrase__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Segment__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Segment__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_First_Touch__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_First_Touch__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Lead_Creation_Touch__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_Lead_Creation_Touch__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_U_Shaped__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_U_Shaped__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Destination_URL__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Case__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Case__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1014,34 +1082,34 @@ SFDC의 표준 오브젝트에서 사용자 정의 필드를 만드는 것 외�
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Lead__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Lead__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Case__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Case__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1055,352 +1123,352 @@ SFDC의 표준 오브젝트에서 사용자 정의 필드를 만드는 것 외�
 <table> 
  <tbody> 
   <tr> 
-   <th><p>필드</p></th> 
-   <th><p>Standard/Custom</p></th> 
-   <th><p>읽기</p></th> 
-   <th><p>쓰기</p></th> 
+   <th>필드</th> 
+   <th>Standard/Custom</th> 
+   <th>읽기</th> 
+   <th>쓰기</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Account__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Account__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__SF_Campaign__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__SF_Campaign__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Opportunity__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Opportunity__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_Path__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Type__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Type__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Content__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Content__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Group_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Group_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Group_Name__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Group_Name__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Name__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Name__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Name__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Name__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Form_URL__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Form_URL__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Form_URL_Raw__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Form_URL_Raw__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Platform__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Platform__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Browser__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Browser__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_City__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_City__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Country__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Country__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Region__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Region__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Id__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Id__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_MatchType__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_MatchType__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Position__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Position__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Text__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Text__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_Raw__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Medium__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page_Raw__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Search_Phrase__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Search_Phrase__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Segment__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Segment__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_First_Touch__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_First_Touch__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_Lead_Conversion_Touch__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_Lead_Conversion_Touch__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_U_Shaped__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_U_Shaped__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_W_Shaped__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_W_Shaped__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_Custom_Model__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_Custom_Model__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_Custom_Model_2__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_Custom_Model_2__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_First_Touch__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_First_Touch__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Lead_Creation_Touch__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_Lead_Creation_Touch__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_U_Shaped__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_U_Shaped__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_W_Shaped__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_W_Shaped__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Custom_Model__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_Custom_Model__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Custom_Model_2__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_Custom_Model_2__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Destination_URL__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_First_Touch__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_First_Touch__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_Lead_Creation_Touch__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_Lead_Creation_Touch__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_U_Shaped__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_U_Shaped__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_W_Shaped__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_W_Shaped__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_Custom_Model__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_Custom_Model__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_Custom_Model_2__c</p></td> 
-   <td><p>맞춤형</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_Custom_Model_2__c</td> 
+   <td>맞춤형</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
