@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: 1fc0b98c0aa1273e5aa70ba7b89672d689e734e1
+source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '818'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 1%
       + [구현을 위한 우수 사례 [!DNL Marketo Measure] JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [추가 중 [!DNL Marketo Measure] 스크립트](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [추가 중 [!DNL Marketo Measure] Google 태그 관리자를 통한 스크립트](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
+      + [JavaScript에서 수집한 데이터](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + 추가 중 [!DNL Marketo Measure] 다른 양식 공급자에 스크립트 {#adding-marketo-measure-script-to-different-form-providers}
          + [추가 중 [!DNL Marketo Measure] Pardot에 JavaScript](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [추가 중 [!DNL Marketo Measure] Lightbox Forms에 스크립트](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
