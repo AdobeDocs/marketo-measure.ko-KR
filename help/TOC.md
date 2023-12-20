@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -92,6 +92,7 @@ ht-degree: 1%
 + API 연결 {#api-connections}
    + 활용 [!DNL Marketo Measure]의 API 연결 {#utilizing-marketo-measures-api-connections}
       + [통합 광고 플랫폼](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+      + [통합 권한 개요](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [API 연결 우수 사례](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [입찰 관리 도구의 영향 [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [[!DNL Marketo Measure] 매개 변수](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)

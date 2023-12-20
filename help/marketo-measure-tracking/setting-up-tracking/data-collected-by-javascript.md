@@ -2,7 +2,7 @@
 description: JavaScript에서 수집한 데이터 - [!DNL Marketo Measure] - 제품 설명서
 title: JavaScript에서 수집한 데이터
 feature: Tracking
-source-git-commit: 2be08b96fb9f6d027e80751db64f16a7f2893764
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 6%
@@ -49,25 +49,25 @@ Marketo Measure은 모든 유형의 요청에 대해 다음과 같은 일반 데
     <td>쿼리 매개 변수</td>
     <td>_biz_u</td>
     <td>문자열</td>
-    <td>Bizible 쿠키 ID</td>
+    <td>Bizible 쿠키 ID.</td>
   </tr>
   <tr>
     <td>쿼리 매개 변수</td>
     <td>_biz_l</td>
     <td>문자열</td>
-    <td>현재 페이지 URL</td>
+    <td>현재 페이지 URL.</td>
   </tr>
   <tr>
     <td>쿼리 매개 변수</td>
     <td>_biz_t</td>
     <td>길게</td>
-    <td>활동 타임스탬프</td>
+    <td>활동 타임스탬프.</td>
   </tr>
   <tr>
     <td>쿼리 매개 변수</td>
     <td>_biz_i</td>
     <td>문자열</td>
-    <td>현재 페이지 제목</td>
+    <td>현재 페이지 제목입니다.</td>
   </tr>
 </tbody>
 </table>
@@ -104,7 +104,7 @@ Marketo Measure은 모든 유형의 요청에 대해 다음과 같은 일반 데
     <td></td>
     <td>_biz_c</td>
     <td>문자열</td>
-    <td>선택적 매개 변수. 이 매개 변수가 있으면 테넌트가 추적하기 전에 사용자 동의를 기다리도록 bizible.js를 구성하고 bizible.js가 추적할 사용자의 동의를 받았음을 나타냅니다.</td>
+    <td>선택적 매개 변수. 이 매개 변수가 있으면 테넌트가 추적하기 전에 사용자의 동의를 기다리도록 bizible.js를 구성하고 bizible.js가 추적할 사용자의 동의를 받았음을 나타냅니다.</td>
   </tr>
   <tr>
     <td>양식 제출</td>
@@ -118,7 +118,7 @@ Marketo Measure은 모든 유형의 요청에 대해 다음과 같은 일반 데
     <td>/u</td>
     <td>mapType</td>
     <td>enum</td>
-    <td>bizible.js 매핑 종류를 감지했습니다(Marketo munchkin id 및 Adobe ECID).</td>
+    <td>bizible.js 매핑 종류를 감지했습니다(Marketo Munchkin id 및 Adobe ECID).</td>
   </tr>
   <tr>
     <td></td>
