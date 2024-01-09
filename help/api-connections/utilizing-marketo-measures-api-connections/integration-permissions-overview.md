@@ -4,9 +4,9 @@ title: 통합 권한 개요
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: d7ded9075f7f5831314d59294327f1e4928baf8a
+source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '840'
 ht-degree: 2%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 2%
 <thead>
   <tr>
     <th style="width:10%">통합</th>
-    <th style="width:20%">데이터 유형
+    <th style="width:25%">데이터 유형
     <li>웹 인터랙션 데이터</li>
     <li>B2B 시스템 데이터</li>
     <li>광고 플랫폼 데이터</li></th>
-    <th style="width:30%">추적 항목</th>
+    <th style="width:25%">추적 항목</th>
     <th style="width:40%">권한 요구 사항</th>
   </tr>
 </thead>
@@ -60,6 +60,7 @@ ht-degree: 2%
     <b>Marketo Measure Standard 사용자:</b> 사용자에게 Marketo Measure 오브젝트에서 레코드를 읽을 수 있는 기능을 제공합니다.
     <p>
     <b>Salesforce Standard 필드 권한</b>
+    <br>
     <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce 표준 개체 및 액세스</a>
     <p>
     <b>Salesforce 사용자 지정 필드 권한</b>
@@ -94,11 +95,11 @@ ht-degree: 2%
 <p>
 만들어진 터치포인트 및 기타 데이터는 계정, 캠페인, 캠페인, 캠페인 응답, 연락처, 잠재 고객, 목록, 영업 기회 및 전화의 사용자 지정 bizible 필드에 기록됩니다</td>
     <td><b>Marketo Measure 사용자 권한</b>
-<p>
+<br>
 CRM의 다른 사용자와 관련된 문제를 방지하기 위해 Dynamics 내에서 를 통해 데이터를 내보내고 가져올 수 있는 전용 Marketo Measure 사용자를 만드는 것이 좋습니다. Marketo Measure 계정을 만들 때 사용할 사용자 이름 및 암호와 끝점 URL을 참고하십시오.
 <p>
 <b>보안 역할</b>
-<p>
+<br>
 조직에서 Dynamics 보안 역할을 사용하는 경우 연결된 사용자 또는 전용 Marketo Measure 사용자에게 필요한 엔티티에 대한 충분한 읽기/쓰기 권한이 있는지 확인하십시오.
 <br>
 보안 역할은 설정 &gt; 보안 &gt; 보안 역할에 있습니다.
@@ -132,21 +133,36 @@ Marketo Measure은 계정, 캠페인, 광고 그룹, 광고, 필터 ID 및 URL�
 <li>이메일 권한은 사용자가 Facebook 이메일에 로그인할 수 있도록 하기 위해 필요합니다.</li>
 <p>
 <b>범위</b>
-<p>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
 <br>
 <li>프로그래밍 방식으로 캠페인을 만들고, 광고를 관리하고, 지표를 가져옵니다.</li>
 <li>광고주를 위한 혁신적인 솔루션과 차별화된 가치를 제공하는 광고 관리 도구를 구축할 수 있습니다.</li>
-<p>
+<br>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/email">이메일</a>
 <br>
 <li>다른 사용자와 통신하고 해당 Facebook 프로필과 연결된 이메일 주소로 앱에 로그인할 수 있도록 합니다.</li></td>
   </tr>
   <tr>
     <td>LinkedIn</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>광고 플랫폼 데이터
+    <p>
+    B2B 시스템 데이터 (CRM 활동으로 분류되는 양식 및 제출을 포함하는 리드 세대 양식 데이터).</td>
+    <td>Marketo Measure은 LinkedIn 광고 캠페인, 광고 크리에이티브 및 비용 데이터뿐만 아니라 잠재 고객 Forms 및 응답을 추적하고 있습니다. 가져온 데이터를 기반으로 LinkedIn 터치포인트를 생성하고 리드 양식 응답을 고객의 리드에 연결할 수 있습니다.</td>
+    <td><li>Marketo Measure에서 비용 데이터를 다운로드하려면 캠페인 관리자 또는 계정 관리자 역할이 필요합니다. (범위 행 1)</li>
+    <br>
+    <li>Marketo Measure에서 리드 세대 양식 데이터에 액세스하려면 슈퍼 관리자(페이지 관리자 역할, 범위 행 2) 또는 리드 세대 Forms 관리자(유료 미디어 관리자 역할, 범위 행 3)가 필요합니다</li>
+    <br>
+    <li>Marketo Measure에서 자동 태그 지정을 조작하려면 수퍼 관리자(페이지 관리자 역할, 범위 행 2) 또는 스폰서드 콘텐츠 포스터(유료 미디어 관리자 역할, 범위 행 3)가 필요합니다</li>
+    <p>
+    <b>범위</b>
+    <br>
+    <a href="https://www.linkedin.com/campaignmanager/accounts">포털에서 사용자 역할 설정(LinkedIn 계정에 로그인 필요)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">사용자 역할 개요</a>: 사용자 역할, 사용자 권한 보기 및 관리, 계정 관리자 또는 캠페인 관리자와 같은 역할 할당
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">페이지 관리자 역할 설정 - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">페이지 관리자 역할 정의</a>: 원하는 관리 페이지에서 페이지 관리자 역할
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">유료 미디어 관리자 역할 설정(유료 미디어 관리자 찾기) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">유료 미디어 관리자 정의</a>: 유료 미디어 관리자 역할</td>
   </tr>
   <tr>
     <td>더블 클릭</td>
