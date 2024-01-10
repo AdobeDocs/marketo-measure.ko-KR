@@ -1,10 +1,8 @@
 ---
 description: 잠재 고객 속도 대시보드 - [!DNL Marketo Measure] - 제품
 title: 리드 속도 대시보드
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f0e6ba1166e86eeb50812914afb4116f0e0eb372
+source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 1%
@@ -47,7 +45,7 @@ Velocity 대시보드는 잠재 고객이 판매 단계를 이동하는 속도�
 
 ![](assets/lead-velocity-dashboard-2.png)
 
-## 채널별 잠재 고객/연락처 속도 {#lead-contact-velocity-by-channel}
+### 채널별 잠재 고객/연락처 속도 {#lead-contact-velocity-by-channel}
 
 막대 차트는 리드/연락처가 각 단계 단계에 남아 있는 평균 기간(일)을 채널별로 분류하여 표시합니다.
 
