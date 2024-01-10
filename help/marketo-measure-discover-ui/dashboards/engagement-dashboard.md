@@ -2,7 +2,7 @@
 description: 참여 대시보드 - [!DNL Marketo Measure] - 제품
 title: 참여 대시보드
 feature: Reporting
-source-git-commit: 96a10a202e72f43c45041a4cb37a244d1722db17
+source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 * 터치한 사람: 터치포인트가 있는 총 사람 수입니다.
 * 사람당 터치포인트: 터치한 사람당 평균 터치포인트 수
 
-## 시간이 지남에 따라 터치한 터치포인트 및 사람 {#touchpoints-and-people-touched-over-time}
+### 시간이 지남에 따라 터치한 터치포인트 및 사람 {#touchpoints-and-people-touched-over-time}
 
 시계열 막대 차트는 각 월, 분기 및 연도에 대해 사람당 터치포인트, 사람 터치됨 및 터치포인트 수를 표시합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ![](assets/engagement-dashboard-1.png)
 
-## 채널이 터치한 터치포인트/사람 {#touchpoints-people-touched-by-channel}
+### 채널이 터치한 터치포인트/사람 {#touchpoints-people-touched-by-channel}
 
 채널/하위 채널/캠페인으로 분류된 터치포인트 또는 터치된 사람을 표시하는 막대 차트.
 
