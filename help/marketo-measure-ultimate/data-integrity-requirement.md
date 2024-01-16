@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사
 title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: e1c401ae41b5aeedf0c3c8b75a82f680a0dcbefb
+source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 17%
@@ -407,7 +407,7 @@ ht-degree: 17%
       <td>b2b.personStatus</td>
       <td>문자열</td>
       <td>상태</td>
-      <td><font color="red">가망 고객 개인 유형에 대해서만 예</font></td>
+      <td><b><i>가망 고객 개인 유형에 대해서만 예</i></b></td>
       <td>b2b.personType이 "리드"인 경우에만 필요합니다.</td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ ht-degree: 17%
       <td>b2b.isConverted</td>
       <td>부울</td>
       <td>IsConverted</td>
-      <td><font color="red">가망 고객 개인 유형에 대해서만 예</font></td>
+      <td><b><i>가망 고객 개인 유형에 대해서만 예</i></b></td>
       <td>b2b.personType이 "리드"인 경우에만 필요합니다.</td>
     </tr>
     <tr>
