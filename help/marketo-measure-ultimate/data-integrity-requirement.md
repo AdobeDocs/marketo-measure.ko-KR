@@ -3,10 +3,10 @@ description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사
 title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 034c4639e6054118052524c457995f4caf7a4bf2
+source-git-commit: e1c401ae41b5aeedf0c3c8b75a82f680a0dcbefb
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 18%
+source-wordcount: '1493'
+ht-degree: 17%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 18%
       <td>accountKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -44,7 +44,7 @@ ht-degree: 18%
       <td>accountKey.sourceID</td>
       <td>문자열</td>
       <td>ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 123</td>
     </tr>
     <tr>
@@ -52,7 +52,7 @@ ht-degree: 18%
       <td>accountKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -60,7 +60,7 @@ ht-degree: 18%
       <td>accountKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -68,7 +68,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.createdDate</td>
       <td>date-time</td>
       <td>CreatedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -76,7 +76,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.lastUpdatedDate</td>
       <td>date-time</td>
       <td>ModifiedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -85,7 +85,7 @@ ht-degree: 18%
       <td>accountName</td>
       <td>문자열</td>
       <td>이름</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -97,7 +97,7 @@ ht-degree: 18%
       <td>campaignKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -105,7 +105,7 @@ ht-degree: 18%
       <td>campaignKey.sourceID</td>
       <td>문자열</td>
       <td>ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 55555</td>
     </tr>
     <tr>
@@ -113,7 +113,7 @@ ht-degree: 18%
       <td>campaignKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -121,7 +121,7 @@ ht-degree: 18%
       <td>campaignKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -129,7 +129,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.createdDate</td>
       <td>date-time</td>
       <td>CreatedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -137,7 +137,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.lastUpdatedDate</td>
       <td>date-time</td>
       <td>ModifiedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -145,7 +145,7 @@ ht-degree: 18%
       <td>campaignName</td>
       <td>문자열</td>
       <td>이름</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -209,7 +209,7 @@ ht-degree: 18%
       <td>campaignMemberKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 987654321@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -217,7 +217,7 @@ ht-degree: 18%
       <td>campaignMemberKey.sourceID</td>
       <td>문자열</td>
       <td>ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 987654321</td>
     </tr>
     <tr>
@@ -225,7 +225,7 @@ ht-degree: 18%
       <td>campaignMemberKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -233,7 +233,7 @@ ht-degree: 18%
       <td>campaignMemberKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -241,7 +241,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.createdDate</td>
       <td>date-time</td>
       <td>CreatedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -249,7 +249,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.lastUpdatedDate</td>
       <td>date-time</td>
       <td>ModifiedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -257,7 +257,7 @@ ht-degree: 18%
       <td>personKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -265,7 +265,7 @@ ht-degree: 18%
       <td>personKey.sourceID</td>
       <td>문자열</td>
       <td>잠재 고객 ID 또는 연락처 ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>
         <p>예: - 333, 데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID입니다.</p>
         <p>리드 또는 연락처에 대한 외래 키</p>
@@ -276,7 +276,7 @@ ht-degree: 18%
       <td>personKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -284,7 +284,7 @@ ht-degree: 18%
       <td>personKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -292,7 +292,7 @@ ht-degree: 18%
       <td>campaignKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -300,7 +300,7 @@ ht-degree: 18%
       <td>campaignKey.sourceID</td>
       <td>문자열</td>
       <td>캠페인 ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>
         <p>예: - 55555.</p>
         <p>Campaign의 외래 키</p>
@@ -311,7 +311,7 @@ ht-degree: 18%
       <td>campaignKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -319,7 +319,7 @@ ht-degree: 18%
       <td>campaignKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -328,7 +328,7 @@ ht-degree: 18%
       <td>b2b.personType</td>
       <td>문자열</td>
       <td>"잠재 고객" 또는 "연락처</td>
-      <td>네</td>
+      <td>예</td>
       <td>데이터 소스 테이블에 따라 "잠재 고객" 또는 "연락처"로 설정해야 합니다. 대부분의 사용 사례에는 "연락처"로 설정하는 것이 좋습니다</td>
     </tr>
     <tr>
@@ -336,7 +336,7 @@ ht-degree: 18%
       <td>memberStatus</td>
       <td>문자열</td>
       <td>상태</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -344,7 +344,7 @@ ht-degree: 18%
       <td>hasResponded</td>
       <td>부울</td>
       <td>HasResponded</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -364,7 +364,7 @@ ht-degree: 18%
       <td>b2b.personKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -372,7 +372,7 @@ ht-degree: 18%
       <td>b2b.personKey.sourceID</td>
       <td>문자열</td>
       <td>ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 333, 데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID입니다</td>
     </tr>
     <tr>
@@ -380,7 +380,7 @@ ht-degree: 18%
       <td>b2b.personKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -388,7 +388,7 @@ ht-degree: 18%
       <td>b2b.personKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -399,7 +399,7 @@ ht-degree: 18%
         <p>이메일</p>
       </td>
       <td>이메일</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -407,7 +407,7 @@ ht-degree: 18%
       <td>b2b.personStatus</td>
       <td>문자열</td>
       <td>상태</td>
-      <td>가망 고객 개인 유형에 대해서만 예</td>
+      <td><font color="red">가망 고객 개인 유형에 대해서만 예</font></td>
       <td>b2b.personType이 "리드"인 경우에만 필요합니다.</td>
     </tr>
     <tr>
@@ -415,7 +415,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.createdDate</td>
       <td>date-time</td>
       <td>CreatedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -423,7 +423,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.lastUpdatedDate</td>
       <td>date-time</td>
       <td>ModifiedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ ht-degree: 18%
       <td>b2b.isConverted</td>
       <td>부울</td>
       <td>IsConverted</td>
-      <td>가망 고객 개인 유형에 대해서만 예</td>
+      <td><font color="red">가망 고객 개인 유형에 대해서만 예</font></td>
       <td>b2b.personType이 "리드"인 경우에만 필요합니다.</td>
     </tr>
     <tr>
@@ -439,7 +439,7 @@ ht-degree: 18%
       <td>b2b.personType</td>
       <td>문자열</td>
       <td>"잠재 고객" 또는 "연락처</td>
-      <td>네</td>
+      <td>예</td>
       <td>데이터 소스 테이블에 따라 "잠재 고객" 또는 "연락처"로 설정해야 합니다. 대부분의 사용 사례에는 "연락처"로 설정하는 것이 좋습니다</td>
     </tr>
     <tr>
@@ -499,7 +499,7 @@ ht-degree: 18%
       <td>opportunityKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 77777@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -507,7 +507,7 @@ ht-degree: 18%
       <td>opportunityKey.sourceID</td>
       <td>문자열</td>
       <td>ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 77777</td>
     </tr>
     <tr>
@@ -515,7 +515,7 @@ ht-degree: 18%
       <td>opportunityKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -523,7 +523,7 @@ ht-degree: 18%
       <td>opportunityKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -531,7 +531,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.createdDate</td>
       <td>date-time</td>
       <td>CreatedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -539,7 +539,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.lastUpdatedDate</td>
       <td>date-time</td>
       <td>ModifiedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -547,7 +547,7 @@ ht-degree: 18%
       <td>accountKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -555,7 +555,7 @@ ht-degree: 18%
       <td>accountKey.sourceID</td>
       <td>문자열</td>
       <td>계정 ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>
         <p>예: - 123.</p>
         <p>계정 외래 키</p>
@@ -566,7 +566,7 @@ ht-degree: 18%
       <td>accountKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -574,7 +574,7 @@ ht-degree: 18%
       <td>accountKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -582,7 +582,7 @@ ht-degree: 18%
       <td>opportunityName</td>
       <td>문자열</td>
       <td>이름</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -590,7 +590,7 @@ ht-degree: 18%
       <td>opportunityStage</td>
       <td>문자열</td>
       <td>단계</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -607,7 +607,7 @@ ht-degree: 18%
       <td>isWon</td>
       <td>부울</td>
       <td>IsWon</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -615,15 +615,15 @@ ht-degree: 18%
       <td>isClosed</td>
       <td>부울</td>
       <td>닫힘</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
       <td>expectedCloseDate</td>
-      <td>date</td>
+      <td>날짜</td>
       <td>CloseDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -631,7 +631,7 @@ ht-degree: 18%
       <td>opportunityAmount.amount</td>
       <td>번호</td>
       <td>금액</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -642,7 +642,7 @@ ht-degree: 18%
         <p>^[A-Z]{3}$</p>
       </td>
       <td>CurrencyIsoCode</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -654,7 +654,7 @@ ht-degree: 18%
       <td>personKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -662,7 +662,7 @@ ht-degree: 18%
       <td>personKey.sourceID</td>
       <td>문자열</td>
       <td>연락처 ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>
         <p>예: - 333.</p>
         <p>연락처 외래 키</p>
@@ -673,7 +673,7 @@ ht-degree: 18%
       <td>personKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -681,7 +681,7 @@ ht-degree: 18%
       <td>personKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -689,7 +689,7 @@ ht-degree: 18%
       <td>isPrimary</td>
       <td>부울</td>
       <td>Isprimary</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -697,7 +697,7 @@ ht-degree: 18%
       <td>opportunityKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 77777@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -705,7 +705,7 @@ ht-degree: 18%
       <td>opportunityKey.sourceID</td>
       <td>문자열</td>
       <td>영업 기회 ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>
         <p>예: - 77777.</p>
         <p>영업 기회에 대한 외래 키</p>
@@ -716,7 +716,7 @@ ht-degree: 18%
       <td>opportunityKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -724,7 +724,7 @@ ht-degree: 18%
       <td>opportunityKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -732,7 +732,7 @@ ht-degree: 18%
       <td>opportunityPersonKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 222222@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -740,7 +740,7 @@ ht-degree: 18%
       <td>opportunityPersonKey.sourceID</td>
       <td>문자열</td>
       <td>ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 222222</td>
     </tr>
     <tr>
@@ -748,7 +748,7 @@ ht-degree: 18%
       <td>opportunityPersonKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -756,7 +756,7 @@ ht-degree: 18%
       <td>opportunityPersonKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
@@ -772,7 +772,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.createdDate</td>
       <td>date-time</td>
       <td>CreatedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -780,7 +780,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.lastUpdatedDate</td>
       <td>date-time</td>
       <td>ModifiedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -792,7 +792,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.externalKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 8888@0x012345.Salesforce</td>
     </tr>
     <tr>
@@ -800,7 +800,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.externalKey.sourceId</td>
       <td>문자열</td>
       <td>ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 8888</td>
     </tr>
     <tr>
@@ -808,7 +808,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.externalKey.sourceInstanceId</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 0x012345</td>
     </tr>
     <tr>
@@ -816,7 +816,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.externalKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Salesforce</td>
     </tr>
     <tr>
@@ -824,7 +824,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.createdDate</td>
       <td>date-time</td>
       <td>CreatedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -832,7 +832,7 @@ ht-degree: 18%
       <td>extSourceSystemAudit.lastUpdatedDate</td>
       <td>date-time</td>
       <td>ModifiedDate</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -840,7 +840,7 @@ ht-degree: 18%
       <td>isDeleted</td>
       <td>부울</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -849,23 +849,23 @@ ht-degree: 18%
       <td>전환율</td>
       <td>번호</td>
       <td>전환율</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
       <td>endDate</td>
-      <td>date</td>
+      <td>날짜</td>
       <td>다음 시작일</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
       <td>startDate</td>
-      <td>date</td>
+      <td>날짜</td>
       <td>시작 날짜</td>
-      <td>네</td>
+      <td>예</td>
       <td></td>
     </tr>
     <tr>
@@ -873,7 +873,7 @@ ht-degree: 18%
       <td>sourceISOCode</td>
       <td>문자열</td>
       <td>ISOCode</td>
-      <td>네</td>
+      <td>예</td>
       <td>예: EUR</td>
     </tr>
     <tr>
@@ -881,7 +881,7 @@ ht-degree: 18%
       <td>targetISOCode</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>Marketo Measure의 기본 통화 코드 세트(예: USD)</td>
     </tr>
   </tbody>
@@ -906,27 +906,27 @@ ht-degree: 18%
     <tr>
       <td rowspan="3">XDM ExperienceEvent</td>
       <td></td>
-      <td>_ID</td>
+      <td>_id</td>
       <td>문자열</td>
       <td>ID</td>
-      <td>네</td>
-      <td>네</td>
+      <td>예</td>
+      <td>예</td>
     </tr>
     <tr>
       <td></td>
       <td>eventType</td>
       <td>문자열</td>
       <td>활동 유형</td>
-      <td>네</td>
-      <td>네</td>
+      <td>예</td>
+      <td>예</td>
     </tr>
     <tr>
       <td></td>
       <td>timestamp</td>
       <td>date-time</td>
       <td>활동 날짜</td>
-      <td>네</td>
-      <td>네</td>
+      <td>예</td>
+      <td>예</td>
     </tr>
     <tr>
       <td></td>
@@ -934,7 +934,7 @@ ht-degree: 18%
       <td>personKey.sourceKey</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
@@ -943,7 +943,7 @@ ht-degree: 18%
       <td>personKey.sourceID</td>
       <td>문자열</td>
       <td>잠재 고객 ID 또는 연락처 ID</td>
-      <td>네</td>
+      <td>예</td>
       <td>
         <p>예: - 333, 데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID입니다.</p>
         <p>리드 또는 연락처에 대한 외래 키</p>
@@ -955,7 +955,7 @@ ht-degree: 18%
       <td>personKey.sourceInstanceID</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - 999-abc-888</td>
     </tr>
     <tr>
@@ -964,7 +964,7 @@ ht-degree: 18%
       <td>personKey.sourceType</td>
       <td>문자열</td>
       <td></td>
-      <td>네</td>
+      <td>예</td>
       <td>예: - Marketo</td>
     </tr>
     <tr>
