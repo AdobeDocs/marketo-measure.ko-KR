@@ -4,16 +4,20 @@ description: "[!DNL Marketo Measure] 쿠키 - [!DNL Marketo Measure] - 제품 �
 title: "[!DNL Marketo Measure] 쿠키"
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
+source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 6%
+source-wordcount: '397'
+ht-degree: 4%
 
 ---
 
 # Marketo Measure 쿠키 {#marketo-measure-cookies}
 
 다양한 항목에 대해 알아보기 [!DNL Marketo Measure] 를 적용할 때 사이트에 로드되는 쿠키 [!DNL Marketo Measure] 랜딩 페이지에 JavaScript를 추가합니다. 이 정보는 구현 중에 웹 개발 팀에 유용할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>개인 정보 보호 문제로 인해 서드파티 쿠키가 출시되고 있습니다. Google Chrome은 2024년 3분기에 타사 쿠키의 사용을 중단한다고 발표하여 이러한 형식의 추적을 종료하는 것을 효과적으로 표시합니다. 그 결과, Adobe은 타사 쿠키에 의존하는 Marketo Measure 기능을 더 이상 사용하지 않게 됩니다. 특히, Google/DoubleClick 노출 쿠키를 사용하는 도메인 간 추적 및 뷰스루 속성. Marketo Measure의 다른 기능은 영향을 받지 않습니다. 자사 쿠키 사용도 영향을 받지 않습니다. Google의 일정에 비추어 볼 때 위의 두 기능에 대한 예상 사용 중단 날짜는 2024년 6월 1일입니다. 이 날짜 이전에 수집된 관련 데이터는 Adobe 고객이 계속 사용할 수 있습니다.
 
 <table>
 <thead>
@@ -87,7 +91,7 @@ ht-degree: 6%
     <td>자사</td>
     <td>여러 도메인에서 사용자를 식별하는 범용 사용자 ID로, ITP 제한을 무시하는 통합을 사용하는 테넌트에만 적용됩니다.</td>
     <td>1년</td>
-    <td>네</td>
+    <td>예</td>
     <td>아니요</td>
     <td>Edgecast</td>
   </tr>
@@ -96,7 +100,7 @@ ht-degree: 6%
     <td>타사, 도메인=.<a href="http://bizible.com/">bizible.com</a></td>
     <td>여러 도메인에서 사용자를 식별하는 범용 사용자 ID입니다.</td>
     <td>1년</td>
-    <td>네</td>
+    <td>예</td>
     <td>아니요</td>
     <td>Edgecast</td>
   </tr>
@@ -105,7 +109,7 @@ ht-degree: 6%
     <td>타사, 도메인=.<a href="http://bizibly.com/">bizibly.com</a></td>
     <td>임차인의 도메인에 있는 Marketo Measure 쿠키 ID와 해당 Doubleclick 노출 쿠키 ID 간의 매핑.</td>
     <td>1년</td>
-    <td>네</td>
+    <td>예</td>
     <td>아니요</td>
     <td>Edgecast</td>
   </tr>
