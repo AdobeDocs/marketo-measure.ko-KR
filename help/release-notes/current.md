@@ -3,7 +3,7 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure] - 제품 설명서
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->현재 대시보드는 2024년 1월 중순까지 사용 중단되지만, 그때까지 두 버전을 모두 활용하여 원활하게 전환할 수 있습니다.
+>현재 대시보드는 2024년 3월까지 사용이 중단되지만, 그때까지 두 버전을 모두 활용하여 원활하게 전환할 수 있습니다.
 
 **IP 주소 데이터 제거**
 
@@ -96,7 +96,7 @@ URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과
 
 >[!NOTE]
 >
->현재 대시보드는 2024년 1월 중순까지 사용 중단되지만, 그때까지 두 버전을 모두 활용하여 원활하게 전환할 수 있습니다.
+>현재 대시보드는 2024년 3월까지 사용이 중단되지만, 그때까지 두 버전을 모두 활용하여 원활하게 전환할 수 있습니다.
 
 ### 사용 중단 {#deprecations}
 
