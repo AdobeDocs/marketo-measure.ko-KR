@@ -3,9 +3,9 @@ description: 세그먼테이션 우수 사례 - [!DNL Marketo Measure] - 제품 
 title: 세그먼테이션 우수 사례
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,9 @@ ht-degree: 0%
 * 세그먼트 이름을 조직의 명명법에 맞게 정렬합니다(예: 범주 = 필터 이름, 세그먼트 = 필터 값).
 * 규칙에 공식 필드 사용 안 함
 * 가능하면 전체 단계에서 사용할 수 있도록 Lead/Contact 및 Opportunity에 세분화를 구축하십시오.
+   * Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 잠재 고객용 아래 두 필드를 사용하지 마십시오([여기에서 자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+      * b2b.personStatus
+      * b2b.isConverted
    * 모든 세그먼트 범주가 전체 단계를 기준으로 정렬되는 것은 아닙니다.
       * 예를 들어 &#39;Opportunity Type&#39; 의 Segment 범주는 Lead 와 관련이 없지만 &#39;Region&#39; 과 관련된 Segment 는 전체 단계에서 정의할 수 있는 범주일 수 있습니다.
 * CRM이든 BI 툴이든, 현재 데이터를 분할하려는 방법을 생각하고 이 를 의 세그먼트로 빌드하는 것을 고려하십시오. [!DNL Marketo Measure] 따라서 Discover에서 동일한 보고를 수행할 수 있습니다.

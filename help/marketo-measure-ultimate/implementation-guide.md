@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultimate 구현 안내서 - [!DNL Marketo Measure] - 제품 설명서'
 title: '[!DNL Marketo Measure] Ultimate 구현 안내서'
 feature: Integration, Tracking, Attribution
-source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,11 @@ Measure에서 기본 통화는 &quot;통화&quot; 섹션에 설정해야 합니�
 ![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 단계를 매핑하지 않으면 데이터가 이동할 곳이 없기 때문에 시스템이 작동하지 않습니다.
+
+Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 잠재 고객용 아래 두 필드를 사용하지 마십시오([여기에서 자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **캠페인 멤버 규칙:**
 

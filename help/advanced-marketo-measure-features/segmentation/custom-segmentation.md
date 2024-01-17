@@ -4,9 +4,9 @@ description: 사용자 정의 세분화 - [!DNL Marketo Measure] - 제품 설명
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **사용자 정의 세분화 기능은 언제 유용합니까?**
 
-사용자 정의 세그먼테이션을 사용하여 특정 레코드 유형의 데이터를 볼 수 있습니다. 필터 논리를 매핑하면 [!DNL Marketo Measure] 대시보드의 Demand Waterfall 보기—CRM에 표시되는 것과 동일한 데이터.
+사용자 정의 세그먼테이션을 사용하여 특정 레코드 유형의 데이터를 볼 수 있습니다. 필터 논리를 매핑하면 [!DNL Marketo Measure] 대시보드의 Demand Waterfall 보기—CRM에서 볼 수 있는 것과 동일한 데이터입니다.
 
 **어떻게 설정해야 합니까?**
 
@@ -72,6 +72,11 @@ ht-degree: 0%
 Lead/Contacts 와 Opportunity 모두에 대해 규칙이 설정되지 않은 경우 데이터의 일부만 표시됩니다. 다시 말해, Opportunities 규칙을 설정하지 않으면 관련된 Opportunities 가 없는 Lead/Contact 데이터만 표시됩니다. Lead/Contact에 대한 규칙을 설정하지 않은 경우에도 마찬가지입니다. 연관된 Lead/Contact 가 없는 Opportunity 만 표시됩니다.
 
 완료되면 다음을 클릭합니다. [!UICONTROL Save] 먼저 모든 항목을 두 번 확인한 다음 [!UICONTROL Save and Process]. 다음과 같이 저장 및 처리할 때에는 7일 동안 설정을 편집할 수 없습니다. [!DNL Marketo Measure] 은(는) 이 시간 동안 데이터의 서식을 다시 지정합니다.
+
+Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 잠재 고객용 아래 두 필드를 사용하지 마십시오([여기에서 자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **생성된 보고서는 어떻게 저장합니까?**
 
