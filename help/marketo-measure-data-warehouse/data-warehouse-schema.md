@@ -4,9 +4,9 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
+source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
 workflow-type: tm+mt
-source-wordcount: '20697'
+source-wordcount: '20757'
 ht-degree: 3%
 
 ---
@@ -147,8 +147,23 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>Snowflake에서 레코드가 삭제된 것으로 표시된 날짜.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> 업계</td>
+      <td>varchar</td>
+      <td>계정의 기본 비즈니스.</td>
+      <td>소매, 통신</td>
+    </tr>
+    <tr>
+      <td><b>∗</b> 국가</td>
+      <td>varchar</td>
+      <td>계정 주소의 국가 부분입니다.</td>
+      <td>미국, 캐나다</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Marketo Measure Ultimate에서만 사용 가능</i>
+<p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
@@ -169,74 +184,34 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13.000</td>
     </tr>
     <tr>
-      <td>
-        <p>ACCOUNT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>소스 시스템 계정 ID.</p>
-      </td>
-      <td>
-        <p>0013100001phrBAAY</p>
-      </td>
+      <td>ACCOUNT_ID</td>
+      <td>varchar</td>
+      <td>소스 시스템 계정 ID.</td>
+      <td>0013100001phrBAAY</td>
     </tr>
     <tr>
-      <td>
-        <p>EMAIL</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>연락처 관계 또는 잠재 고객 대 계정 매핑을 통해 계정에 매핑된 이메일 주소.</p>
-      </td>
-      <td>
-        <p>person@adobe.com</p>
-      </td>
+      <td>EMAIL</td>
+      <td>varchar</td>
+      <td>연락처 관계 또는 잠재 고객 대 계정 매핑을 통해 계정에 매핑된 이메일 주소.</td>
+      <td>person@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>소스 시스템에서 계정의 마지막 수정 날짜입니다.</p>
-      </td>
-      <td>
-        <p>2018-08-31 23:53:39.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>소스 시스템에서 계정의 마지막 수정 날짜입니다.</td>
+      <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>소스 시스템에서 계정이 생성된 날짜입니다.</p>
-      </td>
-      <td>
-        <p>2018-08-18 22:01:32.000</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>소스 시스템에서 계정이 생성된 날짜입니다.</td>
+      <td>2018-08-18 22:01:32.000</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>부울</p>
-      </td>
-      <td>
-        <p>레코드가 삭제된 것으로 간주되는지 여부.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>부울</td>
+      <td>레코드가 삭제된 것으로 간주되는지 여부.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -272,58 +247,29 @@ _전체 크기 버전에 대한 이미지 클릭_
     <th><strong>샘플 데이터</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>소스 시스템의 활동 ID입니다.</p>
-      </td>
-      <td>
-        <p>1678625515</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>소스 시스템의 활동 ID입니다.</td>
+      <td>1678625515</td>
     </tr>
     <tr>
-      <td>
-        <p>리드 ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>리드 ID</td>
+      <td>varchar</td>
       <td>활동과 연관된 잠재 고객의 ID입니다.</td>
-      <td>
-        <p>15530482</p>
-      </td>
+      <td>15530482</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
+      <td>활동과 연관된 연락처의 ID입니다.
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>활동과 연관된 연락처의 ID입니다.</p>
-      </td>
-      <td>
-        <p>13792552</p>
-      </td>
+      <td>13792552</td>
     </tr>
     <tr>
-      <td>
-        <p>ACTIVITY_TYPE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>소스 시스템의 활동 유형에 대한 ID.</p>
-      </td>
-      <td>
-        <p>104</p>
-      </td>
+      <td>ACTIVITY_TYPE_ID</td>
+      <td>varchar</td>
+      <td>소스 시스템의 활동 유형에 대한 ID.</td>
+      <td>104</td>
     </tr>
     <tr>
       <td>ACTIVITY_TYPE_이름</td>
@@ -4388,18 +4334,10 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
-      <td>
-        <p>행 키</p>
-      </td>
-      <td>
-        <p>번호(38,0)</p>
-      </td>
-      <td>
-        <p>Biz_Facts 보기에 대한 외래 키.</p>
-      </td>
-      <td>
-        <p>3263982503087870000</p>
-      </td>
+      <td>행 키</td>
+      <td>번호(38,0)</td>
+      <td>Biz_Facts 보기에 대한 외래 키.</td>
+      <td>3263982503087870000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4419,8 +4357,17 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>Snowflake에서 레코드가 삭제된 것으로 표시된 날짜.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> JOB_TITLE</td>
+      <td>varchar</td>
+      <td>연락처의 직책.</td>
+      <td>CEO, 부사장</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Marketo Measure Ultimate에서만 사용 가능</i>
+<p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
@@ -10271,8 +10218,17 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>Snowflake에서 레코드가 삭제된 것으로 표시된 날짜.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> 영업 기회 유형</td>
+      <td>varchar</td>
+      <td>영업 기회 유형(예: 신규 비즈니스, 갱신 등)</td>
+      <td>갱신, 잠재 고객</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Marketo Measure Ultimate에서만 사용 가능</i>
+<p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
