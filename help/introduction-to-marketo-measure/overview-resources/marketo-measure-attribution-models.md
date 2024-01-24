@@ -4,9 +4,9 @@ description: Marketo Measure 속성 모델 - Marketo Measure - 제품 설명서
 title: Marketo Measure 속성 모델
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: aa12df4d0c77cdc677f78bcab19497806927ec2b
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Marketo Measure에서는 6가지 유형의 속성 모델을 제공합니다.
 
 ![](assets/1-1.png)
 
-다음에서 **단일 터치 모델**, 기여도 분석 크레딧은 하나의 이정표 접점에만 기여하므로 &#39;단일 터치&#39;라는 이름이 지정됩니다.
+다음에서 **단일 터치 모델**, 속성 크레딧은 하나의 이정표 접점에만 기인 - 따라서 이름은 &#39;single-touch&#39;입니다.
 다음에서 **멀티 터치 모델**, 대부분의 속성 크레딧이 둘 이상의 마일스톤 접점에 할당됩니다. 나머지 크레딧은 이정표 접점 사이에 발생하는 접점에 기인합니다.
 
 다음 몇 섹션에서는 각 속성 모델과 속성 크레딧이 지정되는 방법을 다룹니다.
@@ -42,7 +42,7 @@ Marketo Measure에서는 6가지 유형의 속성 모델을 제공합니다.
 
 첫 번째 터치 모델은 리드가 조직과 갖는 첫 번째 상호 작용에만 중점을 둡니다. 이 모델은 잠재 고객이 귀사를 처음 알게 된 첫 번째 터치인 FT(First Touch)에 기여도 분석 크레딧의 100%를 기여합니다.
 
-Kate가 애드워즈 광고를 통해 처음으로 www.adobe.com을 방문하여 백서를 본다고 가정해 보십시오. Adwords 채널은 해당 Opportunity에서 기여도 분석 크레딧을 100% 받습니다.
+케이트 방문 `www.adobe.com` Adwords Ad 를 통해 처음으로 백서를 봅니다. Adwords 채널은 해당 Opportunity에서 기여도 분석 크레딧을 100% 받습니다.
 
 ![](assets/2.png)
 
@@ -50,7 +50,7 @@ Kate가 애드워즈 광고를 통해 처음으로 www.adobe.com을 방문하여
 
 잠재 고객 생성 모델은 잠재 고객이 연락처 정보를 제공하고 잠재 고객이 될 때 LC 접점에 속성 크레딧의 100%를 지정합니다.
 
-앞의 예에서 계속하여, Adwords를 통해 Kate의 www.adobe.com 첫 방문 후, Austin은 Linkedin 게시물을 통해 웹 사이트를 방문합니다. Austin은 양식을 작성하고 단서가 됩니다. 이 모델에서 Linkedin은 속성 크레딧의 100%를 받습니다.
+Kate의 첫 번째 방문 이후인 이전 예제를 계속 `www.adobe.com` Adwords를 통해 Austin은 Linkedin 게시물을 통해 웹 사이트를 방문합니다. Austin은 양식을 작성하고 단서가 됩니다. 이 모델에서 Linkedin은 속성 크레딧의 100%를 받습니다.
 
 ![](assets/3.png)
 
@@ -62,7 +62,7 @@ Kate가 애드워즈 광고를 통해 처음으로 www.adobe.com을 방문하여
 
 U자형 모델은 FT 및 LC 터치포인트 모두에 중점을 둡니다. 이 모델에서 FT와 LC 접점은 각각 매출액 크레딧의 50%를 받습니다.
 
-Adwords 광고를 통해 Kate가 www.adobe.com을 처음 방문하는 경우 기여도 분석 크레딧의 50%를 받게 됩니다. 나머지 50퍼센트는 Austin이 양식을 작성하고 선두가 되도록 유도한 Linkedin의 게시물에 귀속될 것입니다.
+케이트의 첫 방문 `www.adobe.com` adWords 광고를 통해 기여도 분석 크레딧의 50%를 받습니다. 나머지 50퍼센트는 Austin이 양식을 작성하고 선두가 되도록 유도한 Linkedin의 게시물에 귀속될 것입니다.
 
 ![](assets/4.png)
 
@@ -86,4 +86,4 @@ Hillary 는 요금 페이지에 대한 링크가 포함된 이메일을 받고 �
 
 **사용자 지정 속성 모델**
 
-Marketo Measure은 또한 사용자가 모델에 포함할 터치포인트 또는 사용자 지정 단계를 선택할 수 있는 사용자 지정 속성 모델을 제공합니다. 또한 사용자는 이러한 접점 및 단계에 기여하는 속성 크레딧의 비율을 제어할 수 있습니다.
+Marketo Measure은 또한 사용자가 모델에 포함할 터치포인트 또는 사용자 지정 단계를 선택할 수 있는 사용자 지정 속성 모델을 제공합니다. 또한 사용자는 이러한 접점 및 단계에 기여하는 속성 크레딧의 비율을 제어할 수 있습니다. Opportunity에 전용 중간 터치만 없으면 백분율이 다른 Position에 고르게 분산됩니다.
