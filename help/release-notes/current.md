@@ -3,7 +3,7 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure] - 제품 설명서
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
+source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -102,7 +102,7 @@ URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과
 
 <p>
 
-#### Salesforce 필드 사용 중단 {#salesforce-field-deprecations}
+#### Salesforce 필드 사용 중단
 
 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없도록 리드/연락처 개체로의 내보내기 작업을 단계적으로 수행할 예정입니다. 고객이 터치포인트 오브젝트에서 동일한 데이터를 얻을 수 있으므로 아래 나열된 비정규화된 필드도 더 이상 사용되지 않습니다. _**사용 중단 기한은 2024년 6월입니다.**_
 
@@ -175,13 +175,13 @@ URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과
 
 <p>
 
-* **Dynamics 패키지 관련**
+#### Dynamics 패키지 관련
 
-   * Dynamics에 계속 연결하려면 최신 패키지 버전인 v6.12를 설치하십시오. 이전 버전 `(<v6.12)` 은(는) 더 이상 지원되지 않습니다. 이 업데이트는 기록 레코드 생성을 최적화하여 스토리지 사용을 줄입니다.
+* Dynamics에 계속 연결하려면 최신 패키지 버전인 v6.12를 설치하십시오. 이전 버전 `(<v6.12)` 은(는) 더 이상 지원되지 않습니다. 이 업데이트는 기록 레코드 생성을 최적화하여 스토리지 사용을 줄입니다.
 
-   * RefreshToken을 사용하는 OAuth의 오래된 메서드는 더 이상 사용되지 않습니다. 다음을 참조하십시오. [이 안내서](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} Microsoft의 ClientSecret 사용 모범 사례를 준수하도록 자격 증명을 업데이트할 수 있습니다.
+* RefreshToken을 사용하는 OAuth의 오래된 메서드는 더 이상 사용되지 않습니다. 다음을 참조하십시오. [이 안내서](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} Microsoft의 ClientSecret 사용 모범 사례를 준수하도록 자격 증명을 업데이트할 수 있습니다.
 
-* **&quot;custom_properties&quot; 필드**
+#### &quot;custom_properties&quot; 필드
 
 Data Warehouse에서 &quot;custom_properties&quot; 필드는 고정 스키마에서 다루지 않는 추가 데이터 포인트를 위한 저장소 역할을 했습니다. JSON 형식으로 저장된 이 필드는 사용이 제한되고 SQL 쿼리와의 통합이 복잡하여 성능에 영향을 줄 수 있습니다. 이러한 요소들을 고려하여, 우리는 이 분야를 더 이상 사용하지 않기로 결정했다. 이 변경 사항은 주로 Azure 테이블 저장소 내의 데이터 처리 계층 및 데이터 웨어하우스로 내보낸 데이터에 영향을 줍니다.
 
