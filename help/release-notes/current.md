@@ -3,9 +3,9 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure] - 제품 설명서
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
+source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과
 
 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없도록 리드/연락처 개체로의 내보내기 작업을 단계적으로 수행할 예정입니다. 고객이 터치포인트 오브젝트에서 동일한 데이터를 얻을 수 있으므로 아래 나열된 비정규화된 필드도 더 이상 사용되지 않습니다. _**사용 중단 기한은 2024년 6월입니다.**_
 
-<table style="width:300px">
+<table style="width:350px">
 <tbody>
   <tr>
     <td>bizible2__Ad_Campaign_Name_FT__c</td>
@@ -140,6 +140,40 @@ URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과
   </tr>
 </tbody>
 </table>
+
+접점 및 속성 접점 개체에 대한 동일한 정보가 포함된 필드는 다음과 같습니다.
+
+* bizible2__Ad_Campaign_Name__c
+* bizible2__Landing_Page__c
+* bizible2__Marketing_Channel__c
+* bizible2__Touchpoint_Date__c
+* bizible2__Touchpoint_Source__c
+
+**필수 작업**
+
+* 터치포인트가 있거나 없는 리드 및 연락처에 대한 새 보고서 유형을 만듭니다.
+
+![](assets/release-notes-2023-1.png)
+
+* 제거된 필드를 활용하는 기존 보고서의 기능을 캡처하는 보고서를 만듭니다. 이 프로세스의 일부로 아래 지정된 대로 보고서의 필드를 변경하려고 합니다.
+
+   * 리드/연락처 FT/LC 필드 제거:
+
+![](assets/release-notes-2023-2.png)
+
+* 접점 필드 추가:
+
+![](assets/release-notes-2023-3.png)
+
+* 접점 위치 필터 및 날짜 필드를 포함하여 FT/LC 필드를 사용하는 필터는 다음과 같이 업데이트해야 합니다.
+
+![](assets/release-notes-2023-4.png)
+
+![](assets/release-notes-2023-5.png)
+
+* 리드/연락처 오브젝트에서 제거된 필드를 활용하는 기존 보고서를 삭제하여 해당 필드를 더 이상 참조하지 않습니다.
+
+<p>
 
 * **Dynamics 패키지 관련**
 
