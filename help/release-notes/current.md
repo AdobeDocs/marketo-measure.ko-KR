@@ -3,7 +3,7 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure] - 제품 설명서
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -102,7 +102,7 @@ URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과
 
 <p>
 
-* **Salesforce 필드 사용 중단**
+#### Salesforce 필드 사용 중단 {#salesforce-field-deprecations}
 
 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없도록 리드/연락처 개체로의 내보내기 작업을 단계적으로 수행할 예정입니다. 고객이 터치포인트 오브젝트에서 동일한 데이터를 얻을 수 있으므로 아래 나열된 비정규화된 필드도 더 이상 사용되지 않습니다. _**사용 중단 기한은 2024년 6월입니다.**_
 
