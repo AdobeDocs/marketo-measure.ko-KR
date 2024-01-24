@@ -4,10 +4,10 @@ title: 통합 권한 개요
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
+source-git-commit: 95bdfe7c95111b6c6430e2de2b5eef050183fb0b
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 2%
+source-wordcount: '1286'
+ht-degree: 1%
 
 ---
 
@@ -166,38 +166,74 @@ Marketo Measure은 계정, 캠페인, 광고 그룹, 광고, 필터 ID 및 URL�
   </tr>
   <tr>
     <td>더블 클릭</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>광고 플랫폼 데이터</td>
+    <td>Marketo Measure은 계정, 광고주, 캠페인, (사용자 정의) 랜딩 페이지, 광고, 크리에이티브, 배치 및 사이트를 추적합니다.</td>
+    <td><li>사용자의 기본 Google 계정 이메일 주소가 필요합니다.</li>
+<li>Campaign Manager 360 계정에 액세스하는 데 필요한 Campaign Manager 권한</li>
+<ul>
+<li>DoubleClick 광고주 보고서 보기 및 관리</li>
+<li>DoubleClick 캠페인 관리자를 보고 관리하면 광고 캠페인이 표시됩니다</li>
+<p>
+    <b>범위</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: 기본 Google 계정 이메일 주소 보기
+    <p>
+     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: 광고주를 위한 DoubleClick 보고서 보기 및 관리
+    <p>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: DCM(DoubleClick Campaign Manager)의 디스플레이 광고 캠페인을 보고 관리합니다</td>
   </tr>
   <tr>
     <td>AdWords</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>광고 플랫폼 데이터</td>
+    <td>AdWords와 통합하여 다음과 같은 작업을 수행합니다.
+<p>
+<li>고객 광고 데이터 가져오기</li>
+<li>고객 광고 비용 데이터 가져오기</li>
+<li>URL 매개 변수 추가/URL 추적 템플릿 업데이트를 통해 클라이언트의 광고 업데이트</li>
+<p>
+Marketo Measure은 캠페인, 광고 그룹, 크리에이티브, 사이트 링크 및 키워드를 추적합니다.</td>
+    <td><li>사용자의 기본 Google 계정 이메일 주소가 필요합니다.</li>
+<p>
+    <b>범위</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: 기본 Google 계정 이메일 주소 보기</td>
   </tr>
   <tr>
     <td>빙</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>광고 플랫폼 데이터</td>
+    <td>Marketo Measure은 계정, 캠페인, 광고 그룹, 크리에이티브 및 키워드를 추적합니다.</td>
+    <td><li>사용자는 Microsoft 계정을 통해 "오프라인 액세스"를 부여해야 합니다(로그인하지 않은 경우에도 최종 사용자의 사용자 정보에 대한 Marketo Measure 액세스 권한을 부여함). 다음을 참조하십시오 <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft 페이지</a> 방법을 참조하십시오.</li>
+<p>
+    <b>범위</b>
+    <br>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: 권한에 대한 액세스 권한을 부여한 데이터에 대한 액세스 권한을 유지합니다.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B 시스템 데이터</td>
+    <td>Marketo 통합을 통해 Marketo Measure은 Marketo 활동, 사람, 프로그램 및 프로그램 멤버십을 수집할 수 있습니다. 또한 Marketo Measure은 Marketo 웹 활동을 Marketo Measure 리드 터치포인트에 연결하기 위한 목적으로 Marketo 쿠키(Munchkin ID)를 추적합니다. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">여기에 기재된 바와 같이</a>:
+    <p>
+    <i>Marketo과 Marketo Measure 통합의 결과로 Marketo Measure 쿠키 ID도 매핑되고 Marketo Munchkin ID와 동기화됩니다. 이렇게 하면 FT 및 LC 터치를 모두 Marketo 활동에 귀속시키지 않고 간격을 닫아 익명의 첫 번째 터치를 웹 세션에 귀속시킵니다.</i>
+    </td>
+    <td>고객은 전용 Marketo Engage API 사용자를 만들고 Marketo Measure에 자격 증명을 제공해야 합니다. 추가적인 권한 구성은 필요하지 않습니다. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">자세히 알아보기</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B 시스템 데이터</td>
+    <td>B2B 고객 속성 통합을 통해 Marketo Measure과 Adobe Analytics의 상호 사용자는 Marketo Measure 속성 엔진에서 파생된 중요한 메타데이터와 CRM(Microsoft Dynamics 및 Salesforce)과의 동기화 기능을 통해 Adobe Analytics 사용자 프로필을 보강할 수 있습니다. <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">자세히 알아보기</a>.</td>
+    <td>고객은 Marketo Measure에 별칭 ID와 FTP 서버 자격 증명을 제공하여 데이터가 Analytics 인스턴스에 업로드될 위치에 있어야 합니다.
+    <p>
+    이 프로세스의 이후 단계 중 일부에 필요하므로 다음 정보를 참고하십시오.
+    <p>
+    <li>원하는 값이 될 수 있는 별칭 ID입니다. "marketomeasure_id"를 권장합니다.</li>
+    <li>FTP 서버 호스트 이름 및 자격 증명(사용자 이름 및 암호)</li>
+    <p>
+    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">자세히 알아보기</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
     <td></td>
-    <td></td>
+    <td><a href="/help/marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md">bizible.js에서 수집하는 데이터</a>.</td>
     <td></td>
   </tr>
 </tbody>
