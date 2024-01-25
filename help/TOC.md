@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 969cb2b4fb85aeb5c3a3aa21ead3eb5f4ff15ad9
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '823'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 1%
       + [속성 매핑 방법론](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
       + [Adobe Admin Console 설정](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [구매자 접점 및 구매자 속성 접점 간의 차이](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+      + [오류 알림](configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
       + [BT 및 간 접점 위치와 생성에 대한 설명 [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] CRM 패키지 없는 통합](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] 및 Salesforce {#marketo-measure-and-salesforce}
