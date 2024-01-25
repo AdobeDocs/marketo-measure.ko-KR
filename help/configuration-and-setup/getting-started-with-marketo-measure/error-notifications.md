@@ -4,9 +4,9 @@ title: 오류 알림
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 656c84090c93adb55a661869061e9e0771ede03d
+source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,10 @@ ht-degree: 0%
           </ul>
           <p>아래 단계에 따라 Marketo Measure에서 사용하는 CRM 크레딧을 조정할 수도 있습니다.</p>
           <ul>
-            <li>설정 → CRM → 일반으로 이동합니다.</li>
+            <li>다음으로 이동 <b>설정</b> &gt; <b>CRM</b> &gt; <b>일반</b></li>
             <li>일별 CRM API 제한 업데이트<br/>
               <ul>
-                <li><b>참고</b>: 기본값은 100,000입니다.</li>
+                <li><b>참고: 기본값은 100,000입니다</b></li>
               </ul>
             </li>
           </ul>
