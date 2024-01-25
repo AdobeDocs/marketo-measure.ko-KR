@@ -4,9 +4,9 @@ title: 오류 알림
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
+source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,10 @@ ht-degree: 0%
 <table>
   <tbody>
     <tr>
-      <th>오류 코드</th>
-      <th>알림 예</th>
-      <th>설명</th>
-      <th>문제 해결 단계</th>
+      <th style="width:31%">오류 코드</th>
+      <th style="width:23%">알림 예</th>
+      <th style="width:23%">설명</th>
+      <th style="width:23%">문제 해결 단계</th>
     </tr>
     <tr>
       <td>API 비활성화(_D)</td>
