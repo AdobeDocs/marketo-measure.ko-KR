@@ -4,9 +4,9 @@ description: Marketo Measure을 Salesforce에 연결 - [!DNL Marketo Measure] - 
 title: Marketo Measure을 Salesforce에 연결
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: 5b1511395aff958f20f74c8a52c2701c4a64329d
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,7 @@ Marketo Measure은 CRM 통합 작업을 사용하여 통합 사용자를 통해 
 >[!NOTE]
 >
 >연결된 솔루션에 사용 가능한 Salesforce API 점수를 높이려면 Salesforce 관리자에게 문의하고 참조하십시오 [이 Salesforce 문서](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
+
+>[!MORELIKETHIS]
+>
+>[오류 알림](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

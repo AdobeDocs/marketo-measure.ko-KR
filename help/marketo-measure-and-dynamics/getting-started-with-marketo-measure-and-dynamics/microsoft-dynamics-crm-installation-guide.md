@@ -4,9 +4,9 @@ description: "[!DNL Microsoft Dynamics] CRM 설치 안내서 - Marketo Measure -
 title: "[!DNL Microsoft Dynamics] CRM 설치 안내서"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -175,3 +175,7 @@ Dynamics 표준 엔터티의 경우 다음을 참조하십시오. [!DNL Marketo 
    >[!NOTE]
    >
    >Marketo Measure에서 Dynamics로 데이터 내보내기를 비활성화하면 기존 데이터가 제거되지 않습니다. 기존 데이터를 제거하는 데 도움이 필요하면 Dynamics 지원 센터에 문의하십시오.
+
+   >[!MORELIKETHIS]
+   >
+   >[오류 알림](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

@@ -2,9 +2,9 @@
 description: 통합 권한 개요 - [!DNL Marketo Measure] - 제품 설명서
 title: 통합 권한 개요
 feature: APIs, Integration
-source-git-commit: e427f5e9f234917c033188116602d4798701118c
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -236,3 +236,7 @@ Marketo Measure은 캠페인, 광고 그룹, 크리에이티브, 사이트 링�
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[오류 알림](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

@@ -4,9 +4,9 @@ description: FAQ (다중 통화) - [!DNL Marketo Measure] - 제품 설명서
 title: FAQ (다중 통화)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,7 @@ ht-degree: 0%
 **고객이 워크플로우를 사용하여 변환된 필드를 채운 경우 앞으로 이 필드를 어떻게 사용해야 합니까?**
 
 이제 오퍼가 고객에 대한 전환을 처리하므로 워크플로우 및 사용자 정의 필드를 제거하고 원시 금액 값을 가져올 수 있도록 하는 것이 좋습니다.
+
+>[!MORELIKETHIS]
+>
+>[오류 알림](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
