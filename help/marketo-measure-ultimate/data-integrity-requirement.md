@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사
 title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
+source-git-commit: 23890f24412e234f9ab7c08b684b6064eac5d0ed
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 17%
@@ -1366,7 +1366,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 필드 매핑에서 계산된 필드를 사용하여 필드를 NULL이 아닌 값으로 기본 설정하는 것이 좋습니다. 다음은 두 가지 예입니다.
 
 * 일부 영업 기회 레코드의 opportunityName이 null인 경우 필드 매핑에서 다음 계산된 필드를 만들어 사용합니다.
-   * `iif(name != null && name != "", name, "Unknown")`
+   * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * 일부 experienceevent 레코드의 leadOperation.campaignProgression.campaignID가 null이면 필드 매핑에서 다음 계산된 필드를 만들어 사용합니다
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
