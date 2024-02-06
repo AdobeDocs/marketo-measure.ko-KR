@@ -4,9 +4,9 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
+source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
 workflow-type: tm+mt
-source-wordcount: '20757'
+source-wordcount: '20781'
 ht-degree: 3%
 
 ---
@@ -6740,6 +6740,10 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 ### BIZ_FACTS {#biz-facts}
 
 노출 횟수, 페이지 보기 수, 방문 횟수, 양식 제출, 사용자 접점, 접점(BT), 속성 접점(BAT) 및 비용 데이터를 결합하는 조합 지원을 위해 내부적으로 사용됨 [!DNL Marketo Measure] 보고.
+
+>[!IMPORTANT]
+>
+>Marketo Measure은 2024년 중반에 이 표를 더 이상 사용하지 않을 예정입니다. 사용자 측에서 작성하려면 를 실행하십시오. [이 SQL 쿼리](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
