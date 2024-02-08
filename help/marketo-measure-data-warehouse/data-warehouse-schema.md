@@ -4,9 +4,9 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
 workflow-type: tm+mt
-source-wordcount: '20781'
+source-wordcount: '20777'
 ht-degree: 3%
 
 ---
@@ -8120,9 +8120,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>고급 지역 IP 추적을 사용하는 고객이 사용하는 인터넷 서비스 공급자의 이름입니다.</p>
-      </td>
+      <td>필드가 사용되지 않으므로 null이 되어야 합니다.</td>
       <td>
         <p>-</p>
       </td>
@@ -12037,9 +12035,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>사용자의 인터넷 서비스 공급자</p>
-      </td>
+      <td>필드가 사용되지 않으므로 null이 되어야 합니다.</td>
       <td>
         <p>-</p>
       </td>
