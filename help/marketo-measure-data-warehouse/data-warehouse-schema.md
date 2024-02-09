@@ -4,7 +4,7 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: b7675bb771c41f6d0e0b2718e64a152c78e405af
+source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 3%
@@ -357,349 +357,164 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p><strong>열</strong></p>
-      </th>
-      <th>
-        <p><strong>데이터 유형</strong></p>
-      </th>
-      <th>
-        <p><strong>설명</strong></p>
-      </th>
-      <th>
-        <p><strong>샘플 데이터</strong></p>
-      </th>
+      <th><strong>열</strong></th>
+      <th><strong>데이터 유형</strong></th>
+      <th><strong>설명</strong></th>
+      <th><strong>샘플 데이터</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고에 대한 고유 ID.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.6052044288804.6052044290004.6053457066804</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>광고에 대한 고유 ID.</td>
+      <td>fb.106851586409075.6052044288804.6052044290004.6053457066804</td>
     </tr>
     <tr>
-      <td>
-        <p>DISPLAY_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>소스 시스템의 광고 ID.</p>
-      </td>
-      <td>
-        <p>6053457066804</p>
-      </td>
+      <td>DISPLAY_ID</td>
+      <td>varchar</td>
+      <td>소스 시스템의 광고 ID.</td>
+      <td>6053457066804</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고를 가져올 광고 계정의 ID입니다.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075</p>
-      </td>
+      <td>AD_ACCOUNT_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>광고를 가져올 광고 계정의 ID입니다.</td>
+      <td>fb.106851586409075</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고를 가져온 광고 계정의 이름입니다.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] 계정</p>
-      </td>
+      <td>AD_ACCOUNT_NAME</td>
+      <td>varchar</td>
+      <td>광고를 가져온 광고 계정의 이름입니다.</td>
+      <td>[!DNL Marketo Measure] 계정</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고, 특히 Doubleclick에 대한 광고주 ID.</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>광고, 특히 Doubleclick에 대한 광고주 ID.</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고용 광고주 이름, 특히 Doubleclick의 경우.</p>
-      </td>
-      <td>
-        <p>Marketing Analytics</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>광고용 광고주 이름, 특히 Doubleclick의 경우.</td>
+      <td>Marketing Analytics</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고에 대한 광고 그룹 ID.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.6052044288804.6052044290004</p>
-      </td>
+      <td>AD_GROUP_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>광고에 대한 광고 그룹 ID.</td>
+      <td>fb.106851586409075.6052044288804.6052044290004</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_이름</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고에 대한 광고 그룹 이름.</p>
-      </td>
-      <td>
-        <p>광고 B에 대한 광고 세트</p>
-      </td>
+      <td>AD_GROUP_이름</td>
+      <td>varchar</td>
+      <td>광고에 대한 광고 그룹 이름.</td>
+      <td>광고 B에 대한 광고 세트</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고 캠페인 ID.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.6052044288804</p>
-      </td>
+      <td>AD_CAMPAIGN_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>광고 캠페인 ID.</td>
+      <td>fb.106851586409075.6052044288804</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_캠페인_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고 캠페인의 이름입니다.</p>
-      </td>
-      <td>
-        <p>리드 생성 캠페인</p>
-      </td>
+      <td>AD_캠페인_NAME</td>
+      <td>varchar</td>
+      <td>광고 캠페인의 이름입니다.</td>
+      <td>리드 생성 캠페인</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_ACTIVE</p>
-      </td>
-      <td>
-        <p>부울</p>
-      </td>
-      <td>
-        <p>소스 시스템에서 광고가 여전히 활성 상태인지 여부.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_ACTIVE</td>
+      <td>부울</td>
+      <td>소스 시스템에서 광고가 여전히 활성 상태인지 여부.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>부울</p>
-      </td>
-      <td>
-        <p>소스 시스템에서 광고가 삭제되었는지 여부.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>부울</td>
+      <td>소스 시스템에서 광고가 삭제되었는지 여부.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>레코드를 마지막으로 수정한 날짜입니다.</p>
-      </td>
-      <td>
-        <p>2018년 8월 2일:35:59.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>레코드를 마지막으로 수정한 날짜입니다.</td>
+      <td>2018년 8월 2일:35:59.000</td>
     </tr>
     <tr>
-      <td>
-        <p>FIRST_IMPORT</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
-      </td>
-      <td>
-        <p>2018년 8월 2일:35:59.000</p>
-      </td>
+      <td>FIRST_IMPORT</td>
+      <td>timestamp_ntz</td>
+      <td>소스 시스템에서 레코드를 처음 가져온 날짜.</td>
+      <td>2018년 8월 2일:35:59.000</td>
     </tr>
     <tr>
-      <td>
-        <p>이름</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>소스 시스템의 광고 이름입니다.</p>
-      </td>
-      <td>
-        <p>년</p>
-      </td>
+      <td>이름</td>
+      <td>varchar</td>
+      <td>소스 시스템의 광고 이름입니다.</td>
+      <td>년</td>
     </tr>
     <tr>
-      <td>
-        <p>NEEDS_UPDATE</p>
+      <td>NEEDS_UPDATE</td>
+      <td>부울</td>
+      <td>다음에 대한 광고 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.
+      <p>(내부 처리에 사용되는 진단 필드)
       </td>
-      <td>
-        <p>부울</p>
-      </td>
-      <td>
-        <p>다음에 대한 광고 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
-        <p>(내부 처리에 사용되는 진단 필드)</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>그룹화 키</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>그룹화 키</td>
+      <td>varchar</td>
       <td>내부 처리에 사용되는 진단 필드.</td>
-      <td>
-        <p>fb.106851586409075.6052044288804.6052044290004</p>
-      </td>
+      <td>fb.106851586409075.6052044288804.6052044290004</td>
     </tr>
     <tr>
-      <td>
-        <p>ENTITY_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "광고"입니다.</p>
-      </td>
-      <td>
-        <p>광고</p>
-      </td>
+      <td>ENTITY_TYPE</td>
+      <td>varchar</td>
+      <td>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "광고"입니다.</td>
+      <td>광고</td>
     </tr>
     <tr>
-      <td>
-        <p>PROVIDER_유형</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고에 대한 광고 공급자의 이름입니다.</p>
-      </td>
-      <td>
-        <p>Facebook</p>
-      </td>
+      <td>PROVIDER_유형</td>
+      <td>varchar</td>
+      <td>광고에 대한 광고 공급자의 이름입니다.</td>
+      <td>Facebook</td>
     </tr>
     <tr>
-      <td>
-        <p>URL_CURRENT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>랜딩 페이지의 URL입니다.</p>
-        <p>(진단 필드, 내부 처리용)</p>
+      <td>URL_CURRENT</td>
+      <td>varchar</td>
+      <td>랜딩 페이지의 URL입니다.
+        <p>(진단 필드, 내부 처리용)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_OLD</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>URL_CURRENT의 이전 값.</p>
-        <p>(진단 필드, 내부 처리용)</p>
+      <td>URL_OLD</td>
+      <td>varchar</td>
+      <td>URL_CURRENT의 이전 값.
+      <p>(진단 필드, 내부 처리용)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_REQUESTED</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>URL을 데코레이트할 대상 [!DNL Marketo Measure] 매개 변수.</p>
-        <p>(진단 필드, 내부 처리용)</p>
+      <td>URL_REQUESTED</td>
+      <td>varchar</td>
+      <td>URL을 데코레이트할 대상 [!DNL Marketo Measure] 매개 변수.
+      <p>(진단 필드, 내부 처리용)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL 대체 항목</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>소스 시스템에서 가져옵니다.</p>
-        <p>(진단 필드, 내부 처리용)</p>
+      <td>URL 대체 항목</td>
+      <td>varchar</td>
+      <td>소스 시스템에서 가져옵니다.
+      <p>(진단 필드, 내부 처리용)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>행 키</p>
-      </td>
-      <td>
-        <p>번호(38,0)</p>
-      </td>
-      <td>
-        <p>Biz_Facts 보기에 대한 외래 키.</p>
-      </td>
-      <td>
-        <p>6008900572523230000</p>
-      </td>
+      <td>행 키</td>
+      <td>번호(38,0)</td>
+      <td>Biz_Facts 보기에 대한 외래 키.</td>
+      <td>6008900572523230000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -735,277 +550,126 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고주에 대한 고유 Id입니다.</p>
-      </td>
-      <td>
-        <p>dc.6114.9143143</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>광고주에 대한 고유 Id입니다.</td>
+      <td>dc.6114.9143143</td>
     </tr>
     <tr>
-      <td>
-        <p>DISPLAY_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>DISPLAY_ID</td>
+      <td>varchar</td>
       <td>소스 시스템의 광고주 ID.</td>
       <td>9143143</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고를 가져올 광고 계정의 ID입니다.</p>
-      </td>
-      <td>
-        <p>fb.106851586409075</p>
-      </td>
+      <td>AD_ACCOUNT_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>광고를 가져올 광고 계정의 ID입니다.</td>
+      <td>fb.106851586409075</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고를 가져온 광고 계정의 이름입니다.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] 계정</p>
-      </td>
+      <td>AD_ACCOUNT_NAME</td>
+      <td>varchar</td>
+      <td>광고를 가져온 광고 계정의 이름입니다.</td>
+      <td>[!DNL Marketo Measure] 계정</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Doubleclick에 특히 대한 광고주 ID.</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Doubleclick에 특히 대한 광고주 ID.</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고주 이름, 특히 Doubleclick에 사용됩니다.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Marketing Analytics</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>광고주 이름, 특히 Doubleclick에 사용됩니다.</td>
+      <td>[!DNL Marketo Measure] Marketing Analytics</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고 계층 구조에서 광고주 위에 광고 그룹이 없으므로 Null이 되어야 합니다.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_GROUP_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>광고 계층 구조에서 광고주 위에 광고 그룹이 없으므로 Null이 되어야 합니다.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_이름</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고 계층 구조에서 광고주 위에 광고 그룹이 없으므로 Null이 되어야 합니다.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_GROUP_이름</td>
+      <td>varchar</td>
+      <td>광고 계층 구조에서 광고주 위에 광고 그룹이 없으므로 Null이 되어야 합니다.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고 계층 구조에서 광고주 위에 광고 캠페인이 없으므로 Null이 되어야 합니다.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_CAMPAIGN_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>광고 계층 구조에서 광고주 위에 광고 캠페인이 없으므로 Null이 되어야 합니다.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_캠페인_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고 계층 구조에서 광고 광고주 위에 캠페인이 없으므로 Null이 되어야 합니다.</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_캠페인_NAME</td>
+      <td>varchar</td>
+      <td>광고 계층 구조에서 광고 광고주 위에 캠페인이 없으므로 Null이 되어야 합니다.</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_ACTIVE</p>
-      </td>
-      <td>
-        <p>부울</p>
-      </td>
-      <td>
-        <p>광고주가 소스 시스템에서 여전히 활성 상태인지 여부입니다.</p>
-      </td>
-      <td>
-        <p>true</p>
-      </td>
+      <td>IS_ACTIVE</td>
+      <td>부울</td>
+      <td>광고주가 소스 시스템에서 여전히 활성 상태인지 여부입니다.</td>
+      <td>true</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>부울</p>
-      </td>
-      <td>
-        <p>소스 시스템에서 광고주가 삭제되었는지 여부.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>부울</td>
+      <td>소스 시스템에서 광고주가 삭제되었는지 여부.</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>레코드를 마지막으로 수정한 날짜입니다.</p>
-      </td>
-      <td>
-        <p>2018년 8월 2일:35:59.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>레코드를 마지막으로 수정한 날짜입니다.</td>
+      <td>2018년 8월 2일:35:59.000</td>
     </tr>
     <tr>
-      <td>
-        <p>FIRST_IMPORT</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
-      </td>
-      <td>
-        <p>2018년 8월 2일:35:59.000</p>
-      </td>
+      <td>FIRST_IMPORT</td>
+      <td>timestamp_ntz</td>
+      <td>소스 시스템에서 레코드를 처음 가져온 날짜.</td>
+      <td>2018년 8월 2일:35:59.000</td>
     </tr>
     <tr>
-      <td>
-        <p>이름</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>소스 시스템의 광고주 이름입니다.</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Marketing Analytics</p>
-      </td>
+      <td>이름</td>
+      <td>varchar</td>
+      <td>소스 시스템의 광고주 이름입니다.</td>
+      <td>[!DNL Marketo Measure] Marketing Analytics</td>
     </tr>
     <tr>
-      <td>
-        <p>NEEDS_UPDATE</p>
+      <td>NEEDS_UPDATE</td>
+      <td>부울</td>
+      <td>다음에 대한 광고주 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.
+      <p>(내부 처리에 사용되는 진단 필드)
       </td>
-      <td>
-        <p>부울</p>
-      </td>
-      <td>
-        <p>다음에 대한 광고주 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
-        <p>(내부 처리에 사용되는 진단 필드)</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>그룹화 키</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>그룹화 키</td>
+      <td>varchar</td>
       <td>내부 처리에 사용되는 진단 필드.</td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>ENTITY_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "광고주"입니다.</p>
-      </td>
-      <td>
-        <p>광고주</p>
-      </td>
+      <td>ENTITY_TYPE</td>
+      <td>varchar</td>
+      <td>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "광고주"입니다.</td>
+      <td>광고주</td>
     </tr>
     <tr>
-      <td>
-        <p>PROVIDER_유형</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>광고주용 광고 공급자입니다.</p>
-      </td>
-      <td>
-        <p>더블클릭</p>
-      </td>
+      <td>PROVIDER_유형</td>
+      <td>varchar</td>
+      <td>광고주용 광고 공급자입니다.</td>
+      <td>더블클릭</td>
     </tr>
     <tr>
-      <td>
-        <p>행 키</p>
-      </td>
-      <td>
-        <p>번호(38,0)</p>
-      </td>
-      <td>
-        <p>Biz_Facts 보기에 대한 외래 키.</p>
-      </td>
-      <td>
-        <p>6008900572523230000</p>
-      </td>
+      <td>행 키</td>
+      <td>번호(38,0)</td>
+      <td>Biz_Facts 보기에 대한 외래 키.</td>
+      <td>6008900572523230000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
