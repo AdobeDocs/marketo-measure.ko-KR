@@ -4,9 +4,9 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
+source-git-commit: 999758c34b0264b8dac06fd0675e26b312fa58d6
 workflow-type: tm+mt
-source-wordcount: '20777'
+source-wordcount: '20775'
 ht-degree: 3%
 
 ---
@@ -729,18 +729,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -1043,18 +1035,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -1487,18 +1471,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -2092,18 +2068,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -2466,18 +2434,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -2548,18 +2508,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -3748,18 +3700,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -4061,18 +4005,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -4144,18 +4080,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -5026,18 +4954,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -5527,18 +5447,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -5740,18 +5652,10 @@ _전체 크기 버전에 대한 이미지 클릭_
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -6042,15 +5946,9 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
       <th>샘플 데이터</th>
     </tr>
     <tr>
@@ -6205,15 +6103,9 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
       <th>샘플 데이터</th>
     </tr>
     <tr>
@@ -6334,15 +6226,9 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
       <th>샘플 데이터</th>
     </tr>
     <tr>
@@ -6619,18 +6505,10 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -7540,17 +7418,11 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
   <tbody>
     <tr>
       <th>
-        <p>열</p>
+        열
       </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -7852,18 +7724,10 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -8121,9 +7985,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>varchar</p>
       </td>
       <td>필드가 사용되지 않으므로 null이 되어야 합니다.</td>
-      <td>
-        <p>-</p>
-      </td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8601,18 +8463,10 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -9026,15 +8880,9 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
       <th>샘플 데이터</th>
     </tr>
     <tr>
@@ -9293,18 +9141,10 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -9632,18 +9472,10 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -9909,18 +9741,10 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -10239,18 +10063,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -10528,18 +10344,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -10853,15 +10661,9 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
       <th>샘플 데이터</th>
     </tr>
     <tr>
@@ -11131,18 +10933,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -11214,18 +11008,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -11309,18 +11095,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -12037,7 +11815,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>필드가 사용되지 않으므로 null이 되어야 합니다.</td>
       <td>
-        <p>-</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -12176,18 +11954,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -12462,18 +12232,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -12801,18 +12563,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -14277,18 +14031,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
@@ -15178,18 +14924,10 @@ Opportunity 의 Stage 전환
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>열</p>
-      </th>
-      <th>
-        <p>데이터 유형</p>
-      </th>
-      <th>
-        <p>설명</p>
-      </th>
-      <th>
-        <p>샘플 데이터</p>
-      </th>
+      <th>열</th>
+      <th>데이터 유형</th>
+      <th>설명</th>
+      <th>샘플 데이터</th>
     </tr>
     <tr>
       <td>
