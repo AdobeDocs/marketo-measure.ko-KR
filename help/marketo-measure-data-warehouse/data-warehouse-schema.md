@@ -4,9 +4,9 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
+source-git-commit: f77c4471887c18b177dedab5b4c41f3a64010539
 workflow-type: tm+mt
-source-wordcount: '20775'
+source-wordcount: '21115'
 ht-degree: 3%
 
 ---
@@ -705,12 +705,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>광고 계정에 대한 고유 식별자.</p>
       </td>
@@ -722,9 +718,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>소스 시스템의 광고 계정 ID.</td>
       <td>
         <p>6601259029</p>
@@ -734,9 +728,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>광고 계층의 광고 계정에 대한 레코드이므로 null이 필요합니다.</td>
       <td>null</td>
     </tr>
@@ -744,9 +736,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>광고 계층의 광고 계정에 대한 레코드이므로 null이 필요합니다.</td>
       <td>null</td>
     </tr>
@@ -754,9 +744,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조에서 광고 계정 위에 광고주가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -766,9 +754,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조에서 광고 계정 위에 광고주가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -778,9 +764,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조의 광고 계정 위에 광고 그룹이 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -790,9 +774,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조의 광고 계정 위에 광고 그룹이 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -802,9 +784,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조의 광고 계정 위에 광고 캠페인이 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -814,9 +794,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조의 광고 계정 위에 광고 캠페인이 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -851,12 +829,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -868,9 +842,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
@@ -882,9 +854,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>소스 시스템의 광고 계정 이름입니다.</td>
       <td>
         <p>[!DNL Marketo Measure] 광고 계정</p>
@@ -909,9 +879,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리에 사용되는 진단 필드.</td>
       <td></td>
     </tr>
@@ -919,9 +887,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "계정"입니다.</p>
       </td>
@@ -933,9 +899,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계정에 대한 광고 공급자의 이름입니다.</p>
       </td>
@@ -947,9 +911,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ACCOUNT_CURRENCY_UNIT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템에서 광고 계정에 사용되는 통화 코드.</p>
       </td>
@@ -961,9 +923,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>COMPANY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리에 사용됩니다.</td>
       <td>1933789</td>
     </tr>
@@ -971,9 +931,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>소스</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>utm_source의 URL에서 구문 분석됩니다.</td>
       <td>
         <p>소셜</p>
@@ -983,9 +941,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>중간</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>utm_medium의 URL에서 구문 분석됩니다.</td>
       <td>
         <p>리수07261601</p>
@@ -1051,9 +1007,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -1063,9 +1017,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -1073,9 +1025,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -1083,9 +1033,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계정 수준에서 AdWords 또는 랜딩 페이지에 태그를 지정하는 Bing에 추적 템플릿이 추가되었습니다.</p>
       </td>
@@ -1141,12 +1089,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>캠페인에 대한 고유 ID.</p>
       </td>
@@ -1158,9 +1102,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>소스 시스템의 캠페인 ID.</td>
       <td>
         <p>285114995</p>
@@ -1170,9 +1112,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인을 가져온 광고 계정의 ID입니다.</p>
       </td>
@@ -1184,9 +1124,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인을 가져온 광고 계정의 이름입니다.</p>
       </td>
@@ -1198,9 +1136,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Campaign, 특히 Doubleclick에 대한 광고주 ID.</p>
       </td>
@@ -1212,9 +1148,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인에 대한 광고주 이름, 특히 Doubleclick에 대한 이름입니다.</p>
       </td>
@@ -1226,9 +1160,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조에서 캠페인 위에 광고 그룹이 없으므로 Null이 필요합니다.</p>
       </td>
@@ -1240,9 +1172,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조에서 캠페인 위에 광고 그룹이 없으므로 Null이 필요합니다.</p>
       </td>
@@ -1252,9 +1182,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인에 대한 고유 ID입니다. 대신 ID 필드를 사용하십시오.</p>
       </td>
@@ -1264,9 +1192,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인의 이름입니다. 이름 필드를 대신 사용하십시오.</p>
       </td>
@@ -1301,12 +1227,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -1318,9 +1240,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
@@ -1332,9 +1252,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인 이름.</p>
       </td>
@@ -1361,9 +1279,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리에 사용되는 진단 필드.</td>
       <td></td>
     </tr>
@@ -1371,9 +1287,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "캠페인"입니다.</p>
       </td>
@@ -1385,9 +1299,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인에 대한 광고 공급자의 이름입니다.</p>
       </td>
@@ -1413,9 +1325,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -1423,9 +1333,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -1433,9 +1341,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -1443,9 +1349,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지에 태그 지정하기 위해 AdWords 또는 Bing용 캠페인 수준에 추가된 추적 템플릿입니다.</p>
       </td>
@@ -1509,12 +1413,8 @@ _전체 크기 버전에 대한 이미지 클릭_
   </tr>
   <tbody>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>광고 양식에 대한 고유 ID입니다.</p>
       </td>
@@ -1526,9 +1426,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 양식을 가져올 광고 계정의 ID입니다.</p>
       </td>
@@ -1540,9 +1438,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 양식을 가져온 광고 계정의 이름입니다.</p>
       </td>
@@ -1565,12 +1461,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -1582,9 +1474,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
@@ -1596,9 +1486,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 양식 이름.</p>
       </td>
@@ -1610,9 +1498,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "AdForm"입니다.</p>
       </td>
@@ -1624,9 +1510,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 양식에 대한 광고 공급자의 이름입니다.</p>
       </td>
@@ -1638,9 +1522,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>설명</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 양식에 대한 설명.</p>
       </td>
@@ -1652,9 +1534,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>제목</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>광고 양식의 헤드라인.</td>
       <td>
         <p>리파이낸싱 애플리케이션 프로세스 자동화</p>
@@ -1664,9 +1544,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>랜딩 URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>광고 양식의 랜딩 URL.</td>
       <td>
         <p>https://adobe.com/blog/refinancing-application-process/</p>
@@ -1676,9 +1554,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>질문</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>광고 양식에 대한 질문 목록입니다.</td>
       <td>
         <p>이름:성:이메일 주소:국가/지역:직함:회사 이름</p>
@@ -1688,9 +1564,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>상태</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 양식 상태.</p>
       </td>
@@ -1738,12 +1612,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>광고 그룹에 대한 고유 ID.</p>
       </td>
@@ -1755,9 +1625,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>소스 시스템의 광고 그룹 ID입니다.</td>
       <td>
         <p>23105326115</p>
@@ -1767,9 +1635,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 그룹을 가져온 광고 계정의 ID입니다.</p>
       </td>
@@ -1781,9 +1647,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 그룹을 가져온 광고 계정의 이름입니다.</p>
       </td>
@@ -1795,9 +1659,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 광고 계층 구조에 광고 그룹이 없으므로 Null이 필요합니다.</p>
       </td>
@@ -1809,9 +1671,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 광고 계층 구조에 광고 그룹이 없으므로 Null이 필요합니다.</p>
       </td>
@@ -1823,9 +1683,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>계층 구조의 광고 그룹에 대한 레코드이므로 Null이 필요합니다.</p>
       </td>
@@ -1837,9 +1695,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>계층 구조의 광고 그룹에 대한 레코드이므로 Null이 필요합니다.</p>
       </td>
@@ -1851,9 +1707,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 그룹에 대한 캠페인 ID.</p>
       </td>
@@ -1865,9 +1719,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 그룹에 대한 캠페인의 이름입니다.</p>
       </td>
@@ -1904,12 +1756,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -1921,9 +1769,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
@@ -1935,9 +1781,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 그룹 이름.</p>
       </td>
@@ -1964,9 +1808,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리에 사용되는 진단 필드.</td>
       <td></td>
     </tr>
@@ -1974,9 +1816,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "AdGroup".</p>
       </td>
@@ -1988,9 +1828,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 그룹에 대한 광고 공급자의 이름입니다.</p>
       </td>
@@ -2002,9 +1840,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_NETWORK_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 그룹이 실행 중인 매체입니다.</p>
       </td>
@@ -2016,9 +1852,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -2026,9 +1860,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -2036,9 +1868,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -2046,9 +1876,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계정 수준에서 AdWords 또는 랜딩 페이지에 태그를 지정하는 Bing에 추적 템플릿이 추가되었습니다.</p>
       </td>
@@ -2104,12 +1932,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>광고 공급자에 대한 고유 ID.</p>
       </td>
@@ -2121,9 +1945,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 공급자의 이름입니다.</p>
       </td>
@@ -2178,12 +2000,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>구매자 속성 터치포인트(BAT)에 대한 고유 ID.</p>
       </td>
@@ -2193,12 +2011,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -2210,9 +2024,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>영업 기회 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BAT가 속하는 영업 기회에 대한 ID.</p>
       </td>
@@ -2221,12 +2033,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>BAT와 연계된 연락처 ID.</p>
       </td>
@@ -2244,9 +2052,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BAT가 속한 계정의 ID입니다.</p>
       </td>
@@ -2258,9 +2064,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BAT를 생성한 사용자 터치포인트의 ID입니다.</p>
       </td>
@@ -2272,9 +2076,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>터치포인트의 날짜입니다.</p>
       </td>
@@ -2292,9 +2094,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>활동 유형, 웹 방문, 웹 양식, 웹 채팅, 전화 통화, [CRM] Campaign 또는 [CRM] 활동. CRM에서 "터치포인트 유형"이라고 합니다.</p>
       </td>
@@ -2306,9 +2106,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>채널</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널 [!DNL Marketo Measure] 앱. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
       </td>
@@ -2320,9 +2118,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CATEGORY1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 첫 번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -2334,9 +2130,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>범주2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 두 번째 카테고리에 대한 세그먼트 값( 내의 세그먼트 정의에 정의됨) [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -2348,9 +2142,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>범주3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 세 번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -2362,9 +2154,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>카테고리 4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 4번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td>
         <p>새로운 비즈니스</p>
@@ -2374,9 +2164,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>범주5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 5번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2384,9 +2172,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>범주6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 6번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2394,9 +2180,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CATEGORY7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 7번째 카테고리에 대한 세그먼트 값은에서 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2404,9 +2188,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CATEGORY8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 8번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2414,9 +2196,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CATEGORY9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 9번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2424,9 +2204,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>범주10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 10번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2434,9 +2212,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>카테고리11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 11번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2444,9 +2220,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>카테고리12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 12번째 카테고리에 대한 세그먼트 값은 내의 세그먼트 정의에 정의된 대로 입니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2454,9 +2228,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>카테고리13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 13번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2464,9 +2236,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>카테고리14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 포함되는 14번째 카테고리에 대한 세그먼트 값은 내의 세그먼트 정의에 정의된 대로 입니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2474,9 +2244,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>카테고리15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 15번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -2484,9 +2252,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>브라우저 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있던 브라우저가 검색되었습니다.</p>
       </td>
@@ -2498,9 +2264,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>BROWSERVERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있었던 브라우저의 감지된 버전입니다.</p>
       </td>
@@ -2512,9 +2276,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>플랫폼 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 감지된 플랫폼입니다.</p>
       </td>
@@ -2526,9 +2288,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PLATFORM_버전</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 플랫폼의 감지된 버전입니다.</p>
       </td>
@@ -2540,9 +2300,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>랜딩 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. CRM에서는 "랜딩 페이지"라고 합니다.</p>
       </td>
@@ -2554,9 +2312,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>랜딩 페이지 원시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. 원시 랜딩 페이지에는 URL의 모든 쿼리 매개 변수가 포함됩니다. CRM에서는 "랜딩 페이지 - 원시"라고 합니다.</p>
       </td>
@@ -2568,9 +2324,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>레퍼러 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>일반적으로 사용자가 웹 사이트에 접속하기 직전의 외부 랜딩 페이지입니다. CRM에서 "레퍼러 페이지"라고 합니다.</p>
       </td>
@@ -2582,9 +2336,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>일반적으로 사용자가 웹 사이트에 접속하기 직전의 외부 랜딩 페이지입니다. 원시 레퍼러 페이지는 URL에 쿼리 매개 변수를 포함할 수 있습니다. CRM에서 "레퍼러 페이지 - 원시"라고 합니다.</p>
       </td>
@@ -2596,9 +2348,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FORM_페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트를 초래한 세션에 기록된 첫 번째 양식입니다. 이후 양식 제출은 Attribution_Touchpoints 테이블에 표시되지 않고 Form_Submits 테이블에 표시됩니다. CRM에서 "양식 URL"이라고 합니다.</p>
       </td>
@@ -2610,9 +2360,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트를 초래한 세션에 기록된 첫 번째 양식입니다. 이후 양식 제출은 Attribution_Touchpoints 테이블에 표시되지 않고 Form_Submits 테이블에 표시됩니다. 원시 양식 페이지는 URL에 쿼리 매개 변수를 포함할 수 있습니다. CRM에서 "양식 URL - 원시"라고 합니다.</p>
       </td>
@@ -2624,9 +2372,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>양식 제출이 발생한 날짜.</p>
       </td>
@@ -2638,9 +2384,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>도시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있는 감지된 도시입니다.</p>
       </td>
@@ -2652,9 +2396,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>지역</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 감지된 영역입니다.</p>
       </td>
@@ -2666,9 +2408,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>국가</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있는 감지된 국가입니다.</p>
       </td>
@@ -2680,9 +2420,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>중간</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 다음과 같은 경우 [!DNL Marketo Measure] 은 광고를 확인할 수 있으며, "cpc" 또는 "display"와 같은 값일 수 있습니다.</p>
       </td>
@@ -2694,9 +2432,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. URL의 utm_source에서 구문 분석하여 CRM에서 동기화되거나 다음과 같은 경우 일반적으로 "CRM 캠페인"으로 설정됩니다. [!DNL Marketo Measure] 는 광고를 확인할 수 있으며, "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 소스"라고 합니다.</p>
       </td>
@@ -2708,9 +2444,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자가 검색하기 위해 브라우저에 입력한 후 웹 사이트에서 종료한 값. 키워드 구입에 따라 유료 검색 플랫폼에서 구입한 키워드와 일치하거나 일치하지 않을 수 있습니다.</p>
       </td>
@@ -2722,9 +2456,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 플랫폼 [!DNL Marketo Measure] 은(는) 일반적으로 당사의 통합 파트너 중 하나에서 확인할 수 있었습니다.</p>
       </td>
@@ -2736,9 +2468,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 ID입니다.</p>
       </td>
@@ -2750,9 +2480,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>계정 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 이름입니다.</p>
       </td>
@@ -2764,9 +2492,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고주 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -2778,9 +2504,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고주 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -2792,9 +2516,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 사이트 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -2806,9 +2528,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>SITE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 사이트 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -2820,9 +2540,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 배치 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -2834,9 +2552,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 배치 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -2848,9 +2564,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CAMPAIGN_고유_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 캠페인 ID입니다.</p>
       </td>
@@ -2862,9 +2576,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>캠페인 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 캠페인 이름.</p>
       </td>
@@ -2876,9 +2588,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 그룹 ID입니다. 이는 Google Adwords에만 적용됩니다.</p>
       </td>
@@ -2890,9 +2600,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 그룹 이름. 이는 Google AdWords에만 적용됩니다.</p>
       </td>
@@ -2904,9 +2612,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 ID입니다. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -2918,9 +2624,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 이름입니다. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -2932,9 +2636,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 크리에이티브 ID. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -2946,9 +2648,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CREATIVE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 크리에이티브 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -2960,9 +2660,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 광고에서 가져온 크리에이티브의 첫 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -2974,9 +2672,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 광고에서 가져온 크리에이티브의 두 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -2988,9 +2684,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 검색 광고에서 클릭스루하는 랜딩 페이지. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -3002,9 +2696,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 검색 광고에 표시되는 친숙한 URL 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -3016,9 +2708,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 유료 검색 구매에서 구매한 키워드의 ID입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -3030,9 +2720,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 유료 검색 구매에서 구매한 키워드의 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다</p>
       </td>
@@ -3044,9 +2732,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>KEYWORD_MATCH_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 구문과 구매 키워드 간에 일치하는 항목의 유형입니다.</p>
       </td>
@@ -3357,6 +3043,163 @@ _전체 크기 버전에 대한 이미지 클릭_
   </tbody>
 </table>
 
+### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
+
+Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Marketo Measure Ultimate 고객에게만 채워집니다.
+
+<table>
+<thead>
+  <tr>
+    <th>열</th>
+    <th>데이터 유형</th>
+    <th>설명</th>
+    <th>샘플 데이터</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CONVERSION_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>전환 날짜</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>전환 이름</td>
+    <td>varchar</td>
+    <td>전환 이벤트의 이름(UI 설정에서 고객이 지정한 대로)</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ID</td>
+    <td>varchar</td>
+    <td>전환 이벤트의 id(소스 데이터 세트의 이벤트 데이터 레코드와 함께 전송된 원래 고유 id 값)</td>
+    <td>0013100001b44aGAAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_ID</td>
+    <td>varchar</td>
+    <td>전환 이벤트에 대한 원래 MM 이벤트 ID 
+    <br>사용자 터치포인트 또는 스테이지 전환에 매핑</td>
+    <td>00U0Z00000pCZmyUAG</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>전환 이벤트에 대한 원래 MM 계정 ID</td>
+    <td>0013100001kpAXaam</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>전환 이벤트에 대한 원래 MM 영업 기회 ID</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_LEAD_ID</td>
+    <td>varchar</td>
+    <td>전환 이벤트에 대한 원래 MM 리드 ID <br>대부분의 경우 null일 수 있음</td>
+    <td>00Q0Z000013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>전환 이벤트에 대한 원래 MM 연락처 ID
+    <br>대부분의 경우 null일 수 있음</td>
+    <td>00331000032MxRAAU</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_TYPE</td>
+    <td>varchar</td>
+    <td>전환 이벤트 유형(b2b = 가망 고객 전환, b2c = 기회 전환)</td>
+    <td>b2b</td>
+  </tr>
+  <tr>
+    <td>SCORE_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>터치포인트가 마지막으로 채점된 날짜</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>IMPACTED_PERCENT</td>
+    <td>번호(38,35)</td>
+    <td>각 접점이 담당하는 전환의 비율입니다.</td>
+    <td>0.10</td>
+  </tr>
+  <tr>
+    <td>INCREMENT_PERCENT</td>
+    <td>번호(38,35)</td>
+    <td>접점에 의해 직접 발생한 한계 영향의 양</td>
+    <td>0.25</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>접점 또는 단계 전환 날짜</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_EVENT_ID</td>
+    <td>varchar</td>
+    <td>터치포인트를 생성한 이벤트의 id</td>
+    <td>00U3100000VLUnEEAX</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>터치포인트에 연결된 영업 기회의 id</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>터치포인트에 연결된 계정의 id</td>
+    <td>0013100001kpAXaam</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_LEAD_ID</td>
+    <td>varchar</td>
+    <td>터치포인트에 연결된 잠재 고객의 id</td>
+    <td>00Q0Z000013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>터치포인트와 연계된 연락처 id</td>
+    <td>00331000032MxRAAU</td>
+  </tr>
+  <tr>
+    <td>COUNT_TO_CONVERSION</td>
+    <td>번호(38,0)</td>
+    <td>전환 이벤트로 이어지는 체인에서 터치포인트의 등급 또는 서수 값</td>
+    <td>10000</td>
+  </tr>
+  <tr>
+    <td>AAI_SOURCE_ID</td>
+    <td>varchar</td>
+    <td>기여도 ai 소스 테이블의 외래 키</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>_CREATED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>Snowflake에서 레코드가 생성된 날짜</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>_MODIFIED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>레코드가 Snowflake에서 마지막으로 수정된 날짜</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>_DELETED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>Snowflake에서 레코드가 삭제된 날짜</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+</tbody>
+</table>
+
 ### BIZ_CAMPAIGN_MEMBERS {#biz-campaign-members}
 
 소스 시스템에서 가져온 캠페인 멤버. Campaign 동기화가 비활성화되면 이 테이블은 비어 있습니다.
@@ -3370,26 +3213,14 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>소스 시스템의 캠페인 멤버 ID.</p>
-      </td>
-      <td>
-        <p>00v0Z00001VZDlqat</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
+      <td>소스 시스템의 캠페인 멤버 ID.</td>
+      <td>00v0Z00001VZDlqat</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 캠페인 멤버의 마지막 수정 날짜.</p>
       </td>
@@ -3398,12 +3229,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 캠페인 멤버의 생성 날짜입니다.</p>
       </td>
@@ -3415,9 +3242,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>BIZIBLE_TOUCH_POINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>고객이 캠페인 날짜를 대체하도록 설정한 날짜 및 시간이며 대신 접점 날짜에 대해 이 값을 사용합니다.</p>
       </td>
@@ -3429,9 +3254,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>리드 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인 멤버가 연결된 잠재 고객의 ID입니다.</p>
       </td>
@@ -3443,23 +3266,15 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인 멤버가 연결된 잠재 고객 이메일입니다.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>캠페인 멤버와 연결된 연락처의 ID입니다.</p>
       </td>
@@ -3471,23 +3286,17 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인 멤버 연락처의 이메일이 연결되어 있습니다.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>상태</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인 멤버의 상태(일반적으로 [전송됨] 또는 [응답됨] 또는 다른 사용자 정의 값으로 설정됨)입니다. 이 상태는 Campaign_Sync_Type에 연결되어 터치포인트를 만들 캠페인 구성원을 결정합니다.</p>
       </td>
@@ -3513,9 +3322,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FIRST_RESPONDED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>캠페인 멤버가 처음 응답한 날짜.</p>
       </td>
@@ -3527,9 +3334,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>캠페인 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인 멤버가 속한 관련 캠페인의 이름입니다.</p>
       </td>
@@ -3541,9 +3346,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>캠페인 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인 멤버가 속한 관련 캠페인의 ID입니다.</p>
       </td>
@@ -3555,9 +3358,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CAMPAIGN_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>캠페인 멤버가 속한 관련 캠페인에 대해 선택된 유형. 유형은 마케팅 채널을 매핑하는 데 사용됩니다.</p>
       </td>
@@ -3569,9 +3370,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CAMPAIGN_SYNC_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트를 만들 캠페인 구성원을 결정합니다. 가능한 값은 Include_All, Include_Responded, Exclude_All입니다.</p>
       </td>
@@ -3583,9 +3382,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>LEAD_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>감사 필드에는 잠재 고객에 대한 구매자 접점이 생성되었는지 여부가 표시됩니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
       </td>
@@ -3597,9 +3394,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CONTACT_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>감사 필드에는 연락처에 대한 구매자 접점이 생성되었는지 여부가 표시됩니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
       </td>
@@ -3611,9 +3406,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>OPP_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>감사 필드에는 Opportunity에 대해 Purchaser Attribution Touchpoint가 생성되었는지 여부가 표시됩니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
       </td>
@@ -3675,12 +3468,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>채널에 대한 고유 ID입니다.</p>
       </td>
@@ -3692,9 +3481,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>채널 이름.</p>
       </td>
@@ -3750,12 +3537,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 연락처 ID.</p>
       </td>
@@ -3764,12 +3547,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 연락처 레코드를 마지막으로 수정한 날짜.</p>
       </td>
@@ -3778,12 +3557,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 연락처 레코드를 만든 날짜.</p>
       </td>
@@ -3795,23 +3570,17 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 연락처에 대한 이메일 주소.</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>ACCOUNTID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>연락처와 관련된 계정의 ID입니다.</p>
       </td>
@@ -3823,9 +3592,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>잠재 고객이 생성된 소스.</p>
       </td>
@@ -3837,9 +3604,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>연락처의 현재 단계, 에서 만들 수 있는 사용자 지정 단계로 인식됨 [!DNL Marketo Measure] 응용 프로그램.</p>
       </td>
@@ -3851,9 +3616,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>연락처에 대한 모든 이전 단계는에서 만들 수 있는 사용자 지정 단계로 인식됩니다. [!DNL Marketo Measure] 응용 프로그램.</p>
       </td>
@@ -3879,9 +3642,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>다음 [!DNL Marketo Measure] 오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
       </td>
@@ -4160,9 +3921,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 광고 계정의 ID입니다.</p>
       </td>
@@ -4174,9 +3933,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>계정 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 광고 계정의 이름입니다.</p>
       </td>
@@ -4202,9 +3959,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CAMPAIGN_고유_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 캠페인 ID.</p>
       </td>
@@ -4216,9 +3971,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>캠페인 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 캠페인의 이름입니다.</p>
       </td>
@@ -4244,9 +3997,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 광고 그룹의 ID입니다.</p>
       </td>
@@ -4258,9 +4009,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 광고 그룹의 이름입니다.</p>
       </td>
@@ -4286,9 +4035,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 광고 ID.</p>
       </td>
@@ -4300,9 +4047,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 광고의 이름입니다.</p>
       </td>
@@ -4328,9 +4073,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 크리에이티브 ID.</p>
       </td>
@@ -4342,9 +4085,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CREATIVE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 크리에이티브의 이름입니다.</p>
       </td>
@@ -4370,9 +4111,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 키워드의 ID입니다.</p>
       </td>
@@ -4384,9 +4123,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 키워드의 이름입니다.</p>
       </td>
@@ -4412,9 +4149,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 배치 ID입니다.</p>
       </td>
@@ -4426,9 +4161,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 배치 이름입니다.</p>
       </td>
@@ -4454,9 +4187,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 사이트의 ID.</p>
       </td>
@@ -4468,9 +4199,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>SITE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 연결에서 가져온 사이트의 이름입니다.</p>
       </td>
@@ -4624,12 +4353,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Creative의 고유 ID입니다.</p>
       </td>
@@ -4641,9 +4366,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>소스 시스템의 크리에이티브 ID.</td>
       <td>
         <p>10426699711</p>
@@ -4653,9 +4376,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브를 가져온 광고 계정의 ID입니다.</p>
       </td>
@@ -4665,9 +4386,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브를 가져온 광고 계정의 이름입니다.</p>
       </td>
@@ -4679,9 +4398,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브, 특히 Doubleclick에 대한 광고주 ID.</p>
       </td>
@@ -4693,9 +4410,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브 광고주 이름, 특히 Doubleclick의 이름입니다.</p>
       </td>
@@ -4707,9 +4422,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브용 광고 그룹 ID.</p>
       </td>
@@ -4719,9 +4432,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브용 광고 그룹의 이름입니다.</p>
       </td>
@@ -4731,9 +4442,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 캠페인 ID.</p>
       </td>
@@ -4745,9 +4454,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브 캠페인 이름.</p>
       </td>
@@ -4784,12 +4491,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -4801,9 +4504,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
@@ -4815,9 +4516,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 크리에이티브 이름입니다.</p>
       </td>
@@ -4844,9 +4543,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>진단 필드(내부 처리용).</td>
       <td></td>
     </tr>
@@ -4854,9 +4551,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "Creative"입니다.</p>
       </td>
@@ -4868,9 +4563,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브 광고 공급자의 이름입니다.</p>
       </td>
@@ -4882,9 +4575,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>모든 태그를 포함하는 URL의 현재 버전입니다.</p>
         <p>(진단 필드, 내부 처리용)</p>
@@ -4897,9 +4588,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>URL_DISPLAY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Creative에 표시되는 짧고 친숙한 URL입니다.</p>
       </td>
@@ -4911,9 +4600,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL_CURRENT의 이전 값.</p>
         <p>(진단 필드, 내부 처리용)</p>
@@ -4924,9 +4611,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL을 데코레이트할 대상 [!DNL Marketo Measure] 매개 변수.</p>
         <p>(진단 필드, 내부 처리용)</p>
@@ -4937,9 +4622,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>URL_SHORTENED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>Creative에 표시되는 짧고 친숙한 URL입니다. (LinkedIn 광고에만 사용됩니다.)</td>
       <td></td>
     </tr>
@@ -4947,9 +4630,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>AD_ 유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>텍스트 또는 디스플레이일 수 있는 크리에이티브 유형</p>
       </td>
@@ -4975,9 +4656,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>제목</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>크리에이티브의 상위 라인(헤드라인)</p>
       </td>
@@ -4989,9 +4668,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>DESCRIPTION_LINE_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>창작 첫 줄의 카피</p>
       </td>
@@ -5003,9 +4680,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>DESCRIPTION_LINE_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>문안의 두 번째 줄의 사본</p>
       </td>
@@ -5017,9 +4692,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리용 진단 필드.</td>
       <td></td>
     </tr>
@@ -5027,9 +4700,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리용 진단 필드.</td>
       <td></td>
     </tr>
@@ -5037,9 +4708,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리용 진단 필드.</td>
       <td></td>
     </tr>
@@ -5047,9 +4716,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>내부 처리용 진단 필드.</p>
       </td>
@@ -5061,9 +4728,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>SHARE_URN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>공유 ID입니다. (LinkedIn 광고에만 사용됩니다.)</p>
       </td>
@@ -5115,12 +4780,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 이벤트 ID입니다.</p>
       </td>
@@ -5129,12 +4790,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 이벤트가 생성된 날짜.</p>
       </td>
@@ -5143,12 +4800,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 이벤트가 마지막으로 수정된 날짜입니다.</p>
       </td>
@@ -5160,9 +4813,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>리드 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이벤트와 연계된 잠재 고객 ID.</p>
       </td>
@@ -5174,9 +4825,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이벤트와 연계된 잠재 고객에 대한 이메일입니다.</p>
       </td>
@@ -5185,12 +4834,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>이벤트와 연계된 연락처 ID.</p>
       </td>
@@ -5202,9 +4847,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이벤트와 연계된 연락처에 대한 이메일입니다.</p>
       </td>
@@ -5216,9 +4859,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>다음 [!DNL Marketo Measure] 오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
       </td>
@@ -5230,9 +4871,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ACTIVITY_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>활동 유형 이름(소스 시스템)</p>
       </td>
@@ -5244,9 +4883,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>EVENT_START_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>터치포인트 날짜를 결정하는 데 사용되는 옵션 중 하나인 이벤트의 시작 날짜입니다.</p>
       </td>
@@ -5258,9 +4895,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>EVENT_END_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>터치포인트 날짜를 결정하는 데 사용되는 옵션 중 하나인 이벤트의 종료 날짜입니다.</p>
       </td>
@@ -5320,12 +4955,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 작업 ID입니다.</p>
       </td>
@@ -5334,12 +4965,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 작업이 생성된 날짜입니다.</p>
       </td>
@@ -5348,12 +4975,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 작업을 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -5365,9 +4988,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>리드 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>작업과 연결된 잠재 고객의 ID입니다.</p>
       </td>
@@ -5379,9 +5000,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>작업과 연결된 잠재 고객에 대한 이메일입니다.</p>
       </td>
@@ -5390,12 +5009,8 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>작업과 연결된 연락처의 ID.</p>
       </td>
@@ -5407,9 +5022,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>작업과 연결된 연락처에 대한 전자 메일입니다.</p>
       </td>
@@ -5421,9 +5034,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>다음 [!DNL Marketo Measure] 오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
       </td>
@@ -5435,9 +5046,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ACTIVITY_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>활동 유형 이름(소스 시스템)</p>
       </td>
@@ -5449,9 +5058,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>
         <p>ACTIVITY_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>터치 포인트 날짜를 결정하는 데 사용되는 옵션 중 하나인 작업이 발생한 날짜입니다.</p>
       </td>
@@ -5511,9 +5118,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
+       <td>ID</td>
       <td>번호(38,0)</td>
       <td>통화 레코드에 대한 고유 ID.</td>
       <td>139474809945095870</td>
@@ -5617,9 +5222,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 방문자 id의 첫 번째 쿠키 id.</p>
       </td>
@@ -5629,9 +5232,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>COOKIE_</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이벤트가 기록될 당시 기록된 쿠키 ID입니다.</p>
       </td>
@@ -5641,9 +5242,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>채팅이 기록된 날짜.</p>
       </td>
@@ -5657,9 +5256,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
     </tr>
     <tr>
       <td>IP 주소</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>실험이 기록될 당시 기록된 IP 주소입니다.</p>
       </td>
@@ -5669,9 +5266,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>EXPERIMENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB 테스트 플랫폼에서 가져온 실험의 ID.</p>
       </td>
@@ -5681,9 +5276,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>EXPERIENCE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB 테스트 플랫폼에서 가져온 실험의 이름입니다.</p>
       </td>
@@ -5693,9 +5286,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>VARIATION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB 테스트 플랫폼에서 가져온 실험의 변형 ID입니다.</p>
       </td>
@@ -5705,9 +5296,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>VARIATION_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB 테스트 플랫폼에서 가져온 실험의 변형 이름입니다.</p>
       </td>
@@ -5717,9 +5306,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>ABTEST_USER_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB 테스트 플랫폼에서 가져온 실험을 제공받은 사용자의 ID입니다.</p>
       </td>
@@ -5774,9 +5361,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 방문자 id의 첫 번째 쿠키 id.</p>
       </td>
@@ -5786,9 +5371,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>COOKIE_</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 지정 Javascript에서 이벤트가 트리거될 때 기록된 쿠키 ID입니다.</p>
       </td>
@@ -5798,9 +5381,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>사용자 지정 Javascript에서 이벤트가 트리거된 날짜입니다.</p>
       </td>
@@ -5816,9 +5397,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>IP 주소</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 지정 Javascript에서 이벤트가 트리거될 때 기록된 IP 주소입니다.</p>
       </td>
@@ -5828,9 +5407,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 지정 Javascript에서 트리거된 이벤트에 지정된 이름입니다.</p>
       </td>
@@ -5840,9 +5417,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>값</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 지정 Javascript에서 트리거된 이벤트에 지정된 값입니다.</p>
       </td>
@@ -5894,12 +5469,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>레코드에 대한 고유 ID.</p>
       </td>
@@ -5909,9 +5480,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -5919,9 +5488,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지를 가져온 광고 계정의 ID입니다.</td>
       <td></td>
     </tr>
@@ -5929,9 +5496,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지를 가져온 광고 계정의 이름</td>
       <td></td>
     </tr>
@@ -5939,9 +5504,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지, 특히 Doubleclick에 대한 광고주 ID.</p>
       </td>
@@ -5951,9 +5514,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지(특히 Doubleclick)에 대한 광고주 이름입니다.</p>
       </td>
@@ -5965,9 +5526,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지에 대한 광고 그룹 ID입니다.</td>
       <td></td>
     </tr>
@@ -5975,9 +5534,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지에 대한 광고 그룹의 이름입니다.</p>
       </td>
@@ -5987,9 +5544,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지 캠페인 ID.</p>
       </td>
@@ -5999,9 +5554,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지에 대한 캠페인의 이름입니다.</p>
       </td>
@@ -6028,12 +5581,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>행의 마지막 수정 날짜</p>
       </td>
@@ -6043,9 +5592,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -6053,9 +5600,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6073,9 +5618,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6083,9 +5626,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6093,9 +5634,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6103,9 +5642,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6113,9 +5650,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CREATIVE_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6123,9 +5658,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6133,9 +5666,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6184,9 +5715,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>세션의 지정된 방문자 ID에 연결된 알려진 이메일 주소</p>
       </td>
@@ -6198,9 +5727,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 방문자 ID의 첫 번째 쿠키</p>
       </td>
@@ -6209,12 +5736,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>행의 마지막 수정 날짜</p>
       </td>
@@ -6223,12 +5746,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>행의 생성 날짜</p>
       </td>
@@ -6620,12 +6139,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>2018-08-28 19:39:15.000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>행이 마지막으로 수정된 날짜입니다.</p>
       </td>
@@ -6799,9 +6314,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>영업 기회 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 영업 기회 ID.</p>
       </td>
@@ -6813,9 +6326,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>OPP_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 Opportunity 가 생성된 날짜입니다.</p>
       </td>
@@ -6827,9 +6338,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>OPP_CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 Opportunity 의 Close Date</p>
       </td>
@@ -6841,21 +6350,15 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CONTACT_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 연락처 레코드를 만든 날짜.</p>
       </td>
       <td>2017년 4월 28일:21:52.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 연락처 ID.</p>
       </td>
@@ -6873,9 +6376,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>LEAD_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 리드 레코드가 생성된 날짜.</p>
       </td>
@@ -6887,9 +6388,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>리드 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 잠재 고객 ID.</p>
       </td>
@@ -7087,12 +6586,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>양식 제출에 대한 고유 ID.</p>
       </td>
@@ -7104,9 +6599,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>COOKIE_</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>양식 제출이 기록될 때 기록된 쿠키 ID입니다.</p>
       </td>
@@ -7118,9 +6611,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 방문자 id의 첫 번째 쿠키 id. 레코드가 is_duplicate = true로 표시되면 이 필드는 null입니다.</p>
       </td>
@@ -7132,9 +6623,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>양식 제출이 기록될 때 기록된 세션 ID입니다. 레코드가 is_duplicate = true로 표시되면 이 필드는 null입니다.</p>
       </td>
@@ -7146,9 +6635,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>양식 제출 날짜.</p>
       </td>
@@ -7157,12 +6644,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -7174,9 +6657,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CURRENT_페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수 없이 양식이 제출된 URL.</p>
       </td>
@@ -7188,9 +6669,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CURRENT_PAGE_원시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수를 포함하여 양식이 제출된 URL입니다.</p>
       </td>
@@ -7202,9 +6681,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>IP 주소</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>양식 제출 시 기록된 IP 주소입니다.</p>
       </td>
@@ -7216,9 +6693,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>이벤트 유형을 나타냅니다.</td>
       <td>
         <p>FormSubmit</p>
@@ -7228,9 +6703,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>USER_에이전트_문자열</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>양식 제출 시 기록된 장치 및 브라우저입니다.</p>
       </td>
@@ -7242,9 +6715,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>세션에서 페이지 보기가 발생한 순서를 나타냅니다.</td>
       <td>
         <p>4</p>
@@ -7254,9 +6725,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 감사 및 처리에 사용됩니다.</td>
       <td>
         <p>20042b6b7af44512b43f6244d86faf4c</p>
@@ -7290,9 +6759,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript에서 캡처한 양식 이메일 주소.</p>
       </td>
@@ -7304,9 +6771,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>FORM_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>제출된 양식의 유형을 나타냅니다.</td>
       <td>
         <p>채팅</p>
@@ -7316,9 +6781,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>FORM_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>onSubmit 또는 AjaxIntercept와 같이 양식을 인식하는 메서드를 나타냅니다.</p>
       </td>
@@ -7330,9 +6793,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>FORM_IDENTIFIER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>양식에 대한 ID 값입니다.</td>
       <td>
         <p>-956012665</p>
@@ -7392,12 +6853,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>노출에 대한 고유 ID.</p>
       </td>
@@ -7409,9 +6866,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>COOKIE_</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>노출 시 기록된 쿠키 ID입니다.</p>
       </td>
@@ -7421,9 +6876,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 방문자 id의 첫 번째 쿠키 id.</p>
       </td>
@@ -7433,9 +6886,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>노출이 기록되었을 때 기록된 세션 ID입니다.</p>
       </td>
@@ -7445,21 +6896,15 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>노출이 제공된 날짜.</p>
       </td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -7469,9 +6914,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CURRENT_페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수 없이 노출이 제공된 URL입니다.</p>
       </td>
@@ -7481,9 +6924,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CURRENT_PAGE_원시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수를 포함하여 노출이 제공된 URL입니다.</p>
       </td>
@@ -7493,9 +6934,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>IP 주소</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>노출 시 기록된 IP 주소.</p>
       </td>
@@ -7505,9 +6944,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>이벤트 유형을 나타냅니다.</td>
       <td>노출 횟수</td>
     </tr>
@@ -7515,9 +6952,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>USER_에이전트_문자열</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>양식 제출 시 기록된 장치 및 브라우저입니다.</p>
       </td>
@@ -7529,9 +6964,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>세션에서 페이지 보기가 발생한 순서를 나타냅니다.</td>
       <td>
         <p>4</p>
@@ -7541,9 +6974,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 감사 및 처리에 사용됩니다.</td>
       <td>
         <p>20042b6b7af44512b43f6244d86faf4c</p>
@@ -7577,9 +7008,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>레퍼러 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>일반적으로 사용자가 웹 사이트에 접속하기 직전의 외부 랜딩 페이지입니다. CRM에서 "레퍼러 페이지"라고 합니다.</p>
       </td>
@@ -7589,9 +7018,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>REFERRER_PAGE-RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>일반적으로 사용자가 웹 사이트에 접속하기 직전의 외부 랜딩 페이지입니다. 원시 레퍼러 페이지는 URL에 쿼리 매개 변수를 포함할 수 있습니다. CRM에서 "레퍼러 페이지 - 원시"라고 합니다.</p>
       </td>
@@ -7601,9 +7028,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>도시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP 주소에서 확인된 구/군/시.</p>
       </td>
@@ -7615,9 +7040,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>지역</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP 주소에서 확인된 영역입니다.</p>
       </td>
@@ -7629,9 +7052,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>국가</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP 주소에서 확인된 국가입니다.</p>
       </td>
@@ -7643,9 +7064,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ISP 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>필드가 사용되지 않으므로 null이 되어야 합니다.</td>
       <td>NULL</td>
     </tr>
@@ -7653,9 +7072,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 플랫폼 [!DNL Marketo Measure] 은(는) 일반적으로 당사의 통합 파트너 중 하나에서 확인할 수 있었습니다.</p>
       </td>
@@ -7665,9 +7082,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 ID입니다.</p>
       </td>
@@ -7677,9 +7092,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>계정 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 이름입니다.</p>
       </td>
@@ -7689,9 +7102,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고주 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -7703,9 +7114,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고주 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -7717,9 +7126,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 사이트 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -7731,9 +7138,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>SITE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 사이트 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -7745,9 +7150,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 배치 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -7759,9 +7162,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 배치 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -7773,9 +7174,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CAMPAIGN_고유_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 캠페인 ID입니다.</p>
       </td>
@@ -7785,9 +7184,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>캠페인 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 캠페인 이름.</p>
       </td>
@@ -7797,9 +7194,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>노출에 대한 Doubleclick 계층에 광고 그룹이 없으므로 Null이 필요합니다.</p>
       </td>
@@ -7811,9 +7206,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>노출에 대한 Doubleclick 계층에 광고 그룹이 없으므로 Null이 필요합니다.</p>
       </td>
@@ -7825,9 +7218,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 ID입니다. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -7839,9 +7230,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 이름입니다. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -7853,9 +7242,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 Creative가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7867,9 +7254,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CREATIVE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 Creative가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7879,9 +7264,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 Creative가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7891,9 +7274,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 Creative가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7903,9 +7284,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 Creative가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7915,9 +7294,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 Creative가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7927,9 +7304,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 키워드가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7939,9 +7314,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 키워드가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7951,9 +7324,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>KEYWORD_MATCH_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 키워드가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -7963,9 +7334,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>브라우저 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있던 브라우저가 검색되었습니다.</p>
       </td>
@@ -7977,9 +7346,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>BROWSERVERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있었던 브라우저의 감지된 버전입니다.</p>
       </td>
@@ -7991,9 +7358,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>플랫폼 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 감지된 플랫폼입니다.</p>
       </td>
@@ -8005,9 +7370,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PLATFORM_버전</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 플랫폼의 감지된 버전입니다.</p>
       </td>
@@ -8131,12 +7494,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>키워드에 대한 고유 ID입니다.</p>
       </td>
@@ -8148,9 +7507,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>소스 시스템의 키워드 ID.</td>
       <td>
         <p>39464932147</p>
@@ -8160,9 +7517,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>키워드를 가져온 광고 계정의 ID입니다.</p>
       </td>
@@ -8172,9 +7527,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>키워드를 가져온 광고 계정의 이름입니다.</p>
       </td>
@@ -8184,9 +7537,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 키워드가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -8198,9 +7549,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 노출 계층 구조에 키워드가 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -8212,9 +7561,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>키워드에 대한 광고 그룹 ID.</p>
       </td>
@@ -8226,9 +7573,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>키워드에 대한 광고 그룹의 이름입니다.</p>
       </td>
@@ -8240,9 +7585,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>키워드에 대한 캠페인 ID.</p>
       </td>
@@ -8254,9 +7597,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>키워드에 대한 캠페인 이름.</p>
       </td>
@@ -8293,12 +7634,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -8308,9 +7645,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
@@ -8322,9 +7657,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 키워드 이름입니다.</p>
       </td>
@@ -8351,9 +7684,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리에 사용되는 진단 필드.</td>
       <td>
         <p>ba.3284209.132630532.3646889365</p>
@@ -8363,9 +7694,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "키워드"입니다.</p>
       </td>
@@ -8377,9 +7706,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>키워드에 대한 광고 공급자의 이름입니다.</p>
       </td>
@@ -8391,9 +7718,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지의 URL입니다.</p>
         <p>(진단 필드, 내부 처리용)</p>
@@ -8404,9 +7729,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL_CURRENT의 이전 값.</p>
         <p>(진단 필드, 내부 처리용)</p>
@@ -8438,9 +7761,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>WORD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>사용자가 입력한 검색 단계입니다.</td>
       <td>
         <p>수익 속성 b2b</p>
@@ -8450,9 +7771,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>MATCH_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 구문과 키워드 간에 발견된 일치 유형입니다.</p>
       </td>
@@ -8464,9 +7783,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</td>
     </tr>
@@ -8474,9 +7791,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -8484,9 +7799,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 진단에 사용됩니다.</td>
       <td></td>
     </tr>
@@ -8494,9 +7807,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>URL 추적 템플릿 [!DNL Marketo Measure] 이(가) 키워드에 추가되었습니다.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -8548,12 +7859,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지에 대한 고유 ID입니다.</p>
       </td>
@@ -8563,9 +7870,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8573,9 +7878,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지를 가져온 광고 계정의 ID입니다.</td>
       <td></td>
     </tr>
@@ -8583,9 +7886,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지를 가져온 광고 계정의 이름입니다.</td>
       <td></td>
     </tr>
@@ -8593,9 +7894,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지, 특히 Doubleclick에 대한 광고주 ID.</p>
       </td>
@@ -8605,9 +7904,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지(특히 Doubleclick)에 대한 광고주 이름입니다.</p>
       </td>
@@ -8617,9 +7914,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지에 대한 광고 그룹 ID입니다.</td>
       <td></td>
     </tr>
@@ -8627,9 +7922,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지에 대한 광고 그룹의 이름입니다.</td>
       <td></td>
     </tr>
@@ -8637,9 +7930,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지 캠페인 ID.</td>
       <td></td>
     </tr>
@@ -8647,9 +7938,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>랜딩 페이지에 대한 캠페인의 이름입니다.</td>
       <td></td>
     </tr>
@@ -8674,12 +7963,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>행의 마지막 수정 날짜입니다.</p>
       </td>
@@ -8689,9 +7974,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -8699,9 +7982,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8719,9 +8000,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8729,9 +8008,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8739,9 +8016,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8749,9 +8024,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8759,9 +8032,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8769,9 +8040,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8809,12 +8078,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 잠재 고객 ID.</p>
       </td>
@@ -8823,12 +8088,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 잠재 고객 레코드가 마지막으로 수정된 날짜.</p>
       </td>
@@ -8837,12 +8098,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 리드 레코드가 생성된 날짜.</p>
       </td>
@@ -8852,9 +8109,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 잠재 고객 이메일 주소.</p>
       </td>
@@ -8864,9 +8119,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>WEB_SITE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Lead2Account 매핑에 사용되는 소스 시스템에서 Lead에 대해 입력한 웹 사이트입니다.</p>
       </td>
@@ -8878,9 +8131,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>회사</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Lead2Account 매핑에 사용되는 소스 시스템에서 Lead에 대해 입력한 회사명입니다.</p>
       </td>
@@ -8892,9 +8143,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>잠재 고객이 생성된 소스.</p>
       </td>
@@ -8920,9 +8169,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CONVERTED_OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>잠재 고객 전환 후 관련 영업 기회의 ID.</p>
       </td>
@@ -8934,9 +8181,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CONVERTED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>잠재 고객이 연락처로 전환된 날짜.</p>
       </td>
@@ -8948,9 +8193,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CONVERTED_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>잠재 고객 전환 후 관련 연락처의 ID입니다.</p>
       </td>
@@ -8962,9 +8205,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ACCOUNTID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>매핑된 계정의 ID입니다. 요구 사항: ABM 활성화</p>
       </td>
@@ -8976,9 +8217,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>에서 만들 수 있는 사용자 지정 단계로 인식되는 잠재 고객의 현재 단계 [!DNL Marketo Measure] 응용 프로그램.</p>
       </td>
@@ -8990,9 +8229,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>잠재 고객에 대한 모든 이전 단계는에서 만들 수 있는 사용자 지정 단계로 인식됩니다. [!DNL Marketo Measure] 응용 프로그램.</p>
       </td>
@@ -9018,9 +8255,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>LEAD_SCORE_MODEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>(사용하지 않음)</p>
       </td>
@@ -9032,9 +8267,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>LEAD_SCORE_RESULT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>(사용하지 않음)</p>
       </td>
@@ -9046,9 +8279,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>다음 [!DNL Marketo Measure] 오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
       </td>
@@ -9140,12 +8371,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>전환에 대한 고유 ID.</p>
       </td>
@@ -9157,9 +8384,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 리드/연락처에 대해 제공된 이메일 주소.</p>
       </td>
@@ -9171,9 +8396,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>리드 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>전환과 연결된 잠재 고객의 ID입니다.</p>
       </td>
@@ -9182,12 +8405,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>전환과 연계된 연락처 ID.</p>
       </td>
@@ -9199,9 +8418,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>전환에 연결된 구매자 터치포인트의 ID입니다.</p>
       </td>
@@ -9213,9 +8430,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드가 단계로 전환된 날짜.</p>
       </td>
@@ -9227,9 +8442,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>전환 단계의 ID 값입니다.</p>
       </td>
@@ -9241,9 +8454,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>단계</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>전환 단계 이름.</p>
       </td>
@@ -9323,9 +8534,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>단계 순위에 따른 이전 단계의 전환 날짜.</p>
       </td>
@@ -9337,9 +8546,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>단계 순위에 따라 다음 단계에 대한 전환 날짜입니다.</p>
       </td>
@@ -9348,12 +8555,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드의 마지막 수정 날짜.</p>
       </td>
@@ -9409,12 +8612,8 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 Opportunity ID 입니다.</p>
       </td>
@@ -9423,24 +8622,16 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 Opportunity 의 마지막 수정 날짜.</p>
       </td>
       <td>2017-11-28 21:26:44.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 Opportunity 가 생성된 날짜입니다.</p>
       </td>
@@ -9450,9 +8641,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 계정의 ID입니다.</p>
       </td>
@@ -9464,9 +8653,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 Opportunity 이름</p>
       </td>
@@ -9506,9 +8693,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 Opportunity 의 예상 또는 실제 종료 일자.</p>
       </td>
@@ -9520,9 +8705,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>BIZIBLE_CUSTOM_MODEL_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>(사용하지 않음)</p>
       </td>
@@ -9548,9 +8731,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CONVERTED_FROM_LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>해당 영업 기회로 전환된 관련 잠재 고객의 ID입니다.</p>
         <p>이 필드는 설정되어 있지 않으며 모든 고객에 대해 Snowflake 시 null을 반환합니다.</p>
@@ -9563,9 +8744,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>CONVERTED_FROM_LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>해당 Opportunity 로 Convert 된 관련 Lead 의 Email 입니다.</p>
         <p>이 필드는 설정되어 있지 않으며 모든 고객에 대해 Snowflake 시 null을 반환합니다.</p>
@@ -9578,9 +8757,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PRIMARY_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>기본 담당자 역할을 사용하는 경우 기본 담당자 역할로 나열된 관련 담당자의 ID입니다.</p>
       </td>
@@ -9592,9 +8769,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>PRIMARY_CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>기본 담당자 역할을 사용하는 경우 관련 담당자의 이메일이 기본 담당자 역할로 나열됩니다.</p>
       </td>
@@ -9620,9 +8795,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>다음에 정의된 Opportunity 의 현재 단계 [!DNL Marketo Measure] 응용 프로그램.</p>
       </td>
@@ -9634,9 +8807,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Opportunity 가 이전에 거쳤던 모든 단계의 문자열입니다( 참조). [!DNL Marketo Measure] 응용 프로그램.</p>
       </td>
@@ -9731,12 +8902,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>전환에 대한 고유 ID.</p>
       </td>
@@ -9748,9 +8915,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>영업 기회와 연계된 계정의 ID입니다.</p>
       </td>
@@ -9762,9 +8927,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>영업 기회 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>전환에 연결된 영업 기회의 ID입니다.</p>
       </td>
@@ -9773,12 +8936,8 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>전환과 연계된 연락처 ID.</p>
       </td>
@@ -9790,9 +8949,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 연락처에 대해 제공된 이메일 주소입니다.</p>
       </td>
@@ -9804,9 +8961,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>전환에 연결된 구매자 속성 터치포인트의 ID.</p>
       </td>
@@ -9818,9 +8973,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드가 단계로 전환된 날짜.</p>
       </td>
@@ -9832,9 +8985,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>단계</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>전환 단계 이름.</p>
       </td>
@@ -9846,9 +8997,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>전환 단계의 ID 값입니다.</p>
       </td>
@@ -9926,9 +9075,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>단계 순위에 따른 이전 단계의 전환 날짜.</p>
       </td>
@@ -9940,9 +9087,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>단계 순위에 따라 다음 단계에 대한 전환 날짜입니다.</p>
       </td>
@@ -9951,12 +9096,8 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드의 마지막 수정 날짜.</p>
       </td>
@@ -10012,12 +9153,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>페이지 보기에 대한 고유 ID입니다.</p>
       </td>
@@ -10029,9 +9166,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>COOKIE_</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>페이지 보기가 기록될 때 기록된 쿠키 id.</p>
       </td>
@@ -10043,9 +9178,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 방문자 ID의 첫 번째 쿠키입니다.</p>
       </td>
@@ -10057,9 +9190,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>페이지 보기와 상관 관계가 있는 세션 ID입니다.</p>
       </td>
@@ -10071,9 +9202,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>페이지 조회수가 발생한 날짜.</p>
       </td>
@@ -10082,12 +9211,8 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -10099,9 +9224,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CURRENT_페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수 없이 페이지 보기의 URL입니다.</p>
       </td>
@@ -10113,9 +9236,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CURRENT_PAGE_원시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수를 포함한 페이지 보기의 URL.</p>
       </td>
@@ -10127,9 +9248,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>IP 주소</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>양식 제출 시 기록된 IP 주소입니다.</p>
       </td>
@@ -10141,9 +9260,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>이벤트 유형을 나타냅니다.</td>
       <td>
         <p>페이지 보기</p>
@@ -10153,9 +9270,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>USER_에이전트_문자열</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>양식 제출 시 기록된 장치 및 브라우저입니다.</p>
       </td>
@@ -10181,9 +9296,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 감사 및 처리에 사용됩니다.</td>
       <td>
         <p>103532</p>
@@ -10213,9 +9326,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>레퍼러 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수 없이 페이지 보기가 시작된 URL입니다.</p>
       </td>
@@ -10227,9 +9338,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수를 포함하여 페이지 보기가 시작된 URL입니다.</p>
       </td>
@@ -10241,9 +9350,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PAGE_제목</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>페이지 제목</p>
       </td>
@@ -10255,9 +9362,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript에서 캡처한 대로 양식에 제공된 이메일 주소.</p>
       </td>
@@ -10329,12 +9434,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>배치에 대한 고유 ID.</p>
       </td>
@@ -10346,9 +9447,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>소스 시스템의 배치 ID입니다.</td>
       <td>10426699711</td>
     </tr>
@@ -10356,9 +9455,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>배치를 가져온 광고 계정의 ID입니다.</p>
       </td>
@@ -10368,9 +9465,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>배치를 가져온 광고 계정의 이름입니다.</p>
       </td>
@@ -10380,9 +9475,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>배치, 특히 Doubleclick에 대한 광고주 ID.</p>
       </td>
@@ -10392,9 +9485,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>배치, 특히 Doubleclick에 대한 광고주 이름입니다.</p>
       </td>
@@ -10404,9 +9495,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조에서 배치 위에 광고 그룹이 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -10416,9 +9505,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조에서 배치 위에 광고 그룹이 없으므로 Null이 되어야 합니다.</p>
       </td>
@@ -10428,9 +9515,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>배치에 대한 캠페인 ID.</p>
       </td>
@@ -10440,9 +9525,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>배치에 대한 캠페인의 이름입니다.</p>
       </td>
@@ -10473,12 +9556,8 @@ Opportunity 의 Stage 전환
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -10488,9 +9567,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
@@ -10500,9 +9577,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 배치 이름입니다.</p>
       </td>
@@ -10525,9 +9600,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>진단 필드(내부 처리용).</td>
       <td></td>
     </tr>
@@ -10535,9 +9608,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "배치"입니다.</p>
       </td>
@@ -10547,9 +9618,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>배치에 대한 광고 공급자의 이름입니다.</p>
       </td>
@@ -10601,12 +9670,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>세그먼트에 대한 고유 ID.</p>
       </td>
@@ -10618,9 +9683,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>세그먼트 이름.</p>
       </td>
@@ -10679,9 +9742,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>범주</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>세그먼트 이름이 매핑된 범주를 나타냅니다.</p>
       </td>
@@ -10690,12 +9751,8 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -10707,9 +9764,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SEGMENT_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>범주에 매핑된 세그먼트의 이름입니다.</p>
       </td>
@@ -10763,12 +9818,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>세션의 고유 ID입니다.</p>
       </td>
@@ -10780,9 +9831,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>관련 방문자 ID의 첫 번째 쿠키입니다.</p>
       </td>
@@ -10792,9 +9841,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>COOKIE_</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>세션의 기록된 쿠키 ID입니다.</p>
       </td>
@@ -10804,9 +9851,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>세션 날짜.</p>
       </td>
@@ -10818,9 +9863,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>수정한 날짜</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -10838,9 +9881,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>채널</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>세션에 기여된 채널 속성입니다( 다음에 설정된 채널 정의에 정의됨). [!DNL Marketo Measure] 응용 프로그램.</p>
       </td>
@@ -10852,9 +9893,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PAGE_제목</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>웹 페이지 이름.</p>
       </td>
@@ -10866,9 +9905,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>랜딩 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수 없이 세션의 첫 번째 페이지 보기 URL.</p>
       </td>
@@ -10880,9 +9917,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>랜딩 페이지 원시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수를 포함한 세션의 첫 번째 페이지 보기 URL</p>
       </td>
@@ -10894,9 +9929,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>레퍼러 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수 없이 세션이 시작된 URL.</p>
       </td>
@@ -10908,9 +9941,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>쿼리 매개 변수를 포함하여 세션이 시작된 URL.</p>
       </td>
@@ -10922,9 +9953,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>REFERRER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>레퍼러 페이지의 이름입니다.</p>
       </td>
@@ -10936,9 +9965,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자가 검색하기 위해 브라우저에 입력한 후 웹 사이트에서 종료한 값입니다.</p>
       </td>
@@ -10950,9 +9977,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>세션을 발생시킨 소스를 정의하는 데 사용됩니다. 다음과 같은 경우 utm_source의 URL에서 구문 분석하거나 광고 공급자로 설정할 수 있습니다. [!DNL Marketo Measure] 광고를 확인할 수 있습니다.</p>
       </td>
@@ -11020,9 +10045,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>장치</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>세션 중 사용자의 브라우저 및 운영 체제입니다.</p>
       </td>
@@ -11034,9 +10057,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 플랫폼 [!DNL Marketo Measure] 일반적으로 통합 파트너 중 하나에서 해결되었습니다.</p>
       </td>
@@ -11048,9 +10069,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 ID입니다.</p>
       </td>
@@ -11062,9 +10081,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>계정 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 이름입니다.</p>
       </td>
@@ -11076,9 +10093,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고주 ID, 특히 Doubleclick 연결에서.</p>
       </td>
@@ -11090,9 +10105,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고주 이름, 특히 Doubleclick 연결에서.</p>
       </td>
@@ -11104,9 +10117,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 사이트의 ID. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -11118,9 +10129,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SITE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 사이트의 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -11132,9 +10141,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 배치 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -11146,9 +10153,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>해결된 광고 배치 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -11160,9 +10165,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CAMPAIGN_고유_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 캠페인 ID.</p>
       </td>
@@ -11174,9 +10177,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>캠페인 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 캠페인 이름.</p>
       </td>
@@ -11188,9 +10189,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 확인된 광고 그룹의 ID. 이는 Google Adwords에만 적용됩니다.</p>
       </td>
@@ -11202,9 +10201,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 그룹의 이름. 이는 Google Adwords에만 적용됩니다.</p>
       </td>
@@ -11216,9 +10213,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>다음에서 확인된 광고 ID. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -11228,9 +10223,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>다음에서 해결된 광고 이름. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -11240,9 +10233,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 ID. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -11254,9 +10245,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 크리에이티브의 이름. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -11268,9 +10257,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 광고에서 가져온 크리에이티브의 첫 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -11282,9 +10269,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 광고에서 가져온 크리에이티브의 두 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -11296,9 +10281,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 검색 광고에서 클릭스루하는 랜딩 페이지. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -11310,9 +10293,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 검색 광고에 표시되는 친숙한 URL 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -11324,9 +10305,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 확인된 키워드 ID. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -11338,9 +10317,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 키워드 이름. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -11352,9 +10329,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_MATCH_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 구문과 구매 키워드 간에 일치하는 항목의 유형입니다.</p>
       </td>
@@ -11366,9 +10341,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>캠페인</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_campaign의 URL에서 구문 분석됩니다.</p>
       </td>
@@ -11380,9 +10353,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>소스</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_source의 URL에서 구문 분석됩니다.</p>
       </td>
@@ -11394,9 +10365,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>중간</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_medium의 URL에서 구문 분석됩니다.</p>
       </td>
@@ -11408,9 +10377,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>용어</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_term의 URL에서 구문 분석됩니다.</p>
       </td>
@@ -11422,9 +10389,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>콘텐츠</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_content의 URL에서 구문 분석됩니다.</p>
       </td>
@@ -11436,9 +10401,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>도시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP 주소에서 확인된 구/군/시.</p>
       </td>
@@ -11448,9 +10411,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>지역</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP 주소에서 확인된 영역입니다.</p>
       </td>
@@ -11460,9 +10421,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>국가</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP 주소에서 확인된 국가입니다.</p>
       </td>
@@ -11472,9 +10431,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ISP 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>필드가 사용되지 않으므로 null이 되어야 합니다.</td>
       <td>
         <p>NULL</p>
@@ -11484,9 +10441,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>IP 주소</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>세션 시 기록된 IP 주소입니다.</p>
       </td>
@@ -11622,12 +10577,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>사이트에 대한 고유 ID.</p>
       </td>
@@ -11637,9 +10588,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>소스 시스템의 사이트 ID입니다.</td>
       <td>39464932147</td>
     </tr>
@@ -11647,9 +10596,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트를 가져온 광고 계정의 ID입니다.</p>
       </td>
@@ -11659,9 +10606,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트를 가져온 광고 계정의 이름입니다.</p>
       </td>
@@ -11671,9 +10616,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트에 대한 광고주, 특히 Doubleclick에 대한 Id.</p>
       </td>
@@ -11685,9 +10628,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트에 대한 광고주 이름, 특히 Doubleclick에 대한 이름입니다.</p>
       </td>
@@ -11699,9 +10640,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조에 사이트 위에 광고 그룹이 없으므로 Null이 필요합니다.</p>
       </td>
@@ -11711,9 +10650,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 계층 구조에 사이트 위에 광고 그룹이 없으므로 Null이 필요합니다.</p>
       </td>
@@ -11723,9 +10660,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트에 대한 캠페인 ID.</p>
       </td>
@@ -11737,9 +10672,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트에 대한 캠페인의 이름입니다.</p>
       </td>
@@ -11770,12 +10703,8 @@ Opportunity 의 Stage 전환
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -11785,9 +10714,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
@@ -11797,9 +10724,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>소스 시스템의 사이트 이름입니다.</p>
       </td>
@@ -11822,9 +10747,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>내부 처리에 사용되는 진단 필드.</td>
       <td></td>
     </tr>
@@ -11832,9 +10755,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "사이트"입니다.</p>
       </td>
@@ -11844,9 +10765,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트에 대한 광고 공급자의 이름입니다.</p>
       </td>
@@ -11900,12 +10819,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크에 대한 고유 ID</p>
       </td>
@@ -11917,9 +10832,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>1654234342</p>
@@ -11929,9 +10842,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크에 연결된 광고 계정의 ID</p>
       </td>
@@ -11943,9 +10854,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크에 연결된 광고 계정의 이름</p>
       </td>
@@ -11957,9 +10866,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크, 특히 Doubleclick에 대한 광고주 ID입니다.</p>
       </td>
@@ -11971,9 +10878,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크(특히 Doubleclick)에 대한 광고주 이름입니다.</p>
       </td>
@@ -11985,9 +10890,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크에 대한 광고 그룹 ID</p>
       </td>
@@ -11997,9 +10900,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크에 대한 광고 그룹 이름</p>
       </td>
@@ -12009,9 +10910,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크에 대한 캠페인 ID</p>
       </td>
@@ -12023,9 +10922,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_캠페인_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크에 대한 캠페인 이름</p>
       </td>
@@ -12062,12 +10959,8 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>행의 마지막 수정 날짜</p>
       </td>
@@ -12079,9 +10972,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>FIRST_IMPORT</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>사이트 링크를 처음 다운로드한 날짜 [!DNL Marketo Measure]</p>
       </td>
@@ -12093,9 +10984,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크의 이름입니다.</p>
       </td>
@@ -12119,9 +11008,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>그룹화 키</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>aw.6601259029.285077795</p>
@@ -12131,9 +11018,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "SiteLink"</p>
       </td>
@@ -12145,9 +11030,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PROVIDER_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사이트 링크에 대한 광고 공급자의 이름</p>
       </td>
@@ -12159,9 +11042,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>랜딩 페이지의 URL입니다.</p>
         <p>(진단 필드, 내부 처리용)</p>
@@ -12175,9 +11056,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL_CURRENT의 이전 값.</p>
         <p>(진단 필드, 내부 처리용)</p>
@@ -12188,9 +11067,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL을 데코레이트할 대상 [!DNL Marketo Measure] 매개 변수.</p>
         <p>(진단 필드, 내부 처리용)</p>
@@ -12231,12 +11108,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>단계에 대한 고유 ID입니다.</p>
       </td>
@@ -12245,12 +11118,8 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -12262,9 +11131,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>스테이지 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>단계 이름.</p>
       </td>
@@ -12328,9 +11195,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>단계 상태</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>단계에 정의된 상태 [!DNL Marketo Measure] 응용 프로그램 스테이지 매핑입니다.</p>
       </td>
@@ -12426,12 +11291,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>구매자 접점(BT)에 대한 고유 ID.</p>
       </td>
@@ -12440,12 +11301,8 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -12457,21 +11314,15 @@ Opportunity 의 Stage 전환
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>BT와 연결된 이메일 주소.</td>
       <td>
         <p>person@adobe.com</p>
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>BT와 연결된 연락처의 ID입니다.</p>
       </td>
@@ -12481,9 +11332,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BT와 연결된 계정의 ID입니다.</p>
       </td>
@@ -12495,9 +11344,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>리드 ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BT에 연결된 잠재 고객의 ID입니다.</p>
       </td>
@@ -12509,9 +11356,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>UNIQUE_ID_PERSON</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>잠재 고객 또는 연락처와 관련된 상위 개인 레코드.</p>
       </td>
@@ -12523,9 +11368,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BT를 생성한 사용자 터치포인트의 ID입니다.</p>
       </td>
@@ -12543,9 +11386,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>터치포인트의 날짜입니다.</p>
       </td>
@@ -12557,9 +11398,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>활동 유형, 웹 방문, 웹 양식, 웹 채팅, 전화 통화, [CRM] Campaign 또는 [CRM] 활동. CRM에서 "터치포인트 유형"이라고 합니다.</p>
       </td>
@@ -12571,9 +11410,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>채널</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널 [!DNL Marketo Measure] 앱. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
       </td>
@@ -12583,9 +11420,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CATEGORY1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 첫 번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -12595,9 +11430,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>범주2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 두 번째 카테고리에 대한 세그먼트 값( 내의 세그먼트 정의에 정의됨) [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -12609,9 +11442,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>범주3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 세 번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -12623,9 +11454,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>카테고리 4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 4번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -12637,9 +11466,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>범주5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 5번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -12649,9 +11476,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>범주6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 6번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -12661,9 +11486,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CATEGORY7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 7번째 카테고리에 대한 세그먼트 값은에서 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -12671,9 +11494,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CATEGORY8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 8번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -12681,9 +11502,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CATEGORY9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 9번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -12691,9 +11510,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>범주10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 10번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -12701,9 +11518,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>카테고리11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 11번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -12711,9 +11526,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>카테고리12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 12번째 카테고리에 대한 세그먼트 값은 내의 세그먼트 정의에 정의된 대로 입니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -12721,9 +11534,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>카테고리13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>터치포인트가 속하는 13번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
@@ -12731,9 +11542,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>카테고리14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 포함되는 14번째 카테고리에 대한 세그먼트 값은 내의 세그먼트 정의에 정의된 대로 입니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -12743,9 +11552,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>카테고리15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 속하는 15번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
@@ -12755,9 +11562,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>브라우저 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있던 브라우저가 검색되었습니다.</p>
       </td>
@@ -12767,9 +11572,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>BROWSERVERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있었던 브라우저의 감지된 버전입니다.</p>
       </td>
@@ -12781,9 +11584,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>플랫폼 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 감지된 플랫폼입니다.</p>
       </td>
@@ -12795,9 +11596,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PLATFORM_버전</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 플랫폼의 감지된 버전입니다.</p>
       </td>
@@ -12807,9 +11606,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>랜딩 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. CRM에서는 "랜딩 페이지"라고 합니다.</p>
       </td>
@@ -12821,9 +11618,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>랜딩 페이지 원시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. 원시 랜딩 페이지에는 URL의 모든 쿼리 매개 변수가 포함됩니다. CRM에서는 "랜딩 페이지 - 원시"라고 합니다.</p>
       </td>
@@ -12835,9 +11630,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>레퍼러 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>일반적으로 사용자가 웹 사이트에 접속하기 직전의 외부 랜딩 페이지입니다. CRM에서 "레퍼러 페이지"라고 합니다.</p>
       </td>
@@ -12847,9 +11640,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>일반적으로 사용자가 웹 사이트에 접속하기 직전의 외부 랜딩 페이지입니다. 원시 레퍼러 페이지는 URL에 쿼리 매개 변수를 포함할 수 있습니다. CRM에서 "레퍼러 페이지 - 원시"라고 합니다.</p>
       </td>
@@ -12861,9 +11652,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>FORM_페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트를 초래한 세션에 기록된 첫 번째 양식입니다. 이후 양식 제출은 Touchpoints 테이블에 표시되지 않고 Form_Submisses 테이블에 표시됩니다. CRM에서 "양식 URL"이라고 합니다.</p>
       </td>
@@ -12881,9 +11670,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>양식 제출이 발생한 날짜.</p>
       </td>
@@ -12895,9 +11682,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>도시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있는 감지된 도시입니다.</p>
       </td>
@@ -12909,9 +11694,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>지역</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 감지된 영역입니다.</p>
       </td>
@@ -12923,9 +11706,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>국가</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있는 감지된 국가입니다.</p>
       </td>
@@ -12937,9 +11718,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>중간</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 다음과 같은 경우 [!DNL Marketo Measure] 은 광고를 확인할 수 있으며, "cpc" 또는 "display"와 같은 값일 수 있습니다.</p>
       </td>
@@ -12951,9 +11730,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. URL의 utm_source에서 구문 분석하여 CRM에서 동기화되거나 다음과 같은 경우 일반적으로 "CRM 캠페인"으로 설정됩니다. [!DNL Marketo Measure] 는 광고를 확인할 수 있으며, "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 소스"라고 합니다.</p>
       </td>
@@ -12965,9 +11742,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자가 검색하기 위해 브라우저에 입력한 후 웹 사이트에서 종료한 값. 키워드 구입에 따라 유료 검색 플랫폼에서 구입한 키워드와 일치하거나 일치하지 않을 수 있습니다.</p>
       </td>
@@ -12979,9 +11754,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 플랫폼 [!DNL Marketo Measure] 은(는) 일반적으로 당사의 통합 파트너 중 하나에서 확인할 수 있었습니다.</p>
       </td>
@@ -12993,9 +11766,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 ID입니다.</p>
       </td>
@@ -13007,9 +11778,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>계정 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 이름입니다.</p>
       </td>
@@ -13021,9 +11790,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고주 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -13035,9 +11802,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고주 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -13049,9 +11814,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 사이트 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -13063,9 +11826,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SITE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 사이트 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -13077,9 +11838,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 배치 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -13091,9 +11850,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 배치 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -13105,9 +11862,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CAMPAIGN_고유_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 캠페인 ID입니다.</p>
       </td>
@@ -13119,9 +11874,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>캠페인 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 캠페인 이름.</p>
       </td>
@@ -13133,9 +11886,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 그룹 ID입니다. 이는 Google Adwords에만 적용됩니다.</p>
       </td>
@@ -13145,9 +11896,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 그룹 이름. 이는 Google AdWords에만 적용됩니다.</p>
       </td>
@@ -13157,9 +11906,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 ID입니다. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -13169,9 +11916,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 이름입니다. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -13181,9 +11926,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 크리에이티브 ID. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -13195,9 +11938,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 크리에이티브 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -13209,9 +11950,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 광고에서 가져온 크리에이티브의 첫 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -13223,9 +11962,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 광고에서 가져온 크리에이티브의 두 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -13237,9 +11974,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 검색 광고에서 클릭스루하는 랜딩 페이지. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -13251,9 +11986,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 검색 광고에 표시되는 친숙한 URL 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -13265,9 +11998,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 유료 검색 구매에서 구매한 키워드의 ID입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -13279,9 +12010,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 유료 검색 구매에서 구매한 키워드의 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다</p>
       </td>
@@ -13293,9 +12022,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_MATCH_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 구문과 구매 키워드 간에 일치하는 항목의 유형입니다.</p>
       </td>
@@ -13699,12 +12426,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>사용자 터치포인트에 대한 고유 ID.</p>
       </td>
@@ -13713,12 +12436,8 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
@@ -13730,9 +12449,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 터치포인트와 연계된 이메일 주소.</p>
       </td>
@@ -13744,9 +12461,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 터치포인트를 만든 세션의 ID입니다.</p>
       </td>
@@ -13758,9 +12473,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CAMPAIGN_MEMBER_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 터치포인트를 생성한 캠페인 멤버의 ID입니다.</p>
       </td>
@@ -13778,9 +12491,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CRM_EVENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 터치포인트를 만든 이벤트의 ID입니다.</p>
       </td>
@@ -13792,9 +12503,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CRM_TASK_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 터치포인트를 생성한 작업에 대한 항목입니다.</p>
       </td>
@@ -13806,9 +12515,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>IMPRESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자 터치포인트를 생성한 노출에 대한 ID.</p>
       </td>
@@ -13830,9 +12537,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>사용자 터치포인트가 발생한 날짜.</p>
       </td>
@@ -13844,9 +12549,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>활동 유형, 웹 방문, 웹 양식, 웹 채팅, 전화 통화, [CRM] Campaign 또는 [CRM] 활동. CRM에서 "터치포인트 유형"이라고 합니다.</p>
       </td>
@@ -13858,9 +12561,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>채널</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널 [!DNL Marketo Measure] 앱. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
       </td>
@@ -13872,9 +12573,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>브라우저 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있던 브라우저가 검색되었습니다.</p>
       </td>
@@ -13886,9 +12585,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>BROWSERVERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있었던 브라우저의 감지된 버전입니다.</p>
       </td>
@@ -13900,9 +12597,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>플랫폼 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 감지된 플랫폼입니다.</p>
       </td>
@@ -13914,9 +12609,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PLATFORM_버전</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 플랫폼의 감지된 버전입니다.</p>
       </td>
@@ -13928,9 +12621,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>랜딩 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. CRM에서는 "랜딩 페이지"라고 합니다.</p>
       </td>
@@ -13942,9 +12633,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>랜딩 페이지 원시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. 원시 랜딩 페이지에는 URL의 모든 쿼리 매개 변수가 포함됩니다. CRM에서는 "랜딩 페이지 - 원시"라고 합니다.</p>
       </td>
@@ -13956,9 +12645,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>레퍼러 페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>일반적으로 사용자가 웹 사이트에 접속하기 직전의 외부 랜딩 페이지입니다. CRM에서 "레퍼러 페이지"라고 합니다.</p>
       </td>
@@ -13970,9 +12657,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>일반적으로 사용자가 웹 사이트에 접속하기 직전의 외부 랜딩 페이지입니다. 원시 레퍼러 페이지는 URL에 쿼리 매개 변수를 포함할 수 있습니다. CRM에서 "레퍼러 페이지 - 원시"라고 합니다.</p>
       </td>
@@ -13984,9 +12669,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>FORM_페이지</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트를 초래한 세션에 기록된 첫 번째 양식입니다. 이후 양식 제출은 Attribution_Touchpoints 테이블에 표시되지 않고 Form_Submits 테이블에 표시됩니다. CRM에서 "양식 URL"이라고 합니다.</p>
       </td>
@@ -13998,9 +12681,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트를 초래한 세션에 기록된 첫 번째 양식입니다. 이후 양식 제출은 Attribution_Touchpoints 테이블에 표시되지 않고 Form_Submits 테이블에 표시됩니다. 원시 양식 페이지는 URL에 쿼리 매개 변수를 포함할 수 있습니다. CRM에서 "양식 URL - 원시"라고 합니다.</p>
       </td>
@@ -14012,9 +12693,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>양식 제출이 발생한 날짜.</p>
       </td>
@@ -14026,9 +12705,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>도시</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있는 감지된 도시입니다.</p>
       </td>
@@ -14040,9 +12717,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>지역</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 사용자가 세션 중에 있었던 감지된 영역입니다.</p>
       </td>
@@ -14054,9 +12729,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>국가</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있는 감지된 국가입니다.</p>
       </td>
@@ -14068,9 +12741,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>중간</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 다음과 같은 경우 [!DNL Marketo Measure] 은 광고를 확인할 수 있으며, "cpc" 또는 "display"와 같은 값일 수 있습니다.</p>
       </td>
@@ -14082,9 +12753,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. URL의 utm_source에서 구문 분석하여 CRM에서 동기화되거나 다음과 같은 경우 일반적으로 "CRM 캠페인"으로 설정됩니다. [!DNL Marketo Measure] 는 광고를 확인할 수 있으며, "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 소스"라고 합니다.</p>
       </td>
@@ -14096,9 +12765,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>사용자가 검색하기 위해 브라우저에 입력한 후 웹 사이트에서 종료한 값. 키워드 구입에 따라 유료 검색 플랫폼에서 구입한 키워드와 일치하거나 일치하지 않을 수 있습니다.</p>
       </td>
@@ -14110,9 +12777,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고 플랫폼 [!DNL Marketo Measure] 은(는) 일반적으로 당사의 통합 파트너 중 하나에서 확인할 수 있었습니다.</p>
       </td>
@@ -14124,9 +12789,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 ID입니다.</p>
       </td>
@@ -14138,9 +12801,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>계정 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 이름입니다.</p>
       </td>
@@ -14152,9 +12813,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고주 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -14166,9 +12825,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고주 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -14180,9 +12837,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 사이트 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -14194,9 +12849,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SITE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 사이트 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -14208,9 +12861,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 배치 ID입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -14222,9 +12873,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 배치 이름입니다. 이는 Doubleclick Campaign Manager에만 적용됩니다.</p>
       </td>
@@ -14236,9 +12885,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CAMPAIGN_고유_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 캠페인 ID입니다.</p>
       </td>
@@ -14250,9 +12897,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>캠페인 이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 캠페인 이름.</p>
       </td>
@@ -14264,9 +12909,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 그룹 ID입니다. 이는 Google Adwords에만 적용됩니다.</p>
       </td>
@@ -14278,9 +12921,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_GROUP_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 그룹 이름. 이는 Google AdWords에만 적용됩니다.</p>
       </td>
@@ -14292,9 +12933,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 ID입니다. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -14304,9 +12943,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>AD_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 광고 이름입니다. 이는 Doubleclick Campaign Manager 및 Facebook(디스플레이)에 적용됩니다.</p>
       </td>
@@ -14316,9 +12953,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 크리에이티브 ID. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -14330,9 +12965,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_이름</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정의 크리에이티브 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -14344,9 +12977,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 광고에서 가져온 크리에이티브의 첫 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -14358,9 +12989,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 광고에서 가져온 크리에이티브의 두 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -14372,9 +13001,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 검색 광고에서 클릭스루하는 랜딩 페이지. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -14386,9 +13013,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 검색 광고에 표시되는 친숙한 URL 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -14400,9 +13025,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 유료 검색 구매에서 구매한 키워드의 ID입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
@@ -14414,9 +13037,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>광고가 해결된 광고 계정에서 가져온 유료 검색 구매에서 구매한 키워드의 이름입니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다</p>
       </td>
@@ -14428,9 +13049,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>KEYWORD_MATCH_유형</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>검색 구문과 구매 키워드 간에 일치하는 항목의 유형입니다.</p>
       </td>
@@ -14592,12 +13211,8 @@ Opportunity 의 Stage 전환
       <th>샘플 데이터</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>매핑 레코드에 대한 고유 ID.</td>
       <td>
         <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|002|0|568668</p>
@@ -14607,9 +13222,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>COOKIE_</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>다음 [!DNL Marketo Measure] 기록된 쿠키 id.</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14617,9 +13230,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>관련 방문자 id의 첫 번째 쿠키 id.</td>
       <td>v_0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14627,9 +13238,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>다음 [!DNL Marketo Measure] 세션 ID입니다.</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
@@ -14644,9 +13253,7 @@ Opportunity 의 Stage 전환
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
+      <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
@@ -14657,9 +13264,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>CURRENT_페이지</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>쿼리 매개 변수 없이 페이지 보기의 URL입니다.</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html</p>
@@ -14667,9 +13272,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>CURRENT_PAGE_원시</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>쿼리 매개 변수를 포함한 페이지 보기의 URL.</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
@@ -14677,9 +13280,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>IP 주소</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>기록된 IP 주소입니다.</td>
       <td>
         <p>159.203.142.127</p>
@@ -14687,9 +13288,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>유형</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>이벤트 유형을 나타냅니다.</td>
       <td>
         <p>호스트 매핑</p>
@@ -14697,9 +13296,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>USER_에이전트_문자열</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>페이지 보기 시 기록된 장치 및 브라우저입니다.</td>
       <td>
         <p>Mozilla/5.0(Windows NT 10.0, Win64, x64) AppleWebKit/537.36(KHTML, Gecko) Chrome/79.0.3945.130 Safari/537.36</p>
