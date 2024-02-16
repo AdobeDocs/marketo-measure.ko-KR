@@ -1,11 +1,11 @@
 ---
 description: '[!DNL Salesforce] 패키지 통합 - [!DNL Marketo Measure] - 제품 설명서'
 title: '[!DNL Salesforce] 패키지 통합'
-exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Marketo Measure Salesforce 패키지에 대한 향후 변경 사항을 발표하
 보고 기능을 향상시키기 위해 두 개의 새 필드가 추가되었습니다.
 
 * form_name: 이제 BT/BAT 객체에서 사용할 수 있으며, 이 필드를 통해 사용자는 양식 이름을 기반으로 보고서를 작성할 수 있습니다.
-* user_touchpoint_id: 이 필드를 사용하면 사용자가 고유한 사용자 터치포인트 카운트로 보고서를 만들 수 있습니다.
+* user_touchpoint_id: 이 필드를 통해 사용자는 고유한 사용자 접점 카운트로 보고서를 만들 수 있습니다(`bizible2__User_Touchpoint_V2__c` Salesforce 참조).
 
 ## 지원 및 전환 {#support-and-transition}
 
