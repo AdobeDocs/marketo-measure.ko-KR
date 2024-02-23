@@ -3,7 +3,7 @@ description: 새로운 Discover Dashboard 안내서 - [!DNL Marketo Measure] - �
 title: 새로운 Discover Dashboard 안내서
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -39,14 +39,12 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
           <li>
             <strong>파이프라인 수익:</strong>사용되지 않음(아래 참조)</li>
           <li>
-            <strong>평균 거래 규모: </strong>사용되지 않음(아래 참조)</li>
-        </ul>
+            <strong>평균 거래 규모: </strong>사용되지 않음(아래 참조)</li></ul>
       </td>
     </tr>
     <tr>
       <td>성장</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>시간 경과에 따른 수익 및 수익</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
           <li>

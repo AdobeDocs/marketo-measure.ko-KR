@@ -2,9 +2,9 @@
 description: 참여 대시보드 - [!DNL Marketo Measure] - 제품
 title: 참여 대시보드
 feature: Reporting
-source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,11 @@ ht-degree: 0%
 * 특정 채널/하위 채널/캠페인 내에서 터치된 사람과 터치포인트 수는 어떻게 비교됩니까?
 
 ![](assets/engagement-dashboard-2.png)
+
+## 필터 창 {#filter-pane}
+
+이 대시보드에는 다음 설정 및 필터가 포함되어 있습니다.
+
+* 날짜(터치포인트 날짜 기준)
+* 채널, 하위 채널
+* Campaign

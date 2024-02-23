@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultimate 구현 안내서 - [!DNL Marketo Measure] - 제품 설명서'
 title: '[!DNL Marketo Measure] Ultimate 구현 안내서'
 feature: Integration, Tracking, Attribution
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,10 @@ Ultimate 사용자에게 AEP가 제공됩니다. 이미 AEP가 있는 경우 새
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## 데이터 흐름 {#dataflows}
+
+>[!IMPORTANT]
+>
+>새 데이터 세트를 추가할 때 기존 데이터 세트를 사용하는 대신 새 플로우를 만드는 것이 좋습니다.
 
 [데이터 흐름 개요](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
