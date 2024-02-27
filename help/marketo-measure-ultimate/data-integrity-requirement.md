@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사
 title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 23890f24412e234f9ab7c08b684b6064eac5d0ed
+source-git-commit: b638563259705635667dd0e938fb388da6d78276
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 17%
@@ -1356,9 +1356,9 @@ select 'source instance id', count(*) from currency_conversion_rate where extSou
 union all
 select 'source key', count(*) from currency_conversion_rate where extSourceSystemAudit.externalKey.sourceKey is null
 union all
-select 'created date', count(*) from salesforce_contact where extSourceSystemAudit.createdDate is null
+select 'created date', count(*) from currency_conversion_rate where extSourceSystemAudit.createdDate is null
 union all
-select 'last updated date', count(*) from salesforce_contact where extSourceSystemAudit.lastUpdatedDate is null;
+select 'last updated date', count(*) from currency_conversion_rate where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
 ## NULL 값이 있는 필수 필드에 대한 권장 솔루션 {#recommended-solution-for-required-fields-with-a-null-value}
