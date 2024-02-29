@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874795
-description: 추가 중 [!DNL Marketo Measure] 스크립트 - [!DNL Marketo Measure] - 제품 설명서
+description: 추가 중 [!DNL Marketo Measure] 스크립트 - [!DNL Marketo Measure]
 title: 추가 중 [!DNL Marketo Measure] 스크립트
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,13 @@ JavaScript를에 하드코딩 `<head>` 의 페이지에서 다음을 확인합�
 
 ## Tag Management 시스템즈 {#tag-management-systems}
 
-추가하는 경우 [!DNL Marketo Measure] 하드 코딩을 통한 JavaScript를 사용할 수 없습니다. 다른 옵션은 [!DNL Marketo Measure] 다음과 같은 Tag Management 시스템을 사용한 스크립트 [!DNL Google Tag Manager] (GTM) 또는 Tealium.
+추가하는 경우 [!DNL Marketo Measure] 하드 코딩을 통한 JavaScript는 사용할 수 없으며 다른 옵션은 [!DNL Marketo Measure] 다음과 같은 Tag Management 시스템을 사용하는 스크립트 [!DNL Google Tag Manager] (GTM) 또는 Tealium.
 
-Tag Management 시스템을 사용하여 을 배포하는 방법에 유의하십시오 [!DNL Marketo Measure] JS는 스크립트 로드 시간 지연으로 인해 5~10%의 데이터 손실을 초래할 수 있습니다. 기본적으로 태그 관리 도구가 충분히 빠르게 로드되지 않으면 [!DNL Marketo Measure] JS도 빠르게 로드할 수 없어 첫 레퍼러 정보를 잃을 수 있습니다.
+태그 관리 시스템을 사용하여 배포 [!DNL Marketo Measure] JS는 스크립트 로드 시간 지연으로 인해 5~10%의 데이터 손실을 초래할 수 있습니다. 기본적으로 태그 관리 도구가 충분히 빠르게 로드되지 않으면 [!DNL Marketo Measure] JS도 빠르게 로드할 수 없어 첫 레퍼러 정보를 잃을 수 있습니다.
 
 일반적인 방법은 를 배포하는 것입니다. [!DNL Marketo Measure] 시간/리소스 조정이 하드코딩으로 이동하는 것이 나을 때까지 태그 관리 도구를 통해 JS를 구현합니다.
 
-추가하려면 [!DNL Marketo Measure] 는 태그 관리 솔루션을 통해 새 태그를 만들고 그 안에 JavaScript를 추가해야 합니다. 이 태그를 추적하려는 웹 사이트의 모든 페이지에 적용합니다.
+추가하려면 [!DNL Marketo Measure] 스크립트는 태그 관리 솔루션을 통해 새 태그를 만들고 그 안에 JavaScript를 추가해야 합니다. 이 태그를 추적하려는 웹 사이트의 모든 페이지에 적용합니다.
 
 [!DNL Marketo Measure] 는 모든 페이지 보기에서 태그가 실행되도록 할 것을 권장합니다. 또한, 주는 것이 가장 좋습니다 [!DNL Marketo Measure] 실행 순서의 우선 순위가 가장 높으며 앞에 동기 스크립트가 없는지 확인합니다. [!DNL Marketo Measure] 태그로 식별하여 가장 높은 데이터 품질을 보장합니다.
 
@@ -54,7 +54,7 @@ Tag Management 시스템을 사용하여 을 배포하는 방법에 유의하십
 
 [!DNL Marketo Measure] JavaScript는 도메인을 기반으로 하므로 JavaScript가 페이지에 있고 루트 도메인이 Marketo Measure 계정을 만드는 데 사용되는 도메인과 동일한 경우 자동으로 모든 하위 도메인을 처리할 수 있습니다.
 
-그러나 별도의 도메인이나 국제 도메인을 사용하는 경우에는 [!DNL Marketo Measure] 컨설턴트도 알고 있습니다. 도메인을 의 계정에 수동으로 추가해야 합니다. [!DNL Marketo Measure] 다음으로 종료 [!DNL Marketo Measure] 은 추가 도메인의 데이터를 계정에 연결하는 방법을 알고 있습니다. 따라서 별도의/국제 도메인을 다음으로 전송하십시오. [!DNL Marketo Measure] 컨설턴트.
+그러나 별도의 도메인이나 국제 도메인을 사용하는 경우에는 [!DNL Marketo Measure] 컨설턴트도 알고 있습니다. 도메인을 의 계정에 수동으로 추가해야 합니다. [!DNL Marketo Measure] 다음으로 종료 [!DNL Marketo Measure] 은 추가 도메인의 데이터를 계정에 연결하는 방법을 알고 있습니다. 따라서 별도의/국제 도메인을 [!DNL Marketo Measure] 컨설턴트.
 
 서드파티 페이지를 사용하는 경우, 사용 사례에 대해 [!DNL Marketo Measure] 컨설턴트. 일반적으로 의 사용자 지정 버전을 추가할 수 있는지 알고 싶을 수 있습니다. [!DNL Marketo Measure] 해당되는 경우 해당 페이지를 추적하는 JavaScript. 이렇게 할 수 없는 경우 CRM Campaign 터치포인트를 통한 추적이 [!DNL Marketo Measure] 컨설턴트.
 
@@ -125,7 +125,7 @@ Tag Management 시스템을 사용하여 을 배포하는 방법에 유의하십
 
 하지만 [!DNL Marketo Measure] 컨설턴트는 웹 팀만큼 웹 사이트에 익숙하지 않을 수 있습니다. 따라서 웹 팀이나 다른 적절한 팀이 웹 사이트를 철저히 확인하는 것이 매우 중요합니다. 특히 위에 언급된 것과 같이 사용 중인 복잡한 양식이 있는 경우. 팀은 궁극적으로 필요한 모든 웹 속성이 제대로 추적되는지 확인할 책임이 있지만, 복잡한 양식이나 상황을 알고 있는 경우에는 [!DNL Marketo Measure] 테스트 지원을 위한 컨설턴트.
 
-양식을 직접 테스트하려면 다음 단계를 따르십시오.
+양식을 직접 테스트하려면 다음 단계를 수행합니다.
 
 1. 항상 시크릿 브라우저를 사용하거나 각 양식 제출 테스트 간에 캐시를 지우고 매번 다른 이메일 주소를 사용하십시오.
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Salesforce 개체 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Measure] Salesforce 개체 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Salesforce 개체"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ BAT 개체는 [!UICONTROL Opportunity], [!UICONTROL Contact], 및 [!UICONTROL Ac
 
 ## [!DNL Marketo Measure] 개인 {#marketo-measure-person}
 
-다음 [!DNL Marketo Measure] 개인 개체는 리드 및 연락처 개체와 관련이 있습니다. 기본적으로 Salesforce는 동일한 보고서에서 리드 및 연락처 개체를 사용하여 보고서를 만들 수 있는 옵션을 제공하지 않습니다. Lead 및 Contact Object 와 관련된 [!DNL Marketo Measure] 개인을 사용하면 동일한 보고서 내에서 두 객체에 대해 보고할 수 있습니다. 이 기능은 잠재 고객이 연락처로 전환된 경우 특히 유용합니다. 다음에서: [!DNL Marketo Measure] 개인 레코드 해당 잠재 고객 및/또는 연락처 레코드, 해당 사용자와 연결된 터치포인트의 관련 목록, 개인 ID(항상 잠재 고객/연락처의 이메일 주소)에 대한 조회 정보를 볼 수 있습니다. 다음 이후 [!DNL Marketo Measure] 사용자 는 리드 및 연락처 오브젝트와 관련이 있으며, [!DNL Marketo Measure] 구매자 속성 터치포인트에 연결된 개인 레코드. 다음은 의 예입니다 [!DNL Marketo Measure] Salesforce 내의 개인 레코드:
+다음 [!DNL Marketo Measure] 개인 개체는 리드 및 연락처 개체와 관련이 있습니다. 기본적으로 Salesforce는 동일한 보고서에서 리드 및 연락처 개체를 사용하여 보고서를 만들 수 있는 옵션을 제공하지 않습니다. Lead 및 Contact Object 와 관련된 [!DNL Marketo Measure] 개인을 사용하면 동일한 보고서 내에서 두 객체에 대해 보고할 수 있습니다. 이 기능은 잠재 고객이 연락처로 전환된 경우 특히 유용합니다. 다음에서: [!DNL Marketo Measure] 개인 레코드 해당 리드 및/또는 연락처 레코드에 대한 조회, 해당 사용자와 연결된 터치포인트의 관련 목록, 개인 ID(항상 리드/연락처의 이메일 주소)를 볼 수 있습니다. 다음 이후 [!DNL Marketo Measure] 사용자 는 리드 및 연락처 오브젝트와 관련이 있으며, [!DNL Marketo Measure] 구매자 속성 터치포인트에 연결된 개인 레코드. 다음은 의 예입니다 [!DNL Marketo Measure] Salesforce 내의 개인 레코드:
 
 ![](assets/4.png)
 
@@ -73,7 +73,7 @@ BAT 개체는 [!UICONTROL Opportunity], [!UICONTROL Contact], 및 [!UICONTROL Ac
 
 ## [!DNL Marketo Measure] 필드 {#marketo-measure-fields}
 
-에 의해 캡처된 데이터 [!DNL Marketo Measure] Javascript가 사용자 지정 항목으로 푸시됨 [!DNL Marketo Measure] 내 필드 [!DNL Marketo Measure] 개체. 특정 필드는 특정 개체에만 표시됩니다. 모든 항목의 용어집을 보려면 [!DNL Marketo Measure] 필드를 입력하십시오. [여기를 클릭하십시오](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). 시각화: [!DNL Marketo Measure] 각각 오브젝트 [!DNL Marketo Measure] 필드 관련 항목 [여기를 클릭하십시오](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+에 의해 캡처된 데이터 [!DNL Marketo Measure] JavaScript가 사용자 지정으로 푸시됨 [!DNL Marketo Measure] 내 필드 [!DNL Marketo Measure] 개체. 특정 필드는 특정 개체에만 있습니다. 다음을 검토할 수 있습니다. [용어집[!DNL Marketo Measure] 필드]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) 및 a [관련 항목 시각화 [!DNL Marketo Measure] 오브젝트](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure] 보고서 및 대시보드 {#marketo-measure-reports-and-dashboards}
 

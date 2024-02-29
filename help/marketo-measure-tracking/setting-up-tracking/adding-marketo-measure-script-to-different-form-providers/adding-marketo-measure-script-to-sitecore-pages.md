@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874747
-description: 추가 중 [!DNL Marketo Measure] 사이트 코어 페이지에 스크립팅 - [!DNL Marketo Measure] - 제품 설명서
+description: 추가 중 [!DNL Marketo Measure] 사이트 코어 페이지에 스크립팅 - [!DNL Marketo Measure]
 title: 추가 중 [!DNL Marketo Measure] Sitecore 페이지에 스크립트
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---

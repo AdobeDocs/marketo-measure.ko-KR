@@ -2,7 +2,7 @@
 description: 영업 기회 속도 대시보드 - [!DNL Marketo Measure] - 제품
 title: 영업 기회 속도 대시보드
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Velocity 대시보드는 잠재 고객이 판매 단계를 이동하는 속도�
 
 시계열 라인 차트는 지정된 기간 동안 각 판매 단계에서 기회가 소비한 평균 시간(일)을 표시합니다.
 
-* 드릴다운 및 위로 기능을 활용하여 데이터를 월, 분기 또는 연도로 분류할 수 있습니다.
+* 드릴다운 및 위로 기능을 사용하여 월별, 분기별 또는 연도별로 데이터를 분류할 수 있습니다.
 * 마우스를 라인 위로 가져가면 자세한 정보가 표시됩니다.
 
 이 차트가 답하는 질문:

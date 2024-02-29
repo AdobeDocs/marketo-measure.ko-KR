@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874602
-description: 마케팅 채널 비용 - [!DNL Marketo Measure] - 제품 설명서
+description: 마케팅 채널 비용 - [!DNL Marketo Measure]
 title: 마케팅 채널 비용
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 브라우저에 있는 보기에 관계없이, 필터링된 보기이거나 모든 날짜 및 채널이 있는 기본 보기인 경우 CSV를 업로드할 수 있습니다.
 
-가장 일반적인 오류는 날짜 열의 형식입니다. 이 오류는 날짜 형식을 변경하면 발생하고 Excel 및/또는 Google 시트 간에 이동할 경우 의도적으로 발생할 수 있습니다. 날짜는 9월 12일이 아니라 9월 12일, 5월 12일이 아니고 05-12일이 아닌 MM-YY여야 함을 명심하십시오.
+가장 일반적인 오류는 날짜 열의 형식입니다. 이 오류는 날짜 형식을 변경하면 발생하고 Excel 및/또는 Google 시트 간에 이동할 경우 의도적으로 발생할 수 있습니다. 날짜는 MM-YY여야 하므로 9월 12일이 아니라 9월 12일 또는 5월 12일이며 05-12일이 아니라는 것을 명심하십시오.
 
 ## 시작하기 전에 {#before-you-begin}
 
@@ -129,4 +129,4 @@ Google Sheets에서 작업 중인 경우 먼저 파일을 다운로드해야 합
 
 **파일을 업로드할 수 없는 이유는 무엇입니까?**
 
-다음 내에 다른 권한 집합이 있습니다. [!DNL Marketo Measure] 앱. 파일을 업로드하려면 &quot;AccountAdmin&quot;이어야 합니다. 이 문제를 해결하려면 AccountAdmin에게 액세스를 요청하거나 AccountAdmin이 대신 파일을 업로드하도록 하십시오. 사용자 및 사용자 역할 목록은 **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL View/Add Account Users]**.
+다음 내에 다른 권한 집합이 있습니다. [!DNL Marketo Measure] 앱. 파일을 업로드하려면 &quot;AccountAdmin&quot;이어야 합니다. 이 문제를 해결하려면 AccountAdmin에게 액세스를 요청하거나 AccountAdmin이 사용자를 대신하여 파일을 업로드하도록 하십시오. 사용자 및 사용자 역할 목록은 **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL View/Add Account Users]**.

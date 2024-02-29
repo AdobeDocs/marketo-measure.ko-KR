@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874799
-description: 페이지 레이아웃 지침 - [!DNL Marketo Measure] - 제품 설명서
+description: 페이지 레이아웃 지침 - [!DNL Marketo Measure]
 title: 페이지 레이아웃 지침
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 1%
+source-wordcount: '756'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## Campaign 개체 {#campaign-object}
 
-을(를) 추가하는 것이 좋습니다 [!DNL Marketo Measure] 샌드박스에만 해당하는 SFDC Campaign에 필드를 추가합니다. 필드는 터치포인트 생성을 테스트하는 데 사용할 수 있습니다. 프로덕션에서는 [!DNL Marketo Measure] 터치포인트 날짜 벌크 업데이트 단추. 을(를) 추가하지 않는 것이 좋습니다 [!DNL Marketo Measure] Campaign 동기화 규칙 규칙을 만들 수 있으므로 프로덕션에 필드를 추가합니다.
+다음을 추가하는 것이 좋습니다. [!DNL Marketo Measure] 샌드박스에만 해당하는 SFDC Campaign에 필드를 추가합니다. 필드는 터치포인트 생성을 테스트하는 데 사용할 수 있습니다. 프로덕션에서는 [!DNL Marketo Measure] 터치포인트 날짜 벌크 업데이트 단추. 를 추가하지 않는 것이 좋습니다. [!DNL Marketo Measure] Campaign 동기화 규칙을 만들 수 있으므로 프로덕션에 필드를 추가합니다.
 
 1. 빌드 옵션에서 를 선택합니다. **[!UICONTROL Campaigns]**.
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >여러 Campaign 레코드 유형을 사용하는 경우 **[!UICONTROL Enable Buyer Touchpoints]** 필드를 업데이트해야 합니다. 다음을 참조하십시오. [이 문서](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) 설명서를 참조하십시오.
+   >여러 Campaign 레코드 유형을 사용하는 경우 **[!UICONTROL Enable Buyer Touchpoints]** 필드. 을(를) 참조하십시오 [이 문서](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) 설명서를 참조하십시오.
 
 ## 잠재 고객 {#leads}
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 1. 빠른 찾기 메뉴 내에서 왼쪽의 VisualForce 페이지 옵션을 클릭합니다.
 
-1. 새 섹션을 만들고 이름을 &quot;구매자 터치포인트&quot;로 지정합니다.
+1. 섹션을 만들고 이름을 &quot;구매자 터치포인트&quot;로 지정합니다.
 
    >[!NOTE]
    >
@@ -71,15 +71,15 @@ ht-degree: 1%
 
    ![](assets/5-1.png)
 
-1. 내의 렌치를 클릭합니다. [!DNL VisualForce] 페이지를 만들고 높이를 100으로 변경하고 스크롤 막대를 활성화합니다.
+1. 에서 렌치를 클릭합니다. [!DNL VisualForce] 페이지를 만들고 높이를 100으로 변경하고 스크롤 막대를 활성화합니다.
 
-1. 메뉴로 돌아가서 [!UICONTROL Canvas Apps] 섹션 및 터치포인트 아래에 &quot;Marketo Measure 인사이트&quot;라는 새 섹션 만들기 [!DNL VisualForce] 방금 생성한 섹션입니다.
+1. 메뉴로 돌아가서 [!UICONTROL Canvas Apps] 섹션에 &quot;Marketo Measure 인사이트&quot;라는 섹션을 만들어 터치포인트 아래에 만듭니다. [!DNL VisualForce] 섹션을 만들었습니다.
 
    >[!NOTE]
    >
    >이러한 각 섹션에 대해 &quot;한 열&quot; 형식을 선택합니다.
 
-1. 드래그 [!DNL Marketo Measure Insights] 새로 생성된 섹션에 대한 캔버스 앱입니다. 클릭 **저장**. Salesforce가 즉시 인식하지 못하므로 캔버스 앱에 드롭하기 전에 페이지 레이아웃을 먼저 저장해야 하는 경우가 있습니다. 따라서 새 섹션을 만든 후 페이지 레이아웃을 저장한 다음 다시 편집하여 해당 섹션 내에 캔버스 앱을 드래그합니다. 이는 모든 객체에 적용됩니다.
+1. 드래그 [!DNL Marketo Measure Insights] 새로 생성된 섹션에 대한 캔버스 앱입니다. 클릭 **저장**. Salesforce가 즉시 인식하지 못하므로 캔버스 앱에 드롭하기 전에 페이지 레이아웃을 먼저 저장해야 하는 경우가 있습니다. 따라서 섹션을 만든 후 페이지 레이아웃을 저장한 다음 다시 편집하여 해당 섹션 내에 캔버스 앱을 드래그합니다. 이는 모든 객체에 적용됩니다.
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ ht-degree: 1%
    >
    >대부분의 고객은 (FT) 또는 (LC)로 끝나는 필드를 사용하지 않습니다. 그 전의 기존 필드이기 때문입니다. [!DNL Marketo Measure] 터치포인트가 객체로 존재했습니다.
 
-을(를) 활용하면 [!DNL Marketo Measure] ABM 기능, [자세한 페이지 레이아웃 지침은 여기를 클릭하십시오.](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+를 사용하는 경우 [!DNL Marketo Measure] ABM 기능, [추가 페이지 레이아웃 지침을 보려면 여기를 클릭하십시오.](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## 연락처 {#contacts}
 
@@ -190,4 +190,4 @@ ht-degree: 1%
 
 1. 클릭 **[!UICONTROL Save]**.
 
-을(를) 활용하면 [!DNL Marketo Measure] ABM 기능,  [자세한 페이지 레이아웃 지침은 여기를 클릭하십시오.](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+를 사용하는 경우 [!DNL Marketo Measure] ABM 기능, 검토 [추가 페이지 레이아웃 지침](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

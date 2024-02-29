@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874759
-description: 추가 중 [!DNL Marketo Measure] 끝 [!DNL Hubspot] - [!DNL Marketo Measure] - 제품 설명서
+description: 추가 중 [!DNL Marketo Measure] 끝 [!DNL Hubspot] - [!DNL Marketo Measure]
 title: 추가 중 [!DNL Marketo Measure] 끝 [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Hubspot은 랜딩 페이지/양식 및 웹 사이트를 호스팅할 수 있다�
 >
 >와 같은 태그 관리 공급자를 통해 JavaScript를 배포하는 경우 [!DNL Google Tag Manager]를 수동으로 하드 코딩할 필요가 없습니다. [!DNL Marketo Measure] 웹 사이트에 JavaScript를 넣습니다.
 
-## 시작 {#getting-started}
+## 시작하기 {#getting-started}
 
 에 로그인한 후 [!DNL Hubspot] 계정, 다음 단계를 따르십시오.
 

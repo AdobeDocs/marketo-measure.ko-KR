@@ -1,11 +1,11 @@
 ---
-description: 사용자 지정 수익 금액 활용에 대한 우수 사례 - [!DNL Marketo Measure] - 제품 설명서
+description: 사용자 지정 수익 금액 활용에 대한 우수 사례 - [!DNL Marketo Measure]
 title: 사용자 지정 수익 금액 활용에 대한 우수 사례
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---

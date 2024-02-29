@@ -1,19 +1,19 @@
 ---
 unique-page-id: 18874736
-description: 제거 [!DNL Marketo Measure] Google Analytics의 랜딩 페이지 URL에서 매개 변수 추적 - [!DNL Marketo Measure] - 제품 설명서
+description: 제거 [!DNL Marketo Measure] Google Analytics의 랜딩 페이지 URL에서 매개 변수 추적 - [!DNL Marketo Measure]
 title: 제거 [!DNL Marketo Measure] Google Analytics의 랜딩 페이지 URL에서 매개 변수 추적
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # 제거 [!DNL Marketo Measure] Google Analytics의 랜딩 페이지 URL에서 매개 변수 추적 {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 
-에서 랜딩 페이지를 볼 때 가끔 발생 [!DNL Google Analytics]를 지정하면 URL에서 추적 매개 변수를 제거할 수 있습니다. 그렇지 않으면 개별 행으로 분할됩니다.
+에서 랜딩 페이지를 볼 때 가끔 발생 [!DNL Google Analytics], URL에서 추적 매개 변수를 제거합니다. 그렇지 않으면 개별 행으로 분할됩니다.
 
 다행히도, 이것은 쉬운 해결책이다.
 

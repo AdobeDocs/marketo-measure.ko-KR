@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874610
-description: Dynamics 캠페인 및 마케팅 목록 - [!DNL Marketo Measure] - 제품 설명서
+description: Dynamics 캠페인 및 마케팅 목록 - [!DNL Marketo Measure]
 title: Dynamics 캠페인 및 마케팅 목록
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -101,4 +101,4 @@ Dynamics 고객은 사용할 수 없습니다.
 
 **캠페인에서 캠페인 응답 및 마케팅 목록을 사용할 수 있습니까?**
 
-네.
+예.

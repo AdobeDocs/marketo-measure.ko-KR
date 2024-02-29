@@ -1,18 +1,18 @@
 ---
-description: "[!DNL Marketo Measure] 보고서 템플릿 - 타블로 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Measure] 보고서 템플릿 - 타블로 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] 보고서 템플릿 - 타블로"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '2296'
+source-wordcount: '2276'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] 보고서 템플릿 - 타블로 {#marketo-measure-report-template-tableau}
 
-## 시작 {#getting-started}
+## 시작하기 {#getting-started}
 
 다음에 액세스할 수 있습니다. [!DNL Tableau] 보고서 템플릿 [여기](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 데이터 연결 {#data-connection}
 
-Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이 경우 사용자 이름 및 암호와 함께 서버 이름이 필요합니다. 필요한 경우 이 정보를 찾고 암호를 재설정하는 위치에 대한 세부 정보가 문서화되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이를 위해서는 사용자 이름 및 암호와 함께 서버 이름이 필요합니다. 필요한 경우 이 정보를 찾고 암호를 재설정하는 위치에 대한 세부 정보가 문서화되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -70,7 +70,7 @@ Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이 경우
 
 ### 제거된 열 {#removed-columns}
 
-데이터 모델을 단순화하고 중복되고 불필요한 데이터를 제거하기 위해 원래 Snowflake 테이블에서 Tableau로 가져온 열의 수를 줄였습니다. 제거된 열에는 불필요한 외래 키, 모델의 다른 테이블과의 관계를 통해 더 잘 활용되는 비정규화된 차원 데이터, 감사 열 및 내부용으로 사용되는 필드가 포함됩니다 [!DNL Marketo Measure] 처리 중입니다. 사용자 정의 SQL의 선택 섹션에서 가져온 열 목록을 편집하여 비즈니스 요구에 맞게 열을 추가하거나 제거할 수 있습니다.
+데이터 모델을 단순화하고 중복되고 불필요한 데이터를 제거하기 위해 원래 Snowflake 테이블에서 Tableau로 가져온 열의 수를 줄였습니다. 제거된 열에는 불필요한 외래 키, 모델의 다른 테이블과의 관계를 통해 더 잘 사용되는 비정규화된 차원 데이터, 감사 열 및 내부용으로 사용되는 필드가 포함됩니다 [!DNL Marketo Measure] 처리 중입니다. 사용자 정의 SQL의 선택 섹션에서 가져온 열 목록을 편집하여 비즈니스 요구에 맞게 열을 추가하거나 제거할 수 있습니다.
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이 경우
 
 Opportunity Stage Transitions 및 Lead Stage Transitions 는 다음 링크와 함께 이 모델의 한 테이블에 결합됩니다. [!UICONTROL Lead and Attribution] 접점 테이블. 행이 Opportunity 또는 Lead 단계 전환인지 여부를 지정하기 위해 &quot;Transition Type&quot; 열이 추가되었습니다.
 
-비용 및 접점 데이터 모두 채널 및 캠페인 차원을 공유합니다. 그러나 Tableau는 팩트 테이블 간의 공유 차원을 모델링하는 기능이 제한됩니다. 공유된 차원 테이블은 하나로만 제한되므로 채널 및 캠페인 데이터가 하나의 테이블로 결합되었습니다. 두 차원은 Tableau에서 채널 및 캠페인의 두 차원의 상호 결합을 사용하여 하나의 테이블로 결합됩니다. 채널 ID와 캠페인 ID를 연결하여 고유 ID를 만듭니다. 동일한 id 값이 접점 및 비용 테이블 모두에 추가되어 이 결합된 차원 테이블에 대한 관계를 만듭니다.
+비용 및 접점 데이터 모두 채널 및 캠페인 차원을 공유합니다. 그러나 Tableau는 팩트 테이블 간의 공유 차원을 모델링하는 기능이 제한됩니다. 공유 차원 테이블은 하나만 제한되므로 채널 및 캠페인 데이터가 하나의 테이블로 결합되었습니다. 두 차원은 Tableau에서 채널 및 캠페인의 두 차원의 상호 결합을 사용하여 하나의 테이블로 결합됩니다. 채널 ID와 캠페인 ID를 연결하여 고유 ID를 만듭니다. 동일한 id 값이 접점 및 비용 테이블 모두에 추가되어 이 결합된 차원 테이블에 대한 관계를 만듭니다.
 
 ![](assets/marketo-measure-report-template-tableau-12.png)
 
@@ -143,7 +143,7 @@ Opportunity Stage Transitions 및 Lead Stage Transitions 는 다음 링크와 �
 
 ![](assets/marketo-measure-report-template-tableau-13.png)
 
-이 모델의 통화 전환 측정값은 전환율을 식별할 수 없는 경우 환율로 1.0 값으로 대체됩니다. 별도의 측정값을 만들어 측정값에 대한 통화 값을 표시하고 계산에 둘 이상의 통화 값이 포함된 경우 이를 경고합니다(즉, 값을 선택한 통화로 변환할 수 없음). 비용 또는 수익 데이터를 표시하는 모든 시각화에서 비용 통화 및 수익 통화와 같은 이러한 측정값이 툴팁으로 포함됩니다.
+이 모델의 통화 전환 측정값은 전환율을 식별할 수 없는 경우 환율로 1.0 값으로 대체됩니다. 별도의 측정값을 만들어 측정값의 통화 값을 표시하고 계산에 둘 이상의 통화 값이 포함된 경우 이를 경고합니다(즉, 값을 선택한 통화로 변환할 수 없음). 비용 또는 수익 데이터를 표시하는 모든 시각화에서 비용 통화 및 수익 통화와 같은 이러한 측정값이 툴팁으로 포함됩니다.
 
 ![](assets/marketo-measure-report-template-tableau-14.png)
 
@@ -179,7 +179,7 @@ ROI는 속성 수익 및 비용에서 계산되므로, 이러한 계산에서 �
 
 ### 웹 트래픽 {#web-traffic}
 
-보고 템플릿 데이터 모델은 세션과 접점 간의 관계를 통해 채널, 하위 채널 및 캠페인 차원 데이터를 표준화합니다. 이는 이러한 차원을 세션으로 비정규화하는 Discover 데이터 모델과는 다릅니다. 이러한 차이로 인해 방문 및 방문자에 대한 전체 횟수는 검색 과 보고 템플릿 간에 일치해야 하지만 차원으로 표시되거나 필터링되면 이러한 숫자는 정렬되지 않을 것입니다. 템플릿의 차원 데이터는 터치포인트를 초래한 웹 이벤트(즉, 익명이 아닌 이벤트)에만 사용할 수 있기 때문입니다. 자세한 내용은 다음을 참조하십시오. [데이터 모델](#data-model) 섹션에 자세히 설명되어 있습니다.
+보고 템플릿 데이터 모델은 세션과 접점 간의 관계를 통해 채널, 하위 채널 및 캠페인 차원 데이터를 표준화합니다. 이는 이러한 차원을 세션으로 비정규화하는 Discover 데이터 모델과는 다릅니다. 이러한 차이로 인해 방문 및 방문자에 대한 전체 횟수는 검색 과 보고 템플릿 간에 일치해야 하지만 차원으로 표시되거나 필터링되면 이러한 숫자는 정렬되지 않을 것입니다. 템플릿의 차원 데이터는 터치포인트를 초래한 웹 이벤트(즉, 익명이 아닌 이벤트)에만 사용할 수 있기 때문입니다. 자세한 내용은 [데이터 모델](#data-model) 섹션에 자세히 설명되어 있습니다.
 
 다음 사이에 총 사이트 양식 수에 작은 불일치가 있을 수 있습니다. [!DNL Discover] 템플릿도 사용할 수 있습니다. 이는 보고 템플릿의 데이터 모델이 세션 및 터치포인트에 대한 관계를 통해 사이트 양식에 대한 차원 데이터를 가져오기 때문입니다. 사이트 양식 데이터에 상관 관계가 있는 세션이 없는 인스턴스가 몇 가지 있습니다.
 

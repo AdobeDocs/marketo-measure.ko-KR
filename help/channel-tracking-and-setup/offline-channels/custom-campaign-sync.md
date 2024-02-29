@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874588
-description: 사용자 지정 캠페인 동기화 - [!DNL Marketo Measure] - 제품 설명서
+description: 사용자 지정 캠페인 동기화 - [!DNL Marketo Measure]
 title: 사용자 지정 캠페인 동기화
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
    >
    >사용자 지정 캠페인 동기화 규칙을 사용하는 경우, [!DNL Marketo Measure] 터치포인트 날짜 벌크 업데이트 버튼을 사용하여 수행한 업데이트는 읽지 않습니다.
 
-1. 확인 표시를 클릭한 다음 필요에 따라 추가 캠페인에 대한 추가 규칙을 추가합니다.
+1. 확인 표시를 클릭한 다음 필요에 따라 추가 캠페인에 대한 규칙을 추가합니다.
 
    ![](assets/4-1.png)
 

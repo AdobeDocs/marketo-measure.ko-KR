@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874710
-description: 접점 제거 및 접점 억제 - [!DNL Marketo Measure] - 제품 설명서
+description: 접점 제거 및 접점 억제 - [!DNL Marketo Measure]
 title: 접점 제거 및 접점 억제
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---

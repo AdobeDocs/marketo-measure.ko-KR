@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874594
-description: 통합 광고 플랫폼 - [!DNL Marketo Measure] - 제품 설명서
+description: 통합 광고 플랫폼 - [!DNL Marketo Measure]
 title: 통합 광고 플랫폼
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 ## 활성화 방법 [!DNL Marketo Measure] Adwords에 대한 자동 태그 지정 {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-활성화하기 전 [!DNL Marketo Measure] 자동 태그 지정, **Adwords 계정 내의 계정, 캠페인 또는 광고 그룹 수준에서 추적 템플릿이 활성화되었는지 확인하십시오. 다음을 보유하게 될 모든 Adwords 계정에 대해 필요합니다. [!DNL Marketo Measure] 자동 태그 지정이 활성화되었습니다.** 추적 템플릿을 활성화하면 광고 성능 기록 데이터가 손실되지 않습니다. 키워드, 사이트링크 또는 광고 수준에서 추적 템플릿을 활성화하면 광고가 검토 및 승인 프로세스를 거치게 되며 광고의 성능 내역을 다시 시작할 수 있습니다. 활성화된 추적 템플릿이 전혀 없으면 [!DNL Marketo Measure] 을(를) 추가합니다. [!DNL Marketo Measure] 매개 변수를 광고의 &quot;최종 URL&quot;에 직접 추적하면 광고 내역 데이터가 손실될 수도 있습니다.
+활성화하기 전 [!DNL Marketo Measure] 자동 태그 지정, **Adwords 계정 내의 계정, 캠페인 또는 광고 그룹 수준에서 추적 템플릿이 활성화되었는지 확인합니다. 다음을 보유하게 될 모든 Adwords 계정에 대해 필요합니다. [!DNL Marketo Measure] 자동 태그 지정이 활성화되었습니다.** 추적 템플릿을 활성화하면 광고 성능 기록 데이터가 손실되지 않습니다. 키워드, 사이트링크 또는 광고 수준에서 추적 템플릿을 활성화하면 광고가 검토 및 승인 프로세스를 거치게 되며 광고의 성능 내역을 다시 시작할 수 있습니다. 활성화된 추적 템플릿이 전혀 없으면 [!DNL Marketo Measure] 을(를) 추가합니다. [!DNL Marketo Measure] 매개 변수를 광고의 &quot;최종 URL&quot;에 직접 추적하면 광고 내역 데이터가 손실될 수도 있습니다.
 
-추적 템플릿이 준비되면 아래 지침에 따라 활성화하십시오. [!DNL Marketo Measure] 자동 태깅. 참고: [!DNL Marketo Measure] 는 계정에서 일시 중지된 광고에도 자동으로 태그를 지정합니다.
+추적 템플릿이 준비되면 아래 지침에 따라 활성화합니다 [!DNL Marketo Measure] 자동 태깅. 참고: [!DNL Marketo Measure] 는 계정에서 일시 중지된 광고에도 자동으로 태그를 지정합니다.
 
 1. 다음에 로그인 [!DNL Marketo Measure] 계정 위치: [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
@@ -147,7 +147,7 @@ Bing Ads의 자동 태그 지정은 다음 사용자 지정 매개 변수도 추
 
 다음을 연결할 수 있습니다. [!DNL Facebook] 언제든지 다음 계정으로 계정 보내기 [!DNL Marketo Measure] 앱에서 데이터가 손실되지 않습니다. 자동 태깅이 활성화된 경우에만 성능 기록이 지워집니다.
 
-[이 문서를 참조하십시오.](https://www.facebook.com/business/help/393890194130036){target="_blank"} 내보내기에 대한 자세한 내용은 Facebook에서 확인하십시오 [!DNL Facebook] 광고 보고서.
+다음을 참조하십시오 [이 문서](https://www.facebook.com/business/help/393890194130036){target="_blank"} 내보내기에 대한 자세한 내용은 Facebook에서 확인하십시오 [!DNL Facebook] 광고 보고서.
 
 ## LinkedIn 후원 콘텐츠 {#linkedin-sponsored-content}
 

@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874648
-description: Google Analytics 전환과 구매자 접점 간의 차이 - [!DNL Marketo Measure] - 제품 설명서
+description: Google Analytics 전환과 구매자 접점 간의 차이 - [!DNL Marketo Measure]
 title: Google Analytics 전환과 구매자 접점 간의 차이
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
    <td>5개 페이지 또는 화면이 로드됨</td> 
   </tr> 
   <tr> 
-   <td>Event</td> 
+   <td>이벤트</td> 
    <td>이벤트로 정의된 작업이 트리거됩니다.</td> 
    <td>소셜 추천, 비디오 재생 및 클릭</td> 
   </tr> 

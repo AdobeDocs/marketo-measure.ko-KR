@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356030
-description: 이메일 추적 매개 변수 - [!DNL Marketo Measure] - 제품 설명서
+description: 이메일 추적 매개 변수 - [!DNL Marketo Measure]
 title: 이메일 추적 매개 변수
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 1%
+source-wordcount: '405'
+ht-degree: 2%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 1%
 
 ## 사용 사례  {#use-cases}
 
-**웨비나 등록**: 마케팅 팀이 웨비나 등록을 위해 단일 버튼이 있는 이메일 초대를 보냅니다. 이메일에 이미 해당 사용자의 정보가 포함되어 있으므로 한 번의 클릭으로 해당 정보가 자동 등록됩니다. 랜딩 페이지에는 이메일 추적 매개 변수가 포함되어 있으므로, 해당 사용자가 을(를) 클릭스루하여 확인 페이지에 도달하면 [!DNL Marketo Measure] 은 이메일 주소를 캡처하고 클릭스루를 양식 채우기로 처리하여 터치포인트를 생성할 수 있습니다.
+**웨비나 등록**: 마케팅 팀이 웨비나 등록을 위해 단일 버튼이 있는 이메일 초대를 보냅니다. 이메일에 이미 개인의 정보가 포함되어 있으므로 한 번의 클릭으로 해당 정보가 자동 등록됩니다. 랜딩 페이지에는 이메일 추적 매개 변수가 포함되어 있으므로, 해당 사용자가 을(를) 클릭스루하여 확인 페이지에 도달하면 [!DNL Marketo Measure] 은 이메일 주소를 캡처하고 클릭스루를 양식 채우기로 처리하여 터치포인트를 생성할 수 있습니다.
 
-**콘텐츠 다운로드**: 콘텐츠 마케팅 팀이 이메일의 직접 다운로드 링크와 함께 최근 게시한 eBook을 홍보하려고 합니다. 이메일 템플릿이 빌드되면 다운로드 확인 페이지에는 이메일 추적 매개 변수가 포함되어 클릭스루할 때 [!DNL Marketo Measure] 은 이메일 주소를 캡처할 수 있습니다. 사이트에서 양식을 작성할 필요 없이, [!DNL Marketo Measure] 은 이메일 추적 매개 변수와 함께 확인 페이지에 콘텐츠를 랜딩했으므로 이메일을 통해 발생한 콘텐츠 다운로드에 대한 터치포인트를 생성할 수 있습니다.
+**콘텐츠 다운로드**: 콘텐츠 마케팅 팀이 이메일의 직접 다운로드 링크와 함께 최근 게시한 eBook을 홍보하려고 합니다. 이메일 템플릿이 빌드되면 다운로드 확인 페이지에는 이메일 추적 매개 변수가 포함되어 클릭스루할 때 [!DNL Marketo Measure] 은 이메일 주소를 캡처할 수 있습니다. 사이트에서 양식을 작성할 필요 없이, [!DNL Marketo Measure] 은 콘텐츠 다운로드에 대한 터치포인트를 생성할 수 있습니다. 이메일이 이메일 추적 매개 변수와 함께 확인 페이지에 랜딩했기 때문입니다.
 
 ## 작동 방법 {#how-it-works}
 
 방문자가 사이트에 도달하면, [!DNL Marketo Measure] 은(는) 이메일 주소 또는 이(가) 포함된 랜딩 페이지를 찾을 수 있습니다. [!DNL Salesforce] ID를 입력하여 해당 방문을 &quot;양식 제출&quot;과 연결하고 해당 활동에 대한 터치포인트를 생성할 수 있습니다.
 
-고객은 평소와 같이 이메일 템플릿을 작성합니다. 추적할 작업의 랜딩 페이지에 추가할 시기가 되면 Marketing Automation 플랫폼에서 허용하는 토큰, 변수 태그 또는 매크로를 확인하여 각 개인에 대한 값을 동적으로 표시해야 합니다.
+고객은 일반적인 방법으로 이메일 템플릿을 작성합니다. 추적할 작업의 랜딩 페이지에 추가할 시간이 되면 Marketing Automation 플랫폼에서 허용하는 토큰, 변수 태그 또는 매크로를 확인하여 각 개인에 대한 값을 동적으로 표시해야 합니다.
 
 Marketo Measure은 이메일 주소, Salesforce 리드 ID 또는 Salesforce 연락처 ID 값을 허용합니다.
 
@@ -49,19 +49,19 @@ Marketo Measure은 이메일 주소, Salesforce 리드 ID 또는 Salesforce 연�
    <td><p>Marketo</p></td> 
    <td><p>{{lead.Email Address}} </p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td> 
-   <td><p>https://docs.marketo.com/display/public/DOCS/Tokens+Overview#TokensOverview-PersonTokens</p></td> 
+   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html</p></td> 
   </tr> 
   <tr> 
    <td><p>파르도</p></td> 
-   <td><p>%%이메일%% </p><p>또는</p><p>%%user_crm_id%%</p></td> 
+   <td><p>%%email%% </p><p>또는</p><p>%%user_crm_id%%</p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td> 
-   <td><p>https://help.salesforce.com/articleView?id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
   </tr> 
   <tr> 
    <td><p>Hubspot</p></td> 
    <td><p>(편집기를 통해 삽입됨)</p></td> 
    <td><p>해당 사항 없음</p></td> 
-   <td><p>https://knowledge.hubspot.com/cos-general/how-to-use-personalization-with-your-content</p></td> 
+   <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>실제</p></td> 

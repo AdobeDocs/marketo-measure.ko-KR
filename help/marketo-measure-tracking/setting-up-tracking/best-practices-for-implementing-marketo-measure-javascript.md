@@ -1,11 +1,11 @@
 ---
-description: 구현을 위한 우수 사례 [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure] - 제품 설명서
+description: 구현을 위한 우수 사례 [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
 title: 구현을 위한 우수 사례 [!DNL Marketo Measure] JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---

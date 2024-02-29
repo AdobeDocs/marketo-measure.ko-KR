@@ -1,46 +1,46 @@
 ---
 unique-page-id: 18874704
-description: 활동 속성 FAQ - [!DNL Marketo Measure] - 제품 설명서
+description: 활동 속성 FAQ - [!DNL Marketo Measure]
 title: 활동 속성 FAQ
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
 
 # 활동 속성 FAQ {#activities-attribution-faq}
 
-다음 [!DNL Marketo Measure] 활동 기능을 사용하면 모든 활동 레코드를 가져오고 터치포인트를 생성할 수 있으므로, 이러한 활동이 속성 크레딧을 받을 수 있습니다. 가장 일반적인 사용 사례는 잠재 고객에게 전송된 전화 통화 또는 이메일 기록을 생성하기 때문에 영업 팀의 활동을 추적하는 것입니다. 추적할 수 있는 다른 고유한 사항은 에셋 다운로드나 비디오 보기와 같은 콘텐츠 상호 작용입니다.
+[!DNL Marketo Measure] 활동은 모든 활동 레코드를 가져오고 터치포인트를 생성하므로 이러한 활동이 속성 크레딧을 받을 수 있습니다. 가장 일반적인 사용 사례는 잠재 고객에게 전송된 전화 통화 또는 이메일 기록을 생성하는 영업 팀의 활동을 추적하는 것입니다. 추적할 수 있는 다른 고유한 사항은 에셋 다운로드나 비디오 보기와 같은 콘텐츠 상호 작용입니다.
 
 **이 기능은 오프라인 캠페인과 어떻게 다릅니까?**
 
-가장 큰 차이점은 Campaigns 에서는 각 리드 또는 연락처에 대해 캠페인 멤버 하나만 허용하므로 Campaigns에서는 하나의 접점만 제공할 수 있다는 것입니다. 즉, 각 그룹화에 대해 개별 캠페인을 만들지 않는 한 아웃바운드 호출, 데모 또는 웨비나 참석자와 같은 반복 이벤트를 추적할 수 없습니다. 활동을 통해 각 이벤트와 모든 이벤트를 측정할 수 있습니다.
+가장 큰 차이점은 Campaigns 에서는 각 리드 또는 연락처에 대해 캠페인 멤버 하나만 허용하므로 Campaigns에서는 하나의 접점만 제공할 수 있다는 것입니다. 즉, 각 그룹화에 대해 개별 캠페인을 만들지 않는 한 아웃바운드 호출, 데모 또는 웨비나 참석자와 같은 반복 이벤트를 추적할 수 없습니다. 활동을 통해 모든 이벤트를 측정할 수 있습니다.
 
 **작업, 이벤트 및 활동 간에 차이가 있습니까?**
 
 Activities 개체는 Task 및 Event 개체에 대해 상위 또는 umbrella 역할을 합니다. 활동은 기본적으로 작업과 이벤트를 모두 포함합니다. 작업은 일반적으로 전화 통화 또는 이메일과 같은 빠른 일회성 항목을 기록하는 데 사용됩니다. 이벤트는 일반적으로 회의 또는 전화 회의와 같이 시작 또는 종료 날짜가 있는 항목에 사용됩니다.
 
-**이메일이나 전화와 같이 반복되는 동일한 작업에 리드 또는 연락처가 있는 경우 해당 모든 작업에 대한 구매자 터치포인트가 표시됩니까?**
+**동일한 반복 작업을 사용하는 리드 또는 연락처가 있는 경우 모든 구매자 터치포인트가 표시됩니까?**
 
 예. 동기화된 활동과 만들어진 터치포인트 사이에 1:1 관계가 있습니다.
 
 **터치포인트가 생성되는 레코드를 어떻게 알 수 있습니까?**
 
-CRM의 Activity 개체를 사용하여 먼저 필터를 설정하는 것이 좋습니다. 필터 규칙에 따라 해당 기준에 해당하는 레코드 수에 대한 좋은 아이디어를 제공하면 필요에 따라 정교화할 수 있습니다. 이는 필수가 아니지만, 활동 규칙이 설정된 후 터치포인트를 만드는 활동 수를 사용자가 이해하는 데 도움이 됩니다.
+CRM의 Activity 개체를 사용하여 먼저 필터를 설정하는 것이 좋습니다. 필터 규칙을 기반으로 해당 기준에 해당하는 레코드 수에 대해 잘 알고 있다면 필요에 따라 정교화할 수 있습니다. 필수는 아니지만, 활동 규칙이 설정된 후 터치포인트를 만드는 활동 수를 사용자가 이해하는 데 유용한 방법입니다.
 
 **이란? [!DNL Marketo Measure] 캠페인 이름**
 
-이 활동은 터치포인트를 가져오므로, [!DNL Marketo Measure] 은(는) 해당 채널이 속하는 채널 및 하위 채널을 알아야 합니다. 각 규칙에 대해 다음을 제공해야 합니다 [!DNL Marketo Measure] 캠페인 이름. 만든 후에는 온라인 채널 CSV를 사용하여 매핑할 수 있습니다 [!DNL Marketo Measure] 캠페인 이름을 해당 채널에 지정합니다. 다음 [!DNL Marketo Measure] 캠페인 이름 은 또한 내의 터치포인트 자체에도 표시됩니다. [!UICONTROL Ad Campaign Name] 필드.
+이 활동은 터치포인트로 전환되므로 [!DNL Marketo Measure] 은(는) 해당 채널이 속한 채널 및 하위 채널을 알고 있어야 합니다. 각 규칙에 대해 다음을 제공해야 합니다 [!DNL Marketo Measure] 캠페인 이름. 작성된 후 온라인 채널 CSV를 사용하여 매핑합니다 [!DNL Marketo Measure] 캠페인 이름을 해당 채널에 지정합니다. 다음 [!DNL Marketo Measure] 캠페인 이름 은 또한 내의 터치포인트 자체에도 표시됩니다. [!UICONTROL Ad Campaign Name] 필드.
 
 **어떤 다른 터치포인트 필드가 채워집니까?**
 
 | **접점 필드** | **값** |
 |---|---|
 | 리드/연락처 | 모든 활동은 잠재 고객 또는 연락처와 관련되어 있습니다. |
-| 캠페인 | Channel.Subchannel [[!DNL Marketo Measure]] |
+| Campaign | Channel.Subchannel [[!DNL Marketo Measure]] |
 | 접점 소스 | CRM 활동 |
 | 미디엄 | Activity.Type |
 | 접점 유형 | Activity.Type |
@@ -49,9 +49,9 @@ CRM의 Activity 개체를 사용하여 먼저 필터를 설정하는 것이 좋�
 | 광고 Id | 활동 외부 Id |
 | 접점 날짜 | [사용자 지정 - 앱에서 설정] |
 
-**각 Sales Rep에 대해 다른 규칙을 만들어야 하는 경우 어떻게 해야 합니까? 다른 항목을 만들어야 합니까 [!DNL Marketo Measure] 각각에 대한 캠페인**
+**각 Sales Rep에 대해 다른 규칙을 만들어야 하는 경우 어떻게 해야 합니까? 다른 항목을 만들어야 합니까 [!DNL Marketo Measure] 각각에 대한 캠페인?**
 
-아뇨, 안 돼요. &quot;동적 캠페인 이름&quot; 개념을 도입했습니다. 이렇게 하면 의 일부(또는 전체)를 채울 수 있습니다. [!DNL Marketo Measure] Activity 개체의 필드를 참조하는 &quot;대체 매개 변수&quot;를 사용하는 캠페인 이름. 예를 들어 [!DNL Marketo Measure] Campaign Name에 &quot;Outbound Call&quot;이라는 제목이 있지만 Sales Rep 가 끝에 오도록 하려면 CRM 필드 이름을 사용하고 [!DNL Marketo Measure] 캠페인 이름 &quot;아웃바운드 호출 {AssignedTo}&quot; 또는 &quot;아웃바운드 호출 {CreatedBy}.&quot;
+아뇨, 안 돼요. &quot;동적 캠페인 이름&quot;을 사용하면 의 일부(또는 모두)를 채울 수 있습니다. [!DNL Marketo Measure] Activity 개체의 필드를 참조하는 &quot;대체 매개 변수&quot;를 사용하는 캠페인 이름. 예를 들어 [!DNL Marketo Measure] 캠페인 이름 &quot;아웃바운드 호출&quot;이지만 Sales Rep 가 끝에 오도록 하려면 CRM 필드 이름을 가져와 [!DNL Marketo Measure] 캠페인 이름 &quot;아웃바운드 호출 {AssignedTo}&quot; 또는 &quot;아웃바운드 호출 {CreatedBy}.&quot;
 
 **에서 활동을 설정하려면 어떻게 합니까? [!DNL Marketo Measure] 앱?**
 
@@ -63,12 +63,12 @@ CRM의 Activity 개체를 사용하여 먼저 필터를 설정하는 것이 좋�
 * 포함: 텍스트가 중간에 있습니다(예: &#42;소셜&#42;)
 * 다음으로 시작: 값으로 시작하는 텍스트(예: social)&#42;)
 * 다음으로 끝남: 값이 텍스트로 끝남(예: &#42;social)
-* 임의 항목과 일치: 쉼표로 구분된 여러 값을 추가할 수 있습니다. If [!UICONTROL starts with], [!UICONTROL ends with], 또는 포함 연산자를 적용하거나 와일드카드(&#42;)
+* 임의 항목과 일치: 쉼표로 구분된 여러 값을 추가할 수 있습니다. If [!UICONTROL starts with], [!UICONTROL ends with], 또는 포함 연산자를 적용해야 합니다. 와일드카드(&#42;)
 * 보다 큼: 숫자 필드 또는 날짜/시간 필드에 사용됨
 * 보다 작음: 숫자 필드 또는 날짜/시간 필드에 사용됨
 
 **이 활동은 어떤 채널로 진행됩니까?**
 
-활동 규칙 및 해당 항목 [!DNL Marketo Measure] 캠페인 이름 이 생성되면 온라인 채널 정의를 사용하여 해당 캠페인을 올바른 마케팅 채널 아래에 배치합니다. [!DNL Marketo Measure] 은 중간 및 소스뿐만 아니라 캠페인을 사용하여 채널을 정의할 수 있습니다.
+활동 규칙 및 해당 항목 [!DNL Marketo Measure] 캠페인 이름이 생성되면 온라인 채널 정의를 사용하여 해당 캠페인을 올바른 마케팅 채널에 배치합니다. [!DNL Marketo Measure] 은 중간 및 소스뿐만 아니라 캠페인을 사용하여 채널을 정의할 수 있습니다.
 
-위의 예에서 BDR 채널에 &quot;아웃바운드 호출 {Assigned To}&quot; 캠페인을 할당하려면 BDR 채널에 대한 온라인 채널 CSV에 캠페인 정의가 &quot;아웃바운드 호출&quot;인 행을 삽입합니다&#42;&quot; - 별표는 와일드카드 값을 나타내므로 &quot;아웃바운드 호출&quot;로 시작하는 모든 캠페인은 각 캠페인 이름에 대해 별도의 행을 만들지 않고 BDR 채널에 속합니다.
+위의 예에서 BDR 채널에 &quot;아웃바운드 호출 {Assigned To}&quot; 캠페인을 할당하려면 캠페인 정의가 &quot;아웃바운드 호출&quot;인 BDR 채널의 온라인 채널 CSV에 행을 삽입합니다&#42;&quot; - 별표는 와일드카드 값을 나타내므로 &quot;아웃바운드 호출&quot;로 시작하는 모든 캠페인은 각 캠페인 이름에 대해 별도의 행을 만들지 않고 BDR 채널에 속합니다.

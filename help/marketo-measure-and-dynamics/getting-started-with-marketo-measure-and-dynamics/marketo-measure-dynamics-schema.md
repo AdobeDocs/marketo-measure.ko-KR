@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Dynamics 스키마 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Measure] Dynamics 스키마 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamics 스키마"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 17%
+source-wordcount: '1076'
+ht-degree: 22%
 
 ---
 
@@ -867,7 +867,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] 내역 {#marketo-measure-history}
+## [!DNL Marketo Measure] 기록 {#marketo-measure-history}
 
 <table> 
  <tbody> 
@@ -1091,7 +1091,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-**기회**
+**영업 기회**
 
 <table> 
  <tbody> 

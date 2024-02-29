@@ -4,9 +4,9 @@ description: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 -
 title: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 19%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 ## Salesforce 및 [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-한 번 [!DNL Marketo Measure] 계정이 만들어지고 [!DNL Salesforce] 연결되었습니다. [!DNL Marketo Measure] 이(가) 마케팅 데이터를 CRM 인스턴스에 푸시하기 시작하는 한 [!DNL Marketo Measure] 관리 패키지가 설치되고 [!DNL Marketo Measure] Salesforce 사용자는 편집 권한이 있습니다.
+한 번 [!DNL Marketo Measure] 계정이 만들어지고 [!DNL Salesforce] 연결되었습니다. [!DNL Marketo Measure] 는 마케팅 데이터를 CRM 인스턴스에 푸시하기 시작합니다. [!DNL Marketo Measure] 관리 패키지가 설치되고 [!DNL Marketo Measure] Salesforce 사용자는 편집 권한이 있습니다.
 
 설치하지 않은 경우 [!DNL Marketo Measure] Salesforce 패키지, [!DNL Marketo Measure] 은(는) Salesforce 인스턴스에 데이터를 쓰지 않습니다.
 
@@ -31,11 +31,11 @@ ht-degree: 19%
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-이 설정을 수정할 때는 일괄 처리 크기가 작을수록 CRM에서 더 많은 API 크레딧을 사용하게 된다는 점을 유의하십시오. CRM에서 CPU 시간 초과 또는 높은 CPU 로드가 발생하는 경우에만 배치 크기를 줄이는 것이 좋습니다.
+이 설정을 수정할 때는 배치 크기가 작을수록 CRM에서 더 많은 API 크레딧을 사용한다는 점을 유의하십시오. CRM에서 CPU 시간 초과 또는 높은 CPU 로드가 발생하는 경우에만 배치 크기를 줄이는 것이 좋습니다.
 
 ## Salesforce 표준 개체 및 액세스 {#salesforce-standard-objects-and-access}
 
-다음 목록을 표시합니다. [!DNL Salesforce] 표준 개체 [!DNL Marketo Measure] 는 연결이 설정되고 다음은에 추가한 사용자 정의 필드뿐만 아니라 와 상호 작용합니다. [!DNL Marketo Measure] 패키지가 설치되었습니다. 기본, [!DNL Marketo Measure] 는 어떤 표준에도 쓰지 않습니다. [!DNL Salesforce] 오브젝트 필드.
+다음 목록을 표시합니다. [!DNL Salesforce] 표준 개체 [!DNL Marketo Measure] 는 와 상호 작용하며, 연결이 설정되고 [!DNL Marketo Measure] 패키지가 설치되었습니다. 기본, [!DNL Marketo Measure] 는 어떤 표준에도 쓰지 않습니다. [!DNL Salesforce] 오브젝트 필드.
 
 **리드**
 
@@ -806,7 +806,7 @@ ht-degree: 19%
 
 ## [!DNL Marketo Measure] 의 사용자 지정 개체 [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
-SFDC의 표준 오브젝트에서 사용자 정의 필드를 만드는 것 외에도 [!DNL Marketo Measure] 패키지가 설치되면 두 개의 사용자 지정 개체가 만들어집니다. 다음은 이러한 사용자 지정 개체의 목록과 다음 필드를 나타내는 표입니다. [!DNL Marketo Measure] 에 씁니다.
+SFDC의 표준 오브젝트에서 사용자 정의 필드를 만드는 것 외에도 [!DNL Marketo Measure] 패키지가 설치되면 사용자 지정 개체 두 개가 만들어집니다. 다음은 이러한 사용자 지정 개체의 목록과 다음 필드를 나타내는 표입니다. [!DNL Marketo Measure] 에 씁니다.
 
 **구매자 접점**
 

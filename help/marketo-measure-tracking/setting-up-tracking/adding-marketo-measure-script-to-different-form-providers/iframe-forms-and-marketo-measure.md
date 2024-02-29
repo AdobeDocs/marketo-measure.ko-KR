@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874741
-description: IFrame Forms 및 [!DNL Marketo Measure] - [!DNL Marketo Measure] - 제품 설명서
+description: IFrame Forms 및 [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: IFrame Forms 및 [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---

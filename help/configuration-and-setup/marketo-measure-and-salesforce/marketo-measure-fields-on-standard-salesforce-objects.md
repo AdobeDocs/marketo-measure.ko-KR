@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] 표준 필드 [!DNL Salesforce] 오브젝트 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Measure] 표준 필드 [!DNL Salesforce] 오브젝트 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] 표준 필드 [!DNL Salesforce] 오브젝트"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 접점 날짜(LC): 리드 생성 터치 인터랙션의 날짜입니다.
 
-## 캠페인 {#campaign}
+## Campaign {#campaign}
 
 추가된 필드는 4개, 단추는 1개, 유효성 검사 규칙은 1개입니다.
 
@@ -71,7 +71,7 @@ UniqueID: 이 필드는 와 동기화되는 다른 캠페인을 추적하는 데
 
 접점 상태(연락처): 기본 켜지지 않은 기능과 관련된 진단 필드입니다. 이를 사용하여 관련 연락처 레코드에 대해 터치포인트가 생성되었는지 여부, 생성되지 않은 경우 그 이유를 파악합니다.
 
-접점 상태(영업 기회): 기본 켜지지 않은 기능과 관련된 진단 필드입니다. 이를 사용하여 관련 Opportunity 레코드에 대해 터치포인트가 생성되었는지 여부, 생성되지 않은 경우 그 이유를 파악합니다.
+접점 상태(기회): 이 필드는 즉시 사용할 수 없는 기능과 관련된 진단 필드입니다. 이를 사용하여 관련 Opportunity 레코드에 대해 터치포인트가 생성되었는지 여부, 생성되지 않은 경우 그 이유를 파악합니다.
 
 접점 상태 날짜: 진단 필드가 채워진 날짜입니다.
 
@@ -137,7 +137,7 @@ ABM 기능에 대한 리드-계정 매핑에 사용됩니다. 이 필드를 채�
 
 ## 기회 {#opportunity}
 
-[!DNL Marketo Measure] Opportunity Amount: 이 필드는 Opportunity에서 사용자 정의 금액 필드를 활용하는 시나리오에서 사용됩니다. 해당 사용자 정의 필드 값을 다음에 매핑합니다. [!DNL Marketo Measure] 워크플로우를 사용한 기회 금액 그런 다음 구매자 속성 접점 객체의 매출 속성 필드에 대해 이 필드를 읽습니다.
+[!DNL Marketo Measure] 영업 기회 금액: 이 필드는 영업 기회에서 사용자 정의 금액 필드가 사용되는 시나리오에서 사용됩니다. 해당 사용자 정의 필드 값을 다음에 매핑합니다. [!DNL Marketo Measure] 워크플로우를 사용한 기회 금액 그런 다음 구매자 속성 접점 객체의 매출 속성 필드에 대해 이 필드를 읽습니다.
 
 ## 활동 {#activity}
 

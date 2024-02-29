@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874698
-description: 만들기 [!DNL Marketo Measure] 프로필 - [!DNL Marketo Measure] - 제품 설명서
+description: 만들기 [!DNL Marketo Measure] 프로필 - [!DNL Marketo Measure]
 title: 만들기 [!DNL Marketo Measure] 프로필
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ ht-degree: 0%
    * 다음으로 이동 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} 새 사용자 프로덕션 Salesforce 자격 증명으로 로그인
    * 선택[!UICONTROL Settings]&quot; 내의 &quot;[!UICONTROL My Account]&quot; 드롭다운
    * 선택[!UICONTROL Connections]&quot; 내의 &quot;[!UICONTROL Integrations]&quot; 그룹화
-   * 현재 연결된 항목 오른쪽에 있는 키 아이콘 을 클릭합니다 [!DNL Salesforce] 를 연결하고 프로덕션으로 재인증하려면 을 선택합니다. 그런 다음 메시지가 표시되면 새 사용자 자격 증명으로 다시 로그인합니다
+   * 현재 연결된 항목 오른쪽에 있는 키 아이콘 을 클릭합니다 [!DNL Salesforce] 을(를) 연결하고 선택하여 프로덕션으로 재인증합니다. 그런 다음 메시지가 표시되면 새 사용자 자격 증명으로 다시 로그인합니다
 
    완료!
 
-   전용 만들기에 대한 질문이 있는 경우 [!DNL Marketo Measure] 프로필에서 Adobe 계정 팀(계정 관리자) 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   전용 만들기에 대한 질문이 있는 경우 [!DNL Marketo Measure] 프로필을 만든 후 Adobe 계정 팀(계정 관리자)에 연락하거나 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -1,10 +1,10 @@
 ---
-description: JavaScript에서 수집한 데이터 - [!DNL Marketo Measure] - 제품 설명서
+description: JavaScript에서 수집한 데이터 - [!DNL Marketo Measure]
 title: JavaScript에서 수집한 데이터
 feature: Tracking
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '230'
 ht-degree: 6%
 
 ---

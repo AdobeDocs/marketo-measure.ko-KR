@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874783
-description: 제외 [!DNL Marketo Measure] 특정 Forms에서 - [!DNL Marketo Measure] - 제품 설명서
+description: 제외 [!DNL Marketo Measure] 특정 Forms에서 - [!DNL Marketo Measure]
 title: 제외 [!DNL Marketo Measure] 특정 Forms에서
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874554
-description: 접점 생성 및 매핑 - [!DNL Marketo Measure] - 제품 설명서
+description: 접점 생성 및 매핑 - [!DNL Marketo Measure]
 title: 접점 생성 및 매핑
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | **인터랙션 유형** | **예** | **접점 생성 방법** |
 |---|---|---|
 | 온라인, 사이트에서 | 양식 채우기 | [!DNL Marketo Measure] JavaScript |
-| 오프라인, 온라인이 사이트에 없음 | 박람회, 컨텐츠 신디케이션 파트너가 컨텐츠 참여 잠재 고객 목록을 제공합니다. | CRM 캠페인 멤버십이 (으)로 동기화됨 [!DNL Marketo Measure], 캠페인에서 직접 캠페인 동기화 유형 을 설정하거나 의 캠페인 페이지에서 규칙을 설정하여 [!DNL Marketo Measure] |
+| 오프라인, 사이트에서 온라인이 아님 | 박람회; 컨텐츠 신디케이션 파트너가 컨텐츠 참여자 목록을 전달합니다. | CRM 캠페인 멤버십이 (으)로 동기화됨 [!DNL Marketo Measure], 캠페인에서 직접 캠페인 동기화 유형 을 설정하거나 의 캠페인 페이지에서 규칙을 설정하여 [!DNL Marketo Measure] |
 | 영업 활동 | SDR에 의한 아웃바운드 호출 | CRM 활동(작업 또는 이벤트) 레코드가에 동기화됨 [!DNL Marketo Measure], 다음에 대한 논리를 통해 [!UICONTROL Activities] 페이지 위치 [!DNL Marketo Measure] |
 
 접점 매핑 메서드

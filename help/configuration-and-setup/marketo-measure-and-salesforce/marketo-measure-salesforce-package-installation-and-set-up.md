@@ -1,18 +1,18 @@
 ---
-description: "[!DNL Marketo Measure] Salesforce 패키지 설치 및 설정 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Measure] Salesforce 패키지 설치 및 설정 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] [!DNL Salesforce] 패키지 설치 및 설정"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Salesforce 패키지 설치 및 설정 {#marketo-measure-salesforce-package-installation-and-set-up}
 
-설치하기 전에 [!DNL Marketo Measure] [!DNL Salesforce] 기본 패키지인 경우에서 먼저 설치할 것인지 확인해야 합니다. [!DNL Salesforce] Salesforce 프로덕션 인스턴스로 이동하기 전에 샌드박스 를 사용하십시오.
+설치하기 전에 [!DNL Marketo Measure] [!DNL Salesforce] 기본 패키지에서 먼저 설치할지 여부를 [!DNL Salesforce] Salesforce 프로덕션 인스턴스로 이동하기 전에 샌드박스 를 사용하십시오.
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ ht-degree: 0%
 * 사용자 정의 [!DNL Marketo Measure] 필드
 * 25 [!DNL Stock] 보고서
 
-[!DNL Marketo Measure] 표준 읽기 가능 [!DNL Salesforce] 그러나 오브젝트, 필드 및 레코드는 [!DNL Marketo Measure] 는 데이터를 업데이트하거나 푸시하지 않습니다. 에서 수집한 모든 데이터 [!DNL Marketo Measure] Javascript는 다음에 표시됩니다. [!DNL Marketo Measure] 사용자 지정 개체 및 필드.
+[!DNL Marketo Measure] 표준 읽기 가능 [!DNL Salesforce] 그러나 오브젝트, 필드 및 레코드는 [!DNL Marketo Measure] 는 데이터를 업데이트하거나 푸시하지 않습니다. 에서 수집한 모든 데이터 [!DNL Marketo Measure] JavaScript는 [!DNL Marketo Measure] 사용자 지정 개체 및 필드.
 
 아래 단계에 따라 [!DNL Marketo Measure Salesforce] 기본 패키지.
 
-1. 시크릿 브라우저를 사용하여 [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} 로그인합니다.
+1. 시크릿 브라우저를 사용하여 [Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} 로그인합니다.
 
 1. 에 설치 [!DNL Marketo Measure] 샌드박스 또는 프로덕션의 패키지
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure] 연결된 을(를) 통해 데이터 전송 및 수신 [!DNL Salesforce] 다음 내의 사용자 [!DNL Marketo Measure] 앱.
 
-터치 포인트 데이터를 로 푸시하려면 [!DNL Salesforce] 인스턴스: 연결된 사용자는 다음에 대한 액세스 권한이 있어야 합니다. [!DNL Marketo Measure] 사용자 정의 객체(예: 구매자 접점 및 구매자 속성 접점)와 표준 [!DNL Salesforce] 잠재 고객 및 연락처 등의 객체.
+터치포인트 데이터를 로 푸시하려면 [!DNL Salesforce] 인스턴스: 연결된 사용자는 다음에 대한 액세스 권한이 있어야 합니다. [!DNL Marketo Measure] 사용자 정의 객체(예: 구매자 접점 및 구매자 속성 접점)와 표준 [!DNL Salesforce] 잠재 고객 및 연락처 등의 객체.
 
 만들기 [!DNL Marketo Measure] 프로필 을 사용하십시오.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 * &quot;[!DNL Marketo Measure] 관리자 권한 집합&quot;
    * 관리 권한 집합은 SFDC 관리자에게 레코드 만들기, 읽기, 쓰기 및 삭제 기능을 제공합니다. [!DNL Marketo Measure] 개체.
 * &quot;전환된 잠재 고객 권한 집합 보기 및 편집&quot;
-   * 이렇게 하면 [!DNL Marketo Measure] 잠재 고객을 연락처로 전환한 후 장식합니다. 이 권한 집합을 사용하지 않으면 상당한 데이터 추적 간격이 발생할 수 있습니다.
+   * 이렇게 하면 [!DNL Marketo Measure] 잠재 고객을 연락처로 전환한 후 장식합니다. 이 권한 집합을 활성화하지 않으면 상당한 데이터 추적 간격이 발생할 수 있습니다.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 1. 사용자 수준 권한으로 &quot;마케팅 사용자&quot;를 활성화합니다.
 
-* 다음 [!UICONTROL Marketing User] 확인란을 통해 캠페인을 만들고 캠페인 가져오기 마법사를 사용할 수 있습니다. 이 옵션을 선택하지 않으면 사용자는 캠페인 및 고급 캠페인 설정만 보고, 단일 리드 또는 연락처에 대한 캠페인 내역을 편집하고, 캠페인 보고서를 실행할 수 있습니다. [!DNL Marketo Measure] campaign 개체를 읽고 쓸 수 있어야 합니다.
+* 다음 [!UICONTROL Marketing User] 확인란을 통해 캠페인을 만들고 캠페인 가져오기 마법사를 사용할 수 있습니다. 이 옵션을 선택하지 않으면 사용자는 캠페인 및 고급 캠페인 설정만 보고, 단일 리드 또는 연락처에 대한 캠페인 내역을 편집하고, 캠페인 보고서를 실행할 수 있습니다. [!DNL Marketo Measure] 캠페인 개체를 읽고 쓸 수 있어야 합니다.
 
 3단계: 모든 트리거, 워크플로우 및 프로세스에서 이 프로필 제외
 

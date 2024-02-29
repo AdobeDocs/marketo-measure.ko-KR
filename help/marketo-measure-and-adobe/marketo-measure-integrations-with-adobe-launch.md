@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Adobe Launch와 통합 - [!DNL Marketo Measure] - 제품 설명서'
+description: '[!DNL Marketo Measure] Adobe Launch와 통합 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Adobe Launch와 통합'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Measure] Adobe Launch와 통합 {#marketo-measure-integrations-with-adobe-launch}
 
-Adobe Launch 확장은 기존 사용자를 위해 설계되었습니다 [!DNL Marketo Measure] 웹 사이트에서 이미 Adobe Launch를 활용하는 사용자. 확장은 특정 이벤트 및 조건에 따라 페이지에서 스크립트를 구성하고 동적으로 로드하는 데 사용할 수 있는 태그 관리 솔루션 역할을 합니다.
+Adobe Launch 확장은 기존 사용자를 위해 설계되었습니다 [!DNL Marketo Measure] 웹 사이트에서 이미 Adobe Launch를 사용하는 사용자. 확장은 특정 이벤트 및 조건에 따라 페이지에서 스크립트를 구성하고 동적으로 로드하는 데 사용할 수 있는 태그 관리 솔루션 역할을 합니다.
 
 Adobe Launch에 설치하고 구성하는 경우 [!DNL Marketo Measure] 확장은 Adobe Launch 스크립트가 있는 페이지에 bizible.js 스크립트를 로드합니다. 이렇게 하면 마케터는 웹 페이지를 명시적으로 수정하여 bizible.js 스크립트 태그를 추가하는 대신 Adobe Launch 구성을 통해 bizible.js를 추가할 수 있습니다.
 
@@ -22,13 +22,13 @@ Adobe Launch에 설치하고 구성하는 경우 [!DNL Marketo Measure] 확장�
 >
 >Adobe Launch 및 그 확장에 대한 자세한 내용은 다음 링크를 확인하십시오.
 >
->* [[!DNL Marketo Measure] 확장](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
->* [Adobe Launch 개요](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
->* [Adobe Launch 확장 개요](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
+>* [[!DNL Marketo Measure] 확장](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [Adobe Launch 개요](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+>* [Adobe Launch 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. 단계에 따라 속성을 만듭니다. [이 문서에서](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
+1. 단계에 따라 속성을 만듭니다. [이 문서에서](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
-1. 방금 만든 속성을 클릭합니다.
+1. 생성한 속성을 클릭합니다.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-1.png)
 
@@ -50,7 +50,7 @@ Adobe Launch에 설치하고 구성하는 경우 [!DNL Marketo Measure] 확장�
 
    >[!NOTE]
    >
-   >이 필드는 Business_Prod.Business 테이블의 &quot;계정 ID&quot;가 아닙니다. 지정된 URL의 모든 웹 활동(예: `adobe.com`)가 [!DNL Marketo Measure] 테넌트.
+   >이 필드는 Business_Prod.Business 테이블의 &quot;계정 ID&quot;가 아닙니다. 주어진 URL의 모든 웹 활동(예: `adobe.com`)가 [!DNL Marketo Measure] 테넌트.
 
 1. 클릭 **[!UICONTROL Save]**.
 

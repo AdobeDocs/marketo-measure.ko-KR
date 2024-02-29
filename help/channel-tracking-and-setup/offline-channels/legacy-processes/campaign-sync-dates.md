@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874684
-description: Campaign 동기화 날짜 - [!DNL Marketo Measure] - 제품 설명서
+description: Campaign 동기화 날짜 - [!DNL Marketo Measure]
 title: Campaign 동기화 날짜
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---

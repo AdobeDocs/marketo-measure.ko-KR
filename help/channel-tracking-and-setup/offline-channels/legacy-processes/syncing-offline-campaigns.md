@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874600
-description: 오프라인 캠페인 동기화 - [!DNL Marketo Measure] - 제품 설명서
+description: 오프라인 캠페인 동기화 - [!DNL Marketo Measure]
 title: 오프라인 캠페인 동기화
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---

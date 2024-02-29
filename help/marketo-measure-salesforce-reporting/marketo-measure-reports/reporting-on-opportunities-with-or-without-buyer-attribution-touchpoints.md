@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874618
-description: 구매자 속성 터치포인트가 있거나 없는 기회에 대한 보고 - [!DNL Marketo Measure] - 제품 설명서
+description: 구매자 속성 터치포인트가 있거나 없는 기회에 대한 보고 - [!DNL Marketo Measure]
 title: 구매자 속성 터치포인트가 있거나 없는 기회 보고
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---

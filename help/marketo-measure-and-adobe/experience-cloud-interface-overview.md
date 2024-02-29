@@ -1,11 +1,11 @@
 ---
-description: Adobe Experience Cloud 인터페이스 개요 - [!DNL Marketo Measure] - 제품 설명서
+description: Adobe Experience Cloud 인터페이스 개요 - [!DNL Marketo Measure]
 title: Adobe Experience Cloud 인터페이스 개요
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 
 
 ## 새로운 기능 {#new-features}
 
-업데이트된 모양과 느낌 외에도 다음과 같은 기능을 확인할 수 있습니다.
+업데이트된 모양과 느낌 외에도 다음 기능에 주목하십시오.
 
 **도메인 관리**
 
@@ -44,7 +44,7 @@ Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 
 
 **응용 프로그램 전환기**
 
-여러 Adobe 제품에 액세스할 수 있는 사용자는 쉽게 전환할 수 있습니다.
+여러 Adobe 제품에 액세스할 수 있는 사용자는 이들 제품 간에 쉽게 전환할 수 있습니다.
 
 ![](assets/unified-shell-overview-7.png)
 
@@ -58,7 +58,7 @@ Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 
 
 **Adobe 설정**
 
-Adobe 아이콘을 클릭하여 언어 또는 기타 프로필 전체 환경 설정을 변경합니다. 다음을 수행할 수도 있습니다. [!DNL Marketo Measure]다음을 클릭하는 경우의 특정 변경 사항 **내 설정**.
+언어 또는 기타 Adobe 전체 환경 설정을 변경하려면 프로필 아이콘을 클릭합니다. 다음을 수행할 수도 있습니다. [!DNL Marketo Measure]다음을 클릭하는 경우의 특정 변경 사항 **내 설정**.
 
 ![](assets/unified-shell-overview-10.png)
 
@@ -74,4 +74,4 @@ Adobe Experience Cloud에 로그인할 수 있지만 다음과 같은 페이지�
 
 ![](assets/unified-shell-overview-11.png)
 
-위의 오류를 수신한다면 [지원 문의](https://nation.marketo.com/t5/support/ct-p/Support) 도움이 필요하신가요?
+위의 오류가 표시되면, [지원 문의](https://nation.marketo.com/t5/support/ct-p/Support) 도움이 필요하신가요?

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762762
-description: Marketo 연결 설정 - [!DNL Marketo Measure] - 제품 설명서
+description: Marketo 연결 설정 - [!DNL Marketo Measure]
 title: Marketo 연결 설정
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '181'
 ht-degree: 1%
 
 ---

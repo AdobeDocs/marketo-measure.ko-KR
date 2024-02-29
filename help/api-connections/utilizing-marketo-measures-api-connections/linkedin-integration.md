@@ -1,10 +1,10 @@
 ---
 unique-page-id: 35586080
-description: LinkedIn 통합 - [!DNL Marketo Measure] - 제품 설명서
+description: LinkedIn 통합 - [!DNL Marketo Measure]
 title: LinkedIn 통합
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 리드 세대 Forms: LinkedIn의 리드 세대 Forms과의 통합을 통해 Marketo Measure은 LinkedIn 플랫폼을 통해 제출된 양식에 대한 통찰력을 얻을 수 있습니다. 이러한 양식 채우기는 CRM의 리드와 일치하거나 [!DNL Marketo Engage] 속성을 적용할 수 있도록 인스턴스를 만듭니다. 양식을 생성하는 데 도움이 된 Campaign, Creative 및 Form에 대한 통찰력을 통해 팀은 이제 LinkedIn 마케팅 및 광고 지출을 더욱 최적화할 수 있습니다.
 
-## 사용 가능 {#availability}
+## 가용성 {#availability}
 
 모든 사용자가 사용할 수 있습니다.
 
@@ -159,7 +159,7 @@ Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터�
 
 ## 접점 세부 정보 {#touchpoint-details}
 
-한 번 [!DNL Marketo Measure] 이(가) LinkedIn 크리에이티브에 랜딩 페이지를 태그 지정했습니다. 터치 포인트에서 해결된 광고 데이터를 볼 수 있습니다. 다음은 표시될 것으로 예상되는 데이터 값 매핑입니다.
+다음 이후 [!DNL Marketo Measure] 이(가) LinkedIn 크리에이티브에 랜딩 페이지를 태그 지정했습니다. 터치 포인트에서 해결된 광고 데이터를 볼 수 있습니다. 다음은 표시될 것으로 예상되는 데이터 값 매핑입니다.
 
 <table> 
  <colgroup> 
@@ -322,13 +322,13 @@ LinkedIn을 사용하려면 만들거나 수정한 모든 광고가 게시되기
 
 ![](assets/five.png)
 
-**다음을 연결했습니다. [!DNL LinkedIn ads] 계정입니다. 이(가) [!DNL Marketo Measure] 내 링크에 태그 지정?**
+**다음을 연결했습니다. [!DNL LinkedIn ads] 계정입니다. 이(가) 아닌 이유 [!DNL Marketo Measure] 내 링크에 태그 지정?**
 
 연결됨 [!DNL LinkedIn] 사용자에게 적절한 편집 액세스 권한이 있어야 합니다. 즉, 계정 관리자, 캠페인 관리자 또는 Creative Manager여야 합니다.
 
 **내 크리에이티브가 복사될지 어떻게 알 수 있습니까? 내 크리에이티브가 동일한 공유를 사용하고 있는지 확인할 수 있습니까?**
 
-공유 ID가 다음에서 제공되지 않음: [!DNL LinkedIn] 따라서 크리에이티브와 공유 간 매핑을 확인하는 명확하고 명확한 방법이 없습니다. 크리에이티브가 복사본일 수 있다고 의심되는 경우 내에서 광고를 열어 수동으로 확인할 수 있습니다. [!DNL LinkedIn] 캠페인 관리자 - 새 탭에서 광고가 열리고 URL에서 공유 ID가 표시됩니다.
+공유 ID가 다음에서 제공되지 않음: [!DNL LinkedIn] 보고서를 작성하므로 크리에이티브와 공유 간 매핑을 확인하는 명확하고 명확한 방법이 없습니다. 크리에이티브가 복사본일 수 있다고 의심되는 경우 내에서 광고를 열어 수동으로 확인할 수 있습니다. [!DNL LinkedIn] 캠페인 관리자 - 새 탭에서 광고가 열리고 URL에서 공유 ID를 찾을 수 있습니다.
 
 ![](assets/six.png)
 

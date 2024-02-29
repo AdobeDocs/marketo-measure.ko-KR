@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874578
-description: 캠페인 및 캠페인 멤버 - [!DNL Marketo Measure] - 제품 설명서
+description: 캠페인 및 캠페인 멤버 - [!DNL Marketo Measure]
 title: 캠페인 및 캠페인 멤버
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 * &quot;응답한&quot; 캠페인 멤버만 포함 - 캠페인 멤버 상태가 &quot;응답됨&quot;인 잠재 고객 또는 연락처만 해당 캠페인과 연결된 터치포인트를 받습니다.
 * 모든 캠페인 멤버 제외 - 리드나 연락처 중 해당 캠페인과 연결된 터치포인트를 받는 사람은 없습니다.
 
-캠페인 구성원의 경우 다음 작업을 수행하려면 해당 레코드와 연결된 이메일 주소가 있어야 합니다. [!DNL Marketo Measure] 터치포인트를 만듭니다. 이메일 주소가 없으면, [!DNL Marketo Measure] 은(는) 캠페인 멤버에게 터치포인트를 할당하지 않습니다.
+캠페인 멤버는 다음에 대해 해당 레코드와 연결된 이메일 주소가 있어야 합니다. [!DNL Marketo Measure] 터치포인트를 만듭니다. 이메일 주소가 없으면, [!DNL Marketo Measure] 은(는) 캠페인 멤버에게 터치포인트를 할당하지 않습니다.
 
 ## Campaign 동기화 날짜 {#campaign-sync-dates}
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 접점 종료 날짜에 대한 사용 사례 {#use-case-for-touchpoint-end-date}
 
-사용하기 전의 경우 [!DNL Marketo Measure], 잠재 고객의 디지털 상호 작용(IE 양식 제출)을 추적한 다음 그러한 잠재 고객을 로 업로드하는 Marketing Automation 플랫폼을 사용했습니다. [!DNL Saleforce] 캠페인에서 접점 종료 날짜 필드를 활용할 수 있습니다. 터치포인트 종료 날짜를 의 시작 날짜로 설정해야 합니다. [!DNL Marketo Measure] 구매자 터치포인트를 활성화하면 이러한 각 리드의 디지털 상호 작용이 터치포인트로 생성됩니다. 접점 종료 날짜를 시작 날짜로 설정하는 이유 [!DNL Marketo Measure] 앞으로 javascript를 통해 이러한 디지털 상호 작용을 추적할 것이기 때문입니다.
+사용하기 전의 경우 [!DNL Marketo Measure], 잠재 고객의 디지털 상호 작용(IE 양식 제출)을 추적한 다음 그러한 잠재 고객을 로 업로드하는 Marketing Automation 플랫폼을 사용했습니다. [!DNL Saleforce] Campaign에서 터치포인트 종료 날짜 필드를 사용할 수 있습니다. 터치포인트 종료 날짜를 의 시작 날짜로 설정해야 합니다. [!DNL Marketo Measure] 구매자 터치포인트를 활성화하면 이러한 각 리드의 디지털 상호 작용이 터치포인트로 생성됩니다. 접점 종료 날짜를 시작 날짜로 설정하는 이유 [!DNL Marketo Measure] 앞으로 javascript를 통해 이러한 디지털 상호 작용을 추적할 것이기 때문입니다.
 
 ![](assets/3.png)
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874781
-description: 속성을 통한 Doubleclick Campaign Manager 보기 구성 - [!DNL Marketo Measure] - 제품 설명서
+description: 속성을 통한 Doubleclick Campaign Manager 보기 구성 - [!DNL Marketo Measure]
 title: 속성을 통해 Doubleclick Campaign Manager 보기 구성
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 를 사용하여 추적을 통해 보기에서 보다 세부적인 통찰력을 얻기 시작합니다. [!DNL Doubleclick Campaign Manager], 추적 픽셀을 구성해야 합니다.
 
-다음을 수행하세요. [여기를 클릭하십시오](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) 에 대한 자세한 내용은 [!DNL Marketo Measure] 기여도 분석 기능을 통해 보기.
+에 대한 자세한 내용은 [!DNL Marketo Measure] 기여도 분석 기능을 통한 보기는 다음을 참조하십시오. [기여도 분석을 통한 Marketo Measure 보기 FAQ](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
 [!DNL Marketo Measure] 는 DCM 광고 태그를 통한 서드파티 호출이므로 피기백 태그로 간주됩니다. 피기백 태그는 이미지 태그에서는 작동하지 않으며 iframe 또는 javascript 태그만 작동합니다. DCM 지원에 따르면, 이 기능은 최근에 변경되지 않았으며 항상 유지되어 왔습니다. 표준 태그는 2017년 10월 2일에 더 이상 사용되지 않지만 의 기능에는 영향을 주지 않습니다. [!DNL Marketo Measure] 노출을 추적합니다.
 
-DCM에서 상위 및 하위 계층을 활용하는 경우 노출 추적을 위해 모든 수준에 태그가 적용되어야 합니다.
+DCM에서 상위 및 하위 계층을 사용하는 경우 노출 추적을 위해 모든 수준에 태그가 적용되어야 합니다.
 
 ## 이미지 태그를 추가하는 방법 {#how-to-add-the-image-tag}
 
-에 태그를 추가합니다. [!DNL Doubleclick] 광고주 설정 아래에 노출 이벤트 태그를 만들 수 있습니다.
+Advertiser 설정 아래의 Doubleclick에 태그를 추가하고 노출 이벤트 태그를 만듭니다.
 
 1. 다음 코드를 1x1 이미지 픽셀로 추가합니다.
 

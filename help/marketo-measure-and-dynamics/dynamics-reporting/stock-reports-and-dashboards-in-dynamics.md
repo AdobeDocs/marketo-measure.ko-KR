@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874612
-description: Dynamics의 스톡 보고서 및 대시보드 - [!DNL Marketo Measure] - 제품 설명서
+description: Dynamics의 스톡 보고서 및 대시보드 - [!DNL Marketo Measure]
 title: Dynamics의 스톡 보고서 및 대시보드
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 3%

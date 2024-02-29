@@ -1,10 +1,10 @@
 ---
-description: 오류 알림 - [!DNL Marketo Measure] - 제품 설명서
+description: 오류 알림 - [!DNL Marketo Measure]
 title: 오류 알림
 feature: Fundamentals
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td>INVALID_ANALYTICS_ADOBE</td>
-      <td>AdobeAnalytics 내보내기 중 오류 발생: INVALID_UPLOAD_ANALYTICS_CONFIGURATION : 오류: ADOBE이 허용되지 않습니다. 업로드하기 전에 데이터 소스 스키마를 확인하십시오. 데이터 소스 Id:1234</td>
+      <td>AdobeAnalytics 내보내기 중 오류 발생: INVALID_UPLOAD_ANALYTICS_CONFIGURATION : 오류: ADOBE이 허용되지 않습니다. 업로드하기 전에 데이터 소스 스키마를 확인합니다. 데이터 소스 Id:1234</td>
       <td>Adobe Analytics 통합이 올바르게 구성되지 않았습니다.</td>
       <td>올바른 구성을 위해 다음 도움말 문서를 참조하십시오.
         <ul>
@@ -139,7 +139,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td>지원되지 않는 CRM_PACKAGE_VERSION</td>
-      <td>CRM 가져오기 중 오류 발생: UNSUPPORTED_CRM_PACKAGE_VERSION : CRM 패키지를 업데이트하십시오.</td>
+      <td>CRM 가져오기 중 오류 발생: UNSUPPORTED_CRM_PACKAGE_VERSION : CRM 패키지 업데이트</td>
       <td>감지된 현재 패키지는 더 이상 지원되지 않습니다.</td>
       <td>패키지를 최신 버전으로 업그레이드하십시오.
         <ul>

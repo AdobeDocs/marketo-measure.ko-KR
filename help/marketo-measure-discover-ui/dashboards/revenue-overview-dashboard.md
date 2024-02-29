@@ -3,9 +3,9 @@ description: 수익 개요 대시보드 - [!DNL Marketo Measure] - 제품
 title: 수익 개요 대시보드
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 이 나란히 표시되는 시계열 막대 차트는 총 매출과 속성 매출의 대비를 보여주며 전체 매출에 대한 마케팅 영향을 명확하게 시각화합니다.
 
-* 드릴다운 및 위로 기능을 활용하여 데이터를 분기 및 연도별로 분류할 수 있습니다.
+* 드릴다운 및 위로 기능을 사용하여 분기 및 연도별로 데이터를 분류합니다.
 * 자세한 정보를 표시하려면 마우스를 막대 차트의 섹션 위로 가져갑니다.
 
 **이 차트가 답하는 질문:**

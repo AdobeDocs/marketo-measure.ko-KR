@@ -4,9 +4,9 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: f77c4471887c18b177dedab5b4c41f3a64010539
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '21115'
+source-wordcount: '21110'
 ht-degree: 3%
 
 ---
@@ -3632,7 +3632,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>번호(38,19)</p>
       </td>
       <td>
-        <p>이 기능은 더 이상 사용되지 않습니다. 이 열을 사용하지 마십시오.</p>
+        <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
         <p>해당 없음</p>
@@ -5802,7 +5802,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 
 >[!IMPORTANT]
 >
->Marketo Measure은 2024년 중반에 이 표를 더 이상 사용하지 않을 예정입니다. 사용자 측에서 작성하려면 를 실행하십시오. [이 SQL 쿼리](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure은 2024년 중반에 이 표를 더 이상 사용하지 않을 예정입니다. 사용자 측에서 작성하려면 를 실행합니다. [이 SQL 쿼리](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
@@ -8245,7 +8245,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>번호(38,19)</p>
       </td>
       <td>
-        <p>이 기능은 더 이상 사용되지 않습니다. 이 열을 사용하지 마십시오.</p>
+        <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
         <p>해당 없음</p>
@@ -8785,7 +8785,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>번호(38,19)</p>
       </td>
       <td>
-        <p>이 기능은 더 이상 사용되지 않습니다. 이 열을 사용하지 마십시오.</p>
+        <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
         <p>해당 없음</p>

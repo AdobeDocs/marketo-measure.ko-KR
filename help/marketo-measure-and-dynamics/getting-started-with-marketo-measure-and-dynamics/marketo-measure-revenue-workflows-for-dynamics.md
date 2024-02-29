@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356132
-description: "[!DNL Marketo Measure] Dynamics용 매출 워크플로우 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Measure] Dynamics용 매출 워크플로우 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamics용 매출 워크플로우"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 1. 사용자 정의 종료 날짜 API 이름을 제공할 고객 [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] 을(를) 업데이트하려면 [!DNL Marketo Measure] 을(를) 지정하는 앱 설정 [!DNL Marketo Measure] 대시보드의 사용자 정의 종료 날짜 필드.
 
-   위의 단계를 완료하면 사용자 지정을 모두 업데이트하는 워크플로우를 실행해야 합니다 [!DNL Marketo Measure] Opp 금액 필드 및 [!DNL Marketo Measure] 과거 기회에 대한 사용자 정의 마감 일자 필드를 참조하여 올바른 데이터를 반영하십시오. 이렇게 하면 수정된 일자/순 필드가 변경될 수 있으므로 팀에 문의하여 문제가 있는지 확인하십시오.
+   위의 단계를 완료하면 사용자 지정을 모두 업데이트하는 워크플로우를 실행해야 합니다 [!DNL Marketo Measure] Opp 금액 필드 및 [!DNL Marketo Measure] 과거 기회에 대한 사용자 정의 마감 일자 필드를 참조하여 올바른 데이터를 반영하십시오. 이 경우 수정된 일자/순 필드가 변경될 수 있으므로 팀에 문의하여 문제가 있는지 확인하십시오.
 
 마감된 기회를 갱신하려면...
 

@@ -1,19 +1,19 @@
 ---
 unique-page-id: 18874726
-description: 구성 [!DNL Marketo Measure] A/B 테스트 통합 - [!DNL Marketo Measure] - 제품 설명서
+description: 구성 [!DNL Marketo Measure] A/B 테스트 통합 - [!DNL Marketo Measure]
 title: 구성 [!DNL Marketo Measure] A/B 테스트 통합
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
 # 구성 [!DNL Marketo Measure] A/B 테스트 통합 {#configuring-the-marketo-measure-a-b-test-integration}
 
-추가 [!DNL Marketo Measure] Lead, Contact, Case 및 Opportunity에 대한 A/B 테스트 섹션 [!DNL Marketo Measure] A/B 테스트 통합을 통해 의 매출 영향을 추적할 수 있습니다. [최적 상태](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} 사이트 실험.
+추가 [!DNL Marketo Measure] Lead, Contact, Case 및 Opportunity에 대한 A/B 테스트 섹션 [!DNL Marketo Measure] A/B 테스트 통합을 통해 의 매출 영향을 추적할 수 있습니다. [최적 상태](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} 사이트 실험.
 
 1. 패키지를 사용 중인지 확인 [[!DNL Marketo Measure] v3.9 이상](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}.
 1. &quot; 추가[!DNL Marketo Measure] 페이지 레이아웃에 &quot;관련 목록&quot;을 설정한 다음 **설정** (렌치) 단추.

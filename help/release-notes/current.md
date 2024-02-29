@@ -1,11 +1,11 @@
 ---
-description: 최신 릴리스 정보 - [!DNL Marketo Measure] - 제품 설명서
+description: 최신 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 의 URL 테이블 [data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} 이제 웹 데이터 테이블 외에 페이지 제목 필드가 포함됩니다.
 
-URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과 항상 일치하지 않을 수 있습니다. URL 테이블에는 가장 최근의 페이지 제목이 있습니다. 웹 활동이 발생한 후 URL에 대한 제목을 변경한 경우 URL 표의 내용과 일치하지 않습니다.
+URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과 항상 일치하지는 않을 수 있습니다. URL 테이블에는 가장 최근의 페이지 제목이 있습니다. 웹 활동이 발생한 후 URL에 대한 제목을 변경한 경우 URL 표의 내용과 일치하지 않습니다.
 
 **대시보드 재디자인 살펴보기**
 
@@ -157,7 +157,7 @@ URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과
 
 * 제거된 필드를 활용하는 기존 보고서의 기능을 캡처하는 보고서를 만듭니다. 이 프로세스의 일부로 아래 지정된 대로 보고서의 필드를 변경하려고 합니다.
 
-   * 리드/연락처 FT/LC 필드 제거:
+* 리드/연락처 FT/LC 필드 제거:
 
 ![](assets/release-notes-2023-2.png)
 
@@ -179,7 +179,7 @@ URL 테이블의 페이지 제목이 다른 웹 테이블의 페이지 제목과
 
 * Dynamics에 계속 연결하려면 최신 패키지 버전인 v6.12를 설치하십시오. 이전 버전 `(<v6.12)` 은(는) 더 이상 지원되지 않습니다. 이 업데이트는 기록 레코드 생성을 최적화하여 스토리지 사용을 줄입니다.
 
-* RefreshToken을 사용하는 OAuth의 오래된 메서드는 더 이상 사용되지 않습니다. 다음을 참조하십시오. [이 안내서](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} Microsoft의 ClientSecret 사용 모범 사례를 준수하도록 자격 증명을 업데이트할 수 있습니다.
+* RefreshToken을 사용하는 OAuth의 오래된 메서드는 더 이상 사용되지 않습니다. 을(를) 참조하십시오 [이 안내서](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} Microsoft의 ClientSecret 사용 모범 사례를 준수하도록 자격 증명을 업데이트할 수 있습니다.
 
 #### &quot;custom_properties&quot; 필드
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] 프로그램 통합"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 다음을 통해 [!DNL Marketo Measure] 과 통합 [!DNL Marketo Engage] 프로그램, 고객은 Marketo 프로그램 멤버십에서 속성 추적에 대한 터치포인트를 만들 수 있습니다. 이 기능을 사용하면 마케터는 그렇지 않으면 에서 볼 수 없는 이메일 또는 참여 프로그램에서 프로그램 멤버십을 추적할 수 있습니다. [!DNL Marketo Measure] javascript 및 는 속성 여정 내에서 측정해야 합니다.
 
-## 사용 가능 {#availability}
+## 가용성 {#availability}
 
 모든 계층.
 
@@ -141,7 +141,7 @@ Marketo 프로그램의 데이터 가져오기를 통해 비용은 기간 원가
 
 의 결과로 [!DNL Marketo Measure] Marketo과 통합, [!DNL Marketo Measure] 쿠키 ID도 이제 매핑되고 와 동기화됩니다. [!DNL Marketo Munchkin Id]. 이렇게 하면 FT 및 LC 터치를 모두 Marketo 활동에 귀속시키지 않고 간격을 닫아 익명의 첫 번째 터치를 웹 세션에 귀속시킵니다. 이 시나리오를 상상해 보십시오.
 
-클릭 수 표시 [!DNL Facebook] 광고를 내고 wayneenterprises.com에 도착하여 쿠키를 받습니다 [!DNL Marketo Measure] Id 123 및 [!DNL Marketo Munchkin Id] 456. 양식 채우기가 수행되지 않습니다.
+클릭 수 표시 [!DNL Facebook] 광고를 내고 wayneenterprises.com에 도착하여 쿠키를 받습니다. [!DNL Marketo Measure] Id 123 및 [!DNL Marketo Munchkin Id] 456. 양식 채우기가 수행되지 않습니다.
 
 Wayne Enterprises 마케팅 팀은 특정 타겟팅된 리드에 이메일 폭탄을 발송하며, 그 중 하나가 `mark@email.com`.
 
@@ -169,7 +169,7 @@ Wayne Enterprises 마케팅 팀은 &quot;이메일 클릭&quot; 활동 유형에
 
 **Marketo 프로그램 규칙을 만들고 CRM Campaign 규칙도 있는 경우 두 번 계산됩니까?**
 
-규칙 정의에 따라 다르지만, 가능합니다. 중복 제거를 수행하거나 유사한 멤버십을 감지하지 않으므로 프로그램 및 캠페인을 포함하는 규칙이 없도록 규칙 세트를 평가할 수 있습니다. Marketo을 신뢰할 수 있는 단일 소스로 사용하려면 Campaign 규칙을 프로그램에 복사한 다음 Campaign 규칙을 제거하는 것이 한 가지 가능한 솔루션입니다. 또 다른 옵션은 규칙에 &quot;CreatedOn&quot; 또는 &quot;CreatedDate&quot; 기준을 추가하여 특정 날짜 이전의 규칙은 Campaign 규칙을 사용하고 특정 날짜 이후의 규칙은 프로그램 규칙을 사용하도록 하는 것입니다. 거기에는 많은 해결책들이 있지만, 그것은 약간의 계획과 조정이 필요할 것입니다.
+규칙 정의에 따라 다르지만, 가능합니다. 유사한 멤버십에 대해 중복 제거를 수행하거나 검색하지 않으므로 프로그램 및 캠페인에 적용되는 규칙이 없도록 규칙 세트를 평가할 수 있습니다. Marketo을 신뢰할 수 있는 단일 소스로 사용하려면 Campaign 규칙을 프로그램에 복사한 다음 Campaign 규칙을 제거하는 것이 한 가지 가능한 솔루션입니다. 또 다른 옵션은 규칙에 &quot;CreatedOn&quot; 또는 &quot;CreatedDate&quot; 기준을 추가하여 특정 날짜 이전의 규칙은 Campaign 규칙을 사용하고 특정 날짜 이후의 규칙은 프로그램 규칙을 사용하도록 하는 것입니다. 거기에는 많은 해결책들이 있지만, 그것은 약간의 계획과 조정이 필요할 것입니다.
 
 **Marketo의 프로그램 멤버십 사용자 정의 필드를 정의할 수 있습니까?**
 

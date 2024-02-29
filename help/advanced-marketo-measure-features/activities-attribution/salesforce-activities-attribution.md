@@ -1,21 +1,19 @@
 ---
 unique-page-id: 18874708
-description: Salesforce 활동 속성 - [!DNL Marketo Measure] - 제품 설명서
+description: Salesforce 활동 속성 - [!DNL Marketo Measure]
 title: Salesforce 활동 속성
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Salesforce 활동 속성 {#salesforce-activities-attribution}
 
-다음 [!DNL Marketo Measure] Salesforce 활동 통합은 특정 작업 및 이벤트 레코드를 속성 모델에 가져옵니다. 적법한 크레딧을 받지 못한 판매 이메일 또는 판매 전화 등의 항목을 추적하기 시작합니다. 활동 규칙을 구성하려면 다음 위치로 이동해야 합니다. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. 여기서 다음 위치로 이동합니다. **[!UICONTROL Settings]** 탭을 클릭하고 **[!UICONTROL Activities]** 탭.
-
-이제 영업팀을 매우 기쁘게 만들 수 있습니다! 간단한 튜토리얼을 소개합니다.
+다음 [!DNL Marketo Measure] Salesforce 활동 통합은 특정 작업 및 이벤트 레코드를 속성 모델에 가져옵니다. 적법한 크레딧을 받지 못한 판매 이메일 또는 판매 전화 등의 항목을 추적하기 시작합니다. 활동 규칙을 구성하려면 다음 위치로 이동합니다. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. 여기서 다음 위치로 이동합니다. **[!UICONTROL Settings]** 탭을 클릭하고 **[!UICONTROL Activities]** 탭.
 
 ![](assets/1.png)
 
@@ -27,20 +25,20 @@ ht-degree: 0%
 
 * 채널
    * 부채널
-      * 캠페인
-      * 캠페인
+      * Campaign
+      * Campaign
    * 부채널
-      * 캠페인
+      * Campaign
 
 >[!TIP]
 >
->예를 들어 각 Sales Rep에 대해 고유한 Campaign 을 설정하려면 동적 대체 매개 변수를 활용하여 다음을 입력합니다. [!DNL Marketo Measure] 캠페인 이름. 이 예제에서 다음을 입력할 수 있습니다. `"Outbound Sales - {AssignedTo}"` 그리고 우리는 그것을 다음과 같은 것으로 만들 것입니다. `"Outbound Sales - Jill"` 또는 `"Outbound Sales - Jack."` 우리가 얼마나 많은 시간을 구해줬는지 넌 몰라!
+>예를 들어 각 Sales Rep에 대해 고유한 Campaign 을 설정하려면 동적 대체 매개 변수를 사용하여 다음을 입력합니다. [!DNL Marketo Measure] 캠페인 이름. 같은 예에서 다음을 입력할 수 있습니다. `"Outbound Sales - {AssignedTo}"` and it changes변화 it to something like `"Outbound Sales - Jill"` 또는 `"Outbound Sales - Jack."`
 
 ![](assets/2.png)
 
 한 번 [!DNL Marketo Measure] 캠페인 이름이 설정되었습니다. 활동 규칙을 설정할 차례입니다.
 
-규칙은 어떤 레코드가 속성에 적합한지 알려주는 필터 역할을 합니다. 유사한 논리를 사용하여 CRM에서 보고서를 생성하여 해당 보고서를 생성한다고 가정해 보겠습니다. and/or 문과 matches any, contains, starts with, ends with, is equal 등의 다양한 연산자의 조합을 유연하게 사용할 수 있습니다. 박스형 규칙 또는 상자 외부의 레이어 &quot;or&quot; 문 내에서 &quot;and&quot; 문을 정의합니다.
+규칙은 어떤 레코드가 속성에 적합한지 알려주는 필터 역할을 합니다. 유사한 논리를 사용하여 CRM에서 보고서를 생성하여 해당 보고서를 생성한다고 가정해 보겠습니다. and/or 구문과 같은 다양한 연산자의 조합을 사용할 수 있는 유연성이 있습니다 `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. 정의 `and` 박스형 규칙 또는 레이어 내의 명령문 `or` 상자 외부의 명령문입니다.
 
 ![](assets/3.png)
 
@@ -48,9 +46,9 @@ ht-degree: 0%
 >
 >공식 필드는 규칙 내에서 사용할 수 없으며 선택 목록에 표시되지 않습니다. 수식은 백그라운드에서 계산되며 레코드를 수정하지 않으므로 [!DNL Marketo Measure] 레코드가 규칙에 맞는지 여부를 감지할 수 없습니다.
 >
->CrmEvent.CreatedById와 같은 ID 필드에 올바른 값을 사용해야 합니다. [!DNL Salesforce IDs] 길이는 18자(예: 0054H000007WmrfQAC)입니다.
+>CrmEvent.CreatedById와 같은 ID 필드에 올바른 값을 사용해야 합니다. [!DNL Salesforce IDs] 길이는 18자(0054H000007WmrfQAC)입니다.
 
-마지막으로 구매자 접점 일자로 사용할 날짜 또는 날짜/시간 필드 중 하나를 선택해 보겠습니다. 표준 및 사용자 정의 필드 중 하나를 선택할 수 있습니다.
+마지막으로, 구매자 접점 일자로 사용할 날짜 또는 날짜/시간 필드 중 하나를 선택합니다. 표준 및 사용자 정의 필드 중 하나를 선택할 수 있습니다.
 
 >[!TIP]
 >
@@ -58,11 +56,11 @@ ht-degree: 0%
 
 ![](assets/4.png)
 
-작업 또는 이벤트에 대해 다른 규칙을 설정하는 것을 잊지 마십시오. 영업 팀이 활동을 기록하기 위해 사용하는 오브젝트를 알아야 합니다.
+작업 또는 이벤트에 대해 다른 규칙을 설정하는 것을 잊지 마십시오. 영업 팀이 활동을 기록하기 위해 사용하는 객체를 알고 있어야 합니다.
 
 ![](assets/5.png)
 
-이러한 새로운 접점을 적절한 위치에 배치해야 할 수 있습니다. [마케팅 채널](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20채널){target="_blank"}. 방금 만든 새 캠페인 매핑으로 채널을 정의하여 이 작업을 수행할 수 있습니다. Campaign이 아웃바운드로 시작되는 BDR 채널에 대한 새 행을 만들 수 있습니다.
+이러한 새로운 터치포인트를 적절하게 배치해야 할 것입니다 [마케팅 채널](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20채널){target="_blank"}. 방금 만든 새 캠페인 매핑으로 채널을 정의하여 이 작업을 수행합니다.
 
 >[!TIP]
 >
@@ -70,11 +68,11 @@ ht-degree: 0%
 >
 >다음으로 시작 ( 아웃바운드&#42; )
 >
->포함 ( &#42;아웃바운드&#42; )
+포함 ( &#42;아웃바운드&#42; )
 >
->다음으로 끝남( &#42;아웃바운드 )
+다음으로 끝남( &#42;아웃바운드 )
 >
->와일드카드는 기본적으로 &quot;같음&quot;을 의미하지 않으므로 필요에 따라 사용하십시오.
+와일드카드는 기본적으로 &quot;같음&quot;을 의미하지 않으므로 필요에 따라 사용하십시오.
 
 | **연산자** | **사용 사례** |
 |---|---|
@@ -85,10 +83,10 @@ ht-degree: 0%
 
 ![](assets/6.png)
 
-마지막으로, 새 채널에 대한 비용을 입력할 수 있습니다. 당사 [마케팅 지출 업로드](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spent){target="_blank"} 채널 수준, 하위 채널 수준 또는 캠페인 수준에서 지출을 입력할 수 있습니다. 새 항목 포함 [!DNL Marketo Measure] 캠페인에서는 이러한 관련 비용을 월별 추가한 다음 각 캠페인에 대한 ROI를 확인할 수 있습니다.
+마지막으로, 새 채널에 대한 비용을 입력할 수 있습니다. 다음 [마케팅 지출 업로드](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spent){target="_blank"} 채널 수준, 하위 채널 수준 또는 캠페인 수준에서 지출을 입력할 수 있습니다. 새 항목 포함 [!DNL Marketo Measure] 캠페인에서는 이러한 관련 비용을 월별 추가한 다음 각 캠페인에 대한 ROI를 확인할 수 있습니다.
 
 ![](assets/7.png)
 
 >[!MORELIKETHIS]
 >
->[활동 속성 FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+[활동 속성 FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] 활동 통합 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Engage] 활동 통합 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] 활동 통합"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1671'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
    * 레퍼러 페이지
    * 양식 페이지
    * 양식 날짜
-   * Platform
+   * 플랫폼
    * 브라우저
 
    >[!NOTE]

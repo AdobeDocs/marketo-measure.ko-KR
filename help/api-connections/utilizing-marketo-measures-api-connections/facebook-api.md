@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874680
-description: "[!DNL Facebook] API - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '468'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ AdWords &amp; 와 유사 [!DNL Bing Ads] 통합, [!DNL Facebook] 통합은 다�
 
 통합을 활성화하면 [!DNL Marketo Measure] 광고 수준 비용을 [!DNL Marketo Measure Marketing ROI] 대시보드.
 
-통합이 제대로 작동하려면 의 자동 태그 지정을 활성화해야 합니다. [!DNL Facebook] 계정입니다. 이렇게 하면 시스템에서 모든 광고 링크에 _bf 매개 변수를 추가할 수 있습니다. 이 프로세스는에 이미 추가한 다른 추적 매개 변수 위에 새 매개 변수를 추가합니다 [!DNL Facebook] 광고.
+통합이 제대로 작동하려면 다음에서 자동 태그 지정을 활성화해야 합니다. [!DNL Facebook] 계정입니다. 이렇게 하면 시스템에서 모든 광고 링크에 _bf 매개 변수를 추가할 수 있습니다. 이 프로세스는에 이미 추가한 다른 추적 매개 변수 위에 새 매개 변수를 추가합니다 [!DNL Facebook] 광고.
 
 ![](assets/3.gif)
 
@@ -120,7 +120,7 @@ AdWords &amp; 와 유사 [!DNL Bing Ads] 통합, [!DNL Facebook] 통합은 다�
   </tr> 
   <tr> 
    <td><p>Account_Unique_ID(Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] 계정 #]</p></td> 
+   <td><p>[[!DNL Facebook] 계정 번호]</p></td> 
   </tr> 
   <tr> 
    <td><p>Account_Name(Data Warehouse)</p></td> 

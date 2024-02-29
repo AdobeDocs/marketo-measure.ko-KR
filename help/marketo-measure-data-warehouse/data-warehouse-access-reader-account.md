@@ -3,9 +3,9 @@ description: Data Warehouse 액세스 - Reader 계정 - 제품 설명서
 title: Data Warehouse 액세스 - Reader 계정
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Snowflake Data Warehouse에 액세스하려면 Snowflake 계정의 특정 URL로
 
 ## 서드파티 도구를 통해 Snowflake에 연결 {#connecting-to-snowflake-via-third-party-tools}
 
-Snowflake 데이터 웨어하우스를 타사 도구에 연결하려면 몇 가지 정보를 입력해야 합니다.
+Snowflake 데이터 웨어하우스를 서드파티 도구에 연결하려면 몇 가지 정보를 입력해야 합니다.
 
 >[!NOTE]
 >

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874734
-description: 리드 병합 우수 사례 - [!DNL Marketo Measure] - 제품 설명서
+description: 리드 병합 우수 사례 - [!DNL Marketo Measure]
 title: 리드 병합에 대한 우수 사례
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---

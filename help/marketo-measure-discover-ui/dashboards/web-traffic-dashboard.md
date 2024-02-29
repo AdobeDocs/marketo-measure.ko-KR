@@ -3,7 +3,7 @@ description: 웹 트래픽 대시보드 - [!DNL Marketo Measure] - 제품
 title: 웹 트래픽 대시보드
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 채널/서브채널/캠페인으로 세그먼트화된 방문 또는 고유 방문자를 표시하는 막대 차트입니다.
 
-* 드릴다운 및 상향 기능을 활용하여 데이터를 하위 채널 및 캠페인별로 분류할 수 있습니다.
+* 드릴다운 및 위로 기능을 사용하여 하위 채널 및 캠페인별로 데이터를 분류할 수 있습니다.
 * 방문 횟수 또는 고유 방문자 수를 보려면 각 막대 위로 마우스를 가져갑니다.
 
 이 차트가 답하는 질문:

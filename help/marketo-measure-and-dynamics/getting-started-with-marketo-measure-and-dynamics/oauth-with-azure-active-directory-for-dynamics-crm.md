@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37357059
-description: OAuth 포함 [!DNL Azure Active Directory] dynamics CRM용 - [!DNL Marketo Measure] - 제품 설명서
+description: OAuth 포함 [!DNL Azure Active Directory] dynamics CRM용 - [!DNL Marketo Measure]
 title: OAuth 포함 [!DNL Azure Active Directory] Dynamics CRM용
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 1. 화면의 지시에 따라 새 응용 프로그램을 만듭니다. 웹 애플리케이션이든 공용 클라이언트(모바일 및 데스크탑) 애플리케이션이든 상관없지만, 웹 애플리케이션이나 공용 클라이언트 애플리케이션에 대한 특정 예제를 원하는 경우 [빠른 시작](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
    a. 이름은 애플리케이션 이름이며 최종 사용자에게 애플리케이션에 대해 설명합니다.\
    b. 지원되는 계정 유형에서 조직 디렉터리와 개인 Microsoft 계정의 계정을 선택합니다.\
-   c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용자가 로그인할 수 있는 앱의 기본 URL입니다. For example, `http://localhost:12345`. 공용 클라이언트(모바일 및 데스크탑)의 경우 Azure AD는 토큰 응답을 반환하는 데 이 토큰을 사용합니다. 응용 프로그램에 해당하는 값을 입력합니다. For example, `http://MyFirstAADApp`.
+   c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용자가 로그인할 수 있는 앱의 기본 URL입니다. 예를 들어, `http://localhost:12345`. 공용 클라이언트(모바일 및 데스크탑)의 경우 Azure AD는 토큰 응답을 반환하는 데 이 토큰을 사용합니다. 응용 프로그램에 해당하는 값을 입력합니다. 예를 들어, `http://MyFirstAADApp`.
 
 1. 등록을 완료하면 Azure AD는 응용 프로그램에 고유한 클라이언트 식별자(응용 프로그램 ID)를 할당합니다. 다음 섹션에서 이 값이 필요하므로 애플리케이션 페이지에서 이 값을 복사합니다.
 
@@ -126,7 +126,7 @@ c. 애플리케이션 ID URI는 대상 웹 API(보안 리소스)의 URL입니다
 
 1. Dynamics 연결 옆에 있는 CRM 섹션에서 키 아이콘을 클릭합니다.
 
-1. 키를 클릭하면 팝업이 나타나고 등록 흐름과 유사한 클라이언트 ID, 클라이언트 암호 및 애플리케이션 ID URI를 입력하라는 메시지가 표시됩니다.
+1. 키를 클릭하면 팝업이 나타나고 등록 흐름과 유사하게 클라이언트 ID, 클라이언트 암호 및 애플리케이션 ID URI를 입력하라는 메시지가 표시됩니다.
 
    ![](assets/re-authenticating-3.png)
 

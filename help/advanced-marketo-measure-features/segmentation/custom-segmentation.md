@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874604
-description: 사용자 정의 세분화 - [!DNL Marketo Measure] - 제품 설명서
+description: 사용자 정의 세분화 - [!DNL Marketo Measure]
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 * Opportunities 세그먼트 규칙에 대해 이 프로세스를 반복합니다
 * 기타 카테고리는 정의되지 않은 터치포인트를 캡처하는 기본 세그먼트입니다. 기본 세그먼트의 이름을 변경할 수 있습니다
 * 전체 범주 또는 범주 내의 개별 규칙을 삭제하려면 휴지통 아이콘을 클릭합니다. 또는 연필 아이콘을 클릭하여 범주 또는 규칙을 편집합니다
-* 이(가) 있는 것을 볼 수 있습니다.[!UICONTROL Save]&quot;버튼 및 &quot;저장 및 처리&quot; 버튼. 저장 버튼을 사용하여 작업 및 시간 경과에 따른 변경 사항을 저장합니다. 다음을 확인한 경우에만 저장 및 처리 단추를 사용합니다.
+* 이(가) 있습니다.[!UICONTROL Save]&quot;버튼 및 &quot;저장 및 처리&quot; 버튼. 저장 버튼을 사용하여 작업 및 시간 경과에 따른 변경 사항을 저장합니다. 다음을 확인한 경우에만 저장 및 처리 단추를 사용합니다.
 
    * 매핑이 정확합니다
    * 범주 내에 추적할 모든 세그먼트를 추가했습니다.

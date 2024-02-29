@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874580
-description: Marketo Measure을 Salesforce에 연결 - [!DNL Marketo Measure] - 제품 설명서
+description: Marketo Measure을 Salesforce에 연결 - [!DNL Marketo Measure]
 title: Marketo Measure을 Salesforce에 연결
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 0%
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. CRM 연결을 선택하라는 팝업 창이 나타납니다. 다음을 클릭합니다. **[!UICONTROL Connect]** 단추 옆에 있는 [!DNL Salesforce] 로고.
+1. CRM 연결을 선택하라는 팝업 창이 나타납니다. 클릭 **[!UICONTROL Connect]** 다음 옆에 [!DNL Salesforce] 로고.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 
-1. 을(를) 묻는 마지막 팝업 창이 나타납니다. [!DNL Salesforce] 자격 증명, 샌드박스 또는 프로덕션 정보를 입력하고 **[!UICONTROL Authorize]** 계정을 연결할 대상 [!DNL Marketo Measure].
+1. 을(를) 묻는 마지막 팝업 창이 나타납니다 [!DNL Salesforce] 자격 증명, 샌드박스 또는 프로덕션 정보를 입력하고 **[!UICONTROL Authorize]** 계정을 연결할 대상 [!DNL Marketo Measure].
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## API 크레딧 사용 {#api-credits-usage}
 
-Marketo Measure은 CRM 통합 작업을 사용하여 통합 사용자를 통해 클라이언트의 Salesforce와 상호 작용합니다. 이 사용자를 통한 모든 데이터 교환은 Salesforce API 크레딧을 활용합니다. 통합 사용자에게 크레딧 할당량을 할당할 수 있는 기능이 있으며, 이는 과도한 API 호출을 규제하는 역할을 합니다. 이 할당량 또는 제한은 24시간마다 재설정됩니다.
+Marketo Measure은 CRM 통합 작업을 사용하여 통합 사용자를 통해 클라이언트의 Salesforce와 상호 작용합니다. 이 사용자를 통한 모든 데이터 교환은 Salesforce API 크레딧을 사용합니다. 통합 사용자에게 크레딧 할당량을 할당할 수 있는 기능이 있으며, 이는 과도한 API 호출을 규제하는 역할을 합니다. 이 할당량 또는 제한은 24시간마다 재설정됩니다.
 
 다음을 통해 Marketo Measure에서 이 제한에 액세스할 수 있습니다. **내 계정** > **설정** > **CRM** > **일반** > **일별 CRM API 제한**&#x200B;을 추가하여 테넌트에 맞게 구성할 수 있습니다.
 

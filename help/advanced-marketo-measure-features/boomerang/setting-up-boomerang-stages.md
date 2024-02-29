@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874767
-description: 부메랑 단계 설정 - [!DNL Marketo Measure] - 제품 설명서
+description: 부메랑 단계 설정 - [!DNL Marketo Measure]
 title: 부메랑 단계 설정
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >부메랑 기능은 계층 3 고객에게만 활성화됩니다. 더 높은 계정 계층을 요청하려면 Adobe 계정 팀(계정 관리자)에 문의하십시오.
 
-활성화하려면 [!UICONTROL Boomerang] 계정의 단계입니다. 계정 관리자여야 합니다. 또는 다음을 통해 활성화할 수 있습니다. [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. 기능이 활성화되면 다음 지침에 따라 설정하십시오.
+활성화하려면 [!UICONTROL Boomerang] 계정의 단계입니다. 계정 관리자여야 합니다. 또는 다음을 통해 활성화할 수 있습니다. [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. 기능이 활성화되면 다음 지침에 따라 설정합니다.
 
 ## 부메랑 스테이지 설정 {#boomerang-stage-setup}
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![](assets/6-1.png)
 
-1. 사용자 지정 모델에 포함한 부메랑 단계에 할당할 속성 비율을 설정합니다. 모든 단계에 대한 전체 속성이 100%까지 추가되는지 확인하십시오. 클릭 **[!UICONTROL Save and Process]**.
+1. 사용자 지정 모델에 포함한 부메랑 단계에 할당할 속성 비율을 설정합니다. 모든 단계에 대한 전체 속성이 최대 100%까지 추가되는지 확인합니다. 클릭 **[!UICONTROL Save and Process]**.
 
    ![](assets/7-1.png)
 

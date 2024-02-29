@@ -3,7 +3,7 @@ description: 속성 수익 대시보드 - [!DNL Marketo Measure] - 제품
 title: 속성 수익 대시보드
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 월별/분기별/연도별로 채널별로 세그먼트화된 총 속성 매출을 표시하는 스택 막대 차트.
 
-* 드릴다운 및 위로 기능을 활용하여 데이터를 월, 분기 또는 연도로 분류할 수 있습니다.
+* 드릴다운 및 위로 기능을 사용하여 월별, 분기별 또는 연도별로 데이터를 분류할 수 있습니다.
 * 막대 세그먼트 또는 막대 사이의 공간을 마우스로 가리키면 자세한 정보가 표시됩니다.
 
 **이 차트가 답하는 질문:**

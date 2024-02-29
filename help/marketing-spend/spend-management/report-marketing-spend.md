@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656737
-description: 보고서 마케팅 지출 - [!DNL Marketo Measure] - 제품 설명서
+description: 보고서 마케팅 지출 - [!DNL Marketo Measure]
 title: 보고서 마케팅 지출
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---

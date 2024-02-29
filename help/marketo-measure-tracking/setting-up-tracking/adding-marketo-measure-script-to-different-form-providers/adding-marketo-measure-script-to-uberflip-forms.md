@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874749
-description: 추가 중 [!DNL Marketo Measure] 스크립팅 대상 [!DNL Uberflip] FORMS - [!DNL Marketo Measure] - 제품 설명서
+description: 추가 중 [!DNL Marketo Measure] 스크립팅 대상 [!DNL Uberflip] FORMS - [!DNL Marketo Measure]
 title: 추가 중 [!DNL Marketo Measure] 스크립팅 대상 [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---

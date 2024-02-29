@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874777
-description: 사용자 지정 모델 설정 - 필드 내역 추적 활성화 - [!DNL Marketo Measure] - 제품 설명서
+description: 사용자 지정 모델 설정 - 필드 내역 추적 활성화 - [!DNL Marketo Measure]
 title: 사용자 지정 모델 설정 - 필드 내역 추적 활성화
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---

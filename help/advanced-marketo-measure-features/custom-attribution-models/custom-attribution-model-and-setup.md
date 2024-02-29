@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874779
-description: 사용자 지정 속성 모델 및 설정 - [!DNL Marketo Measure] - 제품 설명서
+description: 사용자 지정 속성 모델 및 설정 - [!DNL Marketo Measure]
 title: 사용자 지정 속성 모델 및 설정
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
    로그인 대상 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. 다음으로 이동 [!UICONTROL My Account] > [!UICONTROL Settings] > 및 CRM 섹션에서 다음을 선택합니다. **[!UICONTROL Stage Mapping]**.
 
-   여기에서 다음을 선택하여 포함할 잠재 고객/연락처 및 영업 기회 단계를 선택해야 합니다. **[!UICONTROL Include in Model]** 상자.
+   그런 다음 다음을 선택하여 포함할 가망 고객/연락처 및 기회 단계를 선택합니다. **[!UICONTROL Include in Model]** 상자.
 
    >[!NOTE]
    >
@@ -37,13 +37,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >_모두_ 단계가 비활성 상태이거나 더 이상 사용되지 않는 경우에도 Lead/Contacts 및 Opportunity 단계가 여기에 표시됩니다. [!DNL Salesforce]. 이러한 단계를 제거하려면 다음에서 하드 삭제해야 합니다. [!DNL Salesforce].
+   >_모두_ 단계가 비활성 상태이거나 더 이상 사용되지 않는 경우에도 Lead/Contacts 및 Opportunity 단계가 여기에 표시됩니다. [!DNL Salesforce]. 이러한 단계를 제거하려면 다음에서 하드 삭제해야 합니다 [!DNL Salesforce].
 
    단계를 선택했으면 다음을 클릭하십시오. **[!UICONTROL Save & Process]** 페이지 하단에 있는 단추입니다. 이제 단계에 다음이 표시됩니다. **[!UICONTROL Attribution Settings]** 탭하면 각 단계에 속성 백분율을 할당할 수 있습니다. 사용자 지정 단계는 마케팅 성능 세트에 수요 폭포 내의 잠재 고객 또는 기회 단계로도 표시됩니다.
 
    모델에 포함할 다른 단계가 있지만 에는 없는 경우 [!UICONTROL Lead/Contact Status] 또는 [!UICONTROL Opportunity Stage] 목록에서는 CRM의 필드를 기반으로 사용자 지정 단계를 정의할 수 있습니다.
 
-   아래 예에서는 날짜 필드를 사용하여 사용자 정의 &quot;MQL&quot; 단계를 정의합니다. 규칙은 단순히 MQL 날짜 필드가 비어 있지 않은 경우 MQL로 간주해야 하고 사용자 지정 모델에 포함되어야 한다고 명시합니다. 맞춤형 단계가 생성되면 판매 주기의 진행에 따라 정렬하는 것도 중요합니다.
+   아래 예에서는 날짜 필드를 사용하여 사용자 정의 &quot;MQL&quot; 단계를 정의합니다. 규칙은 단순히 MQL 날짜 필드가 비어 있지 않으면 MQL로 간주해야 하고 사용자 지정 모델에 포함되어야 한다고 명시합니다. 또한 사용자 정의 단계가 만들어지면 이를 정렬하여 판매 주기의 진행을 따르도록 하는 것이 중요합니다.
 
    ![](assets/2-1.png)
 
@@ -51,7 +51,7 @@ ht-degree: 0%
    >
    >사용자 정의 필드에 대한 내역 추적을 활성화하는 것을 잊지 마십시오.
 
-사용자 지정 모델에서 사용자 지정 필드를 사용하는 경우 CRM에서 필드 기록 추적을 활성화해야 합니다. 필드 내역 추적을 활성화하는 방법에 대한 지침은 [여기를 클릭하십시오.](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
+사용자 지정 모델에 사용자 지정 필드를 사용하는 경우 CRM에서 필드 기록 추적을 활성화해야 합니다. 필드 내역 추적을 활성화하는 방법에 대한 지침은 [사용자 지정 모델 설정: 필드 내역 추적 활성화](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
 
 1. 사용자 지정 모델의 속성 비율을 결정합니다.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    맨 오른쪽 열에 &quot;&quot;라는 레이블이 지정됨&#x200B;**[!UICONTROL Custom]**,&quot; 사용자 지정 속성 모델에서 각 단계에 대한 백분율 가중치를 설정할 수 있습니다. 사용자 지정 열 아래에 각 단계의 값을 입력하기만 하면 됩니다. 그러면 **[!UICONTROL Save and Reprocess]** 완료되면
 
-   &quot;사용자 지정&quot; 열 왼쪽에는 **[!DNL Marketo Measure]머신 러닝 모델**. 머신 러닝 모델은 각 사용자 지정 단계에서 발생한 사항에 따라 거래 승인에 대한 상대적 중요도에 따라 속성 가중치를 계산합니다. 머신 러닝 모델에 대한 자세한 내용은 [여기를 클릭하십시오.](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   의 왼쪽에 _사용자 정의_ 열은 **[!DNL Marketo Measure]머신 러닝 모델**. 머신 러닝 모델은 각 사용자 지정 단계에서 발생한 사항에 따라 거래 승인에 대한 상대적 중요도에 따라 속성 가중치를 계산합니다. 머신 러닝 모델에 대한 자세한 내용은 [기계 학습 모델 FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 단계 단계는 여전히 터치 포인트로 추적되며 CRM에서 터치 포인트 위치로 표시됩니다. 사용자 지정 모델이 없어도 양식 채우기가 있는 경우 이러한 터치포인트는 여전히 중간 터치 속성을 받을 수 있지만(중간 터치는 10%), 웹 방문만 있는 경우 속성 크레딧이 0입니다.
 
-아래에서 볼 수 있듯이 Diligence 단계는 단계 단계와 별도로 포함되었습니다. 즉, 위치에 Diligence가 포함된 터치포인트가 있지만 해당 터치포인트는 사용자 지정 모델이 활성화되어 있지 않은 경우(최대 10%) 중간 터치 속성 크레딧만 받습니다.
+아래에서 볼 수 있듯이 Diligence 단계는 단계 단계와 별도로 포함되었습니다. 즉, 위치에 Diligence가 포함된 터치포인트가 있지만 해당 터치포인트는 사용자 지정 모델이 활성화되지 않은 경우(최대 10%) 중간 터치 속성 크레딧만 받습니다.
 
 ![](assets/5.png)
 

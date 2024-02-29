@@ -1,10 +1,10 @@
 ---
-description: 통합 권한 개요 - [!DNL Marketo Measure] - 제품 설명서
+description: 통합 권한 개요 - [!DNL Marketo Measure]
 title: 통합 권한 개요
 feature: APIs, Integration
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1286'
 ht-degree: 1%
 
 ---

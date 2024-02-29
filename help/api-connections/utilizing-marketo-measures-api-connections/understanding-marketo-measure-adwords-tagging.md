@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874678
-description: 이해 [!DNL Marketo Measure] AdWords 태그 지정 - [!DNL Marketo Measure] - 제품 설명서
+description: 이해 [!DNL Marketo Measure] AdWords 태그 지정 - [!DNL Marketo Measure]
 title: 이해 [!DNL Marketo Measure] AdWords 태그 지정
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure] 는 광고 기록이 중단되거나 삭제될 위험 없이 모든 광고에 대한 매개 변수를 추가하거나 뺄 수 있으므로 계정 수준, 캠페인 수준 또는 광고 그룹 수준 추적 템플릿을 사용할 것을 권장합니다.
 
-두 개의 추적 템플릿이 있습니다 [!DNL Marketo Measure] 는 를 사용할 것을 권장합니다. 적합한 버전을 결정하려면 다음 사항을 사용하십시오.
+두 개의 추적 템플릿이 있습니다 [!DNL Marketo Measure] 는 를 사용할 것을 권장합니다. 적합한 버전을 확인하려면 다음을 사용하십시오.
 
 * 모든 광고 URL에 &quot;?&quot;가 있는 경우 여기에서 다음 URL을 사용합니다.
 

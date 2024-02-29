@@ -1,11 +1,11 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate 개요 - [!DNL Marketo Measure] - 제품 설명서'
+description: '[!DNL Marketo Measure] Ultimate 개요 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate 개요'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 >
 >A [!DNL Marketo Measure Ultimate] 프로덕션 인스턴스를 AEP 프로덕션 샌드박스 인 [!DNL Marketo Measure Ultimate] 개발자 인스턴스를 AEP 개발자 샌드박스에 매핑해야 합니다.
 
-샌드박스 매핑 선택 사항이 저장되면 지금은 애플리케이션에서 변경할 수 없습니다. 변경하려면 다음으로 연락하십시오. [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+샌드박스 매핑 선택 사항이 저장되면 지금은 애플리케이션에서 변경할 수 없습니다. 변경하려면 다음 대상에게 문의하십시오. [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 지정된 데이터 소스의 지정된 엔티티(예: 계정)에 대한 데이터는 하나의 데이터 세트에만 들어갈 수 있습니다. 각 데이터 세트는 하나의 데이터 흐름에만 포함될 수 있습니다. 위반을 하면 런타임에 데이터 흐름이 중지됩니다.
 

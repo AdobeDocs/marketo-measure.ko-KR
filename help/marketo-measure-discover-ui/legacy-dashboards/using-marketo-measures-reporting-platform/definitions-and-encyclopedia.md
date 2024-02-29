@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874662
-description: 정의 및 백과사전 - [!DNL Marketo Measure] - 제품 설명서
+description: 정의 및 백과사전 - [!DNL Marketo Measure]
 title: 정의 및 백과사전
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6083'
+source-wordcount: '6137'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Dimension: 채널
 
 드릴인하여 더 작은 날짜 차원에서 데이터를 봅니다.
 
-**기회**
+**영업 기회**
 
 `11.` 속성 모델을 기반으로 한 총 Opportunity 수 날짜 유형 &quot;터치포인트 날짜&quot;를 선택한 경우 이 날짜 유형을 사용하여 Opportunity 레코드 내에서 일부 터치포인트를 제외할 수 있으므로 일부 카운트가 가능합니다.
 
@@ -873,7 +873,7 @@ Dimension: 채널
 
 기본 데이터 세부 사항을 드릴다운하려면 집계된 숫자를 누릅니다.
 
-**기회**
+**영업 기회**
 
 `2.` 속성 터치포인트가 있는 모든 기회 목록. 각 영업 기회에 대한 정보에는 영업 기회 금액, 연락처 수 및 속성 접점 수가 포함됩니다.
 

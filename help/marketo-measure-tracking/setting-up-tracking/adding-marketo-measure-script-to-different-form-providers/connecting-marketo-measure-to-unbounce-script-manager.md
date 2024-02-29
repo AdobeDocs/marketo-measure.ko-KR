@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874743
-description: 연결 중 [!DNL Marketo Measure] 스크립트 관리자 바운스를 해제하려면 - [!DNL Marketo Measure] - 제품 설명서
+description: 연결 중 [!DNL Marketo Measure] 스크립트 관리자 바운스를 해제하려면 - [!DNL Marketo Measure]
 title: 연결 중 [!DNL Marketo Measure] 스크립트 관리자의 바운스를 해제하려면
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 1%
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 

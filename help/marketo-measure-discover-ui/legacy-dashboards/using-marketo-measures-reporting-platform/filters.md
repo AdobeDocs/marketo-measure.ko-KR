@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874656
-description: 필터 - [!DNL Marketo Measure] - 제품 설명서
+description: 필터 - [!DNL Marketo Measure]
 title: 필터
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ _다음에서 사용됨: 개요, 마케팅 지출, 광고 ROI, 계정 기반 마
 
 보드에 적용할 단일 속성 모델(첫 번째 터치, 리드 생성 터치, U자형, W자형, 전체 경로 또는 사용자 지정 모델)을 선택합니다. 전체 경로 및 맞춤형 모델 은 모든 계층에서 사용할 수 없습니다.
 
-**Campaign**
+**캠페인**
 
 _다음에서 사용됨: 개요, 성장, 광고 ROI, 웹 트래픽, CMO, 유료 미디어, 컨텐츠 마케팅, 여권_
 
@@ -73,7 +73,7 @@ _다음에서 사용됨: 개요, 성장, 마케팅 지출, 광고 ROI, 계정 �
 
 날짜 필터에 연결된 사용할 날짜 유형을 선택합니다. 기본 날짜 유형은 보드에 따라 다릅니다. Touchpoint Date는 마케팅 활동이 발생한 날짜를 나타내며, Created Date는 CRM에서 Lead 또는 Contact 또는 Opportunity가 생성된 날짜이고 Close Date는 Opportunity가 종료된 날짜입니다.
 
-**차원**
+**Dimension**
 
 _다음에서 사용됨: 유료 미디어_
 

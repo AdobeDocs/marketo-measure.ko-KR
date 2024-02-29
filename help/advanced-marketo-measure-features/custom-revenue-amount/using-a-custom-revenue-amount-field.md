@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874793
-description: 사용자 정의 수익 금액 필드 사용 - [!DNL Marketo Measure] - 제품 설명서
+description: 사용자 정의 수익 금액 필드 사용 - [!DNL Marketo Measure]
 title: 사용자 정의 수익 금액 필드 사용
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 0%
 1. 워크플로우 작업을 추가합니다. 이 선택 목록을 &quot;(으)로 설정[!UICONTROL New Field Update].&quot;
    ![](assets/using-a-custom-revenue-amount-field-14.png)
 
-1. 여기에서 필드 정보를 작성할 수 있습니다. &quot;이름&quot; 필드에서는 다음 이름을 사용하는 것이 좋습니다. &quot;[!DNL Marketo Measure] Opp 금액.&quot; &quot;고유 이름&quot;은 &quot;이름&quot; 필드를 기반으로 자동으로 채워집니다. &quot;업데이트할 필드&quot; 선택 목록에서 &quot;[!DNL Marketo Measure] Opportunity Amount.&quot; 필드를 선택한 후 &quot;필드 변경 후 워크플로우 규칙 재평가&quot; 상자를 선택합니다. &quot;새 필드 값 지정&quot;에서 &quot;새 값을 설정하려면 수식 사용&quot;을 선택합니다. 빈 상자에 사용자 정의 금액 필드의 API 이름을 놓습니다. 클릭 **[!UICONTROL Save]**.
+1. 여기에서 필드 정보를 입력합니다. &quot;이름&quot; 필드에서는 다음 이름을 사용하는 것이 좋습니다. &quot;[!DNL Marketo Measure] Opp 금액.&quot; &quot;고유 이름&quot;은 &quot;이름&quot; 필드를 기반으로 자동으로 채워집니다. &quot;업데이트할 필드&quot; 선택 목록에서 &quot;[!DNL Marketo Measure] Opportunity Amount.&quot; 필드를 선택한 후 &quot;필드 변경 후 워크플로우 규칙 재평가&quot; 상자를 선택합니다. &quot;새 필드 값 지정&quot;에서 &quot;새 값을 설정하려면 수식 사용&quot;을 선택합니다. 빈 상자에 사용자 정의 금액 필드의 API 이름을 놓습니다. 클릭 **[!UICONTROL Save]**.
 
    ![](assets/using-a-custom-revenue-amount-field-15.png)
 
@@ -104,6 +104,6 @@ ht-degree: 0%
 
    이 단계를 완료하고 나면 워크플로우를 트리거하여 의 새 값을 갖도록 기회를 업데이트해야 합니다. [!UICONTROL custom opportunity] 필드.
 
-   SFDC 내의 Data Loader를 통해 기회를 실행하여 이를 수행할 수 있습니다. 에서 데이터 로더 사용에 대한 세부 사항을 확인하십시오. [이 문서](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   SFDC 내의 Data Loader를 통해 기회를 실행하여 이를 수행할 수 있습니다. 에서 데이터 로더 사용에 대한 세부 정보 찾기 [이 문서](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
 질문이 있는 경우 주저하지 말고 Adobe 계정 팀(계정 관리자)이나 [[!DNL Marketo] 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

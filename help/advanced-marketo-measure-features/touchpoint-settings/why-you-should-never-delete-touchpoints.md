@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874560
-description: 터치포인트를 삭제하지 말아야 하는 이유 - [!DNL Marketo Measure] - 제품 설명서
+description: 터치포인트를 삭제하지 말아야 하는 이유 - [!DNL Marketo Measure]
 title: 터치포인트를 삭제하지 말아야 하는 이유
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ ht-degree: 0%
 
 ![](assets/1.png)
 
-SFDC에서 터치포인트가 삭제된 경우 다음으로 문의하십시오. [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 데이터 다시 가져오기를 요청합니다.
+SFDC에서 터치포인트가 삭제된 경우 다음으로 문의하십시오. [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 데이터 다시 가져오기를 요청합니다.

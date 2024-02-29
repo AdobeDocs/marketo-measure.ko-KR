@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874688
-description: CRM 캠페인 비용 - [!DNL Marketo Measure] - 제품 설명서
+description: CRM 캠페인 비용 - [!DNL Marketo Measure]
 title: CRM 캠페인 비용
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 가장 [!DNL Marketo Measure] 고객은 CRM 캠페인을 사용하여 오프라인 마케팅 활동을 추적합니다. 이러한 캠페인을 활용하는 마케터는 CRM 내에서 비용을 모니터링하므로 이 기능을 사용하면 마케터가 보다 쉽게 작업을 수행할 수 있습니다 [!DNL Marketo Measure] 이러한 비용을 읽고 내에서 보고된 마케팅 지출에 적용하려면 [!DNL Marketo Measure]. 지금까지 고객은 매월 각 캠페인에 대한 비용을 수동으로 입력해야 했지만, 필요한 정보가 제공됩니다. [!DNL Marketo Measure] 은 마케터가 지출과 ROI를 분석하는 데 더 많은 시간을 소비할 수 있도록 이 프로세스를 자동화할 수 있습니다.
 
-## 사용 가능 {#availability}
+## 가용성 {#availability}
 
 이 기능은 모든 사용자가 사용할 수 있습니다. [!DNL Salesforce] 및 Dynamics 고객
 

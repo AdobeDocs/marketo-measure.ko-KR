@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874775
-description: 기계 학습 모델 FAQ - [!DNL Marketo Measure] - 제품 설명서
+description: 기계 학습 모델 FAQ - [!DNL Marketo Measure]
 title: 기계 학습 모델 FAQ
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Middle Touches에 10% 속성 크레딧을 할당하는 것은 모든 속성 모�
 
 내 속성 분포는 언제 변경해야 합니까?
 
-속성 비율 변경의 의미와 사용자 지정 모델에 포함할 단계에 대해 논의하려면 계정 관리자에게 문의하십시오. 각 [!DNL Salesforce] 그리고 판매 프로세스는 고유하며, 사용자 정의 모델이 정확하게 모델링되도록 하고자 합니다.
+계정 관리자에게 문의하여 속성 비율 변경의 의미와 사용자 지정 모델에 포함할 단계에 대해 논의하십시오. 각 [!DNL Salesforce] 그리고 판매 프로세스는 고유하며, 사용자 정의 모델이 정확하게 모델링되도록 하고자 합니다.
 
 고객의 일반적인 트렌드를 확인했습니다.
 

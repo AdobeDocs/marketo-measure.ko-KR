@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874769
-description: "[!DNL Marketo Measure] Insights 구성 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Measure] Insights 구성 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Insights 구성"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---

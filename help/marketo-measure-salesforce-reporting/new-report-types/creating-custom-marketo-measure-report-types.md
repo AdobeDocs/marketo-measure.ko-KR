@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874539
-description: 사용자 지정 만들기 [!DNL Marketo Measure] 보고서 유형 - [!DNL Marketo Measure] - 제품 설명서
+description: 사용자 지정 만들기 [!DNL Marketo Measure] 보고서 유형 - [!DNL Marketo Measure]
 title: 사용자 지정 만들기 [!DNL Marketo Measure] 보고서 유형
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---

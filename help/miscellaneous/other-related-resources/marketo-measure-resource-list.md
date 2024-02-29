@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356962
-description: "[!DNL Marketo Measure] 리소스 목록 - [!DNL Marketo Measure] - 제품 설명서"
+description: "[!DNL Marketo Measure] 리소스 목록 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] 리소스 목록"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 1%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 **[[!DNL Marketo Measure] SFDC에서 보고](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45분)**
 
-이 교육 과정 시리즈는 [!DNL Marketo Measure] salesforce에 설치된 스톡 보고서. 이러한 보고서는 수행할 대부분의 보고에 대한 기반으로 사용됩니다. [!DNL Marketo Measure] 데이터.
+이 교육 과정 시리즈는 [!DNL Marketo Measure] salesforce에 설치된 스톡 보고서. 이러한 보고서는 수행할 대부분의 보고에 대한 기반으로 사용됩니다 [!DNL Marketo Measure] 데이터.
 
 다룬 항목:
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656735
-description: 개요 - [!DNL Marketo Measure] - 제품 설명서
+description: 개요 - [!DNL Marketo Measure]
 title: 개요
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 오늘, [!DNL Marketo Measure] 애플리케이션은 단일 통화(USD로 가정)만 지원하는 반면, 전 세계 고객이 자사의 기업 및 사용자 통화에 대해 보고해야 한다는 것을 알고 있습니다. 이 기능을 사용하여에서 보고된 지출 또는 판매 수익을 볼 때 CRM에서 사용되는 것과 동일한 통화 간에 전환할 수 있습니다. [!DNL Marketo Measure].
 
-## 사용 가능 {#availability}
+## 가용성 {#availability}
 
 Tier 2 이상
 

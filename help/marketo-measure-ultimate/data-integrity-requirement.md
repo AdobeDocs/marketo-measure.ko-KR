@@ -1,11 +1,11 @@
 ---
-description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항 - [!DNL Marketo Measure] - 제품 설명서'
+description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항 - [!DNL Marketo Measure]'
 title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: b638563259705635667dd0e938fb388da6d78276
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1491'
 ht-degree: 17%
 
 ---

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874632
-description: 마케팅 채널별 영업 기회 손실 종료됨 - [!DNL Marketo Measure] - 제품 설명서
+description: 마케팅 채널별 영업 기회 손실 종료됨 - [!DNL Marketo Measure]
 title: 마케팅 채널별 영업 기회 손실 마감
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---

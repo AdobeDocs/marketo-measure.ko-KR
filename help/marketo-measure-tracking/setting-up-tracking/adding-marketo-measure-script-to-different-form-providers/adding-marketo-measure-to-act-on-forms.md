@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874753
-description: 추가 중 [!DNL Marketo Measure] Forms에 실제 적용 - [!DNL Marketo Measure] - 제품 설명서
+description: 추가 중 [!DNL Marketo Measure] Forms에 실제 적용 - [!DNL Marketo Measure]
 title: 추가 중 [!DNL Marketo Measure] Forms에 실제 적용
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---

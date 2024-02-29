@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874660
-description: FAQ - [!DNL Marketo Measure] - 제품 설명서
+description: FAQ - [!DNL Marketo Measure]
 title: FAQ
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Growth Board의 기능 중 하나는 트렌드 차트를 채널 또는 캠페인
 
 **필터 연산자에서 &quot;사용자 속성과 일치함&quot;은 무엇입니까?**
 
-사용자 속성은 비즈니스 ID, 이름 또는 성과 같은 사용자에게 적용되지만, 사용자는 사용자(고객)이지 고객이 아니므로 사용자 속성은에서 실제로 사용할 수 없습니다. [!DNL Marketo Measure Discover] 경험. 이 옵션은 무시해도 됩니다. 고객에게 적용되지 않는 필터를 제거하는 더 나은 사용자 지정 필터 경험을 개발하고 있습니다.
+사용자 속성은 비즈니스 ID, 이름 또는 성과 같은 사용자에게 적용되지만, 사용자는 사용자(고객)이지 고객이 아니므로 사용자 속성은에서 실제로 사용할 수 없습니다. [!DNL Marketo Measure Discover] 경험. 고객에게 적용되지 않는 필터를 제거하는 더 나은 사용자 지정 필터 경험을 개발하고 있습니다.
 
 **일부 기본 날짜 범위가 다음 달 1일을 거치는 이유는 무엇입니까?**
 
