@@ -4,9 +4,9 @@ description: 속성을 통한 Doubleclick Campaign Manager 보기 구성 - [!DNL
 title: 속성을 통해 Doubleclick Campaign Manager 보기 구성
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->를 사용하는 경우 [!DNL Marketo Measure] DoubleClick Campaign Manager 통합을 사용하려면 [API 연결](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) 따라서 광고 해결을 위한 캠페인 및 크리에이티브의 세부 정보를 다운로드할 수 있습니다.
+>를 사용하는 경우 [!DNL Marketo Measure] 및 [!DNL DoubleClick Campaign Manager] 통합하려면 다음 항목이 필요합니다. [API 연결](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) 따라서 광고 해결을 위한 캠페인 및 크리에이티브의 세부 정보를 다운로드할 수 있습니다.
 
-Doubleclick Campaign Manager를 사용한 추적을 통해 보기에서 보다 세부적인 통찰력을 얻으려면 추적 픽셀을 구성해야 합니다.
+를 사용하여 추적을 통해 보기에서 보다 세부적인 통찰력을 얻기 시작합니다. [!DNL Doubleclick Campaign Manager], 추적 픽셀을 구성해야 합니다.
 
 다음을 수행하세요. [여기를 클릭하십시오](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) 에 대한 자세한 내용은 [!DNL Marketo Measure] 기여도 분석 기능을 통해 보기.
 
@@ -29,7 +29,7 @@ DCM에서 상위 및 하위 계층을 활용하는 경우 노출 추적을 위�
 
 ## 이미지 태그를 추가하는 방법 {#how-to-add-the-image-tag}
 
-Advertiser 설정 아래의 Doubleclick에 태그를 추가하면 노출 이벤트 태그를 만들게 됩니다.
+에 태그를 추가합니다. [!DNL Doubleclick] 광고주 설정 아래에 노출 이벤트 태그를 만들 수 있습니다.
 
 1. 다음 코드를 1x1 이미지 픽셀로 추가합니다.
 
@@ -37,7 +37,7 @@ Advertiser 설정 아래의 Doubleclick에 태그를 추가하면 노출 이벤�
 
 1. 추가되면 다음과 같이 구분 기호가 매핑되는지 확인합니다. 태그가 적용되면 자동으로 설정되어야 합니다.
 
-   v = %eadv! 광고주 Id 확장\
+   v = %eadv! [!DNL Expand] 광고주 Id\
    a = %eaid! 광고 Id 확장\
    c = %ecid! 크리에이티브 ID 확장\
    s = %esid! 사이트 Id 확장\

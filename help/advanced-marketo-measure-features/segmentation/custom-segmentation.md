@@ -4,9 +4,9 @@ description: 사용자 정의 세분화 - [!DNL Marketo Measure] - 제품 설명
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 이 기능을 사용하기 전에 필터링할 터치포인트 정보를 파악합니다. 레코드 종류에 대해 CRM의 정확한 값을 사용해야 합니다. 설정은 마케팅 단계의 맨 위에서 맨 아래로 터치포인트를 필터링합니다.
 
-2단계 - 로그인하여 세그먼트 기능을 찾습니다.
+2단계 - 로그인하고 [!UICONTROL Segments] 기능.
 
 * 다음으로 이동 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} 및 로그인
 * 아래 [!UICONTROL My Account] 탭, 선택 [!UICONTROL Settings]
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 4단계 - 필터 규칙을 추가합니다.
 
-* 먼저 범주 이름을 입력합니다. 비즈니스 유형 이 예입니다. 완료되면 확인 표시를 클릭합니다. 세그먼트를 추가하려면 먼저 카테고리 이름을 입력해야 합니다.
+* 먼저 범주 이름을 입력합니다. [!UICONTROL Business Type] 예. 완료되면 확인 표시를 클릭합니다. 세그먼트를 추가하려면 먼저 카테고리 이름을 입력해야 합니다.
 * 더하기 기호를 클릭하여 세그먼트를 추가합니다.
 * 세그먼트 이름을 입력합니다. 예를 들어 신규 비즈니스, 파트너, 갱신 또는 상향 판매를 위한 하나의 세그먼트가 있을 수 있습니다
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 >
 >공식 필드는 규칙 내에서 사용할 수 없으며 선택 목록에 표시되지 않습니다. 수식은 백그라운드에서 계산되며 레코드를 수정하지 않으므로 [!DNL Marketo Measure] 레코드가 규칙에 맞는지 여부를 감지할 수 없습니다.
 
-* 값 옵션은 드롭다운이 아니며 값을 수동으로 입력해야 합니다. Salesforce 조직의 값을 확인하십시오.
+* 다음 [!UICONTROL Value] 옵션은 드롭다운이 아니며 값을 수동으로 입력해야 합니다. Salesforce 조직의 값을 확인하십시오.
 * Opportunities 세그먼트 규칙에 대해 이 프로세스를 반복합니다
 * 기타 카테고리는 정의되지 않은 터치포인트를 캡처하는 기본 세그먼트입니다. 기본 세그먼트의 이름을 변경할 수 있습니다
 * 전체 범주 또는 범주 내의 개별 규칙을 삭제하려면 휴지통 아이콘을 클릭합니다. 또는 연필 아이콘을 클릭하여 범주 또는 규칙을 편집합니다
-* &quot;저장&quot; 버튼과 &quot;저장 및 처리&quot; 버튼이 있습니다. 저장 버튼을 사용하여 작업 및 시간 경과에 따른 변경 사항을 저장합니다. 다음을 확인한 경우에만 저장 및 처리 단추를 사용합니다.
+* 이(가) 있는 것을 볼 수 있습니다.[!UICONTROL Save]&quot;버튼 및 &quot;저장 및 처리&quot; 버튼. 저장 버튼을 사용하여 작업 및 시간 경과에 따른 변경 사항을 저장합니다. 다음을 확인한 경우에만 저장 및 처리 단추를 사용합니다.
 
    * 매핑이 정확합니다
    * 범주 내에 추적할 모든 세그먼트를 추가했습니다.

@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] 기여도 분석을 통한 보기 FAQ - [!D
 title: "[!DNL Marketo Measure] 속성 FAQ를 통해 보기"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 9%
+source-wordcount: '389'
+ht-degree: 1%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 9%
 
 ## 속성을 통한 보기란 무엇입니까? {#what-is-view-through-attribution}
 
-다음 [!DNL Marketo Measure] 뷰스루 속성 기능에는 속성 모델에 광고 노출 횟수를 포함하는 기능이 포함됩니다.
+다음 [!DNL Marketo Measure] [!UICONTROL View Through Attribution] 기능에는 속성 모델에 광고 노출 횟수를 포함하는 기능이 포함됩니다.
 
-## 기여도 분석을 통한 보기가 중요한 이유는 무엇입니까? {#why-is-view-through-attribution-important}
+## 이유는 다음과 같습니다 [!UICONTROL View Through Attribution] 중요해요? {#why-is-view-through-attribution-important}
 
 지금까지 리타겟팅 또는 노출 광고는 마케터가 속성 분석에서 고려하기 어려웠습니다. 잠재 고객은 시간이 지날수록 타겟팅 재광고에 노출될 수 있지만, 실제로 이러한 광고 중 하나를 클릭하고 동일한 세션 내에서 양식을 작성할 가능성은 거의 없습니다. 이제 기여도 분석을 통한 보기 솔루션에는 누군가 노출 광고에 노출되었는지 여부를 추적할 수 있는 기능이 있습니다. 이 접점은 개별 기록에 추가되며 잠재 고객이 고객이 될 때까지 계속 진행됩니다. 이러한 정보를 통해 마케터는 이제 리타겟팅 광고의 성능에 대한 더 나은 통찰력을 얻을 수 있습니다.
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 ## 지원되는 광고 플랫폼은 무엇입니까? {#which-ad-platforms-are-supported}
 
-현재 Doubleclick Campaign Manager 를 지원합니다.
+현재 지원 [!DNL Doubleclick] 캠페인 관리자.
 
 ## 속성은 어떻게 계산됩니까? {#how-is-the-attribution-calculated}
 
@@ -110,7 +110,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-## Salesforce에서는 어떤 모습일까요? {#what-will-this-look-like-in-salesforce}
+## 이 모양은 어떻게 보입니까 [!DNL Salesforce?] {#what-will-this-look-like-in-salesforce}
 
 [!DNL Marketo Measure] 디스플레이 광고에 노출된 모든 리드에 단일 노출 터치포인트를 만듭니다. 사용자가 웹 사이트(FT)에 처음 와서 양식(LC)을 작성한 후에도 사용자를 매핑할 수 있습니다. 터치 포인트에는 광고 캠페인 이름/ID, 광고 ID, 광고 컨텐츠, 사이트 이름/ID, 배치 이름/ID, 마케팅 채널, 지역, 레퍼러 페이지 등의 광고 정보가 포함됩니다.
 

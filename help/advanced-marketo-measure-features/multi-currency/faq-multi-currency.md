@@ -4,9 +4,9 @@ description: FAQ (다중 통화) - [!DNL Marketo Measure] - 제품 설명서
 title: FAQ (다중 통화)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 **어떤 기능 비트를 활성화할지 어떻게 알 수 있습니까?**
 
-이 기능에는 두 개의 서로 다른 기능 비트가 있습니다. 둘 다 설정: 여러 통화 및 고급 통화 의 CRM 섹션에 있는 일반 탭에 있습니다. 고객이 단일 통화 이상을 사용하는 경우 여러 통화를 활성화해야 하지만 고객이 을 사용하는 경우 추가 기능 비트 고급 통화를 활성화할 수 있습니다 [!DNL Salesforce]사용자가 전환율에 대한 시간 기반 범위를 설정할 수 있는 의 &quot;고급 통화 관리&quot; 기능입니다.
+이 기능에는 두 개의 서로 다른 기능 비트가 있습니다. 둘 다 다음에 있습니다. [!UICONTROL General] 설정: 여러 통화 및 고급 통화 의 CRM 섹션 탭. 고객이 단일 통화 이상을 사용하는 경우 여러 통화를 활성화해야 하지만 고객이 을 사용하는 경우 추가 기능 비트 고급 통화를 활성화할 수 있습니다 [!DNL Salesforce]사용자가 전환율에 대한 시간 기반 범위를 설정할 수 있는 의 &quot;고급 통화 관리&quot; 기능입니다.
 
 안타깝게도 고급 기능이 이미 켜져 있는 경우 고객이 단순 또는 고급 간을 언제 전환하는지 알 수 없습니다. 따라서 고객은 고급 통화 설정을 CRM 설정에 맞게 수동으로 유지해야 합니다. 이는 전환이 올바르지 않은 경우 고객에게 명백해야 하며, 이는 적용할 전환 수준을 알지 못함을 의미합니다.
 

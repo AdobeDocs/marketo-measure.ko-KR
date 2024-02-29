@@ -4,9 +4,9 @@ description: 접점 필드 - [!DNL Marketo Measure] - 제품 설명서
 title: 접점 필드
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1947'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 추출
 
-추출 연산자는 캠페인 필드, 리드 필드 또는 고급 사용 사례와 같은 다른 위치에서 필드를 통해 값을 가져옵니다. [랜딩 페이지에서 사용자 지정 매개 변수 추출](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+다음 [!UICONTROL extracts] 연산자는 캠페인 필드, 리드 필드 또는 고급 사용 사례와 같은 다른 위치에서 필드를 통해 값을 가져옵니다. [랜딩 페이지에서 사용자 지정 매개 변수 추출](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **예 #1**
 
@@ -97,9 +97,9 @@ ht-degree: 0%
 랜딩 페이지가 더 복잡해지고 추적 매개 변수가 여러 개 있으므로, 다음과 같이 여러 터치포인트 필드를 작성하고 값을 여러 번 추출해야 할 수 있습니다.
 `https://www.adobe.com/blog/marketing-revenue-reporting-overview?trackID=123456&country=US&campaign_ID=7890`.
 
-**목표:** 매개 변수의 해당 값을 사용하여 &quot;Target 국가&quot; 및 &quot;사용자 지정 캠페인 ID&quot;에 대한 여러 계산된 필드를 만듭니다.
+**목표:** 매개변수의 해당 값을 사용하여 &quot;대상 국가&quot; 및 &quot;사용자 정의 캠페인 ID&quot;에 대한 여러 계산된 필드를 생성합니다.
 
-* 계산된 필드를 만들고 &quot;Target 국가&quot;로 레이블 지정
+* 계산된 필드를 만들고 &quot;대상 국가&quot;로 레이블 지정
 * Touchpoint.Session.LandingPage 필드 검색으로 시작하여 규칙을 정의합니다.
 * 매개 변수에서 값을 추출해야 하므로 연산자 &quot;extracts&quot;를 사용합니다.
 * &quot;US&quot; 값을 추출하려면 값을 &quot;country=(\w{2})&quot;로 정의합니다.
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 **다음에 매핑**
 
-연산자에 매핑하면 다른 값으로 변환하거나 그룹화해야 하는 값 테이블이 만들어집니다. 일반적으로 이는 코드가 친숙한 이름을 나타내고 해당 친숙한 이름에 매핑되어야 하는 키 값 형식을 취합니다.
+다음 [!UICONTROL maps to] 연산자는 다른 값으로 변환하거나 그룹화해야 하는 값 테이블을 만듭니다. 일반적으로 이는 코드가 친숙한 이름을 나타내고 해당 친숙한 이름에 매핑되어야 하는 키 값 형식을 취합니다.
 
 **예 #1**
 
@@ -145,18 +145,18 @@ ht-degree: 0%
    * **(** 추출의 시작을 표시합니다.
 
       * 4만 추출하므로 앞 자리 숫자에만 여는 괄호가 있다
-
    * **)** 추출의 끝을 표시합니다.
 
       * 우리는 4만 추출하므로 앞 숫자에만 닫힌 괄호가 있다
-
    * **\d** 은(는) &quot;숫자&quot;를 추출하고 있음을 알려줍니다.
    * **{2}** 추출 중인 문자 수입니다.
+
+
 
 * 클릭 [!UICONTROL Save]. 새 필드를 다음 규칙에 사용할 수 있으려면 먼저 저장해야 합니다!
 * 다음으로, 우리는 첫 숫자에 대해 가능한 모든 값을 친숙한 이름에 매핑하려고 한다
 * 계산된 필드를 만들고 &quot;Region_Name&quot; 레이블을 지정합니다.
-* 추출된 필드 검색부터 시작하여 규칙을 정의합니다. 이 경우 Touchpoint.Region
+* 추출된 필드 검색부터 시작하여 규칙을 정의합니다. 이 경우, [!DNL Touchpoint.Region]
 * 연산자 사용[!UICONTROL maps to]&quot;각 숫자에 대한 매핑을 해당 값에 생성하려고 하기 때문에
 * 각 매핑을 나열할 테이블이 표시됩니다. 결국 다음과 같이 표시됩니다.
 * 위의 매핑 및 URL에 따라 이 랜딩 페이지가 있는 터치포인트에 대한 &quot;Region_Value&quot;는 &quot;EMEA&quot;가 됩니다.
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 **연결**
 
-연결 연산자는 여러 필드의 값을 단일 필드로 결합합니다. 이 메서드는 을 만들기 위해 다양한 필드에 데이터를 가져오는 사용자 지정 값을 만드는 데 유용합니다
+다음 [!UICONTROL concatenates] 연산자는 여러 필드의 값을 단일 필드로 결합합니다. 이 메서드는 을 만들기 위해 다양한 필드에 데이터를 가져오는 사용자 지정 값을 만드는 데 유용합니다
 
 **예 #1**
 
@@ -221,7 +221,7 @@ Segment__c 및 Grade__c에 대한 Opportunity 객체에는 보고 목적으로 �
 
 **추출 표현식이 유효하고 올바른 값을 가져오는지 확인하려면 어떻게 해야 합니까?**
 
-온라인 도구([https://regex101.com/](https://regex101.com/){target="_blank"}) 표현식을 실행하고 테스트할 수 있습니다. 표현식이 유효하면 녹색, 유효하지 않으면 빨간색으로 표시됩니다. 또한 오른쪽 상단의 설명 상자가 도움이 되며 추출하려는 내용을 알려줍니다.
+온라인 도구([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) 표현식을 실행하고 테스트할 수 있습니다. 표현식이 유효하면 녹색, 유효하지 않으면 빨간색으로 표시됩니다. 또한 [!UICONTROL explanation] 오른쪽 상단의 상자는 도움이 되며 추출하려는 내용을 알려줍니다.
 
 ![](assets/twelve.png)
 

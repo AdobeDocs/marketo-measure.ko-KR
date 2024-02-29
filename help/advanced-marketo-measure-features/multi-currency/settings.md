@@ -4,16 +4,16 @@ description: 설정 - [!DNL Marketo Measure] - 제품 설명서
 title: 설정
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 1%
 
 ---
 
 # 설정 {#settings}
 
-CRM의 일반 설정 탭에 있는 이 기능에 연결된 두 개의 별도 기능 비트인 여러 통화 및 고급 통화가 있습니다.
+CRM에 있는 이 기능에 연결된 두 개의 별도 기능 비트가 있습니다 [!UICONTROL General Settings] 탭: 복수 통화 및 고급 통화.
 
 **여러 통화**: 고객이 단일 통화 이상을 사용하는 경우 활성화됩니다.
 

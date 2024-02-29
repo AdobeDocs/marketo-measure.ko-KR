@@ -3,7 +3,7 @@ description: 세그먼테이션 우수 사례 - [!DNL Marketo Measure] - 제품 
 title: 세그먼테이션 우수 사례
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 로 푸시될 때 [!DNL Salesforce], 세그먼트 값은 &quot;세그먼트&quot; 필드에 기록되며 모든 구매자 터치포인트 보고서 유형 내에 있습니다. 이를 통해 두 플랫폼 간에 동일한 보고를 수행할 수 있습니다. 세그먼트는 터치 포인트의 &#39;터치 포인트 세부 사항&#39;에서도 찾을 수 있습니다.
 
-검색으로 푸시하면 세그먼트가 모든 보드에 있는 필터 드롭다운 메뉴에 사용 가능한 필터로 표시됩니다.
+로 푸시될 때 [!UICONTROL Discover], 세그먼트는 모든 보드에 있는 필터 드롭다운 메뉴에 사용 가능한 필터로 나타납니다.
 
 ## 우수 사례 {#best-practice}
 
