@@ -4,9 +4,9 @@ description: 오프라인 캠페인 동기화 - [!DNL Marketo Measure]
 title: 오프라인 캠페인 동기화
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 요약하자면, 다음을 사용하는 경우 [!UICONTROL Bulk Update Touchpoint Date] 버튼을 클릭하고 터치포인트 날짜를 이벤트 날짜로 변경합니다. [!DNL Marketo Measure] 은 업로드 날짜가 아닌 실제 이벤트 날짜에 대한 터치포인트를 생성합니다.
 
-기존 캠페인의 모든 캠페인 멤버에 대한 날짜를 업데이트할 수도 있습니다. 이 작업을 수행할 때는 터치포인트의 날짜가 구성원의 상호 작용 날짜인지 확인해야 합니다. 간단히 대량 업데이트 구매자 접점 날짜 를 클릭하고 캠페인 멤버 목록을 적절하게 필터링한 다음 &quot;[!UICONTROL Select Date]캠페인 멤버 목록 위에 &quot;옵션을 놓고 이벤트가 발생한 날짜와 동일한 날짜를 추가합니다.
+기존 캠페인의 모든 캠페인 멤버에 대한 날짜를 업데이트할 수도 있습니다. 이 작업을 수행할 때는 터치포인트의 날짜가 구성원의 상호 작용 날짜인지 확인해야 합니다. 일괄 업데이트 구매자 접점 날짜 를 클릭하고 캠페인 멤버 목록을 적절하게 필터링한 다음[!UICONTROL Select Date]캠페인 멤버 목록 위에 &quot;옵션을 놓고 이벤트가 발생한 날짜와 동일한 날짜를 추가합니다.
 
 >[!CAUTION]
 >

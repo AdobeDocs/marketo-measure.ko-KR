@@ -2,9 +2,9 @@
 description: 참여 대시보드 - [!DNL Marketo Measure] - 제품
 title: 참여 대시보드
 feature: Reporting
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * 얼마나 많은 사람들이 약혼했나요? 참여 사용자당 평균 터치 횟수는 얼마입니까?
 * 특정 채널/하위 채널/캠페인 내에서 터치된 사람과 터치포인트 수는 어떻게 비교됩니까?
-* 해당 채널 또는 하위 채널을 통해 몇 개의 터치포인트가 제공되었습니까? 시간이 지남에 따라 어떻게 변했습니까?
+* 주어진 채널 또는 서브채널로 몇 개의 터치포인트가 존재했습니까? 시간이 지남에 따라 어떻게 변했습니까?
 
 >[!NOTE]
 >

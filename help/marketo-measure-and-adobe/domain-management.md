@@ -3,9 +3,9 @@ description: 도메인 관리 - [!DNL Marketo Measure]
 title: 도메인 관리
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Admin Console에 도메인이 추가되면 [!DNL Marketo Measure] 이 레코드�
 
 ![](assets/domain-management-2.png)
 
-다음에서 **[!UICONTROL Integration]** > **[!UICONTROL Domains]** 페이지에는 Admin Console에 등록한 모든 도메인이 상태와 함께 표시됩니다. 각 도메인을 활성화하거나 비활성화할 수 있습니다. 도메인이 활성화되어 있으면 [!DNL Marketo Measure] 추적은 해당 도메인에 표시되는 모든 트래픽을 수집합니다. 도메인이 비활성화된 경우 [!DNL Marketo Measure] 은 해당 도메인에서 오는 모든 트래픽을 무시하고 터치포인트 또는 기타 데이터를 만들지 않습니다. [!DNL Marketo Measure] 도메인 비활성화 확인 및 파급 효과 경고:
+다음에서 **[!UICONTROL Integration]** > **[!UICONTROL Domains]** 페이지에는 Admin Console에 등록한 모든 도메인이 상태와 함께 표시됩니다. 각 도메인을 활성화하거나 비활성화할 수 있습니다. 도메인이 활성화되어 있으면 [!DNL Marketo Measure] 추적은 해당 도메인에 표시되는 모든 트래픽을 수집합니다. 도메인이 비활성화된 경우 [!DNL Marketo Measure] 은 해당 도메인에서 오는 트래픽을 무시하고 터치포인트 또는 기타 데이터를 만들지 않습니다. [!DNL Marketo Measure] 도메인 비활성화 확인 및 결과 경고:
 
 ![](assets/domain-management-3.png)
 
@@ -55,7 +55,7 @@ Admin Console 상태는 다음과 같이 분류됩니다.
 
 **Admin Console에서 도메인이 제거되면 어떻게 됩니까?**
 
-Admin Console에서 도메인이 제거되면 [!DNL Marketo Measure] 은 도메인을 삭제된 것으로 표시합니다. [!DNL Marketo Measure] 은(는) 이 도메인에서 트래픽 추적을 즉시 중단하지만 이전에 수집된 데이터는 제거하지 않습니다.
+Admin Console에서 도메인이 제거되면 [!DNL Marketo Measure] 은 도메인을 삭제된 것으로 표시합니다. [!DNL Marketo Measure] 이 도메인에서 즉시 트래픽 추적을 중지하지만 이전에 수집된 데이터는 제거되지 않습니다.
 
 **도메인을 활성화할 수 없는 이유는 무엇입니까?**
 

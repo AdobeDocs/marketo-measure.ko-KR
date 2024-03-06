@@ -3,9 +3,9 @@ description: Adobe Experience Cloud 인터페이스 개요 - [!DNL Marketo Measu
 title: Adobe Experience Cloud 인터페이스 개요
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Adobe Experience Cloud 인터페이스는 Adobe Experience Cloud 애플리케이
 
 ## 사용자 흐름 {#user-flow}
 
-Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 클릭하고 을 선택합니다. **[!DNL Marketo Measure]**.
+Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 클릭하고 을 선택합니다 **[!DNL Marketo Measure]**.
 
 ![](assets/unified-shell-overview-4.png)
 
@@ -24,7 +24,7 @@ Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 
 >
 >구독 중인 Adobe Experience Cloud 제품에 따라 드롭다운 메뉴가 다르게 보일 수 있습니다.
 
-만약.. _아님_ Adobe Experience Cloud 제품에 이미 로그인되어 있으면에 직접 로그인합니다. [!DNL Marketo Measure] 여기에서 확인할 수 있습니다. [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+다음과 같은 경우 _아님_ Adobe Experience Cloud 제품에 이미 로그인되어 있으면에 직접 로그인합니다. [!DNL Marketo Measure] 여기에서 확인할 수 있습니다. [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## 새로운 기능 {#new-features}
 

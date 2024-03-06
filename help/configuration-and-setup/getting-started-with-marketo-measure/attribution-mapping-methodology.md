@@ -4,9 +4,9 @@ description: 속성 매핑 방법론 - [!DNL Marketo Measure]
 title: 속성 매핑 방법론
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 영업 기회 기본 담당자 역할 매핑 {#opportunity-primary-contact-role-mapping}
 
-단순히 영업 기회에 대한 연락처 역할을 살펴보는 것 이상으로, [!DNL Marketo Measure] 은 Opportunity 의 Primary Contact 만 살펴보기 위해 더욱 집중할 수 있습니다. 이 설정을 염두에 두고, [!DNL Marketo Measure] 은 영업 기회의 기본 연락처와 연결된 마케팅 접점만 잡고 해당 정보를 해당 특정 영업 기회의 속성 스토리에 푸시합니다. 아래 이미지를 참조하십시오.
+단순히 영업 기회에 대한 연락처 역할을 살펴보는 것 이상으로, [!DNL Marketo Measure] 은 Opportunity 의 Primary Contact 만 살펴보기 위해 더욱 집중할 수 있습니다. 이 설정을 염두에 두고, [!DNL Marketo Measure] 에서는 특정 영업 기회의 기본 연락처에 연결된 마케팅 접점을 가져와서 해당 정보를 특정 영업 기회의 속성 스토리로 푸시하기만 합니다. 아래 이미지를 참조하십시오.
 
 ![](assets/3.png)
 

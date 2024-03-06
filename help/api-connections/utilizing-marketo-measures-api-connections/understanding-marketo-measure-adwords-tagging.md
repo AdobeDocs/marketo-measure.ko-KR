@@ -4,9 +4,9 @@ description: 이해 [!DNL Marketo Measure] AdWords 태그 지정 - [!DNL Marketo
 title: 이해 [!DNL Marketo Measure] AdWords 태그 지정
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 하지만 추적 템플릿을 찾을 수 없으면 [!DNL Marketo Measure] 이(가) 다음을 수행합니다.
 
 * 모든 광고 대상 URL에서 [!DNL Marketo Measure] 매개 변수.
-* 발견되면 가셔도 좋습니다.
+* 만약 발견되면, 당신은 갈 수 있습니다.
 * 찾을 수 없는 경우, [!DNL Marketo Measure] 는 광고 대상 URL의 끝에 매개 변수를 추가합니다. 새 광고의 경우, [!DNL Marketo Measure] 광고 대상 URL을 만든 후 2시간 이내에 매개 변수를 추가합니다.
 * 자동 태그 지정을 활성화하기 전에 추적 템플릿을 준비하여 [!DNL Marketo Measure] 를 첨부하고 광고 내역을 재설정하지 못하도록 할 수 있습니다.
 

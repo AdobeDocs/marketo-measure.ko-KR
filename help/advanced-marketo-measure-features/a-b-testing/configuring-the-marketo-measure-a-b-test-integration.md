@@ -4,9 +4,9 @@ description: 구성 [!DNL Marketo Measure] A/B 테스트 통합 - [!DNL Marketo 
 title: 구성 [!DNL Marketo Measure] A/B 테스트 통합
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---

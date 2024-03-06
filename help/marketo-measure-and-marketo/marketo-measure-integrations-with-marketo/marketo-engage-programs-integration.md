@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure]
 title: "[!DNL Marketo Engage] 프로그램 통합"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    ![](assets/nine.png)
 
-   구성원 수를 클릭하여 프로그램 내에서 적격한 Marketo 사용자 ID 목록을 볼 수 있습니다.
+   멤버 수를 클릭하여 프로그램 내에서 적격한 Marketo 사용자 ID 목록을 볼 수 있습니다.
 
    ![](assets/ten.png)
 
@@ -177,4 +177,4 @@ Wayne Enterprises 마케팅 팀은 &quot;이메일 클릭&quot; 활동 유형에
 
 **프로그램 또는 활동 사용 여부를 어떻게 알 수 있습니까?**
 
-다음 [!DNL Marketo Engage] 프로그램 통합은 개인이 프로그램의 프로그램 구성원인지 여부에 따라 터치포인트를 생성하는 간단한 방법입니다. 개인이 특정 프로그램 상태를 변경하는 시간을 기준으로 규칙을 정의하려면 [!DNL Marketo Engage] 활동 통합은 원하는 설정, 특히 &quot;진행 상태 변경&quot; 활동 유형이 됩니다.
+다음 [!DNL Marketo Engage] 프로그램 통합은 개인이 프로그램의 프로그램 구성원인지 여부에 따라 터치포인트를 생성하는 간단한 방법입니다. 개인이 특정 프로그램 상태를 변경하는 시간을 기준으로 규칙을 정의하려는 경우 [!DNL Marketo Engage] 활동 통합은 원하는 설정, 특히 &quot;진행 상태 변경&quot; 활동 유형이 됩니다.

@@ -4,9 +4,9 @@ description: 접점 필드 - [!DNL Marketo Measure]
 title: 접점 필드
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 기능 활성화 {#enabling-the-feature}
 
-다음에서 [!DNL Marketo Measure] 설정 메뉴에서 터치포인트 필드 페이지로 이동합니다. 여기에서 을 선택하여 기능을 활성화할 수 있습니다. **예** 아래에 **계산된 필드 사용**. 이 기능이 활성화되면 터치포인트 필드를 자유롭게 만들 수 있습니다.
+다음에서 [!DNL Marketo Measure] 설정 메뉴에서 터치포인트 필드 페이지로 이동합니다. 여기에서 을 선택하여 기능을 활성화할 수 있습니다. **예** 아래에 **계산된 필드 사용**. 이 기능이 활성화되면 터치포인트 필드를 만들 수 있습니다.
 
 ![](assets/one.png)
 
@@ -70,7 +70,7 @@ ht-degree: 0%
    * **)** 추출의 끝을 표시합니다.
    * **\w** 은(는) 0~9가 포함된 &quot;단어&quot;를 추출하고 있음을 나타냅니다.
    * **+** 는 문자에 대한 제한 없이 매개 변수의 전체 값을 추출합니다.
-   * 백슬래시가 아닌 슬래시를 사용하고 있습니다.
+   * 백슬래시가 아닌 슬래시를 사용하고 있다는 점을 유의하십시오
 
 ![](assets/three.png)
 

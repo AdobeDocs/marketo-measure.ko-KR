@@ -4,9 +4,9 @@ description: Marketo Measure 프레임워크 - Marketo Measure - 제품 설명�
 title: Marketo Measure 프레임워크
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Marketo Measure JavaScript는 잠재 고객/잠재 고객이 조직과 맺고 �
 >
 >Marketo Measure JS를 추가하는 방법에 대한 지침은 [여기를 클릭하십시오](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-Marketo Measure의 JS는 웹 방문(익명 웹 방문 포함), 일반 트래픽/페이지 탐색, 컨텐츠 다운로드 및 양식 제출의 데이터를 캡처합니다. 이 데이터는 CRM에 푸시되고 각 마케팅 상호 작용은 터치포인트로 표시됩니다.
+Marketo Measure의 JS는 웹 방문(익명 웹 방문 포함), 일반 트래픽/페이지 탐색, 콘텐츠 다운로드 및 양식 제출의 데이터를 캡처합니다. 이 데이터는 CRM에 푸시되고 각 마케팅 상호 작용은 터치포인트로 표시됩니다.
 
 ## CRM 통합 {#crm-integrations}
 
@@ -38,7 +38,7 @@ Marketo Measure은 CRM과 통합되어 Marketo Measure JS에서 캡처하는 모
 
 ![](assets/1-2.png)
 
-CRM에 Marketo Measure 데이터를 표시하면 각 접점과 관련된 세부적인 정보를 확인하고 채널의 실적을 파악하는 보고서를 생성할 수 있습니다.
+CRM에 Marketo Measure 데이터를 표시하면 각 터치포인트와 관련된 세부적인 정보를 보고 채널의 실적을 파악하는 보고서를 생성할 수 있습니다.
 
 ## 서드파티 애플리케이션 {#third-party-applications}
 

@@ -4,9 +4,9 @@ description: 영업 기회가 없는 연락처에 대한 보고서 유형 - [!DN
 title: 영업 기회가 없는 연락처에 대한 보고서 유형
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -35,4 +35,4 @@ Opportunity 와 연관되지 않은 Purchaser Touchpoints 가 있는 Contact에 
 
    ![](assets/4.jpg)
 
-1. 클릭 **[!UICONTROL Save]** 넌 끝났어!
+1. 클릭 **[!UICONTROL Save]** 그리고 넌 끝났어!

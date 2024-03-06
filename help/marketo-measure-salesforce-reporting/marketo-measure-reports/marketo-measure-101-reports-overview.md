@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] 101 보고서 개요 - [!DNL Marketo Measur
 title: "[!DNL Marketo Measure] 101 보고서 개요"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ _구매자 접점 보고서 폴더 또는 6개를 찾을 수 없는 경우_[!DNL
 
 &quot;구매자 접점 보고서&quot; 폴더는 시작하는 데 도움이 되도록 설계되었습니다. [!DNL Marketo Measure] 보고 - 실행 가능한 보고서의 경우 보고 요구 사항에 맞게 보고서를 사용자 정의해야 합니다. 보고서 내의 레코드(및 관련 터치포인트)가 보고 목표에 맞게 정렬되도록 하려면 필요한 필터를 추가해야 합니다.
 
-를 잘 알고 있으면 다음과 같이 하십시오._[!DNL Marketo Measure]101_&quot;보고서, 사용자 정의 보고 요구 사항을 더 많이 충족하기 위해 사용자 정의 보고서 유형에서 다시 만들 수 있습니다. 만들기 [[!DNL Marketo Measure] 사용자 지정 보고서 유형](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) 을(를) 사용하면 다른 CRM 보고서에서 일반적으로 사용할 수 있는 사용자 지정 필드를 가져올 수 있습니다. 이렇게 하면 다음을 수행하는 데 도움이 됩니다. [!DNL Marketo Measure] 다음 수준으로 보고!
+를 잘 알고 있는 경우&#x200B;_[!DNL Marketo Measure]101_&quot;보고서, 사용자 정의 보고 요구 사항을 더 많이 충족하기 위해 사용자 정의 보고서 유형에서 다시 만들 수 있습니다. 만들기 [[!DNL Marketo Measure] 사용자 지정 보고서 유형](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) 을(를) 사용하면 다른 CRM 보고서에서 일반적으로 사용할 수 있는 사용자 지정 필드를 가져올 수 있습니다. 이렇게 하면 다음을 수행하는 데 도움이 됩니다. [!DNL Marketo Measure] 다음 수준으로 보고!

@@ -2,9 +2,9 @@
 description: 오류 알림 - [!DNL Marketo Measure]
 title: 오류 알림
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
       <td>API 비활성화(_D)</td>
       <td>CRM 가져오기 중 오류 발생 : API_DISABLED : 이 사용자에 대해 API 호출이 비활성화되었습니다.</td>
       <td>Marketo Measure 사용자에 대해 API 권한이 비활성화되었습니다.</td>
-      <td>에서 다음 Salesforce 설명서를 참조하십시오. <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">api 액세스를 활성화하는 방법</a>.</td>
+      <td>에서 다음 Salesforce 설명서를 참조하십시오. <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">api 액세스를 활성화하는 방법</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -54,7 +54,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td>INVALID_ANALYTICS_ADOBE</td>
-      <td>AdobeAnalytics 내보내기 중 오류 발생: INVALID_UPLOAD_ANALYTICS_CONFIGURATION : 오류: ADOBE이 허용되지 않습니다. 업로드하기 전에 데이터 소스 스키마를 확인합니다. 데이터 소스 Id:1234</td>
+      <td>Adobe Analytics 내보내기 중 오류 발생: INVALID_UPLOAD_ANALYTICS_CONFIGURATION : 오류: ADOBE이 허용되지 않습니다. 업로드하기 전에 데이터 소스 스키마를 확인합니다. 데이터 소스 Id:1234</td>
       <td>Adobe Analytics 통합이 올바르게 구성되지 않았습니다.</td>
       <td>올바른 구성을 위해 다음 도움말 문서를 참조하십시오.
         <ul>
@@ -73,7 +73,7 @@ ht-degree: 0%
       <p>
       광고 가져오기 중 오류 발생: INVALID_CURRENCY_ISO_CODE : 1234 계정의 통화 XXX는 Marketo Measure에서 지원되지 않습니다.</td>
       <td>지원되지 않는 통화가 발견되었습니다.</td>
-      <td>알림에 표시된 소스 시스템(Ad, Crm, Marketo)에서 레코드와 연결된 통화에 지원되고 유효한 통화가 있는지 확인합니다. 지원되는 통화는 ISO 통화 표준에서 파생됩니다.</td>
+      <td>알림에 표시된 소스 시스템(광고, Crm, Marketo)에서 레코드와 연결된 통화에 지원되는 유효한 통화가 있는지 확인합니다. 지원되는 통화는 ISO 통화 표준에서 파생됩니다.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -127,7 +127,7 @@ ht-degree: 0%
           Crm 가져오기 중 오류 발생: NULL_EMPTY_CURRENCY_ISO_CODE: RecordId 1234에 대해 MultiCurrency가 활성화된 경우 통화 ISO 코드가 NULL이거나 비어 있습니다.
       </td>
       <td>통화는 지원되는 ISO 통화 코드여야 합니다.</td>
-      <td>알림에 표시된 소스 시스템(Ad, Crm, Marketo)에서 레코드와 연결된 통화에 지원되고 유효한 통화가 있는지 확인합니다. 지원되는 통화는 ISO 통화 표준에서 파생됩니다.</td>
+      <td>알림에 표시된 소스 시스템(광고, Crm, Marketo)에서 레코드와 연결된 통화에 지원되는 유효한 통화가 있는지 확인합니다. 지원되는 통화는 ISO 통화 표준에서 파생됩니다.</td>
     </tr>
     <tr>
       <td>OPERATION_TO_LARGE</td>

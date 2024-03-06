@@ -4,9 +4,9 @@ description: 사용자 지정 캠페인 동기화 - [!DNL Marketo Measure]
 title: 사용자 지정 캠페인 동기화
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---

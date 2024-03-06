@@ -4,20 +4,20 @@ description: 마케팅 채널 비용 - [!DNL Marketo Measure]
 title: 마케팅 채널 비용
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
 
 # 마케팅 채널 비용 {#marketing-channel-costs}
 
-를 사용할 때의 가장 기본적인 이점 중 하나 [!DNL Marketo Measure] 은 원하는 만큼 세분화하여 마케팅 노력을 매출에 미치는 영향과 직접 연결할 수 있는 기능입니다. 접점 수준에서 투자 수익률을 볼 수 있다. 이러한 이점을 활용하려면 채널 비용을 [!DNL Marketo Measure] 앱. ROI 보고서는 자동으로 만들어지고 **마케팅 ROI 대시보드** 위치: [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+를 사용할 때의 가장 기본적인 이점 중 하나 [!DNL Marketo Measure] 은 원하는 만큼 세분화하여 마케팅 노력을 매출에 미치는 영향과 직접 연결할 수 있는 기능입니다. 접점 수준에서 투자 수익률을 볼 수 있다. 이 이점을 활용하려면 채널 비용을 [!DNL Marketo Measure] 앱. ROI 보고서는 자동으로 만들어지고 **마케팅 ROI 대시보드** 위치: [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [지침으로 직접 이동하려면 여기를 클릭하십시오.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-다음 [!DNL Marketo Measure] 마케팅 지출 기능을 사용하면 고객이 모든 채널, 하위 채널 및 캠페인에 지출을 업로드할 수 있습니다. 고객이 추가한 데이터가 많을수록 매출 기여도 분석 대시보드에 표시될 수 있는 ROI 보고가 늘어납니다.
+다음 [!DNL Marketo Measure] 마케팅 지출 기능을 사용하면 고객이 모든 채널, 하위 채널 및 캠페인에 지출을 업로드할 수 있습니다. 고객이 추가한 데이터가 많을수록 ROI 보고가 매출 기여도 분석 대시보드에 더 많이 표시됩니다.
 
 직접 광고 연결에서 보고 및 가져온 비용은 가장 세분화된 수준에서 자동으로 투입되며 업로드할 필요가 없습니다. 여기에는 Google AdWords, Bing Ads, Doubleclick 및 Facebook과의 현재 통합이 포함됩니다.
 
@@ -27,13 +27,13 @@ ht-degree: 0%
 
 **캠페인별 지출**
 
-가장 세분화된 수준에서 고객은 해당 채널 내에 그룹화된 개별 캠페인별로 지출을 입력할 수 있습니다. CRM 캠페인의 경우, [!DNL Marketo Measure] 은(는) CRM의 오프라인 캠페인 지출을 이 테이블에 매핑하는 데 도움이 되는 별도의 열로 캠페인 ID를 가져옵니다. 이 수준에서 지출을 추가하면 고객이 Campaign ROI를 보고 Campaign별 성과를 최적화할 수 있습니다.
+가장 세분화된 수준에서 고객은 해당 채널 내에 그룹화된 개별 캠페인별로 비용을 입력할 수 있습니다. CRM 캠페인의 경우, [!DNL Marketo Measure] 에서는 CRM의 오프라인 캠페인 지출을 이 테이블에 매핑하는 데 도움이 되는 별도의 열로 캠페인 ID를 가져옵니다. 이 수준에서 지출을 추가하면 고객이 Campaign ROI를 보고 Campaign별 성과를 최적화할 수 있습니다.
 
 모든 캠페인의 합계는 서브채널 또는 채널에 입력된 값까지 합산할 필요는 없지만 서브채널 또는 채널에 입력된 값보다 클 수는 없습니다. 합계가 서브채널 또는 채널에 입력된 값보다 작은 경우 [!DNL Marketo Measure] 은(는) 차이점을 커버하고 공백을 채우도록 &quot;기타&quot;에 대한 행을 자동으로 추가합니다.
 
 **하위 채널별 지출**
 
-상위 수준에서 고객은 채널 아래에 그룹화된 하위 채널별로 지출을 입력할 수 있습니다. 이 수준에서 지출을 추가하면 고객이 하위 채널 ROI를 보고 하위 채널별 성능을 최적화할 수 있습니다.
+상위 수준에서 고객은 채널 아래에 그룹화된 하위 채널별 비용을 입력할 수 있습니다. 이 수준에서 지출을 추가하면 고객이 하위 채널 ROI를 보고 하위 채널별 성능을 최적화할 수 있습니다.
 
 모든 하위 채널의 합계는 채널에 입력한 모든 값까지 합산할 필요는 없지만 채널에 입력한 모든 값보다 클 수는 없습니다. 합계가 채널에 입력한 값보다 작은 경우 [!DNL Marketo Measure] 은(는) 차이점을 커버하고 공백을 채우도록 &quot;기타&quot;에 대한 행을 자동으로 추가합니다.
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 **날짜 선택**
 
-기본 날짜 범위는 시작 날짜부터 [!DNL Marketo Measure] 이번 달까지. 원가가 정확한지 확인하기 위해, 미래의 달에는 원가를 입력할 수 없지만, 파트너쉽을 체결하기 전 달의 원가를 입력할 수 있습니다. [!DNL Marketo Measure].
+기본 날짜 범위는 시작 날짜부터 [!DNL Marketo Measure] 이번 달까지. 원가가 정확한지 확인하기 위해, 미래 달에는 원가를 입력할 수 없지만, 파트너쉽을 체결하기 전 달에는 원가를 입력할 수 있습니다. [!DNL Marketo Measure].
 
 **필터**
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure] 에는 을 사용하거나 확장할 수 있는 13개의 기본 채널이 포함되어 있습니다. 또한 고유한 마케팅 구조에 맞게 최대 40개의 온라인 및 오프라인 채널을 만들 수 있습니다. 이를 기반으로 총 200개의 하위 채널을 만들어 이러한 온라인 및 오프라인 채널도 지원할 수 있습니다.
 
-[!DNL Marketo Measure] 는 Bing Ads 및 Google AdWords와 같이 API 통합이 있는 플랫폼에서 마케팅 채널 비용을 자동으로 다운로드합니다. 와 통합되지 않은 플랫폼 비용 [!DNL Marketo Measure] 은(는) 수동으로 업로드해야 합니다. 비용 데이터를 업로드하기 전에 마케팅 채널을 설정해야 합니다.
+[!DNL Marketo Measure] 는 Bing Ads 및 Google AdWords와 같이 API 통합이 있는 플랫폼에서 마케팅 채널 비용을 자동으로 다운로드합니다. 와 통합되지 않은 플랫폼 비용 [!DNL Marketo Measure] 을(를) 수동으로 업로드해야 합니다. 비용 데이터를 업로드하기 전에 마케팅 채널을 설정해야 합니다.
 
 ## 마케팅 비용 업로드 {#uploading-marketing-costs}
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 **1단계: 의 마케팅 지출 페이지로 이동 [!DNL Marketo Measure] 앱.**
 
-로 이동 **[!UICONTROL My Account]** 메뉴, 클릭 **[!UICONTROL Settings]** 다음 위치로 이동 **[!UICONTROL Marketing Spend]** 왼쪽 사이드바의 옵션 **[!UICONTROL Reporting]** 섹션.
+로 이동 **[!UICONTROL My Account]** 메뉴, 클릭 **[!UICONTROL Settings]**&#x200B;을 클릭한 다음 로 이동합니다. **[!UICONTROL Marketing Spend]** 왼쪽 사이드바의 옵션 **[!UICONTROL Reporting]** 섹션.
 
 ![](assets/1.png)
 
@@ -121,7 +121,7 @@ Google Sheets에서 작업 중인 경우 먼저 파일을 다운로드해야 합
 
 **내가 보고 있는 목록에서 캠페인은 어떻게 결정됩니까?**
 
-현재 당사의 결과는 터치포인트로 인정받은 적이 있는 캠페인을 나열합니다. Campaign의 활동이 있는 경우, 발생한 터치포인트 날짜에 따라 해당 Campaign이 표시됩니다.
+현재 당사의 결과는 터치포인트로 인정받은 적이 있는 캠페인을 나열합니다. Campaign의 활동이 있는 경우, 발생한 터치포인트 날짜를 기반으로 하는 캠페인이 표시됩니다.
 
 **건너뛸 행과 열이 너무 많습니다. 보기를 통합할 수 있습니까?**
 

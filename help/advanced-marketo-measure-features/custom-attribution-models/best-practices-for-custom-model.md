@@ -3,9 +3,9 @@ description: 사용자 지정 모델에 대한 우수 사례 - [!DNL Marketo Mea
 title: 사용자 지정 모델에 대한 우수 사례
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 * 와 일치하는 사용자 지정 모델에 사용자 지정 단계 통합 안 함 [!DNL Marketo Measure] 마일스톤 터치포인트 위치(FT, LC, OC, 원화/손실 마감)
    * 그럴 경우 이러한 위치는 항상 동시에 발생하며 유입 경로의 일부에 부풀려진 속성 크레딧이 발생할 수 있습니다.
 * 영업 운영 팀과 협력
-   * 단계에 가장 가까운 작업을 하는 팀을 가져오면 올바른 단계를 사용하고 있으며 올바른 단계를 정의했는지 확인할 수 있습니다
+   * 단계에 가장 가까운 작업을 하는 팀을 가져오면 올바른 단계를 사용하고 있으며 이러한 단계가 올바르게 정의되었는지 확인합니다
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}
 

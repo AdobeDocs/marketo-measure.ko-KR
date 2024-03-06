@@ -4,9 +4,9 @@ description: 테스트 우수 사례 - [!DNL Marketo Measure]
 title: 테스트 우수 사례
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 고유한 이메일 주소를 사용하여 웹 사이트에 양식을 제출합니다.
 
-1. 양식을 제출하는 페이지의 URL과 사용된 이메일 주소를 기록합니다.
+1. 양식을 제출할 페이지의 URL과 사용된 이메일 주소를 기록합니다.
 
 1. 해당 양식 제출을 위해 CRM(리드 또는 연락처)에서 만든 레코드를 찾아 터치포인트가 적절하게 생성되었는지 확인합니다.
 

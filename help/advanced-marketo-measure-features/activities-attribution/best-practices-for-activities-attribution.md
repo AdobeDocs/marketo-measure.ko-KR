@@ -3,9 +3,9 @@ description: 활동 속성에 대한 우수 사례 - [!DNL Marketo Measure]
 title: 활동 기여도 분석에 대한 우수 사례
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 이 기능의 가장 일반적인 사용 사례는 판매 상호 작용을 구매자 터치포인트 데이터에 통합하는 규칙을 구축하는 것입니다. 활동 속성을 사용하면 판매 및 마케팅 데이터를 하나의 여정에 맞출 수 있습니다.
 
-다수를 위한 [!DNL Salesforce] 인스턴스: 활동 개체에는 다양한 레코드 유형이 포함될 수 있으므로 활동 규칙이 구체적이고 터치포인트로 변환하려는 레코드에 맞게 조정되어야 합니다. 다음 모범 사례는 활동 속성을 통해 의미 있고 중요한 접점을 만드는 데 도움이 됩니다.
+다수를 위한 [!DNL Salesforce] 인스턴스: 활동 개체에는 다양한 레코드 유형이 포함될 수 있으므로 활동 규칙이 구체적이고 터치포인트로 번역하려는 레코드에 맞게 조정되어야 합니다. 다음 모범 사례는 활동 속성을 통해 의미 있고 중요한 접점을 만드는 데 도움이 됩니다.
 
 ## 우수 사례 {#best-practice}
 

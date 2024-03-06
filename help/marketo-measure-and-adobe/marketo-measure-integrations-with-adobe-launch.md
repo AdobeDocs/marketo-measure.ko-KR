@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Adobe Launch와 통합 - [!DNL Marketo Meas
 title: '[!DNL Marketo Measure] Adobe Launch와 통합'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe Launch에 설치하고 구성하는 경우 [!DNL Marketo Measure] 확장�
 
    >[!NOTE]
    >
-   >이 필드는 Business_Prod.Business 테이블의 &quot;계정 ID&quot;가 아닙니다. 주어진 URL의 모든 웹 활동(예: `adobe.com`)가 [!DNL Marketo Measure] 테넌트.
+   >이 필드는 Business_Prod.Business 테이블의 &quot;계정 ID&quot;가 아닙니다. 주어진 URL의 모든 웹 활동(예: `adobe.com`)에 매핑됩니다 [!DNL Marketo Measure] 테넌트.
 
 1. 클릭 **[!UICONTROL Save]**.
 

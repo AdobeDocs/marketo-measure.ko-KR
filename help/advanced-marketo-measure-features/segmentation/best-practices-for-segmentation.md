@@ -3,9 +3,9 @@ description: 세그먼테이션 우수 사례 - [!DNL Marketo Measure]
 title: 세그먼테이션 우수 사례
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 우수 사례 {#best-practice}
 
-세그먼테이션을 처음 정의하거나 이전에 설정된 세그먼테이션을 검토하는 경우 다음 모범 사례를 염두에 두십시오.
+세그먼테이션을 처음 정의하든 아니면 이전에 설정된 세그먼테이션을 검토하든 관계없이 다음 모범 사례를 고려하십시오.
 
 * 단순하게 유지하십시오!
 * 세그먼트 이름을 조직의 명명법에 맞게 정렬합니다(예: 범주 = 필터 이름, 세그먼트 = 필터 값).

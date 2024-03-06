@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] 보고서 템플릿 - 타블로 - [!DNL Mar
 title: "[!DNL Marketo Measure] 보고서 템플릿 - 타블로"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '2276'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이를 위
 
 ## 데이터 변환 {#data-transformations}
 
-의 데이터에 몇 가지 변형이 적용되었습니다. [!DNL Tableau] snowflake의 원래 상태에서. 이러한 변환의 대부분은 사용자 정의 SQL 쿼리에 적용되며 [!DNL Tableau] 모델. 테이블을 생성하는 데 사용되는 사용자 정의 SQL을 보려면 테이블 이름을 마우스 오른쪽 단추로 누르고 &quot;사용자 정의 SQL 쿼리 편집&quot;을 선택합니다. 구체적인 변환의 일부는 아래에 요약되어 있습니다.
+의 데이터에 몇 가지 변형이 적용되었습니다. [!DNL Tableau] snowflake의 원래 상태에서. 이러한 변환의 대부분은 사용자 정의 SQL 쿼리에 적용되며 [!DNL Tableau] 모델. 테이블 생성에 사용되는 사용자 정의 SQL을 보려면 테이블 이름을 마우스 오른쪽 단추로 누르고 &quot;사용자 정의 SQL 쿼리 편집&quot;을 선택합니다. 구체적인 변환의 일부는 아래에 요약되어 있습니다.
 
 ![](assets/marketo-measure-report-template-tableau-4.png)
 

@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] 쿠키 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] 쿠키"
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->개인 정보 보호 문제로 인해 서드파티 쿠키가 출시되고 있습니다. Google Chrome은 2024년 3분기에 타사 쿠키의 사용을 중단한다고 발표하여 이러한 형식의 추적을 종료하는 것을 효과적으로 표시합니다. 그 결과, Adobe은 타사 쿠키에 의존하는 Marketo Measure 기능을 더 이상 사용하지 않게 됩니다. 특히, Google/DoubleClick 노출 쿠키를 사용하는 도메인 간 추적 및 뷰스루 속성. Marketo Measure의 다른 기능은 영향을 받지 않습니다. 자사 쿠키 사용도 영향을 받지 않습니다. Google의 일정에 비추어 볼 때 위의 두 기능에 대한 예상 사용 중단 날짜는 2024년 6월 1일입니다. 이 날짜 이전에 수집된 관련 데이터는 Adobe 고객이 계속 사용할 수 있습니다.
+>개인 정보 보호 문제로 인해 서드파티 쿠키가 출시되고 있습니다. Google Chrome은 2024년 3분기에 타사 쿠키의 사용을 중단한다고 발표하여 이러한 형식의 추적을 종료하는 것을 효과적으로 표시합니다. 그 결과 Adobe은 타사 쿠키에 의존하는 Marketo Measure 기능을 더 이상 사용하지 않습니다. 특히, Google/DoubleClick 노출 쿠키를 사용하는 도메인 간 추적 및 뷰스루 속성. Marketo Measure의 다른 기능은 영향을 받지 않습니다. 자사 쿠키 사용도 영향을 받지 않습니다. Google의 일정에 비추어 볼 때 위의 두 기능에 대한 예상 사용 중단 날짜는 2024년 6월 1일입니다. 이 날짜 이전에 수집된 관련 데이터는 Adobe 고객이 계속 사용할 수 있습니다.
 
 <table>
 <thead>
@@ -97,7 +97,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>타사, 도메인=.<a href="http://bizible.com/">bizible.com</a></td>
+    <td>타사, 도메인=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
     <td>여러 도메인에서 사용자를 식별하는 범용 사용자 ID입니다.</td>
     <td>1년</td>
     <td>예</td>
@@ -116,6 +116,6 @@ ht-degree: 4%
 </tbody>
 </table>
 
-JavaScript 설정 중에 WAF(Web Application Firewall) 경고가 트리거되면 사용자는 아래 예와 같이 해당 WAF 규칙을 비활성화하거나 쿠키를 허용 목록에 추가할 수 있습니다.
+JavaScript 설정 중에 WAF(Web Application Firewall) 경고가 트리거되면 사용자는 아래 예와 같이 해당 WAF 규칙을 비활성화하거나 쿠키를 허용 목록 할 수 있습니다.
 
 ![](assets/marketo-measure-cookies-1.png)

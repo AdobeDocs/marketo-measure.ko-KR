@@ -3,9 +3,9 @@ description: BT 및 BAT에 대한 접점 위치와 생성에 대한 설명 - [!D
 title: BT 및 간 접점 위치와 생성에 대한 설명 [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **구매자 여정을 통한 접점 위치 및 플로우 생성**
 
-구매자 접점 위치와 이러한 위치가 트리거되는 방법을 이해하는 것은 를 사용하여 성공적으로 보고하는 데 중요합니다. [!DNL Marketo Measure] 데이터. 잠재 고객이 구매자의 여정을 통해 이동할 때 수행한 작업과 터치포인트 데이터에서 표시할 모양을 명확히 알고 싶을 것입니다. 이 항목에 대한 자세한 내용은 [[!UICONTROL Touchpoint Generation & Mapping]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) 기사.
+구매자 접점 위치와 이러한 위치가 트리거되는 방법을 이해하는 것은 를 사용하여 성공적으로 보고하는 데 중요합니다. [!DNL Marketo Measure] 데이터. 잠재 고객이 구매자의 여정을 통해 이동했을 때 수행한 작업과 터치포인트 데이터에서 볼 수 있는 내용을 명확히 이해하려고 합니다. 이 항목에 대한 자세한 내용은 [[!UICONTROL Touchpoint Generation & Mapping]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) 기사.
 
 [!DNL Marketo Measure] 은 구매자 여정의 다양한 단계에서 트리거되는 다양한 접점 위치를 갖습니다. 다음에 대해 보고할 때 [!DNL Marketo Measure] 데이터에는 두 세트의 터치포인트 데이터, 즉 구매자 터치포인트 (BT) 및 구매자 속성 터치포인트 (BAT)가 있습니다. 이러한 데이터 집합은 서로 다른 오브젝트와 관련이 있을 때 위치가 약간 다를 수 있습니다. 이 항목에 대한 자세한 내용은 [구매자 접점(BT)과 구매자 속성 접점(BAT)의 차이](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) 기사.
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 * [!DNL Marketo Measure] 101: 리드/연락처별 ID
 * [!DNL Marketo Measure] 101: 채널별 리드/연락처
 
-다음은 개인이 여정 내에서 어느 위치에 있고 어떤 작업을 수행했는지 설명하는 구매자 접점 위치에 대한 개요입니다.
+다음은 개인이 여정에서 어디에 있는지, 그리고 해당 위치를 얻기 위해 취한 조치를 설명하는 구매자 접점 위치에 대한 개요입니다.
 
 <table> 
  <tbody>
@@ -42,7 +42,7 @@ ht-degree: 0%
   <tr>
    <td>리드 생성(LC)</td> 
    <td>양식 채우기 <strong>또는</strong> 캠페인/프로그램 포함</td> 
-   <td>개인이 보유한 첫 번째 양식 채우기(일반적으로 양식 제출이지만 캠페인/프로그램 포함일 수도 있음)</td> 
+   <td>개인에게 필요한 첫 번째 양식은 (일반적으로 양식 제출이지만 캠페인/프로그램 포함일 수도 있음) 입니다</td> 
   </tr>
   <tr>
    <td>LC 이후</td> 
@@ -92,7 +92,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-[!DNL Marketo Measure] 에는 이 두 세트의 터치포인트 데이터가 있어 개인의 여정과 기회를 명확하게 파악할 수 있습니다. 이 두 접점 데이터 세트는 단계 상단에서 단계 하단으로 발생한 일에 대한 명확한 맵을 제공합니다.
+[!DNL Marketo Measure] 에는 개인의 여정 및 기회에 대한 명확한 이해를 돕기 위해 이 두 세트의 터치포인트 데이터가 있습니다. 이 두 접점 데이터 세트는 단계 상단에서 단계 하단으로 발생한 일에 대한 명확한 맵을 제공합니다.
 
 다음 예는 구매자 접점(BT)에서 구매자 속성 접점(BAT)으로의 데이터 흐름을 보여줍니다. 이 예에서 개인 A와 개인 B는 모두 생성된 일자가 2020년 3월 7일이고 마감 일자가 2020년 5월 6일인 동일한 영업 기회의 일부입니다.
 

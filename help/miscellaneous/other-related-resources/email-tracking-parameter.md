@@ -4,9 +4,9 @@ description: 이메일 추적 매개 변수 - [!DNL Marketo Measure]
 title: 이메일 추적 매개 변수
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '403'
 ht-degree: 2%
 
 ---

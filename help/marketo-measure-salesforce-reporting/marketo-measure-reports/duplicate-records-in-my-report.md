@@ -4,9 +4,9 @@ description: 내 보고서의 중복 레코드 - [!DNL Marketo Measure]
 title: 내 보고서의 레코드 복제
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 As you dive다이빙 in the [!DNL Marketo Measure] 의 보고서 [!DNL Salesforce]보고서에서 &#39;중복&#39; 레코드를 찾을 수 있습니다. 당신은 리뷰를 할 때 이 느낌을 경험할 것 같습니다 [!DNL Marketo Measure] 기본 제공 보고서.
 
-구매자 접점 오브젝트 또는 구매자 속성 접점 오브젝트로 보고할 때, 더 이상 리드, 연락처 또는 기회의 수를 보고하지 않고 해당 표준 오브젝트(리드, 연락처, 기회)와 연결된 구매자 접점 또는 구매자 속성 접점의 수를 보고하는 것이 중요합니다.
+구매자 접점 오브젝트 또는 구매자 속성 접점 오브젝트로 보고할 때, 더 이상 리드, 연락처 또는 기회의 수를 보고하지 않고 해당 표준 오브젝트(리드, 연락처, 기회)와 연결된 구매자 접점 또는 구매자 속성 접점 수를 보고하는 것이 중요합니다.
 
 다음 보고서를 예로 들어 보겠습니다.
 

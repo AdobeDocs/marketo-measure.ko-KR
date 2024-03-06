@@ -3,16 +3,16 @@ unique-page-id: 18874761
 description: 단일 사인온 - [!DNL Marketo Measure]
 title: 단일 사인온
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
 
 # 단일 사인온 {#single-sign-on}
 
-SSO(Single Sign-On)를 위한 SAML(보안 설정 마크업 언어)을 사용하면 사용자가에 로그인할 때 회사의 ID 공급자를 통해 인증할 수 있습니다. [!DNL Marketo Measure] 앱. SSO를 통해 사용자는 별도의 앱을 인증할 필요 없이 한 번만 인증할 수 있습니다. SAML은 모든 사용자가 다음을 보유하지 않을 것이므로 기업 고객에게 필수적입니다. [!DNL Salesforce] 또는 [!DNL Google] 조직 내의 계정입니다. 크기를 조정하려면 [!DNL Marketo Measure] 는 회사 id 공급자를 지원할 수 있는 SAML 솔루션을 개발했습니다.
+SSO(Single Sign-On)를 위한 SAML(보안 설정 마크업 언어)을 사용하면 사용자가 다음에 로그인할 때 회사의 ID 공급자를 통해 인증할 수 있습니다. [!DNL Marketo Measure] 앱. SSO를 통해 사용자는 별도의 앱을 인증할 필요 없이 한 번만 인증할 수 있습니다. SAML은 모든 사용자가 [!DNL Salesforce] 또는 [!DNL Google] 조직 내의 계정입니다. 크기를 조정하려면 [!DNL Marketo Measure] 는 회사 id 공급자를 지원할 수 있는 SAML 솔루션을 개발했습니다.
 
 >[!CAUTION]
 >
@@ -35,7 +35,7 @@ SSO(Single Sign-On)를 위한 SAML(보안 설정 마크업 언어)을 사용하�
 
 ## 프로세스 {#process}
 
-[!DNL Marketo Measure] SSO(Single Sign-On)를 사용하려면 인증 설정을 다음 단계에 따라 구성해야 합니다. 이렇게 하면 인증 설정을 잠글 위험이 없습니다. [!DNL Marketo Measure] 계정입니다.
+[!DNL Marketo Measure] SSO(Single Sign-On)를 사용하려면 인증 설정을 일련의 단계로 구성해야 인증 설정이 잠기지 않을 수 있습니다. [!DNL Marketo Measure] 계정입니다.
 
 다음을 설정합니다. [!DNL Marketo Measure] ID 공급자의 응용 프로그램입니다. 연습은 아래 나열된 외부 설명서를 참조하십시오.
 
@@ -119,7 +119,7 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
 
 ## CRM 사용자(고급 설정) {#crm-users-advanced-setup}
 
-기본적으로 모든 계정은 [!DNL Marketo Measure] CRM 자격 증명을 사용하는 응용 프로그램. 경우에 따라 계정 소유자는 특정 역할에 대한 액세스를 제한하고 활성 CRM 라이선스가 있는 모든 사용자에게 열리지 말아야 합니다. 고급 설정을 사용하면 CRM 역할 및 그룹을 다음에 매핑할 수 있습니다. [!DNL Marketo Measure] 사용자 권한.
+기본적으로 모든 계정은 [!DNL Marketo Measure] CRM 자격 증명을 사용하는 응용 프로그램. 경우에 따라 계정 소유자는 특정 역할에 대한 액세스를 제한하고 활성 CRM 라이선스가 있는 모든 사용자에게 열리지 말아야 합니다. 고급 설정을 사용하면 CRM 역할 및 그룹을 매핑할 수 있습니다. [!DNL Marketo Measure] 사용자 권한.
 
 매핑된 역할이나 그룹이 없으면 기본 설정은 CRM의 모든 활성 라이선스에 표준 사용자 액세스 권한이 있는 것입니다.
 
@@ -144,7 +144,7 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
 
 **Google 사용자**
 
-사용자 정의 SSO가 설정되면 [!UICONTROL Users] Google 로그인과 함께 추가된 외부 사용자만 표시하도록 페이지가 업데이트됩니다. 액세스 권한이 있는 모든 사용자는 SSO 구성을 통해 정의되므로 여기에 추가 외부 사용자가 나열됩니다.
+사용자 정의 SSO가 설정되면 [!UICONTROL Users] 페이지가 Google 로그인과 함께 추가된 외부 사용자만 표시하도록 업데이트됩니다. 액세스 권한이 있는 모든 사용자는 SSO 구성을 통해 정의되므로 여기에 추가 외부 사용자가 나열됩니다.
 
 ![](assets/9.png)
 
@@ -152,7 +152,7 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
 
 ## 외부 링크 {#external-links}
 
-* [옥타](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [Id ping](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](http://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [옥타](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Id ping](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
+* [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

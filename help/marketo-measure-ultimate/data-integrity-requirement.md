@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사
 title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 17%
@@ -12,7 +12,7 @@ ht-degree: 17%
 
 # [!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항 {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] 들어오는 AEP 데이터 세트를 확인하여 데이터가 기여도 분석을 위해 충분하고 일관성이 있는지 확인합니다. 데이터 무결성 요구 사항을 충족하지 못하면 데이터 세트가 다음에 의해 거부됩니다. [!DNL Marketo Measure] 시스템. 이 문서에서는 데이터 무결성 요구 사항에 대해 자세히 설명하고 데이터 검사를 위한 쿼리 예를 제공하며 null 값이 있는 필수 필드에 대한 솔루션을 권장합니다.
+[!DNL Marketo Measure] 들어오는 AEP 데이터 세트의 유효성을 검사하여 데이터가 속성에 충분하고 일관성이 있는지 확인합니다. 데이터 무결성 요구 사항을 충족하지 못하면 데이터 세트가 다음에 의해 거부됩니다. [!DNL Marketo Measure] 시스템. 이 문서에서는 데이터 무결성 요구 사항에 대해 자세히 설명하고 데이터 검사를 위한 쿼리 예를 제공하며 null 값이 있는 필수 필드에 대한 솔루션을 권장합니다.
 
 ## 엔티티 개체 {#entity-object}
 
@@ -37,7 +37,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 123@999-abc-888.Marketo</td>
+      <td>예 - 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -365,7 +365,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 333@999-abc-888.Marketo</td>
+      <td>예 - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td>ID</td>
       <td>예</td>
-      <td>예: - 333, 데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID입니다</td>
+      <td>예를 들어 - 333과 같이 데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID입니다</td>
     </tr>
     <tr>
       <td></td>

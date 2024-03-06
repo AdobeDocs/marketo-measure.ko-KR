@@ -4,16 +4,16 @@ description: 추가 중 [!DNL Marketo Measure] 끝 [!DNL Marketo] 랜딩 페이�
 title: 추가 중 [!DNL Marketo Measure] Marketo 랜딩 페이지로
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
 # 추가 중 [!DNL Marketo Measure] Marketo 랜딩 페이지로 {#adding-marketo-measure-to-marketo-landing-pages}
 
-에 추적을 추가하는 방법 알아보기 [!DNL Marketo Engage] 추가 처리가 필요한 랜딩 페이지. [!DNL Marketo Measure] JavaScript는 랜딩 페이지와 [!DNL Marketo Engage] 양식 자체. 이 작업을 수행하려면 을 로드해야 합니다. [!DNL Marketo Measure] 에 JavaScript [!DNL Marketo Engage] 다음 지침에 설명되어 있습니다.
+에 추적을 추가하는 방법 알아보기 [!DNL Marketo Engage] 추가 처리가 필요한 랜딩 페이지. [!DNL Marketo Measure] JavaScript는 랜딩 페이지와 [!DNL Marketo Engage] 양식 자체. 이렇게 하려면 를 로드해야 합니다. [!DNL Marketo Measure] 에 JavaScript [!DNL Marketo Engage] 다음 지침에 설명되어 있습니다.
 
 >[!NOTE]
 >
@@ -36,10 +36,10 @@ ht-degree: 0%
 
 ## 추가 참고 사항 {#additional-notes}
 
-* 다음과 같은 다른 추적 코드 조각이 이미 있을 수 있습니다. [!DNL Google Analytics] 코드. 이 부분은 문제없고 세미콜론으로 구분해서 사용하시면 됩니다 `;` 단일 공간도 있습니다. 이 예제는 다음과 같습니다.
+* 다음과 같은 다른 추적 코드 조각이 이미 있을 수 있습니다. [!DNL Google Analytics] 코드. 이 작업에는 문제가 없으며 세미콜론으로 구분해야 합니다 `;` 단일 공간도 있습니다. 이 예제는 다음과 같습니다.
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 
 * 여러 랜딩 페이지 템플릿이 사용 중일 수 있습니다. 양식이 있는 모든 템플릿에 코드를 추가해야 합니다.
 
-* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지가 사용되는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

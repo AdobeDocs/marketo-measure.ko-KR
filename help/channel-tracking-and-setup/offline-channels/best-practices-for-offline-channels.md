@@ -3,9 +3,9 @@ description: 오프라인 채널에 대한 우수 사례 - [!DNL Marketo Measure
 title: 오프라인 채널에 대한 우수 사례
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 우수 사례 | 오프라인 채널 매핑 {#best-practice-offline-channel-mapping}
 
-오프라인 채널을 처음 매핑하거나 검토하여 정확성을 확인하는 경우에도 다음 모범 사례를 염두에 두십시오.
+오프라인 채널을 처음 매핑하거나 검토하여 정확성을 확인하는 방법 간에 다음 모범 사례를 참고하십시오.
 
 * 오프라인 채널을 위한 숙고된 프레임워크 만들기
    * 마케팅 캠페인의 구성과 마케팅 캠페인이 [!DNL Marketo Measure] 프레임워크. 오프라인 채널에서 표시할 채널과 하위 채널 및 이러한 채널을 서로 구별하는 CRM Campaign 유형을 결정합니다

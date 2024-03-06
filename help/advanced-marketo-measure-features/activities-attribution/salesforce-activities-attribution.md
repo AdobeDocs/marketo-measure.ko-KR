@@ -4,9 +4,9 @@ description: Salesforce 활동 속성 - [!DNL Marketo Measure]
 title: Salesforce 활동 속성
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 먼저, 라는 새로운 개념을 도입합니다. [!DNL Marketo Measure] 캠페인. 정의하는 각 규칙에 대해 레코드를 버킷으로 [!DNL Marketo Measure] 이름을 지정할 수 있는 캠페인. 필요에 따라 여러 캠페인을 추가합니다. 유료 미디어 캠페인 옆에 있는 아웃바운드 판매 캠페인의 효과를 측정한다고 상상해 보십시오.
 
-이 항목을 사용합니다. [!DNL Marketo Measure] 매핑해야 하는 채널을 알려 주는 캠페인 이름. 아직 아웃바운드 영업에 대해 생각하고 있다면 모든 아웃바운드 영업 캠페인이 BDR 채널에 있어야 합니다.
+이 항목을 사용합니다. [!DNL Marketo Measure] 매핑해야 하는 채널을 알려 주는 캠페인 이름. 여전히 아웃바운드 영업에 대해 생각하고 있다면 모든 아웃바운드 영업 캠페인이 BDR 채널에 머물러야 할 것입니다.
 
 이 계층 구조에 익숙해지십시오.
 

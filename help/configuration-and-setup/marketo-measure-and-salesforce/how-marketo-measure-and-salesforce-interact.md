@@ -4,9 +4,9 @@ description: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 -
 title: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 19%
 
 ---

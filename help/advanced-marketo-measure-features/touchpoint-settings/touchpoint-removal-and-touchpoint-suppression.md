@@ -4,9 +4,9 @@ description: 접점 제거 및 접점 억제 - [!DNL Marketo Measure]
 title: 접점 제거 및 접점 억제
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ CRM에서 특정 기준을 충족하는 터치포인트를 제거하거나 표�
 
 ![](assets/5.png)
 
-끝내려면 [!UICONTROL Save and Process] 규칙. 많은 변경 작업을 수행하는 경우 그 동안 변경 내용을 저장해야 합니다. [!DNL Marketo Measure] 을 클릭할 때까지 터치포인트 제거를 실제로 시작하지 않습니다. **저장 및 처리** 단추를 클릭합니다.
+끝내려면 [!UICONTROL Save and Process] 규칙. 많은 변경 작업을 수행하는 경우 그 동안 변경 내용을 저장해야 합니다. [!DNL Marketo Measure] 을 클릭할 때까지 터치포인트 제거를 실제로 시작하지 않습니다.
+[!UICONTROL **저장 및 처리**].
 
 | **연산자** | **사용 사례** |
 |---|---|

@@ -4,7 +4,7 @@ description: 사용자 지정 속성 모델 및 설정 - [!DNL Marketo Measure]
 title: 사용자 지정 속성 모델 및 설정
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 
    로 이동 **[!UICONTROL Attribution Settings]** 위치: [!DNL Marketo Measure] 앱: 사용자 지정 단계는 여기에 속성 테이블에 표시됩니다. 속성 테이블에는 모든 [!DNL Marketo Measure] 기여도 분석 모델 및 각 모델의 기여도 분석 가중치 처음 5개 모델의 기여도 분석 비율은 고정되며 변경할 수 없습니다.
 
-   맨 오른쪽 열에 &quot;&quot;라는 레이블이 지정됨&#x200B;**[!UICONTROL Custom]**,&quot; 사용자 지정 속성 모델에서 각 단계에 대한 백분율 가중치를 설정할 수 있습니다. 사용자 지정 열 아래에 각 단계의 값을 입력하기만 하면 됩니다. 그러면 **[!UICONTROL Save and Reprocess]** 완료되면
+   맨 오른쪽 열에 &quot;&quot;라는 레이블이 지정됨&#x200B;**[!UICONTROL Custom]**,&quot; 사용자 지정 속성 모델에서 각 단계에 대한 백분율 가중치를 설정할 수 있습니다. 사용자 정의 열 아래에 각 단계의 값을 입력하고 **[!UICONTROL Save and Reprocess]** 완료 시.
 
    의 왼쪽에 _사용자 정의_ 열은 **[!DNL Marketo Measure]머신 러닝 모델**. 머신 러닝 모델은 각 사용자 지정 단계에서 발생한 사항에 따라 거래 승인에 대한 상대적 중요도에 따라 속성 가중치를 계산합니다. 머신 러닝 모델에 대한 자세한 내용은 [기계 학습 모델 FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 

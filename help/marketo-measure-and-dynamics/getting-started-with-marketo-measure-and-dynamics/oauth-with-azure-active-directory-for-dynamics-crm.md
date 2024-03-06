@@ -4,9 +4,9 @@ description: OAuth 포함 [!DNL Azure Active Directory] dynamics CRM용 - [!DNL 
 title: OAuth 포함 [!DNL Azure Active Directory] Dynamics CRM용
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 영향을 받는 사용자 {#who-s-affected}
 
-이 설정은 새로운 을 위한 것입니다. [!DNL Marketo Measure] 다음을 통해 Dynamics CRM을 사용하는 고객 [!DNL Azure Active Directory] (AAD) 계정 또는 기존 사용자 이름 및 암호 로그인에서 (으)로 마이그레이션하려는 고객 [!DNL Azure Active Directory] (OAuth 포함)
+이 설정은 새로운 을 위한 것입니다. [!DNL Marketo Measure] 다음을 통해 Dynamics CRM을 사용하는 고객 [!DNL Azure Active Directory] (AAD) 계정 또는 기존 사용자 이름 및 암호에서 (으)로 마이그레이션하려는 고객의 경우 [!DNL Azure Active Directory] (OAuth 포함)
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## 새 애플리케이션 설정 {#set-up-new-application}
 
-1. 에 로그인 [Azure 포털](https://portal.azure.com/#home).
+1. 다음에 로그인 [Azure 포털](https://portal.azure.com/#home).
 
-1. 페이지의 오른쪽 상단에 있는 계정을 클릭한 다음, 디렉터리 전환 탐색을 클릭하고 적절한 테넌트를 선택하여 Azure AD 테넌트를 선택합니다(계정에 Azure AD 테넌트가 하나만 있거나 이미 적절한 Azure AD 테넌트를 선택한 경우 이 단계를 건너뜁니다).
+1. 페이지 오른쪽 상단에서 계정을 클릭한 다음 디렉터리 전환 탐색을 클릭하고 적절한 테넌트를 선택하여 Azure AD 테넌트를 선택합니다. 계정에 Azure AD 테넌트가 하나만 있거나 이미 적절한 Azure AD 테넌트를 선택한 경우 이 단계를 건너뜁니다.
 
    ![](assets/setup-2.png)
 
@@ -41,10 +41,10 @@ ht-degree: 0%
 
    ![](assets/setup-5.png)
 
-1. 화면의 지시에 따라 새 응용 프로그램을 만듭니다. 웹 애플리케이션이든 공용 클라이언트(모바일 및 데스크탑) 애플리케이션이든 상관없지만, 웹 애플리케이션이나 공용 클라이언트 애플리케이션에 대한 특정 예제를 원하는 경우 [빠른 시작](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).\
+1. 프롬프트에 따라 응용 프로그램을 만듭니다. 웹 애플리케이션이든 공용 클라이언트(모바일 및 데스크탑) 애플리케이션이든 상관없지만, 웹 애플리케이션이나 공용 클라이언트 애플리케이션에 대한 특정 예제를 원하는 경우 [빠른 시작](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
    a. 이름은 애플리케이션 이름이며 최종 사용자에게 애플리케이션에 대해 설명합니다.\
    b. 지원되는 계정 유형에서 조직 디렉터리와 개인 Microsoft 계정의 계정을 선택합니다.\
-   c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용자가 로그인할 수 있는 앱의 기본 URL입니다. 예를 들어, `http://localhost:12345`. 공용 클라이언트(모바일 및 데스크탑)의 경우 Azure AD는 토큰 응답을 반환하는 데 이 토큰을 사용합니다. 응용 프로그램에 해당하는 값을 입력합니다. 예를 들어, `http://MyFirstAADApp`.
+   c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용자가 로그인할 수 있는 앱의 기본 URL입니다. 예를 들어, `http://localhost:12345`. 공용 클라이언트(모바일 및 데스크톱)의 경우 Azure AD는 토큰 응답을 반환하는 데 이 토큰을 사용합니다. 응용 프로그램에 해당하는 값을 입력합니다. 예를 들어, `http://MyFirstAADApp`.
 
 1. 등록을 완료하면 Azure AD는 응용 프로그램에 고유한 클라이언트 식별자(응용 프로그램 ID)를 할당합니다. 다음 섹션에서 이 값이 필요하므로 애플리케이션 페이지에서 이 값을 복사합니다.
 
@@ -118,9 +118,9 @@ b. 클라이언트 암호는 Azure 포털에서 인증서 및 암호로 응용 �
 
 c. 애플리케이션 ID URI는 대상 웹 API(보안 리소스)의 URL입니다. 앱 ID URL을 찾으려면 Azure 포털에서 [!DNL Azure Active Directory]에서 응용 프로그램 등록을 클릭하고 응용 프로그램의 설정 페이지를 연 다음 속성을 클릭합니다. 다음과 같은 외부 리소스일 수도 있습니다. `https://graph.microsoft.com`. 일반적으로 Dynamics 인스턴스의 URL입니다.
 
-1. 을(를) 클릭한 후 **[!UICONTROL Submit]**&#x200B;로 로그인하라는 메시지가 표시됩니다. [!DNL Azure Active Directory]. 인증에 성공하면 Dynamics 계정이 내의 데이터 공급자로 연결됩니다. [!DNL Marketo Measure].
+1. 을(를) 클릭한 후 **[!UICONTROL Submit]**&#x200B;로 로그인하라는 메시지가 표시됩니다. [!DNL Azure Active Directory]. 인증이 성공하면 Dynamics 계정이 내의 데이터 공급자로 연결됩니다 [!DNL Marketo Measure].
 
-## Dynamics 계정 다시 인증 {#re-authenticating-your-dynamics-account}
+## Dynamics 계정 재인증 {#re-authenticating-your-dynamics-account}
 
 1. 다음에 있을 때 [!DNL Marketo Measure] 응용 프로그램, 이동 **[!UICONTROL My Settings]** > **[!UICONTROL Settings]** > **[!UICONTROL Connections]**.
 
@@ -130,4 +130,4 @@ c. 애플리케이션 ID URI는 대상 웹 API(보안 리소스)의 URL입니다
 
    ![](assets/re-authenticating-3.png)
 
-1. 을(를) 클릭한 후 **[!UICONTROL Submit]**&#x200B;로 로그인하라는 메시지가 표시됩니다. [!DNL Azure Active Directory]. 인증이 성공하면 내 Dynamics 계정이 다시 승인됩니다. [!DNL Marketo Measure].
+1. 을(를) 클릭한 후 **[!UICONTROL Submit]**&#x200B;로 로그인하라는 메시지가 표시됩니다. [!DNL Azure Active Directory]. 인증에 성공하면 내 Dynamics 계정이 다시 인증됩니다. [!DNL Marketo Measure].

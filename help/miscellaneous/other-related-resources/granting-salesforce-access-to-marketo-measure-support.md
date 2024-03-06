@@ -4,9 +4,9 @@ description: '부여 [!DNL Salesforce] 액세스 대상: [!DNL Marketo Measure] 
 title: 부여 [!DNL Salesforce] Marketo Measure 지원 액세스
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 에서 로그인 액세스 권한 부여 [!DNL Salesforce] 번개 {#granting-login-access-in-salesforce-lightning}
 
-1. 화면 오른쪽 상단의 아바타를 클릭하고 을 선택합니다. **[!UICONTROL Settings]**.
+1. 화면 오른쪽 상단에서 아바타를 클릭하고 을(를) 선택합니다 **[!UICONTROL Settings]**.
 1. 클릭 **[!UICONTROL Grant Account Login Access]**.
 1. 다음에 대한 액세스 만료 날짜를 설정합니다.[!UICONTROL Marketo Measure Support].&quot; 기술 문제 해결을 위해 권한 부여를 권장합니다 [!DNL Marketo Measure] 최소 1주일 동안 액세스 지원.
 1. 클릭 **[!UICONTROL Save]**.

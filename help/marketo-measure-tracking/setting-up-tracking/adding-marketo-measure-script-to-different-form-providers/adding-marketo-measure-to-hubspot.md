@@ -4,9 +4,9 @@ description: 추가 중 [!DNL Marketo Measure] 끝 [!DNL Hubspot] - [!DNL Market
 title: 추가 중 [!DNL Marketo Measure] 끝 [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '175'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 추가 방법 알아보기 [!DNL Marketo Measure] 추적할 JavaScript [!DNL Hubspot] 랜딩 페이지 및 양식 제출.
 
-Hubspot은 랜딩 페이지/양식 및 웹 사이트를 호스팅할 수 있다는 점에서 다른 마케팅 자동화 시스템과 약간 다릅니다. 아래 지침은 다음 사항에 대한 것입니다. [!DNL Marketo Measure] 활동 추적 [!DNL Hubspot]-호스팅된 페이지. 다음 이외의 CMS를 사용하여 웹 사이트 전원을 켜는 경우 [!DNL Hubspot] (예: Wordpress), [!DNL Marketo Measure] 해당 CMS에 대한 JavaScript도 참조하십시오.
+Hubspot은 랜딩 페이지/양식 및 웹 사이트를 호스팅할 수 있다는 점에서 다른 마케팅 자동화 시스템과 약간 다릅니다. 아래 지침은 다음 사항에 대한 것입니다. [!DNL Marketo Measure] 활동 추적 [!DNL Hubspot]-호스팅된 페이지. 다음 이외의 CMS를 사용하여 웹 사이트 전원을 켜는 경우 [!DNL Hubspot] (예: Wordpress) [!DNL Marketo Measure] 해당 CMS에 대한 JavaScript도 참조하십시오.
 
 >[!NOTE]
 >

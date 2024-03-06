@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] 리소스 목록 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] 리소스 목록"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 * [SFDC 캠페인을 구매자 터치포인트와 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [마케팅 비용 업로드](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [광고 계정 다시 연결](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-* [추가 중 [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+* [추가 중 [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
    * [Forms 제외](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **보고**
@@ -49,10 +49,10 @@ ht-degree: 0%
 
 다음은 속도를 높이는 데 도움이 되는 몇 가지 비디오입니다.
 
-* [[!DNL Marketo Measure] 소개 교육](https://embed.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4) (22분)
-* [[!DNL Marketo Measure] SFDC에서 보고](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45분)
+* [[!DNL Marketo Measure] 소개 교육](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22분)
+* [[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45분)
 
-**[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30분)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30분)**
 
 이 교육 과정 시리즈는 마스터하기 위해 알아야 하는 기본 개념에 대한 일반적인 소개로 설계되었습니다 [!DNL Marketo Measure]. 속성 개념에 대해 소개합니다. [!DNL Marketo Measure] 은 도구로서, 그리고 이 도구를 기반으로 하는 일반 프레임워크로서 [!DNL Marketo Measure] 작동합니다.
 
@@ -64,9 +64,9 @@ ht-degree: 0%
 * 접점
 * 속성 모델
 
-**[[!DNL Marketo Measure] SFDC에서 보고](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45분)**
+**[[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45분)**
 
-이 교육 과정 시리즈는 [!DNL Marketo Measure] salesforce에 설치된 스톡 보고서. 이러한 보고서는 수행할 대부분의 보고에 대한 기반으로 사용됩니다 [!DNL Marketo Measure] 데이터.
+이 교육 과정 시리즈는 [!DNL Marketo Measure] salesforce에 설치된 스톡 보고서. 이러한 보고서는 수행하는 대부분의 보고를 위한 기초 역할을 합니다 [!DNL Marketo Measure] 데이터.
 
 다룬 항목:
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 * ID별 기회 보고서
 * 채널별 기회 보고서
 
-**[채널 관리](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/)**
+**[채널 관리](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
 이 과정에서는 사용자 정의할 수 있는 다양한 방법을 다룹니다 [!DNL Marketo Measure], 온라인 및 오프라인 추적 측면에서 이 교육 과정은 보다 고급이며 모든 사용자와 관련이 없을 수 있습니다.
 
@@ -89,4 +89,4 @@ ht-degree: 0%
 * 캠페인 및 캠페인 멤버 필드
 * 오프라인 채널 관리
 
-모두 여기 있습니다. [초급 E-러닝 비디오](https://universityonline.marketo.com/#/library/bySubject/new-to-bizible/trails?_k=d1454j).
+모두 여기 있습니다. [초급 E-러닝 비디오](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).

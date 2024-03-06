@@ -4,9 +4,9 @@ description: Dynamics의 스톡 보고서 및 대시보드 - [!DNL Marketo Measu
 title: Dynamics의 스톡 보고서 및 대시보드
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 >
 >&quot; &quot;을 지정하는 지침이 표시될 수 있습니다.[!DNL Marketo Measure]설명서에는 &quot;가 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-다음 [!DNL Marketo Measure] 관리 솔루션에는 다양한 스톡 대시보드 및 보고서가 포함되어 있으며, 보기의 기본 요구 사항을 충족하도록 설계되었습니다. [!DNL Marketo Measure] dynamics의 데이터. 다음은 전체 목록과 몇 가지 일반적인 사용 사례입니다.
+다음 [!DNL Marketo Measure] Managed Solution에는 몇 가지 스톡 대시보드 및 보고서가 포함되어 있으며, 보기의 기본 요구 사항을 충족하도록 설계되었습니다. [!DNL Marketo Measure] dynamics의 데이터. 다음은 전체 목록과 몇 가지 일반적인 사용 사례입니다.
 
 ## 대시보드(총 9개) {#dashboards-total}
 
@@ -152,7 +152,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>AdWords 이름(FT)별 잠재 고객</td> 
-   <td>각 AdWords 캠페인에서 첫 번째 터치를 가진 잠재 고객 수를 측정합니다.</td> 
+   <td>각 AdWords 캠페인에서 첫 번째 터치를 가진 잠재 고객의 수를 측정합니다.</td> 
    <td>전체</td> 
   </tr> 
   <tr> 

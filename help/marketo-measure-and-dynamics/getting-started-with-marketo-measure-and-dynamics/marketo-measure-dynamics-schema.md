@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Dynamics 스키마 - [!DNL Marketo Measure]
 title: "[!DNL Marketo Measure] Dynamics 스키마"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1070'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 >
 >&quot; &quot;을 지정하는 지침이 표시될 수 있습니다.[!DNL Marketo Measure]설명서에는 &quot;가 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-시작하기 위해 필요한 Dynamics 스키마를 아래에서 찾을 수 있습니다. [!DNL Marketo Measure]. 필요한 읽기 및/또는 쓰기 권한과 함께 모든 엔티티와 필드가 나열됩니다.
+다음은 시작하는 데 필요한 Dynamics 스키마입니다 [!DNL Marketo Measure]. 필요한 읽기 및/또는 쓰기 권한과 함께 모든 엔티티와 필드가 나열됩니다.
 
 ## 구매자 접점 {#buyer-touchpoints}
 
@@ -912,7 +912,7 @@ ht-degree: 22%
 
 ## Dynamics 표준 엔티티 {#dynamics-standard-entities}
 
-이 목록은 다음과 같은 Dynamics 표준 엔티티를 제공합니다. [!DNL Marketo Measure] 는 와 상호 작용하며 이러한 엔티티에 추가하는 사용자 정의 필드도 제공합니다.
+이 목록은 다음을 제공하는 Dynamics 표준 엔터티를 제공합니다. [!DNL Marketo Measure] 는 와 상호 작용하며, 이러한 엔티티에 추가하는 사용자 정의 필드와 상호 작용합니다.
 
 **리드**
 

@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] 사용자 통합 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] 사용자 통합"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Marketo 사람 다운로드의 도입으로 [!DNL Marketo Measure] 이제 CRM과
 
 ![](assets/5b.png)
 
-고객은 전체 Marketo 사용자 및 CRM 사용자 세트를 [!DNL Marketo Measure] 발견. CRM 직원만 보고하려면 세그먼트를 만들어 필터링하는 것이 좋습니다.
+고객은 전체 Marketo 사용자 및 CRM 사용자 세트를 [!DNL Marketo Measure] 발견. CRM 직원에만 보고하려면 세그먼트를 만들어 필터링하는 것이 좋습니다.
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 

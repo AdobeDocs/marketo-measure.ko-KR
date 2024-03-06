@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Salesforce 개체 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Salesforce 개체"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---

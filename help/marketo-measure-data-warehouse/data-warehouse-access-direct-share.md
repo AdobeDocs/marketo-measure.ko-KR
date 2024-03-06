@@ -3,9 +3,9 @@ description: Data Warehouse 액세스 - 직접 공유 - 제품 설명서
 title: Data Warehouse 액세스 - 직접 공유
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 요구 사항 {#requirements}
 
-주문 [!DNL Marketo Measure] data warehouse에 대한 직접 공유를 설정하려면 다음 요구 사항을 충족해야 합니다.
+대상 [!DNL Marketo Measure] data warehouse에 대한 직접 공유를 설정하려면 다음 요구 사항을 충족해야 합니다.
 
 * 고유한 Snowflake 인스턴스가 있습니다.
 * Snowflake 인스턴스는 Azure East US 2 Snowflake 영역에 있습니다.
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 제한 사항 {#limitations}
 
-[!DNL Marketo Measure] 은(는) 현재 Snowflake 직접 공유 제한 사항으로 인해 Azure East US 2에 있는 계정과 Snowflake 직접 공유만 설정할 수 있습니다. 다른 Snowflake 지역에서 데이터를 사용할 수 있도록 해야 하는 경우 Azure East US 2에 있는 Snowflake 계정에서 데이터 복사본을 만들고 을 활용하는 것이 좋습니다. [Snowflake 데이터베이스 복제](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} 선택한 Snowflake 영역/계정에서 데이터를 복사하는 기능입니다.
+[!DNL Marketo Measure] 은(는) 현재 Snowflake 직접 공유 제한 사항으로 인해 Azure East US 2에 있는 계정과 Snowflake 직접 공유만 설정할 수 있습니다. 다른 Snowflake 지역에서 데이터를 사용할 수 있도록 해야 하는 경우 Azure East US 2에 있는 Snowflake 계정에서 데이터 복사본을 만들고 [Snowflake 데이터베이스 복제](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} 선택한 Snowflake 영역/계정에서 데이터를 복사하는 기능입니다.
 
 ## Snowflake 계정 ID 입력 {#enter-snowflake-account-id}
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 공유 액세스 {#accessing-the-share}
 
-제공된 계정 ID에 대해 공유가 생성되면 다음을 완료해야 합니다. [설정 단계](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} 데이터에 액세스하기 위해 Snowflake 인스턴스 내에서
+제공된 계정 ID에 대한 공유가 만들어지면 다음을 완료해야 합니다. [설정 단계](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} Snowflake 인스턴스 내에서 데이터에 액세스합니다.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
 USE ROLE ACCOUNTADMIN
 ```
 
-* 사용 가능한 공유 보기(부여된 공유 이름이 표시됨)
+* 사용 가능한 공유 보기(부여된 공유 이름 표시)
 
 ```
 SHOW SHARES

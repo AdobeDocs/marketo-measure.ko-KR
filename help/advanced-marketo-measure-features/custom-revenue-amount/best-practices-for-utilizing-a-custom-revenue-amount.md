@@ -3,9 +3,9 @@ description: 사용자 지정 수익 금액 활용에 대한 우수 사례 - [!D
 title: 사용자 지정 수익 금액 활용에 대한 우수 사례
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---

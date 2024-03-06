@@ -4,9 +4,9 @@ description: 전환된 리드를 편집할 수 있는 권한 활성화 - [!DNL M
 title: 전환된 리드를 편집할 수 있는 권한 활성화
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 
    ![](assets/3-1.png)
 
-넌 끝났어!
+그리고 넌 끝났어!

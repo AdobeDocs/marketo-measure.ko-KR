@@ -4,9 +4,9 @@ description: 오프라인 사용자 지정 채널 설정 - [!DNL Marketo Measure
 title: 오프라인 사용자 지정 채널 설정
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ SFDC 캠페인 유형은 아래 나열된 오프라인 채널의 탭에 표시�
 >
 >확인 필요 _조건_ a [!DNL Salesforce] 캠페인 유형 은 (으)로 가져옵니다. [!DNL Marketo Measure] 채널 매핑? 다음으로 이동 **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. 그러면 선택 목록에 있는 값과 비활성 값을 확인할 수 있습니다. 비활성 항목은 &quot;&quot;에서 선택 가능한 유형으로 표시되지 않습니다.[!UICONTROL Offline Channels]&quot; 섹션. 이 프로세스는 몇 분에서 최대 48시간 정도 소요될 수 있습니다.
 
-클릭 **[!UICONTROL Save]** 끝나면 [!DNL Marketo Measure] 변경 사항을 업로드하고 데이터를 재처리합니다.
+클릭 **[!UICONTROL Save]** 작업을 마치면 [!DNL Marketo Measure] 변경 사항을 업로드하고 데이터를 재처리합니다.
 
 >[!MORELIKETHIS]
 >

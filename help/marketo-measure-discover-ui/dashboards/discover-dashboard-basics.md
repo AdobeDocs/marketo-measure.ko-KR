@@ -2,9 +2,10 @@
 description: 대시보드 기본 사항 살펴보기 - [!DNL Marketo Measure] - 제품
 title: 대시보드 기본 사항 살펴보기
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -105,6 +106,6 @@ ht-degree: 0%
 
 ### 툴팁 {#tooltips}
 
-툴팁은 표시된 데이터에 대한 추가 세부 정보를 제공합니다. 간단히 시각적 요소에 마우스를 가져다 대면 상황별 툴팁이 팝업되어 특정 데이터 포인트와 관련된 통찰력이나 설명을 제공할 수 있습니다.
+툴팁은 표시된 데이터에 대한 추가 세부 정보를 제공합니다. 시각적 요소에 마우스를 가져다 대면 상황별 툴팁이 팝업되어 해당 특정 데이터 포인트와 관련된 통찰력이나 설명을 제공합니다.
 
 ![](assets/discover-dashboard-basics-13.gif)

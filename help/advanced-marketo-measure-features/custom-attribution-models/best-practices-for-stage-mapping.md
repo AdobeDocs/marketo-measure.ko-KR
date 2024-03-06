@@ -3,9 +3,9 @@ description: 스테이지 매핑 우수 사례 - [!DNL Marketo Measure]
 title: 스테이지 매핑 우수 사례
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
    * 부울 필드는 모범 사례 권장 사항입니다
 * 잠재 고객 또는 연락처 단계 섹션은 손실, 열기 및 전환으로 구분되며 단계가 해당 단계 섹션에 있는지 확인합니다
    * 스테이지가 잘못된 스테이지 섹션에 있으면 매우 부정확할 수 있습니다 [!DNL Marketo Measure] 데이터
-   * Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 잠재 고객용 아래 두 필드를 사용하지 마십시오([여기에서 자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 잠재 고객용 아래 두 필드를 사용하지 마십시오([자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Opportunity 단계 섹션은 Lost, Open 및 Won으로 구분되므로 해당 단계가 적절한 단계 섹션에 있는지 확인합니다.

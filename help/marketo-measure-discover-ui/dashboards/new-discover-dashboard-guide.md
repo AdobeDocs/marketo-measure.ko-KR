@@ -3,9 +3,9 @@ description: 새로운 Discover Dashboard 안내서 - [!DNL Marketo Measure] - �
 title: 새로운 Discover Dashboard 안내서
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -427,7 +427,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
         </p>
       </td>
       <td>
-        <p>이러한 차원은 플랫폼별로 다르며 웹 트래픽을 전체적으로 볼 수 없습니다. 사용자가 Marketo Measure에서 채널/하위 채널/캠페인 데이터를 탐색한 다음 정확도와 컨텍스트를 유지하기 위해 키워드/크리에이티브 수준 인사이트를 위한 특정 플랫폼 도구를 살펴보는 것이 좋습니다.
+        <p>이러한 차원은 플랫폼별로 다르며 웹 트래픽을 전체적으로 볼 수 없습니다. 사용자가 Marketo Measure에서 채널/하위 채널/캠페인 데이터를 탐색한 다음 정확도와 컨텍스트를 유지하기 위해 키워드/크리에이티브 수준 인사이트를 위한 특정 플랫폼 도구를 파고드는 것이 좋습니다.
         </p>
       </td>
     </tr>

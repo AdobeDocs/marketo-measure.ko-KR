@@ -3,9 +3,9 @@ description: 온라인 채널에 대한 우수 사례 - [!DNL Marketo Measure]
 title: 온라인 채널에 대한 우수 사례
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 우수 사례 {#best-practice}
 
-규칙을 처음 설정하든 아니면 단순히 규칙을 검토하여 정확성을 확인하든 관계없이 다음 모범 사례를 염두에 두십시오.
+규칙을 처음 설정하든 단순히 검토하여 정확성을 확인하든 관계없이 다음 모범 사례를 염두에 두십시오.
 
 마케팅 캠페인의 구성과 마케팅 캠페인이 [!DNL Marketo Measure] 프레임워크. 온라인 채널에 표시해야 하는 채널과 하위 채널, 그리고 이러한 채널을 서로 구별하는 캠페인, UTM 매개 변수 또는 참조 웹 사이트를 결정합니다.
 

@@ -4,9 +4,9 @@ description: 여러 캠페인 레코드 유형에 대한 구성 - [!DNL Marketo 
 title: 여러 캠페인 레코드 유형에 대한 구성
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ SFDC 조직이 여러 캠페인 레코드 유형을 사용하는 경우 각 레�
 
    ![](assets/2.jpg)
 
-1. 여기에 해당 레코드 종류에 사용할 수 있는 선택 목록이 표시됩니다. 선택 **[!UICONTROL Edit]** &quot;구매자 터치포인트 활성화&quot; 필드 옆.
+1. 여기에서 해당 레코드 유형에 사용할 수 있는 선택 목록이 표시됩니다. 선택 **[!UICONTROL Edit]** &quot;구매자 터치포인트 활성화&quot; 필드 옆.
 
    ![](assets/3.jpg)
 
