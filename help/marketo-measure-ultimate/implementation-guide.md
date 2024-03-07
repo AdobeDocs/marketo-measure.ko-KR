@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Ultimate 구현 안내서 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate 구현 안내서'
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -131,12 +131,13 @@ Ultimate 사용자는 AEP가 프로비저닝됩니다. 이미 AEP가 있는 경�
 
 >[!NOTE]
 >
+>* 데이터 흐름당 하나의 데이터 세트만 포함하는 것이 좋습니다.
 >* 지정된 소스의 지정된 엔티티(예: 계정)에 대한 데이터는 하나의 데이터 세트에만 들어갈 수 있습니다. 각 데이터 세트는 하나의 데이터 흐름에만 포함될 수 있습니다. 위반은 런타임에 데이터 흐름을 중지합니다.
 >* AEP에서 전체 대상을 삭제하여 측정에서 데이터를 삭제합니다. 비활성화하면 새 데이터 내보내기가 중지되고 이전 데이터가 유지됩니다.
 >* 측정값 구성은 대부분 동일하게 보이지만 스테이지 매핑과 같은 일부 부분은 다르게 표시됩니다.
 >* 새 데이터 흐름이 플로우 실행을 생성하는 데 몇 시간이 소요되며, 그런 다음 규칙적인 시간 간격으로 발생합니다.
 
-측정에서 기본 통화는 &quot;통화&quot; 섹션에 설정되어야 합니다.
+측정에서 기본 통화는 &quot;통화&quot; 섹션에서 설정되어야 합니다.
 
 * 다중 통화를 사용하는 경우 AEP에서 통화 전환율 스키마를 채워야 전환용으로 읽고 사용할 수 있습니다.
 
