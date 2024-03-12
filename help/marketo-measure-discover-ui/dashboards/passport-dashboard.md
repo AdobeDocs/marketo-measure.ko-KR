@@ -3,9 +3,9 @@ description: Passport 대시보드 - [!DNL Marketo Measure] - 제품
 title: Passport 대시보드
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,6 @@ Passport 대시보드는 마케터에게 지정된 기간 내에 다양한 단�
 이 대시보드에는 다음 설정 및 필터가 포함되어 있습니다.
 
 * 날짜(전환 날짜 기준)
-* 속성 모델
 * 채널, 하위 채널
 * Campaign
 * 세그먼트
@@ -60,4 +59,3 @@ Passport 대시보드는 마케터에게 지정된 기간 내에 다양한 단�
 >
 >* [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [대시보드 데이터 가시성 정책](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
-
