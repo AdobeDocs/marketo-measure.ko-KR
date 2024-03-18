@@ -3,9 +3,9 @@ description: 오류 알림 - [!DNL Marketo Measure]
 title: 오류 알림
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 9efdafadd8714237f27dfd722df533c5411f5fe0
+source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ ht-degree: 0%
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>CRM 내보내기 중 오류 발생: INACTIVE_OWNER_OR_USER : 엔티티 유형 'Contact': CRM 오류 코드: INACTIVE_OWNER_OR_USER, CRM 오류 메시지: 비활성 사용자 [1234]을(를) 연락처 소유자로 사용하여 수행된 작업, 레코드 ID: 0123456</td>
       <td>Marketo Measure에 "비활성 소유자로 레코드 업데이트" 권한이 없습니다.</td>
-      <td>Marketo Measure에 " 권한 부여<a href="/">비활성 소유자로 레코드 업데이트</a>"권한.</td>
+      <td>Marketo Measure에 " 권한 부여<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">비활성 소유자로 레코드 업데이트</a>"권한.</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
