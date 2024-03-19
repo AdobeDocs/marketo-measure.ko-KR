@@ -3,9 +3,9 @@ description: 오류 알림 - [!DNL Marketo Measure]
 title: 오류 알림
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
+source-git-commit: 20f886a0c6f448956ad2fda2d21a25f8d9a5a6af
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 오류 알림 {#error-notifications}
 
 다음은 인앱 알림 또는 이메일을 통해 받을 수 있는 오류 목록입니다. 이러한 메시지가 표시되면 각각의 문제 해결 단계를 따르십시오. 이러한 단계로 문제가 해결되지 않으면 다음 연락처에 문의하십시오. [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support).
+
+에서 전체 알림 메시지를 보려면 [!DNL Marketo Measure], 클릭 **모두 보기** ( 알림 탭 하단).
+
+![](assets/error-notifications-1.png)
 
 <table>
   <tbody>
@@ -49,7 +53,7 @@ ht-degree: 0%
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-1.png">
+           <img src="assets/error-notifications-2.png">
           </p>
       </td>
     </tr>
@@ -87,27 +91,17 @@ ht-degree: 0%
       <td>DUPLICATES_DETECTED</td>
       <td>CRM 내보내기 중 오류 발생: DUPLICATES_DETECTED : 엔티티 유형 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: 중복 레코드를 만들고 있습니다. 대신 기존 레코드를 사용하는 것이 좋습니다. 레코드 ID: 0123456</td>
       <td>Salesforce 조직으로 가져오는 레코드가 이미 있습니다.</td>
-      <td>
-        <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"중복 규칙" 설정 비활성화</a> 복제를 허용합니다.
-          </li>
-          <li>에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.
-          </li>
-        </ul>
-      </td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"중복 규칙" 설정 비활성화</a> 복제를 허용합니다.
+          <p>
+          에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.</td>
     </tr>
     <tr>
       <td>DUPLEX_VALUE</td>
       <td>CRM 내보내기 중 오류 발생: DUPLICATE_VALUE : 엔티티 유형 'Lead': CRM 오류 코드: DUPLICATE_VALUE, CRM 오류 메시지: 중복 값 발견: Email_Unique__c 중복 값 (ID: 123, RecordId: 456)</td>
       <td>Salesforce 조직으로 가져오는 필드에서 중복 값을 허용하지 않습니다.</td>
-      <td>
-        <ul>
-          <li>선택 취소 <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"고유 확인란"</a> Salesforce.
-          </li>
-          <li>에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.
-          </li>
-        </ul>
-      </td>
+      <td>선택 취소 <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"고유 확인란"</a> Salesforce.
+          <p>
+          에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
