@@ -3,7 +3,7 @@ description: 도메인 관리 - [!DNL Marketo Measure]
 title: 도메인 관리
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 4c68fa08797c252a89ba097c723fb8afee82451f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Admin Console에 대한 액세스 권한이 있는 IMS 사용자는 자신
 
 ![](assets/domain-management-1.png)
 
-도메인 추가 지침은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). 도메인이 추가되면 다음과 같아야 합니다. [디렉터리에 연결됨](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
+도메인 추가 지침은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). 도메인이 추가되면 다음과 같아야 합니다. [디렉터리에 연결됨](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## 에서 도메인 관리 [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
