@@ -3,9 +3,9 @@ description: ROI 대시보드 - [!DNL Marketo Measure] - 제품
 title: ROI 대시보드
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # ROI 대시보드 {#roi-dashboard}
 
 ROI 대시보드는 마케터에게 채널, 하위 채널 및 캠페인의 투자 수익에 대한 세분화된 보기를 제공합니다. 비용 및 매출 패턴을 꼼꼼히 분석하는 동시에 리드당 비용, 거래 및 기회와 같은 지표를 파악하여 마케팅 기여도를 포괄적으로 파악합니다.
-
->[!NOTE]
->
->이 대시보드는 현재 베타 버전입니다. 이 전환 단계에서는 현재 및 새 대시보드에 모두 액세스할 수 있습니다. 현재 대시보드는 완전히 전환하여 최적의 기능을 보장하면 더 이상 사용되지 않습니다.
 
 **게시판의 질문에 대한 답변**
 

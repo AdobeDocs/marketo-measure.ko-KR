@@ -3,9 +3,9 @@ description: 수익 개요 대시보드 - [!DNL Marketo Measure] - 제품
 title: 수익 개요 대시보드
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # 수익 개요 대시보드 {#revenue-overview-dashboard}
 
 매출 개요 대시보드는 CRM에서 파생된 총 매출에 대한 통찰력을 제공하여 마케팅 전략의 역할을 조명합니다. 마케팅이 전체 매출에 어떻게 영향을 미치며 성공적인 거래 종결에 기여하는지에 대한 개요를 제공합니다.
-
->[!NOTE]
->
->이 대시보드는 현재 베타 버전입니다. 이 전환 단계에서는 현재 및 새 대시보드에 모두 액세스할 수 있습니다. 현재 대시보드는 완전히 전환하여 최적의 기능을 보장하면 더 이상 사용되지 않습니다.
 
 **질문과 대답은 다음과 같습니다.**
 

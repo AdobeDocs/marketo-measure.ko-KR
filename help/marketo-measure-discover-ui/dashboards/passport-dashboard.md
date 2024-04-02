@@ -3,9 +3,9 @@ description: Passport 대시보드 - [!DNL Marketo Measure] - 제품
 title: Passport 대시보드
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Passport 대시보드 {#passport-dashboard}
 
 Passport 대시보드는 마케터에게 지정된 기간 내에 다양한 단계를 통해 전환되는 잠재 고객, 연락처 및 기회에 대한 동적 보기를 제공합니다. 특정 날짜에 대해 필터링하면 해당 날짜의 레코드 스냅샷을 가져올 수도 있습니다.
-
->[!NOTE]
->
->이 대시보드는 현재 베타 버전입니다. 이 전환 단계에서는 현재 및 새 대시보드에 모두 액세스할 수 있습니다. 현재 대시보드는 완전히 전환하여 최적의 기능을 보장하면 더 이상 사용되지 않습니다.
 
 **질문과 대답은 다음과 같습니다.**
 

@@ -3,9 +3,9 @@ description: 대시보드 기본 사항 살펴보기 - [!DNL Marketo Measure] - 
 title: 대시보드 기본 사항 살펴보기
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # 대시보드 기본 사항 살펴보기 {#discover-dashboard-basics}
 
 이 문서는 다시 설계된 인터페이스의 기본 기능을 안내하므로 데이터를 쉽게 액세스하고 해석할 수 있습니다. 필터 창의 역학을 자세히 살펴보고 드릴 기능, 교차 필터링 및 툴팁과 같은 향상된 보고 기능의 복잡성을 찾아냅니다.
-
->[!NOTE]
->
->이 대시보드는 현재 베타 버전입니다. 이 전환 단계에서는 현재 및 새 대시보드에 모두 액세스할 수 있습니다. 현재 대시보드는 완전히 전환하여 최적의 기능을 보장하면 더 이상 사용되지 않습니다.
 
 ## 필터 창 {#filter-pane}
 
