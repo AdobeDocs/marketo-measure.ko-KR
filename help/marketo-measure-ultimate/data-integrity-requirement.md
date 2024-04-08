@@ -3,7 +3,7 @@ description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사
 title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 17%

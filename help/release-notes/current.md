@@ -3,7 +3,7 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 81ce4ead229e461eeb9e6e3b1e951108b627a4e8
+source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%
@@ -42,7 +42,8 @@ _전환 지원_
 
 이러한 변화에 적응하는 데 도움이 되도록, [설명서를 만들었습니다.](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} 명확한 오류 설명 및 포괄적인 문제 해결 단계.
 
-**linkedIn 통합에 필요한 작업**
+<br>
+**LinkedIn 통합에 필요한 작업**
 
 LinkedIn은 최근 업데이트된 버전의 Lead Sync API를 발표했습니다. 중단을 방지하려면 5월 20일까지 Marketo Measure 인스턴스에서 LinkedIn 연결을 다시 인증하십시오.
 
