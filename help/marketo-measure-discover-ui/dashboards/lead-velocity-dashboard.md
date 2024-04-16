@@ -2,9 +2,10 @@
 description: 잠재 고객 속도 대시보드 - [!DNL Marketo Measure] - 제품
 title: 리드 속도 대시보드
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
+source-git-commit: de7239abaedaf1a59b3760f12736a225d71027a1
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -20,14 +21,16 @@ Velocity 대시보드는 잠재 고객이 판매 단계를 이동하는 속도�
 
 ## 대시보드 구성 요소 {#dashboard-components}
 
+&quot;잠재 고객&quot; 또는 &quot;연락처&quot;를 표시할지 여부는 설정 > 속성 설정 > 기본 대시보드 개체에 설정된 기본 설정에 따라 결정됩니다.
+
 ### 단계별 잠재 고객/연락처 속도 {#lead-contact-velocity-by-stage}
 
 막대 차트에는 특정 기간 동안 잠재 고객/담당자가 각 판매 단계에서 소비한 평균 기간(일)이 표시됩니다.
 
 이 차트가 답하는 질문:
 
-일반적으로 잠재 고객/연락처의 지속 시간이 가장 긴 판매 단계는 무엇입니까?
-첫 번째 터치 단계에서 보낸 시간은 &#39;MQL&#39; 단계와 어떻게 비교됩니까?
+* 일반적으로 잠재 고객/연락처의 지속 시간이 가장 긴 판매 단계는 무엇입니까?
+* 첫 번째 터치 단계에서 보낸 시간은 &#39;MQL&#39; 단계와 어떻게 비교됩니까?
 
 ![](assets/lead-velocity-dashboard-1.png)
 
