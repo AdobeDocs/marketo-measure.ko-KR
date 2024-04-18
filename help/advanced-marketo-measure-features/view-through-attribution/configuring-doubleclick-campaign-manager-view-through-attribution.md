@@ -4,9 +4,9 @@ description: 속성을 통한 Doubleclick Campaign Manager 보기 구성 - [!DNL
 title: 속성을 통해 Doubleclick Campaign Manager 보기 구성
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 속성을 통해 Doubleclick Campaign Manager 보기 구성 {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## 속성을 통해 보기 측정 {#measuring-view-through-attribution}
+
+>[!IMPORTANT]
+>
+>개인 정보 보호 문제로 인해 서드파티 쿠키가 출시되고 있습니다. Google Chrome은 2024년 3분기에 타사 쿠키의 사용을 중단한다고 발표하여 이러한 형식의 추적을 종료하는 것을 효과적으로 표시합니다. 그 결과 Adobe은 타사 쿠키에 의존하는 Marketo Measure 기능을 더 이상 사용하지 않습니다. 특히, Google/DoubleClick 노출 쿠키를 사용하는 도메인 간 추적 및 뷰스루 속성. Marketo Measure의 다른 기능은 영향을 받지 않습니다. 자사 쿠키 사용도 영향을 받지 않습니다. Google의 일정에 비추어 볼 때 위의 두 기능에 대한 예상 사용 중단 날짜는 2024년 6월 1일입니다. 이 날짜 이전에 수집된 관련 데이터는 Adobe 고객이 계속 사용할 수 있습니다.
 
 >[!NOTE]
 >

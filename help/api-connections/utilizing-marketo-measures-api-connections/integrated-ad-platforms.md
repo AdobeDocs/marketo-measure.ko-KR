@@ -4,9 +4,9 @@ description: 통합 광고 플랫폼 - [!DNL Marketo Measure]
 title: 통합 광고 플랫폼
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,13 @@ Rafflecopter에서 만든 스프레드시트는 수정된 버전입니다. [!DNL
 ## Bing Ads {#bing-ads}
 
 Bing Ads는 URL에 대한 자동 태그 지정을 활성화하거나 다음과 같은 서드파티 도구를 사용할 수 있는 통합 플랫폼입니다. [!DNL Marketo Measure]를 클릭하여 광고에 태깅합니다. [!DNL Bing Ads] 는 UTM 매개 변수도 사용합니다.
+
+통합은 아래 광고 유형을 지원합니다.
+
+* 텍스트 광고
+* 모바일 광고
+* 확장된 텍스트 광고
+
 
 Bing Ads의 자동 태그 지정 기능은 다음과 같은 UTM 매개 변수를 추가합니다.
 

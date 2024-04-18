@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] 기여도 분석을 통한 보기 FAQ - [!D
 title: "[!DNL Marketo Measure] 속성 FAQ를 통해 보기"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 ## 속성을 통한 보기란 무엇입니까? {#what-is-view-through-attribution}
 
 다음 [!DNL Marketo Measure] [!UICONTROL View Through Attribution] 기능에는 속성 모델에 광고 노출 횟수를 포함하는 기능이 포함됩니다.
+
+>[!IMPORTANT]
+>
+>개인 정보 보호 문제로 인해 서드파티 쿠키가 출시되고 있습니다. Google Chrome은 2024년 3분기에 타사 쿠키의 사용을 중단한다고 발표하여 이러한 형식의 추적을 종료하는 것을 효과적으로 표시합니다. 그 결과 Adobe은 타사 쿠키에 의존하는 Marketo Measure 기능을 더 이상 사용하지 않습니다. 특히, Google/DoubleClick 노출 쿠키를 사용하는 도메인 간 추적 및 뷰스루 속성. Marketo Measure의 다른 기능은 영향을 받지 않습니다. 자사 쿠키 사용도 영향을 받지 않습니다. Google의 일정에 비추어 볼 때 위의 두 기능에 대한 예상 사용 중단 날짜는 2024년 6월 1일입니다. 이 날짜 이전에 수집된 관련 데이터는 Adobe 고객이 계속 사용할 수 있습니다.
 
 ## 이유는 다음과 같습니다 [!UICONTROL View Through Attribution] 중요해요? {#why-is-view-through-attribution-important}
 
