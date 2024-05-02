@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure] 은 마케터에게 어떤 마케팅 노력이 회사의 매출을 증대시키는 데 가장 효과적인지에 대한 통찰력을 제공합니다."
-source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
+source-git-commit: 5759615376954806d6f0682378ce4bbc786bc43a
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,7 @@ ht-degree: 0%
       + [대시보드 기본 사항 살펴보기](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [새로운 Discover Dashboard 안내서](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [대시보드 데이터 가시성 정책](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [속성 영업 기회 대시보드](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
       + [속성 수익 대시보드](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [참여 대시보드](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [리드 속도 대시보드](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
