@@ -4,9 +4,9 @@ description: 사용자 정의 세분화 - [!DNL Marketo Measure]
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: e1ad563aac12ceb6bea6c28621ebd1cb7ec0a923
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 사용자 정의 세그먼테이션을 사용하여 특정 레코드 유형의 데이터를 볼 수 있습니다. 필터 논리를 매핑하면 [!DNL Marketo Measure] 대시보드의 Demand Waterfall 보기—CRM에서 볼 수 있는 것과 동일한 데이터입니다.
 
 **어떻게 설정해야 합니까?**
+
+>[!NOTE]
+>
+>세그먼트 규칙을 업데이트하면 내역 데이터가 다시 처리됩니다.
 
 1단계 - 보려는 정보를 결정합니다.
 
