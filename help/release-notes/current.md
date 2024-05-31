@@ -3,9 +3,9 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
+source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,32 @@ ht-degree: 0%
 # 릴리스 노트: 2024 {#release-notes-2024}
 
 2024 릴리스의 모든 새로운 기능 및 업데이트된 기능은 아래를 참조하십시오.
+
+## 3분기 릴리스 {#q3-release}
+
+<p>
+
+**미리 알림: Salesforce 필드 사용 중단 사항 - 6월 14일**
+
+작년에 발표된 대로 리드/연락처 객체에 대한 내보내기 작업을 단계적으로 중단하여 통합을 단순화하고 Salesforce 표준 객체로 내보낼 필요가 없게 됩니다. 단계에 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다 [여기에 문서화됨](/help/release-notes/previous-releases/2023.md#deprecations). 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
+
+이 변경은 다음과 같은 두 가지 주요 이점을 제공합니다.
+
+* **Salesforce API 비용 절감**: 고객은 Salesforce API 비용을 약 10% 절감할 수 있습니다.
+* **간소화된 통합**: 내보내기 작업에서 가장 많은 오류가 이러한 프로세스와 관련이 있습니다. 이를 제거하면 통합이 크게 간소화됩니다.
+
+**속성 영업 기회 대시보드**
+
+새로운 항목을 소개하게 되어 매우 기쁩니다 [속성 영업 기회 대시보드](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)는 마케팅 노력이 초기 및 성숙 파이프라인 기회 모두에 기여하는 방식을 종합적으로 파악할 수 있도록 설계되었습니다. 이 대시보드를 사용하면 영업 기회 단계를 기준으로 필터링할 수 있는 유연성을 가지고 전략에 따라 발생하는 모든 개설 및 마감된 영업 기회에 대한 세부 정보를 파악할 수 있습니다. 속성 기회 금액 측면에서 가장 높은 등급을 제공하는 채널, 하위 채널 또는 캠페인에 대한 통찰력을 제공하며, 속성 오픈 및 마감된 기회의 수와 함께 총 속성 기회 금액을 표시합니다.
+
+**Marketo Measure Ultimate용 Marketo Engage 쿠키 동기화**
+
+이제 Marketo Measure Ultimate에서 Marketo Engage 쿠키 동기화를 사용할 수 있습니다. 이 기능을 사용하려면 다음 작업을 수행하십시오.
+
+1. AEP 스키마 페이지에서 B2B 개인 스키마를 편집하고 필드 그룹 &quot;개인 세부 정보 Marketo Engage&quot;를 추가합니다.
+1. MMU로 데이터를 수집할 때 필드 그룹의 쿠키 ID 필드를 Marketo Engage의 쿠키 필드에 매핑합니다.
+
+<p>
 
 ## 2분기 릴리스 {#q2-release}
 
