@@ -3,9 +3,9 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **미리 알림: Salesforce 필드 사용 중단 사항 - 6월 14일**
 
-작년에 발표된 대로 리드/연락처 객체에 대한 내보내기 작업을 단계적으로 중단하여 통합을 단순화하고 Salesforce 표준 객체로 내보낼 필요가 없게 됩니다. 단계에 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다 [여기에 문서화됨](/help/release-notes/previous-releases/2023.md#deprecations). 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
+작년에 발표된 대로 리드/연락처 객체에 대한 내보내기 작업을 단계적으로 중단하여 통합을 단순화하고 Salesforce 표준 객체로 내보낼 필요가 없게 됩니다. 단계에 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다 [여기에 문서화됨](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
 
 이 변경은 다음과 같은 두 가지 주요 이점을 제공합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 **속성 영업 기회 대시보드**
 
-새로운 항목을 소개하게 되어 매우 기쁩니다 [속성 영업 기회 대시보드](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)는 마케팅 노력이 초기 및 성숙 파이프라인 기회 모두에 기여하는 방식을 종합적으로 파악할 수 있도록 설계되었습니다. 이 대시보드를 사용하면 영업 기회 단계를 기준으로 필터링할 수 있는 유연성을 가지고 전략에 따라 발생하는 모든 개설 및 마감된 영업 기회에 대한 세부 정보를 파악할 수 있습니다. 속성 기회 금액 측면에서 가장 높은 등급을 제공하는 채널, 하위 채널 또는 캠페인에 대한 통찰력을 제공하며, 속성 오픈 및 마감된 기회의 수와 함께 총 속성 기회 금액을 표시합니다.
+새로운 항목을 소개하게 되어 매우 기쁩니다 [속성 영업 기회 대시보드](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}는 마케팅 노력이 초기 및 성숙 파이프라인 기회 모두에 기여하는 방식을 종합적으로 파악할 수 있도록 설계되었습니다. 이 대시보드를 사용하면 영업 기회 단계를 기준으로 필터링할 수 있는 유연성을 가지고 전략에 따라 발생하는 모든 개설 및 마감된 영업 기회에 대한 세부 정보를 파악할 수 있습니다. 속성 기회 금액 측면에서 가장 높은 등급을 제공하는 채널, 하위 채널 또는 캠페인에 대한 통찰력을 제공하며, 속성 오픈 및 마감된 기회의 수와 함께 총 속성 기회 금액을 표시합니다.
 
 **Marketo Measure Ultimate용 Marketo Engage 쿠키 동기화**
 
@@ -37,6 +37,14 @@ ht-degree: 0%
 
 1. AEP 스키마 페이지에서 B2B 개인 스키마를 편집하고 필드 그룹 &quot;개인 세부 정보 Marketo Engage&quot;를 추가합니다.
 1. MMU로 데이터를 수집할 때 필드 그룹의 쿠키 ID 필드를 Marketo Engage의 쿠키 필드에 매핑합니다.
+
+**계층 2 및 3 고객에 대해 활성화된 부메랑 단계**
+
+부메랑 스테이지 기능은 2024년 6월 7일부터 모든 Tier 2 및 3 고객이 사용할 수 있습니다. 이 기능에 대한 자세한 내용은 아래 설명서를 참조하십시오.
+
+* [부메랑 스테이지 및 터치포인트](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [부메랑 단계 설정](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [부메랑 단계 시나리오](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
