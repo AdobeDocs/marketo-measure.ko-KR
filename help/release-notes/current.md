@@ -3,9 +3,9 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 0%
 1. AEP 스키마 페이지에서 B2B 개인 스키마를 편집하고 필드 그룹 &quot;개인 세부 정보 Marketo Engage&quot;를 추가합니다.
 1. MMU로 데이터를 수집할 때 필드 그룹의 쿠키 ID 필드를 Marketo Engage의 쿠키 필드에 매핑합니다.
 
-**계층 2 및 3 고객에 대해 활성화된 부메랑 단계**
+**계층 2 고객을 위해 활성화된 부메랑 단계**
 
-부메랑 스테이지 기능은 2024년 6월 7일부터 모든 Tier 2 및 3 고객이 사용할 수 있습니다. 이 기능에 대한 자세한 내용은 아래 설명서를 참조하십시오.
+이전에는 계층 3 고객만 사용할 수 있었던 부메랑 스테이지 기능은 2024년 6월 7일부터 모든 계층 2 고객도 사용할 수 있습니다. 이 기능에 대한 자세한 내용은 아래 설명서를 참조하십시오.
 
 * [부메랑 스테이지 및 터치포인트](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [부메랑 단계 설정](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}

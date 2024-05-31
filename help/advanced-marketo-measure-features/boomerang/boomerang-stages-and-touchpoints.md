@@ -4,9 +4,9 @@ description: 부메랑 단계 및 터치포인트 - [!DNL Marketo Measure]
 title: 부메랑 스테이지 및 터치포인트
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->부메랑 기능은 계층 3 고객에게만 활성화됩니다. 더 높은 계정 계층을 요청하려면 Adobe 계정 팀(계정 관리자)에 문의하십시오.
+>부메랑 기능은 계층 2 및 3 고객에게만 활성화됩니다. 더 높은 계정 계층을 요청하려면 Adobe 계정 팀(계정 관리자)에 문의하십시오.
 
 [!DNL Marketo Measure] 이(가) 부메랑 스테이지 기능을 출시했습니다! 부메랑 스테이지 기능은 다음에 대한 고객의 여정에 대한 가시성을 높이기 위해 만들어졌습니다. [!DNL Marketo Measure] 영업 주기가 긴 고객. 이 기능을 사용하면 마케터는 연락처 MQL을 이동한 다음 SAL로 이동한 다음 MQL 단계로 되돌리는 경우와 같이 영업 기회 여정에서 발생하는 모든 단계 전환에 대한 터치포인트를 만들 수 있습니다. 연락처가 &quot;MQL 스테이지로 다시 시작&quot; 또는 &quot;MQL을 다시 시작&quot;할 때 MQL은 부메랑 스테이지로 간주됩니다. 부메랑 무대는 부메랑 무대와 함께 기능한다 [!DNL Marketo Measure] 사용자 지정 단계입니다.
 
