@@ -4,7 +4,7 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 3%
@@ -33,24 +33,14 @@ Data Warehouse을 사용하면 원하는 만큼 추적하고, 원하는 위치�
 _전체 크기 버전에 대한 이미지 클릭_
 
 <table style="table-layout:auto"> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>Data Warehouse 데이터 모델</strong></td> 
-   <td><strong>광고 차원 데이터 모델</strong></td> 
+   <th>Data Warehouse 데이터 모델</th> 
+   <th>광고 차원 데이터 모델</th> 
   </tr> 
   <tr> 
-   <td> 
-    <div> 
-     <p><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></p> 
-    </div></td>
-   <td> 
-    <div> 
-     <p><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></p>
-    </div></td> 
+   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +111,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>IS_DELETED</td>
       <td>부울</td>
       <td>소스 시스템에서 레코드가 삭제되는지 여부.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>사용자 지정 속성</td>
@@ -211,7 +201,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>IS_DELETED</td>
       <td>부울</td>
       <td>레코드가 삭제된 것으로 간주되는지 여부.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -321,7 +311,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>IS_DELETED</td>
       <td>부울</td>
       <td>소스 시스템에서 레코드가 삭제된 것으로 간주되는지 여부.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>AD_FORM_ID</td>
@@ -426,13 +416,13 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>IS_ACTIVE</td>
       <td>부울</td>
       <td>소스 시스템에서 광고가 여전히 활성 상태인지 여부.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
       <td>부울</td>
       <td>소스 시스템에서 광고가 삭제되었는지 여부.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -458,7 +448,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>다음에 대한 광고 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.
       <p>(내부 처리에 사용되는 진단 필드)
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>그룹화 키</td>
@@ -613,13 +603,13 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>IS_ACTIVE</td>
       <td>부울</td>
       <td>광고주가 소스 시스템에서 여전히 활성 상태인지 여부입니다.</td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
       <td>부울</td>
       <td>소스 시스템에서 광고주가 삭제되었는지 여부.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -645,7 +635,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>다음에 대한 광고주 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.
       <p>(내부 처리에 사용되는 진단 필드)
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>그룹화 키</td>
@@ -811,7 +801,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>광고 계정이 소스 시스템에서 여전히 활성 상태인지 여부.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -825,7 +815,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 광고 계정이 삭제되었는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -872,7 +862,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -1209,7 +1199,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 Campaign이 여전히 활성 상태인지 여부.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -1223,7 +1213,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 Campaign이 삭제되었는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -1272,7 +1262,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -1457,7 +1447,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 상태가 삭제되었습니다. 상태가 초안, 보관됨 또는 취소됨인 경우 삭제로 설정합니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -1738,7 +1728,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>광고 계정이 소스 시스템에서 여전히 활성 상태인지 여부.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -1752,7 +1742,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 광고 계정이 삭제되었는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -1801,7 +1791,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -2751,7 +2741,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>이 터치포인트가 영업 기회 여정의 첫 번째 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -2765,7 +2755,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>이 터치포인트가 영업 기회 여정의 리드 생성 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -2779,7 +2769,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>이 터치포인트가 영업 기회 여정의 영업 기회 창출 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -2793,7 +2783,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>이 터치포인트가 영업 기회 여정의 닫힘 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -2815,7 +2805,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>이 터치포인트가 세션 중에 양식 채우기를 했는지 여부.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -2829,7 +2819,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>이 터치포인트가 영업 기회 여정의 첫 번째 노출 터치로 처리되는지 여부</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -2921,7 +2911,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>이 터치포인트가 삭제되었는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -3315,7 +3305,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>캠페인 멤버가 상태 선택기에서 "응답됨"으로 표시되었는지 여부를 알려줍니다.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -3425,7 +3415,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>소스 시스템에서 레코드가 삭제된 것으로 간주되는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -3660,13 +3650,13 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>
         <p>소스 시스템에서 레코드가 삭제되는지 여부.</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>IS_DUPLICATE</td>
       <td>부울</td>
       <td>CRM 및 Marketo 통합이 모두 설정된 경우 레코드 중복을 제거하는 데 사용됩니다. 중복 항목이 있는 경우 Marketo 연락처는 true로 표시됩니다.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>SOURCE_시스템</td>
@@ -3774,7 +3764,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>IS_CURRENT</td>
       <td>부울</td>
       <td>이 필드의 의미 체계가 손상되었습니다. 사용하지 마십시오.</td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
@@ -3792,7 +3782,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>IS_DELETED</td>
       <td>부울</td>
       <td>소스 시스템에서 레코드가 삭제된 것으로 간주되는지 여부.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -3897,7 +3887,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>CHANNEL_IS_AGGREGATABLE_COST</td>
       <td>부울</td>
       <td>행에 채널로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 채널 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>ADVERTISER_UNIQUE_ID</td>
@@ -3915,7 +3905,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>ADVERTISER_IS_AGGREGATABLE_COST</td>
       <td>부울</td>
       <td>행에 광고주가 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (즉, 광고주 비용을 가져오려면 이 열이 true인 행의 합계를 구합니다.)</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>
@@ -3952,7 +3942,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>행에 계정별로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 계정 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -3990,7 +3980,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>행에 Campaign으로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 캠페인 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -4028,7 +4018,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>행에 광고 그룹으로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 광고 그룹 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4066,7 +4056,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>행에 Ad로 합산할 수 있는 Cost가 포함되어 있는지 여부를 나타냅니다. (즉, 광고 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4104,7 +4094,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>행에 Creative로 합산할 수 있는 Cost가 포함되어 있는지 여부를 나타냅니다. (즉, 크리에이티브 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4142,7 +4132,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>행에 Keyword로 합산할 수 있는 Cost가 포함되어 있는지 여부를 나타냅니다. (예: 키워드 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4180,7 +4170,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>행에 배치로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 배치 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4218,7 +4208,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>행에 Site 로 합산될 수 있는 Cost 가 포함되어 있는지 여부를 나타냅니다. (예: 사이트 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4232,7 +4222,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>소스 시스템에서 레코드가 삭제된 것으로 간주되는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4473,7 +4463,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>크리에이티브가 소스 시스템에서 여전히 활성 상태인지 여부입니다.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -4487,7 +4477,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>소스 시스템에서 크리에이티브가 삭제되었는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4536,7 +4526,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4649,7 +4639,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>크리에이티브가 업그레이드된 URL을 사용하는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -4912,7 +4902,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>소스 시스템에서 레코드가 삭제된 것으로 간주되는지 여부.</td>
       <td>
-        <p>False</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -5075,7 +5065,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>소스 시스템에서 레코드가 삭제된 것으로 간주되는지 여부.</td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -5134,14 +5124,14 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>부울</td>
       <td>통화가 법인 통화인지 여부를 지정합니다.</td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
       <td>IS_ENABLED</td>
       <td>부울</td>
       <td>소스 시스템에서 통화가 사용되는지 여부를 지정합니다.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -5322,7 +5312,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
       <td>
         <p>진단 및 감사에 사용되는 레코드 삭제 여부.</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -5433,7 +5423,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>진단 및 감사에 사용되는 레코드 삭제 여부.</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -5766,14 +5756,14 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>레코드가 삭제된 것으로 간주되는지 여부, 진단 및 감사에 사용됨.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
       <td>IS_IGNORE</td>
       <td>부울</td>
       <td>이메일 또는 방문자 ID가 내부 처리에 사용되는 소음이나 스팸으로 간주되는지 보여 줍니다.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -6293,7 +6283,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>Opportunity 가 won으로 분류된 단계로 이동되었는지 보여 줍니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6307,7 +6297,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>Opportunity 가 Closed 로 분류된 단계로 이동했는지 여부를 나타냅니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6406,7 +6396,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>행에 Ad로 합산할 수 있는 Cost가 포함되어 있는지 여부를 나타냅니다. (즉, 광고 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>
@@ -6418,7 +6408,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>행에 광고주가 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (즉, 광고주 비용을 가져오려면 이 열이 true인 행의 합계를 구합니다.)</p>
       </td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>
@@ -6431,7 +6421,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행에 계정별로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 계정 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6445,7 +6435,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행에 광고 그룹으로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 광고 그룹 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6459,7 +6449,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행에 Campaign으로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 캠페인 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -6472,7 +6462,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>행에 채널로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 채널 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>
@@ -6485,7 +6475,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행에 Creative로 합산할 수 있는 Cost가 포함되어 있는지 여부를 나타냅니다. (즉, 크리에이티브 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6499,7 +6489,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행에 Keyword로 합산할 수 있는 Cost가 포함되어 있는지 여부를 나타냅니다. (예: 키워드 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6513,7 +6503,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행에 배치로 합산할 수 있는 비용이 포함되어 있는지 여부를 나타냅니다. (예: 배치 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6527,7 +6517,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행에 Site 로 합산될 수 있는 Cost 가 포함되어 있는지 여부를 나타냅니다. (예: 사이트 비용을 가져오려면 이 열이 true인 행의 합계를 구하십시오.)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6541,7 +6531,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>기록 삭제 여부, 감사 추적으로 사용됨.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6740,7 +6730,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>레코드가 중복으로 간주되는지 여부를 나타냅니다.</td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -6752,7 +6742,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>내부 처리에 사용됩니다.</td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -6989,7 +6979,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>레코드가 중복으로 간주되는지 여부를 나타냅니다.</td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -7001,7 +6991,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>내부 처리에 사용됩니다.</td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -7616,7 +7606,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>소스 시스템에서 Keyword가 여전히 활성 상태인지 여부.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -7630,7 +7620,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>소스 시스템에서 키워드가 삭제되었는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -7677,7 +7667,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>(진단 필드, 내부 처리에 사용됨)</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -7754,7 +7744,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>진단 필드(내부 처리용).</td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -8162,7 +8152,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>잠재 고객이 연락처로 전환되었는지 여부입니다.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -8298,7 +8288,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>소스 시스템에서 레코드가 삭제되는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -8323,7 +8313,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>IS_DUPLICATE</td>
       <td>부울</td>
       <td>CRM 및 Marketo 통합이 모두 설정된 경우 레코드 중복을 제거하는 데 사용됩니다. 중복 항목이 있으면 Marketo 잠재 고객이 true로 표시됩니다.</td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>SOURCE_시스템</td>
@@ -8513,7 +8503,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>접점이 보류 중으로 간주되고 아직 닫히지 않았는지 보여 줍니다. 전체 경로 속성 모델이 있는 고객에게만 표시됩니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -8527,7 +8517,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행이 마일스톤 단계 전환에 연결되어 있는지 여부를 나타냅니다. 예를 들어 3개의 스테이지/시작(FT, LC, MQL)과 4개의 터치포인트가 있는 경우 스테이지가 없는 1 터치포인트는 "비전환"으로 간주되므로 값이 true와 같습니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -8575,7 +8565,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>전환 레코드가 삭제된 것으로 간주되는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -8672,7 +8662,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>영업 기회가 성공한 것으로 간주되는 단계로 이동했는지 보여 줍니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -8686,7 +8676,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>영업 기회가 종료된 것으로 간주되는 단계로 이동했는지 보여 줍니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -8825,7 +8815,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>소스 시스템에서 레코드가 삭제되는지 여부.</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>
@@ -9054,7 +9044,7 @@ Opportunity 의 Stage 전환
         <p>접점이 보류 중으로 간주되고 아직 닫히지 않았는지 보여 줍니다. 전체 경로 속성 모델이 있는 고객에게만 표시됩니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -9068,7 +9058,7 @@ Opportunity 의 Stage 전환
         <p>행이 마일스톤 단계 전환에 연결되어 있는지 여부를 나타냅니다. 예를 들어 3개의 스테이지/시작(FT, LC, MQL)과 4개의 터치포인트가 있는 경우 스테이지가 없는 1 터치포인트는 "비전환"으로 간주되므로 값이 true와 같습니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -9116,7 +9106,7 @@ Opportunity 의 Stage 전환
         <p>전환 레코드가 삭제된 것으로 간주되는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -9310,7 +9300,7 @@ Opportunity 의 Stage 전환
         <p>부울</p>
       </td>
       <td>레코드가 중복으로 간주되는지 여부를 나타냅니다.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>
@@ -9320,7 +9310,7 @@ Opportunity 의 Stage 전환
         <p>부울</p>
       </td>
       <td>내부 처리에 사용됩니다.</td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>
@@ -9398,7 +9388,7 @@ Opportunity 의 Stage 전환
       <td>HAS_USER_CONSENT</td>
       <td>부울</td>
       <td>사용자가 추적에 동의했는지 보여 줍니다. False는 사용자 동의가 필요하지 않으므로 페이지 보기가 수집되었음을 의미합니다. True는 페이지 보기가 수집되었고 사용자가 추적되는 데 동의했음을 의미합니다.</td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -9541,7 +9531,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>소스 시스템에서 배치가 여전히 활성 상태인지 여부.</p>
       </td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>
@@ -9553,7 +9543,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>소스 시스템에서 배치가 삭제되었는지 여부.</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -9594,7 +9584,7 @@ Opportunity 의 Stage 전환
         <p>다음에 대한 배치를 업데이트해야 하는지 여부 [!DNL Marketo Measure] 태그 지정.</p>
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>
@@ -9776,13 +9766,13 @@ Opportunity 의 Stage 전환
       <td>IS_ACTIVE</td>
       <td>부울</td>
       <td>범주가 사용 중인지 여부를 나타냅니다.</td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
       <td>부울</td>
       <td>레코드가 삭제되는지 여부를 나타냅니다.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -9875,7 +9865,7 @@ Opportunity 의 Stage 전환
       <td>IS_FIRST_SESSION</td>
       <td>부울</td>
       <td>방문자 ID에 대한 첫 번째 세션인지 여부를 나타냅니다.</td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>
@@ -9996,7 +9986,7 @@ Opportunity 의 Stage 전환
         <p>세션에 양식 채우기가 포함되어 있는지 여부,</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -10010,7 +10000,7 @@ Opportunity 의 Stage 전환
         <p>세션에 웹 채팅이 포함되었는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -10024,7 +10014,7 @@ Opportunity 의 Stage 전환
         <p>세션에 이메일 주소가 있는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -10038,7 +10028,7 @@ Opportunity 의 Stage 전환
         <p>CRM 활동 레코드에서 세션이 시작되었는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -10460,7 +10450,7 @@ Opportunity 의 Stage 전환
         <p>이 세션이 다른 세션과 병합되었으며 삭제해야 하는지 여부를 결정합니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -10688,7 +10678,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>소스 시스템에서 사이트가 여전히 활성 상태인지 여부.</p>
       </td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>
@@ -10700,7 +10690,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>소스 시스템에서 사이트가 삭제되었는지 여부.</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -10741,7 +10731,7 @@ Opportunity 의 Stage 전환
         <p>사이트 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
         <p>(진단 필드, 내부 처리에 사용됨)</p>
       </td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>
@@ -10759,7 +10749,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "사이트"입니다.</p>
       </td>
-      <td>사이트</td>
+      <td>위치</td>
     </tr>
     <tr>
       <td>
@@ -11148,7 +11138,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>단계가 비활성 상태로 간주되는지 여부를 나타냅니다.</td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -11162,7 +11152,7 @@ Opportunity 의 Stage 전환
         <p>사용자 지정 모델에서 추적할 단계가 선택되었는지 여부를 나타냅니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -11176,7 +11166,7 @@ Opportunity 의 Stage 전환
         <p>부메랑 단계로 추적하기 위해 단계가 선택되었는지 여부를 나타냅니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -11188,7 +11178,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>전환을 추적하기 위해 단계가 선택되었는지 보여 줍니다.</td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -11214,7 +11204,7 @@ Opportunity 의 Stage 전환
         <p>스테이지를 외부 소스 시스템에서 가져오는지 여부를 나타냅니다.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -11226,7 +11216,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>단계가 기본값으로 설정되었는지 여부를 나타냅니다.</td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -11254,7 +11244,7 @@ Opportunity 의 Stage 전환
         <p>단계가 삭제되었는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -12041,7 +12031,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 영업 기회 여정의 첫 번째 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -12055,7 +12045,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 영업 기회 여정의 리드 생성 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -12069,7 +12059,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 영업 기회 여정의 영업 기회 창출 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -12083,7 +12073,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 영업 기회 여정의 닫힘 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -12103,7 +12093,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 세션 중에 양식 채우기를 했는지 여부.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -12117,7 +12107,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 영업 기회 여정의 첫 번째 노출 터치로 처리되는지 여부</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -12208,7 +12198,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 삭제되었는지 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -12525,7 +12515,7 @@ Opportunity 의 Stage 전환
       <td>IS_FIRST_KNOWN_TOUCH</td>
       <td>부울</td>
       <td>이 터치포인트가 영업 기회 여정의 첫 번째 터치로 처리되는지 여부입니다.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>VISITOR_ID</td>
@@ -13068,7 +13058,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 세션 중에 양식 채우기를 했는지 여부.</p>
       </td>
       <td>
-        <p>true</p>
+        <p>참</p>
       </td>
     </tr>
     <tr>
@@ -13082,7 +13072,7 @@ Opportunity 의 Stage 전환
         <p>이 터치포인트가 영업 기회 여정의 첫 번째 노출 터치로 처리되는지 여부입니다.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -13096,7 +13086,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트 삭제 여부.</p>
       </td>
       <td>
-        <p>false</p>
+        <p>거짓</p>
       </td>
     </tr>
     <tr>
@@ -13318,13 +13308,13 @@ Opportunity 의 Stage 전환
       <td>IS_DUPLICATED</td>
       <td>부울</td>
       <td>레코드가 중복으로 간주되는지 여부를 나타냅니다.</td>
-      <td>false</td>
+      <td>거짓</td>
     </tr>
     <tr>
       <td>IS_PROCESSED</td>
       <td>부울</td>
       <td>내부 처리에 사용됩니다.</td>
-      <td>true</td>
+      <td>참</td>
     </tr>
     <tr>
       <td>MAPPING_유형</td>

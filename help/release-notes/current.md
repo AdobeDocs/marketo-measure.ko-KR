@@ -3,9 +3,9 @@ description: 최신 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **미리 알림: Salesforce 필드 사용 중단 사항 - 6월 14일**
 
-작년에 발표된 대로 리드/연락처 객체에 대한 내보내기 작업을 단계적으로 중단하여 통합을 단순화하고 Salesforce 표준 객체로 내보낼 필요가 없게 됩니다. 단계에 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다 [여기에 문서화됨](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
+작년에 발표했듯이 [리드/연락처 오브젝트로 내보내기 작업 단계적으로 중단](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없습니다. 단계에 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다 [여기에 문서화됨](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
 
 이 변경은 다음과 같은 두 가지 주요 이점을 제공합니다.
 
