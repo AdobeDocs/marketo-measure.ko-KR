@@ -4,9 +4,9 @@ description: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 -
 title: 방법 [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1152'
 ht-degree: 19%
 
 ---
@@ -124,67 +124,7 @@ ht-degree: 19%
    <td>맞춤형</td> 
    <td>x</td> 
    <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -233,67 +173,7 @@ ht-degree: 19%
    <td>표준</td> 
    <td>x</td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -335,67 +215,7 @@ ht-degree: 19%
    <td>IsDeleted</td> 
    <td>표준</td> 
    <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>맞춤형</td> 
-   <td>x</td> 
-   <td>x </td> 
+   <td> </td>
   </tr> 
  </tbody> 
 </table>
@@ -685,6 +505,12 @@ ht-degree: 19%
    <td><br></td> 
   </tr>
   <tr> 
+   <td>이름</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td>x</td> 
+  </tr>
+  <tr> 
    <td>bizible2__UniqueId__c</td> 
    <td>맞춤형</td> 
    <td>x</td> 
@@ -814,9 +640,9 @@ ht-degree: 19%
 
 SFDC의 표준 오브젝트에서 사용자 정의 필드를 만드는 것 외에도 [!DNL Marketo Measure] 패키지가 설치되면 사용자 지정 개체 두 개가 만들어집니다. 다음은 이러한 사용자 지정 개체의 목록과 다음 필드를 나타내는 표입니다. [!DNL Marketo Measure] 에 씁니다.
 
-**구매자 접점**
+**Buyer Touchpoint**
 
-구매자 접점은 [!DNL Marketo Measure] 연락처, 잠재 고객 및 서비스 케이스에 대한 마케팅 상호 작용을 캡슐화하는 사용자 지정 개체입니다.
+Buyer Touchpoint은 [!DNL Marketo Measure] 연락처, 잠재 고객 및 서비스 케이스에 대한 마케팅 상호 작용을 캡슐화하는 사용자 지정 개체입니다.
 
 <table> 
  <tbody> 
@@ -1120,11 +946,11 @@ SFDC의 표준 오브젝트에서 사용자 정의 필드를 만드는 것 외�
  </tbody> 
 </table>
 
-## 구매자 속성 접점 {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-구매자 속성 터치포인트는 [!DNL Marketo Measure] Opportunity에 대한 마케팅의 영향을 캡슐화하는 사용자 지정 개체입니다.
+Buyer Attribution Touchpoint은 [!DNL Marketo Measure] Opportunity에 대한 마케팅의 영향을 캡슐화하는 사용자 지정 개체입니다.
 
-**구매자 속성 접점**
+**Buyer Attribution Touchpoint**
 
 <table> 
  <tbody> 

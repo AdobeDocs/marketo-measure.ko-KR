@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Salesforce 패키지 설치 및 설정 - [!
 title: "[!DNL Marketo Measure] [!DNL Salesforce] 패키지 설치 및 설정"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure] 연결된 을(를) 통해 데이터 전송 및 수신 [!DNL Salesforce] 다음 내의 사용자 [!DNL Marketo Measure] 앱.
 
-터치포인트 데이터를 로 푸시하려면 [!DNL Salesforce] 인스턴스: 연결된 사용자는 다음에 대한 액세스 권한이 있어야 합니다. [!DNL Marketo Measure] 사용자 정의 객체(예: 구매자 접점 및 구매자 속성 접점)와 표준 [!DNL Salesforce] 잠재 고객 및 연락처 등의 객체.
+터치포인트 데이터를 로 푸시하려면 [!DNL Salesforce] 인스턴스: 연결된 사용자는 다음에 대한 액세스 권한이 있어야 합니다. [!DNL Marketo Measure] 사용자 지정 개체(예: Buyer Touchpoint 및 Buyer Attribution Touchpoint)와 표준 [!DNL Salesforce] 잠재 고객 및 연락처 등의 객체.
 
 만들기 [!DNL Marketo Measure] 프로필 을 사용하십시오.
 
@@ -91,4 +91,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[Adobe Admin Console 설정](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>* [통합 권한 개요](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
+>
+>* [Adobe Admin Console 설정](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
