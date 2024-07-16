@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항 - [!DNL Marketo Measure]'
-title: '''[!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항'
+description: '[!DNL Marketo Measure] Ultimate Data Integrity 요구 사항 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Ultimate Data Integrity 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 17%
+source-wordcount: '1607'
+ht-degree: 15%
 
 ---
 
 # [!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항 {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] 들어오는 AEP 데이터 세트의 유효성을 검사하여 데이터가 속성에 충분하고 일관성이 있는지 확인합니다. 데이터 무결성 요구 사항을 충족하지 못하면 데이터 세트가 다음에 의해 거부됩니다. [!DNL Marketo Measure] 시스템. 이 문서에서는 데이터 무결성 요구 사항에 대해 자세히 설명하고 데이터 검사를 위한 쿼리 예를 제공하며 null 값이 있는 필수 필드에 대한 솔루션을 권장합니다.
+[!DNL Marketo Measure]은(는) 들어오는 AEP 데이터 세트의 유효성을 검사하여 데이터가 속성에 대해 충분하고 일관성이 있는지 확인합니다. 데이터 무결성 요구 사항을 충족하지 못하면 [!DNL Marketo Measure] 시스템에서 데이터 세트가 거부됩니다. 이 문서에서는 데이터 무결성 요구 사항에 대해 자세히 설명하고 데이터 검사를 위한 쿼리 예를 제공하며 null 값이 있는 필수 필드에 대한 솔루션을 권장합니다.
 
 ## 엔티티 개체 {#entity-object}
 
@@ -22,13 +22,13 @@ ht-degree: 17%
     <th>XDM 필드 그룹</th>
     <th>XDM 경로</th>
     <th>XDM 유형</th>
-    <th>데이터 소스 필드</th>
+    <th>데이터 Source 필드</th>
     <th>필수?</th>
     <th>참고 사항</th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>계정</strong> (Salesforce 계정, 회사 및/또는 Marketo의 명명된 계정)</td>
+      <td colspan="7"><strong>계정</strong>(Salesforce, Company 계정 및/또는 Marketo의 명명된 계정)</td>
     </tr>
     <tr>
       <td rowspan="6">XDM 비즈니스 계정</td>
@@ -89,7 +89,7 @@ ht-degree: 17%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>캠페인</strong> (Salesforce용 Campaign, Marketo용 프로그램)</td>
+      <td colspan="7"><strong>캠페인</strong>(Salesforce용 캠페인, Marketo용 프로그램)</td>
     </tr>
     <tr>
       <td rowspan="8">XDM 비즈니스 캠페인</td>
@@ -201,7 +201,7 @@ ht-degree: 17%
       <td>캠페인 비용</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>캠페인 멤버</strong> (Salesforce용 캠페인 멤버, Marketo용 프로그램 멤버십)</td>
+      <td colspan="7"><strong>캠페인 멤버</strong>(Salesforce의 캠페인 멤버, Marketo의 프로그램 멤버십)</td>
     </tr>
     <tr>
       <td rowspan="14">XDM 비즈니스 캠페인 멤버</td>
@@ -356,7 +356,7 @@ ht-degree: 17%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>개인</strong> (Salesforce 담당자 또는 책임자, Marketo 담당자)</td>
+      <td colspan="7"><strong>직원</strong>(Salesforce 담당자 또는 잠재 고객, Marketo 담당자)</td>
     </tr>
     <tr>
       <td>XDM 개별 프로필</td>
@@ -491,7 +491,7 @@ ht-degree: 17%
       <td>예: - Marketo</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>영업 기회</strong> (Salesforce용 Opportunity, Marketo용 Opportunities)</td>
+      <td colspan="7"><strong>기회</strong>(Salesforce의 기회, Marketo의 기회)</td>
     </tr>
     <tr>
       <td rowspan="13">XDM 비즈니스 영업 기회</td>
@@ -887,6 +887,16 @@ ht-degree: 17%
   </tbody>
 </table>
 
+**기본 통화**: Marketo Measure에서 모든 매출과 비용은 보고 시 기본 통화로 전환됩니다. 전환율이 1인 대상 통화 자체에 대한 날짜 범위가 동일한 레코드가 하나 있어야 합니다(예: USD에서 USD로의 전환).
+
+**전환율**: 각(원본 통화, 대상 통화) 쌍은 서로 다른 날짜 기간에 대해 여러 전환율을 가질 수 있습니다. 요금은 Salesforce DatedConversionRate 개체에 따라 0001-01-01부터 9999-12-31까지의 전체 시간을 포함해야 합니다.
+
+**날짜 범위**:
+* (소스 통화, 대상 통화) 환율 세트 (예: 2023-01-01 ~ 2023-02-01 및 2023-01-01 ~ 2024-01-01) 내에는 겹치는 날짜 범위가 없습니다.
+* 날짜 범위 사이에 간격이 없습니다. 시작 날짜는 포함되며 종료 날짜는 제외됩니다.
+
+<p>
+
 ## ExperienceEvent {#experienceevent}
 
 <table style="table-layout:auto">
@@ -895,7 +905,7 @@ ht-degree: 17%
     <th>XDM 필드 그룹</th>
     <th>XDM 경로</th>
     <th>XDM 유형</th>
-    <th>데이터 소스 필드</th>
+    <th>데이터 Source 필드</th>
     <th>필수?</th>
     <th>참고 사항</th>
   </tr>
