@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Ultimate Data Integrity 요구 사항 - [!D
 title: '[!DNL Marketo Measure] Ultimate Data Integrity 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1611'
 ht-degree: 15%
 
 ---
@@ -886,6 +886,8 @@ ht-degree: 15%
     </tr>
   </tbody>
 </table>
+
+## 통화 전환 데이터 요구 사항 {#currency-conversion-data-requirements}
 
 **기본 통화**: Marketo Measure에서 모든 매출과 비용은 보고 시 기본 통화로 전환됩니다. 전환율이 1인 대상 통화 자체에 대한 날짜 범위가 동일한 레코드가 하나 있어야 합니다(예: USD에서 USD로의 전환).
 
