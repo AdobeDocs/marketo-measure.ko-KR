@@ -22,15 +22,15 @@ Data Warehouse을 사용하면 원하는 만큼 추적하고, 원하는 위치�
 
 >[!NOTE]
 >
->[여기를 클릭하십시오.](#sample-queries) 이 문서의 맨 아래에 있는 샘플 쿼리를 보려면 다음을 수행하십시오.
+>이 문서의 맨 아래에 있는 샘플 쿼리를 보려면 [여기를 클릭](#sample-queries)하십시오.
 
 ## 엔티티 관계 다이어그램 {#entity-relationship-diagrams}
 
-다음 _Data Warehouse 데이터 모델_ ERD는 Data Warehouse의 데이터가 어떻게 흐르고 함께 연결되어야 하는지를 보여 줍니다. 일부 테이블은 매핑 테이블, 이미 존재하는 다른 테이블의 뷰 또는 더 이상 사용하지 않는 테이블을 나타내므로 이 다이어그램에는 Data Warehouse에서 사용할 수 있는 모든 테이블이 포함되지 않습니다. 아래 데이터 웨어하우스에 있는 표 및 열에 대한 자세한 설명을 참조하십시오. 이러한 테이블 중 대다수는 비정규화된 필드를 포함하지만, 이 다이어그램은 대신 차원 테이블의 데이터를 활용하는 권장 데이터 모델입니다.
+_Data Warehouse 데이터 모델_ ERD는 데이터 웨어하우스의 데이터가 어떻게 흐르며 서로 연결되는지를 보여 줍니다. 일부 테이블은 매핑 테이블, 이미 존재하는 다른 테이블의 뷰 또는 더 이상 사용하지 않는 테이블을 나타내므로 이 다이어그램에는 Data Warehouse에서 사용할 수 있는 모든 테이블이 포함되지 않습니다. 아래 데이터 웨어하우스에 있는 표 및 열에 대한 자세한 설명을 참조하십시오. 이러한 테이블 중 대다수는 비정규화된 필드를 포함하지만, 이 다이어그램은 대신 차원 테이블의 데이터를 활용하는 권장 데이터 모델입니다.
 
-추가 _광고 차원 데이터 모델_ ERD는 광고 특정 차원에 대한 테이블을 기본 데이터 모델의 테이블에 가장 잘 연결할 수 있는 방법에 대한 보기를 제공합니다. 광고 차원도 다른 표에서 비정규화되지만, 이는 이러한 차원을 결합하는 데 권장되는 모델을 나타냅니다.
+추가 _광고 차원 데이터 모델_ ERD는 광고 특정 차원의 테이블을 기본 데이터 모델의 테이블에 가장 잘 연결할 수 있는 방법을 보여 줍니다. 광고 차원도 다른 표에서 비정규화되지만, 이는 이러한 차원을 결합하는 데 권장되는 모델을 나타냅니다.
 
-_전체 크기 버전에 대한 이미지 클릭_
+_전체 크기 버전에 대한 이미지를 클릭하십시오_
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -69,13 +69,13 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 계정이 생성된 날짜입니다.</td>
-      <td>2016년 8월 28일:32:55.000</td>
+      <td>2016-08-28 00:32:55.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 계정의 마지막 수정 날짜입니다.</td>
-      <td>2018년 8월 1일 17일:38:30.000</td>
+      <td>2018년 8월 1일 17일:38:30년 0월 0일</td>
     </tr>
     <tr>
       <td>이름</td>
@@ -92,13 +92,13 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>참여 등급</td>
       <td>varchar</td>
-      <td>에서 생성된 문자 등급(A, B, C, D, N/A) [!DNL Marketo Measure] 머신 러닝 모델. ABM이 비활성화된 경우 null입니다.</td>
+      <td>[!DNL Marketo Measure] 기계 학습 모델에서 생성된 문자 등급(A, B, C, D, N/A)입니다. ABM이 비활성화된 경우 null입니다.</td>
       <td>B</td>
     </tr>
     <tr>
       <td>ENGAGEMENT_SCORE</td>
       <td>번호(38,19)</td>
-      <td>다음에 의해 계산된 숫자 점수 [!DNL Marketo Measure] 예측 참여 점수(Engagement_Rating)를 생성하는 머신 러닝. ABM이 비활성화된 경우 null입니다.</td>
+      <td>예측 참여 점수(Engagement_Rating)를 생성하기 위해 [!DNL Marketo Measure] 머신 러닝에서 계산한 숫자 점수입니다. ABM이 비활성화된 경우 null입니다.</td>
       <td>0.1417350147058800000</td>
     </tr>
     <tr>
@@ -116,7 +116,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>사용자 지정 속성</td>
       <td>varchar</td>
-      <td>사용자 정의 속성 [!DNL Marketo Measure] 는 소스 시스템에서 JSON 형식으로 가져왔습니다.</td>
+      <td>[!DNL Marketo Measure]이(가) 소스 시스템에서 가져온 JSON 형식의 사용자 지정 속성입니다.</td>
       <td>{"Account_Type__c": "Security", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -176,7 +176,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>ACCOUNT_ID</td>
       <td>varchar</td>
-      <td>소스 시스템 계정 ID.</td>
+      <td>Source 시스템 계정 ID.</td>
       <td>0013100001phrBAAY</td>
     </tr>
     <tr>
@@ -189,7 +189,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 계정의 마지막 수정 날짜입니다.</td>
-      <td>2018-08-31 23:53:39.000</td>
+      <td>2018년 8월 31일 23일:53:39년 0월</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
@@ -290,7 +290,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
     </tr>
     <tr>
-      <td>SOURCE_시스템</td>
+      <td>SOURCE 시스템</td>
       <td>varchar</td>
       <td>소스 시스템 유형을 식별합니다.</td>
       <td>Marketo</td>
@@ -428,13 +428,13 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>레코드를 마지막으로 수정한 날짜입니다.</td>
-      <td>2018년 8월 2일:35:59.000</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>FIRST_IMPORT</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 레코드를 처음 가져온 날짜.</td>
-      <td>2018년 8월 2일:35:59.000</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>이름</td>
@@ -445,7 +445,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>NEEDS_UPDATE</td>
       <td>부울</td>
-      <td>다음에 대한 광고 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.
+      <td>[!DNL Marketo Measure] 태그 지정에 대해 광고를 업데이트해야 하는지 여부입니다.
       <p>(내부 처리에 사용되는 진단 필드)
       </td>
       <td>거짓</td>
@@ -487,7 +487,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>URL_REQUESTED</td>
       <td>varchar</td>
-      <td>URL을 데코레이트할 대상 [!DNL Marketo Measure] 매개 변수.
+      <td>[!DNL Marketo Measure] 매개 변수로 데코레이트할 URL입니다.
       <p>(진단 필드, 내부 처리용)
       </td>
       <td></td>
@@ -615,13 +615,13 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>레코드를 마지막으로 수정한 날짜입니다.</td>
-      <td>2018년 8월 2일:35:59.000</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>FIRST_IMPORT</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 레코드를 처음 가져온 날짜.</td>
-      <td>2018년 8월 2일:35:59.000</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
       <td>이름</td>
@@ -632,7 +632,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>NEEDS_UPDATE</td>
       <td>부울</td>
-      <td>다음에 대한 광고주 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.
+      <td>[!DNL Marketo Measure] 태그 지정에 대해 광고주를 업데이트해야 하는지 여부입니다.
       <p>(내부 처리에 사용되는 진단 필드)
       </td>
       <td>거짓</td>
@@ -837,7 +837,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:35:58.000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -858,7 +858,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>부울</p>
       </td>
       <td>
-        <p>다음에 대한 광고주 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
+        <p>[!DNL Marketo Measure] 태그 지정에 대해 광고주를 업데이트해야 하는지 여부입니다.</p>
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>
@@ -929,7 +929,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     </tr>
     <tr>
       <td>
-        <p>중간</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>utm_medium의 URL에서 구문 분석됩니다.</td>
@@ -1223,7 +1223,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:35:58.000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1235,7 +1235,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:35:58.000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1258,7 +1258,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>부울</p>
       </td>
       <td>
-        <p>캠페인 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
+        <p>[!DNL Marketo Measure] 태그 지정에 대해 캠페인을 업데이트해야 하는지 여부입니다.</p>
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>
@@ -1457,7 +1457,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:35:58.000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1469,7 +1469,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:35:58.000</p>
+        <p>2018-08-02 06:35:58.000</p>
       </td>
     </tr>
     <tr>
@@ -1583,7 +1583,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>SOURCE_ID</td>
       <td>varchar</td>
-      <td>레코드가 시작된 소스의 ID입니다.</td>
+      <td>레코드가 시작된 Source의 ID입니다.</td>
       <td>aw.3284209</td>
     </tr>
   </tbody>
@@ -1752,7 +1752,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:36:14.000</p>
+        <p>2018-08-02 06:36:14.000</p>
       </td>
     </tr>
     <tr>
@@ -1764,7 +1764,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:36:14.000</p>
+        <p>2018-08-02 06:36:14.000</p>
       </td>
     </tr>
     <tr>
@@ -1787,7 +1787,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>부울</p>
       </td>
       <td>
-        <p>다음에 대한 광고주 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
+        <p>[!DNL Marketo Measure] 태그 지정에 대해 광고주를 업데이트해야 하는지 여부입니다.</p>
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>
@@ -1993,7 +1993,7 @@ _전체 크기 버전에 대한 이미지 클릭_
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>구매자 속성 터치포인트(BAT)에 대한 고유 ID.</p>
+        <p>Buyer Attribution Touchpoint(BAT)의 고유 ID입니다.</p>
       </td>
       <td>
         <p>BAT2_0060Z00000lFHtOQAW_</p>
@@ -2007,7 +2007,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 9월 1일:53:53.000</p>
+        <p>2018-09-01 04:53:53.000</p>
       </td>
     </tr>
     <tr>
@@ -2016,7 +2016,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>BAT가 속하는 영업 기회에 대한 ID.</p>
+        <p>BAT이 귀속되는 영업 기회의 ID입니다.</p>
       </td>
       <td>
         <p>0060Z00000lFHtOQAW</p>
@@ -2026,7 +2026,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>BAT와 연계된 연락처 ID.</p>
+        <p>BAT과 연결된 연락처의 ID입니다.</p>
       </td>
       <td>
         <p>0030Z00003K5bpKQAR</p>
@@ -2035,7 +2035,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>EMAIL</td>
       <td>varchar</td>
-      <td>BAT와 연계된 이메일 주소.</td>
+      <td>BAT과 연계된 이메일 주소.</td>
       <td>person@adobe.com</td>
     </tr>
     <tr>
@@ -2044,7 +2044,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>BAT가 속한 계정의 ID입니다.</p>
+        <p>BAT이 속하는 계정의 ID입니다.</p>
       </td>
       <td>
         <p>0013100001otbIAAAY</p>
@@ -2056,7 +2056,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>BAT를 생성한 사용자 터치포인트의 ID입니다.</p>
+        <p>BAT을 생성한 사용자 터치포인트의 ID입니다.</p>
       </td>
       <td>
         <p>person@adobe.com_00v1B00003ZbWzHQAV</p>
@@ -2077,7 +2077,7 @@ _전체 크기 버전에 대한 이미지 클릭_
     <tr>
       <td>VISITOR_ID</td>
       <td>varchar</td>
-      <td>BAT와 연계된 방문자의 ID.</td>
+      <td>BAT과 연계된 방문자 ID.</td>
       <td>v_277d79d01678498fea067c9b631bf6df</td>
     </tr>
     <tr>
@@ -2098,7 +2098,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널 [!DNL Marketo Measure] 앱. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널입니다. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -2110,7 +2110,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 첫 번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 첫 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td>
         <p>ABC</p>
@@ -2122,7 +2122,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 두 번째 카테고리에 대한 세그먼트 값( 내의 세그먼트 정의에 정의됨) [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 두 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td>
         <p>예</p>
@@ -2134,7 +2134,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 세 번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 세 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td>
         <p>중소기업</p>
@@ -2145,7 +2145,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>카테고리 4</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 4번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 네 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td>
         <p>새로운 비즈니스</p>
       </td>
@@ -2155,7 +2155,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>범주5</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 5번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 다섯 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2163,7 +2163,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>범주6</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 6번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 여섯 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2171,7 +2171,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>CATEGORY7</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 7번째 카테고리에 대한 세그먼트 값은에서 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 7번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2179,7 +2179,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>CATEGORY8</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 8번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 8번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2187,7 +2187,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>CATEGORY9</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 9번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 9번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2195,7 +2195,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>범주10</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 10번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 10번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2203,7 +2203,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>카테고리11</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 11번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 11번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2211,7 +2211,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>카테고리12</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 12번째 카테고리에 대한 세그먼트 값은 내의 세그먼트 정의에 정의된 대로 입니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 12번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2219,7 +2219,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>카테고리13</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 13번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 13번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2227,7 +2227,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>카테고리14</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 포함되는 14번째 카테고리에 대한 세그먼트 값은 내의 세그먼트 정의에 정의된 대로 입니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 14번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2235,7 +2235,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>카테고리15</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 15번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 15번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -2247,7 +2247,7 @@ _전체 크기 버전에 대한 이미지 클릭_
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있던 브라우저가 검색되었습니다.</p>
       </td>
       <td>
-        <p>크롬</p>
+        <p>Chrome</p>
       </td>
     </tr>
     <tr>
@@ -2408,11 +2408,11 @@ _전체 크기 버전에 대한 이미지 클릭_
     </tr>
     <tr>
       <td>
-        <p>중간</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 다음과 같은 경우 [!DNL Marketo Measure] 은 광고를 확인할 수 있으며, "cpc" 또는 "display"와 같은 값일 수 있습니다.</p>
+        <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 [!DNL Marketo Measure]에서 광고를 확인할 수 있는 경우 "cpc" 또는 "display"와 같은 값이 될 수 있습니다.</p>
       </td>
       <td>
         <p>소셜</p>
@@ -2424,7 +2424,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. URL의 utm_source에서 구문 분석하여 CRM에서 동기화되거나 다음과 같은 경우 일반적으로 "CRM 캠페인"으로 설정됩니다. [!DNL Marketo Measure] 는 광고를 확인할 수 있으며, "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 소스"라고 합니다.</p>
+        <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. 이 값은 utm_source의 URL에서 구문 분석할 수 있으며, CRM에서 동기화된 경우 일반적으로 "CRM Campaign"으로 설정되거나 [!DNL Marketo Measure]에서 광고를 확인할 수 있는 경우 "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 Source"라고 합니다.</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -2448,7 +2448,7 @@ _전체 크기 버전에 대한 이미지 클릭_
       </td>
       <td>varchar</td>
       <td>
-        <p>광고 플랫폼 [!DNL Marketo Measure] 은(는) 일반적으로 당사의 통합 파트너 중 하나에서 확인할 수 있었습니다.</p>
+        <p>광고 플랫폼 [!DNL Marketo Measure]은(는) 일반적으로 통합 파트너 중 하나에서 확인할 수 있습니다.</p>
       </td>
       <td>
         <p>Google</p>
@@ -3069,7 +3069,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
     <td>전환 이벤트에 대한 원래 MM 이벤트 ID 
-    <br>사용자 터치포인트 또는 스테이지 전환에 매핑</td>
+    <br>사용자 터치포인트 또는 단계 전환에 매핑</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3087,7 +3087,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
   <tr>
     <td>CONVERSION_LEAD_ID</td>
     <td>varchar</td>
-    <td>전환 이벤트에 대한 원래 MM 리드 ID <br>대부분의 경우 null일 수 있음</td>
+    <td>전환 이벤트 <br>의 원래 MM 리드 ID는 대부분 null일 수 있습니다.</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
@@ -3374,7 +3374,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>감사 필드에는 잠재 고객에 대한 구매자 접점이 생성되었는지 여부가 표시됩니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
+        <p>감사 필드: 잠재 고객에 대해 Buyer Touchpoint이 생성되었는지 여부를 나타냅니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
       </td>
       <td>
         <p>접점 없음: 모델 외부 날짜</p>
@@ -3386,7 +3386,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>감사 필드에는 연락처에 대한 구매자 접점이 생성되었는지 여부가 표시됩니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
+        <p>감사 필드는 연락처에 대해 Buyer Touchpoint이 생성되었는지 여부를 나타냅니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
       </td>
       <td>
         <p>터치포인트 생성됨</p>
@@ -3398,7 +3398,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>감사 필드에는 Opportunity에 대해 Purchaser Attribution Touchpoint가 생성되었는지 여부가 표시됩니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
+        <p>감사 필드에는 Opportunity에 대해 Buyer Attribution Touchpoint이 생성되었는지 여부가 표시됩니다. 터치포인트가 만들어지지 않으면 예선 탈락의 이유를 적시한다.</p>
       </td>
       <td>
         <p>터치포인트 생성됨</p>
@@ -3421,7 +3421,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     <tr>
       <td>사용자 지정 속성</td>
       <td>varchar</td>
-      <td>사용자 정의 속성 [!DNL Marketo Measure] 는 소스 시스템에서 JSON 형식으로 가져왔습니다.</td>
+      <td>[!DNL Marketo Measure]이(가) 소스 시스템에서 가져온 JSON 형식의 사용자 지정 속성입니다.</td>
       <td>{"Campaign_Type__c":"Dinners","Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -3447,7 +3447,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
 
 ### BIZ_CHANNEL {#biz-channels}
 
-에서 생성된 마케팅 채널 [!DNL Marketo Measure] 응용 프로그램.
+[!DNL Marketo Measure] 응용 프로그램에서 만든 마케팅 채널입니다.
 
 <table>
   <tbody>
@@ -3543,7 +3543,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>소스 시스템에서 연락처 레코드를 마지막으로 수정한 날짜.</p>
       </td>
       <td>
-        <p>2018년 9월 5일:17:53.000</p>
+        <p>2018-09-05 05:17:53.000</p>
       </td>
     </tr>
     <tr>
@@ -3553,7 +3553,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>소스 시스템에서 연락처 레코드를 만든 날짜.</p>
       </td>
       <td>
-        <p>2018년 9월 5일:17:51.000</p>
+        <p>2018-09-05 05:17:51.000</p>
       </td>
     </tr>
     <tr>
@@ -3584,7 +3584,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>잠재 고객이 생성된 소스.</p>
+        <p>잠재 고객이 생성된 Source.</p>
       </td>
       <td>
         <p>광고</p>
@@ -3596,7 +3596,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>연락처의 현재 단계, 에서 만들 수 있는 사용자 지정 단계로 인식됨 [!DNL Marketo Measure] 응용 프로그램.</p>
+        <p>[!DNL Marketo Measure] 응용 프로그램에서 만들 수 있는 사용자 지정 단계로 인식되는 연락처의 현재 단계입니다.</p>
       </td>
       <td>
         <p>데모 예약됨</p>
@@ -3608,7 +3608,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>연락처에 대한 모든 이전 단계는에서 만들 수 있는 사용자 지정 단계로 인식됩니다. [!DNL Marketo Measure] 응용 프로그램.</p>
+        <p>연락처의 이전 모든 단계는 [!DNL Marketo Measure] 응용 프로그램에서 만들 수 있는 사용자 지정 단계로 인식됩니다.</p>
       </td>
       <td>
         <p>열기 - 연락처</p>
@@ -3634,7 +3634,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>다음 [!DNL Marketo Measure] 오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
+        <p>오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 [!DNL Marketo Measure] 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -3659,7 +3659,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>거짓</td>
     </tr>
     <tr>
-      <td>SOURCE_시스템</td>
+      <td>SOURCE 시스템</td>
       <td>varchar</td>
       <td>레코드가 CRM에서 가져왔는지 Marketo 통합에서 가져왔는지 여부를 나타냅니다.</td>
       <td>Crm</td>
@@ -3673,7 +3673,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     <tr>
       <td>사용자 지정 속성</td>
       <td>varchar</td>
-      <td>사용자 정의 속성 [!DNL Marketo Measure] 는 소스 시스템에서 JSON 형식으로 가져왔습니다.</td>
+      <td>[!DNL Marketo Measure]이(가) 소스 시스템에서 가져온 JSON 형식의 사용자 지정 속성입니다.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -3701,7 +3701,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>∗</b> JOB_TITLE</td>
+      <td><b>∗</b> 작업 제목</td>
       <td>varchar</td>
       <td>연락처의 직책.</td>
       <td>CEO, 부사장</td>
@@ -3737,7 +3737,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>7493833133899044458</td>
     </tr>
     <tr>
-      <td>소스_ISO_CODE</td>
+      <td>SOURCE_ISO_CODE</td>
       <td>varchar</td>
       <td>소스 시스템의 통화 ISO 코드.</td>
       <td>미국 달러</td>
@@ -3752,7 +3752,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
       <td>전환율의 다음 시작 일자. (변환율의 종료 일자는 end_date에서 1일을 뺀 것입니다.)</td>
-      <td>2018년 9월 1일:00:00.000</td>
+      <td>2018-09-01 00:00:00.000</td>
     </tr>
     <tr>
       <td>CONVERSION_RATE</td>
@@ -3770,13 +3770,13 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 레코드가 생성된 날짜.</td>
-      <td>2019년 3월 30일:54:50.000</td>
+      <td>2019-03-30 00:54:50.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 레코드가 마지막으로 수정된 날짜.</td>
-      <td>2019년 3월 30일:54:50.000</td>
+      <td>2019-03-30 00:54:50.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
@@ -3833,12 +3833,12 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       <td>COST_DATE</td>
       <td>timestamp_ntz</td>
       <td>비용이 발생한(또는 귀속된) 날짜.</td>
-      <td>2018년 9월 6일:00:00.000</td>
+      <td>2018-09-06 00:00:00.000</td>
     </tr>
     <tr>
       <td>소스</td>
       <td>varchar</td>
-      <td>보고된 비용의 소스.</td>
+      <td>보고된 비용의 Source.</td>
       <td>[AdWords 표시]</td>
     </tr>
     <tr>
@@ -3874,13 +3874,13 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     <tr>
       <td>CHANNEL_고유_ID</td>
       <td>varchar</td>
-      <td>다음에 의해 생성된 마케팅 채널의 ID [!DNL Marketo Measure].</td>
+      <td>[!DNL Marketo Measure]이(가) 만든 마케팅 채널의 ID.</td>
       <td>Display.Google</td>
     </tr>
     <tr>
       <td>채널 이름</td>
       <td>varchar</td>
-      <td>에서 고객이 생성한 마케팅 채널의 이름 [!DNL Marketo Measure] 앱.</td>
+      <td>고객이 [!DNL Marketo Measure] 앱에서 만든 마케팅 채널의 이름입니다.</td>
       <td>Display.Google</td>
     </tr>
     <tr>
@@ -4234,7 +4234,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     <tr>
       <td>SOURCE_ID</td>
       <td>varchar</td>
-      <td>레코드가 시작된 소스의 ID입니다.</td>
+      <td>레코드가 시작된 Source의 ID입니다.</td>
       <td>aw.3284209</td>
     </tr>
     <tr>
@@ -4487,7 +4487,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:36:25.000</p>
+        <p>2018-08-02 06:36:25.000</p>
       </td>
     </tr>
     <tr>
@@ -4499,7 +4499,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:36:25.000</p>
+        <p>2018-08-02 06:36:25.000</p>
       </td>
     </tr>
     <tr>
@@ -4522,7 +4522,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>부울</p>
       </td>
       <td>
-        <p>다음에 대한 크리에이티브의 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
+        <p>[!DNL Marketo Measure] 태그 지정에 대해 Creative를 업데이트해야 하는지 여부입니다.</p>
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>
@@ -4603,7 +4603,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>URL을 데코레이트할 대상 [!DNL Marketo Measure] 매개 변수.</p>
+        <p>[!DNL Marketo Measure] 매개 변수로 데코레이트할 URL입니다.</p>
         <p>(진단 필드, 내부 처리용)</p>
       </td>
       <td></td>
@@ -4723,7 +4723,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>공유 ID입니다. (LinkedIn 광고에만 사용됩니다.)</p>
       </td>
       <td>
-        <p>항아리:li:공유:6376987561897848832</p>
+        <p>urn:li:share:6376987561897848832</p>
       </td>
     </tr>
     <tr>
@@ -4796,7 +4796,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>소스 시스템에서 이벤트가 마지막으로 수정된 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 9월 3일:39:51.000</p>
+        <p>2018-09-03 08:39:51.000</p>
       </td>
     </tr>
     <tr>
@@ -4851,7 +4851,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>다음 [!DNL Marketo Measure] 오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
+        <p>오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 [!DNL Marketo Measure] 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -4908,7 +4908,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     <tr>
       <td>사용자 지정 속성</td>
       <td>varchar</td>
-      <td>사용자 정의 속성 [!DNL Marketo Measure] 는 소스 시스템에서 JSON 형식으로 가져왔습니다.</td>
+      <td>[!DNL Marketo Measure]이(가) 소스 시스템에서 가져온 JSON 형식의 사용자 지정 속성입니다.</td>
       <td>{"Contact_Type__c":"CMO","Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -4971,7 +4971,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>소스 시스템에서 작업을 마지막으로 수정한 날짜입니다.</p>
       </td>
       <td>
-        <p>2018-08-27 18:31:53.000</p>
+        <p>2018년 8월 27일 18일:31:53년 0월</p>
       </td>
     </tr>
     <tr>
@@ -5026,7 +5026,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>varchar</td>
       <td>
-        <p>다음 [!DNL Marketo Measure] 오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
+        <p>오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 [!DNL Marketo Measure] 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5053,7 +5053,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>터치 포인트 날짜를 결정하는 데 사용되는 옵션 중 하나인 작업이 발생한 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 27일:00:00.000</p>
+        <p>2018-08-27 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -5071,7 +5071,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     <tr>
       <td>사용자 지정 속성</td>
       <td>varchar</td>
-      <td>사용자 정의 속성 [!DNL Marketo Measure] 는 소스 시스템에서 JSON 형식으로 가져왔습니다.</td>
+      <td>[!DNL Marketo Measure]이(가) 소스 시스템에서 가져온 JSON 형식의 사용자 지정 속성입니다.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -5136,7 +5136,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>레코드가 마지막으로 수정된 날짜 [!DNL Marketo Measure].</td>
+      <td>레코드가 [!DNL Marketo Measure]에서 마지막으로 조정된 날짜입니다.</td>
       <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
@@ -5337,7 +5337,7 @@ AB 테스트가 기록되었습니다. AB 테스트가 활성화되지 않은 �
 
 ### BIZ_CUSTOMER_EVENTS {#biz-customer-events}
 
-Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤트입니다. 이 테이블은 다음과 같은 경우 비어 있습니다. [!DNL Marketo Measure] 이벤트가 활성화되지 않았습니다.
+Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤트입니다. [!DNL Marketo Measure] 이벤트가 활성화되지 않으면 이 테이블이 비어 있습니다.
 
 <table>
   <tbody>
@@ -5732,7 +5732,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행의 마지막 수정 날짜</p>
       </td>
       <td>
-        <p>2018-08-14 23:55:03.000</p>
+        <p>2018년 8월 14일 23일:55:03년 0월</p>
       </td>
     </tr>
     <tr>
@@ -5742,7 +5742,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행의 생성 날짜</p>
       </td>
       <td>
-        <p>2018-08-14 23:55:03.000</p>
+        <p>2018년 8월 14일 23일:55:03년 0월</p>
       </td>
     </tr>
     <tr>
@@ -5788,11 +5788,11 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 
 ### BIZ_FACTS {#biz-facts}
 
-노출 횟수, 페이지 보기 수, 방문 횟수, 양식 제출, 사용자 접점, 접점(BT), 속성 접점(BAT) 및 비용 데이터를 결합하는 조합 지원을 위해 내부적으로 사용됨 [!DNL Marketo Measure] 보고.
+노출 횟수, 페이지 보기 수, 방문 횟수, 양식 제출, 사용자 접점, 접점(BT), 속성 접점(BAT) 및 비용 데이터를 함께 조합합니다. [!DNL Marketo Measure] 보고를 지원하는 데 내부적으로 사용됩니다.
 
 >[!IMPORTANT]
 >
->Marketo Measure은 2024년 중반에 이 표를 더 이상 사용하지 않을 예정입니다. 사용자 측에서 작성하려면 를 실행합니다. [이 SQL 쿼리](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure은 2024년 중반에 이 표를 더 이상 사용하지 않을 예정입니다. 사용자 측에서 생성하려는 경우 [이 SQL 쿼리](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql)를 실행하십시오.
 
 <table>
   <tbody>
@@ -6113,7 +6113,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     <tr>
       <td>유형</td>
       <td>번호(38,0)</td>
-      <td>행의 팩트 유형을 나타냅니다. 1 = 구매자 속성 접점 2 = 비용 3 = 구매자 접점 4 = 사용자 접점 5 = 페이지 보기 6 = 세션 7 = 양식 제출 8 = 노출</td>
+      <td>행의 팩트 유형을 나타냅니다. 1 = Buyer Attribution Touchpoint 2 = 비용 3 = Buyer Touchpoint 4 = 사용자 접점 5 = 페이지 보기 6 = 세션 7 = 양식 제출 8 = 노출 횟수</td>
       <td>3</td>
     </tr>
     <tr>
@@ -6135,7 +6135,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행이 마지막으로 수정된 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 29일 00:46:47.000</p>
+        <p>2018-08-29 00:46:47.000</p>
       </td>
     </tr>
     <tr>
@@ -6321,7 +6321,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>소스 시스템에서 Opportunity 가 생성된 날짜입니다.</p>
       </td>
       <td>
-        <p>2018-08-31 15:45:47.000</p>
+        <p>2018년 8월 31일 15일:45:47년 0월</p>
       </td>
     </tr>
     <tr>
@@ -6344,7 +6344,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>소스 시스템에서 연락처 레코드를 만든 날짜.</p>
       </td>
-      <td>2017년 4월 28일:21:52.000</td>
+      <td>2017-04-28 00:21:52.000</td>
     </tr>
     <tr>
       <td>CONTACT_ID</td>
@@ -6371,7 +6371,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>소스 시스템에서 리드 레코드가 생성된 날짜.</p>
       </td>
       <td>
-        <p>2017년 4월 28일:21:52.000</p>
+        <p>2017-04-28 00:21:52.000</p>
       </td>
     </tr>
     <tr>
@@ -7064,7 +7064,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>varchar</td>
       <td>
-        <p>광고 플랫폼 [!DNL Marketo Measure] 은(는) 일반적으로 당사의 통합 파트너 중 하나에서 확인할 수 있었습니다.</p>
+        <p>광고 플랫폼 [!DNL Marketo Measure]은(는) 일반적으로 통합 파트너 중 하나에서 확인할 수 있습니다.</p>
       </td>
       <td>Google</td>
     </tr>
@@ -7329,7 +7329,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있던 브라우저가 검색되었습니다.</p>
       </td>
       <td>
-        <p>크롬</p>
+        <p>Chrome</p>
       </td>
     </tr>
     <tr>
@@ -7629,7 +7629,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
-      <td>2018년 8월 2일:37:29.000</td>
+      <td>2018-08-02 06:37:29.000</td>
     </tr>
     <tr>
       <td>
@@ -7640,7 +7640,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
       <td>
-        <p>2018년 8월 2일:37:29.000</p>
+        <p>2018-08-02 06:37:29.000</p>
       </td>
     </tr>
     <tr>
@@ -7663,7 +7663,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>부울</p>
       </td>
       <td>
-        <p>다음에 대한 키워드 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
+        <p>[!DNL Marketo Measure] 태그 지정에 대해 키워드를 업데이트해야 하는지 여부입니다.</p>
         <p>(진단 필드, 내부 처리에 사용됨)</p>
       </td>
       <td>
@@ -7730,7 +7730,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>URL_REQUESTED</td>
       <td>varchar</td>
       <td>
-        <p>을 사용하는 랜딩 페이지의 URL [!DNL Marketo Measure] 매개 변수.</p>
+        <p>[!DNL Marketo Measure] 매개 변수가 있는 랜딩 페이지의 URL입니다.</p>
         <p>(진단 필드, 내부 처리용)</p>
       </td>
       <td></td>
@@ -7798,7 +7798,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
       <td>varchar</td>
-      <td>URL 추적 템플릿 [!DNL Marketo Measure] 이(가) 키워드에 추가되었습니다.</td>
+      <td>URL 추적 템플릿 [!DNL Marketo Measure]이(가) 키워드에 추가되었습니다.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
       </td>
@@ -8135,7 +8135,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>varchar</td>
       <td>
-        <p>잠재 고객이 생성된 소스.</p>
+        <p>잠재 고객이 생성된 Source.</p>
       </td>
       <td>
         <p>광고</p>
@@ -8176,7 +8176,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>잠재 고객이 연락처로 전환된 날짜.</p>
       </td>
       <td>
-        <p>2018년 8월 27일:00:00.000</p>
+        <p>2018-08-27 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -8209,7 +8209,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>varchar</td>
       <td>
-        <p>에서 만들 수 있는 사용자 지정 단계로 인식되는 잠재 고객의 현재 단계 [!DNL Marketo Measure] 응용 프로그램.</p>
+        <p>[!DNL Marketo Measure] 응용 프로그램에서 만들 수 있는 사용자 지정 단계로 인식되는 잠재 고객의 현재 단계입니다.</p>
       </td>
       <td>
         <p>데모 예약됨</p>
@@ -8221,7 +8221,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>varchar</td>
       <td>
-        <p>잠재 고객에 대한 모든 이전 단계는에서 만들 수 있는 사용자 지정 단계로 인식됩니다. [!DNL Marketo Measure] 응용 프로그램.</p>
+        <p>[!DNL Marketo Measure] 응용 프로그램에서 만들 수 있는 사용자 지정 단계로 인식되는 잠재 고객의 이전 모든 단계입니다.</p>
       </td>
       <td>
         <p>MQL</p>
@@ -8271,7 +8271,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>varchar</td>
       <td>
-        <p>다음 [!DNL Marketo Measure] 오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
+        <p>오프라인 이벤트를 웹 세션에 매핑하기 위해 통합 파트너에서 채우는 데 사용되는 [!DNL Marketo Measure] 쿠키 ID입니다. 요구 사항: 호출 추적 활성화: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -8306,7 +8306,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     <tr>
       <td>사용자 지정 속성</td>
       <td>varchar</td>
-      <td>사용자 정의 속성 [!DNL Marketo Measure] 는 소스 시스템에서 JSON 형식으로 가져왔습니다.</td>
+      <td>[!DNL Marketo Measure]이(가) 소스 시스템에서 가져온 JSON 형식의 사용자 지정 속성입니다.</td>
       <td>{"Lead_Type__c":"Sales Created", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -8316,7 +8316,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>참</td>
     </tr>
     <tr>
-      <td>SOURCE_시스템</td>
+      <td>SOURCE 시스템</td>
       <td>varchar</td>
       <td>레코드가 CRM에서 가져왔는지 Marketo 통합에서 가져왔는지 여부를 나타냅니다.</td>
       <td>Crm</td>
@@ -8410,7 +8410,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>varchar</td>
       <td>
-        <p>전환에 연결된 구매자 터치포인트의 ID입니다.</p>
+        <p>전환에 연결된 Buyer Touchpoint의 ID입니다.</p>
       </td>
       <td>
         <p>TP2_Person_00Q3100001Fx6AlEAJ_2018-08-28:14-41-06-1674260.d00ceb09fbd3</p>
@@ -8460,7 +8460,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>번호(38,0)</p>
       </td>
       <td>
-        <p>에 순서가 지정된 스테이지의 숫자 등급 [!DNL Marketo Measure] 스테이지 매핑 설정.</p>
+        <p>[!DNL Marketo Measure] 단계 매핑 설정에서 정렬된 스테이지의 숫자 등급입니다.</p>
       </td>
       <td>
         <p>5</p>
@@ -8688,7 +8688,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>소스 시스템에서 Opportunity 의 예상 또는 실제 종료 일자.</p>
       </td>
       <td>
-        <p>2019년 8월 28일:00:00.000</p>
+        <p>2019-08-28 07:00:00.000</p>
       </td>
     </tr>
     <tr>
@@ -8787,7 +8787,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>varchar</td>
       <td>
-        <p>다음에 정의된 Opportunity 의 현재 단계 [!DNL Marketo Measure] 응용 프로그램.</p>
+        <p>[!DNL Marketo Measure] 응용 프로그램에 정의된 영업 기회의 현재 단계입니다.</p>
       </td>
       <td>
         <p>DM 데모</p>
@@ -8799,7 +8799,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
       <td>varchar</td>
       <td>
-        <p>Opportunity 가 이전에 거쳤던 모든 단계의 문자열입니다( 참조). [!DNL Marketo Measure] 응용 프로그램.</p>
+        <p>[!DNL Marketo Measure] 응용 프로그램에 정의된 대로 Opportunity가 이전에 거쳤던 모든 단계의 문자열입니다.</p>
       </td>
       <td>
         <p>적격 검색, 데모 예약</p>
@@ -8846,7 +8846,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     <tr>
       <td>사용자 지정 속성</td>
       <td>varchar</td>
-      <td>사용자 정의 속성 [!DNL Marketo Measure] 는 소스 시스템에서 JSON 형식으로 가져왔습니다.</td>
+      <td>[!DNL Marketo Measure]이(가) 소스 시스템에서 가져온 JSON 형식의 사용자 지정 속성입니다.</td>
       <td>{"Opportunity_Location__c":"Seattle", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -8953,7 +8953,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>전환에 연결된 구매자 속성 터치포인트의 ID.</p>
+        <p>전환에 연결된 Buyer Attribution Touchpoint의 ID입니다.</p>
       </td>
       <td>
         <p>BAT2_0060Z00000nEgjlQAC_0030Z00003IjojKQAR_2018-06-01:19-51-38-1685390.beec556e7757</p>
@@ -9003,7 +9003,7 @@ Opportunity 의 Stage 전환
         <p>번호(38,0)</p>
       </td>
       <td>
-        <p>에 순서가 지정된 스테이지의 숫자 등급 [!DNL Marketo Measure] 스테이지 매핑 설정.</p>
+        <p>[!DNL Marketo Measure] 단계 매핑 설정에서 정렬된 스테이지의 숫자 등급입니다.</p>
       </td>
       <td>
         <p>4</p>
@@ -9070,7 +9070,7 @@ Opportunity 의 Stage 전환
         <p>단계 순위에 따른 이전 단계의 전환 날짜.</p>
       </td>
       <td>
-        <p>2015년 7월 16일 17시:41:49.000</p>
+        <p>2015-07-16 17:41:49.000</p>
       </td>
     </tr>
     <tr>
@@ -9082,7 +9082,7 @@ Opportunity 의 Stage 전환
         <p>단계 순위에 따라 다음 단계에 대한 전환 날짜입니다.</p>
       </td>
       <td>
-        <p>2018-08-27 19:40:52.000</p>
+        <p>2018년 8월 27일 19일:40:52년 0월</p>
       </td>
     </tr>
     <tr>
@@ -9092,7 +9092,7 @@ Opportunity 의 Stage 전환
         <p>레코드의 마지막 수정 날짜.</p>
       </td>
       <td>
-        <p>2018년 8월 28일 03:53:33.000</p>
+        <p>2018-08-28 03:53:33.000</p>
       </td>
     </tr>
     <tr>
@@ -9551,7 +9551,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
-      <td>2018년 8월 2일:36:25.000</td>
+      <td>2018-08-02 06:36:25.000</td>
     </tr>
     <tr>
       <td>
@@ -9561,7 +9561,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
-      <td>2018년 8월 2일:36:25.000</td>
+      <td>2018-08-02 06:36:25.000</td>
     </tr>
     <tr>
       <td>
@@ -9581,7 +9581,7 @@ Opportunity 의 Stage 전환
         <p>부울</p>
       </td>
       <td>
-        <p>다음에 대한 배치를 업데이트해야 하는지 여부 [!DNL Marketo Measure] 태그 지정.</p>
+        <p>[!DNL Marketo Measure] 태그 지정에 대해 배치를 업데이트해야 하는지 여부입니다.</p>
         <p>(내부 처리에 사용되는 진단 필드)</p>
       </td>
       <td>거짓</td>
@@ -9649,7 +9649,7 @@ Opportunity 의 Stage 전환
 
 ### BIZ_SEGMENTS {#biz-segments}
 
-에 정의된 세그먼트 값 [!DNL Marketo Measure] 응용 프로그램.
+[!DNL Marketo Measure] 응용 프로그램에 정의된 세그먼트 값입니다.
 
 <table>
   <tbody>
@@ -9846,7 +9846,7 @@ Opportunity 의 Stage 전환
         <p>세션 날짜.</p>
       </td>
       <td>
-        <p>2016년 8월 1일 14일:24:21.000</p>
+        <p>2016년 8월 1일 14일:24:21년 0월 0일</p>
       </td>
     </tr>
     <tr>
@@ -9873,7 +9873,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>세션에 기여된 채널 속성입니다( 다음에 설정된 채널 정의에 정의됨). [!DNL Marketo Measure] 응용 프로그램.</p>
+        <p>[!DNL Marketo Measure] 응용 프로그램에 설정된 채널 정의에 정의된 대로 세션에 기여된 채널 특성입니다.</p>
       </td>
       <td>
         <p>유료 Search.AdWords</p>
@@ -9969,7 +9969,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>세션을 발생시킨 소스를 정의하는 데 사용됩니다. 다음과 같은 경우 utm_source의 URL에서 구문 분석하거나 광고 공급자로 설정할 수 있습니다. [!DNL Marketo Measure] 광고를 확인할 수 있습니다.</p>
+        <p>세션을 발생시킨 소스를 정의하는 데 사용됩니다. [!DNL Marketo Measure]에서 광고를 확인할 수 있는 경우 utm_source의 URL에서 구문 분석하거나 광고 공급자로 설정할 수 있습니다.</p>
       </td>
       <td>
         <p>Google AdWords</p>
@@ -10049,7 +10049,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>광고 플랫폼 [!DNL Marketo Measure] 일반적으로 통합 파트너 중 하나에서 해결되었습니다.</p>
+        <p>광고 플랫폼 [!DNL Marketo Measure]은(는) 일반적으로 통합 파트너 중 하나에서 해결되었습니다.</p>
       </td>
       <td>
         <p>Google</p>
@@ -10353,7 +10353,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>중간</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>
@@ -10698,7 +10698,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>레코드를 마지막으로 수정한 날짜입니다.</p>
       </td>
-      <td>2018년 8월 2일:37:29.000</td>
+      <td>2018-08-02 06:37:29.000</td>
     </tr>
     <tr>
       <td>
@@ -10708,7 +10708,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>소스 시스템에서 레코드를 처음 가져온 날짜.</p>
       </td>
-      <td>2018년 8월 2일:37:29.000</td>
+      <td>2018-08-02 06:37:29.000</td>
     </tr>
     <tr>
       <td>
@@ -10728,7 +10728,7 @@ Opportunity 의 Stage 전환
         <p>부울</p>
       </td>
       <td>
-        <p>사이트 업데이트 필요 여부 [!DNL Marketo Measure] 태그 지정.</p>
+        <p>[!DNL Marketo Measure] 태그 지정에 대해 사이트를 업데이트해야 하는지 여부입니다.</p>
         <p>(진단 필드, 내부 처리에 사용됨)</p>
       </td>
       <td>거짓</td>
@@ -10955,7 +10955,7 @@ Opportunity 의 Stage 전환
         <p>행의 마지막 수정 날짜</p>
       </td>
       <td>
-        <p>2018년 8월 2일:36:50.000</p>
+        <p>2018년 8월 2일 06일:36:50년 0월 0일</p>
       </td>
     </tr>
     <tr>
@@ -10967,7 +10967,7 @@ Opportunity 의 Stage 전환
         <p>사이트 링크를 처음 다운로드한 날짜 [!DNL Marketo Measure]</p>
       </td>
       <td>
-        <p>2018년 8월 2일:36:50.000</p>
+        <p>2018년 8월 2일 06일:36:50년 0월 0일</p>
       </td>
     </tr>
     <tr>
@@ -11059,7 +11059,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>URL을 데코레이트할 대상 [!DNL Marketo Measure] 매개 변수.</p>
+        <p>[!DNL Marketo Measure] 매개 변수로 데코레이트할 URL입니다.</p>
         <p>(진단 필드, 내부 처리용)</p>
       </td>
       <td></td>
@@ -11087,7 +11087,7 @@ Opportunity 의 Stage 전환
 
 ### BIZ_STAGE_DEFINITIONS {#biz-stage-definitions}
 
-가져올 단계 또는 다음에 정의된 단계 목록 [!DNL Marketo Measure] 응용 프로그램.
+[!DNL Marketo Measure] 응용 프로그램에서 가져오거나 정의한 단계 목록입니다.
 
 <table>
   <tbody>
@@ -11187,7 +11187,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>단계에 정의된 상태 [!DNL Marketo Measure] 응용 프로그램 스테이지 매핑입니다.</p>
+        <p>[!DNL Marketo Measure] 응용 프로그램 단계 매핑에 정의된 단계의 상태입니다.</p>
       </td>
       <td>
         <p>열기</p>
@@ -11284,7 +11284,7 @@ Opportunity 의 Stage 전환
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>구매자 접점(BT)에 대한 고유 ID.</p>
+        <p>Buyer Touchpoint(BT)의 고유 ID입니다.</p>
       </td>
       <td>
         <p>TP2_Person_00Q0Z000013e2PYUAY_2018-08-27:20-04-40-5655690.1ee8567c175a</p>
@@ -11305,7 +11305,7 @@ Opportunity 의 Stage 전환
         <p>EMAIL</p>
       </td>
       <td>varchar</td>
-      <td>BT와 연결된 이메일 주소.</td>
+      <td>BT과 연계된 이메일 주소.</td>
       <td>
         <p>person@adobe.com</p>
       </td>
@@ -11314,7 +11314,7 @@ Opportunity 의 Stage 전환
       <td>CONTACT_ID</td>
       <td>varchar</td>
       <td>
-        <p>BT와 연결된 연락처의 ID입니다.</p>
+        <p>BT과 연결된 연락처의 ID입니다.</p>
       </td>
       <td>0030Z00003K5bpKQAR</td>
     </tr>
@@ -11324,7 +11324,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>BT와 연결된 계정의 ID입니다.</p>
+        <p>BT과 연결된 계정의 ID입니다.</p>
       </td>
       <td>
         <p>0013100001lSSLcAAO</p>
@@ -11336,7 +11336,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>BT에 연결된 잠재 고객의 ID입니다.</p>
+        <p>BT과 연계된 잠재 고객 ID.</p>
       </td>
       <td>
         <p>00Q0Z000013e2PYUAY</p>
@@ -11360,7 +11360,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>BT를 생성한 사용자 터치포인트의 ID입니다.</p>
+        <p>BT을 생성한 사용자 터치포인트의 ID입니다.</p>
       </td>
       <td>
         <p>person@adobe.com_2018-08-29:18-14-53-8102030.10df92cbb414</p>
@@ -11369,7 +11369,7 @@ Opportunity 의 Stage 전환
     <tr>
       <td>VISITOR_ID</td>
       <td>varchar</td>
-      <td>BT와 연결된 방문자의 ID입니다.</td>
+      <td>BT과 연계된 방문자 ID.</td>
       <td>v_277d79d01678498fea067c9b631bf6df</td>
     </tr>
     <tr>
@@ -11381,7 +11381,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트의 날짜입니다.</p>
       </td>
       <td>
-        <p>2018-08-27 20:04:40.000</p>
+        <p>2018년 8월 27일 20일:04:40년 0월</p>
       </td>
     </tr>
     <tr>
@@ -11402,7 +11402,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널 [!DNL Marketo Measure] 앱. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널입니다. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
       </td>
       <td>Social.LinkedIn</td>
     </tr>
@@ -11412,7 +11412,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 첫 번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 첫 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td>ABC</td>
     </tr>
@@ -11422,7 +11422,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 두 번째 카테고리에 대한 세그먼트 값( 내의 세그먼트 정의에 정의됨) [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 두 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td>
         <p>예</p>
@@ -11434,7 +11434,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 세 번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 세 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td>
         <p>기타</p>
@@ -11446,7 +11446,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 4번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 네 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td>
         <p>파트너</p>
@@ -11458,7 +11458,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 5번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 다섯 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td></td>
     </tr>
@@ -11468,7 +11468,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 6번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 여섯 번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td></td>
     </tr>
@@ -11477,7 +11477,7 @@ Opportunity 의 Stage 전환
         <p>CATEGORY7</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 7번째 카테고리에 대한 세그먼트 값은에서 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 7번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -11485,7 +11485,7 @@ Opportunity 의 Stage 전환
         <p>CATEGORY8</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 8번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 8번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -11493,7 +11493,7 @@ Opportunity 의 Stage 전환
         <p>CATEGORY9</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 9번째 카테고리의 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 9번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -11501,7 +11501,7 @@ Opportunity 의 Stage 전환
         <p>범주10</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 10번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 10번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -11509,7 +11509,7 @@ Opportunity 의 Stage 전환
         <p>카테고리11</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 11번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 11번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -11517,7 +11517,7 @@ Opportunity 의 Stage 전환
         <p>카테고리12</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 12번째 카테고리에 대한 세그먼트 값은 내의 세그먼트 정의에 정의된 대로 입니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 12번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -11525,7 +11525,7 @@ Opportunity 의 Stage 전환
         <p>카테고리13</p>
       </td>
       <td>varchar</td>
-      <td>터치포인트가 속하는 13번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</td>
+      <td>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 13번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</td>
       <td></td>
     </tr>
     <tr>
@@ -11534,7 +11534,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 포함되는 14번째 카테고리에 대한 세그먼트 값은 내의 세그먼트 정의에 정의된 대로 입니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 14번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td></td>
     </tr>
@@ -11544,7 +11544,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트가 속하는 15번째 카테고리에 대한 세그먼트 값은에 있는 세그먼트 정의에 정의되어 있습니다. [!DNL Marketo Measure] 앱. CRM에서 "세그먼트"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 세그먼트 정의에 정의된 대로 터치포인트가 속하는 15번째 범주에 대한 세그먼트 값입니다. CRM에서 "세그먼트"라고 합니다.</p>
       </td>
       <td></td>
     </tr>
@@ -11556,7 +11556,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>Javascript 및 IP 주소에서 세션 중에 사용자가 있던 브라우저가 검색되었습니다.</p>
       </td>
-      <td>크롬</td>
+      <td>Chrome</td>
     </tr>
     <tr>
       <td>
@@ -11706,11 +11706,11 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>중간</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 다음과 같은 경우 [!DNL Marketo Measure] 은 광고를 확인할 수 있으며, "cpc" 또는 "display"와 같은 값일 수 있습니다.</p>
+        <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 [!DNL Marketo Measure]에서 광고를 확인할 수 있는 경우 "cpc" 또는 "display"와 같은 값이 될 수 있습니다.</p>
       </td>
       <td>
         <p>소셜</p>
@@ -11722,7 +11722,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. URL의 utm_source에서 구문 분석하여 CRM에서 동기화되거나 다음과 같은 경우 일반적으로 "CRM 캠페인"으로 설정됩니다. [!DNL Marketo Measure] 는 광고를 확인할 수 있으며, "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 소스"라고 합니다.</p>
+        <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. 이 값은 utm_source의 URL에서 구문 분석할 수 있으며, CRM에서 동기화된 경우 일반적으로 "CRM Campaign"으로 설정되거나 [!DNL Marketo Measure]에서 광고를 확인할 수 있는 경우 "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 Source"라고 합니다.</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -11746,7 +11746,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>광고 플랫폼 [!DNL Marketo Measure] 은(는) 일반적으로 당사의 통합 파트너 중 하나에서 확인할 수 있었습니다.</p>
+        <p>광고 플랫폼 [!DNL Marketo Measure]은(는) 일반적으로 통합 파트너 중 하나에서 확인할 수 있습니다.</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -12160,7 +12160,7 @@ Opportunity 의 Stage 전환
         <p>번호(22,19)</p>
       </td>
       <td>
-        <p>W자형 터치의 일부이므로 이 접점에 할당된 계산된 백분율(Is_First_Touch, Is_Lead_Creation_Touch 및 Is_Opp_Creation_Touch 참조). BT이므로 0이 필요합니다.</p>
+        <p>W자형 터치의 일부이므로 이 접점에 할당된 계산된 백분율(Is_First_Touch, Is_Lead_Creation_Touch 및 Is_Opp_Creation_Touch 참조). BT이므로 0이 되어야 합니다.</p>
       </td>
       <td>
         <p>0</p>
@@ -12174,7 +12174,7 @@ Opportunity 의 Stage 전환
         <p>번호(22,19)</p>
       </td>
       <td>
-        <p>전체 경로 모델의 일부이므로 이 접점에 할당된 계산된 백분율(Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch 참조). BT이므로 0이 필요합니다.</p>
+        <p>전체 경로 모델의 일부이므로 이 접점에 할당된 계산된 백분율(Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch 참조). BT이므로 0이 되어야 합니다.</p>
       </td>
       <td>
         <p>0</p>
@@ -12183,7 +12183,7 @@ Opportunity 의 Stage 전환
     <tr>
       <td>CUSTOM_MODEL_PERCENTAGE</td>
       <td>번호(22,19)</td>
-      <td>이 접점은 사용자 지정 모델의 일부이므로 이 접점에 할당된 계산된 백분율입니다(Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch 참조). BT이므로 0이 필요합니다.</p>
+      <td>이 접점은 사용자 지정 모델의 일부이므로 이 접점에 할당된 계산된 백분율입니다(Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch 참조). BT이므로 0이 되어야 합니다.</p>
       </td>
       <td>0</td>
     </tr>
@@ -12532,7 +12532,7 @@ Opportunity 의 Stage 전환
         <p>사용자 터치포인트가 발생한 날짜.</p>
       </td>
       <td>
-        <p>2018-01-05 16:47:02.000</p>
+        <p>2018년 1월 5일 16일:47:02월 0일</p>
       </td>
     </tr>
     <tr>
@@ -12553,7 +12553,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널 [!DNL Marketo Measure] 앱. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
+        <p>[!DNL Marketo Measure] 앱 내의 사용자 지정 채널 정의에 정의된 대로 터치포인트가 속하는 채널입니다. CRM에서는 "마케팅 채널 - 경로"라고 합니다.</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -12688,7 +12688,7 @@ Opportunity 의 Stage 전환
         <p>양식 제출이 발생한 날짜.</p>
       </td>
       <td>
-        <p>2015년 6월 3일 17일:49:10.000</p>
+        <p>2015-06-03 17:49:10.000</p>
       </td>
     </tr>
     <tr>
@@ -12729,11 +12729,11 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>중간</p>
+        <p>MEDIUM</p>
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 다음과 같은 경우 [!DNL Marketo Measure] 은 광고를 확인할 수 있으며, "cpc" 또는 "display"와 같은 값일 수 있습니다.</p>
+        <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 [!DNL Marketo Measure]에서 광고를 확인할 수 있는 경우 "cpc" 또는 "display"와 같은 값이 될 수 있습니다.</p>
       </td>
       <td>
         <p>유료</p>
@@ -12745,7 +12745,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. URL의 utm_source에서 구문 분석하여 CRM에서 동기화되거나 다음과 같은 경우 일반적으로 "CRM 캠페인"으로 설정됩니다. [!DNL Marketo Measure] 는 광고를 확인할 수 있으며, "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 소스"라고 합니다.</p>
+        <p>터치포인트의 원인이 되는 소스를 정의하는 데 사용됩니다. 이 값은 utm_source의 URL에서 구문 분석할 수 있으며, CRM에서 동기화된 경우 일반적으로 "CRM Campaign"으로 설정되거나 [!DNL Marketo Measure]에서 광고를 확인할 수 있는 경우 "Google AdWords" 또는 "Facebook"와 같은 값일 수 있습니다. CRM에서 "터치포인트 Source"라고 합니다.</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -12769,7 +12769,7 @@ Opportunity 의 Stage 전환
       </td>
       <td>varchar</td>
       <td>
-        <p>광고 플랫폼 [!DNL Marketo Measure] 은(는) 일반적으로 당사의 통합 파트너 중 하나에서 확인할 수 있었습니다.</p>
+        <p>광고 플랫폼 [!DNL Marketo Measure]은(는) 일반적으로 통합 파트너 중 하나에서 확인할 수 있습니다.</p>
       </td>
       <td>
         <p>Google</p>
@@ -12984,7 +12984,7 @@ Opportunity 의 Stage 전환
         <p>검색 광고에서 가져온 크리에이티브의 두 번째 줄이며, 광고가 해결된 광고 계정에서 가져옵니다. 이는 Google AdWords 및 Bing Ads(검색)에 적용됩니다.</p>
       </td>
       <td>
-        <p>250개 이상의 기업이 선택하는 이유 알아보기 [!DNL Marketo Measure] 마케팅 기여도 분석 데모 다운로드!</p>
+        <p>250개 이상의 회사가 마케팅 기여도를 위해 [!DNL Marketo Measure]을(를) 선택하는 이유를 알아봅니다. 데모 다운로드!</p>
       </td>
     </tr>
     <tr>
@@ -13190,7 +13190,7 @@ Opportunity 의 Stage 전환
 
 ### BIZ_WEB_HOST_MAPPING {#biz-web-host-mappings}
 
-매핑할 테이블 매핑 [!DNL Marketo Measure] 세션 ID와 Adobe ECID 및 Munckin ID.
+[!DNL Marketo Measure] 세션 ID를 Adobe ECID 및 Munckin ID에 매핑하기 위한 매핑 테이블입니다.
 
 <table>
   <tbody>
@@ -13213,7 +13213,7 @@ Opportunity 의 Stage 전환
         <p>COOKIE_</p>
       </td>
       <td>varchar</td>
-      <td>다음 [!DNL Marketo Measure] 기록된 쿠키 id.</td>
+      <td>[!DNL Marketo Measure]이(가) 기록된 쿠키 ID입니다.</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
     <tr>
@@ -13229,7 +13229,7 @@ Opportunity 의 Stage 전환
         <p>SESSION_ID</p>
       </td>
       <td>varchar</td>
-      <td>다음 [!DNL Marketo Measure] 세션 ID입니다.</td>
+      <td>[!DNL Marketo Measure] 세션 ID.</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
     <tr>
@@ -13319,7 +13319,7 @@ Opportunity 의 Stage 전환
     <tr>
       <td>MAPPING_유형</td>
       <td>varchar</td>
-      <td>에 매핑된 ID 유형 [!DNL Marketo Measure] 쿠키 ID.</td>
+      <td>[!DNL Marketo Measure] 쿠키 ID에 매핑된 ID 유형입니다.</td>
       <td>Adobe_OrgId_Ecid</td>
     </tr>
     <tr>
@@ -13357,7 +13357,7 @@ Opportunity 의 Stage 전환
 
 ## 샘플 쿼리 {#sample-queries}
 
-**지난 달 각 채널/서브채널에 대해 얼마나 많은 구매자 접점(BT)이 있었습니까?**
+**지난 달에 각 채널/하위 채널에 대해 몇 개의 구매자 접점(BT)이 있었습니까?**
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
@@ -13379,7 +13379,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1,2
 ```
 
-**전체 경로 속성 모델에 대해 지난 달에 종료된 각 채널의 속성 매출은 얼마입니까?**
+**전체 경로 속성 모델에 대해 지난 달에 종료된 각 채널의 특성 매출은 얼마입니까?**
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
@@ -13406,7 +13406,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1
 ```
 
-**1인 여정 전체가 어떻게 되나요?  (단일 이메일 주소에 대한 모든 터치포인트 표시)**
+**한 사람에 대한 전체 여정은 무엇입니까?  (단일 이메일 주소에 대한 모든 터치포인트를 표시합니다.)**
 
 ```
 select ut.touchpoint_date

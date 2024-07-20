@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 계정 기반 속성 {#account-based-attribution}
 
-Account-Based Marketing(ABM)의 출현과 함께 그 방법을 이해하는 것이 중요합니다 [!DNL Marketo Measure] 는 ABM 전략을 보완할 수 있습니다. [!DNL Marketo Measure] 은(는) 각 리드에 대한 각 터치포인트를 표시하고 계정 아래에 연락합니다.
+ABM(Account-Based Marketing)의 등장으로 [!DNL Marketo Measure]이(가) ABM 전략을 어떻게 보완하는지 이해하는 것이 중요합니다. [!DNL Marketo Measure]은(는) 각 리드에 대한 각 터치포인트를 표시하고 계정의 연락처를 받습니다.
 
-## 다음 [!UICONTROL What] {#the-what}
+## [!UICONTROL What] {#the-what}
 
 하나의 계정에 여러 개의 영업 기회가 있는 경우 서로 다른 영업 기회는 처음 두 터치포인트(FT) 및 리드 생성(LC)을 공유합니다. 새로운 Opportunity 가 생성되면 Opportunity 를 단계 아래로 이동하는 데 기여한 Touchpoints에 개별 수익 금액이 할당됩니다. 기회와 연결된 터치포인트는 구매자 속성 터치포인트(BAT)로 간주됩니다.
 
@@ -25,6 +25,6 @@ Account-Based Marketing(ABM)의 출현과 함께 그 방법을 이해하는 것�
 
 ## 이 방법이 어떤 도움이 됩니까? {#how-does-this-help}
 
-다음 이후 [!DNL Marketo Measure] 은 계정에 연결된 모든 마케팅 상호 작용을 노출하고, 마케터는 닫을 수 있는 계정, 귀사와 계약한 빈도, 계약 내용, 각 계약의 가치 매출 등을 더 잘 이해합니다.
+[!DNL Marketo Measure]이(가) 계정에 연결된 모든 마케팅 상호 작용을 노출하고 있으므로 마케터는 닫을 수 있는 계정, 회사와 참여한 횟수, 해당 참여 횟수, 각 참여의 가치 매출 등을 더 잘 파악할 수 있습니다.
 
-포함 [!DNL Marketo Measure] 그리고 ABM 접근 방식에서는 마케팅 성과가 매출에 기반합니다. 계정 기반 마케팅 접근 방식으로 이동하고자 하는 경우 [ABM Orchestration에 대한 CMO 안내서](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf)ABM 오케스트레이션의 계획, 실행 및 측정 단계를 안내합니다.
+[!DNL Marketo Measure]과(와) ABM 접근 방식을 사용하면 마케팅 성과가 매출에 기반합니다. 계정 기반 마케팅 접근 방식으로 전환할 생각이라면 ABM 오케스트레이션의 계획, 실행 및 측정 단계를 안내하는 [CMO의 ABM 오케스트레이션 가이드](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf)를 확인하십시오.

@@ -2,7 +2,8 @@
 description: '[!DNL Marketo Measure] Ultimate 구현 안내서 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate 구현 안내서'
 feature: Integration, Tracking, Attribution
-source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
+exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 0%
@@ -30,20 +31,20 @@ Ultimate 사용자는 AEP가 프로비저닝됩니다. 이미 AEP가 있는 경�
 
 * 제공된 AEP 버전에는 모든 소스 커넥터, 스키마 데이터 모델링, 데이터 세트, Ad Hoc Query Service 및 Marketo Measure 전용 대상이 포함됩니다.
 
-자세히 알아보기 [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
+[Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}에 대해 자세히 알아보세요.
 
 ## 스키마 및 데이터 세트 {#schemas-and-datasets}
 
 >[!NOTE]
 >
->체크아웃 [스키마의 빌딩 블록](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} 스키마, 클래스 및 필드 그룹에 대한 개요입니다.
+>스키마, 클래스 및 필드 그룹에 대한 개요는 [스키마 빌딩 블록](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"}을(를) 확인하십시오.
 
 **XDM 스키마 = 클래스 + 스키마 필드 그룹&#42;**
 
 * 필수 필드는 변경할 수 없습니다. 고객은 필요에 따라 사용자 정의 필드를 만들고 추가할 수 있습니다.
 * 계층 구조를 기반으로 한 필드 이름의 예: accountOrganization.annualRevenue.amount
 
-&#42; _스키마는 클래스와 0개 이상의 스키마 필드 그룹으로 구성됩니다. 즉, 필드 그룹을 사용하지 않고 데이터 세트 스키마를 구성할 수 있습니다._
+&#42; _스키마가 클래스와 0개 이상의 스키마 필드 그룹으로 구성되어 있습니다. 즉, 필드 그룹을 사용하지 않고 데이터 집합 스키마를 구성할 수 있습니다._
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
@@ -53,9 +54,9 @@ Ultimate 사용자는 AEP가 프로비저닝됩니다. 이미 AEP가 있는 경�
 
 10개의 표준 B2B 스키마를 만들려면 자동 생성 유틸리티를 사용하는 것이 좋습니다.
 
-* 유틸리티를 다운로드하고 설정하는 단계 [은(는) 여기에서 찾을 수 있음](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
+* [ 유틸리티를 다운로드하고 설정하는 단계는 여기에서 찾을 수 있습니다](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-이 있는 사용자의 경우 _**CDP 권한**_: 소스 페이지로 이동하여 스키마를 만듭니다.
+_**CDP 권한**_&#x200B;이 있는 사용자의 경우: 소스 페이지로 이동하여 스키마를 만드십시오.
 
 * 소스에서 데이터 추가 > 템플릿 사용을 선택합니다.
 
@@ -73,20 +74,20 @@ Ultimate 사용자는 AEP가 프로비저닝됩니다. 이미 AEP가 있는 경�
 
 [데이터 흐름 개요](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
-**데이터 흐름을 만드는 절차:**
+**데이터 흐름을 만드는 단계:**
 
-1. 소스를 선택합니다.
+1. Source을 선택합니다.
 1. 기존 계정을 선택하거나 계정을 만듭니다.
-1. 소스에서 가져올 사용 가능한 유형 목록에서 데이터 유형을 선택합니다.
+1. Source에서 가져올 수 있는 유형 목록에서 데이터 유형을 선택합니다.
 1. 기존 데이터 세트를 선택하거나 데이터 세트를 만듭니다.
-1. 소스의 필드를 스키마에 매핑합니다.
+1. Source의 필드를 스키마에 매핑합니다.
 
    >[!NOTE]
    >
    >* 하나의 스키마 유형을 다른 동일한 스키마 유형에 매핑하면 자동으로 수행됩니다.
    >* 시스템의 다른 흐름에서 매핑을 가져올 수도 있습니다.
-   >* 하나의 소스 필드를 여러 대상 필드에 매핑할 수 있지만 반대는 수행할 수 없습니다.
-   >* 계산된 필드를 만들 수 있습니다([데이터 준비 매핑 함수](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
+   >* 하나의 Source 필드를 여러 대상 필드에 매핑할 수 있지만 반대는 수행할 수 없습니다.
+   >* 계산된 필드([데이터 준비 매핑 함수](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"})를 만들 수 있습니다.
 
    >[!CAUTION]
    >
@@ -114,7 +115,7 @@ Ultimate 사용자는 AEP가 프로비저닝됩니다. 이미 AEP가 있는 경�
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-옵션 2: [PSQL 다운로드 및 사용](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (더 빠르고 안정적).
+옵션 2: [PSQL 다운로드 및 사용](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"}(더 빠르고 안정적인).
 
 ## Marketo Measure에 대한 데이터 세트 활성화 {#activate-dataset-for-marketo-measure}
 
@@ -151,12 +152,12 @@ Ultimate 사용자는 AEP가 프로비저닝됩니다. 이미 AEP가 있는 경�
 
 단계를 매핑하지 않으면 데이터가 이동할 곳이 없기 때문에 시스템이 작동하지 않습니다.
 
-Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 잠재 고객용 아래 두 필드를 사용하지 마십시오([여기에서 자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 아래 두 필드를 리드와 관련된 것으로 사용하지 마십시오([자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
 
-**캠페인 멤버 규칙:**
+**캠페인 구성원 규칙:**
 
 데이터 세트를 선택하고 각각에 대한 규칙을 설정합니다.
 

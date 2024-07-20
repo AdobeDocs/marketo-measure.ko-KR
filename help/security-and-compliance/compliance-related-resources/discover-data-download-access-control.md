@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!UICONTROL Discover Data Download] 액세스 제어 {#discover-data-download-access-control}
 
-[!UICONTROL Discover Data Download] 제어 사용 [!DNL Marketo Measure] 관리자는 사용자의 역할을 기반으로 검색 대시보드에 대한 데이터 다운로드 정책을 설정합니다. 이 컨트롤은 Discover 대시보드의 모든 데이터 다운로드 작업을 다룹니다.
+[!UICONTROL Discover Data Download] 컨트롤을 사용하면 [!DNL Marketo Measure] 관리자가 사용자의 역할에 따라 검색 대시보드에 대한 데이터 다운로드 정책을 설정할 수 있습니다. 이 컨트롤은 Discover 대시보드의 모든 데이터 다운로드 작업을 다룹니다.
 
-1. 클릭 **[!UICONTROL Data Access]** 아래에 [!UICONTROL Security].
+1. [!UICONTROL Security] 아래의 **[!UICONTROL Data Access]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/discover-data-download-access-control-1.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
     </tr>
    </table>
 
-1. 클릭 **[!UICONTROL Save]** 완료 시.
+1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/discover-data-download-access-control-3.png)
 

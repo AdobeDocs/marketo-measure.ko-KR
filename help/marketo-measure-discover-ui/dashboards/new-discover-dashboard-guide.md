@@ -26,14 +26,14 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
     </tr>
     <tr>
       <td>개요</td>
-      <td><ul><li><strong>매출</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
+      <td><ul><li><strong>수익</strong>: 속성 수익, 수익 개요, ROI 대시보드</li>
           <li><strong>개요</strong>:<ul>              <li>속성 수익 대시보드: 시간 경과에 따른 채널별 속성 수익 차트</li>
             <li>ROI 대시보드: 시간에 따른 비용 차트</li></ul></li><li><strong>지출</strong>: ROI 대시보드</li>
           <li><strong>거래</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
           <li>
             <strong>거래당 비용: </strong>ROI 대시보드</li>
           <li>
-            <strong>채널/서브채널/캠페인 요약:</strong>ROI 대시보드</li>
+            <strong>채널/부채널/캠페인 요약:</strong>ROI 대시보드</li>
           <li>
             <strong>ROI 및 ROI 요약:</strong>ROI 대시보드</li>
           <li>
@@ -46,17 +46,17 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
       <td>성장</td>
       <td><ul>
           <li>
-            <strong>시간 경과에 따른 수익 및 수익</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
+            <strong>시간 경과에 따른 수익 및 수익</strong>: 속성 수익, 수익 개요, ROI 대시보드</li>
           <li>
             <strong>거래</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
           <li>
-            <strong>잠재 고객</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
+            <strong>리드</strong>: 속성 수익, 수익 개요, ROI 대시보드</li>
           <li>
-            <strong>영업 기회</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
+            <strong>기회</strong>: 속성 수익, 수익 개요, ROI 대시보드</li>
           <li>
             <strong>시간 경과에 따른 방문 및 방문</strong>: 웹 트래픽 대시보드</li>
           <li>
-            <strong>시간 경과에 따른 고유 방문 횟수 및 고유 방문 횟수</strong>: 웹 트래픽 대시보드</li>
+            <strong>시간 경과에 따른 고유 방문 및 고유 방문</strong>: 웹 트래픽 대시보드</li>
           <li>
             <strong>시간 경과에 따른 사이트 Forms 및 사이트 Forms</strong>: 웹 트래픽 대시보드</li>
           <li>
@@ -85,9 +85,9 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
       <td>
         <ul>
           <li>
-            <strong>채널/서브채널/캠페인 ROI 요약:</strong> ROI 대시보드</li>
+            <strong>채널/부채널/캠페인 ROI 요약:</strong> ROI 대시보드</li>
           <li>
-            <strong>키워드 및 광고 ROI 요약:</strong>사용되지 않음(아래 참조)</li>
+            <strong>키워드 및 크리에이티브 ROI 요약:</strong>사용되지 않음(아래 참조)</li>
         </ul>
       </td>
     </tr>
@@ -96,13 +96,13 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
       <td>
         <ul>
           <li>
-            <strong>매출</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
+            <strong>수익</strong>: 속성 수익, 수익 개요, ROI 대시보드</li>
           <li>
-            <strong>일치하는 잠재 고객</strong>: ROI 대시보드</li>
+            <strong>일치하는 리드</strong>: ROI 대시보드</li>
           <li>
-            <strong>접점 수:</strong>ROI 대시보드</li>
+            <strong>접점 개수:</strong>ROI 대시보드</li>
           <li>
-            <strong>참여 계정:</strong>참여 대시보드</li>
+            <strong>계정 참여:</strong>참여 대시보드</li>
           <li>
             <strong>참여 기회</strong>
             <strong>:</strong>참여 대시보드</li>
@@ -114,7 +114,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
           <li>
             <strong>시간 경과에 따른 터치포인트:</strong>참여 대시보드</li>
           <li>
-            <strong>접점 개수별 계정: </strong>참여 대시보드</li>
+            터치포인트별 <strong>계정 수: </strong>참여 대시보드</li>
           <li>
             <strong>파이프라인 수익:</strong>사용되지 않음(아래 참조)</li>
         </ul>
@@ -125,7 +125,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
       <td>
         <ul>
           <li>
-            <strong>매출</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
+            <strong>수익</strong>: 속성 수익, 수익 개요, ROI 대시보드</li>
           <li>
             <strong>지출</strong>: ROI 대시보드</li>
           <li>
@@ -140,9 +140,9 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
       <td>
         <ul>
           <li>
-            <strong>고유 방문 횟수:</strong>웹 트래픽 대시보드</li>
+            <strong>고유 방문 수:</strong>웹 트래픽 대시보드</li>
           <li>
-            <strong>방문 횟수:</strong>웹 트래픽 대시보드</li>
+            <strong>방문 수:</strong>웹 트래픽 대시보드</li>
           <li>
             <strong>페이지 보기 수:</strong>웹 트래픽 대시보드</li>
           <li>
@@ -154,11 +154,11 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
           <li>
             <strong>레퍼러 요약:</strong>웹 트래픽 대시보드</li>
           <li>
-            <strong>소스별 고유 방문 수:</strong>웹 트래픽 대시보드</li>
+            <strong>Source의 고유 방문 수:</strong>웹 트래픽 대시보드</li>
           <li>
-            <strong>소스별 방문:</strong>웹 트래픽 대시보드</li>
+            <strong>Source의 방문 수:</strong>웹 트래픽 대시보드</li>
           <li>
-            <strong>양식 URL별 리드:</strong>웹 트래픽 대시보드</li>
+            <strong>양식 URL별 잠재 고객:</strong>웹 트래픽 대시보드</li>
           <li>
             <strong>고유 방문당 비용</strong>
           </li>
@@ -182,7 +182,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
       <td>
         <ul>
           <li>
-            <strong>매출</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
+            <strong>수익</strong>: 속성 수익, 수익 개요, ROI 대시보드</li>
           <li>
             <strong>개요</strong>:<ul>
               <li>속성 수익 대시보드: 시간 경과에 따른 채널별 속성 수익 차트</li>
@@ -196,7 +196,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
           <li>
             <strong>거래당 비용: </strong>ROI 대시보드</li>
           <li>
-            <strong>채널/서브채널/캠페인 요약:</strong>ROI 대시보드</li>
+            <strong>채널/부채널/캠페인 요약:</strong>ROI 대시보드</li>
           <li>
             <strong>파이프라인 수익:</strong>사용되지 않음(아래 참조)</li>
           <li>
@@ -206,7 +206,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
     </tr>
     <tr>
       <td>유료 미디어</td>
-      <td>사용자는 의 유료 미디어 채널에 대한 필터를 적용할 수 있습니다. <strong>웹 트래픽 대시보드</strong>.</td>
+      <td>사용자는 <strong>웹 트래픽 대시보드</strong>에서 유료 미디어 채널에 대한 필터를 적용할 수 있습니다.</td>
     </tr>
     <tr>
       <td>콘텐츠 마케팅</td>
@@ -218,7 +218,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
             <strong>사이트 Forms:</strong>
             <strong></strong>웹 트래픽 대시보드</li>
           <li>
-            <strong>고유 방문 횟수:</strong>
+            <strong>고유 방문 수:</strong>
             <strong></strong>웹 트래픽 대시보드</li>
           <li>
             <strong>고유 방문 횟수별 상위 랜딩 페이지:</strong>
@@ -233,22 +233,22 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
             <strong>리드:</strong>
             <strong></strong>웹 트래픽 대시보드</li>
           <li>
-            <strong>영업 기회</strong>: 속성 매출, 매출 개요, ROI 대시보드</li>
+            <strong>기회</strong>: 속성 수익, 수익 개요, ROI 대시보드</li>
           <li>
             <strong>웹 트래픽 요약:</strong>
             <strong></strong>웹 트래픽 대시보드</li>
           <li>
-            <strong>채널별 양식 URL</strong>
+            채널별 <strong>양식 URL</strong>
             <strong>:</strong>
             <strong></strong>웹 트래픽 대시보드(채널별로 사이트 Forms 타일 필터링)</li>
           <li>
-            <strong>매출액별 랜딩 페이지: </strong>사용되지 않음(아래 참조)</li>
+            매출액별 <strong>랜딩 페이지: </strong>사용되지 않음(아래 참조)</li>
           <li>
             <strong>파이프라인 수익: </strong>사용되지 않음(아래 참조)</li>
           <li>
             <strong>파이프라인 매출별 랜딩 페이지:</strong>사용되지 않음(아래 참조)</li>
           <li>
-            <strong>Opportunity Count 별 랜딩 페이지:</strong>사용되지 않음(아래 참조)</li>
+            <strong>영업 기회별 랜딩 페이지 수:</strong>사용되지 않음(아래 참조)</li>
           <li>
             <strong>리드 파이프라인 요약: </strong>검토 중</li>
           <li>
@@ -269,9 +269,9 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
           <li>
             <strong>속도(일):</strong> 속도 대시보드</li>
           <li>
-            <strong>채널별 거래 속도: </strong>속도 대시보드</li>
+            채널별 <strong>거래 속도: </strong>속도 대시보드</li>
           <li>
-            <strong>채널별 잠재 고객 속도: </strong>속도 대시보드</li>
+            채널별 <strong>리드 속도: </strong>속도 대시보드</li>
           <li>
             <strong>평균 거래 속도: </strong>속도 대시보드</li>
           <li>
@@ -283,7 +283,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
           <li>
             <strong>시간 경과에 따른 BT/BAT:</strong>참여 대시보드</li>
           <li>
-            <strong>영업 기회 열기:</strong>
+            <strong>기회 열기:</strong>
             <strong> </strong>사용되지 않음(아래 참조)</li>
           <li>
             <strong>평균 거래 규모:</strong>
@@ -296,7 +296,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
     </tr>
     <tr>
       <td>스냅샷</td>
-      <td>사용자는 의 특정 날짜에 대해 필터링하여 레코드 스냅숏을 얻을 수 있습니다. <strong>여권 대시보드.</strong>
+      <td>사용자는 <strong>Passport 대시보드에서 특정 날짜를 필터링하여 레코드 스냅숏을 얻을 수 있습니다.</strong>
       </td>
     </tr>
     <tr>
@@ -304,7 +304,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
       <td>
         <ul>
           <li>
-            <strong>Opportunity &amp; Lead/Contact: </strong>Passport 대시보드</li>
+            <strong>기회 및 리드/연락처: </strong>Passport 대시보드</li>
         </ul>
       </td>
     </tr>
@@ -374,7 +374,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
     <tr>
       <td>
         <p>
-          <strong>평균 거래 규모</strong>
+          <strong>평균 거래 크기</strong>
         </p>
       </td>
       <td rowspan="3">속성 통찰력을 강조하기 위해 대시보드에서 이러한 CRM 데이터 포인트를 복제하지 않도록 선택했습니다.</td>
@@ -382,7 +382,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
     <tr>
       <td>
         <p>
-          <strong>영업 기회 열기</strong>
+          <strong>기회 열기</strong>
           <strong>
             <br/>
           </strong>
@@ -407,7 +407,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
     </tr>
     <tr>
       <td>
-        <strong>시간에 따른 연락처</strong>
+        <strong>시간 경과에 따른 연락처</strong>
       </td>
     </tr>
     <tr>
@@ -466,14 +466,14 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
     <tr>
       <td>
         <p>
-          <strong>매출별 랜딩 페이지</strong>
+          매출액별 <strong>랜딩 페이지</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>영업 기회 개수별 랜딩 페이지</strong>
+          <strong>영업 기회별 랜딩 페이지</strong>
         </p>
       </td>
     </tr>
@@ -488,15 +488,15 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
 
 ## 단계적 단종된 기능 {#features-weve-phased-out}
 
-**업데이트 필터링**: 환경을 간소화하기 위해 다음과 같이 필터 선택을 조정했습니다.
+**필터 업데이트**: 환경을 간소화하기 위해 아래와 같이 필터 선택을 조정했습니다.
 
-* **날짜 유형, 지표, Dimension, 그룹화 기준**: 이제 이러한 설정은 인사이트 전달을 최적화하기 위해 각 대시보드에 대해 사전 정의됩니다. 자세한 내용은 도구 설명 및 관련 설명서를 통해 확인할 수 있습니다.
-* **캠페인 소스**
+* **날짜 유형, 지표, Dimension, 그룹화 기준**: 이제 인사이트 게재를 최적화하기 위해 각 대시보드에 대해 이러한 설정이 미리 정의되어 있습니다. 자세한 내용은 도구 설명 및 관련 설명서를 통해 확인할 수 있습니다.
+* **Campaign Source**
 * **계정 ID 및 이름**: 검토 중입니다.
 
 ## 새로운 추가 및 개선 사항 {#new-additions-and-improvements}
 
-새 기능은에서 찾을 수 있습니다. [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} 기사.
+새로운 기능은 [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} 문서에서 확인할 수 있습니다.
 
 ## 피드백 {#feedback}
 

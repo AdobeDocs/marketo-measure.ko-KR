@@ -15,13 +15,13 @@ ht-degree: 0%
 
 이 보고서는 마케팅 채널에서 생성된 기회의 수를 표시합니다. 여기에는 모든 기회가 포함됩니다. 하지만 이 보고서를 필터링하여 특정 유형의 기회를 분석할 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Reports]** salesforce의 탭에서 다음을 선택 **[!UICONTROL New Report]**.
+1. Salesforce에서 **[!UICONTROL Reports]** 탭을 클릭하고 **[!UICONTROL New Report]**&#x200B;을(를) 선택합니다.
 
-1. 빠른 찾기에서 &quot;Bizible 속성&quot;을 입력하고 **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** 보고서 유형 및 선택 **[!UICONTROL Create]**.
+1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** 보고서 유형을 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다.
 
    ![](assets/1-2.jpg)
 
-1. 보고서 맨 위부터 표시 **[!UICONTROL All Bizible Attribution Touchpoints]** 또한 보고하려는 일정에 따라 날짜 필드를 조정합니다. 이 예제에서는 All Time을 살펴보겠습니다. 또한 보고서 형식을에서 변경합니다. [!UICONTROL Tabular] 끝 **[!UICONTROL Summary]**.
+1. 보고서 맨 위부터 **[!UICONTROL All Bizible Attribution Touchpoints]**&#x200B;을(를) 표시하고 보고할 일정에 따라 날짜 필드를 조정합니다. 이 예제에서는 All Time을 살펴보겠습니다. 또한 보고서 형식을 [!UICONTROL Tabular]에서 **[!UICONTROL Summary]**(으)로 변경하십시오.
 
    ![](assets/2-2.jpg)
 

@@ -2,7 +2,8 @@
 description: 통합 권한 개요 - [!DNL Marketo Measure]
 title: 통합 권한 개요
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 1%
@@ -51,13 +52,13 @@ ht-degree: 1%
     <p>
     <b>전용 사용자에 대한 Marketo Measure 관리자 권한 집합:</b> SFDC 관리자가 marketo 측정 개체에 대해 CRUD 작업을 수행할 수 있도록 허용합니다.
     <br>
-    <b>전환된 잠재 고객 사용 권한 집합 보기 및 편집:</b> 이렇게 하면 Marketo Measure은 잠재 고객을 연락처로 전환한 후 데코레이트할 수 있습니다.
+    <b>전환된 잠재 고객 사용 권한 집합 보기 및 편집:</b> 이렇게 하면 Marketo Measure에서 잠재 고객이 연락처로 전환된 후 잠재 고객을 꾸밀 수 있습니다.
     <br>
-    <b>Salesforce 마케팅 사용자 확인란:</b> 마케팅 사용자 확인란을 통해 캠페인을 만들고 캠페인 가져오기 마법사를 사용할 수 있습니다.
+    <b>Salesforce 마케팅 사용자 확인란:</b> 마케팅 사용자 확인란을 사용하여 캠페인을 만들고 캠페인 가져오기 마법사를 사용할 수 있습니다.
     <br>
-    <b>Marketo Measure Standard 사용자:</b> 사용자에게 Marketo Measure 오브젝트에서 레코드를 읽을 수 있는 기능을 제공합니다.
+    <b>Marketo Measure 표준 사용자:</b> 사용자에게 Marketo Measure 개체에서 레코드를 읽을 수 있는 기능을 제공합니다.
     <p>
-    <b>Salesforce Standard 필드 권한</b>
+    <b>Salesforce 표준 필드 권한</b>
     <br>
     <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce 표준 개체 및 액세스</a>
     <p>
@@ -104,7 +105,7 @@ CRM의 다른 사용자와 관련된 문제를 방지하기 위해 Dynamics 내�
 <br>
 Marketo Measure 사용자 지정 엔터티의 경우 모든 엔터티에 대해 전체 권한이 필요합니다.
 <p>
-<b>Dynamics Standard 필드 권한</b>
+<b>Dynamics 표준 필드 권한</b>
 <br>
 <a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics 스키마</a>
 <p>
@@ -138,7 +139,7 @@ Marketo Measure은 계정, 캠페인, 광고 그룹, 광고, 필터 ID 및 URL�
 <li>광고주를 위한 혁신적인 솔루션과 차별화된 가치를 제공하는 광고 관리 도구를 구축할 수 있습니다.</li>
 <br>
 <br>
-<a href="https://developers.facebook.com/docs/permissions/reference/email">이메일</a>
+<a href="https://developers.facebook.com/docs/permissions/reference/email">전자 메일</a>
 <br>
 <li>다른 사용자와 통신하고 해당 Facebook 프로필과 연결된 이메일 주소로 앱에 로그인할 수 있도록 합니다.</li></td>
   </tr>
@@ -160,7 +161,7 @@ Marketo Measure은 계정, 캠페인, 광고 그룹, 광고, 필터 ID 및 URL�
     <p>
     <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">페이지 관리자 역할 설정 - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">페이지 관리자 역할 정의</a>: 원하는 관리 페이지에서 페이지 관리자 역할
     <p>
-    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">유료 미디어 관리자 역할 설정(유료 미디어 관리자 찾기) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">유료 미디어 관리자 정의</a>: 유료 미디어 관리자 역할</td>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">유료 미디어 관리자 역할 설정(유료 미디어 관리자 검색) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">유료 미디어 관리자 정의</a>: 유료 미디어 관리자 역할</td>
   </tr>
   <tr>
     <td>더블 클릭</td>
@@ -174,11 +175,11 @@ Marketo Measure은 계정, 캠페인, 광고 그룹, 광고, 필터 ID 및 URL�
 <p>
     <b>범위</b>
     <br>
-    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: 기본 Google 계정 이메일 주소 보기
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: 기본 Google 계정 이메일 주소 확인
     <p>
-     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: 광고주를 위한 DoubleClick 보고서 보기 및 관리
+     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: DoubleClick for Advertisers 보고서 보기 및 관리
     <p>
-     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: DCM(DoubleClick Campaign Manager)의 디스플레이 광고 캠페인을 보고 관리합니다</td>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: DCM(DoubleClick Campaign Manager)의 디스플레이 광고 캠페인을 보고 관리합니다.</td>
   </tr>
   <tr>
     <td>AdWords</td>
@@ -194,24 +195,24 @@ Marketo Measure은 캠페인, 광고 그룹, 크리에이티브, 사이트 링�
 <p>
     <b>범위</b>
     <br>
-    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: 기본 Google 계정 이메일 주소 보기</td>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: 기본 Google 계정 이메일 주소 확인</td>
   </tr>
   <tr>
     <td>빙</td>
     <td>광고 플랫폼 데이터</td>
     <td>Marketo Measure은 계정, 캠페인, 광고 그룹, 크리에이티브 및 키워드를 추적합니다.</td>
-    <td><li>사용자는 Microsoft 계정을 통해 "오프라인 액세스"를 부여해야 합니다(로그인하지 않은 경우에도 최종 사용자의 사용자 정보에 대한 Marketo Measure 액세스 권한을 부여함). 다음을 참조하십시오 <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft 페이지</a> 방법을 참조하십시오.</li>
+    <td><li>사용자는 Microsoft 계정을 통해 "오프라인 액세스"를 부여해야 합니다(로그인하지 않은 경우에도 최종 사용자의 사용자 정보에 대한 Marketo Measure 액세스 권한을 부여함). 방법은 <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft 페이지</a>를 참조하세요.</li>
 <p>
     <b>범위</b>
     <br>
-    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: 권한에 대한 액세스 권한을 부여한 데이터에 대한 액세스 권한을 유지합니다.</td>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: 사용 권한에 대한 액세스 권한을 부여한 데이터에 대한 액세스 권한을 유지합니다.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
     <td>B2B 시스템 데이터</td>
-    <td>Marketo 통합을 통해 Marketo Measure은 Marketo 활동, 사람, 프로그램 및 프로그램 멤버십을 수집할 수 있습니다. 또한 Marketo Measure은 Marketo 웹 활동을 Marketo Measure 리드 터치포인트에 연결하기 위한 목적으로 Marketo 쿠키(Munchkin ID)를 추적합니다. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">여기에 기재된 바와 같이</a>:
+    <td>Marketo 통합을 통해 Marketo Measure은 Marketo 활동, 사람, 프로그램 및 프로그램 멤버십을 수집할 수 있습니다. 또한 Marketo Measure은 Marketo 웹 활동을 Marketo Measure 리드 터치포인트에 연결하기 위한 목적으로 Marketo 쿠키(Munchkin ID)를 추적합니다. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">여기에 설명된 대로</a>:
     <p>
-    <i>Marketo과 Marketo Measure 통합의 결과로 Marketo Measure 쿠키 ID도 매핑되고 Marketo Munchkin ID와 동기화됩니다. 이렇게 하면 FT 및 LC 터치를 모두 Marketo 활동에 귀속시키지 않고 간격을 닫아 익명의 첫 번째 터치를 웹 세션에 귀속시킵니다.</i>
+    <i>Marketo Measure과 Marketo이 통합됨에 따라 Marketo Measure 쿠키 ID도 매핑되고 Marketo Munchkin ID와 동기화됩니다. 이렇게 하면 FT 및 LC 터치를 모두 Marketo 활동에 기여하는 대신 익명의 첫 번째 터치를 웹 세션에 기여하는 간격을 좁힐 수 있습니다.</i>
     </td>
     <td>고객은 전용 Marketo Engage API 사용자를 만들고 Marketo Measure에 자격 증명을 제공해야 합니다. 추가적인 권한 구성은 필요하지 않습니다. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">자세히 알아보기</a>.</td>
   </tr>

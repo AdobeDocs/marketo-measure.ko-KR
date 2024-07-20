@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874632
-description: 마케팅 채널별 영업 기회 손실 종료됨 - [!DNL Marketo Measure]
+description: 마케팅 채널별 영업 기회 손실 닫음 - [!DNL Marketo Measure]
 title: 마케팅 채널별 영업 기회 손실 마감
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 이 보고서는 영업 기회 단계에 따라 달라질 수 있지만, 이 보고서는 마감되지 않은 기회에 기여한 마케팅 채널을 공개합니다.
 
-1. 다음 클릭: **[!UICONTROL Reports]** salesforce의 탭에서 다음을 선택 **[!UICONTROL New Report]**.
+1. Salesforce에서 **[!UICONTROL Reports]** 탭을 클릭하고 **[!UICONTROL New Report]**&#x200B;을(를) 선택합니다.
 
    ![](assets/1-3.jpg)
 
-1. 빠른 찾기에서 &quot;Bizible 속성&quot;을 입력하고 **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** 보고서 유형을 선택한 다음 **[!UICONTROL Create]**.
+1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** 보고서 유형을 선택한 다음 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다.
 
    ![](assets/2-3.jpg)
 
-1. 보고서 맨 위부터 &quot;표시[!UICONTROL All Bizible Attribution Touchpoints]&quot;보고하려는 일정에 따라 날짜 필드를 조정합니다. 이 예제에서는 All Time을 살펴보겠습니다. 또한 보고서 형식을 테이블 형식에서 요약으로 변경합니다.
+1. 보고서 맨 위부터 &quot;[!UICONTROL All Bizible Attribution Touchpoints]&quot;을(를) 표시하고 보고할 일정에 따라 날짜 필드를 조정합니다. 이 예제에서는 All Time을 살펴보겠습니다. 또한 보고서 형식을 테이블 형식에서 요약으로 변경합니다.
 
    ![](assets/3-3.jpg)
 

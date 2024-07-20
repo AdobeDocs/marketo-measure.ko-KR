@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874716
-description: 속성 매핑 방법론 - [!DNL Marketo Measure]
+description: 속성 매핑 방법 - [!DNL Marketo Measure]
 title: 속성 매핑 방법론
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # 속성 매핑 방법론 {#attribution-mapping-methodology}
 
-속성 매핑 방법론은 CRM의 특정 개체(연락처, 기회, 계정)를 조회하여 연결된 기회에 속성 접점을 만드는 프로세스입니다. 다시 말해, [!DNL Marketo Measure] 현재 CRM의 프로세스를 기반으로 속성 모델에 포함할 터치포인트를 이해하는 방법입니다.
+속성 매핑 방법론은 CRM의 특정 개체(연락처, 기회, 계정)를 조회하여 연결된 기회에 속성 접점을 만드는 프로세스입니다. 즉, 현재 CRM의 프로세스를 기반으로 속성 모델에 포함할 터치포인트를 [!DNL Marketo Measure]에서 이해하는 것입니다.
 
 ## 계정 ID 매핑 {#account-id-mapping}
 
-기본, [!DNL Marketo Measure] 계정 ID 매핑을 제공합니다. 이는 다음을 의미합니다. [!DNL Marketo Measure] 은 거래처 및 해당 연락처 마케팅 정보를 확인하여 영업 기회와 연관된 속성 접점을 만듭니다. 다음은 그 과정을 간단하게 표현한 것입니다.
+기본적으로 [!DNL Marketo Measure]은(는) 계정 ID 매핑을 제공합니다. 즉, [!DNL Marketo Measure]이(가) 거래처 및 해당 연락처 마케팅 정보를 보고 해당 기회에 연결된 속성 접점을 만듭니다. 다음은 그 과정을 간단하게 표현한 것입니다.
 
 ![](assets/1-1.png)
 
-주의 사항 **모두 아님** 연락처의 터치포인트가 속성 터치포인트로 영업 기회에 푸시됩니다. Opportunity 의 타임라인 (첫 번째 터치 날짜 - 종료 날짜)은 터치 포인트가 Opportunity에 영향을 주는지 여부를 결정합니다. 따라서 Opportunity 가 Closed Won/Lost 된 후에 연락처 A에 대한 터치포인트가 발생하면 [!DNL Marketo Measure] 은(는) 해당 터치포인트를 Opportunity 로 푸시하지 않습니다. 이 타임라인 절차는 다른 모든 속성 객체 매핑에서 수행됩니다.
+연락처의 **일부**&#x200B;개 터치포인트가 기여도 분석 터치포인트로 영업 기회에 푸시되지 않는다는 점을 유의하십시오. Opportunity 의 타임라인 (첫 번째 터치 날짜 - 종료 날짜)은 터치 포인트가 Opportunity에 영향을 주는지 여부를 결정합니다. 따라서 Opportunity Closed Won/Lost 후에 연락처 A에 대한 터치포인트가 발생한 경우 [!DNL Marketo Measure]은(는) 해당 터치포인트를 Opportunity에 푸시하지 않습니다. 이 타임라인 절차는 다른 모든 속성 객체 매핑에서 수행됩니다.
 
 장점 : 이 속성 방법은 대부분의 회사에 매우 효과적입니다. 마케팅 팀은 모든 담당자를 특정 영업 기회 (일반적으로 문제)에 연결하기 위해 영업 팀에 의존할 필요가 없습니다. 또한 영업 팀이 연락처 역할을 연결하더라도 마케팅 자료와 다른 많은 연락처의 상호 작용이 누락될 수 있습니다. 마지막으로, 이 방법은 특정 인플루언서보다는 계정 전체에 영향을 미치도록 노력하는 ABM 전략을 보조합니다.
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 영업 기회 연락처 역할 매핑 {#opportunity-contact-role-mapping}
 
-대부분의 클라이언트가 계정 ID 매핑을 사용하는 동안 [!DNL Marketo Measure] 은 Opportunity 내에서 연락처 역할 (Opportunity 와 연관된 연락처 ) 을 조회하여 Attribution 프로세스를 분류할 수 있습니다. 이는 다음을 의미합니다. [!DNL Marketo Measure] 은 구매자 속성 터치포인트로 영업 기회에서 연락처 역할과 연결된 마케팅 상호 작용만 푸시합니다. 다음은 이 프로세스를 나타내는 것입니다.
+대부분의 클라이언트가 계정 ID 매핑을 사용하는 동안 [!DNL Marketo Measure]은(는) Opportunity 내에서 연락처 역할(Opportunity에 연결된 연락처)을 조회하여 속성 프로세스를 분류할 수 있습니다. 즉, [!DNL Marketo Measure]이(가) 구매자 속성 터치포인트로서 영업 기회에서 연락처 역할과 연결된 마케팅 상호 작용만 푸시합니다. 다음은 이 프로세스를 나타내는 것입니다.
 
 ![](assets/2-1.png)
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 영업 기회 기본 담당자 역할 매핑 {#opportunity-primary-contact-role-mapping}
 
-단순히 영업 기회에 대한 연락처 역할을 살펴보는 것 이상으로, [!DNL Marketo Measure] 은 Opportunity 의 Primary Contact 만 살펴보기 위해 더욱 집중할 수 있습니다. 이 설정을 염두에 두고, [!DNL Marketo Measure] 에서는 특정 영업 기회의 기본 연락처에 연결된 마케팅 접점을 가져와서 해당 정보를 특정 영업 기회의 속성 스토리로 푸시하기만 합니다. 아래 이미지를 참조하십시오.
+[!DNL Marketo Measure]은(는) 영업 기회에 대한 연락처 역할만 보는 것이 아니라 영업 기회에 대한 기본 연락처만 보는 데 더 집중할 수 있습니다. 이 설정을 염두에 두고 [!DNL Marketo Measure]은(는) 기회의 기본 연락처와 연결된 마케팅 접점만 잡고 해당 정보를 해당 특정 기회의 속성 스토리에 푸시합니다. 아래 이미지를 참조하십시오.
 
 ![](assets/3.png)
 

@@ -2,7 +2,8 @@
 description: 영업 기회 속도 대시보드 - [!DNL Marketo Measure] - 제품
 title: 영업 기회 속도 대시보드
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 1%
@@ -22,7 +23,7 @@ Velocity 대시보드는 잠재 고객이 판매 단계를 이동하는 속도�
 
 ### KPI 타일 {#kpi-tile}
 
-* **비공개 거래 속도**: 첫 번째 단계에서 마감되는 &quot;마감된 원&quot; 기회의 평균 일 수입니다.
+* **종료된 거래 속도**: 첫 번째 단계에서 종료된 &quot;종료된&quot; 기회의 평균 일수입니다.
 
 ### 단계별 영업 기회 속도 {#opportunity-velocity-by-stage}
 

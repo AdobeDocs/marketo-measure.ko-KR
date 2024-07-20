@@ -24,12 +24,12 @@ ht-degree: 0%
 
 보고 기능을 향상시키는 두 가지 새로운 필드가 있습니다.
 
-* form_name: 이제 BT/BAT 객체에서 사용할 수 있으며, 이 필드를 통해 사용자는 양식 이름을 기반으로 보고서를 작성할 수 있습니다.
-* user_touchpoint_id: 이 필드를 통해 사용자는 고유한 사용자 접점 카운트로 보고서를 만들 수 있습니다(`bizible2__User_Touchpoint_V2__c` Salesforce 참조).
+* form_name: 이제 BT/BAT 개체에서 사용할 수 있으며, 이 필드를 통해 사용자는 양식 이름을 기반으로 보고서를 만들 수 있습니다.
+* user_touchpoint_id: 이 필드를 사용하면 사용자가 고유한 사용자 접점 카운트로 보고서를 만들 수 있습니다(Salesforce의 `bizible2__User_Touchpoint_V2__c`).
 
 ## 지원 및 전환 {#support-and-transition}
 
-다음 [지원 팀](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 는 모든 질문에 답변하고 새로운 통합 패키지로 원활하게 전환할 수 있도록 지원합니다.
+[지원 팀](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}은(는) 모든 질문에 답변할 수 있으며 새로운 통합 패키지로 원활하게 전환할 수 있도록 지원합니다.
 
 ## 필수 작업 {#retired-actions}
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 통합 패키지를 설치하기 전에 패키지를 제거할 필요가 없습니다. 다른 네임스페이스에 있으므로 필드에는 충돌이 없습니다.
 
-**현재 패키지의 데이터를 채우려면 어떻게 해야 합니까?**
+**현재 패키지에서 데이터를 채우려면 어떻게 해야 합니까?**
 
-티켓을 접수하실 수 있습니다 [지원 포함](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} BT/BAT 데이터를 다시 채우고 재처리하여 터치포인트 ID 및 양식 ID 필드를 채울 수 있습니다.
+터치포인트 ID 및 양식 ID 필드를 채우기 위한 BT/BAT 데이터 다시 채우기 및 재처리에 대해 [지원으로 ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 티켓을 제출할 수 있습니다.
 
 **V1 및 V2_EXT 패키지의 필드를 통합 패키지에서 사용할 수 있습니까?**
 
@@ -65,4 +65,4 @@ ht-degree: 0%
 
 **V2_EXT 필드를 사용하는 보고서를 통합 패키지에서 다시 만들 수 있습니까?**
 
-예. 의 단계를 따릅니다. [필수 작업](#retired-actions) 섹션.
+예. [필수 작업](#retired-actions) 섹션의 단계를 따릅니다.

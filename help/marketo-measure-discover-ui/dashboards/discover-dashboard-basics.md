@@ -1,5 +1,5 @@
 ---
-description: 대시보드 기본 사항 살펴보기 - [!DNL Marketo Measure] - 제품
+description: 대시보드 기본 사항 살펴보기 - [!DNL Marketo Measure]  - 제품
 title: 대시보드 기본 사항 살펴보기
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545

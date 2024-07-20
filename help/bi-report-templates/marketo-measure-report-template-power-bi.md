@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ## 시작하기 {#getting-started}
 
-Power BI 보고서 템플릿에 액세스할 수 있습니다 [여기](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+Power BI 보고서 템플릿 [여기](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}에 액세스할 수 있습니다.
 
-Adobe 열기 [!DNL Marketo Measure] 보고 템플릿 Power BI 파일입니다.
+Adobe [!DNL Marketo Measure] 보고 템플릿 Power BI 파일을 엽니다.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-특정 서버, 웨어하우스 및 스키마 정보는 [!DNL Marketo Measure] 의 UI [!DNL Data Warehouse] 정보 페이지. 이 페이지를 찾는 방법에 대한 자세한 지침은 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+특정 서버, 웨어하우스 및 스키마 정보는 [!DNL Data Warehouse] 정보 페이지의 [!DNL Marketo Measure] UI에서 찾을 수 있습니다. 이 페이지를 찾는 방법에 대한 지침은 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}에 자세히 설명되어 있습니다.
 
-QueryFilterStartDate 및 QueryFilterEndDate 매개 변수는 가져온 데이터의 양을 제한하는 데 사용됩니다. 이러한 매개 변수는 보낸 쿼리에서에 사용되는 SQL 형식이어야 합니다. [!DNL Snowflake]. 예를 들어 데이터를 지난 2년으로 제한하려면 QueryFilterStartDate를 `dateadd` (year,-2,current_date()). 이러한 매개 변수는 날짜/시간 데이터 형식과 비교되므로 `dateadd` (day,1,current_date())를 반환합니다.
+QueryFilterStartDate 및 QueryFilterEndDate 매개 변수는 가져온 데이터의 양을 제한하는 데 사용됩니다. 이러한 매개 변수는 [!DNL Snowflake](으)로 전송된 쿼리에서 사용되는 SQL 형식이어야 합니다. 예를 들어 데이터를 지난 2년으로 제한하려면 QueryFilterStartDate는 `dateadd`(year,-2,current_date())가 됩니다. 이러한 매개 변수는 datetime 데이터 형식과 비교되므로 모든 데이터를 현재 시간으로 반환하려면 QueryFilterEndDate에 `dateadd`(day,1,current_date())를 사용하는 것이 좋습니다.
 
 ## 데이터 연결 {#data-connection}
 
-파일을 열 때 입력한 매개 변수는 데이터 웨어하우스에서 테이블을 가져오는 기본 쿼리를 구성하는 데 사용됩니다. 에 대한 데이터 연결을 설정해야 합니다. [!DNL Snowflake] 인스턴스. 이 경우 사용자 이름 및 암호와 함께 동일한 서버 및 웨어하우스 이름이 필요합니다. 필요한 경우 사용자 이름을 찾고 암호를 재설정하는 위치에 대한 세부 정보가 문서화되어 있습니다 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+파일을 열 때 입력한 매개 변수는 데이터 웨어하우스에서 테이블을 가져오는 기본 쿼리를 구성하는 데 사용됩니다. [!DNL Snowflake] 인스턴스에 대한 데이터 연결을 설정해야 합니다. 이 경우 사용자 이름 및 암호와 함께 동일한 서버 및 웨어하우스 이름이 필요합니다. 필요한 경우 사용자 이름을 찾고 암호를 재설정하는 위치에 대한 자세한 정보는 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}에 설명되어 있습니다.
 
 ## 데이터 가져오기 {#data-import}
 
@@ -38,7 +38,7 @@ QueryFilterStartDate 및 QueryFilterEndDate 매개 변수는 가져온 데이터
 
 ![](assets/marketo-measure-report-template-power-bi-2.png)
 
-모든 쿼리는 삭제된 행과 [!UICONTROL facts] 테이블은 매개 변수로 입력된 시작 날짜와 종료 날짜 사이에 날짜가 수정된 행으로 필터링하도록 설정되어 있습니다.
+모든 쿼리는 삭제된 행을 필터링하고 [!UICONTROL facts] 테이블은 매개 변수로 입력된 시작 날짜와 종료 날짜 사이에 수정한 날짜가 있는 행을 필터링하도록 설정되어 있습니다.
 
 >[!NOTE]
 >
@@ -80,13 +80,13 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 ### 제거된 열 {#removed-columns}
 
-데이터 모델을 단순화하고 중복되고 불필요한 데이터를 제거하기 위해 원본에서 Power BI으로 가져오는 열의 수를 줄였습니다 [!DNL Snowflake] 테이블. 제거된 열에는 불필요한 외래 키, 모델의 다른 테이블에 대한 관계를 통해 더 잘 적용되는 비정규화된 차원 데이터, 감사 열 및 내부용으로 사용되는 필드가 포함됩니다 [!DNL Marketo Measure] 처리 중입니다. 비즈니스 요구 사항에 따라 열을 추가하거나 제거할 수 있습니다. 테이블에서 &quot;소스&quot; 단계 다음의 &quot;제거된 다른 열&quot; 단계로 이동하여 톱니바퀴 아이콘을 클릭하고 제공된 목록에서 선택한 열을 업데이트합니다.
+데이터 모델을 단순화하고 중복되고 불필요한 데이터를 제거하기 위해 원래 [!DNL Snowflake] 테이블에서 Power BI으로 가져온 열의 수를 줄였습니다. 제거된 열에는 불필요한 외래 키, 모델의 다른 테이블에 대한 관계를 통해 더 잘 적용되는 비정규화된 차원 데이터, 감사 열 및 내부 [!DNL Marketo Measure] 처리에 사용되는 필드가 포함되어 있습니다. 비즈니스 요구 사항에 따라 열을 추가하거나 제거할 수 있습니다. 테이블의 &quot;Source&quot; 단계 뒤에 있는 &quot;제거된 다른 열&quot; 단계로 이동하여 톱니바퀴 아이콘을 클릭하고 제공된 목록에서 선택한 열을 업데이트합니다.
 
 >[!NOTE]
 >
 >* 외래 키 값을 추가할 때는 주의하십시오. Power BI은 종종 모델에서 관계를 자동 감지하도록 설정되며 외래 키 값을 추가하면 테이블 간에 바람직하지 않은 링크가 생기거나 기존 관계가 비활성화될 수 있습니다.
 >
->* 의 대부분의 테이블 [!DNL Marketo Measure] data warehouse에는 비정규화된 차원 데이터가 포함되어 있습니다. Power BI에서 모델을 최대한 정규화하고 정리하여 성능과 데이터 정확도를 개선했습니다. 팩트 테이블에 비정규화된 필드를 추가로 포함할 때 주의하십시오. 이렇게 하면 테이블 간 차원 필터링이 중단되고 보고가 부정확해질 수 있습니다.
+>* [!DNL Marketo Measure] 데이터 웨어하우스의 테이블 대부분은 비정규화된 차원 데이터를 포함합니다. Power BI에서 모델을 최대한 정규화하고 정리하여 성능과 데이터 정확도를 개선했습니다. 팩트 테이블에 비정규화된 필드를 추가로 포함할 때 주의하십시오. 이렇게 하면 테이블 간 차원 필터링이 중단되고 보고가 부정확해질 수 있습니다.
 
 
 ![](assets/marketo-measure-report-template-power-bi-5.png)
@@ -99,13 +99,15 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 ### 이름이 변경된 세그먼트 {#renamed-segments}
 
-세그먼트 이름은 사용자 지정할 수 있으므로 Snowflake 데이터 웨어하우스에 일반 열 이름이 있습니다. [!DNL BIZ_SEGMENT_NAMES] 는 의 세그먼트 섹션에 정의된 일반 세그먼트 이름과 매핑된 사용자 정의 세그먼트 이름을 나열하는 매핑 테이블입니다. [!DNL Marketo Measure] UI. 세그먼트 이름 테이블은 리드 접점 및 속성 접점 테이블에서 세그먼트 열의 이름을 바꾸는 데 사용됩니다. 사용자 정의된 세그먼트가 없으면 일반 세그먼트 이름은 유지됩니다.
+세그먼트 이름은 사용자 지정할 수 있으므로 Snowflake 데이터 웨어하우스에 일반 열 이름이 있습니다. [!DNL BIZ_SEGMENT_NAMES]은(는) [!DNL Marketo Measure] UI의 세그먼트 섹션에 정의된 일반 세그먼트 이름과 매핑된 사용자 지정 세그먼트 이름을 나열하는 매핑 테이블입니다. 세그먼트 이름 테이블은 리드 접점 및 속성 접점 테이블에서 세그먼트 열의 이름을 바꾸는 데 사용됩니다. 사용자 정의된 세그먼트가 없으면 일반 세그먼트 이름은 유지됩니다.
 
 ![](assets/marketo-measure-report-template-power-bi-7.png)
 
 ### 대/소문자 ID 변환 {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] 데이터에는 기본 키(ID) 값이 대/소문자를 구분하는 두 개의 테이블, 즉 터치포인트 및 캠페인이 있습니다. Power BI 모델링 레이어를 구동하는 데이터 엔진은 대소문자를 구분하지 않으므로 &quot;중복&quot; ID 값이 발생합니다. 이러한 키 값의 대/소문자 구분을 유지하기 위해 보이지 않는 문자를 소문자 문자에 첨부하고 데이터 엔진 레이어에서 평가할 때 ID의 고유성을 유지하는 변환 단계를 구현했습니다. 문제에 대한 자세한 내용과 우리가 채택한 방법에 대한 자세한 단계는 [여기] (https://blog.crossjoin.co.uk/2019 /10/06/power-bi-and-case-sensitivity/){target="_blank"}. 이러한 대/소문자를 구분하는 ID 값은 &quot;조인 ID&quot;로 레이블이 지정되고 관계 레이어에서 조인 키로 사용됩니다. 보이지 않는 문자가 잘라내기/붙여넣기 기능 및 필터링을 방해할 수 있으므로 보고 레이어에서 조인 ID를 숨기고 보고에 사용할 원본 ID 값을 계속 표시해 두었습니다.
+[!DNL Marketo Measure] 데이터에는 기본 키(ID) 값이 대/소문자를 구분하는 두 개의 테이블, 즉 접점 및 캠페인이 있습니다. Power BI 모델링 레이어를 구동하는 데이터 엔진은 대소문자를 구분하지 않으므로 &quot;중복&quot; ID 값이 발생합니다. 이러한 키 값의 대/소문자 구분을 유지하기 위해 보이지 않는 문자를 소문자 문자에 첨부하고 데이터 엔진 레이어에서 평가할 때 ID의 고유성을 유지하는 변환 단계를 구현했습니다. 문제에 대한 자세한 내용 및 사용된 메서드에 대한 자세한 단계는 [여기](https://blog.crossjoin.co.uk/2019)에서 확인할 수 있습니다.
+/10/06/power-bi-and-case-sensitivity/){target="_blank"}. 이러한 대/소문자를 구분하는 ID 값은 &quot;조인 ID&quot;로 레이블이 지정되고 관계 레이어에서 조인 키로 사용됩니다. 보이지 않는 문자가 자르기를 방해할 수 있으므로 보고 레이어에서 조인 ID를 숨기고 보고에 사용할 원본 ID 값을 계속 표시해 두었습니다
+/붙여넣기 기능 및 필터링.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -113,11 +115,11 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 ### 행 추가됨 {#rows-added}
 
-모델의 계산에 통화 변환 기능을 추가하기 위해 Opportunity 테이블과 Cost 테이블 모두에 기업 변환율 열을 추가했습니다. 이 열의 값은 행 수준에서 추가되며 날짜 및 통화 ID의 전환율 테이블에 연결하여 평가됩니다. 이 모델에서 통화 변환이 작동하는 방식에 대한 자세한 내용은 [통화 전환](#currency-conversion) 섹션 을 참조하십시오.
+모델의 계산에 통화 변환 기능을 추가하기 위해 Opportunity 테이블과 Cost 테이블 모두에 기업 변환율 열을 추가했습니다. 이 열의 값은 행 수준에서 추가되며 날짜 및 통화 ID의 전환율 테이블에 연결하여 평가됩니다. 이 모델에서 통화 전환이 작동하는 방식에 대한 자세한 내용은 이 설명서의 [통화 전환](#currency-conversion) 섹션을 참조하십시오.
 
 ![](assets/marketo-measure-report-template-power-bi-10.png)
 
-에 저장된 전환율 테이블 [!DNL Snowflake] 각 전환에 대한 날짜 범위를 포함합니다. Power BI은 계산에 대한 조인 기준(즉, 날짜 범위 사이)을 허용하지 않습니다. 날짜에 조인하기 위해 전환율 테이블에 단계를 추가하여 행을 확장했습니다. 그러면 전환 날짜 범위에 있는 각 날짜에 대해 하나의 행이 있습니다.
+[!DNL Snowflake]에 저장된 전환율 테이블에 각 전환에 대한 날짜 범위가 포함되어 있습니다. Power BI은 계산에 대한 조인 기준(즉, 날짜 범위 사이)을 허용하지 않습니다. 날짜에 조인하기 위해 전환율 테이블에 단계를 추가하여 행을 확장했습니다. 그러면 전환 날짜 범위에 있는 각 날짜에 대해 하나의 행이 있습니다.
 
 ![](assets/marketo-measure-report-template-power-bi-11.png)
 
@@ -129,17 +131,17 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 ### 관계 및 데이터 흐름 {#relationships-and-data-flow}
 
-터치포인트를 만드는 데 사용되는 이벤트 데이터는 [!UICONTROL Session], [!UICONTROL Task], [!UICONTROL Event], [!UICONTROL Activity], 캠페인 멤버 테이블 등 세 가지 유형이 있습니다. 이러한 이벤트 테이블은 해당 ID를 통해 터치포인트 테이블에 연결되며, 이벤트에서 터치포인트가 발생한 경우 세부 사항이 터치포인트 테이블에 저장됩니다.
+터치포인트를 만드는 데 사용되는 이벤트 데이터는 [!UICONTROL Session], [!UICONTROL Task], [!UICONTROL Event], [!UICONTROL Activity] 및 캠페인 멤버 테이블에 저장됩니다. 이러한 이벤트 테이블은 해당 ID를 통해 터치포인트 테이블에 연결되며, 이벤트에서 터치포인트가 발생한 경우 세부 사항이 터치포인트 테이블에 저장됩니다.
 
 리드 터치포인트 및 속성 터치포인트는 터치포인트 테이블에 대한 링크와 함께 자체 테이블에 저장됩니다. 리드 및 속성 터치포인트에 대한 대부분의 차원 데이터는 해당 링크에서 해당 터치포인트로 가져온 것입니다.
 
 이 모델에서 Campaign 및 채널 차원은 터치포인트에 연결되어 있으므로 이러한 차원에 대한 모든 보고는 이 링크를 통해 이루어지며 이벤트 데이터에 대한 차원 보고가 불완전할 수 있음을 의미합니다. 이는 많은 이벤트가 터치포인트로 처리된 후까지 이러한 차원에 대한 링크를 가지고 있지 않기 때문입니다. 참고: 세션과 같은 일부 이벤트에는 Campaign 및 채널 차원으로 직접 연결되는 링크가 있습니다. 이러한 차원에 대한 세션 수준에서 보고하려는 경우 이를 위해 별도의 데이터 모델을 만드는 것이 좋습니다.
 
-비용 데이터는 내에서 다른 집계 수준에서 저장됩니다. [!DNL Snowflake] data warehouse 비용 테이블. 모든 광고 공급자의 경우 캠페인 수준 데이터를 채널 수준으로 롤업할 수 있습니다. 이러한 이유로 이 모델은 &quot;campaign_is_aggregatable_cost&quot; 플래그를 기반으로 비용 데이터를 가져옵니다. 자가 보고된 비용은 채널 수준에서만 제출할 수 있으며 캠페인 데이터가 필요하지 않습니다. 가능한 가장 정확한 비용 보고를 제공하기 위해 자체 보고된 비용은 &quot;channel_is_aggregatable_cost&quot; 플래그를 기반으로 가져옵니다. 비용 데이터를 가져오는 쿼리는 다음 논리로 작성됩니다. ad_provider = &quot;SelfReported&quot;일 경우 channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
+비용 데이터는 [!DNL Snowflake] 데이터 웨어하우스 비용 테이블 내의 다른 집계 수준에 저장됩니다. 모든 광고 공급자의 경우 캠페인 수준 데이터를 채널 수준으로 롤업할 수 있습니다. 이러한 이유로 이 모델은 &quot;campaign_is_aggregatable_cost&quot; 플래그를 기반으로 비용 데이터를 가져옵니다. 자가 보고된 비용은 채널 수준에서만 제출할 수 있으며 캠페인 데이터가 필요하지 않습니다. 가능한 가장 정확한 비용 보고를 제공하기 위해 자체 보고된 비용은 &quot;channel_is_aggregatable_cost&quot; 플래그를 기반으로 가져옵니다. 비용 데이터를 가져오는 쿼리는 다음 논리로 작성됩니다. ad_provider = &quot;SelfReported&quot;일 경우 channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
 
 비용 데이터와 접점 데이터에는 몇 가지 일반적인 차원이 있으므로 두 팩트 테이블 모두 Campaign 및 채널 차원 테이블과 관계가 있습니다.
 
-이 모델의 컨텍스트 내에서 [!UICONTROL Lead], [!UICONTROL Contact], [!UICONTROL Account], 및 [!UICONTROL Opportunity] 데이터는 차원 데이터로 간주되며 [!UICONTROL Lead] 접점 및 [!UICONTROL Attribution] 접점 테이블.
+이 모델의 컨텍스트 내에서 [!UICONTROL Lead], [!UICONTROL Contact], [!UICONTROL Account] 및 [!UICONTROL Opportunity] 데이터는 차원 데이터로 간주되며 [!UICONTROL Lead] 접점 및 [!UICONTROL Attribution] 접점 테이블에 직접 연결됩니다.
 
 ### 추가된 테이블 {#added-tables}
 
@@ -147,7 +149,7 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 Power BI은 한 열의 테이블 간의 관계만 허용하므로 금액(영업 기회 및 비용)이 포함된 테이블과 전환율 테이블 간에 필요한 조인을 용이하게 하기 위해 날짜 차원 테이블이 추가되었습니다. 이 모델에서 통화 변환을 계산하는 방법에 대한 자세한 내용은 통화 변환 섹션을 참조하십시오.
 
-**측정**
+**측정값**
 
 모든 측정값이 전용 측정값 테이블에 추가되었습니다. 모델에 연결되어 있지 않지만 사용하기 쉽도록 모든 측정값을 저장하는 단일 위치 역할을 합니다.
 
@@ -160,7 +162,7 @@ Power BI은 한 열의 테이블 간의 관계만 허용하므로 금액(영업 
 전환율 테이블의 환율은 금액을 법인 통화로 변환하는 데 필요한 값을 나타냅니다. 모든 통화로 전환하려면 먼저 원래 통화에서 회사 통화로 전환한 다음 회사 통화에서 선택한 통화로 이중 전환을 해야 합니다. 이 모델의 첫 번째 단계는 금액, 기회 및 비용이 포함된 테이블에 기업 전환율이 포함된 열을 추가하는 것입니다. 이러한 단계는 이 문서의 데이터 변환 섹션에 있는 추가된 행 헤더에 자세히 설명되어 있습니다. 원래 통화에서 기업 통화로 전환하는 것은 가치를 이 추가된 열로 나누는 것으로 구성된다. 다음 단계는 선택한 통화에 해당하는 전환율 테이블의 환율에 법인 통화 값을 곱하는 것입니다.
 
 * 원래 값을 법인 통화 가치/법인 전환율 = 법인 통화 가치로 변환
-* 기업 통화 값을 선택한 통화 값으로 변환합니다. `*` 선택한 통화의 전환율 = 선택한 통화 단위의 값
+* 기업 통화 값을 선택한 통화 값으로 변환합니다. `*` 선택한 통화의 전환율 = 선택한 통화의 값
 
 전환율은 정적일 필요가 없으며 지정된 날짜 범위별로 변경될 수 있으므로 모든 통화 전환 계산을 행 레벨에서 수행해야 합니다. 또한 전환율은 특정 날짜 범위에 속하므로 조회 계산은 측정값의 DAX 내에서 수행되어야 합니다. 그러면 통화 코드와 날짜 모두에서 관계를 정의할 수 있습니다.
 
@@ -178,7 +180,7 @@ Power BI은 한 열의 테이블 간의 관계만 허용하므로 금액(영업 
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-에서 직접 열 정의를 보려면 다음과 같이 하십시오. [!DNL Snowflake], 다음을 참조하십시오. [data warehouse 설명서](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
+[!DNL Snowflake]에서 직접 가져오는 열에 대한 정의를 보려면 [데이터 웨어하우스 설명서](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}를 참조하세요.
 
 ## 템플릿과 검색 간의 불일치 {#discrepancies-between-templates-and-discover}
 
@@ -188,7 +190,7 @@ Power BI은 한 열의 테이블 간의 관계만 허용하므로 금액(영업 
 
 ### 비용 {#cost}
 
-템플릿에서의 비용 보고는 캠페인 및 채널 수준에서만 사용할 수 있지만, 검색 은 일부 광고 공급자(즉, 크리에이티브, 키워드, 광고 그룹 등)에 대해 더 낮은 수준의 세부기간으로 보고를 제공합니다. 템플릿에서 비용 데이터를 모델링하는 방법에 대한 자세한 내용은 이 설명서의 데이터 모델 섹션을 참조하십시오. 차원 필터가 [!UICONTROL Discover] 가 채널 또는 캠페인으로 설정되어 있으면 채널, 하위 채널 및 캠페인 수준의 비용이 검색 과 보고서 템플릿 사이에 정렬되어야 합니다.
+템플릿에서의 비용 보고는 캠페인 및 채널 수준에서만 사용할 수 있지만, 검색 은 일부 광고 공급자(즉, 크리에이티브, 키워드, 광고 그룹 등)에 대해 더 낮은 수준의 세부기간으로 보고를 제공합니다. 템플릿에서 비용 데이터를 모델링하는 방법에 대한 자세한 내용은 이 설명서의 데이터 모델 섹션을 참조하십시오. [!UICONTROL Discover]의 차원 필터가 채널 또는 캠페인으로 설정된 경우 채널, 하위 채널 및 캠페인 수준의 비용이 검색 및 보고서 템플릿 사이에 정렬되어야 합니다.
 
 ### ROI {#roi}
 
@@ -200,9 +202,9 @@ ROI는 속성 수익 및 비용에서 계산되므로, 이러한 계산에서 �
 
 ### 웹 트래픽 {#web-traffic}
 
-보고 템플릿 데이터 모델은 세션과 접점 간의 관계를 통해 채널, 하위 채널 및 캠페인 차원 데이터를 표준화합니다. 이는 이러한 차원을 세션으로 비정규화하는 Discover 데이터 모델과는 다릅니다. 이러한 차이로 인해 방문 및 방문자에 대한 전체 횟수는 검색 과 보고 템플릿 간에 일치해야 하지만 차원으로 표시되거나 필터링되면 이러한 숫자는 정렬되지 않을 것입니다. 템플릿의 차원 데이터는 터치포인트를 초래한 웹 이벤트(즉, 익명이 아닌 이벤트)에만 사용할 수 있기 때문입니다. 자세한 내용은 [데이터 모델](#data-model) 섹션에 자세히 설명되어 있습니다.
+보고 템플릿 데이터 모델은 세션과 접점 간의 관계를 통해 채널, 하위 채널 및 캠페인 차원 데이터를 표준화합니다. 이는 이러한 차원을 세션으로 비정규화하는 Discover 데이터 모델과는 다릅니다. 이러한 차이로 인해 방문 및 방문자에 대한 전체 횟수는 검색 과 보고 템플릿 간에 일치해야 하지만 차원으로 표시되거나 필터링되면 이러한 숫자는 정렬되지 않을 것입니다. 템플릿의 차원 데이터는 터치포인트를 초래한 웹 이벤트(즉, 익명이 아닌 이벤트)에만 사용할 수 있기 때문입니다. 자세한 내용은 이 설명서의 [데이터 모델](#data-model) 섹션을 참조하십시오.
 
-다음 사이에 총 사이트 양식 수에 작은 불일치가 있을 수 있습니다. [!DNL Discover] 템플릿도 사용할 수 있습니다. 이는 보고 템플릿의 데이터 모델이 세션 및 터치포인트에 대한 관계를 통해 사이트 양식에 대한 차원 데이터를 가져오기 때문입니다. 사이트 양식 데이터에 상관 관계가 있는 세션이 없는 인스턴스가 몇 가지 있습니다.
+[!DNL Discover]과(와) 템플릿 사이의 총 사이트 양식 수에 약간의 불일치가 있을 수 있습니다. 이는 보고 템플릿의 데이터 모델이 세션 및 터치포인트에 대한 관계를 통해 사이트 양식에 대한 차원 데이터를 가져오기 때문입니다. 사이트 양식 데이터에 상관 관계가 있는 세션이 없는 인스턴스가 몇 가지 있습니다.
 
 ### 리드 및 계정 {#leads-and-accounts}
 
@@ -212,7 +214,7 @@ Discover의 모든 리드 카운트는 리드 카운트로 간주되며, 보고 
 
 ### 참여 경로 {#engagement-path}
 
-다음 사이에는 직접적인 비교가 없습니다. [!UICONTROL Engagement Path] 검색 및 템플릿에서 보고합니다. 의 보고서 [!DNL Discover] 는 터치 포인트를 모델링하는 반면 템플릿의 보고서는 속성 터치 포인트를 모델링합니다. 템플릿은 모든 터치포인트 데이터를 표시하는 대신 기회와 관련 터치포인트에만 중점을 둡니다.
+Discover의 [!UICONTROL Engagement Path] 보고서와 템플릿 간의 직접적인 비교는 없습니다. [!DNL Discover]의 보고서는 터치포인트에서 모델링되는 반면 템플릿의 보고서는 속성 터치포인트에서 모델링됩니다. 템플릿은 모든 터치포인트 데이터를 표시하는 대신 기회와 관련 터치포인트에만 중점을 둡니다.
 
 ### 거래 속도 {#deal-velocity}
 

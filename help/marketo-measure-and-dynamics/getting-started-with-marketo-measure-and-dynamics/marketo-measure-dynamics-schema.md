@@ -1,33 +1,33 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Dynamics 스키마 - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Dynamics 스키마"
+description: "[!DNL Marketo Measure] 동적 스키마 - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] 동적 스키마"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
-# [!DNL Marketo Measure] Dynamics 스키마 {#marketo-measure-dynamics-schema}
+# [!DNL Marketo Measure] 동적 스키마 {#marketo-measure-dynamics-schema}
 
 >[!NOTE]
 >
->&quot; &quot;을 지정하는 지침이 표시될 수 있습니다.[!DNL Marketo Measure]설명서에는 &quot;가 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
+>설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-다음은 시작하는 데 필요한 Dynamics 스키마입니다 [!DNL Marketo Measure]. 필요한 읽기 및/또는 쓰기 권한과 함께 모든 엔티티와 필드가 나열됩니다.
+[!DNL Marketo Measure](으)로 시작하는 데 필요한 Dynamics 스키마는 다음과 같습니다. 필요한 읽기 및/또는 쓰기 권한과 함께 모든 엔티티와 필드가 나열됩니다.
 
 ## 구매자 접점 {#buyer-touchpoints}
 
-구매자 접점은 [!DNL Marketo Measure] 연락처 및 리드에 대한 마케팅 상호 작용을 캡슐화할 사용자 지정 엔티티.
+Buyer Touchpoint은 연락처 및 리드에 대한 마케팅 상호 작용을 캡슐화하는 [!DNL Marketo Measure] 사용자 지정 엔터티입니다.
 
-## 구매자 접점 관계 {#buyer-touchpoint-relationships}
+## Buyer Touchpoint 관계 {#buyer-touchpoint-relationships}
 
-이 다이어그램은 Dynamics Stock 엔티티와 구매자 접점 간의 관계에 대한 높은 수준의 시각화입니다.
+이 다이어그램은 Dynamics Stock 엔티티와 Buyer Touchpoint 간의 관계를 보여 주는 높은 수준의 시각화입니다.
 
-## 구매자 접점 {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
 <table> 
  <tbody> 
@@ -304,13 +304,13 @@ ht-degree: 22%
  </tbody> 
 </table>
 
-## 구매자 속성 접점 {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-구매자 속성 터치포인트는 [!DNL Marketo Measure] 영업 기회에 대한 마케팅의 영향을 캡슐화할 사용자 지정 엔티티입니다.
+Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡슐화하기 위한 [!DNL Marketo Measure] 사용자 지정 엔터티입니다.
 
-## 구매자 속성 접점 관계 {#buyer-attribution-touchpoint-relationships}
+## Buyer Attribution Touchpoint 관계 {#buyer-attribution-touchpoint-relationships}
 
-이 다이어그램은 Dynamics Stock 엔티티와 구매자 속성 접점 간의 관계에 대한 높은 수준의 시각화입니다.
+이 다이어그램은 Dynamics Stock 엔티티와 Buyer Attribution Touchpoint 간의 관계를 보여 주는 높은 수준의 시각화입니다.
 
 ## 구매자 기여도 분석 접점 {#buyer-attribution-touchpoints}
 
@@ -800,7 +800,7 @@ ht-degree: 22%
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] 이벤트 {#marketo-measure-events}
+## [!DNL Marketo Measure]개 이벤트 {#marketo-measure-events}
 
 <table> 
  <tbody> 
@@ -912,7 +912,7 @@ ht-degree: 22%
 
 ## Dynamics 표준 엔티티 {#dynamics-standard-entities}
 
-이 목록은 다음을 제공하는 Dynamics 표준 엔터티를 제공합니다. [!DNL Marketo Measure] 는 와 상호 작용하며, 이러한 엔티티에 추가하는 사용자 정의 필드와 상호 작용합니다.
+이 목록에서는 [!DNL Marketo Measure]과(와) 상호 작용하는 Dynamics 표준 엔터티와 이 엔터티에 추가하는 사용자 지정 필드를 제공합니다.
 
 **리드**
 
@@ -1091,7 +1091,7 @@ ht-degree: 22%
  </tbody> 
 </table>
 
-**영업 기회**
+**기회**
 
 <table> 
  <tbody> 
@@ -1505,4 +1505,4 @@ ht-degree: 22%
  </tbody> 
 </table>
 
-[] = V1 기존 고객만
+[] = V1 이전 고객만

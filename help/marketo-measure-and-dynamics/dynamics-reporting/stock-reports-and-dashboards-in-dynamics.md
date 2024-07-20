@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874612
-description: Dynamics의 스톡 보고서 및 대시보드 - [!DNL Marketo Measure]
+description: Dynamics - [!DNL Marketo Measure]의 스톡 보고서 및 대시보드
 title: Dynamics의 스톡 보고서 및 대시보드
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->&quot; &quot;을 지정하는 지침이 표시될 수 있습니다.[!DNL Marketo Measure]설명서에는 &quot;가 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
+>설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-다음 [!DNL Marketo Measure] Managed Solution에는 몇 가지 스톡 대시보드 및 보고서가 포함되어 있으며, 보기의 기본 요구 사항을 충족하도록 설계되었습니다. [!DNL Marketo Measure] dynamics의 데이터. 다음은 전체 목록과 몇 가지 일반적인 사용 사례입니다.
+[!DNL Marketo Measure] 관리 솔루션에는 Dynamics에서 [!DNL Marketo Measure] 데이터를 볼 때 기본 요구 사항을 충족하도록 설계된 여러 개의 주식 대시보드 및 보고서가 포함되어 있습니다. 다음은 전체 목록과 몇 가지 일반적인 사용 사례입니다.
 
 ## 대시보드(총 9개) {#dashboards-total}
 
@@ -97,12 +97,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>참여 점수별 계정</td> 
-   <td>에서 A, B, C, D, N/A 등급의 모든 계정을 그룹화합니다. [!DNL Marketo Measure] 예측 참여 점수.</td> 
+   <td>[!DNL Marketo Measure] 예측 참여 점수에서 A, B, C, D, N/A 등급의 모든 계정을 그룹화합니다.</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
    <td>가망 고객 및 연락처가 있는 계정</td> 
-   <td>거래처별로 그룹화된 모든 리드 및 연락처를 봅니다. [!DNL Marketo Measure] 리드 - 계정 일치.</td> 
+   <td>[!DNL Marketo Measure] 리드 대 계정 일치를 사용하여 계정별로 그룹화된 모든 리드 및 연락처를 함께 봅니다.</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ ht-degree: 3%
    <td>전체</td> 
   </tr> 
   <tr> 
-   <td>[!DNL Marketo Measure] 소셜 소스별 속성</td> 
+   <td>[!DNL Marketo Measure] 소셜 Source의 기여도 분석</td> 
    <td>소셜 채널별 매출 기여도를 보고 그 효과를 측정합니다.</td> 
    <td>전체</td> 
   </tr> 
@@ -161,12 +161,12 @@ ht-degree: 3%
    <td>전체</td> 
   </tr> 
   <tr> 
-   <td>리드 기준 [!DNL Marketo Measure] 마케팅 채널(FT)</td> 
+   <td>[!DNL Marketo Measure] 마케팅 채널(FT)별 잠재 고객</td> 
    <td>각 마케팅 채널에서 첫 번째 터치를 한 잠재 고객 수를 측정합니다.</td> 
    <td>전체</td> 
   </tr> 
   <tr> 
-   <td>리드 기준 [!DNL Marketo Measure] 마케팅 채널 (LC)</td> 
+   <td>[!DNL Marketo Measure] 마케팅 채널(LC)별 잠재 고객</td> 
    <td>각 마케팅 채널에서 잠재 고객 생성 터치로 생성된 잠재 고객 수를 측정합니다.</td> 
    <td>전체</td> 
   </tr> 
@@ -191,12 +191,12 @@ ht-degree: 3%
    <td>전체</td> 
   </tr> 
   <tr> 
-   <td>소셜 소스(FT)별 리드</td> 
+   <td>소셜 Source(FT)로 리드</td> 
    <td>소셜 채널에서 첫 번째 터치를 한 잠재 고객의 수를 측정합니다.</td> 
    <td>전체</td> 
   </tr> 
   <tr> 
-   <td>소셜 소스(LC)별 리드</td> 
+   <td>소셜 Source(LC)로 리드</td> 
    <td>소셜 채널에서 잠재 고객 생성 터치로 생성된 잠재 고객 수를 측정합니다.</td> 
    <td>전체</td> 
   </tr> 

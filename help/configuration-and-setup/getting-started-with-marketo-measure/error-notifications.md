@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 오류 알림 {#error-notifications}
 
-다음은 인앱 알림 또는 이메일을 통해 받을 수 있는 오류 목록입니다. 이러한 메시지가 표시되면 각각의 문제 해결 단계를 따르십시오. 이러한 단계로 문제가 해결되지 않으면 다음 연락처에 문의하십시오. [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support).
+다음은 인앱 알림 또는 이메일을 통해 받을 수 있는 오류 목록입니다. 이러한 메시지가 표시되면 각각의 문제 해결 단계를 따르십시오. 이 단계를 수행해도 문제가 해결되지 않으면 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support)에 문의하십시오.
 
-에서 전체 알림 메시지를 보려면 [!DNL Marketo Measure], 클릭 **모두 보기** ( 알림 탭 하단).
+[!DNL Marketo Measure]에서 전체 알림 메시지를 보려면 알림 탭 하단의 **모두 보기**&#x200B;를 클릭하십시오.
 
 ![](assets/error-notifications-1.png)
 
@@ -30,7 +30,7 @@ ht-degree: 0%
       <td>API 비활성화(_D)</td>
       <td>CRM 가져오기 중 오류 발생 : API_DISABLED : 이 사용자에 대해 API 호출이 비활성화되었습니다.</td>
       <td>Marketo Measure 사용자에 대해 API 권한이 비활성화되었습니다.</td>
-      <td>에서 다음 Salesforce 설명서를 참조하십시오. <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">api 액세스를 활성화하는 방법</a>.</td>
+      <td><a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API 액세스를 활성화하는 방법</a>에 대한 다음 Salesforce 설명서를 참조하십시오.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -45,7 +45,7 @@ ht-degree: 0%
           </ul>
           <p>아래 단계에 따라 Marketo Measure에서 사용하는 CRM 크레딧을 조정할 수도 있습니다.</p>
           <ul>
-            <li>다음으로 이동 <b>설정</b> &gt; <b>CRM</b> &gt; <b>일반</b></li>
+            <li><b>설정</b> &gt; <b>CRM</b> &gt; <b>일반</b>(으)로 이동</li>
             <li>일별 CRM API 제한 업데이트<br/>
               <ul>
                 <li><b>참고: 기본값은 100,000입니다</b></li>
@@ -60,10 +60,11 @@ ht-degree: 0%
     <tr>
       <td>CANNOT_EXECUTE_FLOW_TRIGGER</td>
       <td>Crm 내보내기 중 오류 발생: CANNOT_EXECUTE_FLOW_TRIGGER : 엔티티 유형 'Contact' Salesforce 관리자에게 자세한 내용을 제공합니다.
-제한 초과됨 사용자 또는 사용자 조직이 이 기능의 최대 제한을 초과했습니다. 오류 ID: 123456</td>
+제한 초과됨
+귀하 또는 귀하의 조직이 이 기능의 최대 한도를 초과했습니다. 오류 ID: 123456</td>
       <td>레코드가 Salesforce 조직에 설정된 트리거 흐름 규칙을 충족하지 않으므로 저장할 수 없습니다.</td>
       <td>알림 메시지의 전체 세부 정보를 검토하고 Salesforce 조직의 흐름 트리거를 검토하십시오.
-흐름 트리거에 대한 Salesforce 설명서 <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">은(는) 여기에서 찾을 수 있음</a>.
+흐름 트리거 <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">에 대한 Salesforce 설명서는 여기에서 찾을 수 있습니다</a>.
       </td>
     </tr>
     <tr>
@@ -84,24 +85,24 @@ ht-degree: 0%
           </li>
         </ul>
         <p>
-        에 필요한 모든 권한을 제공합니다. <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measure 사용자</a>.
+        <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measure 사용자</a>에게 필요한 모든 권한을 제공하십시오.
       </td>
     </tr>
     <tr>
       <td>DUPLICATES_DETECTED</td>
       <td>CRM 내보내기 중 오류 발생: DUPLICATES_DETECTED : 엔티티 유형 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: 중복 레코드를 만들고 있습니다. 대신 기존 레코드를 사용하는 것이 좋습니다. 레코드 ID: 0123456</td>
       <td>Salesforce 조직으로 가져오는 레코드가 이미 있습니다.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"중복 규칙" 설정 비활성화</a> 복제를 허용합니다.
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">중복을 허용하려면 "중복 규칙" 설정을 사용하지 않도록 설정</a>하세요.
           <p>
-          에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.</td>
+          <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.</td>
     </tr>
     <tr>
       <td>DUPLEX_VALUE</td>
       <td>CRM 내보내기 중 오류 발생: DUPLICATE_VALUE : 엔티티 유형 'Lead': CRM 오류 코드: DUPLICATE_VALUE, CRM 오류 메시지: 중복 값 발견: Email_Unique__c 중복 값 (ID: 123, RecordId: 456)</td>
       <td>Salesforce 조직으로 가져오는 필드에서 중복 값을 허용하지 않습니다.</td>
-      <td>선택 취소 <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"고유 확인란"</a> Salesforce.
+      <td>Salesforce에서 <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"고유 확인란"</a>의 선택을 취소합니다.
           <p>
-          에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.</td>
+          <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
@@ -110,7 +111,7 @@ ht-degree: 0%
       <td>
         <ul>
           <li>Salesforce 조직의 해당 레코드에 대해 보류 중인 승인 프로세스를 해결합니다.</li>
-          <li>에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.
+          <li><a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.
           </li>
         </ul>
       </td>
@@ -119,7 +120,7 @@ ht-degree: 0%
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>CRM 내보내기 중 오류 발생: FIELD_FILTER_VALIDATION_EXCEPTION : 엔티티 유형 'Lead': CRM 오류 코드: FIELD_FILTER_VALIDATION_EXCEPTION, 필드: User__C, CRM 오류 메시지: 값이 없거나 필터 조건과 일치하지 않습니다. "계정 담당자, Inside Sales" 역할을 가진 사용자를 선택하십시오. 레코드 ID: 0123456</td>
       <td>수정된 레코드가 개체에 정의된 조회 필터를 더 이상 충족하지 않습니다.</td>
-      <td>Marketo Measure이 수정하려는 개체에서 필터를 확인합니다. 다음을 참조하십시오 <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">이 Salesforce 문서</a> 개체에서 필터를 확인하는 방법을 알아봅니다.</td>
+      <td>Marketo Measure이 수정하려는 개체에서 필터를 확인합니다. 개체에 대한 필터를 확인하는 방법은 <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">이 Salesforce 문서</a>를 참조하세요.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -128,7 +129,7 @@ ht-degree: 0%
       <td>가장 일반적인 사례는 주/국가 필드가 특정 선택 목록 값만 수락하도록 표준화되었기 때문에 Salesforce 조직에 설정된 주/국가 이름 지정 표준을 따르지 않는 것입니다. 이 문제를 해결하려면 다음을 수행할 수 있습니다.
         <ul>
           <li>레코드를 업데이트하여 해당 필드에 대해 조직에서 수락한 값을 따릅니다. SFDC 관리자에게 문의하여 허용되는 값 목록을 받으십시오.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">국가/시/도 선택 목록 비활성화</a>.
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">주/국가 선택 목록을 사용하지 않도록 설정</a>.
           </li>
         </ul>
       </td>
@@ -137,13 +138,13 @@ ht-degree: 0%
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>CRM 내보내기 중 오류 발생: INACTIVE_OWNER_OR_USER : 엔티티 유형 'Contact': CRM 오류 코드: INACTIVE_OWNER_OR_USER, CRM 오류 메시지: 비활성 사용자 [1234]을(를) 연락처 소유자로 사용하여 수행된 작업, 레코드 ID: 0123456</td>
       <td>Marketo Measure에 "비활성 소유자로 레코드 업데이트" 권한이 없습니다.</td>
-      <td>Marketo Measure에 " 권한 부여<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">비활성 소유자로 레코드 업데이트</a>"권한.</td>
+      <td>Marketo Measure에 "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">비활성 소유자로 레코드 업데이트</a>" 권한을 부여합니다.</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
       <td>CRM 내보내기 중 오류 발생: INSUFFICIENT_ACCESS_OR_READONLY : 엔티티 유형 'Account': CRM ErrorCode: INSUFFICIENT_ACCESS_OR_READONLY, CRM ErrorMessage: 오브젝트 ID에 대한 액세스 권한 부족: [123], RecordId: 456</td>
       <td>Marketo Measure에 오브젝트/필드에 대한 권한이 없거나 오브젝트가 읽기 전용입니다.</td>
-      <td>다음을 참조하십시오 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League 문서</a> Marketo Measure에 필요한 권한에 대한 지침을 보려면.</td>
+      <td>Marketo Measure에 필요한 권한에 대한 지침은 다음 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League 문서</a>을 참조하세요.</td>
     </tr>
     <tr>
       <td>INVALID_ANALYTICS_ADOBE</td>
@@ -155,7 +156,7 @@ ht-degree: 0%
             <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Adobe Analytics과 Marketo Measure 통합</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">고객 속성 소스를 만들고 데이터 파일 업로드</a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">고객 특성 소스를 만들고 데이터 파일 업로드</a>
           </li>
         </ul>
       </td>
@@ -172,18 +173,18 @@ ht-degree: 0%
       <td>MISSING_BIZIBLE_CUSTOM_FIELDS_PERMISSIONS</td>
       <td>CRM 내보내기 중 오류 발생: MISSING_BIZIBLE_CUSTOM_FIELDS_PERMISSIONS : 엔티티 유형 'Campaign': CRM 오류 코드: INVALID_FIELD_FOR_INSERT_UPDATE, 필드: bizible2__UniqueId__c, CRM 오류 메시지: 필드를 만들거나 업데이트할 수 없음: bizible2__UniqueId__c. 이 필드의 보안 설정을 확인하고 프로필 또는 권한 집합에 대해 읽기/쓰기가 수행되는지 확인하십시오.</td>
       <td>Marketo Measure에 bizible 필드에 대한 권한이 없습니다.</td>
-      <td>접두사가 "bizible2__"인 모든 필드에 대한 읽기 및 쓰기 권한이 필요합니다. 이러한 필드의 전체 목록을 찾을 수 있습니다 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">이 문서에서</a>.</td>
+      <td>접두사가 "bizible2__"인 모든 필드에 대한 읽기 및 쓰기 권한이 필요합니다. 이러한 필드의 전체 목록은 이 문서에서 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">찾을 수 있습니다</a>.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>CRM 내보내기 중 오류 발생: MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Marketo Measure에 전환된 리드 보기/편집 권한이 없습니다.</td>
       <td>CRM에서 이 권한을 활성화하는 데 도움이 필요하면 다음 Experience League 문서를 참조하십시오<br/>
-          <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">전환된 리드를 편집할 수 있는 권한 활성화</a></td>
+          <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">전환된 잠재 고객을 편집할 수 있는 권한을 사용하도록 설정</a></td>
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>CRM 가져오기 중 오류 발생: MISSING_FIELD_READ_PERMISSION : 엔티티 유형 'Event': INVALID_FIELD:<br/>
+      <td>CRM 가져오기 중 오류 발생: MISSING_FIELD_READ_PERMISSION : 엔터티 유형 'Event': INVALID_FIELD:<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure에 필수 필드에 대한 읽기 권한이 없습니다.</td>
       <td>Marketo Measure에 필요한 권한에 대한 지침은 다음 도움말 문서를 참조하십시오.
@@ -225,9 +226,9 @@ ht-degree: 0%
       <td>Marketo Measure에 권한이 없습니다.</td>
       <td>이 오류에는 Salesforce 조직에만 해당되는 몇 가지 이유가 있습니다. 다음은 이 문제를 해결할 수 있는 몇 가지 일반적인 문제 해결 단계입니다.
         <ul>
-          <li>각각에 대해 필요한 모든 권한 검토 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">오브젝트 및 필드</a>.</li>
-          <li>에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.</li>
-          <li>Marketo Measure 부여 "<a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">모두 수정</a>"권한.</li>
+          <li>각 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">개체 및 필드</a>에 필요한 모든 권한을 검토하십시오.</li>
+          <li><a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.</li>
+          <li>Marketo Measure "<a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">모두 수정</a>" 권한을 부여합니다.</li>
         </ul>
       </td>
     </tr>
@@ -246,15 +247,15 @@ ht-degree: 0%
       <td>CRM 설정으로 인해 Marketo Measure에서 충분히 큰 데이터 세트를 쿼리할 수 없습니다.</td>
       <td>지정된 개체에 대해 Marketo Measure '모든 데이터 보기' 권한을 부여합니다.
       <p>
-      '모든 데이터 보기' 권한에 대한 추가 정보 <a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">은(는) 여기에서 찾을 수 있음</a>.</td>
+      '모든 데이터 보기' 권한 <a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">에 대한 자세한 정보는 여기</a>에서 확인할 수 있습니다.</td>
     </tr>
     <tr>
       <td>RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES</td>
       <td>Crm 내보내기 중 오류 발생: RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES : 엔티티 유형 'Lead': CRM 오류 코드: FIELD_CUSTOM_VALIDATION_EXCEPTION, 필드: Lead_Status_Reason__c, CRM 오류 메시지: Lead 상태 이유, RecordId: 0123456을 선택해야 합니다.</td>
       <td>업데이트하는 레코드가 Salesforce 조직에 설정된 유효성 검사 규칙을 충족하지 않습니다.</td>
-      <td>에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.
+      <td><a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.
       <p>
-      업데이트 <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">유효성 검사 규칙</a>.</td>
+      <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">유효성 검사 규칙</a>을 업데이트합니다.</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>
@@ -262,14 +263,14 @@ ht-degree: 0%
       <td>선택 목록 필드의 설정에서 '값 집합에 정의된 값으로 선택 목록 제한'을 활성화한 경우 또는 필드에 삽입되는 값을 개체의 레코드 유형에서 사용할 수 없는 경우입니다.</td>
       <td>Salesforce 조직에서 선택 목록 제한 설정을 비활성화합니다.
           <p>
-          에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.
+          <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.
       </td>
     </tr>
     <tr>
       <td>REQUIRED_FIELD_MISSING</td>
       <td>CRM 내보내기 중 오류 발생: MISSING_REQUIRED_FIELD : 엔티티 유형 'Lead': CRM 오류 코드: REQUIRED_FIELD_MISSING, 필드: Product_Type__c, CRM 오류 메시지: 필수 필드가 누락됨: [Product_Type__c], RecordId: 0123456</td>
       <td>유효성 검사 규칙에서 개체에 필수 필드를 지정하는 경우.</td>
-      <td>에서 Marketo Measure 전용 사용자 제외 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>.
+      <td><a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.
       </td>
     </tr>
     <tr>
@@ -284,7 +285,7 @@ ht-degree: 0%
       <td>감지된 현재 패키지는 더 이상 지원되지 않습니다.</td>
       <td>패키지를 최신 버전으로 업그레이드하십시오.
         <ul>
-          <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md">우수 사례</a>
+          <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md">모범 사례</a>
           </li>
           <li><a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md">Dynamics</a>
           </li>

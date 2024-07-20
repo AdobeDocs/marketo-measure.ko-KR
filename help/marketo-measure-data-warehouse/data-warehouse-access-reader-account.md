@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ## Snowflake 액세스 링크 {#snowflake-access-link}
 
-Snowflake Data Warehouse에 액세스하려면 Snowflake 계정의 특정 URL로 이동해야 합니다. 에 로그인하면 이 액세스 링크를 찾을 수 있습니다. [!DNL Marketo Measure] 아래 단계에 따라 Data Warehouse 정보 페이지로 이동합니다.
+Snowflake Data Warehouse에 액세스하려면 Snowflake 계정의 특정 URL로 이동해야 합니다. [!DNL Marketo Measure]에 로그인한 다음 아래 단계에 따라 Data Warehouse 정보 페이지로 이동하여 이 액세스 링크를 찾을 수 있습니다.
 
-1. 위치 [!DNL Marketo Measure], 페이지 맨 위에서 **[!UICONTROL My Account]** > **[!UICONTROL Settings]**.
+1. [!DNL Marketo Measure]의 페이지 맨 위에서 **[!UICONTROL My Account]** > **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/data-warehouse-access-reader-account-1.png)
 
-1. 왼쪽 메뉴에서 보안 아래의 **[!UICONTROL Data Warehouse]**.
+1. 왼쪽 메뉴에서 보안 아래의 **[!UICONTROL Data Warehouse]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 
@@ -30,13 +30,13 @@ Snowflake Data Warehouse에 액세스하려면 Snowflake 계정의 특정 URL로
 
    >[!NOTE]
    >
-   >이는 개별 사용자가 아닌 조직에서 사용할 수 있는 읽기 전용 계정입니다. 에 액세스할 수 있는 조직 내 모든 사용자 [!DNL Marketo Measure] 은 이 계정을 사용하여 Snowflake Data Warehouse 리더 계정에 로그인할 수 있습니다.
+   >이는 개별 사용자가 아닌 조직에서 사용할 수 있는 읽기 전용 계정입니다. 조직 내에서 [!DNL Marketo Measure]에 액세스할 수 있는 모든 사용자는 이 계정을 사용하여 Snowflake Data Warehouse 판독기 계정에 로그인할 수 있습니다.
 
-1. Snowflake URL에 제공된 링크를 클릭하면 사용자 이름과 암호를 입력하는 Snowflake 로그인 페이지로 이동합니다. _암호가 없는 경우 아래 단계를 참조하여 재설정하십시오._.
+1. Snowflake URL에 제공된 링크를 클릭하면 사용자 이름과 암호를 입력하는 Snowflake 로그인 페이지로 이동합니다. _암호가 없는 경우 아래 단계를 참조하여 암호를 재설정하십시오_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
-1. 로그인하고 나면 **[!UICONTROL Worksheets]** 을 클릭합니다.
+1. 로그인하고 나면 페이지 상단의 **[!UICONTROL Worksheets]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/data-warehouse-access-reader-account-5.png)
 
@@ -46,11 +46,11 @@ Snowflake Data Warehouse에 액세스하려면 Snowflake 계정의 특정 URL로
 
 ## 암호 재설정 {#reset-your-password}
 
-[!DNL Marketo Measure] 은(는) Snowflake 로그인 암호에 대한 액세스 권한이 없습니다. 암호를 재설정해야 하는 경우 [!UICONTROL Reset Password] Data Warehouse 정보 페이지를 클릭하고 지침을 따릅니다. 임시 암호가 UI에 즉시 표시됩니다. 다음 Data Warehouse 로그인 시 암호를 만들라는 메시지가 표시됩니다.
+[!DNL Marketo Measure]은(는) Snowflake 로그인 암호에 액세스할 수 없습니다. 암호를 다시 설정해야 하는 경우 Data Warehouse 정보 페이지에서 [!UICONTROL Reset Password] 단추를 클릭하고 지침을 따릅니다. 임시 암호가 UI에 즉시 표시됩니다. 다음 Data Warehouse 로그인 시 암호를 만들라는 메시지가 표시됩니다.
 
 >[!NOTE]
 >
->* 암호를 재설정하면 모든 항목에 대해 재설정됩니다. [!DNL Marketo Measure] 현재 로그인한 사용자뿐만 아니라 조직의 사용자입니다.
+>* 암호를 재설정하면 현재 로그인한 사용자뿐만 아니라 조직의 모든 [!DNL Marketo Measure] 사용자에 대해 재설정됩니다.
 >* UI에는 임시 암호만 표시됩니다. 이메일이 전송되지 않습니다.
 
 ![](assets/data-warehouse-access-reader-account-7.png)
@@ -65,15 +65,15 @@ Snowflake 데이터 웨어하우스를 서드파티 도구에 연결하려면 �
 >
 >각 도구에는 서로 다른 연결 요구 사항이 있습니다. 연결하려는 특정 도구에 대한 설명서를 참조하는 것이 좋습니다.
 
-* **URI** (항상 필요)
+* **URI**(항상 필요)
    * Snowflake 계정의 도메인 이름입니다. Snowflake 로그인 링크의 일부에 포함되어 있습니다.
-* **사용자 이름** (항상 필요)
-   * 사용자 이름은 의 Data Warehouse 정보 페이지에 나열됩니다. [!DNL Marketo Measure].
-* **암호** (항상 필요)
+* **사용자 이름**(항상 필요)
+   * [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 사용자 이름이 나열됩니다.
+* **암호**(항상 필요)
    * Snowflake 계정에 처음 로그인할 때 설정한 암호입니다. 암호를 재설정하려면 위에 설명된 단계를 참조하십시오.
-* **데이터베이스 이름** (항상 필요한 것은 아님)
-   * 데이터베이스는 Snowflake에 데이터를 저장하는 것입니다. 스토리지 리소스입니다. 데이터베이스 이름은 의 Data Warehouse 정보 페이지에 나열됩니다. [!DNL Marketo Measure].
-* **웨어하우스 이름** (항상 필요한 것은 아님)
-   * 웨어하우스는 Snowflake에서 쿼리를 실행합니다. 계산된 리소스입니다. 웨어하우스 이름은 의 Data Warehouse 정보 페이지에 나열됩니다 [!DNL Marketo Measure].
+* **데이터베이스 이름**(항상 필요한 것은 아님)
+   * 데이터베이스는 Snowflake에 데이터를 저장하는 것입니다. 스토리지 리소스입니다. 데이터베이스 이름이 [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 나열됩니다.
+* **웨어하우스 이름**(항상 필요한 것은 아님)
+   * 웨어하우스는 Snowflake에서 쿼리를 실행합니다. 계산된 리소스입니다. 웨어하우스 이름이 [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 나열됩니다.
 
   ![](assets/data-warehouse-access-reader-account-9.png)

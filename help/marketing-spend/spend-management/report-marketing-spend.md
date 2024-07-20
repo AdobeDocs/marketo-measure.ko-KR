@@ -25,15 +25,15 @@ ht-degree: 0%
 
 ## 광고 통합 비용 {#costs-from-ad-integrations}
 
-날짜 [!DNL Marketo Measure] 는 AdWords, Bing, Facebook 또는 Doubleclick과 같은 연결된 플랫폼에서 비용을 가져오며 보고된 통화도 사용합니다. 통화는 마케팅 지출 테이블에 표시될 때 채널, 하위 채널 및 캠페인과 함께 표시됩니다.
+[!DNL Marketo Measure]이(가) AdWords, Bing, Facebook 또는 Doubleclick과 같은 연결된 플랫폼에서 비용을 가져오는 경우 보고된 통화도 사용합니다. 통화는 마케팅 지출 테이블에 표시될 때 채널, 하위 채널 및 캠페인과 함께 표시됩니다.
 
-광고 공급자의 통화가 CRM에서 가져온 통화와 일치하지 않으면에서 &quot;혼합 통화&quot; 오류가 표시될 수 있습니다. [!DNL Marketo Measure Discover]. 이 문제를 해결하려면 CRM 관리자가 알 수 없는 통화에 대한 전환을 추가해야 합니다.
+광고 공급자의 통화가 CRM에서 가져온 통화와 일치하지 않으면 [!DNL Marketo Measure Discover]에 &quot;혼합 통화&quot; 오류가 표시될 수 있습니다. 이 문제를 해결하려면 CRM 관리자가 알 수 없는 통화에 대한 전환을 추가해야 합니다.
 
 ## 변환된 마케팅 지출로 마이그레이션 {#migrate-to-converted-marketing-spend}
 
 마케팅 지출은 지금까지 단일 (USD) 통화로만 수행되었기 때문에 보고된 모든 지출을 새 통화로 변경하는 데 필요한 작업이 적습니다. 계정에 여러 통화가 활성화되지 않았더라도 USD가 아닌 단일 법인 통화가 있다면 이 마이그레이션을 수행해야 합니다.
 
 1. 현재 지출 파일을 CSV로 다운로드
-1. 통화 열에 &quot;&quot;가 표시됩니다.[!UICONTROL USD]를 가정 통화로 사용합니다. 다음 중 하나의 항목을 모두 수동으로 바꿀 수 있습니다.[!UICONTROL USD]&quot;또는 Find+Replace를 사용하여 &quot;[!UICONTROL USD]&quot;인스턴스가 고유한 회사 통화로 변경되었습니다(예:&quot;).[!UICONTROL EUR]&quot; 또는 &quot;[!UICONTROL GBP]&quot;.
-1. 파일을 저장한 다음 다시 업로드하십시오. [!DNL Marketo Measure].
+1. 통화 열에 가정된 통화로 &quot;[!UICONTROL USD]&quot;이(가) 표시됩니다. 모든 &quot;[!UICONTROL USD]&quot;을(를) 수동으로 바꾸거나 Find+Replace를 사용하여 모든 &quot;[!UICONTROL USD]&quot; 인스턴스를 &quot;[!UICONTROL EUR]&quot; 또는 &quot;[!UICONTROL GBP]&quot;과(와) 같은 회사 통화로 변경할 수 있습니다.
+1. 파일을 저장한 다음 [!DNL Marketo Measure]에 다시 업로드하십시오.
 1. 이제 보고된 모든 비용이 새 통화로 표시됩니다.

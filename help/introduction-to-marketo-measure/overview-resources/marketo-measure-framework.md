@@ -22,13 +22,13 @@ Marketo Measure 프레임워크를 구성하는 4가지 주요 구성 요소에 
 
 ## Marketo Measure JavaScript {#marketo-measure-javascript}
 
-Marketo Measure JavaScript는 잠재 고객/잠재 고객이 조직과 맺고 있는 모든 온라인 마케팅 상호 작용(터치포인트라고도 함)을 추적합니다. 닫기 전에 추가되는 사용자 지정 스크립트입니다 `</head>` 를 클릭하여 웹 사이트의 모든 페이지에 태그를 추가합니다.
+Marketo Measure JavaScript은 잠재 고객/잠재 고객이 조직과 맺고 있는 모든 온라인 마케팅 상호 작용(터치포인트)을 추적합니다. 웹 사이트의 모든 페이지에서 닫는 `</head>` 태그 앞에 추가되는 사용자 지정 스크립트입니다.
 
 `<script type="text/javascript" src="//[cdn.bizible.com/scripts/bizible.js](http://cdn.bizible.com/scripts/bizible.js)" async=""></script>`
 
 >[!NOTE]
 >
->Marketo Measure JS를 추가하는 방법에 대한 지침은 [여기를 클릭하십시오](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>Marketo Measure JS를 추가하는 방법에 대한 지침을 보려면 [여기를 클릭](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)하십시오.
 
 Marketo Measure의 JS는 웹 방문(익명 웹 방문 포함), 일반 트래픽/페이지 탐색, 콘텐츠 다운로드 및 양식 제출의 데이터를 캡처합니다. 이 데이터는 CRM에 푸시되고 각 마케팅 상호 작용은 터치포인트로 표시됩니다.
 

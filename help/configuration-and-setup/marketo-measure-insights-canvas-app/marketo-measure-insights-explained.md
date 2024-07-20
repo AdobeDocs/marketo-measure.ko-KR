@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # [!DNL Marketo Measure] 인사이트 설명 {#marketo-measure-insights-explained}
 
-에 대해 알아보기 [!DNL Marketo Measure] 에서 인사이트 보기 [!DNL Salesforce]: 다양한 아이콘이 나타내는 내용 및 기능 사용 방법을 포함합니다. 이 기능은 잠재 고객, 연락처 또는 계정의 처음 20개 세션을 보는 데 가장 유용합니다.
+다양한 아이콘이 나타내는 내용 및 기능 사용 방법을 포함하여 [!DNL Salesforce]의 [!DNL Marketo Measure] 인사이트 보기에 대해 알아봅니다. 이 기능은 잠재 고객, 연락처 또는 계정의 처음 20개 세션을 보는 데 가장 유용합니다.
 
-누군가가 다음을 통해 추적되면 [!DNL Marketo Measure] JavaScript를 실행하고 웹 사이트에서 양식을 작성하면 해당 사람이 시스템의 잠재 고객이 되고 해당 디지털 마케팅 데이터가 Salesforce(SFDC) 조직으로 전송됩니다. 이 경우 터치포인트 데이터가 [!DNL Marketo Measure] 잠재 고객/연락처/영업 기회/계정 오브젝트의 잠재 고객 인사이트 섹션(캔버스 앱)
+누군가가 [!DNL Marketo Measure] JavaScript에서 추적하여 웹 사이트에서 양식을 작성하면 해당 사람이 시스템의 잠재 고객이 되고 해당 디지털 마케팅 데이터가 Salesforce(SFDC) 조직으로 전송됩니다. 이 경우 잠재 고객/연락처/기회/계정 개체의 [!DNL Marketo Measure] 잠재 고객 인사이트 섹션(캔버스 앱) 내에 터치포인트 데이터가 채워집니다.
 
 먼저, 통찰력의 중간 부분에서 사용자가 웹 사이트에서 진행한 세션 수를 볼 수 있습니다. 이러한 세션을 스크롤하여 원하는 대로 탐색할 수 있습니다.
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ![](assets/4.png)
 
-각 세션의 오른쪽에는 를 푸시하는 더 많은 세분화된 마케팅 데이터가 표시됩니다. [!DNL Marketo Measure] SFDC의 필드. 이 예에서는 광고 그룹, 광고 컨텐츠, 캠페인, 키워드 및 미디어를 볼 수 있습니다. 아래로 스크롤하여 [!DNL Marketo Measure] 우리가 제공하는 데이터.
+각 세션의 오른쪽에는 SFDC의 [!DNL Marketo Measure] 필드를 푸시하는 더 세분화된 마케팅 데이터가 표시됩니다. 이 예에서는 광고 그룹, 광고 컨텐츠, 캠페인, 키워드 및 Medium을 볼 수 있습니다. 아래로 스크롤하여 제공하는 [!DNL Marketo Measure] 데이터를 더 볼 수도 있습니다.
 
-마지막으로, 한 사람이 무수히 많은 세션을 가진다면 [!UICONTROL Insights] 사이트에서 참여의 특정 부분을 찾습니다. 다음을 기준으로 필터링할 수 있습니다. [!UICONTROL Touchpoint Position] 예.
+마지막으로, 세션이 무수히 많으면 [!UICONTROL Insights] 내의 일부 필터를 사용하여 사이트에서 참여의 특정 부분을 찾을 수 있습니다. 예를 들어 [!UICONTROL Touchpoint Position]별로 필터링할 수 있습니다.
 
 페이지 보기 수, AB 테스트 또는 Forms으로 검색할 수도 있습니다.
