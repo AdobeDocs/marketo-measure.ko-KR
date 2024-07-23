@@ -4,9 +4,9 @@ description: "[!DNL Microsoft Dynamics] CRM 설치 안내서 - Marketo Measure -
 title: "[!DNL Microsoft Dynamics] CRM 설치 안내서"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ CRM에 있는 다른 사용자와 관련된 문제를 방지하기 위해 데이
 보안 역할은 **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Security Roles]**&#x200B;에 있습니다.
 
 [!DNL Marketo Measure] 사용자 지정 엔터티의 경우 모든 엔터티에 대한 전체 권한이 필요합니다.
+
+표준 엔티티에 대한 읽기/쓰기 권한 외에 Campaign &quot;만들기&quot; 권한도 필요합니다.
 
 >[!NOTE]
 >

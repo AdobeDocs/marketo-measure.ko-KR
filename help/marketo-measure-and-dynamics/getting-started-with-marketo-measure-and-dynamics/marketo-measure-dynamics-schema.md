@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] 동적 스키마 - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] 동적 스키마"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1084'
 ht-degree: 23%
 
 ---
@@ -1177,6 +1177,8 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
 </table>
 
 **캠페인**
+
+아래 읽기/쓰기 권한 외에 Campaign &quot;만들기&quot; 권한도 필요합니다.
 
 <table> 
  <tbody> 
