@@ -3,16 +3,16 @@ description: '[!DNL Marketo Measure] Ultimate 개요 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate 개요'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 36688972c241f5a79c1730237598510cd44f032d
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 0%
+source-wordcount: '683'
+ht-degree: 4%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate 개요 {#marketo-measure-ultimate-overview}
 
-[!DNL Marketo Measure](이전 Bizible)은 마케터에게 매출을 증대시키고 투자 수익을 극대화하는 데 가장 효과적인 마케팅 활동을 파악하는 데 도움이 됩니다. [!DNL Marketo Measure]은(는) 채널 성과를 자동으로 추적 및 보고하여 가장 고객 참여를 유도하는 채널에 대한 가시성을 제공하고 그에 따라 마케팅 지출을 최적화할 수 있는 마케팅 속성 솔루션입니다.
+[!DNL Marketo Measure](이전의 Bizible)는 마케터에게 매출을 늘리고 기업 투자 수익률을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 인사이트를 제공합니다. [!DNL Marketo Measure]은(는) 채널 성과를 자동으로 추적 및 보고하여 가장 고객 참여를 유도하는 채널에 대한 가시성을 제공하고 그에 따라 마케팅 지출을 최적화할 수 있는 마케팅 속성 솔루션입니다.
 
 [!DNL Marketo Measure Ultimate]에 추가 기능이 포함되어 있습니다.
 
@@ -111,4 +111,6 @@ Ultimate에는 직접 CRM 연결이 없으므로 속성 터치포인트는 CRM�
 
 >[!MORELIKETHIS]
 >
->[Marketo Measure Ultimate 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
+>* [Marketo Measure Ultimate 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
+>
+>* [비디오: Marketo Measure Ultimate 개요](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
