@@ -3,7 +3,7 @@ description: 현재 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 이 변경 사항에 적응하는 데 도움이 되도록 새로운 기능에 대한 설명서를 만들었으며 포괄적인 문제 해결 단계와 함께 오류 설명을 지웠습니다.
 
-* 새 DOC: CRM 내보내기에 대한 오류 처리 설정
+* 새 설명서: [CRM 내보내기에 대한 오류 처리 설정](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [오류 알림](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## 3분기 릴리스 {#q3-release}
