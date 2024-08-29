@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure]은(는) 마케터에게 회사의 매출을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 데 도움이 됩니다."
-source-git-commit: 5759615376954806d6f0682378ce4bbc786bc43a
+source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 1%
 
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 0%
       + [Salesforce에  [!DNL Marketo Measure] 연결](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [ [!DNL Marketo Measure] CRM 패키지 모범 사례](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure]개의 Salesforce 개체](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
+      + [CRM 내보내기에 대한 오류 처리](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [ [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] 개체 및 필드 분류법](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
       + [Standard [!DNL Salesforce] 개체의 [!DNL Marketo Measure]개 필드](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
