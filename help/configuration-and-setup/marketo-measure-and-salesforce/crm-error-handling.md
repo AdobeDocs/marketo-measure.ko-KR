@@ -2,9 +2,9 @@
 description: CRM 내보내기에서 오류를 처리하는 방법에 대해 알아보기
 title: CRM 내보내기에 대한 오류 처리
 feature: Salesforce
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: ce5170330fb1d9f944762f401d29be4da5c0bd43
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 설정은 **내 계정** > **설정** > **CRM** > **일반**&#x200B;에서 찾을 수 있습니다.
 
+![내보내기 오류 일시 중지](assets/stop-progress.png)
+
 >[!NOTE]
 >
 >이 기능은 &quot;CRM으로 내보내기&quot; 기능을 활성화한 경우에만 표시됩니다.
@@ -22,6 +24,8 @@ ht-degree: 0%
 이 기능을 활성화하면 내보내기 작업이 진행을 중단하고 문제가 해결될 때까지 오류가 발생한 레코드에 남아 있습니다. 이러한 오류는 일반적으로 권한 누락, 잘못 적용된 사용자 지정 유효성 검사 규칙 또는 워크플로우/트리거의 문제로 인해 발생합니다. 작업은 예약된 대로 계속 실행되며 성공할 때까지 실패한 레코드 내보내기를 자동으로 다시 시도합니다.
 
 이 기능을 비활성화하면 경고 팝업이 표시되어 데이터 불일치가 발생할 수 있음을 알려줍니다. 이러한 불일치로 인해 발생할 수 있는 모든 문제를 해결하는 것은 귀하의 책임입니다.
+
+![데이터 불일치 경고](assets/data-inconsistency.png)
 
 두 경우 모두 기능을 켜든 끄든 간에 발생한 모든 레코드 수준 오류가 `ExportErrors` 테이블에 기록되고 `CRMExport_ExportError` 작업은 매일 이러한 레코드를 자동으로 다시 내보냅니다. 이렇게 하면 개발자의 개입 없이 자동으로 실행되므로 재내보내기를 시작하기 위해 지원 요청이 필요하지 않습니다.
 
