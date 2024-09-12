@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: “[!DNL Marketo Measure] 안내서”
 user-guide-description: "[!DNL Marketo Measure]은(는) 마케터에게 회사의 매출을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 데 도움이 됩니다."
-source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
+source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -220,6 +220,7 @@ ht-degree: 1%
    + [[!DNL Marketo Measure] Ultimate 개요](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
    + [데이터 무결성 요구 사항](marketo-measure-ultimate/data-integrity-requirement.md)
    + [Implementation 안내서](marketo-measure-ultimate/implementation-guide.md)
+   + [계층 1-2에서  [!DNL Marketo Measure] Ultimate로 마이그레이션](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
 + 기타 {#miscellaneous}
    + 기타 관련 리소스 {#other-related-resources}
       + [[!DNL Marketo Measure] 유지 관리](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
