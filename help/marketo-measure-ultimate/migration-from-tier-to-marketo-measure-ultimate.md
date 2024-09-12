@@ -1,19 +1,17 @@
 ---
 description: ' [!DNL Marketo Measure] 계층화된 구독에서  [!DNL Marketo Measure] Ultimate로 이동할 때의 마이그레이션 프로세스에 대해 알아봅니다.'
-hide: true
-hidefromtoc: true
 title: 계층에서  [!DNL Marketo Measure] Ultimate로 마이그레이션
 feature: Integration, Tracking, Attribution
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
+source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
 
 # 계층 1-2에서 [!DNL Marketo Measure] Ultimate로 마이그레이션 {#migration-from-tier-to-marketo-measure-ultimate}
 
-Tier 1 또는 2 구독에서 Marketo Measure Ultimate로 이동하는 사용자의 마이그레이션 프로세스에 대해 간략하게 설명합니다(영문).
+이 문서에서는 Tier 1 또는 2 구독에서 [!DNL Marketo Measure] Ultimate로 이동하는 사용자의 마이그레이션 프로세스에 대해 간략히 설명합니다.
 
 >[!IMPORTANT]
 >
