@@ -4,9 +4,9 @@ description: 사용자 지정 수익 금액 필드 사용 - [!DNL Marketo Measur
 title: 사용자 정의 수익 금액 필드 사용
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Salesforce Lightning에서 워크플로우 만들기 {#create-the-workflow-in-salesforce-lightning}
 
-다음 단계는 Salesforce Lightning 사용자를 위한 것입니다. 여전히 Salesforce Classic을 사용하는 경우 해당 단계 [이(가) 아래에 나열됩니다](#create-the-workflow-in-salesforce-classic).
+다음 단계는 Salesforce Lightning 사용자를 위한 것입니다. 여전히 Salesforce Classic을 사용하는 경우 [ 단계는 아래에 나열됩니다](#create-the-workflow-in-salesforce-classic).
 
 1. 설정에서 [빠른 찾기] 상자에 &quot;흐름&quot;을 입력하고 **[!UICONTROL Flows]**&#x200B;을(를) 선택하여 흐름 빌더를 시작합니다. 오른쪽 패널에서 **[!UICONTROL New Flow]** 단추를 클릭합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    * 레이블 입력 - API 이름이 자동으로 생성됩니다.
    * 업데이트할 레코드를 찾고 값을 설정하는 방법 아래에서 **[!UICONTROL Use the opportunity record that triggered the flow]**&#x200B;을(를) 선택합니다.
    * &quot;[!UICONTROL Set Filter Conditions]&quot; 섹션에서 **[!UICONTROL Always Update Record]**&#x200B;을(를) 레코드 업데이트에 대한 조건 요구 사항으로 선택합니다.
-   * &quot;[!UICONTROL Set Field Values for the Campaign Record]&quot;의 필드에서 Marketo Measure 영업 기회 금액 및 시작 값을 선택합니다. 그런 다음 사용자 정의 금액 필드를 선택합니다.
+   * &quot;[!UICONTROL Set Field Values for the Campaign Record]&quot;의 필드에서 Marketo Measure 영업 기회 금액(**bizible2__Bizible_Opportunity_Amount__c**) 및 from 값을 선택합니다. 그런 다음 사용자 정의 금액 필드를 선택합니다.
    * **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
@@ -104,6 +104,6 @@ ht-degree: 0%
 
    이 단계를 완료하면 [!UICONTROL custom opportunity] 필드의 새 값을 갖도록 워크플로우를 트리거하기 위해 기회를 업데이트해야 합니다.
 
-   SFDC 내의 Data Loader를 통해 기회를 실행하여 이를 수행할 수 있습니다. [이 문서](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)에서 데이터 로더를 사용하는 방법에 대한 자세한 내용을 확인하세요.
+   SFDC 내의 데이터 로더를 통해 기회를 실행하여 이를 달성할 수 있습니다. [이 문서](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)에서 데이터 로더를 사용하는 방법에 대한 자세한 내용을 확인하세요.
 
 질문이 있는 경우 주저하지 말고 Adobe 계정 팀(계정 관리자) 또는 [[!DNL Marketo] 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하세요.
