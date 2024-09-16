@@ -4,9 +4,9 @@ description: 활동 속성 FAQ - [!DNL Marketo Measure]
 title: 활동 속성 FAQ
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # 활동 속성 FAQ {#activities-attribution-faq}
 
 [!DNL Marketo Measure] 활동이 모든 활동 레코드를 가져오고 터치포인트를 생성하므로 이러한 활동이 속성 크레딧을 받을 수 있습니다. 가장 일반적인 사용 사례는 잠재 고객에게 전송된 전화 통화 또는 이메일 기록을 생성하는 영업 팀의 활동을 추적하는 것입니다. 추적할 수 있는 다른 고유한 사항은 에셋 다운로드나 비디오 보기와 같은 콘텐츠 상호 작용입니다.
+
+>[!AVAILABILITY]
+>
+>이 기능은 계층 2 고객만 사용할 수 있습니다. 더 높은 계정 계층을 요청하려면 Adobe 계정 팀(계정 관리자)에 문의하십시오.
 
 **오프라인 캠페인과 어떻게 다릅니까?**
 
@@ -42,7 +46,7 @@ CRM의 Activity 개체를 사용하여 먼저 필터를 설정하는 것이 좋�
 | 리드/연락처 | 모든 활동은 잠재 고객 또는 연락처와 관련되어 있습니다. |
 | Campaign | Channel.Subchannel [[!DNL Marketo Measure]] |
 | 터치포인트 Source | CRM 활동 |
-| 미디엄 | Activity.Type |
+| 보통 | Activity.Type |
 | 접점 유형 | Activity.Type |
 | 광고 캠페인 이름 | [!DNL Marketo Measure] 캠페인 이름 |
 | 광고 콘텐츠 | 활동 제목 |

@@ -4,18 +4,22 @@ description: Salesforce 활동 속성 - [!DNL Marketo Measure]
 title: Salesforce 활동 속성
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 0%
+source-wordcount: '615'
+ht-degree: 1%
 
 ---
 
 # Salesforce 활동 속성 {#salesforce-activities-attribution}
 
-[!DNL Marketo Measure] Salesforce 활동 통합은 특정 작업 및 이벤트 레코드를 속성 모델에 가져옵니다. 적법한 크레딧을 받지 못한 판매 이메일 또는 판매 전화 등의 항목을 추적하기 시작합니다. 활동 규칙을 구성하려면 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}(으)로 이동하십시오. 여기에서 **[!UICONTROL Settings]** 탭으로 이동하여 **[!UICONTROL Activities]** 탭을 클릭합니다.
+[!DNL Marketo Measure] Salesforce 활동 통합은 특정 작업 및 이벤트 레코드를 속성 모델로 가져옵니다. 적법한 크레딧을 받지 못한 판매 이메일 또는 판매 전화 등의 항목을 추적하기 시작합니다. 활동 규칙을 구성하려면 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}(으)로 이동하십시오. 여기에서 **[!UICONTROL Settings]** 탭으로 이동하여 **[!UICONTROL Activities]** 탭을 클릭합니다.
 
 ![](assets/1.png)
+
+>[!AVAILABILITY]
+>
+>이 기능은 계층 2 고객만 사용할 수 있습니다. 더 높은 계정 계층을 요청하려면 Adobe 계정 팀(계정 관리자)에 문의하십시오.
 
 먼저 [!DNL Marketo Measure] 캠페인이라는 새로운 개념을 도입합니다. 정의하는 각 규칙에 대해 이름을 지정할 수 있는 [!DNL Marketo Measure] 캠페인에 레코드를 버킷합니다. 필요에 따라 여러 캠페인을 추가합니다. 유료 미디어 캠페인 옆에 있는 아웃바운드 판매 캠페인의 효과를 측정한다고 상상해 보십시오.
 
@@ -77,7 +81,7 @@ ht-degree: 0%
 | **연산자** | **사용 사례** |
 |---|---|
 | 다음과 같음 | 단일 값 - 정확한 일치 |
-| 포함 | 단일 값 - 값 포함 |
+| 다음 포함 | 단일 값 - 값 포함 |
 | 임의 항목 일치 | 여러 값 - 정확한 일치 |
 | 모두 일치(포함) | 여러 값 - &#42;값&#42;, &#42;값, &#42;값&#42; |
 

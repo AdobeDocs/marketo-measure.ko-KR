@@ -4,9 +4,9 @@ description: 접점 필드 - [!DNL Marketo Measure]
 title: 접점 필드
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->이제 계층 2 및 계층 3에서 전체 세분화를 통해 사용할 수 있습니다.
+>계층 2 구독에서 전체 세분화를 통해 사용할 수 있습니다.
 
 >[!NOTE]
 >
