@@ -4,9 +4,9 @@ description: ' [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법
 title: ' [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1314'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 18%
 
 ## Salesforce 및 [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-[!DNL Marketo Measure] 계정이 만들어지고 [!DNL Salesforce]이(가) 연결되면 [!DNL Marketo Measure] 관리 패키지가 설치되어 있고 [!DNL Marketo Measure] Salesforce 사용자에게 편집 권한이 있는 한 [!DNL Marketo Measure]에서 마케팅 데이터를 CRM 인스턴스로 푸시하기 시작합니다.
+[!DNL Marketo Measure] 계정이 만들어지고 [!DNL Salesforce]이(가) 연결되면 [!DNL Marketo Measure] 관리 패키지가 설치되어 있고 [!DNL Marketo Measure] Salesforce 사용자에게 편집 권한이 있는 한 [!DNL Marketo Measure]은(는) 마케팅 데이터를 CRM 인스턴스로 푸시하기 시작합니다.
 
 [!DNL Marketo Measure] Salesforce 패키지를 설치하지 않은 경우 [!DNL Marketo Measure]은(는) Salesforce 인스턴스에 데이터를 쓰지 않습니다.
 
@@ -35,16 +35,19 @@ ht-degree: 18%
 
 ## Salesforce 연결된 사용자 권한 {#salesforce-connected-user-permissions}
 
-**전용 사용자에 대한 Marketo Measure 관리자 권한 집합**: SFDC 관리자가 Marketo Measure 개체에 대해 CRUD 작업을 수행할 수 있도록 허용합니다.
+**전용 사용자에 대한 Marketo Measure 관리자 권한 집합**: SFDC 관리자가 Marketo Measure 개체에 대한 CRUD 작업을 수행할 수 있도록 허용합니다.
 
 **전환된 잠재 고객 사용 권한 집합 보기 및 편집**: 이렇게 하면 Marketo Measure에서 잠재 고객이 연락처로 전환된 후 잠재 고객을 꾸밀 수 있습니다.
 
 **Salesforce 마케팅 사용자 확인란**: 사용자가 캠페인을 만들고 캠페인 가져오기 마법사를 사용할 수 있습니다.
-* Campaign &quot;만들기&quot;에 대한 추가 권한이 필요합니다.
+
+* CRM에서 Campaign &quot;만들기&quot; 및 &quot;업데이트&quot;에 대한 추가 권한이 필요합니다.
+
+* 웹 활동에서 터치포인트를 만들 때 캠페인에 연결해야 합니다. 웹 활동에는 해당 CRM 캠페인이 없으므로 이 링크를 설정하려면 CRM 캠페인을 만들어야 합니다. 이는 Lead 및 Opportunity 접점에 모두 적용됩니다. 사용하는 호출이 &quot;업데이트&quot;이기 때문에 업데이트 권한이 필요합니다. 레코드가 있으면 업데이트하고 그렇지 않으면 만듭니다. 이는 당사가 생성하는 캠페인에만 적용됩니다.
 
 **Marketo Measure 표준 사용자**: 사용자에게 Marketo Measure 개체에서 레코드를 읽을 수 있는 기능을 제공합니다.
 
-## Salesforce 표준 개체 및 액세스 {#salesforce-standard-objects-and-access}
+## Salesforce Standard 개체 및 액세스 {#salesforce-standard-objects-and-access}
 
 여기에는 [!DNL Marketo Measure]이(가) 상호 작용하는 [!DNL Salesforce] 표준 개체와 연결이 설정되고 [!DNL Marketo Measure] 패키지가 설치되면 이 개체에 추가하는 사용자 지정 필드가 나열됩니다. 기본적으로 [!DNL Marketo Measure]은(는) 표준 [!DNL Salesforce] 개체 필드에 쓰지 않습니다.
 
@@ -421,7 +424,7 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-**캠페인**
+**Campaign**
 
 <table> 
  <colgroup> 
@@ -635,7 +638,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->Salesforce 계정 내에서 삭제 이벤트를 캡처하는 Marketo Measure의 정확성을 보장하려면 아래 개체에 대해 복제 가능한 권한이 필요합니다. 복제 가능한 권한은 다음 개체와 함께 표준으로 제공됩니다.
+>Marketo Measure 계정 내에서 삭제 이벤트를 캡처하는 Salesforce의 정확성을 보장하려면 아래 개체에 대해 복제 가능한 권한이 필요합니다. 복제 가능한 권한은 다음 개체와 함께 표준으로 제공됩니다.
 >
 >* 계정
 >* Campaign
