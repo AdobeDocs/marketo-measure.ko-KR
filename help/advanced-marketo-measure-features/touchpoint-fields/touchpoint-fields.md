@@ -4,9 +4,9 @@ description: 접점 필드 - [!DNL Marketo Measure]
 title: 접점 필드
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
+source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1951'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 계산된 필드를 만들려면 추출, 매핑, 연결 등 사용자가 수행할 수 있는 세 가지 작업을 기억하십시오. 이를 계산된 필드를 정의하는 연산자라고도 합니다.
 
-추출
+### 추출 {#extracts}
 
-[!UICONTROL extracts] 연산자는 캠페인 필드, 리드 필드 또는 고급 사용 사례의 경우 [랜딩 페이지에서 사용자 지정 매개 변수를 추출](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}과 같은 다른 위치의 필드에서 값을 가져옵니다. 그런 다음 터치포인트 필드에 배치합니다([예제에 매핑](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2 참조).
+[!UICONTROL extracts] 연산자는 캠페인 필드, 리드 필드 또는 고급 사용 사례와 같은 다른 위치의 필드에서 값을 가져옵니다. 랜딩 페이지에서 사용자 지정 매개 변수를 추출합니다. 그런 다음 터치포인트 필드에 배치합니다.
 
 **예 #1**
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 ![](assets/five.png)
 
-**다음에 매핑**
+### 다음에 매핑 {#maps-to}
 
 [!UICONTROL maps to] 연산자는 다른 값으로 변환하거나 그룹화해야 하는 값 테이블을 만듭니다. 일반적으로 이는 코드가 친숙한 이름을 나타내고 해당 친숙한 이름에 매핑되어야 하는 키 값 형식을 취합니다.
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 ![](assets/seven.png)
 
-**연결**
+### 연결 {#concatenates}
 
 [!UICONTROL concatenates] 연산자는 여러 필드의 값을 단일 필드로 결합합니다. 이 메서드는 을 만들기 위해 다양한 필드에 데이터를 가져오는 사용자 지정 값을 만드는 데 유용합니다
 
