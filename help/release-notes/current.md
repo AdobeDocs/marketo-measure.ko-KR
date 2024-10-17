@@ -3,9 +3,9 @@ description: 현재 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
+source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,22 @@ ht-degree: 0%
 2024 릴리스의 모든 새로운 기능 및 업데이트된 기능은 아래를 참조하십시오.
 
 ## 4분기 릴리스 {#q4-release}
+
+### 새 세션 채널 이월 동작
+
+이제 새 세션이 30분 동안 활동이 없었다가 7일 내에 시작될 경우 이전 세션의 채널이 이월되며 직접 방문(레퍼러 또는 내부 레퍼러 없음)에만 적용됩니다. 7일 동안 활동이 없으면 세션은 기본적으로 직접/기타로 설정됩니다. 비직접 채널은 이전 세션 데이터에 의해 재정의되지 않습니다.
+
+또한 이제 소셜 로그인(Google, Microsoft 또는 Apple)을 사용하는 세션이 하나의 연속 세션으로 병합되어 더 원활한 경험을 제공합니다. 이 이월 토글이 없으면 외부 레퍼러 차이로 인해 소셜 로그인이 별도의 세션을 만들 수 있습니다.
+
+신규 고객의 경우 이제 세션 채널 이월이 기본 동작입니다. 기존 고객은 Settings → Everytouch Attribution에서 세션 채널 이월 토글을 켜서 이 기능을 활성화할 수 있습니다. 활성화되면 이 설정을 취소할 수 없습니다.
+
+설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+
+### 키워드 ROI 대시보드
+
+새로운 키워드 ROI 대시보드는 유료 검색 캠페인의 성과에 대한 자세한 통찰력을 제공하며 키워드 수준의 비용, 속성 수익, 생성된 리드 및 기회에 대한 포괄적인 보기를 제공합니다. 이 대시보드는 Google Adwords, LinkedIn 및 Bing Ads 등에서 각 키워드의 ROI를 평가하는 데 도움이 됩니다.
+
+설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### 향상된 세그먼트 규칙
 
