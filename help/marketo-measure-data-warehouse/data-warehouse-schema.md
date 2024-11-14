@@ -4,7 +4,7 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 3ad812a05671f277d3dd3f9bc58e3b2ea3606e71
 workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 3%
@@ -32,11 +32,11 @@ _Data Warehouse 데이터 모델_ ERD는 데이터 웨어하우스의 데이터�
 
 _전체 크기 버전에 대한 이미지를 클릭하십시오_
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <th>Data Warehouse 데이터 모델</th> 
-   <th>광고 차원 데이터 모델</th> 
+   <th>Data Warehouse 데이터 모델</th>
+   <th>광고 차원 데이터 모델</th>
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
@@ -45,7 +45,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
  </tbody> 
 </table>
 
-## 보기 {#views}
+## 보기 횟수 {#views}
 
 ### BIZ_ACCOUNT {#biz-accounts}
 
@@ -80,7 +80,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
     <tr>
       <td>이름</td>
       <td>varchar</td>
-      <td>소스 시스템의 계정 이름입니다.</td>
+      <td>소스 시스템의 계정 이름.</td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
@@ -180,7 +180,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>0013100001phrBAAY</td>
     </tr>
     <tr>
-      <td>EMAIL</td>
+      <td>이메일</td>
       <td>varchar</td>
       <td>연락처 관계 또는 잠재 고객 대 계정 매핑을 통해 계정에 매핑된 이메일 주소.</td>
       <td>person@adobe.com</td>
@@ -924,7 +924,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>varchar</td>
       <td>utm_source의 URL에서 구문 분석됩니다.</td>
       <td>
-        <p>소셜</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -2033,7 +2033,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       </td>
     </tr>
     <tr>
-      <td>EMAIL</td>
+      <td>이메일</td>
       <td>varchar</td>
       <td>BAT과 연계된 이메일 주소.</td>
       <td>person@adobe.com</td>
@@ -3558,7 +3558,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>
@@ -3625,7 +3625,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
         <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
-        <p>해당 없음</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
@@ -4902,7 +4902,7 @@ Attribution AI 통합에서 생성된 데이터입니다. 이러한 필드는 Ma
       </td>
       <td>소스 시스템에서 레코드가 삭제된 것으로 간주되는지 여부.</td>
       <td>
-        <p>거짓</p>
+        <p>False</p>
       </td>
     </tr>
     <tr>
@@ -5703,7 +5703,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>
@@ -6123,7 +6123,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>2018년 8월 28일</td>
     </tr>
     <tr>
-      <td>TIMESTAMP</td>
+      <td>타임스탬프</td>
       <td>timestamp_ntz</td>
       <td>이벤트가 발생한 날짜 및 시간입니다.</td>
       <td>2018-08-28 19:39:15.000</td>
@@ -6357,7 +6357,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>EMAIL</td>
+      <td>이메일</td>
       <td>varchar</td>
       <td>레코드에 대한 이메일 주소.</td>
       <td>personb@adobe.com</td>
@@ -6747,7 +6747,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>
@@ -8097,7 +8097,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>
@@ -8238,7 +8238,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
-        <p>해당 없음</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
@@ -8372,7 +8372,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>
@@ -8778,7 +8778,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>이 기능은 더 이상 사용되지 않습니다. 이 열은 사용하지 마십시오.</p>
       </td>
       <td>
-        <p>해당 없음</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
@@ -8937,7 +8937,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>
@@ -9350,7 +9350,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>
@@ -10196,7 +10196,7 @@ Opportunity 의 Stage 전환
         <p>광고가 해결된 광고 그룹의 이름. 이는 Google Adwords에만 적용됩니다.</p>
       </td>
       <td>
-        <p>Salesforce - Google Analytics</p>
+        <p>SALESFORCE - GOOGLE ANALYTICS</p>
       </td>
     </tr>
     <tr>
@@ -10360,7 +10360,7 @@ Opportunity 의 Stage 전환
         <p>utm_medium의 URL에서 구문 분석됩니다.</p>
       </td>
       <td>
-        <p>소셜</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -11302,7 +11302,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>BT과 연계된 이메일 주소.</td>
@@ -11713,7 +11713,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트의 원인이 되는 미디어를 정의하는 데 사용됩니다. URL의 utm_medium에서 구문 분석하거나, 또는 [!DNL Marketo Measure]에서 광고를 확인할 수 있는 경우 "cpc" 또는 "display"와 같은 값이 될 수 있습니다.</p>
       </td>
       <td>
-        <p>소셜</p>
+        <p>Social</p>
       </td>
     </tr>
     <tr>
@@ -12121,7 +12121,7 @@ Opportunity 의 Stage 전환
         <p>첫 번째 터치이므로 이 터치포인트에 할당된 계산된 백분율입니다(Is_First_Touch 참조).</p>
       </td>
       <td>
-        <p>100</p>
+        <p>10</p>
       </td>
     </tr>
     <tr>
@@ -12135,7 +12135,7 @@ Opportunity 의 Stage 전환
         <p>잠재 고객 생성 터치이므로 이 접점에 할당된 계산된 백분율입니다(Is_Lead_Creation_Touch 참조).</p>
       </td>
       <td>
-        <p>100</p>
+        <p>10</p>
       </td>
     </tr>
     <tr>
@@ -12437,7 +12437,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>EMAIL</p>
+        <p>이메일</p>
       </td>
       <td>varchar</td>
       <td>
