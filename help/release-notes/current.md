@@ -3,9 +3,9 @@ description: 현재 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
+source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 또한 이제 소셜 로그인(Google, Microsoft 또는 Apple)을 사용하는 세션이 하나의 연속 세션으로 병합되어 더 원활한 경험을 제공합니다. 이 이월 토글이 없으면 외부 레퍼러 차이로 인해 소셜 로그인이 별도의 세션을 만들 수 있습니다.
 
-신규 고객의 경우 이제 세션 채널 이월이 기본 동작입니다. 기존 고객은 Settings → Everytouch Attribution에서 세션 채널 이월 토글을 켜서 이 기능을 활성화할 수 있습니다. 활성화되면 이 설정을 취소할 수 없습니다.
+신규 고객의 경우 이제 세션 채널 이월이 기본 동작입니다. 기존 고객은 설정 > 모든 터치 속성에서 세션 채널 이월 토글을 켜서 이 기능을 활성화할 수 있습니다. 활성화되면 이 설정을 취소할 수 없습니다.
 
 설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 이제 접점 및 연락처 필드 외에 캠페인 및 캠페인 멤버 필드를 사용하여 세그먼트를 만들 수 있습니다. 이 향상된 기능을 통해 Discover에서 데이터를 보다 효과적으로 분석하고 탐색할 수 있습니다.
 
-![구성원에 대한 세그먼트 규칙](assets/campaign-member.png)
+![향상된 세그먼트 규칙](assets/mm-q4-release-1.png)
 
 ### 업데이트: CRM 내보내기에 대한 오류 처리 설정
 
-작업 중지 접근 방식에 대한 귀하의 의견을 들었으며 사용자 인터페이스에 새로운 기능을 도입하고 있습니다. 오늘부터 오류가 발생할 때 내보내기 작업을 일시 중지할지 여부를 선택할 수 있습니다. **내 계정** > **설정** → **CRM** → **일반**&#x200B;에서 새로운 전환을 사용합니다. 이 스위치는 데이터 무결성 및 가시성을 향상시키기 위해 기본적으로 켜져 있습니다. 그러나 이 기능을 사용하지 않으려면 UI에서 해제할 수 있으며 내보내기 작업이 재개됩니다. 이 업데이트는 데이터 관리 프로세스의 안정성을 향상시키는 동시에 사용자에게 더 나은 제어 기능을 제공하기 위해 설계되었습니다.
+작업 중지 접근 방식에 대한 귀하의 의견을 들었으며 사용자 인터페이스에 새로운 기능을 도입하고 있습니다. 오늘부터 오류가 발생할 때 내보내기 작업을 일시 중지할지 여부를 선택할 수 있습니다. **내 계정** > **설정** > **CRM** > **일반**&#x200B;에서 새로운 전환을 사용합니다. 이 스위치는 데이터 무결성 및 가시성을 향상시키기 위해 기본적으로 켜져 있습니다. 그러나 이 기능을 사용하지 않으려면 UI에서 해제할 수 있으며 내보내기 작업이 재개됩니다. 이 업데이트는 데이터 관리 프로세스의 안정성을 향상시키는 동시에 사용자에게 더 나은 제어 기능을 제공하기 위해 설계되었습니다.
 
 #### 주요 일자 및 단계별 롤아웃
 
@@ -65,27 +65,27 @@ ht-degree: 0%
 
 <p>
 
-**미리 알림: Salesforce 필드 사용 중단 - 6월 14일**
+### 미리 알림: Salesforce 필드 사용 중단 - 6월 14일
 
-작년에 발표된 대로 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없도록 [리드/연락처 개체로의 내보내기 작업을 단계적으로 축소](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}할 예정입니다. [여기에 기록됨](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}단계를 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다. 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
+작년에 발표된 대로 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없도록 [리드/연락처 개체로의 내보내기 작업을 단계적으로 중단](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}할 예정입니다. [여기에 기록됨](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}단계를 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다. 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
 
 이 변경은 다음과 같은 두 가지 주요 이점을 제공합니다.
 
 * **Salesforce API 비용 절감**: 고객은 Salesforce API 비용을 약 10% 절감할 수 있습니다.
 * **간소화된 통합**: 내보내기 작업에서 가장 많은 오류가 이러한 프로세스와 관련이 있습니다. 이를 제거하면 통합이 크게 간소화됩니다.
 
-**속성 영업 기회 대시보드**
+### 속성 영업 기회 대시보드
 
 마케팅 노력이 초기 및 성숙 파이프라인 기회 모두에 기여하는 방식에 대한 포괄적인 보기를 제공하기 위해 설계된 새로운 [속성 영업 기회 대시보드](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}를 소개하게 되어 기쁘게 생각합니다. 이 대시보드를 사용하면 영업 기회 단계를 기준으로 필터링할 수 있는 유연성을 가지고 전략에 따라 발생하는 모든 개설 및 마감된 영업 기회에 대한 세부 정보를 파악할 수 있습니다. 속성 기회 금액 측면에서 가장 높은 등급을 제공하는 채널, 하위 채널 또는 캠페인에 대한 통찰력을 제공하며, 속성 오픈 및 마감된 기회의 수와 함께 총 속성 기회 금액을 표시합니다.
 
-**Marketo Measure Ultimate용 Marketo Engage 쿠키 동기화**
+### Marketo Measure Ultimate용 Marketo Engage 쿠키 동기화
 
 이제 Marketo Measure Ultimate에서 Marketo Engage 쿠키 동기화를 사용할 수 있습니다. 이 기능을 사용하려면 다음 작업을 수행하십시오.
 
 1. AEP 스키마 페이지에서 B2B 개인 스키마를 편집하고 필드 그룹 &quot;개인 세부 정보 Marketo Engage&quot;를 추가합니다.
 1. MMU로 데이터를 수집할 때 필드 그룹의 쿠키 ID 필드를 Marketo Engage의 쿠키 필드에 매핑합니다.
 
-**계층 2 고객에 대해 부메랑 단계가 활성화됨**
+### 계층 2 고객을 위해 활성화된 부메랑 단계
 
 이전에는 Tier 3 고객에게만 제공되었던 부메랑 스테이지 기능은 2024년 6월 13일부터 모든 Tier 2 고객에게도 제공됩니다. 이 기능에 대한 자세한 내용은 아래 설명서를 참조하십시오.
 
@@ -99,14 +99,14 @@ ht-degree: 0%
 
 <p>
 
-**타사 쿠키 페이드 아웃에 대한 응답으로 Marketo Measure 기능 사용 중단**
+### 서드파티 쿠키 단계적 축소에 대한 응답으로 Marketo Measure 기능 사용 중단
 
 개인 정보 보호 문제가 증가함에 따라 서드파티 쿠키는 Google Chrome의 2024년 3분기 마감 기한이 종료를 알리는 등 단계적으로 폐지되고 있습니다. Marketo Measure은 타사 쿠키, 특히 Google/DoubleClick 노출 쿠키에 의존하는 도메인 간 추적 및 뷰스루 기여도 분석에 따른 특정 기능을 더 이상 사용하지 않습니다. 이 변경 사항은 다른 Marketo Measure 기능이나 자사 쿠키의 사용에 영향을 주지 않습니다. Google의 타임라인에 따라 이러한 기능은 6월 1일까지 더 이상 사용되지 않을 것으로 예상되지만, 이 날짜 이전에 수집된 데이터는 여전히 고객이 액세스할 수 있습니다.
 
 * [Marketo Measure에서 타사 쿠키 사용 중단에 적응](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure 쿠키](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
-**향상된 오류 처리에 대한 단계별 롤아웃**
+### 향상된 오류 처리에 대한 단계별 롤아웃
 
 권한 오류에 대한 즉각적인 인앱 펄스 알림부터 시작하여 내보내기 작업에 대한 향상된 오류 처리의 단계별 롤아웃을 소개하고, 오류 시점에서 내보내기 작업이 일시 중지되는 새로운 접근 방식으로 전환하는 중입니다. 이러한 변경은 데이터 무결성 및 가시성을 향상시켜 사용자를 위한 보다 원활하고 안정적인 데이터 관리 프로세스를 보장하는 것을 목표로 합니다. 원활한 전환과 운영 중단을 최소화하기 위해 다음 두 단계로 이러한 변경 사항을 구현하고 있습니다.
 
@@ -125,7 +125,6 @@ _전환 지원_
 
 <br>
 
-**LinkedIn 통합에 필요한 작업**
+### linkedIn 통합에 필요한 작업
 
 LinkedIn은 최근 업데이트된 버전의 Lead Sync API를 발표했습니다. 중단을 방지하려면 5월 20일까지 Marketo Measure 인스턴스에서 LinkedIn 연결을 다시 인증하십시오.
-
