@@ -4,7 +4,7 @@ description: 구매자 접점 및 구매자 속성 접점 간의 차이 - [!DNL 
 title: 구매자 접점 및 구매자 속성 접점 간의 차이
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: bdc32fdfe24d57fd7770654f1238896c7b59acf6
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -62,14 +62,14 @@ Buyer Touchpoint에는 첫 번째 터치(FT), 리드 만들기(LC) 또는 양식
 
 일반적으로 고객은 Buyer Touchpoint 데이터를 사용하여 단계 상단 및 단계 중간 참여를 이해합니다. 즉, [!DNL Marketo Measure]명의 사용자가 양식을 제출하는 사용자, 사이트를 보는 사용자, 성과가 좋은 블로그 게시물, 전환으로 이어지는 AdWords 광고 등을 알고 있습니다. Buyer Touchpoint 데이터는 리드 및 연락처의 참여를 이해하는 데 유용합니다.
 
-**Salesforce에서 Buyer Touchpoint은 어떻게 생겼습니까?**
+**Salesforce에서 Buyer Touchpoint의 모습은 어떠합니까?**
 
 다음은 [!DNL Salesforce]의 BT 스크린샷입니다.
 
-![](assets/1.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
 
-**Salesforce에서 Buyer Attribution Touchpoint은 어떻게 생겼습니까?**
+**Salesforce에서 Buyer Attribution Touchpoint의 모습은 어떠합니까?**
 
 다음은 [!DNL Salesforce]의 BAT 스크린샷입니다.
 
-![](assets/2.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
