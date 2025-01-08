@@ -4,7 +4,7 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3ad812a05671f277d3dd3f9bc58e3b2ea3606e71
+source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
 workflow-type: tm+mt
 source-wordcount: '21110'
 ht-degree: 3%
@@ -12135,7 +12135,7 @@ Opportunity 의 Stage 전환
         <p>잠재 고객 생성 터치이므로 이 접점에 할당된 계산된 백분율입니다(Is_Lead_Creation_Touch 참조).</p>
       </td>
       <td>
-        <p>10</p>
+        <p>100</p>
       </td>
     </tr>
     <tr>
@@ -13406,7 +13406,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1
 ```
 
-**한 사람에 대한 전체 여정은 무엇입니까?  (단일 이메일 주소에 대한 모든 터치포인트를 표시합니다.)**
+**한 사람에 대한 전체 여정은 무엇입니까? (단일 이메일 주소에 대한 모든 터치포인트를 표시합니다.)**
 
 ```
 select ut.touchpoint_date
