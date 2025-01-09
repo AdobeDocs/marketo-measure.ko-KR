@@ -1,10 +1,10 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] 활동 통합 - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] 활동 통합"
+description: '[!DNL Marketo Engage] 활동 통합 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Engage]개 활동 통합'
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 0%
@@ -78,7 +78,7 @@ ht-degree: 0%
 
    매핑 가능한 필드:
 
-   * 도시
+   * 구/군/시
    * 국가
    * 지역
    * 랜딩 페이지
@@ -125,7 +125,7 @@ SFDC에 리드 동기화(19)\
 목록에서 제거 (25)\
 SFDC 활동(26)\
 가볍게 반송된 이메일(27)\
-SFDC에서 잠재 고객 삭제 (29)\
+SFDC에서 리드 삭제 (29)\
 리드 병합(32)\
 영업 기회에 추가 (34)\
 영업 기회에서 제거 (35)\
@@ -137,7 +137,7 @@ SFDC에서 잠재 고객 삭제 (29)\
 Sales Email(41) 을 클릭합니다.\
 SFDC 캠페인에 추가(42)\
 SFDC 캠페인에서 제거 (43)\
-SFDC 캠페인의 상태 변경(44)\
+SFDC Campaign에서 상태 변경(44)\
 판매 이메일 수신(45)\
 캠페인 요청(47)\
 반송된 판매 이메일(48)\
@@ -159,9 +159,9 @@ Microsoft에 리드 동기화(300)\
 
 ## 채널 매핑 {#channel-mapping}
 
-프로그램 ID가 있는 활동 유형의 규칙에 대해 프로그램에서 Marketo 프로그램 채널이 결정됩니다. 프로그램 채널을 사용하여 사용자 지정 오프라인 채널에 매핑하므로 채널이 [여기](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)의 지시에 따라 올바르게 구성되었는지 확인해야 합니다.
+프로그램 ID가 있는 활동 유형의 규칙에 대해 프로그램에서 Marketo 프로그램 채널이 결정됩니다. 프로그램 채널을 사용하여 사용자 지정 오프라인 채널에 매핑하므로 채널이 [여기](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}의 지시에 따라 올바르게 구성되었는지 확인해야 합니다.
 
-프로그램 ID가 없는 활동 유형의 규칙에 대해 첫 번째 단계는 캠페인 이름을 만드는 것이었습니다. 이 캠페인 이름을 사용하여 사용자 지정 온라인 채널 [여기에 배치됨](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)을(를) 설정합니다.
+프로그램 ID가 없는 활동 유형의 규칙에 대해 첫 번째 단계는 캠페인 이름을 만드는 것이었습니다. 이 캠페인 이름을 사용하여 사용자 지정 온라인 채널 [여기에 배치됨](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}을(를) 설정합니다.
 
 Marketo 활동에 대한 채널이 제대로 구성되지 않은 경우 새 터치포인트가 &quot;기타&quot; 채널에 해당할 수 있습니다.
 

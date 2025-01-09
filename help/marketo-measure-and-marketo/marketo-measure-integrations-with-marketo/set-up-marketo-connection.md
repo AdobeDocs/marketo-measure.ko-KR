@@ -4,7 +4,7 @@ description: Marketo 연결 설정 - [!DNL Marketo Measure]
 title: Marketo 연결 설정
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Marketo에 대한 연결을 설정하는 방법은 다음과 같습니다.
 
 >[!PREREQUISITES]
 >
->[!DNL Marketo Measure]/Marketo Engage 연결에 대해 [API 전용 사용자 역할을 만듭니다](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html).
+>[!DNL Marketo Measure]/Marketo Engage 연결에 대해 [API 전용 사용자 역할을 만듭니다](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html){target="_blank"}.
 
 1. [!DNL Marketo Measure]에서 **[!UICONTROL My Account]** 드롭다운을 클릭하고 **[!UICONTROL Settings]**&#x200B;을(를) 선택합니다.
 

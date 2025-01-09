@@ -1,10 +1,10 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage]명의 사용자 통합 - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage]명의 사용자 통합"
+description: '[!DNL Marketo Engage]명의 사용자 통합 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Engage]명의 사용자 통합'
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Marketo 사용자 통합을 사용하면 [!DNL Marketo Measure]이(가) Marketo�
 * 프로덕션 Marketo 인스턴스
 * 프로덕션 [!DNL Salesforce] 또는 [!DNL Microsoft Dynamics] 인스턴스
 * 모든 유료 [!DNL Marketo Measure] 구독
-* SOLR이 활성화되었습니다([Marketo 지원](https://nation.marketo.com/t5/Support/ct-p/Support)에 연락하여 활성화하십시오).
+* SOLR이 활성화되었습니다(활성화하려면 [Marketo 지원](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"}에 연결).
 
 ## 작동 방법 {#how-it-works}
 
@@ -71,7 +71,7 @@ Marketo 사용자 다운로드를 도입하면서 [!DNL Marketo Measure]은(는)
    <td><p>createdAt</p></td> 
   </tr> 
   <tr> 
-   <td><p>EMAIL</p></td> 
+   <td><p>이메일</p></td> 
    <td><p>이메일</p></td> 
   </tr> 
   <tr> 

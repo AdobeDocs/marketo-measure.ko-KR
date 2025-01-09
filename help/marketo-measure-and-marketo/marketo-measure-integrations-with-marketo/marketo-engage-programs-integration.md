@@ -1,10 +1,10 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] 프로그램 통합"
+description: '[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Engage] 프로그램 통합'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 ## 요구 사항 {#requirements}
 
 * 프로덕션 Marketo 인스턴스
-* Production Salesforce 또는 Microsoft Dynamics 인스턴스
+* 프로덕션 Salesforce 또는 Microsoft Dynamics 인스턴스
 * 모든 유료 [!DNL Marketo Measure] 구독
 * Marketo People 동기화가 활성화됨([!DNL Marketo Measure] 설정)
 * Marketo 프로그램 사용([!DNL Marketo Measure] 설정)
@@ -99,16 +99,12 @@ Marketo 프로그램의 데이터 가져오기를 통해 비용은 기간 원가
 
 **필드 매핑**
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
+<table><thead>
   <tr> 
    <th>biz_ad_campaigns</th> 
    <th>Marketo</th> 
-  </tr> 
+  </tr></thead>
+<tbody>
   <tr> 
    <td>ID</td> 
    <td>ID</td> 
@@ -118,24 +114,60 @@ Marketo 프로그램의 데이터 가져오기를 통해 비용은 기간 원가
    <td>(API를 통해 프로그램이 여전히 존재하는지 확인)</td> 
   </tr> 
   <tr> 
-   <td><p>이름</p></td> 
+   <td>이름</td> 
    <td>이름</td> 
   </tr> 
  </tbody> 
 </table>
 
-| biz_campaign_members | Marketo |
-|---|---|
-| ID | &quot;MarketoProgramMembership&quot;_ProgramId_Lead Id |
-| MODIFIED_DATE | updatedAt |
-| CREATED_DATE | membershipDate |
-| 리드 ID | Id(목록 멤버십) |
-| LEAD_EMAIL | 이메일(목록 멤버십) |
-| 상태 | progressionStatus |
-| HAS_RESPONDED | 도달 상태 |
-| 캠페인 이름 | programName |
-| 캠페인 ID | programId |
-| CAMPAIGN_TYPE | channel |
+<table><thead>
+  <tr>
+    <th>biz_campaign_members</th>
+    <th>Marketo</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>ID</td>
+    <td>"MarketoProgramMembership"_ProgramId_Lead Id</td>
+  </tr>
+  <tr>
+    <td>MODIFIED_DATE</td>
+    <td>updatedAt</td>
+  </tr>
+  <tr>
+    <td>CREATED_DATE</td>
+    <td>membershipDate</td>
+  </tr>
+  <tr>
+    <td>리드 ID</td>
+    <td>Id(목록 멤버십)</td>
+  </tr>
+  <tr>
+    <td>LEAD_EMAIL</td>
+    <td>이메일(목록 멤버십)</td>
+  </tr>
+  <tr>
+    <td>상태</td>
+    <td>progressionStatus</td>
+  </tr>
+  <tr>
+    <td>HAS_RESPONDED</td>
+    <td>도달 상태</td>
+  </tr>
+  <tr>
+    <td>캠페인 이름</td>
+    <td>programName</td>
+  </tr>
+  <tr>
+    <td>캠페인 ID</td>
+    <td>programId</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_TYPE</td>
+    <td>channel</td>
+  </tr>
+</tbody>
+</table>
 
 ## 쿠키 매핑 {#cookie-mapping}
 
