@@ -4,7 +4,7 @@ description: 사용자 지정 수익 금액 필드 사용 - [!DNL Marketo Measur
 title: 사용자 정의 수익 금액 필드 사용
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
+source-git-commit: 03342bde87b75ab702eea4c63b581479a7e303c1
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -104,6 +104,6 @@ ht-degree: 0%
 
    이 단계를 완료하면 [!UICONTROL custom opportunity] 필드의 새 값을 갖도록 워크플로우를 트리거하기 위해 기회를 업데이트해야 합니다.
 
-   SFDC 내의 데이터 로더를 통해 기회를 실행하여 이를 달성할 수 있습니다. [이 문서](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)에서 데이터 로더를 사용하는 방법에 대한 자세한 내용을 확인하세요.
+   SFDC 내의 데이터 로더를 통해 기회를 실행하여 이를 달성할 수 있습니다. [이 문서](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}에서 데이터 로더를 사용하는 방법에 대한 자세한 내용을 확인하세요.
 
 질문이 있는 경우 주저하지 말고 Adobe 계정 팀(계정 관리자) 또는 [[!DNL Marketo] 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하세요.
