@@ -1,16 +1,16 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Data Integrity 요구 사항 - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] Ultimate Data Integrity 요구 사항'
+description: '[!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
+source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
 workflow-type: tm+mt
 source-wordcount: '1611'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
-# [!DNL Marketo Measure] 궁극적인 데이터 무결성 요구 사항 {#marketo-measure-ultimate-data-integrity-requirement}
+# [!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항 {#marketo-measure-ultimate-data-integrity-requirement}
 
 [!DNL Marketo Measure]은(는) 들어오는 AEP 데이터 세트의 유효성을 검사하여 데이터가 속성에 대해 충분하고 일관성이 있는지 확인합니다. 데이터 무결성 요구 사항을 충족하지 못하면 [!DNL Marketo Measure] 시스템에서 데이터 세트가 거부됩니다. 이 문서에서는 데이터 무결성 요구 사항에 대해 자세히 설명하고 데이터 검사를 위한 쿼리 예를 제공하며 null 값이 있는 필수 필드에 대한 솔루션을 권장합니다.
 
@@ -24,11 +24,11 @@ ht-degree: 15%
     <th>XDM 유형</th>
     <th>데이터 Source 필드</th>
     <th>필수?</th>
-    <th>참고 사항</th>
+    <th>참고</th>
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>계정</strong>(Salesforce, Company 계정 및/또는 Marketo의 명명된 계정)</td>
+      <td colspan="7"><strong>계정</strong>(Salesforce 계정, 회사 계정 및/또는 Marketo의 명명된 계정)</td>
     </tr>
     <tr>
       <td rowspan="6">XDM 비즈니스 계정</td>
@@ -356,7 +356,7 @@ ht-degree: 15%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>직원</strong>(Salesforce 담당자 또는 잠재 고객, Marketo 담당자)</td>
+      <td colspan="7"><strong>사용자</strong>(Salesforce, Marketo의 사용자 연락처 또는 잠재 고객)</td>
     </tr>
     <tr>
       <td>XDM 개별 프로필</td>
@@ -704,7 +704,7 @@ ht-degree: 15%
       <td></td>
       <td>opportunityKey.sourceID</td>
       <td>문자열</td>
-      <td>영업 기회 ID</td>
+      <td>기회 ID</td>
       <td>예</td>
       <td>
         <p>예: - 77777.</p>
@@ -891,7 +891,7 @@ ht-degree: 15%
 
 **기본 통화**: Marketo Measure에서 모든 매출과 비용은 보고 시 기본 통화로 전환됩니다. 전환율이 1인 대상 통화 자체에 대한 날짜 범위가 동일한 레코드가 하나 있어야 합니다(예: USD에서 USD로의 전환).
 
-**전환율**: 각(원본 통화, 대상 통화) 쌍은 서로 다른 날짜 기간에 대해 여러 전환율을 가질 수 있습니다. 요금은 Salesforce DatedConversionRate 개체에 따라 0001-01-01부터 9999-12-31까지의 전체 시간을 포함해야 합니다.
+**전환율**: 각(원본 통화, 대상 통화) 쌍은 서로 다른 날짜 기간에 대해 여러 전환율을 가질 수 있습니다. 이 비율은 Salesforce DatedConversionRate 개체에 따라 0001-01-01부터 9999-12-31까지의 전체 시간 범위를 포함해야 합니다.
 
 **날짜 범위**:
 * (소스 통화, 대상 통화) 환율 세트 (예: 2023-01-01 ~ 2023-02-01 및 2023-01-01 ~ 2024-01-01) 내에는 겹치는 날짜 범위가 없습니다.
@@ -909,7 +909,7 @@ ht-degree: 15%
     <th>XDM 유형</th>
     <th>데이터 Source 필드</th>
     <th>필수?</th>
-    <th>참고 사항</th>
+    <th>참고</th>
   </tr>
   <tbody>
     <tr>
@@ -918,7 +918,7 @@ ht-degree: 15%
     <tr>
       <td rowspan="3">XDM ExperienceEvent</td>
       <td></td>
-      <td>_id</td>
+      <td>_ID</td>
       <td>문자열</td>
       <td>ID</td>
       <td>예</td>
@@ -934,7 +934,7 @@ ht-degree: 15%
     </tr>
     <tr>
       <td></td>
-      <td>timestamp</td>
+      <td>타임스탬프</td>
       <td>date-time</td>
       <td>활동 날짜</td>
       <td>예</td>
@@ -1322,13 +1322,13 @@ select 'addToCampaign campaign instance id', count(*) from marketo_activity wher
 union all
 select 'addToCampaign campaign key', count(*) from marketo_activity where eventType = 'leadOperation.addToCampaign' and leadOperation.addToCampaign.campaignKey.sourceKey is null
 union all
-select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceId is null
+select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceType is null
+select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceType is null
 union all
-select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
+select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
+select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
 ```
