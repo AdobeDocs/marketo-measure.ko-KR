@@ -4,9 +4,9 @@ description: '[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure]
 title: '[!DNL Marketo Engage] 프로그램 통합'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
+source-git-commit: c0fca7f9a91763aeb211973630bbe7a5fd3dc880
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,10 @@ Marketo 프로그램 채널 목록에서 설정 내에서 만든 [!DNL Marketo M
 ## 프로그램 비용 {#program-costs}
 
 Marketo 프로그램의 데이터 가져오기를 통해 비용은 기간 원가에서 자동으로 다운로드되고 Marketo의 보고된 비용은 할당된 달 내내 배포됩니다. 예를 들어 $1000가 2021년 1월에 보고되면 $1000는 31일에 걸쳐 분할됩니다. 비용은 [!DNL Marketo Measure Discover]에서 찾을 수 있습니다.
+
+>[!NOTE]
+>
+>Marketo Measure은 한 달에 하나의 기간 원가 입력만 지원합니다. 모든 비용을 가져오려면 월별 총 비용을 단일 항목으로 합산합니다. 동일한 월에 대한 여러 기간 비용 입력은 지원되지 않습니다.
 
 ## 작동 방법 {#how-it-works}
 
