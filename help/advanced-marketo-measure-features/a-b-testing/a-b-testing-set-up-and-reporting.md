@@ -19,7 +19,7 @@ ht-degree: 0%
 
 잠재 고객, 연락처, 사례 및 기회에 대한 [!DNL Marketo Measure] A/B 테스트 섹션을 추가합니다. [!DNL Marketo Measure] A/B 테스트 통합을 통해 [최적](https://www.optimizely.com/){target="_blank"} 및 [VWO](https://vwo.com/){target="_blank"} 사이트 실험의 매출 영향을 추적할 수 있습니다.
 
-1. 패키지 [!DNL Marketo Measure] v3.9 이상을 사용 중인지 확인하십시오. [!UICONTROL Salesforce] >[!UICONTROL Set Up] > [!UICONTROL Installed packages](으)로 이동하여 이 작업을 수행할 수 있습니다.
+1. 패키지 [!DNL Marketo Measure] v3.9 이상을 사용 중인지 확인하십시오. [!UICONTROL Salesforce] >[!UICONTROL Set Up] > [!UICONTROL Installed packages] (으)로 이동하여 이 작업을 수행할 수 있습니다.
 1. 리드 페이지 레이아웃을 편집하고 **[!DNL Marketo Measure]A/B 테스트** 관련 목록을 페이지에 추가하십시오.
 
    ![](assets/1.png)

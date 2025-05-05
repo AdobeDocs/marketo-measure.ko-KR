@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # [!DNL Marketo Measure] Ultimate 개요 {#marketo-measure-ultimate-overview}
 
-[!DNL Marketo Measure](이전의 Bizible)는 마케터에게 매출을 늘리고 기업 투자 수익률을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 인사이트를 제공합니다. [!DNL Marketo Measure]은(는) 채널 성과를 자동으로 추적 및 보고하여 가장 고객 참여를 유도하는 채널에 대한 가시성을 제공하고 그에 따라 마케팅 지출을 최적화할 수 있는 마케팅 속성 솔루션입니다.
+[!DNL Marketo Measure] (이전의 Bizible)는 마케터에게 매출을 늘리고 기업 투자 수익률을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 인사이트를 제공합니다. [!DNL Marketo Measure]은(는) 채널 성과를 자동으로 추적 및 보고하여 가장 고객 참여를 유도하는 채널에 대한 가시성을 제공하고 그에 따라 마케팅 지출을 최적화할 수 있는 마케팅 속성 솔루션입니다.
 
 [!DNL Marketo Measure Ultimate]에 추가 기능이 포함되어 있습니다.
 

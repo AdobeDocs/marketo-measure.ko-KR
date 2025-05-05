@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 전체 서클에서 [!DNL Marketo Measure](으)로 전환 {#transitioning-to-marketo-measure-from-full-circle}
+# 전체 서클에서 [!DNL Marketo Measure] (으)로 전환 {#transitioning-to-marketo-measure-from-full-circle}
 
-전체 동그라미에서 [!DNL Marketo Measure](으)로 이동하시겠습니까? 넌 혼자가 아니야. 다음은 명심해야 할 가장 큰 고려 사항과 전환을 수행한 다른 고객으로부터 얻은 교훈입니다.
+전체 동그라미에서 [!DNL Marketo Measure] (으)로 이동하시겠습니까? 넌 혼자가 아니야. 다음은 명심해야 할 가장 큰 고려 사항과 전환을 수행한 다른 고객으로부터 얻은 교훈입니다.
 
 ## 캠페인 기반 추적과 다중 Source 추적 비교 {#campaign-based-tracking-vs-multi-source-tracking}
 

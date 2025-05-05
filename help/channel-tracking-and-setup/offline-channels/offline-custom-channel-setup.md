@@ -57,7 +57,7 @@ SFDC 캠페인 유형은 오프라인 채널의 탭에 [!DNL Salesforce] 캠페�
 
 기존 캠페인 유형은 채널 맵에 포함해야 하며 &quot;NULL&quot;을 채널로 추가해야 합니다.
 
-[!DNL Salesforce](으)로 이동하여 포함할 기존 레코드 종류의 수와 특성 및 위의 정보를 기반으로 추가 캠페인을 만들어야 하는지 여부를 결정하십시오. 필요한 정보를 모두 작성했으면 업로드할 준비가 된 것입니다.
+[!DNL Salesforce] (으)로 이동하여 포함할 기존 레코드 종류의 수와 특성 및 위의 정보를 기반으로 추가 캠페인을 만들어야 하는지 여부를 결정하십시오. 필요한 정보를 모두 작성했으면 업로드할 준비가 된 것입니다.
 
 [오프라인 동기화 [!DNL Salesforce] 캠페인  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)에 대해 자세히 알아보세요.
 

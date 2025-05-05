@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 지출 관리 방법 {#spend-management-methods}
 
-지출 데이터는 [!DNL Marketo Measure]을(를) 통한 ROI 보고의 성공에 중요한 요소입니다. 모든 채널 및 하위 채널에서 정확하고 포괄적인 ROI 보고를 수행하려면 [!DNL Marketo Measure](으)로 가져올 적절한 지출 데이터가 있는지 확인해야 합니다.
+지출 데이터는 [!DNL Marketo Measure]을(를) 통한 ROI 보고의 성공에 중요한 요소입니다. 모든 채널 및 하위 채널에서 정확하고 포괄적인 ROI 보고를 수행하려면 [!DNL Marketo Measure] (으)로 가져올 적절한 지출 데이터가 있는지 확인해야 합니다.
 
-지출 데이터를 [!DNL Marketo Measure](으)로 가져오는 방법에는 세 가지가 있습니다. 각 방법은 특정 데이터 입력에서 지출 데이터를 가져오도록 설계된다.
+지출 데이터를 [!DNL Marketo Measure] (으)로 가져오는 방법에는 세 가지가 있습니다. 각 방법은 특정 데이터 입력에서 지출 데이터를 가져오도록 설계된다.
 
 **1개의 API 연결 계정**
 
-API를 통해 [!DNL Marketo Measure]에 연결한 모든 광고 계정에서 ROI 보고를 위해 해당 비용을 자동으로 [!DNL Marketo Measure](으)로 가져옵니다. 연결된 계정을 확인하여 지출을 늘리려면 [!DNL Marketo Measure] 앱으로 이동하여 [!UICONTROL Integrations] 섹션 아래의 [!UICONTROL Connections] 탭을 선택하십시오. API 연결 설정에 대한 자세한 내용은 [통합 광고 플랫폼](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms)을 검토하세요.
+API를 통해 [!DNL Marketo Measure]에 연결한 모든 광고 계정에서 ROI 보고를 위해 해당 비용을 자동으로 [!DNL Marketo Measure] (으)로 가져옵니다. 연결된 계정을 확인하여 지출을 늘리려면 [!DNL Marketo Measure] 앱으로 이동하여 [!UICONTROL Integrations] 섹션 아래의 [!UICONTROL Connections] 탭을 선택하십시오. API 연결 설정에 대한 자세한 내용은 [통합 광고 플랫폼](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms)을 검토하세요.
 
 **2 CRM Campaign 비용 동기화**
 
@@ -40,4 +40,4 @@ iv. 실제 비용(SFDC의 캠페인) 또는 기간 비용(Marketo의 프로그�
 
 이 방법을 사용하면 API 연결 계정 또는 CRM Campaign 비용 동기화에서 다루지 않는 채널 및 하위 채널에 대한 지출 데이터를 [수동으로 업로드](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)할 수 있습니다. [!DNL Marketo Measure] 설정에서 마케팅 지출 섹션으로 이동하여 모든 채널에 대한 CSV 파일을 통해 지출 데이터를 업로드할 수 있습니다.
 
-고객은 [!DNL Marketo Measure]의 특정 설정에 따라 이러한 세 가지 방법을 모두 조합하여 사용하여 지출을 관리할 수 있습니다. 지출을 [!DNL Marketo Measure](으)로 가져오는 방법에는 세 가지가 있으므로 모든 지출 데이터를 포괄적으로 보려면 Discover에 있는 마케팅 지출 보드를 사용하는 것이 좋습니다. 이 보드는 모든 채널과 관련 지출을 볼 수있는 유일한 장소입니다. 마케팅 지출 보드는 지출 데이터에 차이가 있을 수 있는 위치와 ROI 보고를 향상시킬 수 있는 방법을 신속하게 식별하는 데 도움이 될 수 있습니다.
+고객은 [!DNL Marketo Measure]의 특정 설정에 따라 이러한 세 가지 방법을 모두 조합하여 사용하여 지출을 관리할 수 있습니다. 지출을 [!DNL Marketo Measure] (으)로 가져오는 방법에는 세 가지가 있으므로 모든 지출 데이터를 포괄적으로 보려면 Discover에 있는 마케팅 지출 보드를 사용하는 것이 좋습니다. 이 보드는 모든 채널과 관련 지출을 볼 수있는 유일한 장소입니다. 마케팅 지출 보드는 지출 데이터에 차이가 있을 수 있는 위치와 ROI 보고를 향상시킬 수 있는 방법을 신속하게 식별하는 데 도움이 될 수 있습니다.

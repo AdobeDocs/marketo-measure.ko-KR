@@ -21,8 +21,8 @@ ht-degree: 0%
 
 [!DNL Marketo Measure]은(는) 다음 [!DNL Microsoft Dynamics CRM] 버전을 지원합니다.
 
-* [!DNL Microsoft Dynamics 2016](온라인 및 온-프레미스)
-* [!DNL Microsoft Dynamics 365](온라인 및 온-프레미스)
+* [!DNL Microsoft Dynamics 2016] (온라인 및 온-프레미스)
+* [!DNL Microsoft Dynamics 365] (온라인 및 온-프레미스)
 
 연결 및 인증의 경우 [!DNL Marketo Measure]은(는) 다음 ADFS(Active Directory Federated Services) 버전을 지원합니다.
 

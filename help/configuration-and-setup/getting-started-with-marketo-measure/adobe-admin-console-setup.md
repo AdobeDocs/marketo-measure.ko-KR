@@ -53,7 +53,7 @@ Adobe Admin Console에 액세스하면 개요 섹션에 [!DNL Marketo Measure] �
 >
 >[!DNL Marketo Measure] 관리자([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}에서)가 되려면 [!DNL Marketo Measure] 제품 카드 내의 [!DNL Marketo Measure] 제품 프로필에 사용자를 사용자 _및_ 관리자로 추가해야 합니다.
 
-[!DNL Marketo Measure]**에**&#x200B;로그인 중
+[!DNL Marketo Measure]&#x200B;**에**&#x200B;로그인 중
 
 사용자가 제품 프로필에 추가되면 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}에서 **Adobe ID으로 로그인** 옵션을 선택하여 [!DNL Marketo Measure] 인스턴스에 액세스할 수 있습니다.
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 영향을 받는 사용자 {#who-s-affected}
 
-이 설정은 AAD([!DNL Azure Active Directory]) 계정으로 Dynamics CRM을 사용하는 새 [!DNL Marketo Measure] 고객 또는 기존 사용자 이름과 암호에서 OAuth를 사용하여 [!DNL Azure Active Directory](으)로 마이그레이션하려는 고객을 위한 것입니다.
+이 설정은 AAD([!DNL Azure Active Directory]) 계정으로 Dynamics CRM을 사용하는 새 [!DNL Marketo Measure] 고객 또는 기존 사용자 이름과 암호에서 OAuth를 사용하여 [!DNL Azure Active Directory] (으)로 마이그레이션하려는 고객을 위한 것입니다.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ b. 클라이언트 암호는 Azure 포털에서 인증서 및 암호로 응용 �
 
 c. 애플리케이션 ID URI는 대상 웹 API(보안 리소스)의 URL입니다. 앱 ID URL을 찾으려면 Azure 포털에서 [!DNL Azure Active Directory]을(를) 클릭하고 응용 프로그램 등록을 클릭한 다음 응용 프로그램의 설정 페이지를 열고 속성을 클릭합니다. `https://graph.microsoft.com`과(와) 같은 외부 리소스일 수도 있습니다. 일반적으로 Dynamics 인스턴스의 URL입니다.
 
-1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭하면 [!DNL Azure Active Directory](으)로 로그인하라는 메시지가 표시됩니다. 인증에 성공하면 Dynamics 계정이 [!DNL Marketo Measure] 내에서 데이터 공급자로 연결됩니다.
+1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭하면 [!DNL Azure Active Directory] (으)로 로그인하라는 메시지가 표시됩니다. 인증에 성공하면 Dynamics 계정이 [!DNL Marketo Measure] 내에서 데이터 공급자로 연결됩니다.
 
 ## Dynamics 계정 재인증 {#re-authenticating-your-dynamics-account}
 
@@ -130,4 +130,4 @@ c. 애플리케이션 ID URI는 대상 웹 API(보안 리소스)의 URL입니다
 
    ![](assets/re-authenticating-3.png)
 
-1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭하면 [!DNL Azure Active Directory](으)로 로그인하라는 메시지가 표시됩니다. 인증에 성공하면 [!DNL Marketo Measure] 내에 Dynamics 계정이 다시 인증됩니다.
+1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭하면 [!DNL Azure Active Directory] (으)로 로그인하라는 메시지가 표시됩니다. 인증에 성공하면 [!DNL Marketo Measure] 내에 Dynamics 계정이 다시 인증됩니다.

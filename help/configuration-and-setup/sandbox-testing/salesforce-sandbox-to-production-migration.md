@@ -27,7 +27,7 @@ ht-degree: 0%
 ## 2단계: [!DNL Marketo Measure] 앱에서 현재 샌드박스 CRM 연결 삭제 {#delete-the-current-sandbox-crm-connection-in-marketo-measure-app}
 
 * experience.adobe.com/marketo-measure에서 [!DNL Marketo Measure] 응용 프로그램에 로그인합니다.
-* 내 계정 >[!UICONTROL Settings] >[!UICONTROL Connections](으)로 이동
+* 내 계정 >[!UICONTROL Settings] >[!UICONTROL Connections] (으)로 이동
 * SFDC 연결 옆에 있는 휴지통 아이콘을 클릭하여 삭제합니다.
 * 삭제를 확인하는 메시지가 표시됩니다. 프롬프트를 주의 깊게 읽고 삭제 결과를 이해해야 합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 ## 3단계: [!DNL Marketo Measure] 앱에서 프로덕션 CRM 인스턴스 연결 {#connect-the-production-crm-instance-in-marketo-measure-app}
 
 * experience.adobe.com/marketo-measure에서 [!DNL Marketo Measure] 응용 프로그램에 로그인합니다.
-* [!UICONTROL My Account] >[!UICONTROL Settings] > [!UICONTROL Connections](으)로 이동
+* [!UICONTROL My Account] >[!UICONTROL Settings] > [!UICONTROL Connections] (으)로 이동
 * 샌드박스 연결 삭제가 정상적으로 삭제되면 연결이 페이지에서 사라집니다. 그렇지 않으면 연결이 여전히 &quot;삭제 진행 중&quot; 상태로 표시됩니다.
 * &quot;[!UICONTROL Set up New CRM connection]&quot; 클릭
 * &quot;[!UICONTROL Select CRM Connection]&quot; 모달 대화 상자에서 [!DNL Salesforce] 플랫폼 옆의 &quot;[!UICONTROL Connect]&quot; 작업을 클릭하고 &quot;[!UICONTROL Production]&quot; 옵션을 선택합니다

@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}에서 [!DNL Marketo Measure] 계정에 로그인합니다.
 
-1. [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections](으)로 이동합니다.
+1. [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections] (으)로 이동합니다.
 
    ![](assets/4.png)
 

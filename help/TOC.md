@@ -15,19 +15,19 @@ ht-degree: 1%
 # [!DNL Marketo Measure] 도움말 문서 {#using}
 
 + [개요](home.md)
-+ [!DNL Marketo Measure] {#introduction-to-marketo-measure} 소개
++ [!DNL Marketo Measure] 소개 {#introduction-to-marketo-measure}
    + 개요 리소스 {#overview-resources}
       + [마케팅 속성](introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
       + [[!DNL Marketo Measure] 속성 모델](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
       + [[!DNL Marketo Measure] 프레임워크](introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
       + [ [!DNL Marketo Measure] 필드 용어집](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 + [!DNL Marketo Measure] 추적 {#marketo-measure-tracking}
-   + {#setting-up-tracking} 추적 설정 중
+   + 추적 설정 중{#setting-up-tracking}
       + [ [!DNL Marketo Measure] JavaScript 구현을 위한 모범 사례](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [ [!DNL Marketo Measure] 스크립트 추가 중](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Google 태그 관리자를 통해  [!DNL Marketo Measure] 스크립트 추가](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
       + [JavaScript에서 수집한 데이터](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
-      + 다른 양식 공급자 {#adding-marketo-measure-script-to-different-form-providers}에 [!DNL Marketo Measure] 스크립트를 추가하는 중
+      + 다른 양식 공급자에 [!DNL Marketo Measure] 스크립트를 추가하는 중 {#adding-marketo-measure-script-to-different-form-providers}
          + [Pardot에  [!DNL Marketo Measure] JavaScript 추가 중](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Lightbox Forms에  [!DNL Marketo Measure] 스크립트 추가 중](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
          + [Sitecore 페이지에  [!DNL Marketo Measure] 스크립트 추가 중](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-sitecore-pages.md)
@@ -43,7 +43,7 @@ ht-degree: 1%
       + [ [!DNL Marketo Measure] 웹 세션 정의](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [테스트 우수 사례](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
 + 구성 및 설정 {#configuration-and-setup}
-   + [!DNL Marketo Measure] {#getting-started-with-marketo-measure} 시작
+   + [!DNL Marketo Measure] 시작 {#getting-started-with-marketo-measure}
       + [접점 생성 및 매핑](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [속성 매핑 방법론](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
       + [Adobe Admin Console 설정](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
@@ -92,7 +92,7 @@ ht-degree: 1%
          + [이전 데이터 동기화](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [오프라인 캠페인 동기화](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 + API 연결 {#api-connections}
-   + [!DNL Marketo Measure]의 API 연결 {#utilizing-marketo-measures-api-connections} 사용 중
+   + [!DNL Marketo Measure]의 API 연결 사용 중 {#utilizing-marketo-measures-api-connections}
       + [통합 광고 플랫폼](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
       + [통합 권한 개요](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [API 연결 우수 사례](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
@@ -134,7 +134,7 @@ ht-degree: 1%
       + [사용자 지정 수익 금액 활용에 대한 우수 사례](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [사용자 정의 수익 금액 필드 사용](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
       + [데이터 로더를 사용하여  [!DNL Marketo Measure] 사용자 정의 금액 필드 업데이트](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
-   + 속성 {#view-through-attribution}을(를) 통해 보기
+   + 속성을(를) 통해 보기 {#view-through-attribution}
       + [[!DNL Marketo Measure] 속성 FAQ를 통해 보기](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
       + [속성을 통해 Doubleclick Campaign Manager 보기 구성](advanced-marketo-measure-features/view-through-attribution/configuring-doubleclick-campaign-manager-view-through-attribution.md)
    + 접점 필드 {#touchpoint-fields}
@@ -172,8 +172,8 @@ ht-degree: 1%
    + [Adobe Launch와 [!DNL Marketo Measure] 통합](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [도메인 관리](marketo-measure-and-adobe/domain-management.md)
    + [Adobe Experience Cloud 인터페이스 개요](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
-+ [!DNL Marketo Measure] 및 {#marketo-measure-and-dynamics} 동적
-   + [!DNL Marketo Measure] 및 Dynamics {#getting-started-with-marketo-measure-and-dynamics} 시작
++ [!DNL Marketo Measure] 및 동적 {#marketo-measure-and-dynamics}
+   + [!DNL Marketo Measure] 및 Dynamics 시작 {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] 동적 스키마](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
       + [Microsoft Dynamics CRM 설치 안내서](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md)
       + [ [!DNL Dynamics]에 대한 [!DNL Marketo Measure] 수익 워크플로](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-revenue-workflows-for-dynamics.md)
@@ -182,7 +182,7 @@ ht-degree: 1%
    + Dynamics 보고 {#dynamics-reporting}
       + [ [!DNL Dynamics]의 스톡 보고서 및 대시보드](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
 + [!DNL Marketo Measure] 및 Marketo {#marketo-measure-and-marketo}
-   + Marketo {#marketo-measure-integrations-with-marketo}과(와) [!DNL Marketo Measure] 통합
+   + Marketo과(와) [!DNL Marketo Measure] 통합 {#marketo-measure-integrations-with-marketo}
       + [ [!DNL Marketo] 연결 설정](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
       + [Marketo Engage 활동 통합](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
       + [Marketo Engage 사용자 통합](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)

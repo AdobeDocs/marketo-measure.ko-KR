@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] JavaScript을 배포하는 것 외에도  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"}에서 [모든 적절한 도메인을 요청했는지 확인하십시오.
+>[!DNL Marketo Measure] JavaScript을 배포하는 것 외에도  [!DNL Adobe Admin Console][&#128279;](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"}에서 모든 적절한 도메인을 요청했는지 확인하십시오.
 
 [!DNL Marketo Measure]을(를) 시작할 때 다음 두 가지 방법으로 웹 사이트에 [!DNL Marketo Measure] JavaScript을(를) 추가할 수 있습니다.
 
@@ -38,7 +38,7 @@ JavaScript을 페이지의 `<head>`에 하드코딩하면 [!DNL Marketo Measure]
 
 ## Tag Management 시스템즈 {#tag-management-systems}
 
-하드 코딩을 통해 [!DNL Marketo Measure] JavaScript을 추가할 수 없는 경우 다른 옵션은 [!DNL Google Tag Manager](GTM) 또는 Tealium과 같은 Tag Management 시스템을 사용하여 [!DNL Marketo Measure] 스크립트를 추가하는 것입니다.
+하드 코딩을 통해 [!DNL Marketo Measure] JavaScript을 추가할 수 없는 경우 다른 옵션은 [!DNL Google Tag Manager] (GTM) 또는 Tealium과 같은 Tag Management 시스템을 사용하여 [!DNL Marketo Measure] 스크립트를 추가하는 것입니다.
 
 태그 관리 시스템을 사용하여 [!DNL Marketo Measure] JS를 배포하면 스크립트 로드 시간 지연으로 인해 5~10%의 데이터 손실이 발생할 수 있습니다. 기본적으로 태그 관리 도구가 빠르게 로드되지 않으면 [!DNL Marketo Measure] JS도 빠르게 로드되지 않고 첫 번째 레퍼러 정보가 손실될 수 있습니다.
 
@@ -58,7 +58,7 @@ JavaScript을 페이지의 `<head>`에 하드코딩하면 [!DNL Marketo Measure]
 
 서드파티 페이지를 사용하는 경우 [!DNL Marketo Measure] 컨설턴트와 사용 사례에 대해 대화합니다. 일반적으로 필요한 경우 [!DNL Marketo Measure] JavaScript의 사용자 지정 버전을 추가하여 해당 페이지를 추적할 수 있는지 알고 싶을 수 있습니다. 가능하지 않은 경우 CRM Campaign 터치포인트를 통한 추적은 [!DNL Marketo Measure] 컨설턴트와 함께 탐색됩니다.
 
-[!DNL Marketo Measure]이(가) 기여도 분석에 적합하지 않으므로 추적하지 말아야 할 양식이 있습니까? 등록 취소 양식, 고객 로그인 등 이 경우 이 문서](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}의 제외 코드 [을(를) 각 양식에 추가합니다.
+[!DNL Marketo Measure]이(가) 기여도 분석에 적합하지 않으므로 추적하지 말아야 할 양식이 있습니까? 등록 취소 양식, 고객 로그인 등 이 경우 이 문서[&#128279;](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}의 제외 코드 을(를) 각 양식에 추가합니다.
 
 비보안 페이지가 있습니까? 보안/비보안 페이지 간을 탐색하면 추적 세션이 중단되므로 이 둘을 보호해야 합니다.
 

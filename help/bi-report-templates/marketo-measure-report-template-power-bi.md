@@ -22,7 +22,7 @@ Adobe [!DNL Marketo Measure] 보고 템플릿 Power BI 파일을 엽니다.
 
 특정 서버, 웨어하우스 및 스키마 정보는 [!DNL Data Warehouse] 정보 페이지의 [!DNL Marketo Measure] UI에서 찾을 수 있습니다. 이 페이지를 찾는 방법에 대한 지침은 [여기](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}에 자세히 설명되어 있습니다.
 
-QueryFilterStartDate 및 QueryFilterEndDate 매개 변수는 가져온 데이터의 양을 제한하는 데 사용됩니다. 이러한 매개 변수는 [!DNL Snowflake](으)로 전송된 쿼리에서 사용되는 SQL 형식이어야 합니다. 예를 들어 데이터를 지난 2년으로 제한하려면 QueryFilterStartDate는 `dateadd`(year,-2,current_date())가 됩니다. 이러한 매개 변수는 datetime 데이터 형식과 비교되므로 모든 데이터를 현재 시간으로 반환하려면 QueryFilterEndDate에 `dateadd`(day,1,current_date())를 사용하는 것이 좋습니다.
+QueryFilterStartDate 및 QueryFilterEndDate 매개 변수는 가져온 데이터의 양을 제한하는 데 사용됩니다. 이러한 매개 변수는 [!DNL Snowflake] (으)로 전송된 쿼리에서 사용되는 SQL 형식이어야 합니다. 예를 들어 데이터를 지난 2년으로 제한하려면 QueryFilterStartDate는 `dateadd`(year,-2,current_date())가 됩니다. 이러한 매개 변수는 datetime 데이터 형식과 비교되므로 모든 데이터를 현재 시간으로 반환하려면 QueryFilterEndDate에 `dateadd`(day,1,current_date())를 사용하는 것이 좋습니다.
 
 ## 데이터 연결 {#data-connection}
 

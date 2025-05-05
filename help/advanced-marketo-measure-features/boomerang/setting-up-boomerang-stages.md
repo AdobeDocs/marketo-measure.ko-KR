@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 부메랑 스테이지 설정 {#boomerang-stage-setup}
 
-1. [!UICONTROL Stage Mapping](으)로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
+1. [!UICONTROL Stage Mapping] (으)로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
 
    ![](assets/1-2.png)
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 사용자 지정 모델 속성을 사용한 부메랑 단계 설정 {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. [!UICONTROL Stage Mapping](으)로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
+1. [!UICONTROL Stage Mapping] (으)로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
 
    ![](assets/3-1.png)
 

@@ -77,11 +77,11 @@ _등급 &quot;-&quot;(대시 기호)는 시간 제한, 때때로 누락된 프�
 PES를 사용하려면 PES 필드 및 관련 목록을 [!DNL Salesforce]의 해당 페이지 레이아웃에 추가해야 합니다.
 
 1. **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Accounts]** > **[!UICONTROL Page Layout]**(으)로 이동합니다. 그런 다음 편집할 페이지 레이아웃을 선택합니다.
-1. [!UICONTROL Fields](으)로 이동하여 &quot;예측 참여 점수&quot; 필드를 계정 정보 섹션으로 이동하십시오.
+1. [!UICONTROL Fields] (으)로 이동하여 &quot;예측 참여 점수&quot; 필드를 계정 정보 섹션으로 이동하십시오.
 
    ![](assets/1.png)
 
-1. 마지막으로 [!UICONTROL Related Lists](으)로 이동하여 &quot;잠재 고객&quot; 관련 목록을 페이지 레이아웃으로 이동합니다.
+1. 마지막으로 [!UICONTROL Related Lists] (으)로 이동하여 &quot;잠재 고객&quot; 관련 목록을 페이지 레이아웃으로 이동합니다.
 
    ![](assets/2.png)
 

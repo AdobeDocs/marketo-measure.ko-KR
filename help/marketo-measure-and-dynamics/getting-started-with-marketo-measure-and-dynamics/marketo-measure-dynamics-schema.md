@@ -17,7 +17,7 @@ ht-degree: 23%
 >
 >설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-[!DNL Marketo Measure](으)로 시작하는 데 필요한 Dynamics 스키마는 다음과 같습니다. 필요한 읽기 및/또는 쓰기 권한과 함께 모든 엔티티와 필드가 나열됩니다.
+[!DNL Marketo Measure] (으)로 시작하는 데 필요한 Dynamics 스키마는 다음과 같습니다. 필요한 읽기 및/또는 쓰기 권한과 함께 모든 엔티티와 필드가 나열됩니다.
 
 ## 구매자 접점 {#buyer-touchpoints}
 

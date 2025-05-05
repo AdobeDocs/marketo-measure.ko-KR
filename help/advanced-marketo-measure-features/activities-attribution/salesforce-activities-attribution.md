@@ -72,11 +72,11 @@ ht-degree: 1%
 >
 >다음으로 시작( 아웃바운드&#42; )
 >
-포함( &#42;아웃바운드&#42;)
+>포함( &#42;아웃바운드&#42;)
 >
-다음으로 끝남( &#42;아웃바운드 )
+>다음으로 끝남( &#42;아웃바운드 )
 >
-와일드카드는 기본적으로 &quot;같음&quot;을 의미하지 않으므로 필요에 따라 사용하십시오.
+>와일드카드는 기본적으로 &quot;같음&quot;을 의미하지 않으므로 필요에 따라 사용하십시오.
 
 | **연산자** | **사용 사례** |
 |---|---|
@@ -93,4 +93,4 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
-[활동 속성 FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[활동 속성 FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-[!DNL Marketo Measure]이(가) [!DNL Salesforce](SFDC)에 설치되면 여러 사용자 지정 [!DNL Marketo Measure] 개체가 추가됩니다. 이 문서에서는 이러한 사용자 지정 [!DNL Marketo Measure] 개체에 대한 설명을 제공합니다. [!DNL Marketo Measure]에서 [!DNL Salesforce]에 추가하는 일부 개체는 다음과 같습니다.
+[!DNL Marketo Measure]이(가) [!DNL Salesforce] (SFDC)에 설치되면 여러 사용자 지정 [!DNL Marketo Measure] 개체가 추가됩니다. 이 문서에서는 이러한 사용자 지정 [!DNL Marketo Measure] 개체에 대한 설명을 제공합니다. [!DNL Marketo Measure]에서 [!DNL Salesforce]에 추가하는 일부 개체는 다음과 같습니다.
 
 * [Buyer Touchpoint](#touchpoint)
 * [Buyer Attribution Touchpoint](#attribution)
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
-[!UICONTROL Buyer Touchpoint](BT) 개체는 개인의 마케팅 스토리를 알려줍니다. 여기에는 리드 및 연락처에서 생성된 마케팅 터치포인트와 관련된 모든 데이터가 포함됩니다. BT는 터치포인트의 출처 또는 해당 특정 리드/연락처를 웹 사이트로 가져온 광고 캠페인과 같은 정보를 보여 줍니다.
+[!UICONTROL Buyer Touchpoint] (BT) 개체는 개인의 마케팅 스토리를 알려줍니다. 여기에는 리드 및 연락처에서 생성된 마케팅 터치포인트와 관련된 모든 데이터가 포함됩니다. BT는 터치포인트의 출처 또는 해당 특정 리드/연락처를 웹 사이트로 가져온 광고 캠페인과 같은 정보를 보여 줍니다.
 
 BT 개체는 리드 및 연락처 페이지에 **관련 목록**(아래 이미지 참조)으로 표시됩니다.
 

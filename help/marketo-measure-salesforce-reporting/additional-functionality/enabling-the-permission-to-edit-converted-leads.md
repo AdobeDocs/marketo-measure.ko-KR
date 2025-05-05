@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Salesforce]에서 전환된 잠재 고객 레코드를 편집할 수 있는 권한을 활성화하는 방법을 알아봅니다. [!DNL Marketo Measure]은(는) Salesforce의 다양한 개체에 데이터를 푸시할 수 있습니다. Leads 로 푸시할 때 일부 시나리오에서 이미 전환된 Lead 레코드로 다시 푸시해야 할 수 있습니다. 해당 레코드에 데이터를 푸시하려면 연결된 사용자에게 프로필 수준에서 전환된 리드를 보고 편집할 수 있는 권한이 있어야 합니다.
 
-1. [!UICONTROL Setup](으)로 이동하고 [!UICONTROL Manage Users] 그룹화를 확장하여 프로필을 선택합니다.
+1. [!UICONTROL Setup] (으)로 이동하고 [!UICONTROL Manage Users] 그룹화를 확장하여 프로필을 선택합니다.
 
    ![](assets/1-2.png)
 

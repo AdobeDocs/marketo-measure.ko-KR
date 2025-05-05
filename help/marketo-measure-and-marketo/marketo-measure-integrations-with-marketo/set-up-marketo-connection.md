@@ -47,7 +47,7 @@ Marketo에 대한 연결을 설정하는 방법은 다음과 같습니다.
 
    ![](assets/set-up-marketo-connection-7.png)
 
-1. [!DNL Marketo Measure](으)로 돌아가서 수집한 데이터로 필드를 채웁니다.
+1. [!DNL Marketo Measure] (으)로 돌아가서 수집한 데이터로 필드를 채웁니다.
 
    ![](assets/set-up-marketo-connection-8.png)
 

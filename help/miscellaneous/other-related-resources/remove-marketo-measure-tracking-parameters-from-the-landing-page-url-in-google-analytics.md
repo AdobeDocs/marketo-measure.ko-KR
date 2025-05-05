@@ -17,7 +17,7 @@ ht-degree: 0%
 
 다행히도, 이것은 쉬운 해결책이다.
 
-1. [!DNL Google Analytics]에서 [!UICONTROL Admin] >[!UICONTROL View Settings] >[!UICONTROL Exclude URL Query Parameters](으)로 이동합니다.
+1. [!DNL Google Analytics]에서 [!UICONTROL Admin] >[!UICONTROL View Settings] >[!UICONTROL Exclude URL Query Parameters] (으)로 이동합니다.
 1. 상자에 &quot;_bt,_bk,_bm,_bn,_bg&quot;를 입력합니다(따옴표 제외).
 1. 아래로 스크롤하여 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
