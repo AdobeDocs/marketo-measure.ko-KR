@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## Adobe Admin Console 및 ID 공급자 설정 {#set-up-your-adobe-admin-console-and-identity-provider}
 
-Adobe 세트 내의 제품으로서 [!DNL Marketo Measure]은(는) Identity Management용 Adobe Admin Console의 모든 기능을 사용합니다. [여기에서 ](https://helpx.adobe.com/enterprise/using/admin-console.html)개의 리소스를 더 찾을 수 있습니다.
+Adobe 세트 내의 제품으로서 [!DNL Marketo Measure]은(는) Identity Management용 Adobe Admin Console의 모든 기능을 사용합니다. [여기에서 ](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)개의 리소스를 더 찾을 수 있습니다.
 
-[Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html)에서 사용할 수 있는 리소스, 모범 사례 및 옵션을 검토하는 것이 좋습니다.
+[Identity Management](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)에서 사용할 수 있는 리소스, 모범 사례 및 옵션을 검토하는 것이 좋습니다.
 
 Adobe Admin Console 내에서 Identity Management 설정에 대한 지침과 검토를 보려면 [!DNL Marketo Measure] 계정 담당자에게 문의하십시오.
 
@@ -47,7 +47,7 @@ Adobe Admin Console에 액세스하면 개요 섹션에 [!DNL Marketo Measure] �
 | 관리자 | [!DNL Marketo Measure]별 구성 옵션을 업데이트하고 관리할 수 있는 모든 기능을 갖춘 [!DNL Marketo Measure] 응용 프로그램의 관리자 및 고급 사용자입니다. |
 | 사용자 | [!DNL Marketo Measure] 응용 프로그램 내에서 읽기 전용 권한이 있는 [!DNL Marketo Measure] 응용 프로그램의 표준 사용자입니다. |
 
-사용자를 해당 그룹에 추가하면 [ID 유형이 나열됩니다](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+사용자를 해당 그룹에 추가하면 [ID 유형이 나열됩니다](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html).
 
 >[!NOTE]
 >

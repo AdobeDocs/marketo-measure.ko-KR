@@ -49,7 +49,7 @@ Marketo Measure은 이메일 주소, Salesforce 리드 ID 또는 Salesforce 연�
    <td><p>Marketo</p></td> 
    <td><p>{{lead.Email Address}} </p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td> 
-   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html</p></td> 
+   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=ko</p></td> 
   </tr> 
   <tr> 
    <td><p>파르도</p></td> 

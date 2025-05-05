@@ -22,11 +22,11 @@ Adobe Launch에 설치 및 구성할 때 [!DNL Marketo Measure] 확장은 Adobe 
 >
 >Adobe Launch 및 그 확장에 대한 자세한 내용은 다음 링크를 확인하십시오.
 >
->* [[!DNL Marketo Measure] 확장](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
->* [Adobe 시작 개요](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
->* [Adobe 실행 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+>* [[!DNL Marketo Measure] 확장](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=ko#catalog){target="_blank"}
+>* [Adobe 시작 개요](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=ko){target="_blank"}
+>* [Adobe 실행 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=ko){target="_blank"}
 
-1. 이 문서의 [단계](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}에 따라 속성을 만듭니다.
+1. 이 문서의 [단계](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=ko#go-to-the-data-collection-interface){target="_blank"}에 따라 속성을 만듭니다.
 
 1. 생성한 속성을 클릭합니다.
 

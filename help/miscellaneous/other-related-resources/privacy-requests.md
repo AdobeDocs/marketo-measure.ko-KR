@@ -16,10 +16,10 @@ ht-degree: 0%
 
 다음 두 가지 방법으로 [!DNL Marketo Measure]에서 소비자 데이터에 액세스하고 삭제하도록 개별 요청을 제출할 수 있습니다.
 
-* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}을 통해.
-* **[!DNL Privacy Service]API를 통해**. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} 및 API 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}를 참조하세요.
+* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ko){target="_blank"}을 통해.
+* **[!DNL Privacy Service]API를 통해**. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko){target="_blank"} 및 API 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}를 참조하세요.
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}은(는) 데이터 액세스 요청과 데이터 삭제, 이렇게 두 가지 유형의 요청을 지원합니다.
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target="_blank"}은(는) 데이터 액세스 요청과 데이터 삭제, 이렇게 두 가지 유형의 요청을 지원합니다.
 
 액세스 및 삭제 요청을 만드는 방법을 살펴보겠습니다.
 

@@ -50,9 +50,9 @@ ht-degree: 0%
 다음은 두 개의 비디오입니다    속도를 높이는 데 도움이 됩니다.
 
 * [[!DNL Marketo Measure] 소개 교육](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?)(22분)
-* [[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)(30-45분)
+* [[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)(30-45분)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)(~30분)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)(~30분)**
 
 이 교육 과정 시리즈는 [!DNL Marketo Measure]을(를) 마스터하기 위해 알아야 하는 기본 개념에 대한 일반적인 소개로 설계되었습니다. 속성 개념, [!DNL Marketo Measure]이(가) 도구로 수행하는 작업 및 [!DNL Marketo Measure]이(가) 작동하는 일반 프레임워크에 대한 소개를 제공합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 * 접점
 * 속성 모델
 
-**[[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)(30~45분)**
+**[[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)(30~45분)**
 
 이 교육 과정 시리즈는 Salesforce에 설치된 [!DNL Marketo Measure] 스톡 보고서에 대한 소개로 설계되었습니다. 이러한 보고서는 [!DNL Marketo Measure] 데이터로 수행하는 대부분의 보고를 위한 기초 역할을 합니다.
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 * ID별 기회 보고서
 * 채널별 기회 보고서
 
-**[채널 관리](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
+**[채널 관리](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)**
 
 이 과정에서는 온라인 및 오프라인 추적 측면에서 [!DNL Marketo Measure]을(를) 사용자 지정할 수 있는 다양한 방법을 다룹니다. 이 교육 과정은 보다 고급이며 모든 사용자와 관련이 없을 수 있습니다.
 
@@ -89,4 +89,4 @@ ht-degree: 0%
 * 캠페인 및 캠페인 멤버 필드
 * 오프라인 채널 관리
 
-모든 [초급 전자 학습 동영상](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)입니다.
+모든 [초급 전자 학습 동영상](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)입니다.

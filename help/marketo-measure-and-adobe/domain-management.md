@@ -20,7 +20,7 @@ Adobe Admin Console에 대한 액세스 권한이 있는 IMS 사용자는 자신
 
 ![](assets/domain-management-1.png)
 
-도메인 추가 지침은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/using/add-domains-directories.html)에서 찾을 수 있습니다. 도메인이 추가되면 [디렉터리에 연결](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies)되어야 합니다.
+도메인 추가 지침은 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/using/add-domains-directories.html)에서 찾을 수 있습니다. 도메인이 추가되면 [디렉터리에 연결](https://helpx.adobe.com/kr/enterprise/using/add-domains-directories.html#link-domains-to-directoies)되어야 합니다.
 
 ## [!DNL Marketo Measure]에서 도메인 관리 {#managing-domains-in-marketo-measure}
 
