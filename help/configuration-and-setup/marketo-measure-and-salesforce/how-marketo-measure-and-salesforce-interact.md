@@ -4,9 +4,9 @@ description: ' [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법
 title: ' [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+source-git-commit: ec5172286951f482905f97268f33f063d1860694
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1287'
 ht-degree: 17%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 [!DNL Marketo Measure]과(와) Salesforce 간의 관계를 자세히 살펴보겠습니다.
 
-## Salesforce 및 [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
+## Salesforce 및 [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
 [!DNL Marketo Measure] 계정이 만들어지고 [!DNL Salesforce]이(가) 연결되면 [!DNL Marketo Measure] 관리 패키지가 설치되어 있고 [!DNL Marketo Measure] Salesforce 사용자에게 편집 권한이 있는 한 [!DNL Marketo Measure]은(는) 마케팅 데이터를 CRM 인스턴스로 푸시하기 시작합니다.
 
@@ -449,7 +449,19 @@ ht-degree: 17%
    <td>유형</td> 
    <td>표준</td> 
    <td>x</td> 
-   <td><br></td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>시작 날짜</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>종료일</td> 
+   <td>표준</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr>
   <tr> 
    <td>이름</td> 
@@ -583,7 +595,7 @@ ht-degree: 17%
 >* 작업
 
 
-## [!DNL Salesforce]의 사용자 지정 개체 [!DNL Marketo Measure]개 {#marketo-measure-custom-objects-in-salesforce}
+## [!DNL Salesforce]의 사용자 지정 개체 [!DNL Marketo Measure]개  {#marketo-measure-custom-objects-in-salesforce}
 
 SFDC의 표준 개체에 사용자 지정 필드를 만드는 것 외에도 [!DNL Marketo Measure] 패키지가 설치되면 두 개의 사용자 지정 개체가 만들어집니다. 다음은 이러한 사용자 지정 개체 목록과 [!DNL Marketo Measure]이(가) 쓸 필드를 나타내는 표입니다.
 
