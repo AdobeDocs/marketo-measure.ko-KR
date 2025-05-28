@@ -4,9 +4,9 @@ description: 속성 매핑 방법 - [!DNL Marketo Measure]
 title: 속성 매핑 방법론
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
+source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 단점: 어떤 것에 대해 크레딧을 받아야 하는지 정의하는 강력한 마케팅 및 판매 SLA가 있는 경우 이 방법은 문제가 될 수 있습니다. 또한 고객이 계정 계층을 사용하여 더 큰 계정(예: IBM) 내에서 특정 비즈니스 단위를 정의하지 않는 경우 한 비즈니스 단위에 특정한 마케팅 상호 작용이 다른 비즈니스 단위 기회에 확산될 수 있습니다.
 
 ## 영업 기회 연락처 역할 매핑 {#opportunity-contact-role-mapping}
+
+>[!NOTE]
+>
+>연락처 역할 매핑 방법은 Salesforce을 CRM으로 사용하는 경우에만 사용할 수 있습니다. 해당 CRM 내에 연락처 역할 개체가 없기 때문에 Microsoft Dynamics 사용자에게는 사용할 수 없습니다.
 
 대부분의 클라이언트가 계정 ID 매핑을 사용하는 동안 [!DNL Marketo Measure]은(는) Opportunity 내에서 연락처 역할(Opportunity에 연결된 연락처)을 조회하여 속성 프로세스를 분류할 수 있습니다. 즉, [!DNL Marketo Measure]이(가) 구매자 속성 터치포인트로서 영업 기회에서 연락처 역할과 연결된 마케팅 상호 작용만 푸시합니다. 다음은 이 프로세스를 나타내는 것입니다.
 
