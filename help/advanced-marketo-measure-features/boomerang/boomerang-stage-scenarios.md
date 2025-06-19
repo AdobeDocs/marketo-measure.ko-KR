@@ -4,9 +4,9 @@ description: 부메랑 단계 시나리오 - [!DNL Marketo Measure]
 title: 부메랑 단계 시나리오
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
@@ -79,23 +79,7 @@ SQL 단계가 부메랑 단계가 아닌 사용자 지정 단계로 추적됩니
 
 잠재 고객 2와 3이 연락처로 전환되면 [!DNL Marketo Measure]이(가) 다른 OC 접점을 만들지 않습니다. 영업 기회 생성 단계는 하나만 있을 수 있기 때문입니다.
 
-**시나리오 2 -[!UICONTROL Three Leads with Opportunity]**
-
-이 시나리오에서는 고객이 부메랑 접점을 사용하여 **MQL**, **SQL** 및 **SAL** 단계를 추적하도록 선택했습니다.
-
-Lead 1 의 모든 터치포인트는 FT 부터 SAL-01( 마지막 ) 까지 Opportunity에 포함됩니다. 리드 2의 LC 터치포인트는 Opportunity에서 LC와 MQL-01 터치포인트 사이에 Form 터치포인트로 포함됩니다.
-
-![](assets/5.png)
-
-리드 2의 MQL-01(마지막)이 Opportunity에서 MQL-04(마지막) 터치포인트가 됩니다. 이 시나리오는 하나의 Opportunity 내에서 여러 Lead 의 여정을 살펴보는 것이므로 Opportunity에서 Lead 의 Touchpoint 로 Translate 될 때 Lead 의 Touchpoint 의 Position 과 Numbering 이 변경될 수 있습니다. 마찬가지로 리드 2의 SQL-01(마지막)은 Opp의 SQL-04(마지막)가 됩니다. Lead 2 의 SAL-01 (Last) 도 Opportunity 의 SAL-02 (Last) 가 됩니다.
-
-Opportunity 에는 SAL 터치포인트가 2 개만 포함되어 있습니다. [!DNL Marketo Measure]은(는) 단계 전환이 발생하지 않은 경우 터치포인트를 강제/만들지 않습니다.
-
-리드 3의 터치포인트 여정은 OC 터치가 발생하기 바로 전에 시작되지만 리드 1과 리드 2가 FT 및 LC 터치를 한 지 오래되었습니다. 이 경우 리드 3의 FT 및 LC는 Opportunity에서 Form 터치포인트로 표시됩니다. 그런 다음 Lead 1은 Opportunity가 있는 Contact로 변환되며, 이는 OC 터치로 간주됩니다.
-
-리드 3의 MQL, SQL 및 SAL 터치는 모두 OC 터치 후 동시에 발생합니다. OC 접점 이후에 발생하였기 때문에 이 접점은 부메랑 단계 전환이 아닌 Opportunity에 대한 Form/Middle Touch로 나타날 것이다.
-
-**시나리오 2a - 웹 방문 부메랑 터치포인트**
+**시나리오 2 - 웹 방문 부메랑 터치포인트**
 
 이 시나리오에서는 고객이 부메랑 접점을 사용하여 **MQL**, **SQL** 및 **SAL** 단계를 추적하도록 선택했습니다. 이 시나리오는 몇 가지 예외를 제외하고 위의 시나리오와 거의 동일합니다.
 
