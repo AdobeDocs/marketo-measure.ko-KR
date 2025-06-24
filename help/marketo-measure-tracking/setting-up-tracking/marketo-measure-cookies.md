@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874590
-description: "[!DNL Marketo Measure] 쿠키 - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] 쿠키"
+description: '[!DNL Marketo Measure] 쿠키 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] 쿠키'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 4%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>타사, 도메인=.<a href="http://bizibly.com/">bizibilly.com</a></td>
+    <td>타사, 도메인=.<a href="https://bizibly.com/">bizibilly.com</a></td>
     <td>임차인의 도메인에 있는 Marketo Measure 쿠키 ID와 해당 Doubleclick 노출 쿠키 ID 간의 매핑.</td>
     <td>1년</td>
     <td>예</td>
@@ -116,6 +116,6 @@ ht-degree: 4%
 </tbody>
 </table>
 
-JavaScript 설정 중에 WAF(Web Application Firewall) 경고가 트리거되는 경우, 사용자는 아래 예와 같이 해당 WAF 규칙을 비활성화하거나 쿠키를 허용 목록 할 수 있습니다.
+JavaScript 설정 중에 웹 애플리케이션 방화벽(WAF) 경고가 트리거되면 사용자는 아래 예와 같이 해당 WAF 규칙을 비활성화하거나 쿠키를 허용 목록 할 수 있습니다.
 
 ![](assets/marketo-measure-cookies-1.png)

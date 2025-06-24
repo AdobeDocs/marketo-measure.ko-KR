@@ -4,10 +4,10 @@ description: 마케팅 채널 및 하위 채널 - [!DNL Marketo Measure]
 title: 마케팅 채널 및 하위 채널
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 1%
+source-wordcount: '448'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 사이트에서 컨텐츠 페이지(해당 컨텐츠가 웹 페이지, 백서 다운로드, 페이지 URL 등이든)에 대한 방문자를 받을 때마다 리드는 URL에 있는 여러 UTM 매개 변수를 기반으로 채널/하위 채널에 &quot;그룹화됩니다.
 
-* 미디엄
+* 보통
 * 소스
 * Campaign
 * 랜딩 페이지
@@ -39,15 +39,15 @@ UTM 매개 변수를 기반으로 리드가 포함될 &quot;버킷&quot;을 사�
 
 **하위 채널**
 
-하위 채널은 들어오는 리드를 그룹화할 때 퍼즐의 두 번째 조각입니다. 하위 채널은 마케팅 채널의 정확히 _어느_ 반복이 사용되었는지에 대한 스토리를 전달합니다. 예를 들어 유료 소셜 마케팅 채널 내에는 **AdWords**, **BingAds**, **Facebook** 등에 대한 하위 채널이 있을 수 있습니다. 일반적으로 하위 채널은 URL에 있는 utm_source 매개 변수 값에 해당합니다.
+하위 채널은 들어오는 리드를 그룹화할 때 퍼즐의 두 번째 조각입니다. 하위 채널은 마케팅 채널의 정확히 _어느_ 반복이 사용되었는지에 대한 스토리를 전달합니다. 예를 들어 유료 소셜 마케팅 채널 내에서 **AdWords**, **BingAds**, **Facebook** 등에 대한 하위 채널이 있을 수 있습니다. 일반적으로 하위 채널은 URL에 있는 utm_source 매개 변수 값에 해당합니다.
 
 ## 사용 사례 예 {#use-case-example}
 
 아래 다이어그램은 다음 URL을 사용하는 웹 페이지를 기반으로 하는 마케팅 채널, 하위 채널 및 컨텐츠의 예를 보여 줍니다.
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial)*
+`http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial`
 
-이 경우 사용자가 액세스하려는 콘텐츠는 B2B 마케팅 속성에 대한 소개 안내서입니다. [!DNL Marketo Measure]은(는) 이 조직에 설정된 채널 규칙을 사용하여 이 콘텐츠로 이어지는 URL을 분석하고 이를 사용하여 마케팅 채널 &quot;유료 소셜&quot; 및 하위 채널 &quot;LinkedIn&quot;로 이어지는 &quot;버킷&quot;을 만듭니다.
+이 경우 사용자가 액세스하려는 콘텐츠는 B2B 마케팅 속성에 대한 소개 안내서입니다. [!DNL Marketo Measure]은(는) 이 조직에 설정된 채널 규칙을 사용하여 이 콘텐츠로 이어지는 URL을 분석하고 이를 사용하여 마케팅 채널 &quot;유료 소셜&quot; 및 하위 채널 &quot;LinkedIn&quot;으로 이어지는 &quot;버킷&quot;을 만듭니다.
 
 ![](assets/1.jpg)
 
