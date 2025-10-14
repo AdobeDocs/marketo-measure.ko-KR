@@ -50,11 +50,11 @@ CRM 패키지 설정은 초기 구현 중에 포함되지만 1년에 한 번 CRM
 
 >[!NOTE]
 >
->Marketo Measure에서 Salesforce로 데이터 내보내기를 비활성화하면 기존 데이터가 삭제되지 않습니다. 제거하려면 [이 Salesforce 도움말 문서](https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}의 단계를 따르십시오.
+>Marketo Measure에서 Salesforce로 데이터 내보내기를 비활성화하면 기존 데이터가 삭제되지 않습니다. 제거하려면 [이 Salesforce 도움말 문서](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}의 단계를 따르십시오.
 
 >[!MORELIKETHIS]
 >
 >* [Buyer Touchpoint 패키지 업데이트](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] 권한 집합](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [보고서 및 대시보드 폴더 공유](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0)
+>* [보고서 및 대시보드 폴더 공유](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 >* [Marketo Measure을 Salesforce에 연결](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

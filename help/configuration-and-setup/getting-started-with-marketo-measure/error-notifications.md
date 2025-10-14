@@ -30,7 +30,7 @@ ht-degree: 0%
       <td>API 비활성화(_D)</td>
       <td>CRM 가져오기 중 오류 발생 : API_DISABLED : 이 사용자에 대해 API 호출이 비활성화되었습니다.</td>
       <td>Marketo Measure 사용자에 대해 API 권한이 비활성화되었습니다.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API 액세스를 활성화하는 방법</a>에 대한 다음 Salesforce 설명서를 참조하십시오.</td>
+      <td><a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">API 액세스를 활성화하는 방법</a>에 대한 다음 Salesforce 설명서를 참조하십시오.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -79,7 +79,7 @@ ht-degree: 0%
       오브젝트에 대한 권한이 없습니다.</td>
       <td>삽입/업데이트 실패의 원인이 되는 트리거 코드를 검토합니다. 트리거에 대한 자세한 내용은 다음 Salesforce 설명서를 참조하십시오.
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Apex 트리거</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&type=5">Apex 트리거</a>
           </li>
           <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">흐름 트리거</a>
           </li>
@@ -92,7 +92,7 @@ ht-degree: 0%
       <td>DUPLICATES_DETECTED</td>
       <td>CRM 내보내기 중 오류 발생: DUPLICATES_DETECTED : 엔티티 유형 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: 중복 레코드를 만들고 있습니다. 대신 기존 레코드를 사용하는 것이 좋습니다. 레코드 ID: 0123456</td>
       <td>Salesforce 조직으로 가져오는 레코드가 이미 있습니다.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">중복을 허용하려면 "중복 규칙" 설정을 사용하지 않도록 설정</a>하세요.
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">중복을 허용하려면 "중복 규칙" 설정을 사용하지 않도록 설정</a>하세요.
           <p>
           <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.</td>
     </tr>
@@ -100,7 +100,7 @@ ht-degree: 0%
       <td>DUPLEX_VALUE</td>
       <td>CRM 내보내기 중 오류 발생: DUPLICATE_VALUE : 엔티티 유형 'Lead': CRM 오류 코드: DUPLICATE_VALUE, CRM 오류 메시지: 중복 값 발견: Email_Unique__c 중복 값 (ID: 123, RecordId: 456)</td>
       <td>Salesforce 조직으로 가져오는 필드에서 중복 값을 허용하지 않습니다.</td>
-      <td>Salesforce에서 <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"고유 확인란"</a>의 선택을 취소합니다.
+      <td>Salesforce에서 <a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">"고유 확인란"</a>의 선택을 취소합니다.
           <p>
           <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.</td>
     </tr>
@@ -120,7 +120,7 @@ ht-degree: 0%
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>CRM 내보내기 중 오류 발생: FIELD_FILTER_VALIDATION_EXCEPTION : 엔티티 유형 'Lead': CRM 오류 코드: FIELD_FILTER_VALIDATION_EXCEPTION, 필드: User__C, CRM 오류 메시지: 값이 없거나 필터 조건과 일치하지 않습니다. "계정 담당자, Inside Sales" 역할을 가진 사용자를 선택하십시오. 레코드 ID: 0123456</td>
       <td>수정된 레코드가 개체에 정의된 조회 필터를 더 이상 충족하지 않습니다.</td>
-      <td>Marketo Measure이 수정하려는 개체에서 필터를 확인합니다. 개체에 대한 필터를 확인하는 방법은 <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">이 Salesforce 문서</a>를 참조하세요.</td>
+      <td>Marketo Measure이 수정하려는 개체에서 필터를 확인합니다. 개체에 대한 필터를 확인하는 방법은 <a href="https://help.salesforce.com/s/articleView?id=000384756&type=1">이 Salesforce 문서</a>를 참조하세요.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -129,7 +129,7 @@ ht-degree: 0%
       <td>가장 일반적인 사례는 주/국가 필드가 특정 선택 목록 값만 수락하도록 표준화되었기 때문에 Salesforce 조직에 설정된 주/국가 이름 지정 표준을 따르지 않는 것입니다. 이 문제를 해결하려면 다음을 수행할 수 있습니다.
         <ul>
           <li>레코드를 업데이트하여 해당 필드에 대해 조직에서 수락한 값을 따릅니다. SFDC 관리자에게 문의하여 허용되는 값 목록을 받으십시오.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">주/국가 선택 목록을 사용하지 않도록 설정</a>.
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&type=5">주/국가 선택 목록을 사용하지 않도록 설정</a>.
           </li>
         </ul>
       </td>
@@ -138,7 +138,7 @@ ht-degree: 0%
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>CRM 내보내기 중 오류 발생: INACTIVE_OWNER_OR_USER : 엔티티 유형 'Contact': CRM 오류 코드: INACTIVE_OWNER_OR_USER, CRM 오류 메시지: 비활성 사용자 [1234]을(를) 연락처 소유자로 사용하여 수행된 작업, 레코드 ID: 0123456</td>
       <td>Marketo Measure에 "비활성 소유자로 레코드 업데이트" 권한이 없습니다.</td>
-      <td>Marketo Measure에 "<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">비활성 소유자로 레코드 업데이트</a>" 권한을 부여합니다.</td>
+      <td>Marketo Measure에 "<a href="https://help.salesforce.com/s/articleView?id=000386699&type=1">비활성 소유자로 레코드 업데이트</a>" 권한을 부여합니다.</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
@@ -255,7 +255,7 @@ ht-degree: 0%
       <td>업데이트하는 레코드가 Salesforce 조직에 설정된 유효성 검사 규칙을 충족하지 않습니다.</td>
       <td><a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">사용자 지정 유효성 검사 규칙</a>에서 Marketo Measure 전용 사용자를 제외하십시오.
       <p>
-      <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">유효성 검사 규칙</a>을 업데이트합니다.</td>
+      <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5">유효성 검사 규칙</a>을 업데이트합니다.</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>

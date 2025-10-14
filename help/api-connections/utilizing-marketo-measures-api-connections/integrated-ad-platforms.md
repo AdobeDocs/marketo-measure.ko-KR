@@ -101,7 +101,7 @@ Google URL 빌더는 UTM 태그를 사용하여 올바른 형식의 URL을 작�
 
 **EpikOne에서 생성한 Google 스프레드시트**
 
-이 스프레드시트에는 태그가 지정된 대상 URL을 자동으로 생성하는 공식이 있습니다. 많은 링크에 태그를 지정해야 하는 경우 사용할 수 있는 좋은 도구입니다. 스프레드시트 [여기](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}에 액세스합니다.
+이 스프레드시트에는 태그가 지정된 대상 URL을 자동으로 생성하는 공식이 있습니다. 많은 링크에 태그를 지정해야 하는 경우 사용할 수 있는 좋은 도구입니다. 스프레드시트 [여기](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"}에 액세스합니다.
 
 **Rafflecopter 링크 태그 지정 도구**
 

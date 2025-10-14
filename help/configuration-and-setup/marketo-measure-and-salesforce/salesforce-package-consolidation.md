@@ -57,7 +57,7 @@ ht-degree: 0%
 
 **현재 패키지에서 데이터를 채우려면 어떻게 해야 합니까?**
 
-터치포인트 ID 및 양식 ID 필드를 채우기 위한 BT/BAT 데이터 다시 채우기 및 재처리에 대해 [지원으로 ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 티켓을 제출할 수 있습니다.
+터치포인트 ID 및 양식 ID 필드를 채우기 위한 BT/BAT 데이터 다시 채우기 및 재처리에 대해 [지원으로 &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 티켓을 제출할 수 있습니다.
 
 **V1 및 V2_EXT 패키지의 필드를 통합 패키지에서 사용할 수 있습니까?**
 

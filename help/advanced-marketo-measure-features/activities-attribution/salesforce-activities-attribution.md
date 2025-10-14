@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ![](assets/5.png)
 
-이러한 새로운 접점을 적절한 [마케팅 채널](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20채널){target="_blank"}에 배치할 수 있습니다. 방금 만든 새 캠페인 매핑으로 채널을 정의하여 이 작업을 수행합니다.
+이러한 새로운 접점을 적절한 [마케팅 채널](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20채널){target="_blank"}에 배치할 수 있습니다. 방금 만든 새 캠페인 매핑으로 채널을 정의하여 이 작업을 수행합니다.
 
 >[!TIP]
 >
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 ![](assets/6.png)
 
-마지막으로, 새 채널에 대한 비용을 입력할 수 있습니다. [마케팅 지출 업로드](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spent){target="_blank"}를 통해 채널 수준, 하위 채널 수준 또는 캠페인 수준에서 지출을 입력할 수 있습니다. 새 [!DNL Marketo Measure] 캠페인을 사용하면 월별로 이러한 관련 비용을 추가한 다음 각 캠페인에 대한 ROI를 확인할 수 있습니다.
+마지막으로, 새 채널에 대한 비용을 입력할 수 있습니다. [마케팅 지출 업로드](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spent){target="_blank"}를 통해 채널 수준, 하위 채널 수준 또는 캠페인 수준에서 지출을 입력할 수 있습니다. 새 [!DNL Marketo Measure] 캠페인을 사용하면 월별로 이러한 관련 비용을 추가한 다음 각 캠페인에 대한 ROI를 확인할 수 있습니다.
 
 ![](assets/7.png)
 

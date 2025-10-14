@@ -44,4 +44,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[목록 보기 인라인 편집과 관련된 일반적인 문제 해결](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[목록 보기 인라인 편집과 관련된 일반적인 문제 해결](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

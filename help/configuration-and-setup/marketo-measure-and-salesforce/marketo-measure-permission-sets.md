@@ -35,7 +35,7 @@ Salesforce에서 권한 집합에 액세스하고 할당하려면 다음을 수�
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] 관리자</strong></span></td> 
-   <td><span>SFDC 관리자에게 [!DNL Marketo Measure] 개체에서 레코드를 만들고, 읽고, 쓰고, 삭제할 수 있는 기능을 제공합니다. [!DNL Marketo Measure]이(가) 데이터를 SFDC로 푸시하는 라이선스에는 이 사용 권한 집합이 활성화되어 있어야 합니다. 또한 이 라이선스에는 [!DNL Marketo Measure]이(가) 레코드에 데이터를 적용하기 전에 잠재 고객이 전환되는 시나리오에서 전환된 잠재 고객을 편집할 수 있는 기능이 있는 것이 좋습니다. 이렇게 하면 Salesforce와 [!DNL Marketo Measure] 간 보고의 정확성을 보장할 수 있습니다. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">자세한 내용</a>.</span></td> 
+   <td><span>SFDC 관리자에게 [!DNL Marketo Measure] 개체에서 레코드를 만들고, 읽고, 쓰고, 삭제할 수 있는 기능을 제공합니다. [!DNL Marketo Measure]이(가) 데이터를 SFDC로 푸시하는 라이선스에는 이 사용 권한 집합이 활성화되어 있어야 합니다. 또한 이 라이선스에는 [!DNL Marketo Measure]이(가) 레코드에 데이터를 적용하기 전에 잠재 고객이 전환되는 시나리오에서 전환된 잠재 고객을 편집할 수 있는 기능이 있는 것이 좋습니다. 이렇게 하면 Salesforce와 [!DNL Marketo Measure] 간 보고의 정확성을 보장할 수 있습니다. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">자세한 내용</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] 마케팅 사용자</strong></span></td> 

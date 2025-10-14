@@ -32,13 +32,13 @@ ht-degree: 0%
 * [SFDC 캠페인을 구매자 터치포인트와 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [마케팅 비용 업로드](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [광고 계정 다시 연결](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-* [ [!DNL Marketo Measure] JavaScript 추가 중](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+* [&#x200B; [!DNL Marketo Measure] JavaScript 추가 중](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
    * [Forms 제외](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **보고**
 
-* [ [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)을(를) 사용하여 사용자 지정 보고서 유형 만들기(사용자 지정 리드/연락처/영업 기회 필드에 대해 보고해야 하는 경우)
-* [ [!DNL Marketo Measure] 필드 용어집](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+* [&#x200B; [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)을(를) 사용하여 사용자 지정 보고서 유형 만들기(사용자 지정 리드/연락처/영업 기회 필드에 대해 보고해야 하는 경우)
+* [&#x200B; [!DNL Marketo Measure] 필드 용어집](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **문제 해결**
 

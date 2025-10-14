@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Adobe Admin Console 및 ID 공급자 설정 {#set-up-your-adobe-admin-console-and-identity-provider}
 
-Adobe 세트 내의 제품으로서 [!DNL Marketo Measure]은(는) Identity Management용 Adobe Admin Console의 모든 기능을 사용합니다. [여기에서 ](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)개의 리소스를 더 찾을 수 있습니다.
+Adobe 세트 내의 제품으로서 [!DNL Marketo Measure]은(는) Identity Management용 Adobe Admin Console의 모든 기능을 사용합니다. [여기에서 &#x200B;](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)개의 리소스를 더 찾을 수 있습니다.
 
 [Identity Management](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)에서 사용할 수 있는 리소스, 모범 사례 및 옵션을 검토하는 것이 좋습니다.
 

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 * 전환된 잠재 고객 사용 권한 집합 보기 및 편집
 
-이를 통해 [!DNL Marketo Measure]이(가) 연락처로 전환된 후 리드를 장식할 수 있습니다. 이 권한 집합을 활성화하지 않으면 상당한 데이터 추적 간격이 발생할 수 있습니다. [[!DNL Salesforce Trailblazer] 커뮤니티](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5)에서 자세한 정보를 찾을 수 있습니다.
+이를 통해 [!DNL Marketo Measure]이(가) 연락처로 전환된 후 리드를 장식할 수 있습니다. 이 권한 집합을 활성화하지 않으면 상당한 데이터 추적 간격이 발생할 수 있습니다. [[!DNL Salesforce Trailblazer] 커뮤니티](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5)에서 자세한 정보를 찾을 수 있습니다.
 
 * [!DNL Salesforce] 마케팅 사용자 확인란
 

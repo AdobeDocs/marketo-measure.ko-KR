@@ -154,5 +154,5 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
 
 * [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
 * [ID ping](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&sys_id=b2c91143db109700d5505eea4b9619d5)
 * [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
