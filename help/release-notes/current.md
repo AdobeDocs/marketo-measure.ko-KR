@@ -24,13 +24,13 @@ ht-degree: 0%
 
 신규 고객의 경우 이제 세션 채널 이월이 기본 동작입니다. 기존 고객은 설정 > 모든 터치 속성에서 세션 채널 이월 토글을 켜서 이 기능을 활성화할 수 있습니다. 활성화되면 이 설정을 취소할 수 없습니다.
 
-설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### 키워드 ROI 대시보드
 
 새로운 키워드 ROI 대시보드는 유료 검색 캠페인의 성과에 대한 자세한 통찰력을 제공하며 키워드 수준의 비용, 속성 수익, 생성된 리드 및 기회에 대한 포괄적인 보기를 제공합니다. 이 대시보드는 Google Adwords, LinkedIn 및 Bing Ads 등에서 각 키워드의 ROI를 평가하는 데 도움이 됩니다.
 
-설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### 향상된 세그먼트 규칙
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ### 미리 알림: Salesforce 필드 사용 중단 - 6월 14일
 
-작년에 발표된 대로 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없도록 [리드/연락처 개체로의 내보내기 작업을 단계적으로 중단](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}할 예정입니다. [여기에 기록됨](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}단계를 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다. 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
+작년에 발표된 대로 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없도록 [리드/연락처 개체로의 내보내기 작업을 단계적으로 단계적으로 중단](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}할 예정입니다. [여기에 기록됨](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}단계를 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다. 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
 
 이 변경은 다음과 같은 두 가지 주요 이점을 제공합니다.
 
@@ -80,9 +80,9 @@ ht-degree: 0%
 
 ### Marketo Measure Ultimate용 Marketo Engage 쿠키 동기화
 
-이제 Marketo Measure Ultimate에서 Marketo Engage 쿠키 동기화를 사용할 수 있습니다. 이 기능을 사용하려면 다음 작업을 수행하십시오.
+이제 Marketo Engage Ultimate에 Marketo Measure 쿠키 동기화를 사용할 수 있습니다. 이 기능을 사용하려면 다음 작업을 수행하십시오.
 
-1. AEP 스키마 페이지에서 B2B 개인 스키마를 편집하고 필드 그룹 &quot;개인 세부 정보 Marketo Engage&quot;를 추가합니다.
+1. AEP 스키마 페이지에서 B2B 개인 스키마를 편집하고 필드 그룹 &quot;Marketo Engage 개인 세부 정보&quot;를 추가합니다.
 1. MMU로 데이터를 수집할 때 필드 그룹의 쿠키 ID 필드를 Marketo Engage의 쿠키 필드에 매핑합니다.
 
 ### 계층 2 고객을 위해 활성화된 부메랑 단계
@@ -125,6 +125,6 @@ _전환 지원_
 
 <br>
 
-### linkedIn 통합에 필요한 작업
+### LinkedIn 통합에 필요한 작업
 
-LinkedIn은 최근 업데이트된 버전의 Lead Sync API를 발표했습니다. 중단을 방지하려면 5월 20일까지 Marketo Measure 인스턴스에서 LinkedIn 연결을 다시 인증하십시오.
+LinkedIn이 최근 Lead Sync API의 업데이트된 버전을 릴리스했습니다. 중단을 방지하려면 5월 20일까지 Marketo Measure 인스턴스에서 LinkedIn 연결을 다시 인증하십시오.

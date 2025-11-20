@@ -20,11 +20,11 @@ ht-degree: 5%
       + [마케팅 속성](introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
       + [[!DNL Marketo Measure] 속성 모델](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
       + [[!DNL Marketo Measure] 프레임워크](introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
-      + [&#x200B; [!DNL Marketo Measure] 필드 용어집](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+      + [ [!DNL Marketo Measure] 필드 용어집](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 + [!DNL Marketo Measure] 추적 {#marketo-measure-tracking}
    + 추적 설정 {#setting-up-tracking}
-      + [&#x200B; [!DNL Marketo Measure] JavaScript 구현을 위한 모범 사례](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
-      + [&#x200B; [!DNL Marketo Measure] 스크립트 추가 중](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+      + [ [!DNL Marketo Measure] JavaScript 구현을 위한 모범 사례](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
+      + [ [!DNL Marketo Measure] 스크립트 추가 중](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Google 태그 관리자를 통해  [!DNL Marketo Measure] 스크립트 추가](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
       + [JavaScript에서 수집한 데이터](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + 다른 양식 공급자에 [!DNL Marketo Measure] 스크립트를 추가하는 중 {#adding-marketo-measure-script-to-different-form-providers}
@@ -40,7 +40,7 @@ ht-degree: 5%
          + [IFrame Forms 및 [!DNL Marketo Measure]](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/iframe-forms-and-marketo-measure.md)
       + [특정 Forms에서  [!DNL Marketo Measure] 개 제외](marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
       + [[!DNL Marketo Measure] 쿠키](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
-      + [&#x200B; [!DNL Marketo Measure] 웹 세션 정의](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
+      + [ [!DNL Marketo Measure] 웹 세션 정의](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [테스트 우수 사례](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
 + 구성 및 설정 {#configuration-and-setup}
    + [!DNL Marketo Measure] 시작 {#getting-started-with-marketo-measure}
@@ -55,17 +55,17 @@ ht-degree: 5%
       + [[!DNL Marketo Measure] Salesforce 패키지 설치 및 설정](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
       + [[!DNL Salesforce] 패키지 통합](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [Salesforce에  [!DNL Marketo Measure] 연결](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
-      + [&#x200B; [!DNL Marketo Measure] CRM 패키지 모범 사례](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
+      + [ [!DNL Marketo Measure] CRM 패키지 모범 사례](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure]개의 Salesforce 개체](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
       + [CRM 내보내기에 대한 오류 처리](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
-      + [&#x200B; [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
+      + [ [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] 개체 및 필드 분류법](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
       + [Standard[!DNL Marketo Measure]개체의  [!DNL Salesforce] 개 필드](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
       + [페이지 레이아웃 지침](configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
       + [불필요한 보고서 유형 숨기기](configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
-      + [&#x200B; [!DNL Marketo Measure] 프로필 만들기](configuration-and-setup/marketo-measure-and-salesforce/creating-a-marketo-measure-profile.md)
+      + [ [!DNL Marketo Measure] 프로필 만들기](configuration-and-setup/marketo-measure-and-salesforce/creating-a-marketo-measure-profile.md)
       + [[!DNL Marketo Measure]개의 권한 집합](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
-      + [&#x200B; [!DNL Salesforce] 연결된 사용자에 대해  [!DNL Marketo Measure] 권한 권장](configuration-and-setup/marketo-measure-and-salesforce/recommended-salesforce-permissions-for-marketo-measure-connected-user.md)
+      + [ [!DNL Salesforce] 연결된 사용자에 대해  [!DNL Marketo Measure] 권한 권장](configuration-and-setup/marketo-measure-and-salesforce/recommended-salesforce-permissions-for-marketo-measure-connected-user.md)
    + 샌드박스 테스트 {#sandbox-testing}
       + [Salesforce 샌드박스와  [!DNL Marketo Measure] 통합 테스트](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
       + [Salesforce 샌드박스에서 프로덕션으로 마이그레이션](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
@@ -87,7 +87,7 @@ ht-degree: 5%
       + 이전 프로세스 {#legacy-processes}
          + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
          + [Campaign 동기화 날짜](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
-         + [&#x200B; [!DNL Salesforce] 캠페인에 대한 캠페인 목록 보기 만들기](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [ [!DNL Salesforce] 캠페인에 대한 캠페인 목록 보기 만들기](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
          + [Dynamics 캠페인 및 마케팅 목록](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
          + [이전 데이터 동기화](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [오프라인 캠페인 동기화](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
@@ -100,7 +100,7 @@ ht-degree: 5%
       + [[!DNL Marketo Measure] 매개 변수](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
       + [Facebook Api](api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
       + [[!DNL LinkedIn] 통합](api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
-      + [&#x200B; [!DNL Marketo Measure] AdWords 태그 지정 이해](api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
+      + [ [!DNL Marketo Measure] AdWords 태그 지정 이해](api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
       + [연결된 계정 재인증](api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 + 마케팅 지출 {#marketing-spend}
    + 지출 관리 {#spend-management}
@@ -144,7 +144,7 @@ ht-degree: 5%
       + [계정 기반 마케팅 개요](advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)
    + A/B 테스트 {#a-b-testing}
       + [A/B 테스트 설정 및 보고](advanced-marketo-measure-features/a-b-testing/a-b-testing-set-up-and-reporting.md)
-      + [&#x200B; [!DNL Marketo Measure] A/B 테스트 통합 구성](advanced-marketo-measure-features/a-b-testing/configuring-the-marketo-measure-a-b-test-integration.md)
+      + [ [!DNL Marketo Measure] A/B 테스트 통합 구성](advanced-marketo-measure-features/a-b-testing/configuring-the-marketo-measure-a-b-test-integration.md)
    + 채팅 통합 {#chat-integration}
       + [드리프트 통합 FAQ](advanced-marketo-measure-features/chat-integration/drift-integration-faq.md)
    + 다중 통화 {#multi-currency}
@@ -177,13 +177,13 @@ ht-degree: 5%
       + [[!DNL Marketo Measure] 동적 스키마](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
       + [Microsoft Dynamics CRM 설치 안내서](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md)
       + [[!DNL Marketo Measure]에 대한  [!DNL Dynamics] 수익 워크플로](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-revenue-workflows-for-dynamics.md)
-      + [&#x200B; [!DNL Dynamics] CRM용 Azure Active Directory가 있는 OAuth](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md)
+      + [ [!DNL Dynamics] CRM용 Azure Active Directory가 있는 OAuth](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md)
       + [[!DNL Marketo Measure] 및 Dynamics 분류법](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-and-dynamics-taxonomy.md)
    + Dynamics 보고 {#dynamics-reporting}
-      + [&#x200B; [!DNL Dynamics]의 스톡 보고서 및 대시보드](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
+      + [ [!DNL Dynamics]의 스톡 보고서 및 대시보드](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
 + [!DNL Marketo Measure] 및 Marketo {#marketo-measure-and-marketo}
    + Marketo과 [!DNL Marketo Measure] 통합 {#marketo-measure-integrations-with-marketo}
-      + [&#x200B; [!DNL Marketo] 연결 설정](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
+      + [ [!DNL Marketo] 연결 설정](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
       + [Marketo Engage 활동 통합](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
       + [Marketo Engage 사용자 통합](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)
       + [Marketo Engage 프로그램 통합](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md)
@@ -215,7 +215,7 @@ ht-degree: 5%
 + 보안 및 규정 준수 {#security-and-compliance}
    + 규정 준수 관련 리소스 {#compliance-related-resources}
       + [데이터 다운로드 액세스 제어 검색](security-and-compliance/compliance-related-resources/discover-data-download-access-control.md)
-      + [&#x200B; [!DNL Marketo Measure] Js에서 GDPR에 대한 동의 확인](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
+      + [ [!DNL Marketo Measure] Js에서 GDPR에 대한 동의 확인](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
       + [보안 세션 제한: IP 주소 허용 목록](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [[!DNL Marketo Measure] Ultimate 개요](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
@@ -229,7 +229,7 @@ ht-degree: 5%
       + [호출 추적 통합](miscellaneous/other-related-resources/call-tracking-integration.md)
       + [Google Analytics 전환과 Buyer Touchpoint의 차이점](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
       + [이메일 추적 매개 변수](miscellaneous/other-related-resources/email-tracking-parameter.md)
-      + [&#x200B; [!DNL Salesforce] 지원에 대한  [!DNL Marketo Measure] 액세스 권한 부여](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
+      + [ [!DNL Salesforce] 지원에 대한  [!DNL Marketo Measure] 액세스 권한 부여](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
       + [개인 정보 보호 요청](miscellaneous/other-related-resources/privacy-requests.md)
       + [Google Analytics의 랜딩 페이지 URL에서  [!DNL Marketo Measure] 추적 매개 변수 제거](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [전체 서클에서  [!DNL Marketo Measure] 로 전환](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
