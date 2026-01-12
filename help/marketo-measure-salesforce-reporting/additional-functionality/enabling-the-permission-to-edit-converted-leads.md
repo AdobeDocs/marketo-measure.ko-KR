@@ -17,16 +17,16 @@ ht-degree: 0%
 
 1. [!UICONTROL Setup]&#x200B;(으)로 이동하고 [!UICONTROL Manage Users] 그룹화를 확장하여 프로필을 선택합니다.
 
-   ![ 2](assets/1-2.png)
+   ![&#x200B; 2](assets/1-2.png)
 
 1. 연결된 사용자의 프로필 을 선택합니다.
 
 1. 전환된 리드를 보고 편집할 수 있는 권한을 검색합니다.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. 변환된 리드를 보고 편집할 수 있는 권한을 활성화하려면 상자를 선택합니다.
 
-   ![ 1](assets/3-1.png)
+   ![&#x200B; 1](assets/3-1.png)
 
 그리고 넌 끝났어!

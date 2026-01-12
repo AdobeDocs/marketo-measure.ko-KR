@@ -24,7 +24,7 @@ Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 
 >[!NOTE]
 >구독 중인 Adobe Experience Cloud 제품에 따라 드롭다운 메뉴가 다르게 보일 수 있습니다.
 
-Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measure]https://experience.adobe.com/marketo-measure[에서 ](https://experience.adobe.com/marketo-measure)에 직접 로그인하십시오.
+Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measure]https://experience.adobe.com/marketo-measure[에서 &#x200B;](https://experience.adobe.com/marketo-measure)에 직접 로그인하십시오.
 
 ## 새로운 기능 {#new-features}
 

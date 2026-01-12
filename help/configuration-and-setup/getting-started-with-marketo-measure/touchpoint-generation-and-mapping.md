@@ -46,8 +46,8 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 > [온라인 터치포인트를  [!DNL Marketo Measure] 채널/하위 채널에 매핑](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 > [SFDC](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md) 내에서 CRM 캠페인 동기화
-> [ [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 내에서 CRM 캠페인 동기화 중
-> [ [!DNL Marketo Measure] 채널/하위 채널](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)에 CRM 캠페인 매핑
+> [&#x200B; [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 내에서 CRM 캠페인 동기화 중
+> [&#x200B; [!DNL Marketo Measure] 채널/하위 채널](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)에 CRM 캠페인 매핑
 > [영업 활동에서 터치포인트를 만드는 중](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
 > [활동 FAQ 및 채널/하위 채널에 활동 접점 매핑](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
 

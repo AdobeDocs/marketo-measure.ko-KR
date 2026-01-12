@@ -25,11 +25,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Layout Template]**&#x200B;를 선택합니다.
 
-   ![ 3](assets/1-3.png)
+   ![&#x200B; 3](assets/1-3.png)
 
 1. 적절한 레이아웃 템플릿을 결정하고 오른쪽에 있는 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. [!DNL Marketo Measure] JavaScript 코드를 복사하여 HTML 페이지의 닫기 헤더 태그 바로 앞에 붙여넣습니다.
 

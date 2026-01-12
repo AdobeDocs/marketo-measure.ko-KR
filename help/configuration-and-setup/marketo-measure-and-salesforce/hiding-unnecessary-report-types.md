@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. 아래 표시된 보고서 목록을 아래 이미지와 동일하게 표시하려면 주황색 X로 표시된 보고서를 클릭하십시오.
 
-   ![ 4](assets/1-4.png)
+   ![&#x200B; 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
 >[Salesforce - 사용하지 않는 보고서 유형 숨기기](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

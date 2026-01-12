@@ -36,7 +36,7 @@ ht-degree: 0%
 
 업로드 날짜는 회의 날짜보다 3주 늦습니다. 이 차이를 해결하기 위해 [!UICONTROL Bulk Update Touchpoint Date] 단추를 사용하여 적절한 날짜를 설정할 수 있습니다. 버튼은 아래 이미지에 나와 있습니다.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 이 경우 업로드 날짜가 3주 채워집니다. &quot;[!UICONTROL Enable Buyer Touchpoints]&quot; 필드를 설정하기 전에 이 단계를 수행해야 합니다.
 
@@ -47,17 +47,17 @@ ht-degree: 0%
 >[!CAUTION]
 >터치포인트 날짜를 _이전_&#x200B;로 업데이트하세요. 모든 캠페인 멤버에 대해 터치포인트를 사용하도록 설정해야 합니다.
 
-![ 3](assets/2-3.png)
+![&#x200B; 3](assets/2-3.png)
 
 ## Campaign을 만들고 구매자 터치포인트를 동기화하는 방법 {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 [!DNL Salesforce]에서 캠페인을 만들려면 [!UICONTROL Campaigns] 탭으로 이동하여 아래 그림과 같이 &#39;[!UICONTROL New]&#39;을(를) 선택하십시오. [!DNL Salesforce] 설정에 따라 더하기(+) 아이콘을 클릭하여 상단 표시줄에 캠페인을 추가해야 할 수 있습니다.
 
-![ 3](assets/3-3.png)
+![&#x200B; 3](assets/3-3.png)
 
 이 캠페인을 만들 때 &quot;[!UICONTROL Enable Buyer Touchpoints]&quot; 필드를 클릭하고 선택 목록에서 다음 옵션 중 하나를 선택합니다.
 
-![ 3](assets/4-3.png)
+![&#x200B; 3](assets/4-3.png)
 
 * **모든 캠페인 멤버 포함**
    * 이 옵션을 사용하면 [!DNL Marketo Measure]에서 각 캠페인 멤버에 터치포인트를 지정할 수 있습니다.

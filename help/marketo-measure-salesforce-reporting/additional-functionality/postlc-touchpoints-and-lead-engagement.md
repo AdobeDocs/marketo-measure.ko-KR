@@ -35,7 +35,7 @@ PostLC 터치포인트는 동적입니다. 리드 또는 연락처가 PostLC 양
 
 **리드**
 
-1. [!DNL Marketo Measure]experience.adobe.com/marketo-measure[에서 ](https://experience.adobe.com/marketo-measure){target="_blank"} 계정에 로그인하고 [!UICONTROL Settings]&#x200B;(으)로 이동합니다.
+1. [!DNL Marketo Measure]experience.adobe.com/marketo-measure[에서 &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} 계정에 로그인하고 [!UICONTROL Settings]&#x200B;(으)로 이동합니다.
 
 1. CRM에서 **[!UICONTROL Leads]**&#x200B;을(를) 선택합니다.
 
@@ -45,7 +45,7 @@ PostLC 터치포인트는 동적입니다. 리드 또는 연락처가 PostLC 양
 
 **연락처**
 
-1. [!DNL Marketo Measure]experience.adobe.com/marketo-measure[에서 ](https://experience.adobe.com/marketo-measure){target="_blank"} 계정에 로그인하고 [!UICONTROL Settings]&#x200B;(으)로 이동합니다.
+1. [!DNL Marketo Measure]experience.adobe.com/marketo-measure[에서 &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} 계정에 로그인하고 [!UICONTROL Settings]&#x200B;(으)로 이동합니다.
 
 1. CRM에서 **[!UICONTROL Contacts]**&#x200B;을(를) 선택합니다.
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!NOTE]
 >설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-[!DNL Marketo Measure] 보고서를 작성하기 전에 보고서 내의 데이터가 정확하고 비즈니스의 특성을 반영하도록 [!DNL Marketo Measure] 계정 설정을 검토하고 구성했는지 확인하는 것이 가장 중요합니다. 또한 보고 프로젝트는 구조화된 프로세스를 따를 때 가장 잘 작동합니다. [!DNL Marketo Measure]Perkuto[의 ](https://perkuto.com/){target="_blank"} 파워 유저, 지지자 및 파트너인 Justin Norris는 [보고에 접근하는 방법 [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}을 전문적으로 요약했습니다.
+[!DNL Marketo Measure] 보고서를 작성하기 전에 보고서 내의 데이터가 정확하고 비즈니스의 특성을 반영하도록 [!DNL Marketo Measure] 계정 설정을 검토하고 구성했는지 확인하는 것이 가장 중요합니다. 또한 보고 프로젝트는 구조화된 프로세스를 따를 때 가장 잘 작동합니다. [!DNL Marketo Measure]Perkuto[의 &#x200B;](https://perkuto.com/){target="_blank"} 파워 유저, 지지자 및 파트너인 Justin Norris는 [보고에 접근하는 방법 [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}을 전문적으로 요약했습니다.
 
 **목표 설정**: &quot;첫 번째 질문은 &#39;왜 측정합니까?&#39;입니다. [Forrester Research](https://go.forrester.com/)의 Lori Wizdo가 [Marketo 웨비나](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/){target="_blank"}에서 이를 잘 요약했습니다. 그녀에 따르면, &#39;우리는 의사 결정 또는 마케팅의 가치를 증명하거나 검증하거나 더 나은 (프로세스 개선) 얻을 수 있도록 측정합니다.&#39; 좋은 측정의 통찰력은 마케팅 계획 프로세스에 대한 입력과 지침도 제공한다는 점을 추가할 것입니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 1. **구매자 접점**(BT)/개인/총 참여
 
    * _개인_(잠재 고객, 연락처, [!DNL Marketo Measure]명)과 관련된 &#39;funnel 상위&#39;(TOFU) 지표 및 보고에 일반적으로 사용됩니다.
-   * BT는 각 사용자에 대한 전체 접점 기록이 포함되어 있으므로 **사람**과 관련된 모든 마케팅 상호 작용을 이해하는 데 사용됩니다. 다시 말해서 이러한 터치포인트는 익명의 첫 번째 터치, 잠재 고객 만들기 터치 및 동기화하기로 선택한 후속 양식 제출 또는 터치포인트용 CRM에서 만들어집니다
+   * BT는 각 사용자에 대한 전체 접점 기록이 포함되어 있으므로 **사람**&#x200B;과 관련된 모든 마케팅 상호 작용을 이해하는 데 사용됩니다. 다시 말해서 이러한 터치포인트는 익명의 첫 번째 터치, 잠재 고객 만들기 터치 및 동기화하기로 선택한 후속 양식 제출 또는 터치포인트용 CRM에서 만들어집니다
 오프라인 캠페인 또는 활동.
 
 1. **구매자 속성 접점**(BAT)/기회/계정 수준/매출

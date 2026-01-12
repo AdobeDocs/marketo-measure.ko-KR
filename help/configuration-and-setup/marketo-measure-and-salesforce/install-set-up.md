@@ -42,7 +42,7 @@ ht-degree: 0%
 
    ![Salesforce에 설치된 Marketo Measure 패키지 세부 정보 페이지](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-설치를 완료한 후 원하는 경우 [[!DNL Salesforce]  필드로 ](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"}페이지 레이아웃[!DNL Marketo Measure]을 업데이트할 수 있습니다.
+설치를 완료한 후 원하는 경우 [[!DNL Salesforce]  필드로 &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"}페이지 레이아웃[!DNL Marketo Measure]을 업데이트할 수 있습니다.
 
 >[!NOTE]
 >만들어진 [!DNL Marketo Measure]개의 권한 집합 및 [사용 방법](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}에 대해 읽어 보십시오.

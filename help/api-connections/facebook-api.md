@@ -44,7 +44,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
 >[!NOTE]
 >자동 태그 지정을 활성화하면 태그 지정하는 모든 광고의 전환 내역과 소셜 증명이 재설정됩니다. 자동 태그 지정을 활성화하기 전에 [이 데이터를 CSV로 내보내기](https://www.facebook.com/business/help/205067636197240)하는 것이 좋습니다.
 
-![ 2](assets/2-2.png)
+![&#x200B; 2](assets/2-2.png)
 
 통합을 활성화하면 [!DNL Marketo Measure]이(가) 광고 수준 비용을 [!DNL Marketo Measure Marketing ROI] 대시보드로 다운로드하기 시작합니다.
 
@@ -70,7 +70,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr>
   <tr>
    <td><p>광고 캠페인 이름 </p></td>
-   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign](제공된 경우)</p></td>
+   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>광고 그룹 ID</p></td>
@@ -82,11 +82,11 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr>
   <tr>
    <td><p>터치포인트 Source</p></td>
-   <td><p>"[!DNL Facebook]" 또는 [utm_source](제공된 경우)</p></td>
+   <td><p>"[!DNL Facebook]" 또는 [utm_source] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>보통</p></td>
-   <td><p>"Social" 또는 [utm_medium](제공된 경우)</p></td>
+   <td><p>"Social" 또는 [utm_medium] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>광고 Id 또는 Creative_Unique_Id(Data Warehouse)</p></td>
@@ -94,11 +94,11 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr>
   <tr>
    <td><p>광고 컨텐츠 또는 Creative_Name(Data Warehouse)</p></td>
-   <td><p>[utm_content](제공된 경우)</p></td>
+   <td><p>[utm_content] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>키워드 텍스트 또는 Keyword_Name(Data Warehouse)</p></td>
-   <td><p>[utm_term](제공된 경우)</p></td>
+   <td><p>[utm_term] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>Ad_Unique_Id(Data Warehouse)</p></td>

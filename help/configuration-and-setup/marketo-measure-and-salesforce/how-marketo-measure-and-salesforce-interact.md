@@ -24,7 +24,7 @@ ht-degree: 17%
 
 [!DNL Marketo Measure] Salesforce 패키지를 설치하지 않은 경우 [!DNL Marketo Measure]은(는) Salesforce 인스턴스에 데이터를 쓰지 않습니다.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 기본적으로 [!DNL Marketo Measure]은(는) 작업이 데이터를 CRM으로 보낼 때마다 API 크레딧당 200개의 레코드를 내보냅니다. 대부분의 고객의 경우 [!DNL Marketo Measure]에서 사용하는 API 크레딧과 CRM의 CPU 리소스 요구 사항 간의 최적의 균형을 제공합니다. 그러나 워크플로우 및 트리거와 같이 복잡한 CRM 구성을 사용하는 고객의 경우 배치 크기를 줄이면 CRM 성능을 향상시키는 데 도움이 될 수 있습니다. 이를 위해 [!DNL Marketo Measure]에서 고객이 CRM 내보내기 일괄 처리 크기를 구성할 수 있습니다. 이 설정은 [!UICONTROL Settings] 웹 애플리케이션의 [!UICONTROL CRM] > [!UICONTROL General] > [!DNL Marketo Measure] 페이지에서 사용할 수 있으며 고객은 배치 크기 200(기본값), 100, 50 또는 25 중에서 선택할 수 있습니다.
 

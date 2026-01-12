@@ -76,5 +76,5 @@ ht-degree: 0%
 > [오프라인 캠페인 및 캠페인 구성원 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 > [Campaign 동기화 날짜 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 > [여러 캠페인 레코드 종류](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)에 대한 구성
-> [캠페인 목록 보기 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)을(를) 만드는 중
+> [캠페인 목록 보기 &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)을(를) 만드는 중
 > [이전 데이터 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
