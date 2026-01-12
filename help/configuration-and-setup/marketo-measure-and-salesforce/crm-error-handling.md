@@ -2,12 +2,14 @@
 description: CRM 내보내기에서 오류를 처리하는 방법에 대해 알아보기
 title: CRM 내보내기에 대한 오류 처리
 feature: Salesforce
-source-git-commit: ce5170330fb1d9f944762f401d29be4da5c0bd43
+exl-id: 7452bff0-4bf1-474b-a705-446c29882230
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
 
 ---
+
 
 # CRM 내보내기에 대한 오류 처리
 
@@ -18,7 +20,6 @@ ht-degree: 0%
 ![내보내기 오류 일시 중지](assets/stop-progress.png)
 
 >[!NOTE]
->
 >이 기능은 &quot;CRM으로 내보내기&quot; 기능을 활성화한 경우에만 표시됩니다.
 
 이 기능을 활성화하면 내보내기 작업이 진행을 중단하고 문제가 해결될 때까지 오류가 발생한 레코드에 남아 있습니다. 이러한 오류는 일반적으로 권한 누락, 잘못 적용된 사용자 지정 유효성 검사 규칙 또는 워크플로우/트리거의 문제로 인해 발생합니다. 작업은 예약된 대로 계속 실행되며 성공할 때까지 실패한 레코드 내보내기를 자동으로 다시 시도합니다.

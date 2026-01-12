@@ -3,22 +3,22 @@ description: ' [!DNL Marketo Measure] CRM 패키지 - [!DNL Marketo Measure]에 
 title: ' [!DNL Marketo Measure] CRM 패키지 모범 사례'
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
+
 # [!DNL Marketo Measure] CRM 패키지에 대한 모범 사례 {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
->
 >설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 그러면 업데이트되고, 리브랜딩이 곧 CRM에 반영됩니다.
 
 ## 개요 {#overview}
 
-[!DNL Marketo Measure]은(는) [!DNL Salesforce] 및 [!DNL Microsoft Dynamics]과(와) 통합됩니다. 이 문서에서는 [!DNL Salesforce]용으로 설계된 CRM 패키지에 대한 [!DNL Marketo Measure] 모범 사례에 중점을 둡니다.
+[!DNL Marketo Measure]은(는) [!DNL Salesforce] 및 [!DNL Microsoft Dynamics]과(와) 통합됩니다. 이 문서에서는 [!DNL Marketo Measure]용으로 설계된 CRM 패키지에 대한 [!DNL Salesforce] 모범 사례에 중점을 둡니다.
 
 구현 중에 다음 두 패키지가 [!DNL Salesforce] 인스턴스에 설치되었을 것입니다.
 
@@ -49,12 +49,10 @@ CRM 패키지 설정은 초기 구현 중에 포함되지만 1년에 한 번 CRM
 * [!DNL Salesforce]에 최신 버전의 구매자 접점 패키지가 설치되어 있는지 확인합니다.
 
 >[!NOTE]
->
->Marketo Measure에서 Salesforce로 데이터 내보내기를 비활성화하면 기존 데이터가 삭제되지 않습니다. 제거하려면 [이 Salesforce 도움말 문서](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}의 단계를 따르십시오.
+>Marketo Measure에서 Salesforce으로 데이터 내보내기를 비활성화하면 기존 데이터가 삭제되지 않습니다. 제거하려면 [이 Salesforce 도움말 문서](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}의 단계를 따르십시오.
 
 >[!MORELIKETHIS]
->
->* [Buyer Touchpoint 패키지 업데이트](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure] 권한 집합](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [보고서 및 대시보드 폴더 공유](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
->* [Marketo Measure을 Salesforce에 연결](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+> [Buyer Touchpoint 패키지 업데이트](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
+> [[!DNL Marketo Measure] 권한 집합](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [보고서 및 대시보드 폴더 공유](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Salesforce에 Marketo Measure 연결](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

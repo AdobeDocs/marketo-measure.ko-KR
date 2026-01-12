@@ -3,12 +3,13 @@ description: 오프라인 채널에 대한 모범 사례 - [!DNL Marketo Measure
 title: 오프라인 채널에 대한 우수 사례
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 0%
 
 ---
+
 
 # 오프라인 채널에 대한 우수 사례 {#best-practices-for-offline-channels}
 
@@ -47,7 +48,7 @@ ht-degree: 0%
 
 * &#39;유형&#39; 필드가 각 CRM 캠페인에 대해 정확한지 확인합니다.
    * &#39;유형&#39;은 동기화된 후 캠페인에서 가져온 모든 터치포인트에 대한 마케팅 채널 및 하위 채널을 결정합니다
-* CRM 기반 캠페인 동기화 메서드(구매자 터치포인트 활성화) 또는 [!DNL Marketo Measure] 앱 기반 동기화 메서드([!UICONTROL Marketo Measure] 계정 설정의 &#39;[!UICONTROL Campaigns]&#39; 탭 내 사용자 지정 캠페인 동기화)를 사용하든 관계없이, 오프라인 터치포인트는 캠페인 구성원이 캠페인 및 브랜드와 실제 오프라인 참여를 한 경우에만 만들어야 합니다.
+* CRM 기반 캠페인 동기화 메서드(구매자 터치포인트 활성화) 또는 [!DNL Marketo Measure] 앱 기반 동기화 메서드([!UICONTROL Campaigns] 계정 설정의 &#39;[!UICONTROL Marketo Measure]&#39; 탭 내 사용자 지정 캠페인 동기화)를 사용하든 관계없이, 오프라인 터치포인트는 캠페인 구성원이 캠페인 및 브랜드와 실제 오프라인 참여를 한 경우에만 만들어야 합니다.
    * 이벤트 또는 웨비나와 같은 오프라인 채널의 경우: &quot;등록&quot;은 일반적으로 웹 사이트의 양식 제출 및 [!DNL Marketo Measure] 온라인 기능을 통해 추적됩니다. 따라서 &quot;등록됨&quot; 상태의 캠페인 멤버는 이중 계산을 방지하기 위해 Campaign에서 오프라인 터치포인트를 받지 않아야 합니다. 오프라인 터치포인트는 이벤트 또는 웨비나에 대한 &quot;출석&quot;만 나타냅니다.
    * 콘텐츠 신디케이션 같은 일부 오프라인 채널은 모든 캠페인 멤버가 실제로 캠페인에 반응했음을 나타내는 동일한 &#39;응답됨&#39; 상태를 가진다는 점에서 더 간단합니다. 이 경우 타사 사이트의 콘텐츠를 다운로드하므로 오프라인 터치포인트를 받아야 합니다
 * [!DNL Marketo Measure] 앱에서 사용자 지정 캠페인 동기화 방법을 사용하는 경우 &#39;접점 날짜&#39; 필드가 실제로 접점 상호 작용이 발생한 시기를 가장 잘 나타내는 캠페인 또는 캠페인 멤버의 날짜 필드를 기반으로 하는지 확인하십시오
@@ -69,12 +70,11 @@ ht-degree: 0%
 최근 팀에서 위의 작업을 수행한 적이 있는 경우 [!DNL Marketo Measure]에서는 오프라인 채널 매핑 및 오프라인 캠페인을 검토하여 적절하게 변경하고 올바르게 동기화하도록 권장합니다.
 
 >[!MORELIKETHIS]
->
->* [오프라인 채널 설정](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
->* [사용자 지정 캠페인 동기화 - 앱 동기화](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [오프라인 캠페인 동기화 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
->* [오프라인 캠페인 및 캠페인 구성원 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
->* [Campaign 동기화 날짜 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
->* [여러 캠페인 레코드 유형에 대한 구성](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [캠페인 목록 보기 만들기](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [이전 데이터 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+> [오프라인 채널 설정](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+> [사용자 지정 캠페인 동기화 - 앱 동기화](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+> [오프라인 캠페인 동기화 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+> [오프라인 캠페인 및 캠페인 구성원 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+> [Campaign 동기화 날짜 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+> [여러 캠페인 레코드 종류](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)에 대한 구성
+> [캠페인 목록 보기 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)을(를) 만드는 중
+> [이전 데이터 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

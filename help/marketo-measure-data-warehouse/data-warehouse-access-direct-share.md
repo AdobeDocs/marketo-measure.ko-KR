@@ -1,14 +1,15 @@
 ---
-description: Data Warehouse 액세스 - 직접 공유 - 제품 설명서
+description: Data Warehouse 액세스 - 직접 공유
 title: Data Warehouse 액세스 - 직접 공유
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: bff10626589aba8c3dfe995dabde6eac1fc7809f
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
+
 
 # Data Warehouse 액세스 - 직접 공유 {#data-warehouse-access-direct-share}
 
@@ -28,14 +29,13 @@ ht-degree: 0%
 
 Marketo Measure 앱에서 **설정** 섹션을 열고 **Data Warehouse** 페이지로 이동합니다. **직접 공유** 섹션에서 제공된 상자에 [Snowflake 계정 ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"}를 입력하고 **연결**&#x200B;을 클릭합니다.
 
-![](assets/data-warehouse-access-direct-share-1.png)
+![Snowflake 직접 공유 양식을 표시하는 Marketo Measure Data Warehouse 설정](assets/data-warehouse-access-direct-share-1.png)
 
 ## 공유 액세스 {#accessing-the-share}
 
 제공된 계정 ID에 대한 공유를 만든 후에는 Snowflake 인스턴스 내에서 [설정 단계](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}를 완료해야 데이터에 액세스할 수 있습니다.
 
 >[!NOTE]
->
 >원하는 데이터베이스 이름을 선택할 수 있습니다. Snowflake 인스턴스에 존재하는 한 선택한 모든 역할에 권한을 할당할 수 있습니다.
 
 * 계정 관리자 역할 사용

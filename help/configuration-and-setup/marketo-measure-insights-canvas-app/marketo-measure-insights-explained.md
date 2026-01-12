@@ -1,25 +1,25 @@
 ---
-unique-page-id: 18874676
-description: "[!DNL Marketo Measure] 인사이트 설명 - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] 인사이트 설명"
+description: '[!DNL Marketo Measure] 인사이트 설명 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] 인사이트 설명'
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
+
 # [!DNL Marketo Measure] 인사이트 설명 {#marketo-measure-insights-explained}
 
-다양한 아이콘이 나타내는 내용 및 기능 사용 방법을 포함하여 [!DNL Salesforce]의 [!DNL Marketo Measure] 인사이트 보기에 대해 알아봅니다. 이 기능은 잠재 고객, 연락처 또는 계정의 처음 20개 세션을 보는 데 가장 유용합니다.
+다양한 아이콘이 나타내는 내용 및 기능 사용 방법을 포함하여 [!DNL Marketo Measure]의 [!DNL Salesforce] 인사이트 보기에 대해 알아봅니다. 이 기능은 잠재 고객, 연락처 또는 계정의 처음 20개 세션을 보는 데 가장 유용합니다.
 
-누군가가 [!DNL Marketo Measure] JavaScript에서 추적하여 웹 사이트에서 양식을 작성하면 해당 사람이 시스템의 잠재 고객이 되고 해당 디지털 마케팅 데이터가 Salesforce(SFDC) 조직으로 전송됩니다. 이 경우 잠재 고객/연락처/기회/계정 개체의 [!DNL Marketo Measure] 잠재 고객 인사이트 섹션(캔버스 앱) 내에 터치포인트 데이터가 채워집니다.
+누군가가 [!DNL Marketo Measure] JavaScript에서 추적하여 웹 사이트에서 양식을 작성하면 해당 사용자는 시스템의 잠재 고객이 되고 해당 디지털 마케팅 데이터가 Salesforce(SFDC) 조직으로 전송됩니다. 이 경우 잠재 고객/연락처/기회/계정 개체의 [!DNL Marketo Measure] 잠재 고객 인사이트 섹션(캔버스 앱) 내에 터치포인트 데이터가 채워집니다.
 
 먼저, 통찰력의 중간 부분에서 사용자가 웹 사이트에서 진행한 세션 수를 볼 수 있습니다. 이러한 세션을 스크롤하여 원하는 대로 탐색할 수 있습니다.
 
-![](assets/1.png)
+![추적된 세션 수를 표시하는 인사이트 세션 목록](assets/1.png)
 
 통찰력의 중간 상단 부분에 있는 &quot;모두&quot;를 클릭하면 모든 세션의 롤업을 볼 수 있습니다. 여기에서 개별 세션의 날짜, 이러한 세션을 유도한 채널 또는 소스, 추가 정보를 지정하는 아이콘 세트를 이해할 수 있습니다.
 
@@ -27,15 +27,15 @@ ht-degree: 0%
 
 종이처럼 보이는 아이콘은 세션 내에서 페이지 보기가 발생했음을 나타냅니다. 모든 세션에 이 아이콘이 포함되어 있을 수 있습니다.
 
-![](assets/2.png)
+![접점 위치 및 채널 세부 정보가 있는 인사이트 롤업 보기](assets/2.png)
 
 비커처럼 보이는 아이콘은 A/B 테스트 실험이 발생했음을 나타냅니다. 이 시점에서 Optimizely 및 VWO와 통합됩니다. 이 통합을 통해 사용자가 특정 세션에서 확인한 실험과 변형을 푸시할 수 있습니다.
 
-![](assets/3.png)
+![A/B 테스트 비커 아이콘을 강조 표시하는 인사이트 세션 목록](assets/3.png)
 
 특정 세션을 클릭하면(세션의 실제 날짜를 클릭하거나 그룹화된 세션의 상단 가운데 부분에서 클릭 가능) 세션 세부 정보를 볼 수 있습니다. 각 세션에서 날짜 및 시간별로 사용자가 본 특정 페이지를 모두 볼 수 있습니다.
 
-![](assets/4.png)
+![세션 내의 페이지 보기를 표시하는 세션 세부 정보 패널](assets/4.png)
 
 각 세션의 오른쪽에는 SFDC의 [!DNL Marketo Measure] 필드를 푸시하는 더 세분화된 마케팅 데이터가 표시됩니다. 이 예에서는 광고 그룹, 광고 컨텐츠, 캠페인, 키워드 및 Medium을 볼 수 있습니다. 아래로 스크롤하여 제공하는 [!DNL Marketo Measure] 데이터를 더 볼 수도 있습니다.
 

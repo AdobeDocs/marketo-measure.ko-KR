@@ -3,12 +3,13 @@ description: 현재 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
+
 
 # 릴리스 노트: 2024 {#release-notes-2024}
 
@@ -24,13 +25,13 @@ ht-degree: 0%
 
 신규 고객의 경우 이제 세션 채널 이월이 기본 동작입니다. 기존 고객은 설정 > 모든 터치 속성에서 세션 채널 이월 토글을 켜서 이 기능을 활성화할 수 있습니다. 활성화되면 이 설정을 취소할 수 없습니다.
 
-설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### 키워드 ROI 대시보드
 
 새로운 키워드 ROI 대시보드는 유료 검색 캠페인의 성과에 대한 자세한 통찰력을 제공하며 키워드 수준의 비용, 속성 수익, 생성된 리드 및 기회에 대한 포괄적인 보기를 제공합니다. 이 대시보드는 Google Adwords, LinkedIn 및 Bing Ads 등에서 각 키워드의 ROI를 평가하는 데 도움이 됩니다.
 
-설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### 향상된 세그먼트 규칙
 
@@ -63,8 +64,6 @@ ht-degree: 0%
 
 ## 3분기 릴리스 {#q3-release}
 
-<p>
-
 ### 미리 알림: Salesforce 필드 사용 중단 - 6월 14일
 
 작년에 발표된 대로 통합을 단순화하고 Salesforce 표준 개체로 내보낼 필요가 없도록 [리드/연락처 개체로의 내보내기 작업을 단계적으로 단계적으로 중단](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}할 예정입니다. [여기에 기록됨](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}단계를 따라 터치포인트 개체에서 동일한 데이터를 가져올 수 있습니다. 또한 이 데이터를 리드/연락처 개체에 추가하기 위한 워크플로우 만들기에 대한 설명서를 공유할 것입니다. 사용 중지 기간은 2024년 6월 14일부터 적용됩니다.
@@ -76,7 +75,7 @@ ht-degree: 0%
 
 ### 속성 영업 기회 대시보드
 
-마케팅 노력이 초기 및 성숙 파이프라인 기회 모두에 기여하는 방식에 대한 포괄적인 보기를 제공하기 위해 설계된 새로운 [속성 영업 기회 대시보드](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}를 소개하게 되어 기쁘게 생각합니다. 이 대시보드를 사용하면 영업 기회 단계를 기준으로 필터링할 수 있는 유연성을 가지고 전략에 따라 발생하는 모든 개설 및 마감된 영업 기회에 대한 세부 정보를 파악할 수 있습니다. 속성 기회 금액 측면에서 가장 높은 등급을 제공하는 채널, 하위 채널 또는 캠페인에 대한 통찰력을 제공하며, 속성 오픈 및 마감된 기회의 수와 함께 총 속성 기회 금액을 표시합니다.
+마케팅 노력이 초기 및 성숙 파이프라인 기회 모두에 기여하는 방식에 대한 포괄적인 보기를 제공하기 위해 설계된 새로운 [속성 영업 기회 대시보드](/help/marketo-measure-discover-ui/attributed-opportunity-dashboard.md){target="_blank"}를 소개하게 되어 기쁘게 생각합니다. 이 대시보드를 사용하면 영업 기회 단계를 기준으로 필터링할 수 있는 유연성을 가지고 전략에 따라 발생하는 모든 개설 및 마감된 영업 기회에 대한 세부 정보를 파악할 수 있습니다. 속성 기회 금액 측면에서 가장 높은 등급을 제공하는 채널, 하위 채널 또는 캠페인에 대한 통찰력을 제공하며, 속성 오픈 및 마감된 기회의 수와 함께 총 속성 기회 금액을 표시합니다.
 
 ### Marketo Measure Ultimate용 Marketo Engage 쿠키 동기화
 
@@ -89,22 +88,18 @@ ht-degree: 0%
 
 이전에는 Tier 3 고객에게만 제공되었던 부메랑 스테이지 기능은 2024년 6월 13일부터 모든 Tier 2 고객에게도 제공됩니다. 이 기능에 대한 자세한 내용은 아래 설명서를 참조하십시오.
 
-* [부메랑 단계 및 터치포인트](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
-* [부메랑 단계 설정](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
-* [부메랑 단계 시나리오](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
-
-<p>
+* [부메랑 단계 및 터치포인트](/help/advanced-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [부메랑 단계 설정](/help/advanced-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [부메랑 단계 시나리오](/help/advanced-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 ## 2분기 릴리스 {#q2-release}
-
-<p>
 
 ### 서드파티 쿠키 단계적 축소에 대한 응답으로 Marketo Measure 기능 사용 중단
 
 개인 정보 보호 문제가 증가함에 따라 서드파티 쿠키는 Google Chrome의 2024년 3분기 마감 기한이 종료를 알리는 등 단계적으로 폐지되고 있습니다. Marketo Measure은 타사 쿠키, 특히 Google/DoubleClick 노출 쿠키에 의존하는 도메인 간 추적 및 뷰스루 기여도 분석에 따른 특정 기능을 더 이상 사용하지 않습니다. 이 변경 사항은 다른 Marketo Measure 기능이나 자사 쿠키의 사용에 영향을 주지 않습니다. Google의 타임라인에 따라 이러한 기능은 6월 1일까지 더 이상 사용되지 않을 것으로 예상되지만, 이 날짜 이전에 수집된 데이터는 여전히 고객이 액세스할 수 있습니다.
 
 * [Marketo Measure에서 타사 쿠키 사용 중단에 적응](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
-* [Marketo Measure 쿠키](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
+* [Marketo Measure 쿠키](/help/marketo-measure-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### 향상된 오류 처리에 대한 단계별 롤아웃
 
@@ -122,8 +117,6 @@ _이 문제가 되는 이유_
 _전환 지원_
 
 이 변경 사항에 적응하는 데 도움이 되도록 [명확한 오류 설명과 포괄적인 문제 해결 단계를 포함하는 설명서를 만들었습니다](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}.
-
-<br>
 
 ### LinkedIn 통합에 필요한 작업
 

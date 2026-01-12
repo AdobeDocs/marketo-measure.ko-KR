@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874610
 description: Dynamics 캠페인 및 마케팅 목록 - [!DNL Marketo Measure]
 title: Dynamics 캠페인 및 마케팅 목록
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
 
+
 # Dynamics 캠페인 및 마케팅 목록 {#dynamics-campaigns-and-marketing-lists}
 
 >[!NOTE]
->
 >이 문서에서는 오래된 프로세스를 다룹니다. 사용자가 [새롭고 개선된 인앱 프로세스](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}를 사용하는 것이 좋습니다.
 
 ## 캠페인 {#campaigns}
@@ -25,23 +24,23 @@ Dynamics Campaign은 오프라인 마케팅 활동을 추적하고 이를 옴니
 
 잠재 고객 또는 연락처가 Campaign에 직접 추가되면 캠페인 응답 레코드로 입력됩니다.
 
-![](assets/1.png)
+![잠재 고객 또는 연락처 관계를 보여 주는 Dynamics Campaign 응답 레코드](assets/1.png)
 
 ## 접점 활성화 {#enable-touchpoints}
 
 접점 여정에 이러한 레코드를 포함하려면 캠페인 응답 유형을 동기화하는 몇 가지 옵션이 있습니다. Campaign 레코드에는 &quot;[!UICONTROL Enable Buyer Touchpoints]&quot; 레이블이 지정된 설치된 솔루션의 사용자 지정 필드가 있어야 합니다. 표시되지 않으면 양식 편집기를 통해 필드를 추가해야 합니다.
 
-![](assets/2.png)
+![구매자 터치포인트 사용자 지정 필드가 있는 캠페인 레코드](assets/2.png)
 
 캠페인 응답이 캠페인에 있는 모든 레코드 또는 &quot;관심있는&quot; 응답이 있는 레코드만 포함하도록 선택할 수 있습니다. 또는 기본적으로 캠페인 응답은 전혀 포함할 수 없습니다. 필드를 비워 두거나 명시적으로 제외하도록 선택할 수 있습니다.
 
 [!DNL Marketo Measure]은(는) 사용자 지정 응답 값을 지원하지 않습니다.
 
-![](assets/3.png)
+![캠페인 응답 포함에 대한 드롭다운 옵션으로 구매자 터치포인트 필드 사용](assets/3.png)
 
 캠페인 응답에 대한 재고 응답 값은 다음과 같습니다.
 
-![](assets/4.png)
+![Dynamics에서 표준 캠페인 응답 값을 표시하는 드롭다운 목록](assets/4.png)
 
 선택한 항목에 따라 이러한 레코드는 이제 Lead, Contact 또는 Opportunity 여정에서 터치포인트에 사용할 수 있습니다. 적합한 경우 &quot;Dynamics Campaign&quot; 터치포인트가 여정에 표시됩니다.
 
@@ -53,7 +52,7 @@ Dynamics Campaign은 오프라인 마케팅 활동을 추적하고 이를 옴니
 
 이 필드를 사용하는 일반적인 예 중 하나는 이벤트가 발생한 후 며칠 후에 이벤트의 배지 스캔 목록이 CRM에 추가되는 이벤트에 대한 것입니다. 따라서 사용자는 실제로 Buyer Touchpoint 날짜를 이벤트가 발생한 시점으로 변경할 수 있습니다.
 
-![](assets/5.png)
+기본 캠페인 응답 날짜를 재정의하기 위한 ![Buyer Touchpoint 날짜 사용자 지정 필드](assets/5.png)
 
 ## 마케팅 목록 {#marketing-lists}
 
@@ -61,7 +60,7 @@ Dynamics Campaign은 오프라인 마케팅 활동을 추적하고 이를 옴니
 
 [!DNL Marketo Measure]은(는) 정적 마케팅 목록만 지원합니다. 처리하려면 레코드의 수정 날짜를 확인해야 하지만 동적 목록이 자주 변경되므로 [!DNL Marketo Measure]에서 확인할 수정 날짜가 없으므로 동적 마케팅 목록은 지원되지 않습니다. 이렇게 하려면 하루 종일 전체 데이터 세트를 일정하게 다운로드해야 합니다.
 
-![](assets/6.png)
+![Dynamics에서 정적 및 동적 옵션을 표시하는 마케팅 목록 유형 선택](assets/6.png)
 
 위의 스크린샷은 리드에 대한 마케팅 목록입니다. 마케팅 목록은 캠페인에 연결되며, 여러 캠페인에 연결될 수 있습니다. 한 캠페인에 대해 하나의 마케팅 목록만 만들지 않으면 [!DNL Marketo Measure]에서는 고객이 마케팅 목록을 사용하여 캠페인을 추적하는 것을 권장하지 않습니다. 동일한 정확한 리드/연락처 목록이 여러 캠페인에서 터치포인트에 적합하지 않을 가능성이 높습니다.
 
@@ -69,13 +68,13 @@ Dynamics Campaign은 오프라인 마케팅 활동을 추적하고 이를 옴니
 
 접점에 대한 마케팅 목록을 활성화하려면 캠페인 레코드에 &quot;[!UICONTROL Sync Marketing Lists]&quot; 레이블이 있는 별도의 설정이 있으며, 이는 간단한 예/아니요 스위치입니다. 표시되지 않으면 양식 편집기를 통해 필드를 추가해야 합니다. Campaign 레코드에서 Campaign과 관련된 마케팅 목록을 볼 수 있으므로 활성화 중인 목록 수를 알 수 있습니다.
 
-![](assets/7.png)
+![마케팅 목록 동기화 토글 필드를 표시하는 캠페인 레코드](assets/7.png)
 
 ## 접점 날짜 {#touchpoint-date-1}
 
 마케팅 목록에 대한 접점 날짜는 일반적으로 ListMember 생성 날짜이므로 리드 또는 연락처가 마케팅 목록에 추가된 날짜입니다. 레이블이 &quot;Buyer Touchpoint 날짜&quot;로 지정된 설치된 솔루션의 사용자 지정 필드가 채워지는 경우 재정의할 수 있습니다. 표시되지 않으면 양식 편집기를 통해 필드를 추가해야 합니다.
 
-![](assets/8.png)
+마케팅 목록 구성원의 ![Buyer Touchpoint 날짜 필드](assets/8.png)
 
 ## 채널 매핑 {#channel-mapping}
 
@@ -85,9 +84,9 @@ Campaign Type 메뉴의 값을 [!DNL Marketo Measure] 응용 프로그램으로 
 
 각 캠페인 유형에 대해 채널 및 하위 채널 조합에 매핑하여 캠페인에서 파생되는 각 터치포인트가 올바르게 매핑된 채널 및 하위 채널을 갖도록 할 수 있습니다.
 
-![](assets/9.png)
+![Marketo Measure에서 캠페인 유형 값을 표시하는 오프라인 채널 설정](assets/9.png)
 
-![](assets/10.png)
+![채널 및 하위 채널 옵션이 있는 캠페인 유형에 대한 채널 매핑 구성](assets/10.png)
 
 ## Campaign 동기화 날짜 {#campaign-sync-date}
 

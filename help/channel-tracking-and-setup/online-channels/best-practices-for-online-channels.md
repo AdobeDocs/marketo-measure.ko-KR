@@ -3,12 +3,13 @@ description: 온라인 채널 모범 사례 - [!DNL Marketo Measure]
 title: 온라인 채널에 대한 우수 사례
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
+
 
 # 온라인 채널에 대한 우수 사례 {#best-practices-for-online-channels}
 
@@ -54,8 +55,7 @@ ht-degree: 0%
 팀에서 최근 [!DNL Marketo Measure]을(를) 경험한 적이 있는 경우 온라인 채널 규칙을 검토하고 적절하게 변경할 것을 권장합니다.
 
 >[!MORELIKETHIS]
->
->* [온라인 채널 설정](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [UTM 매개 변수](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
->* [마케팅 채널 및 하위 채널](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
->* [UTM 모범 사례](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
+> [온라인 채널 설정](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [UTM 매개 변수](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+> [마케팅 채널 및 하위 채널](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
+> [UTM 모범 사례](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)

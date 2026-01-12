@@ -3,12 +3,13 @@ description: '[!DNL Salesforce] 패키지 통합 - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] 패키지 통합'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 1%
 
 ---
+
 
 # [!DNL Salesforce] 패키지 통합 {#salesforce-package-consolidation}
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 보고 기능을 향상시키는 두 가지 새로운 필드가 있습니다.
 
 * form_name: 이제 BT/BAT 개체에서 사용할 수 있으며, 이 필드를 통해 사용자는 양식 이름을 기반으로 보고서를 만들 수 있습니다.
-* user_touchpoint_id: 이 필드를 사용하면 사용자가 고유한 사용자 접점 카운트로 보고서를 만들 수 있습니다(Salesforce의 `bizible2__User_Touchpoint_V2__c`).
+* user_touchpoint_id: 이 필드를 사용하면 사용자가 고유한 사용자 접점 수(Salesforce의 `bizible2__User_Touchpoint_V2__c`)를 사용하여 보고서를 만들 수 있습니다.
 
 ## 지원 및 전환 {#support-and-transition}
 
@@ -41,13 +42,13 @@ ht-degree: 0%
       * V2_EXT 쿼리:
          * bizible2_ext__Ad_Content_FT__c에 Outreach 포함
 
-![](assets/package-consolidation-1.png)
+![V2_EXT 광고 콘텐츠 FT 필드를 사용하는 샘플 보고서 필터](assets/package-consolidation-1.png)
 
 * 통합 패키지의 해당 쿼리:
    * bizible2__Touchpoint_Position__c에 FT 및
    * bizible2__Ad_Content__c에 Outreach 포함
 
-![](assets/salesforce-package-consolidation-2.png)
+![통합 접점 필드를 사용하는 동등한 보고서 필터](assets/salesforce-package-consolidation-2.png)
 
 ## FAQ {#faq}
 
@@ -57,7 +58,7 @@ ht-degree: 0%
 
 **현재 패키지에서 데이터를 채우려면 어떻게 해야 합니까?**
 
-터치포인트 ID 및 양식 ID 필드를 채우기 위한 BT/BAT 데이터 다시 채우기 및 재처리에 대해 [지원으로 &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 티켓을 제출할 수 있습니다.
+터치포인트 ID 및 양식 ID 필드를 채우기 위해 BT/BAT 데이터 다시 채우기 및 재처리에 대한 [지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 티켓을 제출할 수 있습니다.
 
 **V1 및 V2_EXT 패키지의 필드를 통합 패키지에서 사용할 수 있습니까?**
 
