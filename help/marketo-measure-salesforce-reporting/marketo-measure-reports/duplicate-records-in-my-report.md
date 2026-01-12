@@ -33,4 +33,4 @@ ht-degree: 0%
 &#39;연락처 수&#39;를 이해하려면 &#39;수 - 첫 번째 터치&#39;, &#39;수-리드 생성 터치&#39; 또는 &#39;수-U자형&#39; 필드를 사용하여 마케팅 상호 작용을 한 연락처 수를 파악할 수 있습니다.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

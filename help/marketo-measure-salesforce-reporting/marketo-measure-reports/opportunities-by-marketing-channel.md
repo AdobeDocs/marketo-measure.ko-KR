@@ -34,4 +34,4 @@ ht-degree: 0%
    마케팅 채널별로 요약된 Opportunity 보고서입니다. 이 보고서는 모든 Opp에 중점을 두고 있지만, 영업 기회의 단계/유형에 따라 자유롭게 필터링할 수 있습니다. 또한 보고할 모든 필드에 자유롭게 추가할 수 있습니다.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

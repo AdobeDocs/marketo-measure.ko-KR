@@ -46,4 +46,4 @@ ht-degree: 0%
    채널 전반에서 종결된 영업 기회 손실 을 측정하는 마케팅 채널별로 요약된 영업 기회 보고서입니다. 이 보고서를 통해 성과가 낮은 채널이 무엇인지 파악할 수 있습니다. 보고할 필터 또는 필드를 언제든지 추가할 수 있습니다.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] 자습서: 추가 SFDC 보고서](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] 자습서: 추가 SFDC 보고서](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

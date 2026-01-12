@@ -71,5 +71,5 @@ ht-degree: 0%
 이 선택 항목 중 하나를 선택하면 [!DNL Marketo Measure]에서 해당되는 경우 각 캠페인 멤버에게 터치포인트를 할당합니다. _에서 터치포인트를 만들려면_&#x200B;필수[!DNL Marketo Measure] 캠페인에 추가된 잠재 고객 또는 연락처에 레코드와 연결된 전자 메일 주소가 있어야 합니다. 전자 메일 주소가 없으면 [!DNL Marketo Measure]은(는) 캠페인 멤버에게 터치포인트를 할당하지 않습니다.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
->[[!DNL Marketo Measure] 자습서: Campaign 개체 필드](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Campaign 개체 필드](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
