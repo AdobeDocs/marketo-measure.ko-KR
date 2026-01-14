@@ -84,7 +84,7 @@ ht-degree: 1%
 
 1. 확장 창에서 **[!UICONTROL All campaigns]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
 
-   ![1. 모든 캠페인을 클릭한 다음 ](assets/api-connections-01.png)에서 광고 그룹을 클릭합니다.
+   ![1. 모든 캠페인을 클릭한 다음 &#x200B;](assets/api-connections-01.png)에서 광고 그룹을 클릭합니다.
 
 1. 적용 가능한 광고 그룹을 모두 선택하거나 모두 선택을 클릭하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Change Tracking Templates]**&#x200B;을(를) 클릭합니다.
 

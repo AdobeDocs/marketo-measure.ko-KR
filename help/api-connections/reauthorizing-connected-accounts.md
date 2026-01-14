@@ -19,7 +19,7 @@ ht-degree: 0%
 
 CRM 플랫폼의 연결이 끊기면 [!DNL Marketo Measure]에서 [!DNL Marketo Measure] 데이터를 업데이트하거나 새 터치포인트를 조직에 푸시할 수 없습니다. CRM 연결이 다시 설정되면 [!DNL Marketo Measure]에서 계정 연결이 끊어진 동안 누락된 모든 데이터를 푸시합니다.
 
-![CRM 플랫폼의 연결이 끊기면 Marketo Measure은 ](assets/utilizing-connections-7.png)이 되지 않습니다.
+![CRM 플랫폼의 연결이 끊기면 Marketo Measure은 &#x200B;](assets/utilizing-connections-7.png)이 되지 않습니다.
 
 ## 연결이 끊어진 계정 다시 인증 {#re-authorizing-disconnected-accounts}
 

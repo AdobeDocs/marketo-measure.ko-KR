@@ -21,11 +21,11 @@ ht-degree: 1%
 1. 패키지 [!DNL Marketo Measure] v3.9 이상을 사용 중인지 확인하십시오. [!UICONTROL Salesforce] >[!UICONTROL Set Up] > [!UICONTROL Installed packages]&#x200B;(으)로 이동하여 이 작업을 수행할 수 있습니다.
 1. 리드 페이지 레이아웃을 편집하고 **[!DNL Marketo Measure]A/B 테스트** 관련 목록을 페이지에 추가하십시오.
 
-   ![1. 리드 페이지 레이아웃을 편집하고 Marketo Measure ](assets/advanced-features-2.png) 추가
+   ![1. 리드 페이지 레이아웃을 편집하고 Marketo Measure &#x200B;](assets/advanced-features-2.png) 추가
 
 1. [!UICONTROL Wrench] 단추를 클릭합니다. 선택한 필드 목록에서 스톡 &quot;ID&quot; 필드를 제거합니다. **[!UICONTROL Experiment]**, **[!UICONTROL Variation]** 및 **[!UICONTROL DateReported]** 필드를 추가합니다. &quot;[!UICONTROL Sort by]&quot;을(를) **[!UICONTROL Date Reported]**(으)로 변경하고 드롭다운에서 **[!UICONTROL Descending]**&#x200B;을(를) 선택합니다.
 
-   ![1. 렌치 버튼을 클릭합니다. ](assets/advanced-features-3.png)에서 Stock &quot;ID&quot; 필드 제거
+   ![1. 렌치 버튼을 클릭합니다. &#x200B;](assets/advanced-features-3.png)에서 Stock &quot;ID&quot; 필드 제거
 
 1. [!UICONTROL Buttons]에서 **[!UICONTROL New]** 선택을 취소합니다.
 

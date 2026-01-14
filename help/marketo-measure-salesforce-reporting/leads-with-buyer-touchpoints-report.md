@@ -20,7 +20,7 @@ ht-degree: 2%
 
 1. [!DNL Salesforce] 내에서 설정 옵션으로 이동합니다. 여기에서 &quot;만들기&quot; 그룹화를 확장하고 **[!UICONTROL Report Types]**&#x200B;을(를) 선택합니다.
 
-   ![1. Salesforce 내에서 설정 옵션으로 이동합니다. 여기에서 ](assets/bizible-guide-1.png)을(를) 확장합니다.
+   ![1. Salesforce 내에서 설정 옵션으로 이동합니다. 여기에서 &#x200B;](assets/bizible-guide-1.png)을(를) 확장합니다.
 
 1. **[!UICONTROL New Custom Report Type]**&#x200B;를 선택합니다.
 

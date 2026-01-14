@@ -32,7 +32,7 @@ ht-degree: 3%
 
 1. 업데이트할 페이지 레이아웃 옆에 있는 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-   ![1. ](assets/marketo-salesforce-1.jpg)하려는 페이지 레이아웃 옆에 있는 [편집]을 클릭합니다.
+   ![1. &#x200B;](assets/marketo-salesforce-1.jpg)하려는 페이지 레이아웃 옆에 있는 [편집]을 클릭합니다.
 
 1. [!UICONTROL fields] 옵션에서 **[!UICONTROL Enable Buyer Touchpoints]** 필드를 선택하고 페이지에서 원하는 위치로 드래그합니다. 그런 다음 **[!UICONTROL Touchpoint Start Date]** 및 **[!UICONTROL Touchpoint End Date]** 필드를 추가합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Marketo Measure Lead Related List]** VisualForce 페이지를 페이지 레이아웃 섹션으로 끌어옵니다.
 
-   ![1. Marketo Measure 리드 관련 목록 VisualForce 페이지를 ](assets/connect-salesforce-1.png)(으)로 끌어서 놓습니다.
+   ![1. Marketo Measure 리드 관련 목록 VisualForce 페이지를 &#x200B;](assets/connect-salesforce-1.png)(으)로 끌어서 놓습니다.
 
 1. [!DNL VisualForce] 페이지에서 렌치를 클릭하고 높이를 100으로 변경한 후 스크롤 막대를 활성화합니다.
 

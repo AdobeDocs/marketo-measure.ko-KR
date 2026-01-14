@@ -20,7 +20,7 @@ ht-degree: 2%
 
 1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** 보고서 유형을 선택한 다음 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다.
 
-   ![1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 ](assets/bizible-guide-2.png)을(를) 선택합니다.
+   ![1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 &#x200B;](assets/bizible-guide-2.png)을(를) 선택합니다.
 
 1. 보고서 맨 위부터 &quot;[!UICONTROL All Bizible Attribution Touchpoints]&quot;을(를) 표시하고 보고할 일정에 따라 날짜 필드를 조정합니다. 이 예제에서는 All Time을 살펴보겠습니다. 또한 보고서 형식을 테이블 형식에서 요약으로 변경합니다.
 
@@ -30,15 +30,15 @@ ht-degree: 2%
 
 1. 이제 보고서에 필드를 추가하겠습니다. 왼쪽의 빠른 찾기에 &quot;마케팅 채널&quot;을 입력하고 보고서의 요약 그룹화에 추가합니다.
 
-   ![1. 이제 보고서에 필드를 추가하겠습니다. ](assets/bizible-guide-4.png)에서
+   ![1. 이제 보고서에 필드를 추가하겠습니다. &#x200B;](assets/bizible-guide-4.png)에서
 
 1. 다음으로, 닫힌 Lost Opps만 볼 수 있도록 필터를 추가합니다. 왼쪽의 빠른 찾기에서 필드 &quot;단계&quot;를 검색하고 필터 영역으로 끌어서 놓습니다.
 
-   ![1. 다음으로 ](assets/marketo-reports-16.jpg)만 볼 수 있는 필터를 추가합니다.
+   ![1. 다음으로 &#x200B;](assets/marketo-reports-16.jpg)만 볼 수 있는 필터를 추가합니다.
 
 1. 거기에서 &quot;Closed Lost&quot; Opportunities에 사용하는 스테이지를 선택하기 위해 돋보기를 선택합니다. 이 예제에서는 표준 &quot;Closed Lost&quot; 이름을 사용합니다.
 
-   ![1. 여기서 돋보기를 선택하여 ](assets/bizible-guide-5.png)을(를) 선택합니다.
+   ![1. 여기서 돋보기를 선택하여 &#x200B;](assets/bizible-guide-5.png)을(를) 선택합니다.
 
 1. 자, 어서 보고서를 실행해 보세요!
 

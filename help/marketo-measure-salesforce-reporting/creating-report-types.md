@@ -92,8 +92,8 @@ ht-degree: 1%
 
 1. 보고서가 생성되면 보고서 유형 개요로 리디렉션됩니다. **[!UICONTROL Edit Layout]**&#x200B;를 클릭합니다.
 
-   ![1. 보고서가 만들어지면 ](assets/new-types-2.png)(으)로 리디렉션됩니다.
+   ![1. 보고서가 만들어지면 &#x200B;](assets/new-types-2.png)(으)로 리디렉션됩니다.
 
 1. 보고서에 추가하려는 사용자 정의 필드가 필드 레이아웃 속성 섹션에 나타나는지 확인합니다. 추가할 다른 필드가 있으면 &quot;[!UICONTROL Add fields related via lookup]&quot; 옵션을 사용하십시오.
 
-   ![1. ](assets/new-types-3.png)에 추가할 사용자 지정 필드를 확인하십시오.
+   ![1. &#x200B;](assets/new-types-3.png)에 추가할 사용자 지정 필드를 확인하십시오.

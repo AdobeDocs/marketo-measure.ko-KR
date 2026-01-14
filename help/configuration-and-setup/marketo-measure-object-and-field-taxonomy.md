@@ -18,7 +18,7 @@ ht-degree: 0%
 
 전체 크기의 이미지를 보려면 [여기를 클릭하세요](assets/bizible-full-1.png).
 
-각 개체 [!DNL Marketo Measure]에 있는 [ 필드의 정의는 여기에서 찾을 수 있습니다](/help/glossary.md).
+각 개체 [!DNL Marketo Measure]에 있는 [&#x200B; 필드의 정의는 여기에서 찾을 수 있습니다](/help/glossary.md).
 
 ## FAQ {#faq}
 

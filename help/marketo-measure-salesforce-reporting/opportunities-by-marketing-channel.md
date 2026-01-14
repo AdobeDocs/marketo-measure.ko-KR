@@ -18,7 +18,7 @@ ht-degree: 1%
 
 1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** 보고서 유형을 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다.
 
-   ![1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 ](assets/bizible-guide-1.png)을(를) 선택합니다.
+   ![1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 &#x200B;](assets/bizible-guide-1.png)을(를) 선택합니다.
 
 1. 보고서 맨 위부터 **[!UICONTROL All Bizible Attribution Touchpoints]**&#x200B;을(를) 표시하고 보고할 일정에 따라 날짜 필드를 조정합니다. 이 예제에서는 All Time을 살펴보겠습니다. 또한 보고서 형식을 [!UICONTROL Tabular]에서 **[!UICONTROL Summary]**(으)로 변경하십시오.
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 1. 이제 보고서에 필드를 추가하겠습니다. 왼쪽의 빠른 찾기에 &quot;마케팅 채널&quot;을 입력하고 보고서의 요약 그룹화에 추가합니다.
 
-   ![1. 이제 보고서에 필드를 추가하겠습니다. ](assets/marketo-reports-10.jpg)에서
+   ![1. 이제 보고서에 필드를 추가하겠습니다. &#x200B;](assets/marketo-reports-10.jpg)에서
 
 1. 이제 보고서를 실행하고 분석하십시오!
 

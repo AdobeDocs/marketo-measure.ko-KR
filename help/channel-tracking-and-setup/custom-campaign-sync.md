@@ -44,7 +44,7 @@ ht-degree: 1%
 
 1. 확인 표시를 클릭한 다음 필요에 따라 추가 캠페인에 대한 규칙을 추가합니다.
 
-   ![1. 확인 표시를 클릭한 다음 ](assets/offline-channels-12.png)(으)로 추가 캠페인에 대한 규칙을 추가합니다.
+   ![1. 확인 표시를 클릭한 다음 &#x200B;](assets/offline-channels-12.png)(으)로 추가 캠페인에 대한 규칙을 추가합니다.
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 1. Campaign 동기화 기능에는 테스트 기능이 포함되어 있으므로 만든 규칙이 실제로 Campaign 기준에 맞는지 확인할 수 있습니다. [!UICONTROL Test] 단추를 클릭하여 시작합니다. 테스트를 시작하려면 먼저 규칙을 저장해야 합니다.
 
-   ![1. Campaign 동기화 기능에는 테스트 기능이 포함되어 있으므로 ](assets/offline-channels-15.jpg)
+   ![1. Campaign 동기화 기능에는 테스트 기능이 포함되어 있으므로 &#x200B;](assets/offline-channels-15.jpg)
 
    테스트할 캠페인 ID(CRM에서 15자 또는 18자)를 입력할 수 있는 팝업이 나타납니다. 중요한 것은 동기화하려는 CRM에서 Campaign ID를 입력하여 자신이 만든 규칙과 일치하는지 확인하는 것입니다.
 
@@ -76,8 +76,8 @@ ht-degree: 1%
 
 1. [!UICONTROL Test]을(를) 클릭하면 터치포인트에 적합한 캠페인 이름과 캠페인 멤버 수가 표시됩니다. Campaign ID와 일치하는 모든 규칙을 보여 주는 표가 아래에 나타납니다. 일치 항목만 표시됩니다.
 
-   ![1. 테스트를 클릭하면 ](assets/offline-channels-17.png) 이름이 표시됩니다.
+   ![1. 테스트를 클릭하면 &#x200B;](assets/offline-channels-17.png) 이름이 표시됩니다.
 
 1. Campaign 규칙 자격 요건에 속하는 잠재 고객 및 연락처 목록과 해당 ID를 보려면 구성원 수를 클릭할 수도 있습니다. 이는 샘플 세트이며 최대 50개까지 표시되어 어떤 레코드가 자격이 있는지 알 수 있습니다.
 
-   ![1. 구성원 수를 클릭하여 ](assets/offline-channels-18.jpg) 목록을 볼 수도 있습니다.
+   ![1. 구성원 수를 클릭하여 &#x200B;](assets/offline-channels-18.jpg) 목록을 볼 수도 있습니다.

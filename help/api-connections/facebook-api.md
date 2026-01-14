@@ -52,7 +52,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
 
 통합이 제대로 작동하려면 [!DNL Facebook] 계정에서 자동 태그 지정을 활성화해야 합니다. 이렇게 하면 시스템에서 모든 광고 링크에 _bf 매개 변수를 추가할 수 있습니다. 이 프로세스에서는 [!DNL Facebook] 광고에 이미 추가한 다른 추적 매개 변수 위에 새 매개 변수를 추가합니다.
 
-![통합이 제대로 작동하려면 ](../assets/marketo-engage-activities-05.png)에서 자동 태그 지정을 활성화해야 합니다.
+![통합이 제대로 작동하려면 &#x200B;](../assets/marketo-engage-activities-05.png)에서 자동 태그 지정을 활성화해야 합니다.
 
 ## 필드 매핑 {#field-mapping}
 
@@ -72,7 +72,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr>
   <tr>
    <td><p>광고 캠페인 이름 </p></td>
-   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign](제공된 경우)</p></td>
+   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>광고 그룹 ID</p></td>
@@ -84,11 +84,11 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr>
   <tr>
    <td><p>터치포인트 Source</p></td>
-   <td><p>"[!DNL Facebook]" 또는 [utm_source](제공된 경우)</p></td>
+   <td><p>"[!DNL Facebook]" 또는 [utm_source] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>보통</p></td>
-   <td><p>"Social" 또는 [utm_medium](제공된 경우)</p></td>
+   <td><p>"Social" 또는 [utm_medium] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>광고 Id 또는 Creative_Unique_Id(Data Warehouse)</p></td>
@@ -96,11 +96,11 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr>
   <tr>
    <td><p>광고 컨텐츠 또는 Creative_Name(Data Warehouse)</p></td>
-   <td><p>[utm_content](제공된 경우)</p></td>
+   <td><p>[utm_content] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>키워드 텍스트 또는 Keyword_Name(Data Warehouse)</p></td>
-   <td><p>[utm_term](제공된 경우)</p></td>
+   <td><p>[utm_term] (제공된 경우)</p></td>
   </tr>
   <tr>
    <td><p>Ad_Unique_Id(Data Warehouse)</p></td>

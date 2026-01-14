@@ -80,7 +80,7 @@ ht-degree: 1%
 | 임의 항목 일치 | 여러 값 - 정확한 일치 |
 | 모두 일치(포함) | 여러 값 - &#42;값&#42;, &#42;값, &#42;값&#42; |
 
-![| 모두 일치(포함) | 다중 값 - &amp;42;value&amp;42;, &amp;42;value, &amp;42;value&amp;42; |](assets/activities-attribution-8.png)
+![| 모두 일치(포함) | 다중 값 - &42;value&42;, &42;value, &42;value&42; |](assets/activities-attribution-8.png)
 
 마지막으로, 새 채널에 대한 비용을 입력할 수 있습니다. [마케팅 지출 업로드](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spent){target="_blank"}를 통해 채널 수준, 하위 채널 수준 또는 캠페인 수준에서 지출을 입력할 수 있습니다. 새 [!DNL Marketo Measure] 캠페인을 사용하면 월별로 이러한 관련 비용을 추가한 다음 각 캠페인에 대한 ROI를 확인할 수 있습니다.
 

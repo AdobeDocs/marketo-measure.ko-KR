@@ -24,7 +24,7 @@ Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 
 >
 >구독 중인 Adobe Experience Cloud 제품에 따라 드롭다운 메뉴가 다르게 보일 수 있습니다.
 
-Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measure]https://experience.adobe.com/marketo-measure[에서 ](https://experience.adobe.com/marketo-measure)에 직접 로그인하십시오.
+Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measure]https://experience.adobe.com/marketo-measure[에서 &#x200B;](https://experience.adobe.com/marketo-measure)에 직접 로그인하십시오.
 
 ## 새로운 기능 {#new-features}
 
@@ -72,6 +72,6 @@ Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measur
 
 Adobe Experience Cloud에 로그인할 수 있지만 다음과 같은 페이지가 표시되면 [!DNL Marketo Measure]측에서 문제가 발생할 수 있습니다.
 
-![Adobe Experience Cloud에 로그인할 수 있지만 ](assets/unified-overview-7.png)이(가) 표시되는 경우
+![Adobe Experience Cloud에 로그인할 수 있지만 &#x200B;](assets/unified-overview-7.png)이(가) 표시되는 경우
 
 위의 오류가 표시되면 [지원팀에 문의](https://nation.marketo.com/t5/support/ct-p/Support)하여 도움을 받으십시오.

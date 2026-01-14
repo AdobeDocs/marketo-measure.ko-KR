@@ -39,7 +39,7 @@ SFDC 캠페인 유형은 [!DNL Salesforce] 캠페인 유형 아래에 나열된 
 
 여기에서 [!DNL Marketo Measure] 앱에서 채널/하위 채널 매핑을 만들 수 있습니다. 이 작업에는 [!DNL Marketo Measure] 앱에서 새 채널 및 하위 채널을 만드는 작업이 포함될 수 있습니다. 이 작업은 아래 이미지에 표시된 앱의 [채널 만들기] 섹션에서 수행됩니다. 터치포인트를 푸시할 위치를 이해하려면 [!DNL Marketo Measure]에 대해 새 채널과 하위 채널을 만들어야 합니다. 캠페인 유형을 매핑할 방법을 결정할 수 있습니다.
 
-![여기서 ](assets/offline-channels-11.png)에 채널/하위 채널 매핑을 만들 수 있습니다.
+![여기서 &#x200B;](assets/offline-channels-11.png)에 채널/하위 채널 매핑을 만들 수 있습니다.
 
 ## 채널 매핑 예 {#channel-mapping-example}
 
@@ -67,13 +67,13 @@ SFDC 캠페인 유형은 [!DNL Salesforce] 캠페인 유형 아래에 나열된 
 
 온라인 활동에 대한 캠페인을 처리하기 위한 또 다른 팁은 [!DNL Salesforce] 캠페인 유형을 NULL로 매핑하는 것입니다. 이렇게 하려면 먼저 아래 이미지에 표시된 대로 NULL이라는 [!DNL Marketo Measure] 앱에 채널을 만듭니다. [!DNL Marketo Measure]채널 만들기&#x200B;**섹션 아래의** 앱에서 찾을 수 있습니다. 이렇게 하면 동기화해서는 안 되는 캠페인이 실수로 동기화된 경우에 유용합니다. NULL 아래에 그룹화된 모든 항목을 확인하여 캠페인을 찾고 동기화 상태를 수정합니다.
 
-![온라인 활동에 대한 캠페인을 처리하기 위한 다른 팁은 ](assets/offline-channels-14.png)을(를) 매핑하는 것입니다.
+![온라인 활동에 대한 캠페인을 처리하기 위한 다른 팁은 &#x200B;](assets/offline-channels-14.png)을(를) 매핑하는 것입니다.
 
 ## 앱에 오프라인 채널 규칙 입력 {#entering-your-offline-channel-rules-to-the-app}
 
 사용자 지정 규칙을 사용하여 스프레드시트를 편집하고 업데이트했다면 다음 단계는 [!DNL Marketo Measure] 앱에서 이 채널 매핑을 다시 만드는 것입니다. 오프라인 채널용 스프레드시트는 실제로 업로드되지 않습니다. 대신 아래 이미지에 표시된 대로 선택 목록 상자에 정보를 입력합니다. **[!UICONTROL Offline Channels]** 섹션 아래에서 **[!UICONTROL Channels]**&#x200B;을(를) 클릭하여 찾을 수 있습니다.
 
-![사용자 지정 규칙으로 스프레드시트를 편집하고 업데이트하면 ](assets/offline-channels-20.png)
+![사용자 지정 규칙으로 스프레드시트를 편집하고 업데이트하면 &#x200B;](assets/offline-channels-20.png)
 
 >[!TIP]
 >

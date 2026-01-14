@@ -21,11 +21,11 @@ ht-degree: 0%
 
 아래 이미지에 표시된 것처럼 새 광고 연결을 설정하는 버튼이 표시됩니다.
 
-![아래 그림과 같이 ](assets/bizible-guide-1.png) 단추가 표시됩니다.
+![아래 그림과 같이 &#x200B;](assets/bizible-guide-1.png) 단추가 표시됩니다.
 
 [!UICONTROL Set up New Ads Connection] 단추를 클릭하면 아래에 표시된 창(4개의 광고 [!UICONTROL connect]이온 유형)이 표시됩니다. 연결을 클릭하면 자격 증명을 묻는 다른 창이 나타납니다. 자격 증명을 입력하고 [!UICONTROL authorize]을(를) 클릭하여 계정을 [!DNL Marketo Measure]에 연결합니다.
 
-![새 광고 연결 설정 단추를 클릭한 후 ](../assets/marketo-engage-activities-05.png)
+![새 광고 연결 설정 단추를 클릭한 후 &#x200B;](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 추적 템플릿이 준비되면 아래 지침에 따라 [!DNL Marketo Measure] 자동 태그 지정을 활성화하십시오. 참고: [!DNL Marketo Measure]은(는) 계정에서 일시 중지된 광고도 자동으로 태깅합니다.
 
-1. [!DNL Marketo Measure]experience.adobe.com/marketo-measure[에서 ](https://experience.adobe.com/marketo-measure){target="_blank"} 계정에 로그인합니다.
+1. [!DNL Marketo Measure]experience.adobe.com/marketo-measure[에서 &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} 계정에 로그인합니다.
 
 1. [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections]&#x200B;(으)로 이동합니다.
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 1. [!DNL Marketo Measure] 자동 태그 지정을 사용할 수 있는 Adwords 계정 옆의 연필 아이콘을 클릭합니다.
 
-   ![1. ](assets/utilizing-connections-9.png)할 Adwords 계정 옆에 있는 연필 아이콘을 클릭합니다.
+   ![1. &#x200B;](assets/utilizing-connections-9.png)할 Adwords 계정 옆에 있는 연필 아이콘을 클릭합니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Autotagging]** 스위치를 **[!UICONTROL Yes]**(으)로 전환합니다. 페이지 하단에서 **[!UICONTROL Learn More]**&#x200B;을(를) 클릭하여 텍스트 상자를 확장하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 자동 태그 지정 설정이 완료되었습니다.
 
-   ![1. 오른쪽 상단 모서리에서 자동 태그 지정 스위치를 ](assets/utilizing-connections-10.png)(으)로 전환합니다.
+   ![1. 오른쪽 상단 모서리에서 자동 태그 지정 스위치를 &#x200B;](assets/utilizing-connections-10.png)(으)로 전환합니다.
 
 ## [!DNL Marketo Measure] 매개 변수를 사용하여 AdWords에서 추적 템플릿을 설정하는 방법 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
@@ -154,7 +154,7 @@ Bing Ads의 자동 태그 지정은 다음 사용자 지정 매개 변수도 추
 
 언제든지 [!DNL Facebook] 계정을 [!DNL Marketo Measure] 앱에 연결할 수 있으며 데이터가 손실되지 않습니다. 자동 태깅이 활성화된 경우에만 성능 기록이 지워집니다.
 
-[ 광고 보고서 내보내기에 대한 자세한 내용은 Facebook에서 ](https://www.facebook.com/business/help/393890194130036){target="_blank"}이 문서[!DNL Facebook]를 참조하십시오.
+[&#x200B; 광고 보고서 내보내기에 대한 자세한 내용은 Facebook에서 &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"}이 문서[!DNL Facebook]를 참조하십시오.
 
 ## LinkedIn 스폰서 콘텐츠 {#linkedin-sponsored-content}
 
