@@ -3,9 +3,9 @@ description: Marketo Measure 사용자를 위한 Marketo 랜딩 페이지 지침
 title: Marketo 랜딩 페이지에  [!DNL Marketo Measure] 을(를) 추가하는 중
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
-   ![](assets/adding-pages-1.png)
+   ![1. 저장을 클릭합니다.](assets/adding-pages-1.png)
 
 ## 추가 참고 사항 {#additional-notes}
 
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 * 여러 랜딩 페이지 템플릿이 사용 중일 수 있습니다. 양식이 있는 모든 템플릿에 코드를 추가해야 합니다.
 
-* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=ko){target="_blank"}에 대해 설명합니다.
+* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}에 대해 설명합니다.

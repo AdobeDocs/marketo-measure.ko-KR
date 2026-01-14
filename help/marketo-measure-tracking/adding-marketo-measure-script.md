@@ -4,9 +4,9 @@ title: ' [!DNL Marketo Measure] 스크립트 추가 중'
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
 hidefromtoc: true
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; JavaScript을 배포하는 것 외에도  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"}에서 [!DNL Marketo Measure]모든 적절한 도메인을 요청했는지 확인하십시오.
+>[ JavaScript을 배포하는 것 외에도  [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"}에서 [!DNL Marketo Measure]모든 적절한 도메인을 요청했는지 확인하십시오.
 
 [!DNL Marketo Measure]을(를) 시작할 때 다음 두 가지 방법으로 웹 사이트에 [!DNL Marketo Measure] JavaScript을(를) 추가할 수 있습니다.
 
@@ -58,7 +58,7 @@ JavaScript을 페이지의 `<head>`에 하드코딩하면 [!DNL Marketo Measure]
 
 서드파티 페이지를 사용하는 경우 [!DNL Marketo Measure] 컨설턴트와 사용 사례에 대해 대화합니다. 일반적으로 필요한 경우 [!DNL Marketo Measure] JavaScript의 사용자 지정 버전을 추가하여 해당 페이지를 추적할 수 있는지 알고 싶을 수 있습니다. 가능하지 않은 경우 CRM Campaign 터치포인트를 통한 추적은 [!DNL Marketo Measure] 컨설턴트와 함께 탐색됩니다.
 
-[!DNL Marketo Measure]이(가) 기여도 분석에 적합하지 않으므로 추적하지 말아야 할 양식이 있습니까? 등록 취소 양식, 고객 로그인 등 이 경우 이 문서[의 제외 코드 &#x200B;](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}을(를) 각 양식에 추가합니다.
+[!DNL Marketo Measure]이(가) 기여도 분석에 적합하지 않으므로 추적하지 말아야 할 양식이 있습니까? 등록 취소 양식, 고객 로그인 등 이 경우 이 문서[의 제외 코드 ](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}을(를) 각 양식에 추가합니다.
 
 비보안 페이지가 있습니까? 보안/비보안 페이지 간을 탐색하면 추적 세션이 중단되므로 이 둘을 보호해야 합니다.
 
@@ -66,7 +66,7 @@ JavaScript을 페이지의 `<head>`에 하드코딩하면 [!DNL Marketo Measure]
 
 JavaScript 설정 중에 [!DNL Web Application Firewall (WAF)] 경고가 트리거되면 사용자는 아래 예와 같이 해당 WAF 규칙 또는 쿠키 허용 목록을 비활성화할 수 있습니다.
 
-![](assets/adding-script-1.png)
+![웹 응용 프로그램 방화벽(WAF) 경고가 ](assets/adding-script-1.png) 동안 트리거되는 경우
 
 ## Forms에 각별한 주의 기울이기 {#forms-to-pay-extra-attention-to}
 

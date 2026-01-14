@@ -3,10 +3,10 @@ description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] AdWords
 title: ' [!DNL Marketo Measure] AdWords 태그 지정 이해'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 0%
+source-wordcount: '630'
+ht-degree: 1%
 
 ---
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 1. 확장 창에서 **[!UICONTROL All campaigns]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/utilizing-connections-13.png)
+   ![1. 모든 캠페인을 클릭한 다음 확장](assets/utilizing-connections-13.png)에서 설정 을 클릭합니다.
 
 1. 맨 위에 있는 **[!UICONTROL Account Settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tracking Template]**&#x200B;을(를) 클릭합니다. [!DNL Marketo Measure] 추적 템플릿을 입력하십시오.
 
-   ![](assets/bizible-guide-1.png)
+   ![1. 맨 위에 있는 계정 설정을 클릭한 다음 추적](assets/bizible-guide-1.png)을 클릭합니다.
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
@@ -72,11 +72,11 @@ ht-degree: 0%
 
 1. 확장 창에서 **[!UICONTROL All campaigns]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/utilizing-connections-12.png)
+   ![1. 모든 캠페인을 클릭한 다음 확장](assets/utilizing-connections-12.png)에서 캠페인을 클릭합니다.
 
 1. 적용 가능한 모든 캠페인 또는 **[!UICONTROL Select All]**&#x200B;을(를) 선택하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Change Tracking Templates]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/five-five-1.png)
+   ![1. 적용 가능한 모든 캠페인을 선택하거나 모두 선택하고 편집을 클릭합니다.](../assets/marketo-engage-activities-05.png)
 
 1. [!DNL Marketo Measure] 추적 템플릿을 입력하고 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -84,13 +84,13 @@ ht-degree: 0%
 
 1. 확장 창에서 **[!UICONTROL All campaigns]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/four-four-1.png)
+   ![1. 모든 캠페인을 클릭한 다음 ](assets/api-connections-01.png)에서 광고 그룹을 클릭합니다.
 
 1. 적용 가능한 광고 그룹을 모두 선택하거나 모두 선택을 클릭하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Change Tracking Templates]**&#x200B;을(를) 클릭합니다.
 
 1. [!DNL Marketo Measure] 추적 템플릿을 입력하고 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/one-one-1.png)
+   ![1. Marketo Measure 추적 템플릿을 입력하고 적용을 클릭합니다.](../assets/marketo-engage-activities-01.png)
 
 ## FAQ {#faq}
 

@@ -3,9 +3,9 @@ description: Marketo Measure 사용자를 위한 IfRame Forms 및 [!DNL Marketo 
 title: IFrame Forms 및 [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,6 @@ IFrame을 페이지 내의 페이지로 생각해 보십시오. 스크립트가 
 
 IFrame의 헤드 내에 JavaScript을 배치하는 것이 좋으며, 여기서 해당 프레임 내의 양식에 자동으로 첨부됩니다.
 
-![](assets/adding-pages-1.png)
+![JavaScript을 ](assets/adding-pages-1.png)의 헤드에 배치하는 것이 좋습니다.
 
 IFrame 양식에 JavaScript을 추가하는 것과 관련하여 질문이 있는 경우 Adobe 계정 팀(계정 관리자) 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하십시오.

@@ -4,9 +4,9 @@ title: '[!DNL Marketo Measure] 쿠키'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 hidefromtoc: true
-source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '386'
 ht-degree: 10%
 
 ---
@@ -33,4 +33,4 @@ ht-degree: 10%
 
 JavaScript 설정 중에 웹 애플리케이션 방화벽(WAF) 경고가 트리거되면 사용자는 아래 예와 같이 해당 WAF 규칙을 비활성화하거나 쿠키를 허용 목록 할 수 있습니다.
 
-![](assets/adding-script-1.png)
+![JavaScript 중에 웹 응용 프로그램 방화벽(WAF) 경고가 트리거되는 경우](assets/adding-script-1.png)
