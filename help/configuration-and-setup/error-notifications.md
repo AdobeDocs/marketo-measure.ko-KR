@@ -156,7 +156,7 @@ ht-degree: 0%
             <a href="/help/adobe-analytics.md">Adobe Analytics과 Marketo Measure 통합</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">고객 속성 소스를 만들고 데이터 파일 업로드</a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ko">고객 속성 소스를 만들고 데이터 파일 업로드</a>
           </li>
         </ul>
       </td>
