@@ -1,19 +1,19 @@
 ---
-description: 내 보고서의 중복 레코드 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 내 보고서 안내서의 레코드 복제
 title: 내 보고서의 레코드 복제
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-
 # 내 보고서의 레코드 복제 {#duplicate-records-in-my-report}
 
 >[!NOTE]
+>
 >설명서에는 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시되지만 CRM에는 여전히 &quot;[!DNL Bizible]&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
 [!DNL Marketo Measure]의 [!DNL Salesforce] 보고서를 자세히 살펴보면 보고서에서 &#39;중복&#39; 레코드를 찾을 수 있습니다. [!DNL Marketo Measure]개의 기본 보고서를 검토할 때 이러한 느낌이 들 수 있습니다.
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 **구매자 접점 연락처** 보고서입니다. 다시 말하지만, 이것은 우리가 개별 연락처와 연관된 터치포인트의 개수를 보고 있다는 것을 의미합니다.
 
-![연락처당 여러 항목을 표시하는 구매자 접점 연락처 보고서](assets/1.gif)
+![](assets/marketo-reports-1.gif)
 
 보시다시피, 보고서에 세 명의 James Williams 연락처가 있는 것 같습니다. 따라서 &quot;중복됩니다!&quot; 라고 생각할 수 있습니다.
 
@@ -33,4 +33,5 @@ ht-degree: 0%
 &#39;연락처 수&#39;를 이해하려면 &#39;수 - 첫 번째 터치&#39;, &#39;수-리드 생성 터치&#39; 또는 &#39;수-U자형&#39; 필드를 사용하여 마케팅 상호 작용을 한 연락처 수를 파악할 수 있습니다.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>
+>[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

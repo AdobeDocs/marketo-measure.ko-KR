@@ -1,15 +1,14 @@
 ---
-description: 세분화 모범 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 세그멘테이션 지침 모범 사례
 title: 세그먼테이션 우수 사례
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # 세그먼테이션 우수 사례 {#best-practices-for-segmentation}
 
@@ -49,4 +48,5 @@ ht-degree: 0%
 * 이미 설정된 세그먼트에 대한 추가 또는 변경 사항
 
 >[!MORELIKETHIS]
+>
 >[사용자 지정 세그먼테이션을 설정하는 방법](/help/advanced-features/segmentation/custom-segmentation.md)

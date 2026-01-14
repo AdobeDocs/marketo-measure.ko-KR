@@ -1,15 +1,15 @@
 ---
-description: 매출 개요 대시보드 - [!DNL Marketo Measure] - 제품
+description: 시간 경과에 따른 총 및 속성 매출과 거래 건수를 보여 주는 매출 개요 대시보드를 요약합니다.
 title: 수익 개요 대시보드
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # 수익 개요 대시보드 {#revenue-overview-dashboard}
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 * 2022년 8월 매출의 몇 %가 마케팅 이니셔티브에 귀속될 수 있습니까?
 * 작년 Q3의 매출이 Q4에 비해 어떻게 증가합니까?
 
-![시간 경과에 따른 총 매출과 속성 매출을 비교한 매출 개요 차트](assets/revenue-overview-dashboard-1.png)
+![](assets/revenue-dashboard-1.png)
 
 ### 속성 적용 범위 차트 {#attribution-coverage-chart}
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 * 작년에 있었던 마케팅 활동으로 인한 매출액 비중은 얼마나 됩니까?
 
-![속성 적용 범위 파이 차트 특성 대 비특성 수익 분할](assets/revenue-overview-dashboard-2.png)
+![](assets/revenue-dashboard-2.png)
 
 ## 필터 창 {#filter-pane}
 
@@ -60,5 +60,6 @@ ht-degree: 0%
 * 날짜(마감일 기준)
 
 >[!MORELIKETHIS]
-> [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [대시보드 데이터 가시성 정책](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [대시보드 데이터 가시성 정책](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

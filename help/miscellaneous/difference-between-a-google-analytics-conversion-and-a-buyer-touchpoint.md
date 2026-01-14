@@ -1,15 +1,14 @@
 ---
-description: Google Analytics 전환과 Buyer Touchpoint의 차이점
+description: Marketo Measure 사용자를 위한 Google Analytics 전환과 Buyer Touchpoint 지침의 차이점
 title: Google Analytics 전환과 Buyer Touchpoint의 차이점
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
-
 
 # Google Analytics 전환과 Buyer Touchpoint의 차이점 {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
@@ -21,39 +20,39 @@ ht-degree: 1%
 
 그러나 목표를 특정 동작을 관리하도록 코딩할 수 없습니다. 대신 웹 개발자가 구성할 수 있는 목표 유형이 있습니다. 다음은 이러한 예 중 일부입니다.
 
-<table>
- <colgroup>
-  <col>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <td><strong>목표 유형</strong></td>
-   <td><p><strong>설명</strong></p></td>
-   <td><strong>예</strong></td>
-  </tr>
-  <tr>
-   <td><p>대상</p></td>
-   <td>특정 위치가 로드됨</td>
-   <td><em>등록해 주셔서 감사합니다!</em> 웹 페이지 또는 앱 화면</td>
-  </tr>
-  <tr>
-   <td>기간</td>
-   <td>특정 시간 이상 지속되는 세션</td>
-   <td>지원 사이트에서 보낸 시간(10분 이상)</td>
-  </tr>
-  <tr>
-   <td>세션당 페이지/Screens</td>
-   <td>사용자가 특정 수의 페이지 또는 화면을 봅니다</td>
-   <td>5개 페이지 또는 화면이 로드됨</td>
-  </tr>
-  <tr>
-   <td>이벤트</td>
-   <td>이벤트로 정의된 작업이 트리거됩니다.</td>
-   <td>소셜 추천, 비디오 재생 및 클릭</td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <td><strong>목표 유형</strong></td> 
+   <td><p><strong>설명</strong></p></td> 
+   <td><strong>예</strong></td> 
+  </tr> 
+  <tr> 
+   <td><p>대상</p></td> 
+   <td>특정 위치가 로드됨</td> 
+   <td><em>등록해 주셔서 감사합니다!</em> 웹 페이지 또는 앱 화면</td> 
+  </tr> 
+  <tr> 
+   <td>기간</td> 
+   <td>특정 시간 이상 지속되는 세션</td> 
+   <td>지원 사이트에서 보낸 시간(10분 이상)</td> 
+  </tr> 
+  <tr> 
+   <td>세션당 페이지/Screens</td> 
+   <td>사용자가 특정 수의 페이지 또는 화면을 봅니다</td> 
+   <td>5개 페이지 또는 화면이 로드됨</td> 
+  </tr> 
+  <tr> 
+   <td>이벤트</td> 
+   <td>이벤트로 정의된 작업이 트리거됩니다.</td> 
+   <td>소셜 추천, 비디오 재생 및 클릭</td> 
+  </tr> 
+ </tbody> 
 </table>
 
 대부분의 마케터는 변환을 &quot;대상 목표&quot;로 구성합니다. 즉, 일반적으로 형식 전환을 고려할 양식 후에 감사 페이지를 만듭니다.

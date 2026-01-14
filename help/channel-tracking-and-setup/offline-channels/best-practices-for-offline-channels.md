@@ -1,11 +1,11 @@
 ---
-description: 오프라인 채널에 대한 모범 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 오프라인 채널 지침 모범 사례
 title: 오프라인 채널에 대한 우수 사례
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -76,5 +76,5 @@ ht-degree: 0%
 > [오프라인 캠페인 및 캠페인 구성원 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 > [Campaign 동기화 날짜 - CRM 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 > [여러 캠페인 레코드 종류](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md)에 대한 구성
-> [캠페인 목록 보기 &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)을(를) 만드는 중
+> [캠페인 목록 보기 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)을(를) 만드는 중
 > [이전 데이터 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

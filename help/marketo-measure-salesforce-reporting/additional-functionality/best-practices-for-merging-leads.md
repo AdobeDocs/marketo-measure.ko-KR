@@ -1,21 +1,20 @@
 ---
-description: 리드 병합 모범 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 리드 병합 지침 모범 사례
 title: 리드 병합에 대한 우수 사례
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # 리드 병합에 대한 우수 사례 {#best-practices-for-merging-leads}
 
 [!DNL Salesforce]에서 Lead를 병합할 때는 데이터가 손실되지 않도록 항상 주의하는 것이 좋습니다.
 
-[&#x200B; 지원에서 &#x200B;](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5)잠재 고객 병합 방법[!DNL Salesforce]에 대해 설명합니다.
+[ 지원에서 ](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5)잠재 고객 병합 방법[!DNL Salesforce]에 대해 설명합니다.
 
 [!DNL Marketo Measure]이(가) 들어오는 위치는 병합된 레코드에서 채워지는 필드를 선택할 때입니다. 기본 레코드를 선택하면 [!DNL Marketo Measure] 필드가 새 레코드로 전달되도록 선택되었는지 확인합니다.
 
@@ -25,4 +24,4 @@ ht-degree: 0%
 
 질문이 있는 경우 주저하지 말고 Adobe 계정 팀(계정 관리자) 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하십시오.
 
-![Marketo Measure 필드가 있는 Salesforce 병합 리드 대화 상자](assets/1.jpg)
+![](assets/additional-functionality-8.jpg)

@@ -1,19 +1,19 @@
 ---
-description: 부메랑 단계 및 터치포인트 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 부메랑 단계 및 터치포인트 지침
 title: 부메랑 스테이지 및 터치포인트
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
-
 # 부메랑 스테이지 및 터치포인트 {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]
+>
 >부메랑 기능은 계층 2 및 3 고객에게만 활성화됩니다. 더 높은 계정 계층을 요청하려면 Adobe 계정 팀(계정 관리자)에 문의하십시오.
 
 [!DNL Marketo Measure]이(가) 부메랑 단계 기능을 릴리스했습니다! 영업 주기가 긴 [!DNL Marketo Measure] 고객의 여정에 대한 가시성을 높이기 위해 부메랑 단계 기능을 만들었습니다. 이 기능을 사용하면 마케터는 연락처 MQL을 이동한 다음 SAL로 이동한 다음 MQL 단계로 되돌리는 경우와 같이 영업 기회 여정에서 발생하는 모든 단계 전환에 대한 터치포인트를 만들 수 있습니다. 연락처가 &quot;MQL 스테이지로 다시 시작&quot; 또는 &quot;MQL을 다시 시작&quot;할 때 MQL은 부메랑 스테이지로 간주됩니다. 부메랑 단계 기능은 [!DNL Marketo Measure] 사용자 지정 단계와 함께 작동합니다.
@@ -26,13 +26,14 @@ ht-degree: 0%
 * 사용자 지정 모델 사용자인 경우 이러한 각 단계에 할당할 속성 가중치 및 퍼센트 크레딧을 결정할 수 있습니다(예: 첫 번째 또는 마지막 MQL 발생에 속성 가중치를 지정하거나 모든 발생 간에 속성 가중치를 균등하게 분배)
 
 >[!NOTE]
+>
 >[부메랑 단계를 설정하는 방법에 대한 지침](/help/advanced-features/boomerang/setting-up-boomerang-stages.md).
 
 ## CRM에서 표시되는 부메랑 단계 및 터치포인트 {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
 부메랑 단계(&quot;이전&quot;)가 없으면 리드/연락처 레코드와 연결된 가장 최근 MQL 또는 가장 최근 SQL 터치포인트만 표시됩니다.
 
-![부메랑 없이 최신 단계 접점만 표시하는 영업 기회 기록](assets/1.png)
+![](assets/boomerang-boomerang-18.png)
 
 부메랑 단계 및 터치포인트를 사용하면 각 단계 전환에 대해 발생하는 터치포인트를 볼 수 있습니다. 이러한 부메랑 접점에 대한 명명 규칙은 다음과 같습니다.
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 아래 예를 사용하여 이 [!DNL Marketo Measure] 계정은 부메랑 단계에 MQL 및 SQL을 포함했으며 단계당 2개의 부메랑 터치포인트를 표시하도록 선택했습니다.
 
-![여러 MQL 및 SQL 단계 전환에 대해 나열된 부메랑 터치포인트](assets/2.png)
+![](assets/boomerang-boomerang-19.png)
 
 **MQL-01**&#x200B;은(는) 첫 번째 MQL 단계 전환입니다.
 

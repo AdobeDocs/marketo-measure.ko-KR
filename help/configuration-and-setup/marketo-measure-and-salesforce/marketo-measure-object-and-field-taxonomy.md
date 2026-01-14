@@ -3,23 +3,22 @@ description: '[!DNL Marketo Measure] 개체 및 필드 분류법 - [!DNL Marketo
 title: '[!DNL Marketo Measure] 개체 및 필드 분류법'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] 개체 및 필드 분류법 {#marketo-measure-object-and-field-taxonomy}
 
 다음은 [!DNL Marketo Measure] 사용자 지정 개체와 [!DNL Salesforce] 표준 개체의 관계를 나타내는 순서도입니다.
 
-![&#x200B; 2](assets/1-2.png)
+![](assets/bizible-full-1.png)
 
-전체 크기의 이미지를 보려면 [여기를 클릭하세요](assets/bizible-object-and-field-taxonomy-graph-full.png).
+전체 크기의 이미지를 보려면 [여기를 클릭하세요](assets/bizible-full-1.png).
 
-각 개체 [!DNL Marketo Measure]에 있는 [&#x200B; 필드의 정의는 여기에서 찾을 수 있습니다](/help/glossary.md).
+각 개체 [!DNL Marketo Measure]에 있는 [ 필드의 정의는 여기에서 찾을 수 있습니다](/help/introduction/glossary.md).
 
 ## FAQ {#faq}
 

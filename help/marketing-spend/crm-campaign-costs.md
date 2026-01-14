@@ -1,15 +1,14 @@
 ---
-description: CRM 캠페인 비용
+description: Marketo Measure 사용자를 위한 CRM Campaign 비용 지침
 title: CRM 캠페인 비용
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
-
 
 # CRM 캠페인 비용 {#crm-campaign-costs}
 
@@ -31,7 +30,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure]이(가) 월 간 캠페인 분포를 결정할 수 있도록 캠페인 시작 및 종료 날짜를 사용하여 일일 금액을 균등하게 분배합니다.
 
-![월별 CRM 캠페인 비용 분포 예](assets/1.jpg)
+![](assets/spend-management-3.jpg)
 
 이 예에서 캠페인은 109일 동안 지속되므로 총 비용은 18,000달러이고, 일일 지출은 ~$165.14가 됩니다.
 

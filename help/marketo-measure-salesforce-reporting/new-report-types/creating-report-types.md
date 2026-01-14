@@ -1,19 +1,20 @@
 ---
-description: 사용자 지정 [!DNL Marketo Measure] 보고서 유형을 만드는 중
+description: Marketo Measure 사용자를 위한 사용자 지정 [!DNL Marketo Measure] 보고서 유형 지침 만들기
 title: 사용자 지정 [!DNL Marketo Measure] 보고서 유형을 만드는 중
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-
 # 사용자 지정 [!DNL Marketo Measure] 보고서 유형을 만드는 중 {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
+>
 >설명서에는 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시되지만 CRM에는 여전히 &quot;[!DNL Bizible]&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
 사용자 지정 [!DNL Marketo Measure] [!DNL Salesforce] 보고서 유형을 만드는 방법을 알아봅니다. 만드는 데 권장되는 세 가지 보고서 유형은 구매자 터치포인트가 있는 잠재 고객(사용자 지정), 구매자 터치포인트가 있는 [!DNL Marketo Measure]명(사용자 지정), Buyer Attribution Touchpoint이 있는 기회(사용자 지정)입니다.
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**(으)로 이동합니다.
 
-   ![새 사용자 지정 보고서 유형으로 Salesforce 설정 메뉴 탐색](assets/1.png)
+   ![](assets/new-types-1.png)
 
 1. 사용자 지정 보고서 유형을 정의합니다.
 
@@ -31,7 +32,7 @@ ht-degree: 0%
    * [!UICONTROL Store in Category]: 기타 보고서
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: 배포됨
 
-   ![리드를 기본 개체로 사용하는 사용자 지정 보고서 유형 정의 양식](assets/2.png)
+   ![](assets/new-types-10.jpg)
 
 1. 객체 관계를 정의합니다.
 
@@ -39,13 +40,13 @@ ht-degree: 0%
    * &quot;[!UICONTROL Each A/B record must have at least one B/C]&quot; 레코드가 선택되었는지 확인합니다.
    * [!UICONTROL Save]
 
-   ![사람과 접점 간 연결을 보여 주는 개체 관계 다이어그램](assets/3.png)
+   ![](assets/new-types-11.png)
 
 ## 구매자 터치포인트가 있는 [!DNL Marketo Measure]명(사용자 지정) {#marketo-measure-person-with-buyer-touchpoints-custom}
 
 1. **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**(으)로 이동합니다.
 
-   ![새 사용자 지정 보고서 유형으로 Salesforce 설정 메뉴 탐색](assets/4.png)
+   ![](assets/new-types-12.png)
 
 1. 사용자 지정 보고서 유형을 정의합니다.
 
@@ -54,7 +55,7 @@ ht-degree: 0%
    * [!UICONTROL Store in Category]: 기타 보고서
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: 배포됨
 
-   ![Marketo Measure Person을 기본 개체로 사용하는 사용자 지정 보고서 유형 정의 양식](assets/5.png)
+   ![](assets/new-types-13.jpg)
 
 1. 객체 관계를 정의합니다.
 
@@ -62,13 +63,13 @@ ht-degree: 0%
    * &quot;[!UICONTROL Each A record must have at least one B]&quot; 레코드가 선택되었는지 확인합니다.
    * [!UICONTROL Save]
 
-   ![개인-터치포인트 연결을 보여 주는 개체 관계 다이어그램](assets/6.png)
+   ![](assets/new-types-9.png)
 
 ## Buyer Attribution Touchpoint을 사용한 기회 (사용자 지정) {#opportunities-with-buyer-attribution-touchpoint-custom}
 
 1. **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**(으)로 이동합니다.
 
-   ![새 사용자 지정 보고서 유형으로 Salesforce 설정 메뉴 탐색](assets/7.png)
+   ![](assets/new-types-8.png)
 
 1. 사용자 지정 보고서 유형을 정의합니다.
 
@@ -77,7 +78,7 @@ ht-degree: 0%
    * [!UICONTROL Store in Category]: 기타 보고서
    * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: 배포됨
 
-   ![기회를 기본 개체로 사용하는 사용자 지정 보고서 유형 정의 양식](assets/8.png)
+   ![](assets/new-types-14.jpg)
 
 1. 객체 관계를 정의합니다.
 
@@ -85,14 +86,14 @@ ht-degree: 0%
    * &quot;[!UICONTROL Each A record must have at least one B]&quot; 레코드가 선택되었는지 확인합니다.
    * [!UICONTROL Save]
 
-   ![속성 접점 연결에 대한 기회를 보여주는 개체 관계 다이어그램](assets/9.png)
+   ![](assets/new-types-15.png)
 
 ## 사용자 지정 보고서 유형에 사용자 지정 필드 추가 {#adding-custom-fields-to-custom-report-types}
 
 1. 보고서가 생성되면 보고서 유형 개요로 리디렉션됩니다. **[!UICONTROL Edit Layout]**&#x200B;를 클릭합니다.
 
-   ![레이아웃 편집 단추가 있는 보고서 유형 개요 화면](assets/10.png)
+   ![](assets/new-types-2.png)
 
 1. 보고서에 추가하려는 사용자 정의 필드가 필드 레이아웃 속성 섹션에 나타나는지 확인합니다. 추가할 다른 필드가 있으면 &quot;[!UICONTROL Add fields related via lookup]&quot; 옵션을 사용하십시오.
 
-   사용 가능한 사용자 지정 필드가 있는 ![필드 레이아웃 속성 섹션](assets/11.png)
+   ![](assets/new-types-3.png)

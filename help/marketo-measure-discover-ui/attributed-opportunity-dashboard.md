@@ -1,15 +1,15 @@
 ---
-description: 속성 영업 기회 대시보드 - [!DNL Marketo Measure] - 제품
+description: 채널 하위 채널 및 캠페인별로 시간 경과에 따른 기회 금액 및 카운트를 표시하는 속성 영업 기회 대시보드를 다룹니다
 title: 속성 영업 기회 대시보드
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
-
 
 # 속성 영업 기회 대시보드 {#attributed-opportunity-dashboard}
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 * 각 분기에 가장 많은 영업 기회의 금액을 생성한 채널은 무엇입니까?
 * 지난 달 채널별 속성 기회 금액의 분류는 무엇입니까?
 
-![시간 경과에 따른 채널별 속성 기회 금액 차트](assets/attributed-opportunity-dashboard-1.png)
+![](assets/attributed-dashboard-3.png)
 
 ### 속성 영업 기회 금액 테이블 {#attributed-opportunity-amount-table}
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 각 채널 옆의 **+** 아이콘을 클릭하여 하위 채널 및 캠페인별로 분류를 표시합니다.
 
-채널 및 캠페인별 ![속성 영업 기회 금액 표 형식 보기](assets/attributed-opportunity-dashboard-2.png)
+![](assets/attributed-dashboard-1.png)
 
 #### 트리 보기 {#tree-view}
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 분기를 클릭하여 후속 계층 레이어를 자세히 살펴봅니다.
 
-![속성 영업 기회 금액 트리 보기 계층 구조](assets/attributed-opportunity-dashboard-3.png)
+![](assets/attributed-dashboard-2.png)
 
 ### 필터 창
 

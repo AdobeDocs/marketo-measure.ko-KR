@@ -1,15 +1,14 @@
 ---
-description: 속성 매핑 방법 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 속성 매핑 방법론 지침
 title: 속성 매핑 방법론
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
-
 
 # 속성 매핑 방법론 {#attribution-mapping-methodology}
 
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 기본적으로 [!DNL Marketo Measure]은(는) 계정 ID 매핑을 제공합니다. 즉, [!DNL Marketo Measure]이(가) 거래처 및 해당 연락처 마케팅 정보를 보고 해당 기회에 연결된 속성 접점을 만듭니다. 다음은 그 과정을 간단하게 표현한 것입니다.
 
-![&#x200B; 1](assets/1-1.png)
+![](assets/adobe-setup-1.png)
 
 연락처의 **일부**&#x200B;개 터치포인트가 기여도 분석 터치포인트로 영업 기회에 푸시되지 않는다는 점을 유의하십시오. Opportunity 의 타임라인 (첫 번째 터치 날짜 - 종료 날짜)은 터치 포인트가 Opportunity에 영향을 주는지 여부를 결정합니다. 따라서 Opportunity Closed Won/Lost 후에 연락처 A에 대한 터치포인트가 발생한 경우 [!DNL Marketo Measure]은(는) 해당 터치포인트를 Opportunity에 푸시하지 않습니다. 이 타임라인 절차는 다른 모든 속성 객체 매핑에서 수행됩니다.
 
@@ -29,13 +28,9 @@ ht-degree: 0%
 
 ## 영업 기회 연락처 역할 매핑 {#opportunity-contact-role-mapping}
 
->[!NOTE]
->
->연락처 역할 매핑 방법은 Salesforce을 CRM으로 사용하는 경우에만 사용할 수 있습니다. 해당 CRM 내에 연락처 역할 개체가 없기 때문에 Microsoft Dynamics 사용자에게는 사용할 수 없습니다.
-
 대부분의 클라이언트가 계정 ID 매핑을 사용하는 동안 [!DNL Marketo Measure]은(는) Opportunity 내에서 연락처 역할(Opportunity에 연결된 연락처)을 조회하여 속성 프로세스를 분류할 수 있습니다. 즉, [!DNL Marketo Measure]이(가) 구매자 속성 터치포인트로서 영업 기회에서 연락처 역할과 연결된 마케팅 상호 작용만 푸시합니다. 다음은 이 프로세스를 나타내는 것입니다.
 
-![&#x200B; 1](assets/2-1.png)
+![](assets/adobe-setup-2.png)
 
 장점: 팀에 연락처 역할 프로세스가 잘 정의되어 있다면 이러한 유형의 속성 매핑이 적합할 수 있습니다. 모든 사람이 기여도 분석 분류 방법을 완전히 이해하므로 판매와 마케팅을 약간 더 일치시키는 데 도움이 됩니다. 이 프로세스는 조직이 대기업 내의 여러 비즈니스 단위를 대상으로 할 때 및 서로 다른 제품을 동시에 판매할 때도 유용합니다.
 
@@ -45,7 +40,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure]은(는) 영업 기회에 대한 연락처 역할만 보는 것이 아니라 영업 기회에 대한 기본 연락처만 보는 데 더 집중할 수 있습니다. 이 설정을 염두에 두고 [!DNL Marketo Measure]은(는) 기회의 기본 연락처와 연결된 마케팅 접점만 잡고 해당 정보를 해당 특정 기회의 속성 스토리에 푸시합니다. 아래 이미지를 참조하십시오.
 
-![기본 담당자 역할만 사용하는 속성 매핑 다이어그램](assets/3.png)
+![](assets/adobe-setup-3.png)
 
 장점: 팀이 영업 기회에서 &#39;기본&#39;으로 설정된 연락처에 대한 마케팅 영향만 이해하고자 하는 경우, 이 유형의 매핑이 팀에 가장 적합합니다.
 

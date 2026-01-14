@@ -3,13 +3,12 @@ description: '[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure]
 title: '[!DNL Marketo Engage] 프로그램 통합'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Engage] 프로그램 통합 {#marketo-engage-programs-integration}
 
@@ -33,26 +32,27 @@ ht-degree: 0%
 
 1. Marketo 프로그램에 대한 규칙 설정을 시작하려면 **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Programs]**(으)로 이동합니다. **+** 아이콘을 클릭하여 첫 번째 규칙 만들기를 시작합니다.
 
-   ![Marketo Measure 계정의 프로그램 설정 페이지](assets/one.png)
+   ![](assets/one-one-2.png)
 
-   ![추가 단추를 사용하여 새 규칙 만들기 대화 상자](assets/two.png)
+   ![](assets/5a-5a-1.png)
 
 1. 규칙 추적에 도움이 되는 경우 선택적으로 규칙 이름을 설정할 수 있습니다. 먼저 프로그램 및 프로그램 멤버십 필드 목록에서 규칙을 정의할 필드를 선택합니다. 확인할 연산자 및 예상 값을 선택하여 규칙 작성을 계속합니다.
 
-   필드 선택 드롭다운과 연산자 옵션이 있는 ![규칙 빌더](assets/three.png)
+   ![](assets/5b-5b-1.png)
 
 1. 동일한 상자 내에 다른 문을 추가하여 규칙의 &quot;and&quot; 기준을 설정하거나 상자 외부의 + 아이콘을 클릭하여 &quot;or&quot; 문을 설정합니다.
 
-   ![및/또는 논리 옵션이 있는 여러 조건을 표시하는 규칙 빌더](assets/four.png)
+   ![](assets/bizible-discover-1.png)
 
 1. 터치포인트 날짜에 매핑하는 데 사용할 날짜 또는 날짜/시간 필드를 선택합니다. Marketo에서 사용할 수 있는 값 목록을 보려면 중괄호 `{`을(를) 입력하면 사용 가능한 필드가 표시됩니다.
 
-   ![사용 가능한 필드를 표시하는 자동 완성 드롭다운이 있는 날짜 필드 매핑](assets/five.png)
+   ![](assets/five-five-2.png)
 
    >[!NOTE]
+   >
    >규칙에서 활동 날짜 또는 프로그램 구성원이 특정 상태에 도달한 날짜를 캡처하려는 경우 [!DNL Marketo Engage] 활동 통합을 활용하고 &quot;진행 상태 변경&quot; 활동 유형에 대한 규칙을 설정하려고 합니다.
 
-   ![필드 매핑 및 조건을 표시하는 규칙 구성이 완료되었습니다](assets/six.png)
+   ![](assets/bizible-discover-2.png)
 
 완료된 규칙은 다음과 같아야 합니다.
 
@@ -62,21 +62,21 @@ ht-degree: 0%
 
 1. 테스트를 실행하려면 아래와 같이 **[!UICONTROL TEST]** 단추를 클릭하십시오.
 
-   ![프로그램 규칙 인터페이스의 테스트 단추](assets/seven.png)
+   ![](assets/seven-seven-2.png)
 
 1. Marketo에서 프로그램 ID를 입력할 수 있는 모달이 나타납니다.
 
-   ![프로그램 ID 입력 필드가 있는 테스트 모달 대화 상자](assets/eight.png)
+   ![](assets/eight-eight-1.png)
 
    ID를 입력하고 [!UICONTROL Test] 단추를 클릭하면 규칙 엔진에서 각 규칙을 살펴보고 프로그램이 규칙에 맞는지 여부를 결정합니다. 아래 예제에서 [!DNL Marketo Measure] Ebook이라고 하는 프로그램 1002에 5명의 프로그램 구성원이 있으며 표시된 규칙으로 인해 자격이 있음을 알 수 있습니다.
 
    규칙은 5000명의 멤버 샘플 크기로 실행됩니다. 프로그램에 5000명 이상의 멤버가 포함되어 있는 경우 모든 멤버의 호환성을 확인하지 않을 수 있습니다. 이 도구는 규칙이 올바르게 구성되었는지 확인하는 데 사용됩니다.
 
-   ![구성원 수와 일치하는 프로그램을 보여 주는 테스트 결과](assets/nine.png)
+   ![](assets/nine-nine-2.png)
 
    멤버 수를 클릭하여 프로그램 내에서 적격한 Marketo 사용자 ID 목록을 볼 수 있습니다.
 
-   ![테스트 결과의 적격 Marketo 사용자 ID 목록](assets/ten.png)
+   ![](assets/eight-eight-2.png)
 
 ## 채널 매핑 {#channel-mapping}
 
@@ -88,43 +88,39 @@ Marketo 프로그램 채널 목록에서 설정 내에서 만든 [!DNL Marketo M
 
 1. 먼저 값에 매핑할 채널을 선택한 다음 선택적으로 하위 채널을 선택합니다. 완료되면 하단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![Marketo 프로그램 채널 매핑 옵션을 보여 주는 오프라인 채널 설정](assets/eleven.png)
+   ![](assets/eleven-eleven-1.png)
 
 ## 프로그램 비용 {#program-costs}
 
 Marketo 프로그램의 데이터 가져오기를 통해 비용은 기간 원가에서 자동으로 다운로드되고 Marketo의 보고된 비용은 할당된 달 내내 배포됩니다. 예를 들어 $1000가 2021년 1월에 보고되면 $1000는 31일에 걸쳐 분할됩니다. 비용은 [!DNL Marketo Measure Discover]에서 찾을 수 있습니다.
 
->[!NOTE]
->
->Marketo Measure은 한 달에 하나의 기간 원가 입력만 지원합니다. 모든 비용을 가져오려면 월별 총 비용을 단일 항목으로 합산합니다. 동일한 월에 대한 여러 기간 비용 입력은 지원되지 않습니다.
-
 ## 작동 방법 {#how-it-works}
 
 **필드 매핑**
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th>biz_ad_campaigns</th>
-   <th>Marketo</th>
-  </tr>
-  <tr>
-   <td>ID</td>
-   <td>ID</td>
-  </tr>
-  <tr>
-   <td>IS_DELETED</td>
-   <td>(API를 통해 프로그램이 여전히 존재하는지 확인)</td>
-  </tr>
-  <tr>
-   <td><p>이름</p></td>
-   <td>이름</td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th>biz_ad_campaigns</th> 
+   <th>Marketo</th> 
+  </tr> 
+  <tr> 
+   <td>ID</td> 
+   <td>ID</td> 
+  </tr> 
+  <tr> 
+   <td>IS_DELETED</td> 
+   <td>(API를 통해 프로그램이 여전히 존재하는지 확인)</td> 
+  </tr> 
+  <tr> 
+   <td><p>이름</p></td> 
+   <td>이름</td> 
+  </tr> 
+ </tbody> 
 </table>
 
 | biz_campaign_members | Marketo |
@@ -157,6 +153,7 @@ Wayne Enterprises 마케팅 팀은 &quot;이메일 클릭&quot; 활동 유형에
 이 쿠키 매핑 기능이 향상되면 FT는 돌아가서 [!DNL Facebook] 광고에 크레딧을 받고 LC는 이메일에 크레딧을 받습니다.
 
 >[!NOTE]
+>
 >쿠키 매핑 비헤이비어를 사용하면 웹 방문에서 발생하는 일부 LC 터치포인트를 찾을 수 있습니다. 리드를 만든 양식 활동이 없어도 연결된 활동 없이 Marketo에 리드가 나타난 다음 [!DNL Marketo Measure]에서 해당 리드를 다운로드하고 연결된 쿠키와 일치시킨 다음 가장 최근 웹 세션으로 추적했을 수 있습니다.
 
 ## FAQ {#faq}

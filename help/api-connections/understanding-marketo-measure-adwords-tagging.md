@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Marketo Measure] AdWords 태그 지정 이해 - [!DNL Marketo Measure]'
+description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] AdWords 태그 지정 지침 이해
 title: ' [!DNL Marketo Measure] AdWords 태그 지정 이해'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure]개 AdWords 태그 지정 이해 {#understanding-marketo-measure-adwords-tagging}
 
@@ -61,11 +60,11 @@ ht-degree: 0%
 
 1. 확장 창에서 **[!UICONTROL All campaigns]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다.
 
-   ![설정 옵션이 있는 모든 캠페인 메뉴를 표시하는 Google AdWords 탐색](assets/1.png)
+   ![](assets/utilizing-connections-13.png)
 
 1. 맨 위에 있는 **[!UICONTROL Account Settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tracking Template]**&#x200B;을(를) 클릭합니다. [!DNL Marketo Measure] 추적 템플릿을 입력하십시오.
 
-   ![Marketo Measure 매개 변수 입력을 위한 추적 템플릿 필드가 있는 계정 설정 페이지](assets/2-1.png)
+   ![](assets/bizible-guide-1.png)
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
@@ -73,11 +72,11 @@ ht-degree: 0%
 
 1. 확장 창에서 **[!UICONTROL All campaigns]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-   ![캠페인 옵션이 있는 모든 캠페인 메뉴를 표시하는 Google AdWords 탐색](assets/3.png)
+   ![](assets/utilizing-connections-12.png)
 
 1. 적용 가능한 모든 캠페인 또는 **[!UICONTROL Select All]**&#x200B;을(를) 선택하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Change Tracking Templates]**&#x200B;을(를) 클릭합니다.
 
-   ![변경 추적 템플릿 옵션을 표시하는 편집 메뉴가 있는 캠페인 선택 페이지](assets/4-1.png)
+   ![](assets/five-five-1.png)
 
 1. [!DNL Marketo Measure] 추적 템플릿을 입력하고 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -85,13 +84,13 @@ ht-degree: 0%
 
 1. 확장 창에서 **[!UICONTROL All campaigns]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
 
-   ![광고 그룹 옵션이 있는 모든 캠페인 메뉴를 표시하는 Google AdWords 탐색](assets/5-1.png)
+   ![](assets/four-four-1.png)
 
 1. 적용 가능한 광고 그룹을 모두 선택하거나 모두 선택을 클릭하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Change Tracking Templates]**&#x200B;을(를) 클릭합니다.
 
 1. [!DNL Marketo Measure] 추적 템플릿을 입력하고 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   ![변경 내용 추적 템플릿 옵션과 적용 단추를 표시하는 편집 메뉴가 있는 광고 그룹 선택 페이지](assets/6-1.png)
+   ![](assets/one-one-1.png)
 
 ## FAQ {#faq}
 
@@ -112,6 +111,7 @@ A: 4시간
 A: 동적 검색 광고에 대한 개별 크리에이티브 세부 정보를 검색할 수 없지만 자동 태깅이 활성화된 경우 크리에이티브 ID 및 속성 매출을 가져올 수 있습니다.
 
 >[!NOTE]
+>
 >변경이 완료되면 완료됩니다. 설치하는 동안 질문이 있는 경우 언제든지 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하십시오.
 
 계정 수준 추적 템플릿 만들기에 대한 Google의 지침을 보려면 [여기를 클릭](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}하십시오.

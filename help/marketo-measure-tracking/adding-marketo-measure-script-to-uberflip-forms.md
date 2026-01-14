@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Marketo Measure] Forms - [!DNL Uberflip] 에  [!DNL Marketo Measure]스크립트 추가 중'
+description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] Forms 지침에  [!DNL Uberflip] 스크립트 추가 중
 title: ' [!DNL Marketo Measure] Forms에  [!DNL Uberflip] 스크립트 추가 중'
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Forms에 [!DNL Uberflip] 스크립트 추가 중 {#adding-marketo-measure-script-to-uberflip-forms}
 
@@ -25,27 +24,28 @@ ht-degree: 0%
 
    이 프리앰블을 [!DNL Hubs.onLoad] 및 [!DNL Hubs.onPageChange] AJAX JavaScript 이벤트 후크에 모두 추가합니다. (참고: 이러한 이벤트 후크에 다른 코드도 있을 수 있습니다. 프리앰블도 포함해야 합니다.)
 
-```javascript
-   Hubs.onLoad = function () {
-    window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
-   }
-   Hubs.onPageChange = function () {
-   window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
-   }
-```
+   `Hubs.onLoad = function () {`
+
+   `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
+
+   `}`
+
+   `Hubs.onPageChange = function () {`
+
+   `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
+
+   `}`
 
 1. 양식 CTA 제출 시 데이터를 Bizible로 푸시하는 함수를 만들고 정의합니다. [!UICONTROL Custom Code>JavaScript] 섹션으로 이동합니다. (참고: 이 함수에는 Uberflip이 제공하는 ctaData 매개 변수만 필요하지만, 사용자가 이 데이터를 전달하기 위해 코드를 사용자 정의하려는 경우 다른 매개 변수 ctaId 및 ctaName을 포함할 수 있습니다.)
 
-```javascript
-function bizibleFormCode(ctaId, ctaData, ctaName) {
-   var email = ctaData["email"];
-   if (email) {
-      Bizible.Push('User', {
-         eMail: email, // required
-      });
-   }
-}
-```
+   `function bizibleFormCode(ctaId, ctaData, ctaName) {`
+   `var email = ctaData["email"];`
+   `if(email){`
+   `Bizible.Push('User', {`
+   `eMail: email, // required`
+   `}); }`
+
+   `}`
 
 1. 양식 CTA이 제출되면 아래에 따라 [!DNL Marketo Measure] 함수가 실행되었는지 확인하십시오. 이 작업은 [!UICONTROL Custom Code>JS] 섹션 내에서 수행됩니다. (참고: Hubs.onCtaFormSubmitSuccess JavaScript 이벤트 후크 내에 다른 코드가 있을 수 있습니다. 이 함수 호출도 포함해야 합니다.)
 

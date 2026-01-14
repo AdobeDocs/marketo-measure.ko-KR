@@ -1,15 +1,14 @@
 ---
-description: 입찰 관리 도구의 영향 [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: 입찰 관리 도구가 Marketo Measure 사용자를 위한  [!DNL Marketo Measure] 지침에 영향을 미치는 방식
 title: 입찰 관리 도구의 영향 [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
-
 
 # 입찰 관리 도구가 [!DNL Marketo Measure]에 미치는 영향 {#how-bid-management-tools-affect-marketo-measure}
 
@@ -31,6 +30,7 @@ Kenshoo 및 Marin은 마케터가 다양한 검색 엔진을 사용하여 광고
       * `{lpurl}&_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
    * 광고 URL 중 &quot;?&quot;가 없는 경우 여기에서 다음 URL을 사용합니다.
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+
 
 ## [!DNL Bing Ads] 계정용 {#for-bing-ads-accounts}
 

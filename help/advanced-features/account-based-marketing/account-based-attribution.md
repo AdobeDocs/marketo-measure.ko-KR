@@ -3,13 +3,12 @@ description: 계정 기반 속성 및 Adobe Marketo Measure이 Account-Based Mar
 title: 계정 기반 속성
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
-
 
 # 계정 기반 속성 {#account-based-attribution}
 
@@ -21,7 +20,7 @@ ABM(Account-Based Marketing)의 등장으로 [!DNL Marketo Measure]이(가) ABM 
 
 예를 들어 아래 계정에는 두 개의 Opportunity 가 있습니다. 첫 번째 Opportunity 의 경우 터치포인트가 하나만 있습니다. 해당 접점은 FT, LC 및 OC(Opportunity Creation) 접점을 포함합니다. 두 번째 Opportunity 는 첫 번째 Opportunity 와 FT &amp; LC 는 동일하지만 OC Touchpoint 는 다릅니다. 또한 두 번째 Opportunity 에는 첫 번째 Opportunity 의 Close Date 이후에 발생하는 터치포인트가 있으므로 첫 번째 Opportunity 와 연결되지 않은 추가 터치포인트가 있습니다.
 
-![FT 및 LC 터치포인트를 공유하는 두 개의 기회를 가진 계정](assets/1.jpg)
+![](assets/account-marketing-4.jpg)
 
 ## 이 방법이 어떤 도움이 됩니까? {#how-does-this-help}
 

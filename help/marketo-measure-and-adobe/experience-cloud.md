@@ -1,15 +1,14 @@
 ---
-description: Adobe Experience Cloud 인터페이스 개요 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 Adobe Experience Cloud 인터페이스 개요 지침
 title: Adobe Experience Cloud 인터페이스 개요
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 19%
+source-wordcount: '285'
+ht-degree: 23%
 
 ---
-
 
 # Adobe Experience Cloud 인터페이스 개요 {#experience-cloud-interface-overview}
 
@@ -19,12 +18,13 @@ Adobe Experience Cloud 인터페이스는 Adobe Experience Cloud 애플리케이
 
 Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 클릭하고 **[!DNL Marketo Measure]**&#x200B;을(를) 선택합니다.
 
-![Marketo Measure 선택 옵션이 있는 Adobe Experience Cloud 메뉴](assets/unified-shell-overview-4.png)
+![](assets/unified-overview-6.png)
 
 >[!NOTE]
+>
 >구독 중인 Adobe Experience Cloud 제품에 따라 드롭다운 메뉴가 다르게 보일 수 있습니다.
 
-Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measure]https://experience.adobe.com/marketo-measure[에서 &#x200B;](https://experience.adobe.com/marketo-measure)에 직접 로그인하십시오.
+Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measure]https://experience.adobe.com/marketo-measure[에서 ](https://experience.adobe.com/marketo-measure)에 직접 로그인하십시오.
 
 ## 새로운 기능 {#new-features}
 
@@ -34,33 +34,33 @@ Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measur
 
 [의 도움 없이  [!DNL Marketo Measure] 도메인](/help/marketo-measure-and-adobe/domain-management.md)관리[!DNL Marketo Measure]를 하세요.
 
-![도메인 구성 옵션을 표시하는 도메인 관리 인터페이스](assets/unified-shell-overview-5.png)
+![](assets/unified-overview-9.png)
 
 **통합 도움말 센터**
 
 [!DNL Marketo Measure] 응용 프로그램에서 지원 문서를 검색하고 티켓을 제출하고 피드백을 제공합니다.
 
-![통합 도움말 센터 및 검색 및 지원 옵션](assets/unified-shell-overview-6.png)
+![](assets/unified-overview-5.png)
 
 **애플리케이션 전환기**
 
 여러 Adobe 제품에 액세스할 수 있는 사용자는 쉽게 전환할 수 있습니다.
 
-![사용 가능한 Adobe 제품을 표시하는 응용 프로그램 전환기](assets/unified-shell-overview-7.png)
+![](assets/unified-overview-4.png)
 
 **알림 및 공지**
 
 제품별 알림 및 일반 Adobe 제품 공지를 애플리케이션에서 직접 보고 상호 작용할 수 있습니다.
 
-경고 지표가 있는 ![알림 아이콘](assets/unified-shell-overview-8.png)
+![](assets/unified-overview-10.png)
 
-![제품 공지 및 업데이트를 표시하는 알림 패널](assets/unified-shell-overview-9.png)
+![](assets/unified-overview-11.png)
 
 **Adobe 설정**
 
 언어 또는 기타 Adobe 환경 설정을 변경하려면 프로필 아이콘을 클릭합니다. [!DNL Marketo Measure]내 설정&#x200B;**을 클릭하여**&#x200B;별 변경을 수행할 수도 있습니다.
 
-![Adobe 설정 및 내 설정 옵션이 있는 프로필 메뉴](assets/unified-shell-overview-10.png)
+![](assets/unified-overview-8.png)
 
 ## FAQ {#faq}
 
@@ -72,6 +72,6 @@ Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measur
 
 Adobe Experience Cloud에 로그인할 수 있지만 다음과 같은 페이지가 표시되면 [!DNL Marketo Measure]측에서 문제가 발생할 수 있습니다.
 
-![Marketo Measure 연결 문제를 표시하는 오류 페이지](assets/unified-shell-overview-11.png)
+![](assets/unified-overview-7.png)
 
 위의 오류가 표시되면 [지원팀에 문의](https://nation.marketo.com/t5/support/ct-p/Support)하여 도움을 받으십시오.

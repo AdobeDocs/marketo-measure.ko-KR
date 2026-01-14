@@ -1,15 +1,14 @@
 ---
-description: Marketo Measure을 Salesforce에 연결 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위해 Marketo Measure을 Salesforce에 연결 지침
 title: Marketo Measure을 Salesforce에 연결
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
-
 
 # Marketo Measure을 Salesforce에 연결 {#connect-marketo-measure-to-salesforce}
 
@@ -23,23 +22,25 @@ ht-degree: 0%
 
 1. 왼쪽의 설정 옵션 열에서 **[!UICONTROL Connections]** 섹션 아래에 있는 [!UICONTROL Integrations]을(를) 클릭합니다.
 
-   ![통합 섹션의 연결 옵션을 표시하는 설정 메뉴](assets/connect-marketo-measure-to-salesforce-1.png)
+   ![](assets/bizible-full-1.png)
 
 1. 연결의 CRM 섹션 아래에서 **[!UICONTROL Set Up New CRM Connection]**&#x200B;을(를) 클릭합니다.
 
-   새 CRM 연결 설정 단추가 있는 ![CRM 연결 페이지](assets/connect-marketo-measure-to-salesforce-2.png)
+   ![](assets/bizible-taxonomy-1.png)
 
 1. CRM 연결을 선택하라는 팝업 창이 나타납니다. **[!UICONTROL Connect]** 로고 옆의 [!DNL Salesforce]을(를) 클릭합니다.
 
-   ![Salesforce 로고 및 연결 단추가 있는 CRM 연결 팝업 창 선택](assets/connect-marketo-measure-to-salesforce-3.png)
+   ![](assets/connect-salesforce-1.png)
 
 1. [!DNL Salesforce] 자격 증명, 샌드박스 또는 프로덕션을 묻는 마지막 팝업 창이 나타납니다. 정보를 입력하고 **[!UICONTROL Authorize]**&#x200B;을(를) 클릭하여 계정을 [!DNL Marketo Measure]에 연결합니다.
 
 >[!NOTE]
+>
 >[!DNL Marketo Measure]은(는) 한 번에 하나의 [!DNL Salesforce] 인스턴스에만 연결할 수 있습니다.
-> SFDC 프로덕션 인스턴스로 연결을 전환하기 전에 [!DNL Marketo Measure] 인스턴스를 SFDC 샌드박스 인스턴스에 연결하여 통합을 테스트할 수 있습니다.
-> SFDC 샌드박스를 사용하여 먼저 테스트하는 경우 리드, 연락처, 계정, 영업 기회, 캠페인 및 사례 오브젝트의 필드 측면에서 SFDC 프로덕션 인스턴스의 정확한 복제본으로 테스트하는 것이 좋습니다. Lead, Contact, Account, Opportunity, Campaign 및 Case 객체에 대한 업데이트를 실행하는 프로덕션에 활성 APEX 트리거가 있는 경우 샌드박스에서 해당 트리거를 활성화해야 합니다.
-> 테스트가 완료되면 [!DNL Marketo Measure] 계정이 [!DNL Salesforce] 샌드박스 대신 [!DNL Salesforce] 프로덕션을 가리키도록 업데이트됩니다. 통합이 빌드된 방식으로 인해 [!DNL Marketo Measure] 계정이 프로덕션 [!DNL Salesforce]에 연결되면 &quot;뒤로&quot;로 이동하여 샌드박스 [!DNL Salesforce] 조직에 연결할 수 없습니다.
+>
+>* SFDC 프로덕션 인스턴스로 연결을 전환하기 전에 [!DNL Marketo Measure] 인스턴스를 SFDC 샌드박스 인스턴스에 연결하여 통합을 테스트할 수 있습니다.
+>* SFDC 샌드박스를 사용하여 먼저 테스트하는 경우 리드, 연락처, 계정, 영업 기회, 캠페인 및 사례 오브젝트의 필드 측면에서 SFDC 프로덕션 인스턴스의 정확한 복제본으로 테스트하는 것이 좋습니다. Lead, Contact, Account, Opportunity, Campaign 및 Case 객체에 대한 업데이트를 실행하는 프로덕션에 활성 APEX 트리거가 있는 경우 샌드박스에서 해당 트리거를 활성화해야 합니다.
+>* 테스트가 완료되면 [!DNL Marketo Measure] 계정이 [!DNL Salesforce] 샌드박스 대신 [!DNL Salesforce] 프로덕션을 가리키도록 업데이트됩니다. 통합이 빌드된 방식으로 인해 [!DNL Marketo Measure] 계정이 프로덕션 [!DNL Salesforce]에 연결되면 &quot;뒤로&quot;로 이동하여 샌드박스 [!DNL Salesforce] 조직에 연결할 수 없습니다.
 
 ## API 크레딧 사용 {#api-credits-usage}
 
@@ -47,7 +48,7 @@ Marketo Measure은 CRM 통합 작업을 사용하여 통합 사용자를 통해 
 
 **내 계정** > **설정** > **CRM** > **일반** > **일별 CRM API 제한**&#x200B;을 통해 Marketo Measure에서 이 제한에 액세스하고 테넌트에 대해 이 제한을 구성할 수 있습니다.
 
-![API 크레딧 할당량에 대한 구성 필드를 표시하는 일별 CRM API 제한 설정](assets/connect-marketo-measure-to-salesforce-4.png)
+![](assets/connect-salesforce-2.png)
 
 ### API 크레딧 제한 설정 {#setting-a-limit-for-api-credits}
 
@@ -57,14 +58,16 @@ Marketo Measure은 CRM 통합 작업을 사용하여 통합 사용자를 통해 
 
 1. 편집하려면 잠금 아이콘을 클릭하십시오.
 
-   ![일별 CRM API 제한 필드를 편집하기 위한 잠금 아이콘](assets/connect-marketo-measure-to-salesforce-5.png)
+   ![](assets/connect-salesforce-3.png)
 
 1. 원하는 제한을 100,000보다 크거나 같게 입력합니다. 완료되면 **저장**&#x200B;을 클릭합니다.
 
-   ![입력한 값과 저장 단추가 있는 일별 CRM API 제한 입력 필드](assets/connect-marketo-measure-to-salesforce-6.png)
+   ![](assets/connect-salesforce-1.png)
 
 >[!NOTE]
+>
 >연결된 솔루션에 사용 가능한 Salesforce API 크레딧을 늘리려면 Salesforce 관리자에게 문의하고 [이 Salesforce 문서](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}를 참조하십시오.
 
 >[!MORELIKETHIS]
+>
 >[오류 알림](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

@@ -1,19 +1,19 @@
 ---
-description: 중복 레코드 및  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: 중복 레코드 및 Marketo Measure 사용자를 위한  [!DNL Marketo Measure] 지침
 title: 중복 레코드 및  [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-
 # 중복 레코드 및 [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
+>
 >설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
 [!DNL Marketo Measure]은(는) CRM의 관련 잠재 고객 또는 연락처와 데이터를 일치시킬 때 전자 메일 주소를 고유 식별자로 사용합니다. [!DNL Marketo Measure]이(가) 전자 메일 주소가 같은 여러 개의 잠재 고객 또는 연락처를 찾으면 모든 레코드에 동일한 데이터가 표시됩니다. 이에 대한 영향은 [!DNL Marketo Measure]과(와)의 리드 또는 연락처에 대해 보고할 때 발생하며, 구매자 터치포인트를 보유한 고유한 사람 수를 잘못 부풀릴 수 있습니다.
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 _예제 보고서: [!DNL Marketo Measure] 구매자 터치포인트가 있는 사람_
 
-![&#x200B; 1](assets/1-1.png)
+![](assets/additional-functionality-1.png)
 
 kelsey@adobe.com 의 [!DNL Marketo Measure] 개인 ID에 대해 해당 이메일 주소에 있는 잠재 고객과 연락처가 모두 있음을 확인할 수 있습니다. 이 보고서에는 두 개의 첫 번째 터치, 두 개의 리드 생성 터치 및 두 개의 PostLC 상호 작용이 보고됩니다. 이러한 중복 기록은 접점 날짜 및 접점 정보를 공유하므로 동일한 사람임에도 불구하고 두 명의 다른 사람이라는 결론을 도출할 수 있습니다.
 

@@ -1,11 +1,11 @@
 ---
-description: 참여 대시보드 - [!DNL Marketo Measure] - 제품
+description: 사람들이 터치한 터치포인트와 채널별 참여를 추적하기 위한 참여 대시보드를 살펴봅니다
 title: 참여 대시보드
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---

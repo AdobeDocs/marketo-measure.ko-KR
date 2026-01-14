@@ -1,15 +1,15 @@
 ---
-description: 연결된 계정 다시 인증 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 연결된 계정 재인증 지침
 title: 연결된 계정 재인증
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
-
 
 # 연결된 계정 재인증 {#reauthorizing-connected-accounts}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 CRM 플랫폼의 연결이 끊기면 [!DNL Marketo Measure]에서 [!DNL Marketo Measure] 데이터를 업데이트하거나 새 터치포인트를 조직에 푸시할 수 없습니다. CRM 연결이 다시 설정되면 [!DNL Marketo Measure]에서 계정 연결이 끊어진 동안 누락된 모든 데이터를 푸시합니다.
 
-![&#x200B; 1](assets/1-1.png)
+![](assets/utilizing-connections-7.png)
 
 ## 연결이 끊어진 계정 다시 인증 {#re-authorizing-disconnected-accounts}
 

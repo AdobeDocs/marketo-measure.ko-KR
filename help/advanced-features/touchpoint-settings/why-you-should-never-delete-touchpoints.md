@@ -1,15 +1,14 @@
 ---
-description: 터치포인트를 삭제하지 말아야 하는 이유 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자에 대한 터치포인트 지침을 삭제해서는 안 되는 이유
 title: 터치포인트를 삭제하지 말아야 하는 이유
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # 터치포인트를 삭제하지 말아야 하는 이유 {#why-you-should-never-delete-touchpoints}
 
@@ -19,6 +18,6 @@ ht-degree: 0%
 
 터치포인트가 삭제되면 속성 데이터에 구멍이 생성됩니다. 일반적으로 이는 Opportunity 의 속성 터치포인트에서 나타납니다. 아래 이미지에서 영업 기회 생성 터치를 받았을 터치포인트가 삭제되었습니다. 결과적으로 이 영업 기회는 OC 접점을 놓치고 이 Opp에 대한 속성 비율이 최대 100%까지 추가되지 않습니다.
 
-![삭제 후 영업 기회 생성 터치포인트가 누락됨](assets/1.png)
+![](assets/touchpoint-settings-10.png)
 
 SFDC에서 터치포인트가 삭제된 경우 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 연락하여 데이터 다시 가져오기를 요청하십시오.

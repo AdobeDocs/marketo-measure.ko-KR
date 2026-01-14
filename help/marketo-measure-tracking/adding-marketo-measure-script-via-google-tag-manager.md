@@ -1,15 +1,15 @@
 ---
-description: ' [!DNL Marketo Measure] - [!DNL Google Tag Manager] 을(를) 통해  [!DNL Marketo Measure]스크립트 추가 중'
+description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] 지침을 통해  [!DNL Google Tag Manager] 스크립트 추가
 title: ' [!DNL Marketo Measure] 을(를) 통해  [!DNL Google Tag Manager]스크립트 추가'
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure]을(를) 통해 [!DNL Google Tag Manager] 스크립트 추가 {#adding-marketo-measure-script-via-google-tag-manager}
 
@@ -18,6 +18,7 @@ ht-degree: 0%
 GTM을 통해 스크립트를 추가하기로 결정한 경우 실행 순서에서 [!DNL Marketo Measure] 스크립트를 가장 높은 우선 순위로 설정하고 [!DNL Marketo Measure] 태그 앞에 동기 스크립트가 없는지 확인하여 GTM 지연으로 인한 영향을 줄이십시오.
 
 >[!NOTE]
+>
 >자세한 내용은 이 [Google의 지원 문서](https://support.google.com/tagmanager/answer/2772421?hl=en){target="_blank"}를 참조하세요.
 
 ## [!DNL Marketo Measure]을(를) 통해 [!DNL Google Tag Manager] JS를 추가하는 방법 {#how-to-add-marketo-measure-js-via-google-tag-manager}

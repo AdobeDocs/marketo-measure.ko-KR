@@ -1,11 +1,11 @@
 ---
-description: ' [!DNL Marketo Measure] CRM 패키지 - [!DNL Marketo Measure]에 대한 모범 사례'
+description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] CRM 패키지 지침 모범 사례
 title: ' [!DNL Marketo Measure] CRM 패키지 모범 사례'
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---

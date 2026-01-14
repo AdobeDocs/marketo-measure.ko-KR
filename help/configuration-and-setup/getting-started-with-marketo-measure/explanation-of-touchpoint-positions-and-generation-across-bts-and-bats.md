@@ -1,11 +1,11 @@
 ---
-description: BT 및 BAT에 대한 접점 위치 및 생성에 대한 설명 - [!DNL Marketo Measure]
+description: BT에 대한 접점 위치 및 생성에 대한 설명과 Marketo Measure 사용자를 위한  [!DNL BATs] 지침
 title: BT 및 [!DNL BATs]의 접점 위치 및 생성에 대한 설명
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---

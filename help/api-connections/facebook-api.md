@@ -3,13 +3,13 @@ description: '[!DNL Facebook] API - [!DNL Marketo Measure]'
 title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Facebook] API {#facebook-api}
 
@@ -30,6 +30,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
 1. **[!UICONTROL Set Up New Ads Connection]**&#x200B;을(를) 선택하면 팝업이 나타납니다. **[!UICONTROL Facebook]**&#x200B;을(를) 선택하고 Facebook 자격 증명을 사용하여 로그인하세요.
 
    >[!NOTE]
+   >
    >[!DNL Facebook Ads] 계정을 연결하는 사람은 [!DNL Facebook Ads] 계정 내에서 관리자여야 합니다.
 
 1. [!DNL Marketo Measure]이(가) Facebook 계정에 연결되면 계정 옆에 있는 연필 아이콘을 클릭합니다.
@@ -37,94 +38,95 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
 
 ## 계정 연결 {#connecting-the-account}
 
-![Marketo Measure에서 새 Facebook 광고 연결 설정](assets/1.gif)
+![](assets/utilizing-connections-2.gif)
 
 ## 자동 태그 지정 사용 {#enabling-autotagging}
 
 >[!NOTE]
+>
 >자동 태그 지정을 활성화하면 태그 지정하는 모든 광고의 전환 내역과 소셜 증명이 재설정됩니다. 자동 태그 지정을 활성화하기 전에 [이 데이터를 CSV로 내보내기](https://www.facebook.com/business/help/205067636197240)하는 것이 좋습니다.
 
-![&#x200B; 2](assets/2-2.png)
+![](assets/bizible-guide-1.png)
 
 통합을 활성화하면 [!DNL Marketo Measure]이(가) 광고 수준 비용을 [!DNL Marketo Measure Marketing ROI] 대시보드로 다운로드하기 시작합니다.
 
 통합이 제대로 작동하려면 [!DNL Facebook] 계정에서 자동 태그 지정을 활성화해야 합니다. 이렇게 하면 시스템에서 모든 광고 링크에 _bf 매개 변수를 추가할 수 있습니다. 이 프로세스에서는 [!DNL Facebook] 광고에 이미 추가한 다른 추적 매개 변수 위에 새 매개 변수를 추가합니다.
 
-![Facebook 연결 설정에서 자동 태그 지정을 사용하도록 설정](assets/3.gif)
+![](assets/five-five-1.png)
 
 ## 필드 매핑 {#field-mapping}
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th><p><strong>접점 필드</strong></p></th>
-   <th><p><strong>값</strong></p></th>
-  </tr>
-  <tr>
-   <td><p>광고 캠페인 Id</p></td>
-   <td><p>[[!DNL Facebook] 캠페인 ID]</p></td>
-  </tr>
-  <tr>
-   <td><p>광고 캠페인 이름 </p></td>
-   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign] (제공된 경우)</p></td>
-  </tr>
-  <tr>
-   <td><p>광고 그룹 ID</p></td>
-   <td><p>[[!DNL Facebook] 광고 집합 Id]</p></td>
-  </tr>
-  <tr>
-   <td><p>광고 그룹 이름</p></td>
-   <td><p>[[!DNL Facebook] 광고 집합 이름]</p></td>
-  </tr>
-  <tr>
-   <td><p>터치포인트 Source</p></td>
-   <td><p>"[!DNL Facebook]" 또는 [utm_source] (제공된 경우)</p></td>
-  </tr>
-  <tr>
-   <td><p>보통</p></td>
-   <td><p>"Social" 또는 [utm_medium] (제공된 경우)</p></td>
-  </tr>
-  <tr>
-   <td><p>광고 Id 또는 Creative_Unique_Id(Data Warehouse)</p></td>
-   <td><p>[utm_content에서 생성된 사용자 지정 ID]</p></td>
-  </tr>
-  <tr>
-   <td><p>광고 컨텐츠 또는 Creative_Name(Data Warehouse)</p></td>
-   <td><p>[utm_content] (제공된 경우)</p></td>
-  </tr>
-  <tr>
-   <td><p>키워드 텍스트 또는 Keyword_Name(Data Warehouse)</p></td>
-   <td><p>[utm_term] (제공된 경우)</p></td>
-  </tr>
-  <tr>
-   <td><p>Ad_Unique_Id(Data Warehouse)</p></td>
-   <td><p>[[!DNL Facebook] 광고 Id]</p></td>
-  </tr>
-  <tr>
-   <td><p>Ad_Name(Data Warehouse)</p></td>
-   <td><p>[[!DNL Facebook] 광고 이름]</p></td>
-  </tr>
-  <tr>
-   <td><p>Keyword_Unique_Id(Data Warehouse)</p></td>
-   <td><p>[utm_term에서 생성된 사용자 지정 ID]</p></td>
-  </tr>
-  <tr>
-   <td><p>Ad_Provider(Data Warehouse)</p></td>
-   <td><p>"[!DNL Facebook]"</p></td>
-  </tr>
-  <tr>
-   <td><p>Account_Unique_ID (Data Warehouse)</p></td>
-   <td><p>[[!DNL Facebook] 계정 번호]</p></td>
-  </tr>
-  <tr>
-   <td><p>Account_Name (Data Warehouse)</p></td>
-   <td><p>[[!DNL Facebook] 계정 이름]</p></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th><p><strong>접점 필드</strong></p></th> 
+   <th><p><strong>값</strong></p></th> 
+  </tr> 
+  <tr> 
+   <td><p>광고 캠페인 Id</p></td> 
+   <td><p>[[!DNL Facebook] 캠페인 ID]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>광고 캠페인 이름 </p></td> 
+   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign](제공된 경우)</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>광고 그룹 ID</p></td> 
+   <td><p>[[!DNL Facebook] 광고 집합 Id]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>광고 그룹 이름</p></td> 
+   <td><p>[[!DNL Facebook] 광고 집합 이름]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>터치포인트 Source</p></td> 
+   <td><p>"[!DNL Facebook]" 또는 [utm_source](제공된 경우)</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>보통</p></td> 
+   <td><p>"Social" 또는 [utm_medium](제공된 경우)</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>광고 Id 또는 Creative_Unique_Id(Data Warehouse)</p></td> 
+   <td><p>[utm_content에서 생성된 사용자 지정 ID]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>광고 컨텐츠 또는 Creative_Name(Data Warehouse)</p></td> 
+   <td><p>[utm_content](제공된 경우)</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>키워드 텍스트 또는 Keyword_Name(Data Warehouse)</p></td> 
+   <td><p>[utm_term](제공된 경우)</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Ad_Unique_Id(Data Warehouse)</p></td> 
+   <td><p>[[!DNL Facebook] 광고 Id]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Ad_Name(Data Warehouse)</p></td> 
+   <td><p>[[!DNL Facebook] 광고 이름]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Keyword_Unique_Id(Data Warehouse)</p></td> 
+   <td><p>[utm_term에서 생성된 사용자 지정 ID]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Ad_Provider(Data Warehouse)</p></td> 
+   <td><p>"[!DNL Facebook]"</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
+   <td><p>[[!DNL Facebook] 계정 번호]</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>Account_Name (Data Warehouse)</p></td> 
+   <td><p>[[!DNL Facebook] 계정 이름]</p></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 ## FAQ {#faq}

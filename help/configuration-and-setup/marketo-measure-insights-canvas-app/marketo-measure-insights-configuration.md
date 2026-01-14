@@ -3,13 +3,12 @@ description: '[!DNL Marketo Measure] Insights 구성 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Insights 구성'
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] Insights 구성 {#marketo-measure-insights-configuration}
 
@@ -21,10 +20,10 @@ ht-degree: 0%
 
 1. [!UICONTROL OAuth] 정책 섹션에서 허용된 사용자 설정을 &quot;관리자가 승인한 사용자는 사전 승인됨&quot;으로 변경합니다. 팝업이 나타납니다. **[!UICONTROL OK]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![&#x200B; 1](assets/1-1.png)
+   ![](assets/marketo-app-1.png)
 
 1. 페이지가 저장되면 **[!UICONTROL Manage Profiles]** 단추를 클릭할 수 있습니다.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/marketo-app-2.png)
 
 1. [!DNL Marketo Measure] 인사이트에 액세스할 수 있는 모든 프로필을 선택하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

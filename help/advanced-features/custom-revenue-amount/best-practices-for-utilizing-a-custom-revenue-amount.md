@@ -1,15 +1,14 @@
 ---
-description: 사용자 지정 수익 금액 활용 모범 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 사용자 지정 수익 금액 지침 활용 모범 사례
 title: 사용자 지정 수익 금액 활용에 대한 우수 사례
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 수익 금액 활용에 대한 우수 사례 {#best-practices-for-utilizing-a-custom-revenue-amount}
 
@@ -50,7 +49,8 @@ ht-degree: 0%
 * 수익 보고 방식의 조직 변경
 
 >[!MORELIKETHIS]
-> [사용자 지정 수익 금액 필드 사용](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-> [데이터 로더를 사용하여 사용자 지정 금액 필드](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)을(를) 업데이트하는 중
-> [다중 통화 개요](/help/advanced-features/multi-currency/overview.md)
-> [다중 통화 설정](/help/advanced-features/multi-currency/settings.md)
+>
+>* [사용자 지정 수익 금액 필드 사용](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [데이터 로더를 사용하여 사용자 지정 금액 필드 업데이트](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [다중 통화 개요](/help/advanced-features/multi-currency/overview.md)
+>* [다중 통화 설정](/help/advanced-features/multi-currency/settings.md)

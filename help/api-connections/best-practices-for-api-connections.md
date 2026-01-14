@@ -1,15 +1,14 @@
 ---
-description: API 연결 모범 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 API 연결 지침 모범 사례
 title: API 연결 우수 사례
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
-
 
 # API 연결 우수 사례 {#best-practices-for-api-connections}
 
@@ -40,6 +39,7 @@ ht-degree: 0%
 * 모든 활성 [!DNL Facebook] 광고에서 광고 비용 정보 다운로드
 
 >[!NOTE]
+>
 >[!DNL Facebook]에 대한 추적 템플릿이 없습니다. API는 자동 태그 지정(_bf) 매개 변수를 사용하여 광고 세부 정보를 수집합니다.
 
 **AdWords**: 계정 수준에서 추적 템플릿을 구현하고 자동 태그 지정을 사용하도록 설정합니다.
@@ -56,7 +56,6 @@ ht-degree: 0%
 [!DNL Bing] API 연결을 설정할 때 다른 API 연결과 달리 광고 기록이 손실될 위험이 없습니다.
 
 모범 사례 권장 사항에 따라 [!DNL Marketo Measure] Bing API는 다음을 수행할 수 있습니다.
-
 * `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`의 다음 매개 변수로 모든 Bing 광고에 자동 태그 지정
 * 모든 활성 Bing 광고의 광고 비용 정보 다운로드
 
@@ -70,6 +69,7 @@ ht-degree: 0%
 * 모든 활성 광고 및 지원되는 [!DNL LinkedIn]개 광고에서 광고 비용 정보 다운로드
 
 >[!NOTE]
+>
 >[!DNL LinkedIn]에 대한 추적 템플릿이 없습니다. API는 자동 태그 지정(_bl) 매개 변수를 사용하여 가능한 모든 광고 세부 정보를 수집합니다.
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}
@@ -87,10 +87,11 @@ API 연결 계정의 연결이 끊어진 경우 [!DNL Marketo Measure]에서 지
 팀에서 위의 시나리오를 경험한 경우 [!DNL Marketo Measure] 앱에서 API 연결을 확인하여 다시 인증할 필요가 없는지 확인하십시오.
 
 >[!MORELIKETHIS]
-> [통합 광고 플랫폼(API)](/help/api-connections/integrated-ad-platforms.md)
-> [입찰 관리 도구의 영향 [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
-> [[!DNL Marketo Measure] API 매개 변수 설명](/help/api-connections/marketo-measure-parameters.md)
-> [Facebook API 개요](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] 통합 개요](/help/api-connections/linkedin-integration.md)
-> [AdWords 통합 개요](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [연결된 API 계정 다시 인증](/help/api-connections/reauthorizing-connected-accounts.md)
+>
+>* [통합 광고 플랫폼(API)](/help/api-connections/integrated-ad-platforms.md)
+>* [입찰 관리 도구의 영향 [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure] API 매개 변수 설명](/help/api-connections/marketo-measure-parameters.md)
+>* [Facebook API 개요](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn] 통합 개요](/help/api-connections/linkedin-integration.md)
+>* [AdWords 통합 개요](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [연결된 API 계정 다시 인증](/help/api-connections/reauthorizing-connected-accounts.md)

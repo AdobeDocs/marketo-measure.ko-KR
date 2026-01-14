@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Marketo Measure] Dynamics용 매출 워크플로 - [!DNL Marketo Measure]'
+description: Marketo Measure 보고를 위한 Dynamics 매출 및 마감 날짜 필드를 정렬하는 워크플로우
 title: Dynamics용 수익 워크플로 [!DNL Marketo Measure]개
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
-
 
 # Dynamics용 수익 워크플로 [!DNL Marketo Measure]개 {#marketo-measure-revenue-workflows-for-dynamics}
 
@@ -20,11 +19,13 @@ ht-degree: 0%
 1단계: Dynamics에서 사용자 지정 영업 기회 금액 필드 만들기
 
 >[!NOTE]
+>
 >모든 Dynamics 매출 필드에는 기본 필드와 일반 필드가 있습니다. 기본 필드는 무시합니다.
 
 2단계: 1단계에서 만든 사용자 지정 영업 기회 금액 필드와 [!DNL Marketo Measure] 영업 기회 금액 필드를 모두 업데이트하는 워크플로우를 만듭니다.
 
 >[!NOTE]
+>
 >Dynamics 계정이 있는 검색에서 [!DNL Marketo Measure] 영업 기회 금액(bizible2_bizible_opportunity_amount) 필드를 지정할 수 없습니다. Dynamics 고객은 [!DNL Marketo Measure]이(가) Discover를 가리키도록 사용자 지정 영업 기회 금액 필드를 만들어야 합니다. 완료되면 고객은 **모두** [!DNL Marketo Measure] 영업 기회 금액(bizible2_bizible_opportunity_amount) **및** 사용자 지정 영업 기회 금액 필드를 업데이트하는 워크플로우를 만들어야 합니다. [!DNL Marketo Measure] 영업 기회 금액 필드는 패키지와 함께 제공되지만 사용자 지정 필드를 만들어야 합니다.
 
 금액 워크플로우 지침:
@@ -65,6 +66,8 @@ ht-degree: 0%
 1. 가져오기 파일에 오류가 있는지 확인합니다.
 
 >[!NOTE]
+>
 >이 문서에 설명된 워크플로는 [!DNL Marketo Measure]이(가) 검색에 올바른 데이터를 표시할 수 있도록 필드를 업데이트하는 한 가지 방법입니다. 같은 일을 해낼 수 있는 다른 방법이 있다면, 도전해 볼 수 있다. 기본적으로 이러한 워크플로에서 필요한 사항은 다음과 같은 작업을 수행하는 것입니다.
+>
 > * Opp = Open인 경우, 사용자 정의 Opp 금액 필드, 사용자 정의 Opp 금액 필드 및 [!DNL Marketo Measure] Opp 금액 필드를 각각 예상 종료 일자 및 예상 매출과 동일하게 업데이트합니다.
 > * Opp = 마감된 원화인 경우, 사용자 정의 마감 일자 필드, 사용자 정의 영업 기회 금액 필드 및 [!DNL Marketo Measure] 영업 기회 금액 필드를 각각 실제 마감 일자 및 실제 매출과 동일하게 업데이트합니다.

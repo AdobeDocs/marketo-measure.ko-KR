@@ -1,15 +1,15 @@
 ---
-description: 마케팅 채널 비용
+description: Marketo Measure 사용자를 위한 마케팅 채널 비용 지침
 title: 마케팅 채널 비용
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
-
 
 # 마케팅 채널 비용 {#marketing-channel-costs}
 
@@ -77,13 +77,13 @@ ht-degree: 0%
 
 **[!UICONTROL My Account]** 메뉴로 이동하여 **[!UICONTROL Settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Marketing Spend]** 섹션 아래의 왼쪽 사이드바에서 **[!UICONTROL Reporting]** 옵션으로 이동합니다.
 
-Marketo Measure의 ![마케팅 지출 설정 페이지](assets/1.png)
+![](assets/spend-management-4.png)
 
 **2단계: 현재 비용 CSV 다운로드**
 
 화면 오른쪽으로 이동하여 **[!UICONTROL Download Current Costs]을(를) 클릭합니다.** 이 옵션을 사용하면 스프레드시트를 CSV 형식으로 다운로드할 수 있습니다.
 
-![마케팅 지출 페이지의 현재 비용 옵션 다운로드](assets/2.png)
+![](assets/spend-management-1.png)
 
 **3단계: CSV 파일을 열고 변경**
 
@@ -95,7 +95,7 @@ Marketo Measure의 ![마케팅 지출 설정 페이지](assets/1.png)
 
 예를 들어 Facebook을 하위 채널로 표시하고 소셜을 채널로 표시하려면 규칙을 &quot;Social.Facebook&quot;으로 작성해야 합니다. 마찬가지로 오프라인 이벤트를 추적하려면 채널 구문이 &quot;Events.Big Conference&quot;여야 합니다. 아래 이미지에 예가 나와 있습니다.
 
-![채널 및 하위 채널 비용 항목을 표시하는 CSV 예](assets/3.png)
+![](assets/spend-management-2.png)
 
 _추가 참고_:
 

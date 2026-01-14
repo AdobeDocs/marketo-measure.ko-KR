@@ -1,15 +1,14 @@
 ---
-description: 사용자 지정 속성 모델 및 설정 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 사용자 지정 속성 모델 및 설정 지침
 title: 사용자 지정 속성 모델 및 설정
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 속성 모델 및 설정 {#custom-attribution-model-and-setup}
 
@@ -30,11 +29,13 @@ ht-degree: 0%
    그런 다음 **[!UICONTROL Include in Model]** 상자를 선택하여 포함할 잠재 고객/연락처 및 영업 기회 단계를 선택합니다.
 
    >[!NOTE]
+   >
    >최대 6개의 사용자 정의 단계(기본값 포함 안 함: FT, LC, OC, Closed)가 허용됩니다.
 
-   ![&#x200B; 1](assets/1-1.png)
+   ![](assets/custom-models-1.png)
 
    >[!NOTE]
+   >
    >_모든_&#x200B;개의 리드/연락처 및 영업 기회 단계가 [!DNL Salesforce]에서 사용되지 않거나 비활성 상태인 경우에도 여기에 표시됩니다. 이러한 단계를 제거하려면 [!DNL Salesforce]에서 해당 단계를 열심히 삭제해야 합니다.
 
    단계를 선택한 경우 페이지 하단에 있는 **[!UICONTROL Save & Process]** 단추를 클릭하십시오. 이제 단계가 **[!UICONTROL Attribution Settings]** 탭에 나타나고 각 단계에 속성 백분율을 할당할 수 있습니다. 사용자 지정 단계는 마케팅 성능 세트에 수요 폭포 내의 잠재 고객 또는 기회 단계로도 표시됩니다.
@@ -43,9 +44,10 @@ ht-degree: 0%
 
    아래 예에서는 날짜 필드를 사용하여 사용자 정의 &quot;MQL&quot; 단계를 정의합니다. 규칙은 단순히 MQL 날짜 필드가 비어 있지 않으면 MQL로 간주해야 하고 사용자 지정 모델에 포함되어야 한다고 명시합니다. 또한 사용자 정의 단계가 만들어지면 이를 정렬하여 판매 주기의 진행을 따르도록 하는 것이 중요합니다.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/custom-models-10.png)
 
    >[!CAUTION]
+   >
    >사용자 정의 필드에 대한 내역 추적을 활성화하는 것을 잊지 마십시오.
 
 사용자 지정 모델에 사용자 지정 필드를 사용하는 경우 CRM에서 필드 기록 추적을 활성화해야 합니다. 필드 기록 추적을 사용하도록 설정하는 지침은 [사용자 지정 모델 설정: 필드 기록 추적 사용](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)을 참조하세요.
@@ -58,13 +60,13 @@ ht-degree: 0%
 
    _Custom_ 열 왼쪽에는 **[!DNL Marketo Measure]기계 학습 모델**&#x200B;이 있습니다. 머신 러닝 모델은 각 사용자 지정 단계에서 발생한 사항에 따라 거래 승인에 대한 상대적 중요도에 따라 속성 가중치를 계산합니다. 기계 학습 모델에 대한 자세한 내용은 [기계 학습 모델 FAQ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)를 참조하세요.
 
-   ![사용자 지정 모델 가중치를 표시하는 속성 설정 테이블](assets/3.png)
+   ![](assets/custom-models-2.png)
 
 ## 접점 위치 {#touchpoint-positions}
 
 속성 백분율이 저장되고 처리되면 터치포인트가 업데이트되어 새 단계 및 위치를 수신하게 됩니다. 단계 전환 전에 가장 최근에 발생한 접점은 해당 단계에 대한 크레딧을 받습니다(아래 참조). 사용자 정의 가중치 및 매출도 재분배됩니다.
 
-사용자 지정 단계가 적용된 ![터치포인트 위치](assets/4.png)
+![](assets/custom-models-3.png)
 
 ## funnel 단계와 사용자 정의 모델 단계의 차이점 {#the-difference-between-funnel-stages-and-custom-model-stages}
 
@@ -74,7 +76,8 @@ Funnel 단계는 여전히 터치 포인트로 추적되며 CRM에서 터치 포
 
 아래에서 볼 수 있듯이 Funnel 스테이지와 별도로 Diligence 스테이지가 포함되었습니다. 즉, 위치에 Diligence가 포함된 터치포인트가 있지만 해당 터치포인트는 사용자 지정 모델이 활성화되지 않은 경우(최대 10%) 중간 터치 속성 크레딧만 받습니다.
 
-![사용자 지정 Diligence 단계 터치포인트를 포함하는 마케팅 funnel](assets/5.png)
+![](assets/custom-models-7.png)
 
 >[!NOTE]
+>
 >BAT 사용자 지정 모델의 비헤이비어는 중간 터치가 없는 경우 사용자 지정 모델 중간 터치 비율을 다른 단계에서 고르게 나누는 것입니다.

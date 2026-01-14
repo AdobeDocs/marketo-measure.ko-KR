@@ -1,15 +1,14 @@
 ---
-description: Act-On Forms에  [!DNL Marketo Measure] 추가 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 Act-On Forms 지침에  [!DNL Marketo Measure] 추가
 title: Act-On Forms에  [!DNL Marketo Measure] 을(를) 추가하는 중
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # Act-On Forms에 [!DNL Marketo Measure] 추가 중 {#adding-marketo-measure-to-act-on-forms}
 
@@ -23,5 +22,7 @@ ht-degree: 0%
 `script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
 >[!NOTE]
+>
 >이 영역에 [!DNL Google Analytics] 코드와 같은 다른 추적 코드 조각이 이미 있을 수 있습니다. 세미콜론 `;`과 같은 단일 공백을 사용하여 구분하십시오.
->`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>*; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`
+>
+>`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>**; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`

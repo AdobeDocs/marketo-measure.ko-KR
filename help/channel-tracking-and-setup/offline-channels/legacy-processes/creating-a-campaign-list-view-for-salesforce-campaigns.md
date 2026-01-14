@@ -1,21 +1,21 @@
 ---
-description: ' [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]에 대한 캠페인 목록 보기를 만드는 중'
+description: Marketo Measure 사용자를 위한  [!DNL Salesforce] 캠페인 지침을 위한 캠페인 목록 보기 만들기
 title: ' [!DNL Salesforce] 캠페인에 대한 캠페인 목록 보기 만들기'
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Salesforce]개 캠페인에 대한 캠페인 목록 보기 만들기 {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 구매자 터치포인트와 동기화하려는 캠페인에 대한 목록 보기를 만드는 방법을 알아봅니다.
 
 >[!NOTE]
+>
 >이 문서에서는 오래된 프로세스를 다룹니다. 사용자가 [새롭고 개선된 인앱 프로세스](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}를 사용하는 것이 좋습니다.
 
 만들 수 있는 캠페인 목록 보기를 통해 &#39;이동&#39; 위치를 통해 &#39;유형&#39; 및 &#39;구매자 터치포인트 활성화&#39; 필드를 보고 관리하여 오프라인 마케팅 채널을 알리는 각 [!DNL Salesforce] 캠페인이 제대로 설정되도록 할 수 있습니다.
@@ -42,4 +42,5 @@ ht-degree: 0%
    * 필드에 대한 권한이 있는지 확인하십시오.
 
 >[!MORELIKETHIS]
+>
 >[목록 보기 인라인 편집과 관련된 일반적인 문제 해결](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

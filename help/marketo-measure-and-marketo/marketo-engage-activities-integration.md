@@ -3,13 +3,12 @@ description: '[!DNL Marketo Engage] 활동 통합 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Engage]개 활동 통합'
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Engage]개 활동 통합 {#marketo-engage-activities-integration}
 
@@ -28,19 +27,19 @@ ht-degree: 0%
 
 1. Marketo 활동 설정을 시작하려면 **내 계정** > **설정** > **활동**(으)로 이동합니다.
 
-   Marketo Measure 계정의 ![활동 설정 페이지](assets/one-1.png)
+   ![](assets/one-one-1.png)
 
-   ![활동 유형이 선택된 활동 구성 화면](assets/two-1.png)
+   ![](assets/two-two-2.png)
 
    먼저 규칙을 작성할 활동 유형 목록을 선택해야 합니다. 필요한 활동 유형의 하드 수는 없지만, 터치포인트에 과부하를 주지 않고 중요한 이정표의 중요성을 희석시키는 것이 좋습니다. 이를 통해 관련 참여를 추적하는 데 5개 이상의 활동 유형이 필요하지 않을 수 있습니다.
 
 1. [!UICONTROL Select Activities Types] 아래의 드롭다운 메뉴를 클릭하여 다양한 유형을 선택합니다.
 
-   ![사용 가능한 Marketo 활동 유형을 표시하는 드롭다운 메뉴](assets/three-1.png)
+   ![](assets/three-three-2.png)
 
 1. 필요한 모든 활동을 선택하면 [!UICONTROL Selected Activities List] 및 [!UICONTROL Define Rules]에서 채워진 활동을 볼 수 있습니다.
 
-   ![선택한 활동 유형을 표시하는 선택한 활동 목록](assets/four-1.png)
+   ![](assets/four-four-2.png)
 
 1. 각 활동 유형에 대해 터치포인트에 적합한 레코드를 결정하는 규칙을 하나 이상 정의해야 합니다. 이 예에서는 Marketo 사용자가 90 이상의 점수에 도달할 때 시스템이 터치포인트를 만들도록 &quot;점수 변경&quot; 활동 유형에 대한 규칙을 추가합니다.
 
@@ -48,27 +47,27 @@ ht-degree: 0%
 
    다음은 이러한 추가 단계가 어떤 모습인지에 대한 예입니다.
 
-   ![활동 규칙에 대한 캠페인 이름 구성 필드](assets/five-1.png)
+   ![](assets/five-five-1.png)
 
 1. &quot;점수 변경&quot; 예제에서는 Marketo 프로그램에서 해당 정보를 가져왔으므로 캠페인 이름을 입력해야 합니다. 이제 규칙 표현식을 만듭니다. 다음 예제에서는 값이 90인 &quot;[!UICONTROL New Value]&quot; 연산자가 있는 &quot;[!UICONTROL is greater than]&quot; 필드를 선택합니다.
 
    규칙을 확장하고 &quot;and&quot; 또는 &quot;or&quot; 문을 추가하여 필터 또는 기준을 추가하여 결과 범위를 좁힐 수 있습니다.
 
-   필드 및 연산자 선택이 있는 변경 점수 활동에 대한 ![규칙 빌더](assets/six-1.png)
+   ![](assets/six-six-2.png)
 
-   ![90개 이상의 새 값을 표시하는 규칙 식](assets/seven-1.png)
+   ![](assets/seven-seven-1.png)
 
 1. 마지막으로 터치포인트 날짜로 사용할 항목을 선택합니다. Marketo에서 사용 가능한 모든 날짜 또는 날짜/시간 필드가 여기에 표시됩니다. 사용자 지정 날짜 필드가 없으면 &quot;[!UICONTROL Activity Date]&quot;이(가) 표시됩니다.
 
-   ![활동 날짜 옵션을 표시하는 터치포인트 날짜 필드 선택기](assets/eight-1.png)
+   ![](assets/eight-eight-2.png)
 
 1. 변경 내용이 손실되지 않도록 도중에 **[!UICONTROL Save As Draft]**&#x200B;을(를) 클릭하십시오.
 
-   ![활동 규칙 구성에서 초안으로 저장 단추](assets/nine-1.png)
+   ![](assets/nine-nine-1.png)
 
 1. **[!UICONTROL Attribute Mapping]** 탭으로 이동합니다.
 
-   ![활동 설정의 특성 매핑 탭](assets/ten-1.png)
+   ![](assets/ten-ten-2.png)
 
 1. 선택한 각 활동 유형에 대해 추가 Marketo 특성을 터치포인트 필드에 매핑하여 [!DNL Marketo Measure Discover] 또는 CRM에서 해당 값을 보고 보고할 수 있습니다.
 
@@ -89,6 +88,7 @@ ht-degree: 0%
    * 브라우저
 
    >[!NOTE]
+   >
    >광고 콘텐츠 또는 키워드와 같은 광고 필드는 광고 플랫폼 통합용으로 예약되었으므로 이 목록에서 사용할 수 없습니다.
 
 ## 활동 유형 {#activity-types}
@@ -111,6 +111,7 @@ ht-degree: 0%
 변경 육성 케이던스(115)
 
 >[!NOTE]
+>
 >프로그램 ID가 필요한 활동 유형 중 프로그램 없이 활동이 감지되면 [!DNL Marketo Measure]은(는) Null Campaign 값을 가질 수 없으므로 해당 항목을 적격 접점으로 받아들이지 않습니다.
 
 **프로그램 Id가 없는 활동 유형**
@@ -157,9 +158,9 @@ Microsoft에 리드 동기화(300)\
 
 ## 채널 매핑 {#channel-mapping}
 
-프로그램 ID가 있는 활동 유형의 규칙에 대해 프로그램에서 Marketo 프로그램 채널이 결정됩니다. 프로그램 채널을 사용하여 사용자 지정 오프라인 채널에 매핑하므로 채널이 [여기](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}의 지시에 따라 올바르게 구성되었는지 확인해야 합니다.
+프로그램 ID가 있는 활동 유형의 규칙에 대해 프로그램에서 Marketo 프로그램 채널이 결정됩니다. 프로그램 채널을 사용하여 사용자 지정 오프라인 채널에 매핑하므로 채널이 [여기](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping)의 지시에 따라 올바르게 구성되었는지 확인해야 합니다.
 
-프로그램 ID가 없는 활동 유형의 규칙에 대해 첫 번째 단계는 캠페인 이름을 만드는 것이었습니다. 이 캠페인 이름을 사용하여 사용자 지정 온라인 채널 [여기에 배치됨](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}을(를) 설정합니다.
+프로그램 ID가 없는 활동 유형의 규칙에 대해 첫 번째 단계는 캠페인 이름을 만드는 것이었습니다. 이 캠페인 이름을 사용하여 사용자 지정 온라인 채널 [여기에 배치됨](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)을(를) 설정합니다.
 
 Marketo 활동에 대한 채널이 제대로 구성되지 않은 경우 새 터치포인트가 &quot;기타&quot; 채널에 해당할 수 있습니다.
 
@@ -184,6 +185,7 @@ Wayne Enterprises 마케팅 팀은 &quot;이메일 클릭&quot; 활동 유형에
 이 쿠키 매핑 개선을 통해, FT는 돌아가서 Facebook 광고에 대한 크레딧을 받게 되고, LC는 이메일에 대한 크레딧을 받게 됩니다.
 
 >[!NOTE]
+>
 >쿠키 매핑 비헤이비어를 사용하면 웹 방문에서 발생하는 일부 LC 터치포인트를 찾을 수 있습니다. 리드를 만든 양식 활동이 없어도 연결된 활동 없이 Marketo에 리드가 나타난 다음 [!DNL Marketo Measure]에서 해당 리드를 다운로드하고 연결된 쿠키와 일치시킨 다음 가장 최근 웹 세션으로 추적했을 수 있습니다.
 
 ## FAQ {#faq}

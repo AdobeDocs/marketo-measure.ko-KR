@@ -1,15 +1,15 @@
 ---
-description: 웹 트래픽 대시보드 - [!DNL Marketo Measure] - 제품
+description: 방문 방문자 페이지 보기 수 양식 및 시간 경과에 따른 채널 성능에 대한 웹 트래픽 대시보드에 대해 설명합니다
 title: 웹 트래픽 대시보드
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '456'
 ht-degree: 2%
 
 ---
-
 
 # 웹 트래픽 대시보드 {#web-traffic-dashboard}
 
@@ -25,36 +25,14 @@ ht-degree: 2%
 
 **KPI 타일**
 
-<table>
-<thead>
-  <tr>
-    <td>방문 횟수</td>
-    <td>알려진 사용자와 익명 사용자를 포함하는 외부 페이지에서 시작된 총 사이트 방문 횟수(세션)입니다.</td>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>방문자</td>
-    <td>총 고유 방문자 수.</td>
-  </tr>
-  <tr>
-    <td>페이지 보기 횟수</td>
-    <td>웹 사이트 페이지의 총 보기 수입니다.</td>
-  </tr>
-  <tr>
-    <td>양식</td>
-    <td>LinkedIn 리드 세대 Forms을 포함한 총 양식 제출 수입니다.</td>
-  </tr>
-  <tr>
-    <td>Forms의 고유 이메일</td>
-    <td>양식 제출을 통한 총 고유 이메일 수입니다.</td>
-  </tr>
-  <tr>
-    <td>Forms에서 생성된 리드</td>
-    <td>양식 제출로 생성된 새 리드의 총 수입니다.</td>
-  </tr>
-</tbody>
-</table>
+| KPI | 정의 |
+| --- | --- |
+| 방문 횟수 | 알려진 사용자와 익명 사용자를 포함하는 외부 페이지에서 시작된 총 사이트 방문 횟수(세션)입니다. |
+| 방문자 | 총 고유 방문자 수. |
+| 페이지 보기 횟수 | 웹 사이트 페이지의 총 보기 수입니다. |
+| 양식 | LinkedIn 리드 세대 Forms을 포함한 총 양식 제출 수입니다. |
+| Forms의 고유 이메일 | 양식 제출을 통한 총 고유 이메일 수입니다. |
+| Forms에서 생성된 리드 | 양식 제출로 생성된 새 리드의 총 수입니다. |
 
 ## 시간 경과에 따른 웹 트래픽 {#web-traffic-over-time}
 
@@ -68,7 +46,7 @@ ht-degree: 2%
 * 총 방문 횟수의 트렌드는 표시된 기간 동안 고유 방문자 수 및 양식 제출과 어떻게 비교됩니까?
 * 웹 사이트에서 총 방문 횟수 및 양식 제출 횟수에 비해 가장 높은 고유 방문자 수를 본 기간은 언제입니까?
 
-![방문, 방문자 및 양식 제출을 위한 시간 경과에 따른 웹 트래픽 차트](assets/web-traffic-dashboard-1.png)
+![](assets/web-dashboard-1.png)
 
 ## 웹 트래픽 요약 테이블 {#web-traffic-summary-table}
 
@@ -85,7 +63,7 @@ ht-degree: 2%
 * 양식의 고유 이메일
 * 양식에서 리드 만들기
 
-![페이지 제목과 URL별 웹 트래픽 요약 표](assets/web-traffic-dashboard-2.png)
+![](assets/web-dashboard-2.png)
 
 ## 레퍼러 테이블 {#referrer-table}
 
@@ -97,7 +75,7 @@ ht-degree: 2%
 * 방문 횟수
 * 고유 방문자 수
 
-![방문 횟수 및 고유 방문자를 보여주는 레퍼러 테이블](assets/web-traffic-dashboard-3.png)
+![](assets/web-dashboard-3.png)
 
 ## 채널별 방문/방문자 수 {#visits-visitors-by-channel}
 
@@ -111,7 +89,7 @@ ht-degree: 2%
 * 어떤 채널/하위 채널/캠페인이 가장 많은 방문 횟수 또는 고유 방문자를 유도합니까?
 * 특정 채널/부채널/캠페인 내의 총 방문 수에 대한 고유 방문자 수는 어떻게 됩니까?
 
-채널 막대형 차트별 ![방문 횟수 및 고유 방문자 수](assets/web-traffic-dashboard-4.png)
+![](assets/web-dashboard-4.png)
 
 ## 필터 창 {#filter-pane}
 

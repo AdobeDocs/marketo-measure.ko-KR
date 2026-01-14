@@ -2,13 +2,12 @@
 description: Adobe Marketo Measure에 대한 제품 설명서 및 자체 도움말 문서를 검색합니다.
 title: Marketo Measure 제품 설명서
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 2%
 
 ---
-
 
 # Marketo Measure 도움말 설명서
 
@@ -18,13 +17,13 @@ Marketo Measure(이전 Bizible)는 행동 및 광고 데이터를 판매 결과 
 
 ## 시작하기
 
-* [마케팅 속성](/help/marketing-attribution.md)
+* [마케팅 속성](/help/introduction/marketing-attribution.md)
 
-* [Marketo Measure 속성 모델](/help/attribution-models.md)
+* [Marketo Measure 속성 모델](/help/introduction/attribution-models.md)
 
-* [Marketo Measure 프레임워크](/help/marketo-measure-framework.md)
+* [Marketo Measure 프레임워크](/help/introduction/marketo-measure-framework.md)
 
-* [Marketo Measure 필드 용어집](/help/glossary.md)
+* [Marketo Measure 필드 용어집](/help/introduction/glossary.md)
 
 ## 인기 있는 문서
 

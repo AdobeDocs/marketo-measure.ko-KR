@@ -1,17 +1,17 @@
 ---
-description: 새로운 Discover Dashboard 안내서 - [!DNL Marketo Measure] - 제품
-title: 새로운 Discover Dashboard 안내서
+description: 기존 Discover 대시보드를 재설계된 버전에 매핑하고 탐색 및 지표의 주요 변경 사항을 강조 표시합니다
+title: 대시보드 안내서 살펴보기
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
 
-
-# 새로운 Discover Dashboard 안내서 {#new-discover-dashboard-guide}
+# 대시보드 안내서 살펴보기 {#new-discover-dashboard-guide}
 
 Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다. 당사의 기본 목표는 보다 능률적이고 직관적인 경험을 제공하는 것입니다. 더 깔끔한 비주얼과 더 간단한 탐색으로, 이 개정은 기존 지표의 대부분을 유지할 뿐만 아니라 새로운 통찰력을 제공합니다. 향상된 명확성과 부가가치를 탐색해 보십시오.
 
@@ -504,6 +504,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
 귀하의 경험을 향상시키기 위해 지속적으로 노력하고 있으므로, 이 최신 업데이트에 대한 귀하의 의견에 대단히 감사드립니다. 여러분의 생각은 향후 개선에 직접적인 영향을 미쳐 당사의 플랫폼이 항상 고객의 요구에 부합하도록 합니다. Marketo Measure에서 피드백 양식을 확인하십시오.
 
 >[!MORELIKETHIS]
->[대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
->[대시보드 데이터 가시성 정책](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [대시보드 데이터 가시성 정책](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

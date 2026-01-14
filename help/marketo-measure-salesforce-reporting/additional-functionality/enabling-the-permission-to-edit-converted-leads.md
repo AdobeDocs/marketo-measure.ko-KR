@@ -1,15 +1,14 @@
 ---
-description: 전환된 리드를 편집할 수 있는 권한 사용 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자에 대한 전환된 리드 편집 지침 권한 활성화
 title: 전환된 리드를 편집할 수 있는 권한 활성화
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # 전환된 리드를 편집할 수 있는 권한 활성화 {#enabling-the-permission-to-edit-converted-leads}
 
@@ -17,16 +16,16 @@ ht-degree: 0%
 
 1. [!UICONTROL Setup]&#x200B;(으)로 이동하고 [!UICONTROL Manage Users] 그룹화를 확장하여 프로필을 선택합니다.
 
-   ![&#x200B; 2](assets/1-2.png)
+   ![](assets/additional-functionality-1.png)
 
 1. 연결된 사용자의 프로필 을 선택합니다.
 
 1. 전환된 리드를 보고 편집할 수 있는 권한을 검색합니다.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/additional-functionality-2.png)
 
 1. 변환된 리드를 보고 편집할 수 있는 권한을 활성화하려면 상자를 선택합니다.
 
-   ![&#x200B; 1](assets/3-1.png)
+   ![](assets/additional-functionality-3.png)
 
 그리고 넌 끝났어!

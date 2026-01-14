@@ -1,15 +1,14 @@
 ---
-description: 지출 관리 메서드 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 지출 관리 방법 지침
 title: 지출 관리 방법
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
-
 
 # 지출 관리 방법 {#spend-management-methods}
 
@@ -25,7 +24,7 @@ API를 통해 [!DNL Marketo Measure]에 연결한 모든 광고 계정에서 ROI
 
 모든 [!DNL Marketo Measure] 계정은 [CRM 캠페인 비용 동기화](/help/marketing-spend/crm-campaign-costs.md#availability)라는 기능에 액세스할 수 있습니다. 기본적으로 이 기능 비트는 &quot;아니요&quot;로 설정되지만 언제든지 켤 수 있습니다.
 
-![CRM Campaign 비용 동기화를 표시하는 연결 설정 페이지](assets/spend-management-methods-1.png)
+![](assets/spend-management-1.png)
 
 활성화되면 이 기능은 다음 기준을 충족하는 CRM 캠페인/프로그램에서 자동으로 사용됩니다.
 

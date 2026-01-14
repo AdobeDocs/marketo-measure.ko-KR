@@ -1,15 +1,14 @@
 ---
-description: Salesforce 샌드박스를 프로덕션으로 마이그레이션 - [!DNL Marketo Measure]
+description: Salesforce 사용자를 위한 Marketo Measure 샌드박스 - 프로덕션 마이그레이션 지침
 title: Salesforce 샌드박스에서 프로덕션으로 마이그레이션
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
-
 
 # Salesforce 샌드박스에서 프로덕션으로 마이그레이션 {#salesforce-sandbox-to-production-migration}
 
@@ -31,7 +30,7 @@ ht-degree: 0%
 * 삭제하려면 SFDC 연결 옆에 있는 휴지통 아이콘을 클릭합니다
 * 삭제를 확인하는 메시지가 표시됩니다. 프롬프트를 주의 깊게 읽고 삭제 결과를 이해해야 합니다.
 
-  ![Salesforce 샌드박스 삭제를 확인하는 Marketo Measure 연결 페이지](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![](assets/salesforce-migration-1.png)
 
    * 확인 모델에 표시되는 대로 비즈니스 이름을 입력하고 &quot;결과 확인, 이 연결 삭제&quot;를 클릭합니다.
 * 이 작업은 삭제 프로세스를 트리거하며 완료하는 데 시간이 소요됩니다

@@ -1,21 +1,21 @@
 ---
-description: ' [!DNL Marketo Measure] to [!DNL Marketo] 랜딩 페이지 추가 - [!DNL Marketo Measure]'
+description: Marketo Measure 사용자를 위한 Marketo 랜딩 페이지 지침에  [!DNL Marketo Measure] 추가
 title: Marketo 랜딩 페이지에  [!DNL Marketo Measure] 을(를) 추가하는 중
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
-
 
 # Marketo 랜딩 페이지에 [!DNL Marketo Measure]을(를) 추가하는 중 {#adding-marketo-measure-to-marketo-landing-pages}
 
 추가 처리가 필요하므로 [!DNL Marketo Engage] 랜딩 페이지에 추적을 추가하는 방법을 알아봅니다. [!DNL Marketo Measure] JavaScript은 랜딩 페이지와 [!DNL Marketo Engage] 양식 자체에 모두 있어야 합니다. 이렇게 하려면 다음 지침에 설명된 대로 [!DNL Marketo Measure] JavaScript을 [!DNL Marketo Engage]에 로드해야 합니다.
 
 >[!NOTE]
+>
 >[!DNL Google Tag Manager]과(와) 같은 태그 관리 공급자를 통해 JavaScript을 배포하는 경우 [!DNL Marketo Measure] JS를 [!DNL Marketo Engage]에 수동으로 추가할 필요가 없습니다.
 
 ## [!DNL Marketo Measure] 랜딩 페이지에 [!DNL Marketo Engage] 스크립트를 추가하는 방법 {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
-   ![Bizible 스크립트가 포함된 Marketo 랜딩 페이지 편집기가 헤드에 추가됨](assets/adding-bizible-to-marketo-landing-pages-1.png)
+   ![](assets/adding-pages-1.png)
 
 ## 추가 참고 사항 {#additional-notes}
 
@@ -41,4 +41,4 @@ ht-degree: 0%
 
 * 여러 랜딩 페이지 템플릿이 사용 중일 수 있습니다. 양식이 있는 모든 템플릿에 코드를 추가해야 합니다.
 
-* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=ko){target="_blank"}에 대해 설명합니다.
+* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}에 대해 설명합니다.

@@ -1,15 +1,15 @@
 ---
-description: UTM 매개 변수 설정에 대한 모범 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 UTM 매개 변수 지침 설정 우수 사례
 title: UTM 매개 변수 설정에 대한 우수 사례
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
-
 
 # UTM 매개 변수 설정에 대한 우수 사례 {#best-practices-for-setting-up-utm-parameters}
 

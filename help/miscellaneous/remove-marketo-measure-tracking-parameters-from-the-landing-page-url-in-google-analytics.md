@@ -1,15 +1,14 @@
 ---
-description: Google Analytics의 랜딩 페이지 URL에서  [!DNL Marketo Measure] 추적 매개 변수 제거
+description: Marketo Measure 사용자를 위한 Google Analytics 지침의 랜딩 페이지 URL에서  [!DNL Marketo Measure] 추적 매개 변수 제거
 title: Google Analytics의 랜딩 페이지 URL에서  [!DNL Marketo Measure] 추적 매개 변수 제거
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # Google Analytics의 랜딩 페이지 URL에서 [!DNL Marketo Measure] 추적 매개 변수 제거 {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 

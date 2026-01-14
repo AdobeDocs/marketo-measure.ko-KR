@@ -1,15 +1,14 @@
 ---
-description: 불필요한 보고서 형식 숨기기 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 불필요한 보고서 유형 지침 숨기기
 title: 불필요한 보고서 유형 숨기기
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
-
 
 # 불필요한 보고서 유형 숨기기 {#hiding-unnecessary-report-types}
 
@@ -25,7 +24,8 @@ ht-degree: 0%
 
 1. 아래 표시된 보고서 목록을 아래 이미지와 동일하게 표시하려면 주황색 X로 표시된 보고서를 클릭하십시오.
 
-   ![&#x200B; 4](assets/1-4.png)
+   ![](assets/bizible-full-1.png)
 
 >[!MORELIKETHIS]
+>
 >[Salesforce - 사용하지 않는 보고서 유형 숨기기](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

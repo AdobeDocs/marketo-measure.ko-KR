@@ -1,11 +1,10 @@
 ---
-description: 기계 학습 모델 FAQ - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 기계 학습 모델 FAQ 지침
 title: 기계 학습 모델 FAQ
-exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ ht-degree: 0%
 
 사용자 지정 단계에 대한 최종 가중치는 다음과 같이 계산됩니다.
 
-**_모델 백분율 = 모델 정확도 x 전환율 x 터치포인트 고유성 가중치_**
+`Model Percentage = Model Accuracy x Conversion Rate x Touchpoint Uniqueness Weight`
 
 마지막에 모든 사용자 지정 단계 가중치가 정규화되고 아래와 같이 %로 변환됩니다.
 

@@ -1,15 +1,14 @@
 ---
-description: '[!UICONTROL Discover Data Download] 액세스 제어'
+description: 검색 대시보드에서 데이터를 다운로드할 수 있는 사용자를 제어하는 방법에 대해 알아봅니다
 title: '[!UICONTROL Discover Data Download] 액세스 제어'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 0%
+source-wordcount: '118'
+ht-degree: 1%
 
 ---
-
 
 # [!UICONTROL Discover Data Download] 액세스 제어 {#discover-data-download-access-control}
 
@@ -17,30 +16,20 @@ ht-degree: 0%
 
 1. **[!UICONTROL Data Access]** 아래의 [!UICONTROL Security]을(를) 클릭합니다.
 
-   ![데이터 액세스 옵션이 강조 표시된 보안 설정 페이지](assets/discover-data-download-access-control-1.png)
+   ![](assets/compliance-resources-1.png)
 
 1. 드롭다운을 클릭하고 콘솔에 적합한 옵션을 선택합니다.
 
-   ![모든 사용자, 관리자 전용 및 없음을 표시하는 데이터 다운로드 액세스 드롭다운](assets/discover-data-download-access-control-2.png)
+   ![](assets/discover-control-2.png)
 
-   <table>
-    <tr>
-     <td><strong>모든 사용자</strong></td>
-     <td>모든 사용자는 PDF 및 CSV 형식을 모두 포함한 데이터를 다운로드할 수 있습니다.</td>
-    </tr>
-    <tr>
-     <td><strong>관리자 전용</strong></td>
-     <td>관리자 사용자만 PDF 및 CSV 형식을 모두 포함한 데이터를 다운로드할 수 있습니다.</td>
-    </tr>
-    <tr>
-     <td><strong>None</strong></td>
-     <td>PDF 및 CSV 형식을 모두 포함하는 데이터는 다운로드할 수 없습니다.</td>
-    </tr>
-   </table>
+| 옵션 | 다운로드 액세스 권한 |
+| --- | --- |
+| 모든 사용자 | 모든 사용자는 PDF 및 CSV 형식을 모두 포함한 데이터를 다운로드할 수 있습니다. |
+| 관리자 전용 | 관리자 사용자만 PDF 및 CSV 형식을 모두 포함한 데이터를 다운로드할 수 있습니다. |
+| None | PDF 및 CSV 형식을 모두 포함하는 데이터는 다운로드할 수 없습니다. |
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![데이터 다운로드 정책 저장 확인](assets/discover-data-download-access-control-3.png)
+   ![](assets/discover-control-3.png)
 
->[!NOTE]
->이 설정은 사용자가 로그아웃했다가 다시 로그인할 때까지 적용되지 않을 수 있습니다.
+이 설정은 사용자가 로그아웃했다가 다시 로그인할 때까지 적용되지 않을 수 있습니다.

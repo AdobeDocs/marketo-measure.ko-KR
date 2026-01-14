@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Salesforce] 패키지 통합 - [!DNL Marketo Measure]'
+description: '''[!DNL Salesforce] 패키지 통합 - [!DNL Marketo Measure]'''
 title: '[!DNL Salesforce] 패키지 통합'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
-
 
 # [!DNL Salesforce] 패키지 통합 {#salesforce-package-consolidation}
 
@@ -42,13 +41,13 @@ ht-degree: 1%
       * V2_EXT 쿼리:
          * bizible2_ext__Ad_Content_FT__c에 Outreach 포함
 
-![V2_EXT 광고 콘텐츠 FT 필드를 사용하는 샘플 보고서 필터](assets/package-consolidation-1.png)
+![](assets/bizible-full-1.png)
 
 * 통합 패키지의 해당 쿼리:
    * bizible2__Touchpoint_Position__c에 FT 및
    * bizible2__Ad_Content__c에 Outreach 포함
 
-![통합 접점 필드를 사용하는 동등한 보고서 필터](assets/salesforce-package-consolidation-2.png)
+![](assets/bizible-taxonomy-1.png)
 
 ## FAQ {#faq}
 

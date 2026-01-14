@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Marketo Measure] - [!DNL Pardot] 에  [!DNL Marketo Measure]JavaScript 추가 중'
+description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] 지침에  [!DNL Pardot] JavaScript 추가 중
 title: ' [!DNL Marketo Measure] 에  [!DNL Pardot]JavaScript 추가 중'
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure]에 [!DNL Pardot] JavaScript 추가 중 {#adding-marketo-measure-javascript-to-pardot}
 
@@ -25,11 +24,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Layout Template]**&#x200B;를 선택합니다.
 
-   ![&#x200B; 3](assets/1-3.png)
+   ![](assets/adding-providers-4.png)
 
 1. 적절한 레이아웃 템플릿을 결정하고 오른쪽에 있는 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![](assets/adding-pages-1.png)
 
 1. [!DNL Marketo Measure] JavaScript 코드를 복사하여 HTML 페이지의 닫기 헤더 태그 바로 앞에 붙여넣습니다.
 

@@ -1,12 +1,12 @@
 ---
-description: 개인 정보 보호 요청 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 개인 정보 보호 요청 지침
 title: 개인정보 보호 요청
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 25%
+source-wordcount: '259'
+ht-degree: 24%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 25%
 
 다음 두 가지 방법으로 [!DNL Marketo Measure]에서 소비자 데이터에 액세스하고 삭제하도록 개별 요청을 제출할 수 있습니다.
 
-* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ko){target="_blank"}를 통해.
-* **[!DNL Privacy Service]API를 통해**. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko){target="_blank"} 및 API 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}를 참조하세요.
+* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}를 통해.
+* **[!DNL Privacy Service]API를 통해**. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} 및 API 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}를 참조하세요.
 
 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}은(는) 데이터 액세스 요청과 데이터 삭제, 이렇게 두 가지 유형의 요청을 지원합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 25%
 
 JSON 요청
 
-```text
+```json
 {
   "companyContexts": [
     {
@@ -96,7 +96,7 @@ JSON 요청
 
 JSON 응답
 
-```text
+```json
 {
   "requestId": "16331241037112570RX-245",
   "totalRecords": 1,
@@ -128,7 +128,7 @@ JSON 응답
 
 JSON 요청
 
-```text
+```json
 {
   "companyContexts": [
     {
@@ -159,7 +159,7 @@ JSON 요청
 
 JSON 응답
 
-```text
+```json
 {
   "requestId": "16329573462631890RX-207",
   "totalRecords": 1,

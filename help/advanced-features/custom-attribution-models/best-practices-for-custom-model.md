@@ -1,15 +1,14 @@
 ---
-description: 사용자 지정 모델 모범 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 사용자 지정 모델 지침 모범 사례
 title: 사용자 지정 모델에 대한 우수 사례
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 모델에 대한 우수 사례 {#best-practices-for-custom-model}
 
@@ -24,6 +23,7 @@ ht-degree: 0%
 **사용자 지정 단계**&#x200B;를 통해 사용자는 비즈니스 및 프로세스와 관련된 funnel을 정의할 수 있습니다. 사용자 지정 단계는 주식 속성 모델 내의 [!DNL Marketo Measure] 마일스톤(첫 번째 터치, 잠재 고객 생성 터치, 영업 기회 생성 터치 및 마감된 원 터치)과 마찬가지로 구매자의 여정 전체에서 &quot;마일스톤&quot;을 나타내야 합니다. [!DNL Marketo Measure]이(가) 단계 전환을 제대로 추적할 수 있도록 사용자 지정 단계를 계정 내에서 올바르게 정의하고 매핑하는 것이 중요합니다. 이는 각 단계와 연계되어야 하는 접점을 식별하고 크레딧을 적절하게 속성을 지정하기 위한 것입니다. 사용자 지정 스테이지 매핑은 기본적으로 표준 &#39;스테이지 매핑&#39;의 확장이며 동일한 사례를 따라야 합니다.
 
 >[!NOTE]
+>
 >자세한 내용은 스테이지 매핑 모범 사례 리소스 를 참조하십시오
 
 사용자 지정 단계 funnel을 선택하면 **사용자 지정 속성 모델링**&#x200B;이(가) 정의됩니다. 그런 다음 사용자는 [!DNL Marketo Measure] 마일스톤 단계뿐만 아니라 각 사용자 지정 단계에 할당해야 하는 속성 크레딧의 양을 제어할 수 있습니다. 사용자는 각 단계에 맞는 크레딧을 할당하거나 기록 데이터를 기반으로 &quot;추천 모델&quot; 역할을 하는 [!DNL Marketo Measure] 머신 러닝 모델을 참조할 수 있습니다.
@@ -68,6 +68,7 @@ ht-degree: 0%
 * 더 이상 조직과 관련이 없는 접점 위치가 채워진 것을 확인합니다. funnel
 
 >[!MORELIKETHIS]
-> [사용자 지정 속성 모델 및 설정](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [사용자 지정 모델](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)에 대한 필드 기록 추적 사용
-> [기계 학습 모델](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+>
+>* [사용자 지정 속성 모델 및 설정](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [사용자 지정 모델에 대한 필드 기록 추적 사용](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+>* [기계 학습 모델](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

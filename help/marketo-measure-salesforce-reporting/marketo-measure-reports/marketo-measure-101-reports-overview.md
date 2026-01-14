@@ -3,22 +3,22 @@ description: '[!DNL Marketo Measure] 101 보고서 개요 - [!DNL Marketo Measur
 title: '[!DNL Marketo Measure] 101 보고서 개요'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
 
-
 # [!DNL Marketo Measure] 101 보고서 개요 {#marketo-measure-101-reports-overview}
 
 >[!NOTE]
+>
 >설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
 [!DNL Marketo Measure] 및 [!DNL Marketo Measure]을(를) 사용하는 모든 [!DNL Salesforce] 고객은 SFDC 인스턴스 내의 &#39;구매자 터치포인트 보고서&#39; 폴더에 액세스할 수 있습니다. 이 폴더에는 Buyer Touchpoint 데이터를 사용하여 보고를 시작하는 데 도움이 되는 미리 작성된 보고서가 많이 포함되어 있습니다.
 
-![Marketo Measure 101의 Salesforce 구매자 터치포인트 보고서 폴더](assets/bizible-101-reports-overview-1.png)
+![](assets/bizible-guide-1.png)
 
 이러한 보고서의 대부분은 특정 보고 목표를 이미 설정했지만, 대부분의 보고 요구 사항을 다루는 세 가지 주요 보고서 유형으로 표현되는 여섯 개의 &quot;_[!DNL Marketo Measure]101..._&quot;이(가) 있습니다.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 * 구매자 터치포인트가 있는 사용자 [!DNL Marketo Measure]명
 * 기회가 있는 구매자 속성 접점
 
-![Salesforce의 Marketo Measure 101 보고서 목록 예](assets/bizible-101-reports-overview-2.png)
+![](assets/bizible-guide-2.png)
 
 이러한 보고서는 만들려는 [!DNL Marketo Measure] 관련 보고서에 필요한 기본 필드와 인프라를 제공합니다. 신규 고객 및 기존 고객 모두 마케팅 기여도 분석 질문을 탐색할 때 이러한 보고서부터 시작할 것을 권장합니다. 아래에는 여섯 개의 &quot;_[!DNL Marketo Measure]101..._&quot; 보고서에 대한 설명이 있습니다.
 

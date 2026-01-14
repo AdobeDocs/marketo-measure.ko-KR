@@ -1,15 +1,14 @@
 ---
-description: 터치포인트 설정에 대한 우수 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 터치포인트 설정 지침 모범 사례
 title: 접점 설정에 대한 우수 사례
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
-
 
 # 접점 설정에 대한 우수 사례 {#best-practices-for-touchpoint-settings}
 
@@ -55,7 +54,8 @@ ht-degree: 0%
 * 제외 또는 제거 규칙을 정의하는 데 사용되는 필드 변경 사항
 
 >[!MORELIKETHIS]
-> [접점 제거 및 제외 개요](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
-> [터치포인트를 삭제하지 말아야 하는 이유](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
-> [구매자 접점(BT)과 구매자 속성 접점(BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-differences.md)
+>
+>* [접점 제거 및 제외 개요](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [터치포인트를 삭제하지 않는 이유](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [구매자 접점(BT)과 구매자 속성 접점(BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

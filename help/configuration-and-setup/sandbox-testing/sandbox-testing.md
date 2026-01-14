@@ -1,19 +1,19 @@
 ---
-description: Salesforce 샌드박스와 Marketo Measure 통합 테스트 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 Salesforce 샌드박스와 Marketo Measure 통합 테스트 지침
 title: Salesforce 샌드박스와 Marketo Measure 통합 테스트
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
 
-
 # Salesforce 샌드박스와 Marketo Measure 통합 테스트 {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
+>
 >설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
 [!DNL Marketo Measure] 핵심 기능 중 하나는 웹 사이트에서의 작업을 통해 디지털 마케팅 노력을 추적한 다음 리드 및 연락처를 통해 해당 데이터를 프로덕션 [!DNL Salesforce org]에 푸시하는 기능입니다. 그러나 일반적으로 샌드박스 통합 내에는 웹 사이트에서 생성된 인바운드 리드가 없으므로 데이터에 대한 초점은 완전히 오프라인 관점에서 비롯됩니다.

@@ -1,15 +1,14 @@
 ---
-description: 전체 서클에서  [!DNL Marketo Measure] 로 전환 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위해 전체 서클 지침에서  [!DNL Marketo Measure] 로 전환
 title: 전체 서클에서  [!DNL Marketo Measure] 로 전환
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # 전체 서클에서 [!DNL Marketo Measure]&#x200B;(으)로 전환 {#transitioning-to-marketo-measure-from-full-circle}
 

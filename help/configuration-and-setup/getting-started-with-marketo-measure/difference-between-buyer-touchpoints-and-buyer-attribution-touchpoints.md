@@ -1,15 +1,14 @@
 ---
-description: 구매자 접점 및 구매자 속성 접점 간의 차이 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 구매자 접점 및 구매자 속성 접점 지침의 차이점
 title: 구매자 접점 및 구매자 속성 접점 간의 차이
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
-
 
 # 구매자 접점 및 구매자 속성 접점 간의 차이 {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
@@ -21,31 +20,31 @@ Buyer Attribution Touchpoint 오브젝트는 연락처, 계정 및 기회 오브
 
 BT과 BAT의 차이점:
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <td>Buyer Touchpoint(BT)</td>
-   <td>Buyer Attribution Touchpoint(BAT)</td>
-  </tr>
-  <tr>
-   <td>
-    <ul>
-     <li>잠재 고객, 연락처 및 케이스 오브젝트와 관련이 있습니다.</li>
-     <li>Opportunity Object 와 관련 없음</li>
-     <li>매출이 Buyer Touchpoint에 연결되지 않음</li>
-    </ul></td>
-   <td>
-    <ul>
-     <li>연락처, 계정 및 영업 기회 개체와 관련이 있습니다</li>
-     <li>리드 오브젝트와 관련이 없음</li>
-     <li>Buyer Attribution Touchpoint은 Opportunity에 연결되어 있으므로 모든 BAT에 연결된 수익이 있습니다</li>
-    </ul></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <td>Buyer Touchpoint(BT)</td> 
+   <td>Buyer Attribution Touchpoint(BAT)</td> 
+  </tr> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>잠재 고객, 연락처 및 케이스 오브젝트와 관련이 있습니다.</li> 
+     <li>Opportunity Object 와 관련 없음</li> 
+     <li>매출이 Buyer Touchpoint에 연결되지 않음</li> 
+    </ul></td> 
+   <td> 
+    <ul> 
+     <li>연락처, 계정 및 영업 기회 개체와 관련이 있습니다</li> 
+     <li>리드 오브젝트와 관련이 없음</li> 
+     <li>Buyer Attribution Touchpoint은 Opportunity에 연결되어 있으므로 모든 BAT에 연결된 수익이 있습니다</li> 
+    </ul></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 ## FAQ {#faq}
@@ -66,10 +65,10 @@ Buyer Touchpoint에는 첫 번째 터치(FT), 리드 만들기(LC) 또는 양식
 
 다음은 [!DNL Salesforce]의 BT 스크린샷입니다.
 
-![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
+![](assets/adobe-setup-1.png)
 
 **Salesforce에서 Buyer Attribution Touchpoint의 모습은 어떠합니까?**
 
 다음은 [!DNL Salesforce]의 BAT 스크린샷입니다.
 
-![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
+![](assets/adobe-setup-2.png)

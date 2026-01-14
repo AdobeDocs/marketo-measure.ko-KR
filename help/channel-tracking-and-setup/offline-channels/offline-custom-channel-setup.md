@@ -1,15 +1,15 @@
 ---
-description: 오프라인 사용자 지정 채널 설정 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 오프라인 사용자 지정 채널 설정 지침
 title: 오프라인 사용자 지정 채널 설정
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
-
 
 # 오프라인 사용자 지정 채널 설정 {#offline-custom-channel-setup}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 스프레드시트에는 세 개의 열이 있습니다.
 
-![Salesforce 캠페인 유형, 채널 및 하위 채널에 대해 세 개의 열을 표시하는 스프레드시트 템플릿](assets/1-2.png)
+![](assets/offline-channels-1.png)
 
 **[!UICONTROL Salesforce]캠페인 유형** - 여기에 [!DNL Salesforce]에서 식별된 캠페인 유형 추가
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 SFDC 캠페인 유형은 [!DNL Salesforce] 캠페인 유형 아래에 나열된 오프라인 채널의 탭에 나타납니다. [!DNL Marketo Measure]은(는) 구매자 터치포인트가 연결된 캠페인에 대한 SFDC 캠페인 유형만 가져올 수 있습니다.
 
-![Salesforce 캠페인 유형 목록을 표시하는 오프라인 채널 탭](assets/2-2.png)
+![](assets/offline-channels-10.jpg)
 
 여기에서 [!DNL Marketo Measure] 앱에서 채널/하위 채널 매핑을 만들 수 있습니다. 이 작업에는 [!DNL Marketo Measure] 앱에서 새 채널 및 하위 채널을 만드는 작업이 포함될 수 있습니다. 이 작업은 아래 이미지에 표시된 앱의 [채널 만들기] 섹션에서 수행됩니다. 터치포인트를 푸시할 위치를 이해하려면 [!DNL Marketo Measure]에 대해 새 채널과 하위 채널을 만들어야 합니다. 캠페인 유형을 매핑할 방법을 결정할 수 있습니다.
 
-![새 채널 및 하위 채널을 만들기 위한 인터페이스를 보여주는 채널 섹션 만들기](assets/3-2.png)
+![](assets/offline-channels-11.png)
 
 ## 채널 매핑 예 {#channel-mapping-example}
 
@@ -49,11 +49,11 @@ SFDC 캠페인 유형은 [!DNL Salesforce] 캠페인 유형 아래에 나열된 
 
 다음은 [!DNL Marketo Measure]에서 읽을 수 없는 논리의 예입니다.
 
-![다른 하위 채널에 매핑된 동일한 캠페인 유형을 표시하는 잘못된 채널 매핑](assets/4-2.png)
+![](assets/offline-channels-12.png)
 
 위의 시나리오에서는 동일한 캠페인 유형을 두 개의 서로 다른 하위 채널에 매핑할 수 없으므로 고유한 캠페인 유형을 만들려고 합니다. 대신 다음과 같은 고유한 유형을 설정해야 합니다.
 
-![서로 다른 하위 채널에 대해 고유한 캠페인 유형을 표시하는 채널 매핑 수정](assets/5-2.png)
+![](assets/offline-channels-13.png)
 
 기존 캠페인 유형은 채널 맵에 포함해야 하며 &quot;NULL&quot;을 채널로 추가해야 합니다.
 
@@ -67,20 +67,24 @@ SFDC 캠페인 유형은 [!DNL Salesforce] 캠페인 유형 아래에 나열된 
 
 온라인 활동에 대한 캠페인을 처리하기 위한 또 다른 팁은 [!DNL Salesforce] 캠페인 유형을 NULL로 매핑하는 것입니다. 이렇게 하려면 먼저 아래 이미지에 표시된 대로 NULL이라는 [!DNL Marketo Measure] 앱에 채널을 만듭니다. [!DNL Marketo Measure]채널 만들기&#x200B;**섹션 아래의** 앱에서 찾을 수 있습니다. 이렇게 하면 동기화해서는 안 되는 캠페인이 실수로 동기화된 경우에 유용합니다. NULL 아래에 그룹화된 모든 항목을 확인하여 캠페인을 찾고 동기화 상태를 수정합니다.
 
-![온라인 캠페인에 대한 NULL 채널 만들기를 표시하는 채널 만들기 섹션](assets/6-2.png)
+![](assets/offline-channels-14.png)
 
 ## 앱에 오프라인 채널 규칙 입력 {#entering-your-offline-channel-rules-to-the-app}
 
 사용자 지정 규칙을 사용하여 스프레드시트를 편집하고 업데이트했다면 다음 단계는 [!DNL Marketo Measure] 앱에서 이 채널 매핑을 다시 만드는 것입니다. 오프라인 채널용 스프레드시트는 실제로 업로드되지 않습니다. 대신 아래 이미지에 표시된 대로 선택 목록 상자에 정보를 입력합니다. **[!UICONTROL Offline Channels]** 섹션 아래에서 **[!UICONTROL Channels]**&#x200B;을(를) 클릭하여 찾을 수 있습니다.
 
-![채널 매핑 규칙을 입력할 수 있는 선택 목록 상자가 있는 오프라인 채널 인터페이스](assets/7-2.png)
+![](assets/offline-channels-20.png)
 
 >[!TIP]
+>
 >_캠페인 유형을_ 채널 매핑으로 가져오는 [!DNL Salesforce]시기[!DNL Marketo Measure]를 결정하시겠습니까? **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**(으)로 이동합니다. 그러면 선택 목록에 있는 값과 비활성 값을 확인할 수 있습니다. 비활성 항목은 &quot;[!UICONTROL Offline Channels]&quot; 섹션에서 선택 가능한 유형으로 표시되지 않습니다. 이 프로세스는 몇 분에서 최대 48시간 정도 소요될 수 있습니다.
 
 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하면 [!DNL Marketo Measure]이(가) 변경 내용을 업로드하고 데이터를 다시 처리합니다.
 
 >[!MORELIKETHIS]
-> [[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
-> [[!DNL Marketo Measure] 자습서: 오프라인 캠페인 동기화](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
-> [Marketo Engage 프로그램 통합](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
+>
+>* [[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>
+>* [[!DNL Marketo Measure] 튜토리얼: 오프라인 캠페인 동기화](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>
+>* [Marketo Engage 프로그램 통합](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

@@ -1,15 +1,14 @@
 ---
-description: 활동 속성 모범 사례 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 활동 속성 지침 모범 사례
 title: 활동 기여도 분석에 대한 우수 사례
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
-
 
 # 활동 기여도 분석에 대한 우수 사례 {#best-practices-for-activities-attribution}
 
@@ -30,6 +29,7 @@ ht-degree: 0%
    * 언급한 바와 같이, 이 기능의 주요 사용 사례는 판매 개발 팀의 효율성, 특히 아웃바운드 전화 및 아웃바운드 이메일을 추적하는 접점을 만드는 것입니다
 
 >[!NOTE]
+>
 >영업 담당자 프로세스를 추적해도 insight이 많이 제공되지 않으므로 영업 기회가 만들어진 후 발생하는 영업 활동을 추적하는 것이 **권장되지 않음**&#x200B;입니다. 새로운 영업 기회/파이프라인 생성을 개발하는 데 있어 마케팅 영향력과 함께 영업 영향력을 추적하는 것이 목표입니다.
 
 * 공식 필드를 사용하여 규칙을 정의하지 않음
@@ -51,5 +51,6 @@ ht-degree: 0%
 * 영업 지원 도구에 대한 변경 사항 또는 업데이트
 
 >[!MORELIKETHIS]
-> [활동 속성](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [영업 활동 속성 FAQ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+>
+>* [활동 속성](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+>* [영업 활동 속성 FAQ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

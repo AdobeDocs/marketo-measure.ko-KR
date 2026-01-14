@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Marketo Measure] 프로필 만들기 - [!DNL Marketo Measure]'
+description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] 프로필 지침 만들기
 title: ' [!DNL Marketo Measure] 프로필 만들기'
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] 프로필 만들기 {#creating-a-marketo-measure-profile}
 
@@ -21,6 +20,7 @@ ht-degree: 0%
    * 전환된 리드를 보고 편집할 수 있는 권한 활성화
 
    >[!NOTE]
+   >
    >이 프로필은 [!DNL System Admin] 프로필의 복제일 수 있습니다.
 
 1. 전용 [!DNL Marketo Measure] 사용자를 만들었습니다.

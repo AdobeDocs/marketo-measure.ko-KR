@@ -1,15 +1,14 @@
 ---
-description: 사용자 지정 세분화 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 사용자 정의 세그먼테이션 지침
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 정의 세분화 {#custom-segmentation}
 
@@ -26,6 +25,7 @@ ht-degree: 0%
 **어떻게 설정합니까?**
 
 >[!NOTE]
+>
 >세그먼트 규칙을 업데이트하면 내역 데이터가 다시 처리됩니다.
 
 1단계 - 보려는 정보를 결정합니다.
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * 이 범례를 사용하여 이 페이지에 있는 다양한 아이콘을 이해합니다
 
-![관리자에서 사용되는 아이콘을 표시하는 세그먼트 범례](assets/1.png)
+![](assets/segmentation-segmentation-2.png)
 
 4단계 - 필터 규칙을 추가합니다.
 
@@ -50,13 +50,14 @@ ht-degree: 0%
 * 더하기 기호를 클릭하여 세그먼트를 추가합니다.
 * 세그먼트 이름을 입력합니다. 예를 들어 신규 비즈니스, 파트너, 갱신 또는 상향 판매를 위한 하나의 세그먼트가 있을 수 있습니다
 
-![Marketo Measure에서 세그먼트 범주와 이름 추가](assets/2.png)
+![](assets/segmentation-segmentation-3.png)
 
 * 더하기 아이콘을 클릭하여 규칙 입력 필드를 표시합니다. 필드 선택 목록의 옵션은 CRM에서 직접 필드를 가져옵니다
 
-세그먼트 필터를 정의하기 위한 ![규칙 입력 필드](assets/3.png)
+![](assets/segmentation-segmentation-4.png)
 
 >[!NOTE]
+>
 >공식 필드는 규칙 내에서 사용할 수 없으며 선택 목록에 표시되지 않습니다. 수식은 백그라운드에서 계산되며 레코드를 수정하지 않으므로 [!DNL Marketo Measure]은(는) 레코드가 규칙에 맞는지 여부를 검색할 수 없습니다.
 
 * [!UICONTROL Value] 옵션은 드롭다운이 아니므로 값을 수동으로 입력해야 합니다. Salesforce 조직의 값을 확인하십시오

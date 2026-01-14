@@ -1,15 +1,14 @@
 ---
-description: '[!DNL Marketo Measure] 리소스 목록'
+description: '[!DNL Marketo Measure] 리소스 목록 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 리소스 목록'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 1%
 
 ---
-
 
 # [!DNL Marketo Measure] 리소스 목록 {#marketo-measure-resource-list}
 
@@ -19,8 +18,8 @@ ht-degree: 1%
 
 **일반 정보**
 
-* [마케팅 기여도 분석이란?](/help/marketing-attribution.md)
-* [[!DNL Marketo Measure] 속성 모델](/help/attribution-models.md)
+* [마케팅 기여도 분석이란?](/help/introduction/marketing-attribution.md)
+* [[!DNL Marketo Measure] 속성 모델](/help/introduction/attribution-models.md)
 
 **구성**
 
@@ -32,17 +31,17 @@ ht-degree: 1%
 * [SFDC 캠페인과 구매자 터치포인트 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [마케팅 비용 업로드](/help/marketing-spend/marketing-channel-costs.md#uploading-marketing-costs)
 * [광고 계정 다시 연결](/help/api-connections/reauthorizing-connected-accounts.md)
-* [&#x200B; [!DNL Marketo Measure] JavaScript 추가 중](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
+* [ [!DNL Marketo Measure] JavaScript 추가 중](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
    * [Forms 제외](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **보고**
 
-* [&#x200B; [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md)을(를) 사용하여 사용자 지정 보고서 유형 만들기(사용자 지정 리드/연락처/영업 기회 필드에 대해 보고해야 하는 경우)
-* [&#x200B; [!DNL Marketo Measure] 필드 용어집](/help/glossary.md)
+* [ [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md)을(를) 사용하여 사용자 지정 보고서 유형 만들기(사용자 지정 리드/연락처/영업 기회 필드에 대해 보고해야 하는 경우)
+* [ [!DNL Marketo Measure] 필드 용어집](/help/introduction/glossary.md)
 
 **문제 해결**
 
-* [SFDC에 대한  [!DNL Marketo Measure] 지원 액세스 권한 부여](/help/miscellaneous/granting-salesforce-access-to-marketo-measure-support.md)
+* [SFDC에 대한  [!DNL Marketo Measure] 지원 액세스 권한 부여](/help/miscellaneous/salesforce-access.md)
 * 연락처: [[!DNL Marketo] 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
 
 ## 비디오 {#videos}
@@ -50,9 +49,9 @@ ht-degree: 1%
 다음은 두 개의 비디오입니다    속도를 높이는 데 도움이 됩니다.
 
 * [[!DNL Marketo Measure] 소개 교육](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?)&#x200B;(22분)
-* [[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)&#x200B;(30-45분)
+* [[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)&#x200B;(30-45분)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)&#x200B;(~30분)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)&#x200B;(~30분)**
 
 이 교육 과정 시리즈는 [!DNL Marketo Measure]을(를) 마스터하기 위해 알아야 하는 기본 개념에 대한 일반적인 소개로 설계되었습니다. 속성 개념, [!DNL Marketo Measure]이(가) 도구로 수행하는 작업 및 [!DNL Marketo Measure]이(가) 작동하는 일반 프레임워크에 대한 소개를 제공합니다.
 
@@ -64,7 +63,7 @@ ht-degree: 1%
 * 접점
 * 속성 모델
 
-**[[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)&#x200B;(30~45분)**
+**[[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)&#x200B;(30~45분)**
 
 이 교육 과정 시리즈는 Salesforce에 설치된 [!DNL Marketo Measure] 스톡 보고서에 대한 소개로 설계되었습니다. 이러한 보고서는 [!DNL Marketo Measure] 데이터로 수행하는 대부분의 보고를 위한 기초 역할을 합니다.
 
@@ -77,7 +76,7 @@ ht-degree: 1%
 * ID별 기회 보고서
 * 채널별 기회 보고서
 
-**[채널 관리](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)**
+**[채널 관리](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
 이 과정에서는 온라인 및 오프라인 추적 측면에서 [!DNL Marketo Measure]을(를) 사용자 지정할 수 있는 다양한 방법을 다룹니다. 이 교육 과정은 보다 고급이며 모든 사용자와 관련이 없을 수 있습니다.
 
@@ -89,4 +88,4 @@ ht-degree: 1%
 * 캠페인 및 캠페인 멤버 필드
 * 오프라인 채널 관리
 
-모든 [초급 전자 학습 동영상](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)입니다.
+모든 [초급 전자 학습 동영상](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)입니다.

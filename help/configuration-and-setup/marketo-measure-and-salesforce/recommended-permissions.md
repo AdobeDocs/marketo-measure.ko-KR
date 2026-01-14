@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Salesforce] 연결된 사용자에 대한 권장 [!DNL Marketo Measure] 권한 - [!DNL Marketo Measure]'
+description: Marketo Measure 사용자를 위한 권장 [!DNL Salesforce] 권한 [!DNL Marketo Measure] 연결된 사용자 지침
 title: ' [!DNL Salesforce] 연결된 사용자에 대해  [!DNL Marketo Measure] 권한 권장'
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
-
 
 # 연결된 [!DNL Salesforce]명의 사용자에게 [!DNL Marketo Measure] 권한 권장 {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 

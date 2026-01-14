@@ -1,15 +1,14 @@
 ---
-description: Sitecore 페이지에  [!DNL Marketo Measure] 스크립트 추가 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 Sitecore Pages 지침에  [!DNL Marketo Measure] 스크립트 추가 중
 title: Sitecore 페이지에  [!DNL Marketo Measure] 스크립트 추가 중
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
-
 
 # Sitecore 페이지에 [!DNL Marketo Measure] 스크립트를 추가하는 중 {#adding-marketo-measure-script-to-sitecore-pages}
 

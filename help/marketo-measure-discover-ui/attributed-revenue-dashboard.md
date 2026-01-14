@@ -1,21 +1,22 @@
 ---
-description: 속성 매출 대시보드 - [!DNL Marketo Measure] - 제품
+description: 시간 경과에 따라 채널 하위 채널 및 캠페인별로 속성 수익 및 거래를 분석하는 속성 수익 대시보드에 대해 설명합니다
 title: 속성 수익 대시보드
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
-
 
 # 속성 수익 대시보드 {#attributed-revenue-dashboard}
 
 속성 매출 대시보드는 마케팅 노력과 직접 연결된 매출에 초점을 맞춘 관점을 제공합니다. 마케팅 전략이 계약을 체결하는 데 어떻게 중요했는지 살펴보십시오.
 
 >[!NOTE]
+>
 >이 대시보드는 Beta에 있습니다. 이 전환 단계에서는 현재 및 새 대시보드에 모두 액세스할 수 있습니다. 최적의 기능을 완벽하게 전환하고 보장하면 현재 대시보드는 더 이상 사용되지 않습니다.
 
 **게시판에 대한 답변 질문**:
@@ -42,7 +43,7 @@ ht-degree: 0%
 * 각 분기에 가장 많은 수익을 창출한 채널은 무엇입니까?
 * 지난 달 채널별 속성 수입의 상세 내역은 무엇인가?
 
-![시간 경과에 따른 채널별 속성 매출 차트](assets/attributed-revenue-dashboard-1.png)
+![](assets/attributed-dashboard-4.png)
 
 ### 속성 수익 테이블 {#attributed-revenue-table}
 
@@ -58,14 +59,14 @@ ht-degree: 0%
 * 표 형식 뷰에서는 속성 매출 분포에 대한 명확하고 체계적인 통찰력을 제공합니다. 사용자는 데이터를 채널, 하위 채널 및 캠페인으로 분류하여 성능 패턴을 빠르게 식별하고 영향력이 큰 마케팅 전략을 정확하게 파악할 수 있습니다.
 * 각 채널 옆의 &quot;+&quot; 아이콘을 클릭하여 하위 채널 및 캠페인별로 분류를 표시합니다.
 
-채널, 하위 채널 및 캠페인별 ![속성 매출 표 형식 보기](assets/attributed-revenue-dashboard-2.png)
+![](assets/attributed-dashboard-5.png)
 
 **트리 보기**
 
 * 트리 보기를 통해 보다 대화형의 세분화된 데이터를 탐색할 수 있으므로 마케터는 마케팅 활동에서 트렌드, 예외 항목 또는 뛰어난 성과를 식별할 수 있습니다.
 * 분기를 클릭하여 후속 계층 레이어를 자세히 살펴봅니다.
 
-![계층 탐색에 대한 속성 매출 트리 보기](assets/attributed-revenue-dashboard-3.png)
+![](assets/attributed-dashboard-6.png)
 
 ## 필터 창 {#filter-pane}
 
@@ -78,6 +79,7 @@ ht-degree: 0%
 * 세그먼트
 
 >[!MORELIKETHIS]
-> [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [대시보드 데이터 가시성 정책](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [대시보드 기본 사항 살펴보기](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [대시보드 데이터 가시성 정책](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

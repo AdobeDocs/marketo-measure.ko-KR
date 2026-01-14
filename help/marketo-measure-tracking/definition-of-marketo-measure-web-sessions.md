@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Marketo Measure] 웹 세션 정의 - [!DNL Marketo Measure]'
+description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] 웹 세션 지침 정의
 title: ' [!DNL Marketo Measure] 웹 세션 정의'
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Marketo Measure] 웹 세션 정의 {#definition-of-marketo-measure-web-sessions}
 
@@ -30,29 +29,13 @@ ht-degree: 0%
 
 ## 시간 기반 만료 {#time-based-expiration}
 
-### 레거시 동작 {#legacy-behavior}
-
 **세션이 얼마나 오래 지속됩니까?**
 
-[!UICONTROL Marketo Measure]개의 세션은 웹 사이트에서 30분 동안 활동이 없으면 종료됩니다. 예:
+[!DNL Marketo Measure]개의 세션은 웹 사이트에서 30분 동안 활동이 없으면 종료됩니다. 예:
 
 헤일리가 adobe.com을 방문하면, 세션이 시작된다. 그녀는 몇 분 동안 웹사이트를 탐색한 후 컴퓨터에서 한 걸음 떨어져서 사이트를 열어두었다. 30분 동안 활동이 없으면 세션이 종료됩니다.
 
-현재 [!UICONTROL Marketo Measure]은(는) 페이지 탐색 및 양식 제출만 활동으로 간주합니다. 웹 페이지를 스크롤하거나 페이지의 요소 위로 마우스를 가져가면 활동으로 간주되지 않습니다. 헤일리가 adobe.com을 방문하여 블로그 게시물을 읽는데 한 시간이 걸리는 경우, 페이지의 내용을 스크롤하고 있더라도 그녀의 웹 세션은 30분 후에도 여전히 종료됩니다.
-
-### 새로운 비헤이비어 {#new-behavior}
-
-새 사용자의 경우 기본 동작이 됩니다.
-
-기존 사용자는 **설정** > **모든 터치 속성** > **세션 채널 이월**&#x200B;에서 토글을 켜서 새 동작을 채택할 수 있습니다. 활성화되면 이 설정을 되돌릴 수 없습니다.
-
-30분 동안 활동이 없다가 새 세션이 만들어지면 7일 내에 새 세션이 시작되면 이전 세션의 채널이 이월됩니다. 이 이월은 직접 방문(레퍼러 또는 내부 레퍼러 없음)에만 적용됩니다. 활동이 7일을 초과하는 경우 새 세션에 대한 채널은 기본적으로 직접/기타 로 설정됩니다. 예를 들어 헤일리가 Google에서 landingpage.com을 방문하고 30분 이상 비활성 상태이고 7일 이내에 재방문하는 경우 새 세션은 Google 채널을 유지합니다. 그러나 동일한 사용자가 다른 채널을 통해 페이지를 다시 방문하는 경우 비직접 채널은 이전 Google 채널에 의해 재정의되지 않습니다.
-
-캠페인이나 레퍼러 세부 사항을 제외하고 채널만 전달됩니다. 채널 분류는 Marketo Measure이 처리하는 반면 다른 데이터 포인트는 따로 수집하기 때문이다.
-
-**소셜 로그인**
-
-방문자가 Google, Microsoft 또는 Apple을 통해 소셜 로그인을 사용하면 세션이 하나의 연속 세션으로 병합됩니다. 예를 들어 방문자가 LinkedIn에서 페이지에 도달하고, Google 소셜 로그인을 완료하고, 감사 페이지에 도달하면 모두 단일 세션으로 계산됩니다. 세션 채널 이월을 켜지 않으면 외부 레퍼러로 인해 소셜 로그인이 별도의 세션을 만듭니다.
+현재 [!DNL Marketo Measure]은(는) 페이지 탐색 및 양식 제출만 활동으로 간주합니다. 웹 페이지를 스크롤하거나 페이지의 요소 위로 마우스를 가져가면 활동으로 간주되지 않습니다. 헤일리가 adobe.com을 방문하여 블로그 게시물을 읽는데 한 시간이 걸리는 경우, 페이지의 내용을 스크롤하고 있더라도 그녀의 웹 세션은 30분 후에도 여전히 종료됩니다.
 
 ## 채널 기반 만료 {#channel-based-expiration}
 

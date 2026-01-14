@@ -1,15 +1,15 @@
 ---
-description: ' [!DNL Salesforce] 지원 - [!DNL Marketo Measure] 에 대한  [!DNL Marketo Measure]액세스 권한 부여'
+description: Marketo Measure 사용자를 위한 Marketo Measure 지원 지침에 대한  [!DNL Salesforce] 액세스 권한 부여
 title: Marketo Measure 지원에 대한  [!DNL Salesforce] 액세스 권한 부여
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
-
 
 # Marketo Measure 지원에 대한 [!DNL Salesforce] 액세스 권한 부여 {#granting-salesforce-access-to-marketo-measure-support}
 

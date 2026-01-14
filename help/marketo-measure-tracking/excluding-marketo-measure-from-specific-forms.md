@@ -1,15 +1,15 @@
 ---
-description: 특정 Forms에서  [!DNL Marketo Measure] 제외 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 특정 Forms 지침에서  [!DNL Marketo Measure] 제외
 title: 특정 Forms에서  [!DNL Marketo Measure] 개 제외
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # 특정 Forms에서 [!DNL Marketo Measure] 제외 {#excluding-marketo-measure-from-specific-forms}
 
