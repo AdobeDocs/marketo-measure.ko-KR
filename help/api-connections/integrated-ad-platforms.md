@@ -52,7 +52,7 @@ ht-degree: 0%
 
 추적 템플릿이 준비되면 아래 지침에 따라 [!DNL Marketo Measure] 자동 태그 지정을 활성화하십시오. 참고: [!DNL Marketo Measure]은(는) 계정에서 일시 중지된 광고도 자동으로 태깅합니다.
 
-1. [!DNL Marketo Measure]experience.adobe.com/marketo-measure[에서 ](https://experience.adobe.com/marketo-measure){target="_blank"} 계정에 로그인합니다.
+1. [!DNL Marketo Measure]experience.adobe.com/marketo-measure[에서 &#x200B;](https://experience.adobe.com/marketo-measure){target="_blank"} 계정에 로그인합니다.
 
 1. [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections]&#x200B;(으)로 이동합니다.
 
@@ -154,7 +154,7 @@ Bing Ads의 자동 태그 지정은 다음 사용자 지정 매개 변수도 추
 
 언제든지 [!DNL Facebook] 계정을 [!DNL Marketo Measure] 앱에 연결할 수 있으며 데이터가 손실되지 않습니다. 자동 태깅이 활성화된 경우에만 성능 기록이 지워집니다.
 
-[ 광고 보고서 내보내기에 대한 자세한 내용은 Facebook에서 ](https://www.facebook.com/business/help/393890194130036){target="_blank"}이 문서[!DNL Facebook]를 참조하십시오.
+[&#x200B; 광고 보고서 내보내기에 대한 자세한 내용은 Facebook에서 &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"}이 문서[!DNL Facebook]를 참조하십시오.
 
 ## LinkedIn 스폰서 콘텐츠 {#linkedin-sponsored-content}
 
