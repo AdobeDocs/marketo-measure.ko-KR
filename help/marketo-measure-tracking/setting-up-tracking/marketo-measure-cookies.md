@@ -97,7 +97,7 @@ ht-degree: 10%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>타사, 도메인=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
+    <td>타사, 도메인=.<a href="https://business.adobe.com/kr/products/marketo/bizible.html">bizible.com</a></td>
     <td>여러 도메인에서 사용자를 식별하는 범용 사용자 ID입니다.</td>
     <td>1년</td>
     <td>예</td>

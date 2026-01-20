@@ -42,4 +42,4 @@ ht-degree: 0%
 
 * 여러 랜딩 페이지 템플릿이 사용 중일 수 있습니다. 양식이 있는 모든 템플릿에 코드를 추가해야 합니다.
 
-* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}에 대해 설명합니다.
+* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=ko){target="_blank"}에 대해 설명합니다.
