@@ -17,7 +17,7 @@ ht-degree: 0%
 
 각 Marketo Measure 필드와 관련된 개체의 맵을 보려면 [여기를 클릭](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)하십시오.
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [ u](#u) · [V](#v) · 너비 · X · Y · Z
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [&#x200B; u](#u) · [V](#v) · 너비 · X · Y · Z
 
 ## A {#a}
 
