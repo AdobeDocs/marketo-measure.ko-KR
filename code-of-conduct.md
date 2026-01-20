@@ -1,5 +1,5 @@
 ---
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -8,6 +8,7 @@ ht-degree: 100%
 # Adobe 행동 강령
 
 ## Adobe의 약속
+
 
 개방적이고 환영하는 환경을 조성하기 위해, 우리는 콘텐츠 작가 및 관리자로서 연령, 신체 사이즈, 장애, 민족성, 성별 정체성, 경험 수준, 국적, 외모, 인종, 종교 또는 성적 정체성 및 성향에 관계없이 프로젝트 및 지역 사회에 모든 사람들을 대상으로 차별 없는 환경을 제공하겠다고 서약합니다.
 
