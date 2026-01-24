@@ -24,13 +24,13 @@ ht-degree: 0%
 
 신규 고객의 경우 이제 세션 채널 이월이 기본 동작입니다. 기존 고객은 설정 > 모든 터치 속성에서 세션 채널 이월 토글을 켜서 이 기능을 활성화할 수 있습니다. 활성화되면 이 설정을 취소할 수 없습니다.
 
-설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### 키워드 ROI 대시보드
 
 새로운 키워드 ROI 대시보드는 유료 검색 캠페인의 성과에 대한 자세한 통찰력을 제공하며 키워드 수준의 비용, 속성 수익, 생성된 리드 및 기회에 대한 포괄적인 보기를 제공합니다. 이 대시보드는 Google Adwords, LinkedIn 및 Bing Ads 등에서 각 키워드의 ROI를 평가하는 데 도움이 됩니다.
 
-설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### 향상된 세그먼트 규칙
 
