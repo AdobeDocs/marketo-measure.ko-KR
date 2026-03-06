@@ -1,12 +1,12 @@
 ---
-unique-page-id: 18874594
-description: 통합 광고 플랫폼 - [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 통합 광고 플랫폼 지침
 title: 통합 광고 플랫폼
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
+hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1823'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용할 수 있는 최대 광고 플랫폼 연결 수는 300개입니다.
+>연결할 수 있는 최대 광고 플랫폼 연결 수는 300개입니다.
 
 각 플랫폼의 세부 사항을 살펴보기 전에 이러한 계정을 [!DNL Marketo Measure]에 연결하는 방법에 대해 알아보겠습니다. 먼저 [!DNL Marketo Measure]에 로그인하고 화면 왼쪽 상단의 **[!UICONTROL My Account]** 탭에서 **[!UICONTROL Settings]** 옵션으로 이동합니다. 그런 다음 왼쪽의 **[!UICONTROL Integrations]** 섹션 아래에서 **[!UICONTROL Connections]**&#x200B;을(를) 선택합니다.
 
 아래 이미지에 표시된 것처럼 새 광고 연결을 설정하는 버튼이 표시됩니다.
 
-![](assets/2.png)
+![아래 그림과 같이 ](assets/bizible-guide-1.png) 단추가 표시됩니다.
 
 [!UICONTROL Set up New Ads Connection] 단추를 클릭하면 아래에 표시된 창(4개의 광고 [!UICONTROL connect]이온 유형)이 표시됩니다. 연결을 클릭하면 자격 증명을 묻는 다른 창이 나타납니다. 자격 증명을 입력하고 [!UICONTROL authorize]을(를) 클릭하여 계정을 [!DNL Marketo Measure]에 연결합니다.
 
-![](assets/select-account-type.png)
+![새 광고 연결 설정 단추를 클릭한 후 ](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -42,13 +42,13 @@ ht-degree: 0%
 [!DNL Marketo Measure]이(가) [!DNL AdWords] 계정에서 추적 템플릿을 검색합니다.
 
 * *옵션 A*: 추적 템플릿을 찾았습니다. [!DNL Marketo Measure] 는 템플릿에 해당 매개 변수를 추가합니다.
-* *옵션 B*: 서드파티 리디렉션을 찾았습니다. 추적 템플릿에 타사 리디렉션이 있으면 [!DNL Marketo Measure]에서 작업을 수행할 수 없습니다. [!DNL Marketo Measure] 태그를 타사 시스템에 수동으로 추가해야 합니다. 서드파티 리디렉션의 예로는 Kenshoo 또는 Marin과 같은 입찰 관리 도구가 있습니다. [입찰 관리 도구의 영향 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}에 대해 자세히 알아보세요.
+* *옵션 B*: 서드파티 리디렉션을 찾았습니다. 추적 템플릿에 타사 리디렉션이 있으면 [!DNL Marketo Measure]에서 작업을 수행할 수 없습니다. [!DNL Marketo Measure] 태그를 타사 시스템에 수동으로 추가해야 합니다. 서드파티 리디렉션의 예로는 Kenshoo 또는 Marin과 같은 입찰 관리 도구가 있습니다. [입찰 관리 도구의 영향 [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}에 대해 자세히 알아보세요.
 
 * *옵션 C*: 추적 템플릿을 찾을 수 없습니다. [!DNL Marketo Measure] [!DNL Marketo Measure] 매개 변수에 대한 모든 광고 대상 URL을 검사합니다. 검사를 기준으로, 다음과 같은 경우
    * 매개 변수를 찾았습니다. 설정이 완료되었습니다.
    * 매개 변수를 찾을 수 없습니다. [!DNL Marketo Measure]은(는) 광고 대상 URL 끝에 매개 변수를 추가합니다. [!DNL Marketo Measure] 새 광고를 만든 후 2시간 이내에 추가합니다. 매개 변수는 템플릿에 추가되지 않습니다.
 
-[[!DNL AdWords] 자동 태그 지정 기능](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}에 대해 자세히 알아보세요.
+[[!DNL AdWords] 자동 태그 지정 기능](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}에 대해 자세히 알아보세요.
 
 ## Adwords에 대해 [!DNL Marketo Measure] 자동 태그 지정을 활성화하는 방법 {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -60,15 +60,15 @@ ht-degree: 0%
 
 1. [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections]&#x200B;(으)로 이동합니다.
 
-   ![](assets/4.png)
+   ![1. 내 계정 설정 통합 연결로 이동합니다.](assets/utilizing-connections-8.png)
 
 1. [!DNL Marketo Measure] 자동 태그 지정을 사용할 수 있는 Adwords 계정 옆의 연필 아이콘을 클릭합니다.
 
-   ![](assets/5.png)
+   ![1. ](assets/utilizing-connections-9.png)할 Adwords 계정 옆에 있는 연필 아이콘을 클릭합니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Autotagging]** 스위치를 **[!UICONTROL Yes]**(으)로 전환합니다. 페이지 하단에서 **[!UICONTROL Learn More]**&#x200B;을(를) 클릭하여 텍스트 상자를 확장하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 자동 태그 지정 설정이 완료되었습니다.
 
-   ![](assets/6.png)
+   ![1. 오른쪽 상단 모서리에서 자동 태그 지정 스위치를 ](assets/utilizing-connections-10.png)(으)로 전환합니다.
 
 ## [!DNL Marketo Measure] 매개 변수를 사용하여 AdWords에서 추적 템플릿을 설정하는 방법 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
