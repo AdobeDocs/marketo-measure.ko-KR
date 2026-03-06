@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Marketo Measure 앱에서 **설정** 섹션을 열고 **Data Warehouse** 페이지로 이동합니다. **직접 공유** 섹션에서 제공된 상자에 [Snowflake 계정 ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"}를 입력하고 **연결**&#x200B;을 클릭합니다.
 
-![Marketo Measure 앱에서 설정 섹션을 열고 ](assets/data-share-1.png)(으)로 이동합니다.
+![Marketo Measure 앱에서 설정 섹션을 열고 &#x200B;](assets/data-share-1.png)(으)로 이동합니다.
 
 ## 공유 액세스 {#accessing-the-share}
 

@@ -39,7 +39,7 @@ ht-degree: 1%
 
 1. 필요한 모든 활동을 선택하면 [!UICONTROL Selected Activities List] 및 [!UICONTROL Define Rules]에서 채워진 활동을 볼 수 있습니다.
 
-   ![1. 필요한 모든 활동을 선택하면 ](assets/marketo-engage-activities-04.png)이(가) 표시됩니다.
+   ![1. 필요한 모든 활동을 선택하면 &#x200B;](assets/marketo-engage-activities-04.png)이(가) 표시됩니다.
 
 1. 각 활동 유형에 대해 터치포인트에 적합한 레코드를 결정하는 규칙을 하나 이상 정의해야 합니다. 이 예에서는 Marketo 사용자가 90 이상의 점수에 도달할 때 시스템이 터치포인트를 만들도록 &quot;점수 변경&quot; 활동 유형에 대한 규칙을 추가합니다.
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 1. 변경 내용이 손실되지 않도록 도중에 **[!UICONTROL Save As Draft]**&#x200B;을(를) 클릭하십시오.
 
-   ![1. ](assets/marketo-engage-activities-09.png)을(를) 따라 초안으로 저장을 클릭하세요.
+   ![1. &#x200B;](assets/marketo-engage-activities-09.png)을(를) 따라 초안으로 저장을 클릭하세요.
 
 1. **[!UICONTROL Attribute Mapping]** 탭으로 이동합니다.
 

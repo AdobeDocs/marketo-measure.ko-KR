@@ -20,6 +20,6 @@ IFrame을 페이지 내의 페이지로 생각해 보십시오. 스크립트가 
 
 IFrame의 헤드 내에 JavaScript을 배치하는 것이 좋으며, 여기서 해당 프레임 내의 양식에 자동으로 첨부됩니다.
 
-![JavaScript을 ](assets/adding-pages-1.png)의 헤드에 배치하는 것이 좋습니다.
+![JavaScript을 &#x200B;](assets/adding-pages-1.png)의 헤드에 배치하는 것이 좋습니다.
 
 IFrame 양식에 JavaScript을 추가하는 것과 관련하여 질문이 있는 경우 Adobe 계정 팀(계정 관리자) 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하십시오.

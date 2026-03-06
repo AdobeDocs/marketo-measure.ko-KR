@@ -25,11 +25,11 @@ ht-degree: 0%
 
 아래 이미지에 표시된 것처럼 새 광고 연결을 설정하는 버튼이 표시됩니다.
 
-![아래 그림과 같이 ](assets/bizible-guide-1.png) 단추가 표시됩니다.
+![아래 그림과 같이 &#x200B;](assets/bizible-guide-1.png) 단추가 표시됩니다.
 
 [!UICONTROL Set up New Ads Connection] 단추를 클릭하면 아래에 표시된 창(4개의 광고 [!UICONTROL connect]이온 유형)이 표시됩니다. 연결을 클릭하면 자격 증명을 묻는 다른 창이 나타납니다. 자격 증명을 입력하고 [!UICONTROL authorize]을(를) 클릭하여 계정을 [!DNL Marketo Measure]에 연결합니다.
 
-![새 광고 연결 설정 단추를 클릭한 후 ](../assets/marketo-engage-activities-05.png)
+![새 광고 연결 설정 단추를 클릭한 후 &#x200B;](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -64,11 +64,11 @@ ht-degree: 0%
 
 1. [!DNL Marketo Measure] 자동 태그 지정을 사용할 수 있는 Adwords 계정 옆의 연필 아이콘을 클릭합니다.
 
-   ![1. ](assets/utilizing-connections-9.png)할 Adwords 계정 옆에 있는 연필 아이콘을 클릭합니다.
+   ![1. &#x200B;](assets/utilizing-connections-9.png)할 Adwords 계정 옆에 있는 연필 아이콘을 클릭합니다.
 
 1. 오른쪽 상단 모서리에서 **[!UICONTROL Autotagging]** 스위치를 **[!UICONTROL Yes]**(으)로 전환합니다. 페이지 하단에서 **[!UICONTROL Learn More]**&#x200B;을(를) 클릭하여 텍스트 상자를 확장하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 자동 태그 지정 설정이 완료되었습니다.
 
-   ![1. 오른쪽 상단 모서리에서 자동 태그 지정 스위치를 ](assets/utilizing-connections-10.png)(으)로 전환합니다.
+   ![1. 오른쪽 상단 모서리에서 자동 태그 지정 스위치를 &#x200B;](assets/utilizing-connections-10.png)(으)로 전환합니다.
 
 ## [!DNL Marketo Measure] 매개 변수를 사용하여 AdWords에서 추적 템플릿을 설정하는 방법 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 

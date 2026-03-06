@@ -41,9 +41,9 @@ Marketo 사용자 다운로드를 도입하면서 [!DNL Marketo Measure]은(는)
 
 [!DNL Marketo Measure Discover]의 리드(사람)에 대해 보고할 때 총 Marketo 및 CRM 리드가 표시됩니다. Marketo 직원만 보고하거나 CRM 리드만 보고하려면 소스에 대한 세그먼트 범주를 만든 다음 &quot;Source 시스템&quot; 필드를 사용하여 Marketo 및 CRM에 대한 세그먼트 규칙을 만들어 규칙을 정의합니다. 세그먼트가 만들어지면 [!DNL Marketo Measure Discover] 대시보드에서 필터링할 수 있는 Source 범주가 표시됩니다.
 
-![Marketo Measure Discover에서 잠재 고객(사람)에 대해 보고할 때 ](assets/bizible-discover-1.png)을(를) 하게 됩니다.
+![Marketo Measure Discover에서 잠재 고객(사람)에 대해 보고할 때 &#x200B;](assets/bizible-discover-1.png)을(를) 하게 됩니다.
 
-![Marketo Measure Discover에서 잠재 고객(사람)에 대해 보고할 때 ](assets/bizible-discover-2.png)을(를) 하게 됩니다.
+![Marketo Measure Discover에서 잠재 고객(사람)에 대해 보고할 때 &#x200B;](assets/bizible-discover-2.png)을(를) 하게 됩니다.
 
 ## 필드 매핑 {#field-mappings}
 

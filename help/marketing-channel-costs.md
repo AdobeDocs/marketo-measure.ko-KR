@@ -95,7 +95,7 @@ ht-degree: 0%
 
 예를 들어 Facebook을 하위 채널로 표시하고 소셜을 채널로 표시하려면 규칙을 &quot;Social.Facebook&quot;으로 작성해야 합니다. 마찬가지로 오프라인 이벤트를 추적하려면 채널 구문이 &quot;Events.Big Conference&quot;여야 합니다. 아래 이미지에 예가 나와 있습니다.
 
-![예를 들어 Facebook을 하위 채널로, social을 ](assets/spend-management-2.png)(으)로 표시
+![예를 들어 Facebook을 하위 채널로, social을 &#x200B;](assets/spend-management-2.png)(으)로 표시
 
 _추가 참고_:
 

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 사용자 지정 필드가 있는 개체로 이동하여 **[!UICONTROL Set History Tracking]** 단추를 클릭합니다.
 
-   ![1. 사용자 지정 필드가 있는 개체로 이동하여 ](assets/custom-models-1.png)을(를) 클릭합니다.
+   ![1. 사용자 지정 필드가 있는 개체로 이동하여 &#x200B;](assets/custom-models-1.png)을(를) 클릭합니다.
 
 1. 변경 사항을 추적할 필드를 선택합니다.
 

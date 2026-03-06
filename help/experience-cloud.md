@@ -72,6 +72,6 @@ Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [https://experience.
 
 Adobe Experience Cloud에 로그인할 수 있지만 다음과 같은 페이지가 표시되면 [!DNL Marketo Measure]측에서 문제가 발생할 수 있습니다.
 
-![Adobe Experience Cloud에 로그인할 수 있지만 ](assets/unified-overview-7.png)이(가) 표시되는 경우
+![Adobe Experience Cloud에 로그인할 수 있지만 &#x200B;](assets/unified-overview-7.png)이(가) 표시되는 경우
 
 위의 오류가 표시되면 [지원팀에 문의](https://nation.marketo.com/t5/support/ct-p/Support)하여 도움을 받으십시오.

@@ -28,7 +28,7 @@ ht-degree: 0%
 
 [!DNL Marketo Measure]개의 개체가 특정 표준 [!DNL Salesforce]개의 개체와 관련되어 있습니다. 이를 통해 [!DNL Marketo Measure] 및 [!DNL Salesforce] 개체에 대해 함께 보고할 수 있습니다. 아래 표는 [!DNL Marketo Measure] 개체와 관련된 [!DNL Salesforce] 개체를 보여 줍니다.
 
-![Marketo Measure 개체는 특정 표준 Salesforce 개체와 관련이 있습니다. 이 ](assets/bizible-full-1.png)
+![Marketo Measure 개체는 특정 표준 Salesforce 개체와 관련이 있습니다. 이 &#x200B;](assets/bizible-full-1.png)
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 BT 개체는 리드 및 연락처 페이지에 **관련 목록**(아래 이미지 참조)으로 표시됩니다.
 
-![리드 및 연락처 페이지에 BT 개체가 ](assets/bizible-taxonomy-1.png)(으)로 표시됩니다.
+![리드 및 연락처 페이지에 BT 개체가 &#x200B;](assets/bizible-taxonomy-1.png)(으)로 표시됩니다.
 
 BT 관련 목록에는 잠재 고객 또는 연락처에 속하는 모든 터치포인트가 표시됩니다. 목록 내에는 각 터치포인트에 대한 자세한 정보를 제공하는 사용자 지정 [!DNL Marketo Measure] 필드가 있습니다. Buyer Touchpoint ID 번호를 클릭하면 해당 웹 세션(**랜딩 페이지**) 중에 방문한 리드/연락처가 첫 번째 웹 페이지와 같이 터치포인트에 대한 자세한 내용을 제공하는 Buyer Touchpoint 세부 정보 페이지로 이동합니다.
 

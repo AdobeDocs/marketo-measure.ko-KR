@@ -18,7 +18,7 @@ ht-degree: 0%
 
 기본적으로 [!DNL Marketo Measure]은(는) 계정 ID 매핑을 제공합니다. 즉, [!DNL Marketo Measure]이(가) 거래처 및 해당 연락처 마케팅 정보를 보고 해당 기회에 연결된 속성 접점을 만듭니다. 다음은 그 과정을 간단하게 표현한 것입니다.
 
-![즉시 사용할 수 있도록 Marketo Measure에서 계정 ID 매핑을 제공합니다. 이 ](assets/adobe-setup-1.png)
+![즉시 사용할 수 있도록 Marketo Measure에서 계정 ID 매핑을 제공합니다. 이 &#x200B;](assets/adobe-setup-1.png)
 
 연락처의 **일부**&#x200B;개 터치포인트가 기여도 분석 터치포인트로 영업 기회에 푸시되지 않는다는 점을 유의하십시오. Opportunity 의 타임라인 (첫 번째 터치 날짜 - 종료 날짜)은 터치 포인트가 Opportunity에 영향을 주는지 여부를 결정합니다. 따라서 Opportunity Closed Won/Lost 후에 연락처 A에 대한 터치포인트가 발생한 경우 [!DNL Marketo Measure]은(는) 해당 터치포인트를 Opportunity에 푸시하지 않습니다. 이 타임라인 절차는 다른 모든 속성 객체 매핑에서 수행됩니다.
 

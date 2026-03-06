@@ -20,7 +20,7 @@ Marketo에 대한 연결을 설정하는 방법은 다음과 같습니다.
 
 1. [!DNL Marketo Measure]에서 **[!UICONTROL My Account]** 드롭다운을 클릭하고 **[!UICONTROL Settings]**&#x200B;을(를) 선택합니다.
 
-   ![1. Marketo Measure에서 내 계정 드롭다운을 클릭하고 ](assets/set-connection-7.png)
+   ![1. Marketo Measure에서 내 계정 드롭다운을 클릭하고 &#x200B;](assets/set-connection-7.png)
 
 1. [!UICONTROL Integrations]에서 **[!UICONTROL Connections]**&#x200B;을(를) 클릭합니다.
 
@@ -40,7 +40,7 @@ Marketo에 대한 연결을 설정하는 방법은 다음과 같습니다.
 
 1. Marketo Engage에서 왼쪽의 트리에서 **LaunchPoint**&#x200B;을(를) 선택하십시오. Marketo Measure에 연결할 사용자 지정 서비스를 찾은 다음 **세부 정보 보기**&#x200B;를 클릭합니다.
 
-   ![1. Marketo Engage에서 ](assets/set-connection-4.png)의 트리에서 LaunchPoint를 선택하십시오.
+   ![1. Marketo Engage에서 &#x200B;](assets/set-connection-4.png)의 트리에서 LaunchPoint를 선택하십시오.
 
 1. 클라이언트 ID 및 클라이언트 암호를 강조 표시하고 저장합니다. Click **Close**.
 

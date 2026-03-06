@@ -24,7 +24,7 @@ ht-degree: 0%
 
 PostLC 터치포인트는 동적입니다. 리드 또는 연락처가 PostLC 양식을 계속 제출하면 [!DNL Marketo Measure]에서 CRM의 PostLC 터치포인트를 업데이트하여 최신 양식 제출을 표시합니다. 특히 5개의 PostLC 터치포인트 제한을 설정한 경우 [!DNL Marketo Measure]은(는) 항상 5개의 _가장 최근_ 터치포인트를 CRM에 푸시합니다.  이 예에서는 이 계정이 PostLC 제한을 4개의 터치포인트로 설정했습니다. 이 리드는 이미 CRM에 포함할 수 있는 PostLC 터치포인트의 최대 수에 도달했습니다. 마지막 PostLC 터치는 2018년 2월 6일이었습니다. 이 사용자가 다음 날 다른 양식을 작성해야 하는 경우 [!DNL Marketo Measure]이(가) 2017년 11월 9일에 첫 번째 PostLC 접점을 제거하여 2018년 2월 7일에 최신 접점을 추가합니다.
 
-![PostLC 터치포인트가 동적입니다. 잠재 고객 또는 연락처가 ](assets/additional-functionality-2.png)을(를) 계속 제출함
+![PostLC 터치포인트가 동적입니다. 잠재 고객 또는 연락처가 &#x200B;](assets/additional-functionality-2.png)을(를) 계속 제출함
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ PostLC 터치포인트는 동적입니다. 리드 또는 연락처가 PostLC 양
 
 1. 리드에 푸시할 postLC 터치포인트 수를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![1. ](assets/additional-functionality-3.png)에 푸시할 postLC 터치포인트의 수를 입력합니다.
+   ![1. &#x200B;](assets/additional-functionality-3.png)에 푸시할 postLC 터치포인트의 수를 입력합니다.
 
 **연락처**
 
@@ -52,4 +52,4 @@ PostLC 터치포인트는 동적입니다. 리드 또는 연락처가 PostLC 양
 
 1. 연락처에 푸시할 postLC 터치포인트의 수를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![1. ](assets/additional-functionality-4.png)에 푸시할 postLC 터치포인트의 수를 입력합니다.
+   ![1. &#x200B;](assets/additional-functionality-4.png)에 푸시할 postLC 터치포인트의 수를 입력합니다.

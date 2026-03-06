@@ -56,7 +56,7 @@ ht-degree: 0%
 
 각 채널 옆의 **+** 아이콘을 클릭하여 하위 채널 및 캠페인별로 분류를 표시합니다.
 
-![각 채널 옆에 있는 + 아이콘을 클릭하여 ](assets/attributed-dashboard-1.png) 기준으로 분류를 표시합니다.
+![각 채널 옆에 있는 + 아이콘을 클릭하여 &#x200B;](assets/attributed-dashboard-1.png) 기준으로 분류를 표시합니다.
 
 #### 트리 보기 {#tree-view}
 

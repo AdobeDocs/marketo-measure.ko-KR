@@ -46,7 +46,7 @@ Adobe Launch에 설치 및 구성할 때 [!DNL Marketo Measure] 확장은 Adobe 
 
 1. Bizible AccountId 필드에 웹 사이트의 URL을 입력합니다(예: `adobe.com`).
 
-   ![1. Bizible AccountId 필드에 ](assets/marketo-launch-6.png)의 URL을 입력합니다.
+   ![1. Bizible AccountId 필드에 &#x200B;](assets/marketo-launch-6.png)의 URL을 입력합니다.
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 

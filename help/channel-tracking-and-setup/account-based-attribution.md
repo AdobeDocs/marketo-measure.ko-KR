@@ -20,7 +20,7 @@ ABM(Account-Based Marketing)의 등장으로 [!DNL Marketo Measure]이(가) ABM 
 
 예를 들어 아래 계정에는 두 개의 Opportunity 가 있습니다. 첫 번째 Opportunity 의 경우 터치포인트가 하나만 있습니다. 해당 접점은 FT, LC 및 OC(Opportunity Creation) 접점을 포함합니다. 두 번째 Opportunity 는 첫 번째 Opportunity 와 FT &amp; LC 는 동일하지만 OC Touchpoint 는 다릅니다. 또한 두 번째 Opportunity 에는 첫 번째 Opportunity 의 Close Date 이후에 발생하는 터치포인트가 있으므로 첫 번째 Opportunity 와 연결되지 않은 추가 터치포인트가 있습니다.
 
-![예를 들어 아래 계정에는 두 개의 기회가 있습니다. 첫 번째 영업 기회에 대해 ](assets/account-marketing-4.jpg)
+![예를 들어 아래 계정에는 두 개의 기회가 있습니다. 첫 번째 영업 기회에 대해 &#x200B;](assets/account-marketing-4.jpg)
 
 ## 이 방법이 어떤 도움이 됩니까? {#how-does-this-help}
 

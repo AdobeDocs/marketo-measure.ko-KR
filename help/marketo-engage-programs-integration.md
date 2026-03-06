@@ -32,9 +32,9 @@ ht-degree: 1%
 
 1. Marketo 프로그램에 대한 규칙 설정을 시작하려면 **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Programs]**(으)로 이동합니다. **+** 아이콘을 클릭하여 첫 번째 규칙 만들기를 시작합니다.
 
-   ![1. Marketo 프로그램에 대한 규칙 설정을 시작하려면 ](assets/marketo-engage-programs-01.png)(으)로 이동합니다.
+   ![1. Marketo 프로그램에 대한 규칙 설정을 시작하려면 &#x200B;](assets/marketo-engage-programs-01.png)(으)로 이동합니다.
 
-   ![1. Marketo 프로그램에 대한 규칙 설정을 시작하려면 ](assets/marketo-engage-programs-06.png)(으)로 이동합니다.
+   ![1. Marketo 프로그램에 대한 규칙 설정을 시작하려면 &#x200B;](assets/marketo-engage-programs-06.png)(으)로 이동합니다.
 
 1. 규칙 추적에 도움이 되는 경우 선택적으로 규칙 이름을 설정할 수 있습니다. 먼저 프로그램 및 프로그램 멤버십 필드 목록에서 규칙을 정의할 필드를 선택합니다. 확인할 연산자 및 예상 값을 선택하여 규칙 작성을 계속합니다.
 
@@ -42,11 +42,11 @@ ht-degree: 1%
 
 1. 동일한 상자 내에 다른 문을 추가하여 규칙의 &quot;and&quot; 기준을 설정하거나 상자 외부의 + 아이콘을 클릭하여 &quot;or&quot; 문을 설정합니다.
 
-   ![1. ](assets/bizible-discover-1.png)을(를) 설정하려면 같은 상자 내에 다른 문을 추가하십시오.
+   ![1. &#x200B;](assets/bizible-discover-1.png)을(를) 설정하려면 같은 상자 내에 다른 문을 추가하십시오.
 
 1. 터치포인트 날짜에 매핑하는 데 사용할 날짜 또는 날짜/시간 필드를 선택합니다. Marketo에서 사용할 수 있는 값 목록을 보려면 중괄호 `{`을(를) 입력하면 사용 가능한 필드가 표시됩니다.
 
-   ![1. ](assets/marketo-engage-programs-02.png)을(를) 매핑하는 데 사용할 날짜 또는 날짜/시간 필드 선택
+   ![1. &#x200B;](assets/marketo-engage-programs-02.png)을(를) 매핑하는 데 사용할 날짜 또는 날짜/시간 필드 선택
 
    >[!NOTE]
    >
@@ -62,17 +62,17 @@ ht-degree: 1%
 
 1. 테스트를 실행하려면 아래와 같이 **[!UICONTROL TEST]** 단추를 클릭하십시오.
 
-   ![1. 테스트를 실행하려면 ](assets/marketo-engage-programs-03.png)과(와) 같이 TEST 단추를 클릭하십시오.
+   ![1. 테스트를 실행하려면 &#x200B;](assets/marketo-engage-programs-03.png)과(와) 같이 TEST 단추를 클릭하십시오.
 
 1. Marketo에서 프로그램 ID를 입력할 수 있는 모달이 나타납니다.
 
-   ![1. 프로그램에 입력할 수 있는 모달 ](assets/marketo-engage-programs-04.png)이(가) 나타납니다.
+   ![1. 프로그램에 입력할 수 있는 모달 &#x200B;](assets/marketo-engage-programs-04.png)이(가) 나타납니다.
 
    ID를 입력하고 [!UICONTROL Test] 단추를 클릭하면 규칙 엔진에서 각 규칙을 살펴보고 프로그램이 규칙에 맞는지 여부를 결정합니다. 아래 예제에서 [!DNL Marketo Measure] Ebook이라고 하는 프로그램 1002에 5명의 프로그램 구성원이 있으며 표시된 규칙으로 인해 자격이 있음을 알 수 있습니다.
 
    규칙은 5000명의 멤버 샘플 크기로 실행됩니다. 프로그램에 5000명 이상의 멤버가 포함되어 있는 경우 모든 멤버의 호환성을 확인하지 않을 수 있습니다. 이 도구는 규칙이 올바르게 구성되었는지 확인하는 데 사용됩니다.
 
-   ![규칙은 5000명의 멤버 중 샘플 크기로 실행됩니다. ](assets/marketo-engage-programs-05.png)인 경우
+   ![규칙은 5000명의 멤버 중 샘플 크기로 실행됩니다. &#x200B;](assets/marketo-engage-programs-05.png)인 경우
 
    멤버 수를 클릭하여 프로그램 내에서 적격한 Marketo 사용자 ID 목록을 볼 수 있습니다.
 
@@ -88,7 +88,7 @@ Marketo 프로그램 채널 목록에서 설정 내에서 만든 [!DNL Marketo M
 
 1. 먼저 값에 매핑할 채널을 선택한 다음 선택적으로 하위 채널을 선택합니다. 완료되면 하단의 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![1. 먼저 값에 매핑할 채널을 선택한 다음 ](assets/marketo-engage-programs-08.png)을(를) 선택합니다.
+   ![1. 먼저 값에 매핑할 채널을 선택한 다음 &#x200B;](assets/marketo-engage-programs-08.png)을(를) 선택합니다.
 
 ## 프로그램 비용 {#program-costs}
 

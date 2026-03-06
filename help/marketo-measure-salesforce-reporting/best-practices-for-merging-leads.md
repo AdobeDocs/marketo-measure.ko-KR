@@ -24,4 +24,4 @@ ht-degree: 3%
 
 질문이 있는 경우 주저하지 말고 Adobe 계정 팀(계정 관리자) 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하십시오.
 
-![질문이 있는 경우 주저하지 말고 ](assets/additional-functionality-8.jpg)에 문의하세요
+![질문이 있는 경우 주저하지 말고 &#x200B;](assets/additional-functionality-8.jpg)에 문의하세요

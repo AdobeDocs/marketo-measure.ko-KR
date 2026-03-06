@@ -17,7 +17,7 @@ ht-degree: 0%
 
 각 Marketo Measure 필드와 관련된 개체의 맵을 보려면 [여기를 클릭](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md)하십시오.
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [ u](#u) · [V](#v) · 너비 · X · Y · Z
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [&#x200B; u](#u) · [V](#v) · 너비 · X · Y · Z
 
 ## A {#a}
 
@@ -305,7 +305,7 @@ e.g. `http://info.marketomeasure.com/intro-guide-b2b-marketing-attribution?_bt=1
 
 이 필드에는 마케팅 채널과 터치포인트가 속한 하위 채널이 표시됩니다. 아래 예에서 마케팅 채널 - 경로는 Social.Linkedin입니다. 여기서 마케팅 채널은 Social이고 하위 채널은 LinkedIn입니다.
 
-![이 필드에는 마케팅 채널과 ](assets/overview-resources-16.png)의 하위 채널이 표시됩니다.
+![이 필드에는 마케팅 채널과 &#x200B;](assets/overview-resources-16.png)의 하위 채널이 표시됩니다.
 
 **Medium** | Buyer Touchpoint, Buyer Attribution Touchpoint
 

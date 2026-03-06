@@ -47,7 +47,7 @@ ht-degree: 2%
 
 [!DNL Marketo Measure Ultimate]은(는) 사용자가 변경할 때까지 기본 통화를 USD로 설정합니다. 새 기본 통화를 설정하면 재처리 없이 데이터가 업데이트됩니다. 선택한 통화가 대상 ISO 코드로 존재하는 한 전환율을 제출할 필요가 없습니다.
 
-![Marketo Measure Ultimate은 ](assets/marketo-overview-7.png)까지 기본 통화를 USD로 설정합니다.
+![Marketo Measure Ultimate은 &#x200B;](assets/marketo-overview-7.png)까지 기본 통화를 USD로 설정합니다.
 
 **[!DNL Marketo Measure Ultimate]샌드박스**
 
@@ -92,7 +92,7 @@ AEP에서 [!DNL Marketo Measure] 대상 데이터 흐름을 만들기 전에 [!D
 
 funnel과 부메랑 및 사용자 지정 모델을 선택하지 않았습니다. funnel, 부메랑 및 사용자 지정 모델에 대해 모든 단계가 선택됩니다. 지원하는 단계 수는 사용자 지정 단계 15개와 기본 제공 단계 6개로 제한됩니다.
 
-![funnel과 부메랑 및 사용자 지정 모델을 선택할 수 없습니다. 모든 단계는 ](assets/marketo-overview-4.png)입니다.
+![funnel과 부메랑 및 사용자 지정 모델을 선택할 수 없습니다. 모든 단계는 &#x200B;](assets/marketo-overview-4.png)입니다.
 
 캠페인 멤버 접점 규칙 및 활동 접점 규칙은 데이터 세트에 따라 다릅니다.
 
