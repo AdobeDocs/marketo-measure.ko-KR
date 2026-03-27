@@ -54,7 +54,7 @@ ht-degree: 0%
 
 포크와 유사한 아이콘을 사용하여 현재 보기에 추가적인 계층 수준을 추가할 수 있습니다.
 
-![포크와 같은 아이콘을 사용하여 ](assets/discover-basics-12.gif)에 계층 수준을 추가하십시오.
+![포크와 같은 아이콘을 사용하여 &#x200B;](assets/discover-basics-12.gif)에 계층 수준을 추가하십시오.
 
 ### 드릴스루 {#drill-through}
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 특정 시각적 또는 타일을 확대하려면 오른쪽 상단 모서리로 마우스를 가져간 후 &quot;포커스&quot; 버튼을 선택합니다.
 
-![특정 시각적 또는 타일을 확대하려면 ](assets/discover-basics-5.gif) 위로 마우스를 가져갑니다.
+![특정 시각적 또는 타일을 확대하려면 &#x200B;](assets/discover-basics-5.gif) 위로 마우스를 가져갑니다.
 
 ### 교차 필터링 {#cross-filtering}
 
