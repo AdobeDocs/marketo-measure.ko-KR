@@ -3,7 +3,7 @@ description: Marketo Measure 사용자를 위한 이메일 추적 매개 변수 
 title: 이메일 추적 매개 변수
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Marketo Measure은 이메일 주소, Salesforce 잠재 고객 ID 또는 Salesfor
 
 | 마케팅 자동화 | 토큰/태그/매크로 | 예 | 지원 자료 |
 | --- | --- | --- | --- |
-| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [토큰 개요](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=ko) |
+| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [토큰 개요](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
 | 파르도 | %%email%% 또는 %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Pardot 변수 태그 참조](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
 | Hubspot | (편집기를 통해 삽입됨) | 해당 사항 없음 | [HubSpot 콘텐츠 개인화](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
 | 실제 | (메시지 작성기를 통해 삽입됨) | 해당 사항 없음 | [실제 전자 메일 콘텐츠 개인화](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
