@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: '[!DNL Marketo Measure] 안내서'
 user-guide-description: '[!DNL Marketo Measure]는 마케터가 기업의 매출을 증대시키기 위해 가장 효과적인 마케팅 활동을 파악하는 데 도움이 됩니다.'
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+source-git-commit: 5eb42c797a34163504fe24fef19949d2c647793b
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '779'
 ht-degree: 5%
 
 ---
@@ -60,12 +60,12 @@ ht-degree: 5%
       + [CRM 내보내기에 대한 오류 처리](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [&#x200B; [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] 개체 및 필드 분류법](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
-      + [Standard[!DNL Marketo Measure]개체의  [!DNL Salesforce] 개 필드](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
+      + [Standard [!DNL Salesforce] 개체의 [!DNL Marketo Measure]개 필드](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
       + [페이지 레이아웃 지침](configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
       + [불필요한 보고서 유형 숨기기](configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
       + [&#x200B; [!DNL Marketo Measure] 프로필 만들기](configuration-and-setup/marketo-measure-and-salesforce/creating-a-marketo-measure-profile.md)
       + [[!DNL Marketo Measure]개의 권한 집합](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
-      + [&#x200B; [!DNL Salesforce] 연결된 사용자에 대해  [!DNL Marketo Measure] 권한 권장](configuration-and-setup/marketo-measure-and-salesforce/recommended-salesforce-permissions-for-marketo-measure-connected-user.md)
+      + [&#x200B; [!DNL Marketo Measure] 연결된 사용자에 대해  [!DNL Salesforce] 권한 권장](configuration-and-setup/marketo-measure-and-salesforce/recommended-salesforce-permissions-for-marketo-measure-connected-user.md)
    + 샌드박스 테스트 {#sandbox-testing}
       + [Salesforce 샌드박스와  [!DNL Marketo Measure] 통합 테스트](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
       + [Salesforce 샌드박스에서 프로덕션으로 마이그레이션](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
@@ -176,7 +176,7 @@ ht-degree: 5%
    + [!DNL Marketo Measure] 및 Dynamics 시작 {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] 동적 스키마](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
       + [Microsoft Dynamics CRM 설치 안내서](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md)
-      + [[!DNL Marketo Measure]에 대한  [!DNL Dynamics] 수익 워크플로](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-revenue-workflows-for-dynamics.md)
+      + [&#x200B; [!DNL Dynamics]에 대한 [!DNL Marketo Measure] 수익 워크플로](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-revenue-workflows-for-dynamics.md)
       + [&#x200B; [!DNL Dynamics] CRM용 Azure Active Directory가 있는 OAuth](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md)
       + [[!DNL Marketo Measure] 및 Dynamics 분류법](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-and-dynamics-taxonomy.md)
    + Dynamics 보고 {#dynamics-reporting}
@@ -229,11 +229,11 @@ ht-degree: 5%
       + [호출 추적 통합](miscellaneous/other-related-resources/call-tracking-integration.md)
       + [Google Analytics 전환과 Buyer Touchpoint의 차이점](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
       + [이메일 추적 매개 변수](miscellaneous/other-related-resources/email-tracking-parameter.md)
-      + [&#x200B; [!DNL Salesforce] 지원에 대한  [!DNL Marketo Measure] 액세스 권한 부여](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
+      + [&#x200B; [!DNL Marketo Measure] 지원에 대한  [!DNL Salesforce] 액세스 권한 부여](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
       + [개인 정보 보호 요청](miscellaneous/other-related-resources/privacy-requests.md)
       + [Google Analytics의 랜딩 페이지 URL에서  [!DNL Marketo Measure] 추적 매개 변수 제거](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [전체 서클에서  [!DNL Marketo Measure] 로 전환](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
-   + [테스트](miscellaneous/test.md)
+   + {hide-from-toc}[테스트](miscellaneous/test.md)
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스 정보](release-notes/current.md)
    + 이전 릴리스 {#previous-releases}
