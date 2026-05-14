@@ -4,10 +4,13 @@ description: 부메랑 단계 설정 - [!DNL Marketo Measure]
 title: 부메랑 단계 설정
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/2H-AGYIsCbmW2sakkMBRPTcz6LWn48HJEcfCwanx8kw
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: 308
+ht-degree: 5%
 
 ---
 
@@ -21,7 +24,7 @@ ht-degree: 0%
 
 ## 부메랑 스테이지 설정 {#boomerang-stage-setup}
 
-1. [!UICONTROL Stage Mapping]&#x200B;(으)로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
+1. [!UICONTROL Stage Mapping] 으로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
 
    ![](assets/1-2.png)
 
@@ -37,7 +40,7 @@ ht-degree: 0%
 
 ## 사용자 지정 모델 속성을 사용한 부메랑 단계 설정 {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. [!UICONTROL Stage Mapping]&#x200B;(으)로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
+1. [!UICONTROL Stage Mapping] 으로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
 
    ![](assets/3-1.png)
 

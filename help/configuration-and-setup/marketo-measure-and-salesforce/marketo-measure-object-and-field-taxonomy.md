@@ -4,9 +4,14 @@ description: '[!DNL Marketo Measure] 개체 및 필드 분류법 - [!DNL Marketo
 title: '[!DNL Marketo Measure] 개체 및 필드 분류법'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/8YG-eHRcmSYy3yICJMViCjkGyPsgLxzoLIMHVMl7s74
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: 163
 ht-degree: 0%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 0%
 
 전체 크기의 이미지를 보려면 [여기를 클릭하세요](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-각 개체 [!DNL Marketo Measure]에 있는 [&#x200B; 필드의 정의는 여기에서 찾을 수 있습니다](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+각 개체 [에 있는 [!DNL Marketo Measure] 필드의 정의는 여기에서 찾을 수 있습니다](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
 ## FAQ {#faq}
 
@@ -29,7 +34,7 @@ ht-degree: 0%
 
 **[!DNL Marketo Measure]명이 누구입니까?**
 
-구매자 터치포인트를 리드 및 연락처에 연결하는 [!DNL Marketo Measure]의 사용자 지정 [!DNL Salesforce] 개체입니다.
+구매자 터치포인트를 리드 및 연락처에 연결하는 [!DNL Salesforce]의 사용자 지정 [!DNL Marketo Measure] 개체입니다.
 
 **[!DNL Bizible].JS란 무엇입니까?**
 
@@ -37,4 +42,4 @@ ht-degree: 0%
 
 **마케팅 ROI 대시보드란 무엇입니까?**
 
-[!DNL Marketo Measure] 앱에 있는 사용자 지정 마케팅 채널 대시보드입니다. [!DNL Marketo Measure]의 [!DNL Salesforce] 탭으로 이동하여 액세스할 수 있습니다.
+[!DNL Marketo Measure] 앱에 있는 사용자 지정 마케팅 채널 대시보드입니다. [!DNL Salesforce]의 [!DNL Marketo Measure] 탭으로 이동하여 액세스할 수 있습니다.

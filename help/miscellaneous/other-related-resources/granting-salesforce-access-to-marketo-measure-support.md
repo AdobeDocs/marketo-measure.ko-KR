@@ -1,12 +1,19 @@
 ---
 unique-page-id: 18874791
-description: ' [!DNL Salesforce] 지원 - [!DNL Marketo Measure] 에 대한  [!DNL Marketo Measure]액세스 권한 부여'
+description: ' [!DNL Marketo Measure] 지원 - [!DNL Marketo Measure]에 대한  [!DNL Salesforce] 액세스 권한 부여'
 title: Marketo Measure 지원에 대한  [!DNL Salesforce] 액세스 권한 부여
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/tdDicEb3UhCWF4-EUIbkc-zLK4z7ho8iccmiSgaVfzk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: 159
 ht-degree: 2%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 2%
 
 조직에 따라 [!UICONTROL Setup] 단추가 페이지의 오른쪽 상단 모서리에 있는 사용자 이름 옆에 있거나, 사용자 이름을 클릭하면 드롭다운 옵션으로 나열됩니다.
 
-1. **사용자 인터페이스의**&#x200B;로그인 액세스 권한 부여[!DNL Salesforce Classic] 페이지에 액세스하려면 다음 중 하나를 수행하십시오.
+1. [!DNL Salesforce Classic] 사용자 인터페이스의 **로그인 액세스 권한 부여** 페이지에 액세스하려면 다음 중 하나를 수행하십시오.
 
    * **[!UICONTROL Setup]** > **[!UICONTROL My Personal Information]** > **[!UICONTROL Grant Login Access]**&#x200B;을(를) 클릭합니다.
 

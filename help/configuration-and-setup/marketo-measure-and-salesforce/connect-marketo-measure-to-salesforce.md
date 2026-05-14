@@ -4,9 +4,14 @@ description: Marketo Measure을 Salesforce에 연결 - [!DNL Marketo Measure]
 title: Marketo Measure을 Salesforce에 연결
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/f09jcpWCdMmfgziD5jFyA60axP1HJ87xGKQtlHc4DdQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: 419
 ht-degree: 0%
 
 ---
@@ -15,13 +20,13 @@ ht-degree: 0%
 
 이 문서에서는 [!DNL Salesforce] 계정을 [!DNL Marketo Measure] 계정에 연결하는 방법에 대한 개요를 제공합니다.
 
-## [!DNL Marketo Measure]과(와) [!DNL Salesforce] 연결 중 {#connecting-marketo-measure-with-salesforce}
+## [!DNL Salesforce]과(와) [!DNL Marketo Measure] 연결 중 {#connecting-marketo-measure-with-salesforce}
 
 1. 시크릿 브라우저를 사용하여 [!DNL Marketo Measure]에 로그인합니다.
 
 1. 화면 상단의 메뉴 모음에서 **[!UICONTROL My Account]**(으)로 이동하여 **[!UICONTROL Settings]** 옵션을 클릭합니다.
 
-1. 왼쪽의 설정 옵션 열에서 **[!UICONTROL Connections]** 섹션 아래에 있는 [!UICONTROL Integrations]을(를) 클릭합니다.
+1. 왼쪽의 설정 옵션 열에서 [!UICONTROL Integrations] 섹션 아래에 있는 **[!UICONTROL Connections]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/connect-marketo-measure-to-salesforce-1.png)
 
@@ -29,7 +34,7 @@ ht-degree: 0%
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. CRM 연결을 선택하라는 팝업 창이 나타납니다. **[!UICONTROL Connect]** 로고 옆의 [!DNL Salesforce]을(를) 클릭합니다.
+1. CRM 연결을 선택하라는 팝업 창이 나타납니다. [!DNL Salesforce] 로고 옆의 **[!UICONTROL Connect]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 

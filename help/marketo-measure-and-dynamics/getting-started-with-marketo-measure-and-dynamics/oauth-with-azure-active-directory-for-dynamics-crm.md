@@ -4,9 +4,15 @@ description: Dynamics CRM용  [!DNL Azure Active Directory] 이(가) 있는 OAut
 title: Dynamics CRM용  [!DNL Azure Active Directory] 이(가) 있는 OAuth
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/fwFE85VMaQdXhF-w28PofUHxOLR39lb60zLMzEo2GnM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 769
 ht-degree: 0%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 0%
 
 ## 영향을 받는 사용자 {#who-s-affected}
 
-이 설정은 AAD([!DNL Marketo Measure]) 계정으로 Dynamics CRM을 사용하는 새 [!DNL Azure Active Directory] 고객 또는 기존 사용자 이름과 암호에서 OAuth를 사용하여 [!DNL Azure Active Directory]&#x200B;(으)로 마이그레이션하려는 고객을 위한 것입니다.
+이 설정은 AAD([!DNL Azure Active Directory]) 계정으로 Dynamics CRM을 사용하는 새 [!DNL Marketo Measure] 고객 또는 기존 사용자 이름과 암호에서 OAuth를 사용하여 [!DNL Azure Active Directory]&#x200B;(으)로 마이그레이션하려는 고객을 위한 것입니다.
 
 >[!NOTE]
 >
@@ -23,9 +29,9 @@ ht-degree: 0%
 
 ## 새 애플리케이션 설정 {#set-up-new-application}
 
-1. [Azure 포털](https://portal.azure.com/#home)에 로그인하세요.
+1. [Azure 포털](https://portal.azure.com/#home)에 로그인합니다.
 
-1. 페이지 오른쪽 상단에서 계정을 클릭한 다음 디렉터리 전환 탐색을 클릭하고 적절한 테넌트를 선택하여 Azure AD 테넌트를 선택합니다. 계정에 Azure AD 테넌트가 하나만 있거나 이미 적절한 Azure AD 테넌트를 선택한 경우 이 단계를 건너뜁니다.
+1. 페이지 오른쪽 상단에 있는 계정을 클릭한 다음, 디렉터리 전환 탐색을 클릭하고 적절한 테넌트를 선택하여 Azure AD 테넌트를 선택합니다. 계정에 Azure AD 테넌트가 하나만 있거나 이미 적절한 Azure AD 테넌트를 선택한 경우 이 단계를 건너뜁니다.
 
    ![](assets/setup-2.png)
 
@@ -42,11 +48,11 @@ ht-degree: 0%
    ![](assets/setup-5.png)
 
 1. 프롬프트에 따라 응용 프로그램을 만듭니다. 웹 응용 프로그램이든 공용 클라이언트(모바일 및 데스크톱) 응용 프로그램이든 상관없지만 웹 응용 프로그램이나 공용 클라이언트 응용 프로그램에 대한 특정 예제를 보려면 [빠른 시작](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview)을 확인하십시오.\
-   a. 이름은 애플리케이션 이름이며 최종 사용자에게 애플리케이션에 대해 설명합니다.\
-   b. 지원되는 계정 유형에서 조직 디렉터리와 개인 Microsoft 계정의 계정을 선택합니다.\
-   c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용자가 로그인할 수 있는 앱의 기본 URL입니다. 예, `http://localhost:12345`. 공용 클라이언트(모바일 및 데스크톱)의 경우 Azure AD는 토큰 응답을 반환하는 데 이 토큰을 사용합니다. 응용 프로그램에 해당하는 값을 입력합니다. 예: `http://MyFirstAADApp`.
+   a. 이름 은 애플리케이션 이름이며 최종 사용자에게 애플리케이션에 대해 설명합니다.\
+   b. 지원되는 계정 유형에서 조직 디렉터리 및 개인 Microsoft 계정의 계정을 선택합니다.\
+   c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용자가 로그인할 수 있는 앱의 기본 URL입니다. 예: `http://localhost:12345`. 공개 클라이언트(모바일 및 데스크탑)의 경우 Azure AD는 토큰 응답을 반환하는 데 이 토큰을 사용합니다. 응용 프로그램에 해당하는 값을 입력합니다. 예: `http://MyFirstAADApp`.
 
-1. 등록을 완료하면 Azure AD는 응용 프로그램에 고유한 클라이언트 식별자(응용 프로그램 ID)를 할당합니다. 다음 섹션에서 이 값이 필요하므로 애플리케이션 페이지에서 이 값을 복사합니다.
+1. 등록을 완료하면 Azure AD는 애플리케이션에 고유한 클라이언트 식별자(애플리케이션 ID)를 할당합니다. 다음 섹션에서 이 값이 필요하므로 애플리케이션 페이지에서 이 값을 복사합니다.
 
 1. Azure 포털에서 응용 프로그램을 찾으려면 **[!UICONTROL App Registrations]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL All Applications]**&#x200B;을(를) 클릭합니다. 새로 만든 응용 프로그램을 엽니다.
 
@@ -72,7 +78,7 @@ ht-degree: 0%
 
    ![](assets/setup-13a.png)
 
-1. **[!UICONTROL Accept]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/setup-13b.png)
 
@@ -98,7 +104,7 @@ ht-degree: 0%
    >
    >* 사용자 이름 정보는 [!DNL Azure Active Directory]에 있는 사용자와 일치하지 않아야 합니다.
    >
-   >* 응용 프로그램 ID 필드에 Azure AD에서 이전에 등록한 앱의 응용 프로그램 ID를 입력합니다.
+   >* 애플리케이션 ID 필드에 Azure AD에서 이전에 등록한 앱의 애플리케이션 ID를 입력합니다.
 
 1. 설정이 올바르면 **[!UICONTROL Save]**&#x200B;을(를) 선택하면 **[!UICONTROL Application ID URI]** 및 **[!UICONTROL Azure AD Object Id]** 필드가 올바른 값으로 자동 채워집니다.
 
@@ -110,7 +116,7 @@ ht-degree: 0%
 
 1. OAuth 자격 증명을 입력하라는 메시지가 표시되면 위의 섹션에 설정된 클라이언트 ID, 클라이언트 암호 및 애플리케이션 ID URI를 입력합니다.
 
-a. Client Id는 위 섹션의 #7단계에 있는 ID입니다. 기록하지 않은 경우 앱 등록 설정에 애플리케이션 ID가 표시됩니다.
+a. 클라이언트 ID는 위 섹션의 #7단계에서 가져온 ID입니다. 기록하지 않은 경우 앱 등록 설정에 애플리케이션 ID가 표시됩니다.
 
 b. 클라이언트 암호는 Azure 포털에서 인증서 및 암호로 응용 프로그램에 대해 만든 응용 프로그램 암호입니다.
 

@@ -3,9 +3,14 @@ description: 오프라인 채널에 대한 모범 사례 - [!DNL Marketo Measure
 title: 오프라인 채널에 대한 우수 사례
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/p-xffnDY4cbrbz4dH1Z4MgWCOwuoP-IjDHU4YdTww8o
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: 1053
 ht-degree: 0%
 
 ---
@@ -43,11 +48,11 @@ ht-degree: 0%
 * 오프라인 캠페인만 [!DNL Marketo Measure]과(와) 동기화하여 터치포인트를 만들 수 있으므로 오프라인 CRM 캠페인 &#39;유형&#39;만 오프라인 채널에 매핑해야 합니다.
    * 온라인 CRM 캠페인 &#39;유형&#39;은 [!UICONTROL Marketing Channel] = &quot;NULL&quot;에 매핑되어야 합니다. 이 값은 오프라인 채널이 검토되었음을 나타내는 &#39;빨간색 플래그&#39; 역할을 하며 &quot;NULL&quot;에 매핑된 CRM Campaign &#39;Type&#39;이(가) 온라인 &#39;Type&#39;이므로 [!DNL Marketo Measure]과(와) 동기화해서는 안 됩니다. 온라인 CRM 캠페인 &#39;유형&#39;과 관련된 접점은 [!DNL Marketo Measure] 온라인 기능 및 채널을 통해 이미 추적됩니다. 이러한 캠페인을 동기화하면 &quot;중복&quot; 터치포인트/더블 카운트가 발생할 수 있습니다.
 
-## 우수 사례 | 오프라인 캠페인 동기화 {#best-practice-offline-campaign-sync}
+## 우수 사례 | 오프라인 Campaign 동기화 {#best-practice-offline-campaign-sync}
 
 * &#39;유형&#39; 필드가 각 CRM 캠페인에 대해 정확한지 확인합니다.
    * &#39;유형&#39;은 동기화된 후 캠페인에서 가져온 모든 터치포인트에 대한 마케팅 채널 및 하위 채널을 결정합니다
-* CRM 기반 캠페인 동기화 메서드(구매자 터치포인트 활성화) 또는 [!DNL Marketo Measure] 앱 기반 동기화 메서드([!UICONTROL Campaigns] 계정 설정의 &#39;[!UICONTROL Marketo Measure]&#39; 탭 내 사용자 지정 캠페인 동기화)를 사용하든 관계없이, 오프라인 터치포인트는 캠페인 구성원이 캠페인 및 브랜드와 실제 오프라인 참여를 한 경우에만 만들어야 합니다.
+* CRM 기반 캠페인 동기화 메서드(구매자 터치포인트 활성화) 또는 [!DNL Marketo Measure] 앱 기반 동기화 메서드([!UICONTROL Marketo Measure] 계정 설정의 &#39;[!UICONTROL Campaigns]&#39; 탭 내 사용자 지정 캠페인 동기화)를 사용하든 관계없이, 오프라인 터치포인트는 캠페인 구성원이 캠페인 및 브랜드와 실제 오프라인 참여를 한 경우에만 만들어야 합니다.
    * 이벤트 또는 웨비나와 같은 오프라인 채널의 경우: &quot;등록&quot;은 일반적으로 웹 사이트의 양식 제출 및 [!DNL Marketo Measure] 온라인 기능을 통해 추적됩니다. 따라서 &quot;등록됨&quot; 상태의 캠페인 멤버는 이중 계산을 방지하기 위해 Campaign에서 오프라인 터치포인트를 받지 않아야 합니다. 오프라인 터치포인트는 이벤트 또는 웨비나에 대한 &quot;출석&quot;만 나타냅니다.
    * 콘텐츠 신디케이션 같은 일부 오프라인 채널은 모든 캠페인 멤버가 실제로 캠페인에 반응했음을 나타내는 동일한 &#39;응답됨&#39; 상태를 가진다는 점에서 더 간단합니다. 이 경우 타사 사이트의 콘텐츠를 다운로드하므로 오프라인 터치포인트를 받아야 합니다
 * [!DNL Marketo Measure] 앱에서 사용자 지정 캠페인 동기화 방법을 사용하는 경우 &#39;접점 날짜&#39; 필드가 실제로 접점 상호 작용이 발생한 시기를 가장 잘 나타내는 캠페인 또는 캠페인 멤버의 날짜 필드를 기반으로 하는지 확인하십시오

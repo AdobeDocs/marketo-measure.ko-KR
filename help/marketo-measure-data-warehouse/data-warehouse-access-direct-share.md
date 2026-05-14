@@ -3,9 +3,12 @@ description: Data Warehouse 액세스 - 직접 공유 - 제품 설명서
 title: Data Warehouse 액세스 - 직접 공유
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/TT2LYCV4Zv1jdx-ZgzlnThNGVdUAJDwLlely6WgNfXY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: 308
 ht-degree: 0%
 
 ---
@@ -17,12 +20,12 @@ ht-degree: 0%
 [!DNL Marketo Measure]이(가) 데이터 웨어하우스에 대한 직접 공유를 설정하려면 다음 요구 사항을 충족해야 합니다.
 
 * 고유한 Snowflake 인스턴스가 있습니다.
-* Snowflake 인스턴스는 Azure East US 2 Snowflake 지역에 있습니다.
+* Snowflake 인스턴스는 Azure 동부 미국 2 Snowflake 지역에 있습니다.
 * [!DNL Marketo Measure]에게 Snowflake 계정 ID를 제공합니다.
 
 ## 제한 사항 {#limitations}
 
-[!DNL Marketo Measure]은(는) Azure East US 2에 있는 계정으로 Snowflake Direct 공유를 설정할 수 있습니다(Marketo Measure의 제한 사항이며 Snowflake의 제한 사항은 아님). 다른 Snowflake 지역에서 데이터를 사용할 수 있도록 해야 하는 경우 미국 동부 2에 있는 Snowflake 계정에서 데이터 복사본을 만들고 [Snowflake 데이터베이스 복제](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} 기능을 사용하여 선택한 Snowflake 지역/계정에서 데이터를 복사하는 것이 좋습니다.
+[!DNL Marketo Measure]은(는) 미국 동부 Azure 2에 있는 계정과의 Snowflake 직접 공유만 설정할 수 있습니다(이는 Snowflake이 아닌 Marketo Measure의 제한 사항입니다). 다른 Snowflake 지역에서 데이터를 사용할 수 있도록 해야 하는 경우 미국 동부 Azure 2에 있는 Snowflake 계정에서 데이터 복사본을 만들고 [Snowflake 데이터베이스 복제](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} 기능을 사용하여 선택한 Snowflake 지역/계정에서 데이터를 복사하는 것이 좋습니다.
 
 ## Snowflake 계정 ID 입력 {#enter-snowflake-account-id}
 

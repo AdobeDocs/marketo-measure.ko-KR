@@ -1,18 +1,26 @@
 ---
 description: Adobe Analytics과 [!DNL Marketo Measure] 통합 - [!DNL Marketo Measure]
-title: '[!DNL Marketo Measure]과(와)  [!DNL Adobe Analytics] 통합'
+title: ' [!DNL Adobe Analytics]과(와) [!DNL Marketo Measure] 통합'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: 960
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics과 [!DNL Marketo Measure] 통합 {#marketo-measure-integrations-with-adobe-analytics}
 
-B2B 고객 특성 통합을 통해 [!DNL Marketo Measure] 및 Adobe Analytics의 상호 사용자가 [!DNL Adobe Analytics] 속성 엔진에서 파생된 중요한 메타데이터와 CRM([!DNL Marketo Measure] 및 [!DNL Microsoft Dynamics])과의 동기화 기능을 통해 [!DNL Salesforce] 사용자 프로필을 보강할 수 있습니다. [!DNL Adobe Analytics] 및 [!DNL Marketo Measure]을(를) 사용하는 모든 고객에게 무료로 제공됩니다.
+B2B 고객 특성 통합을 통해 [!DNL Marketo Measure] 및 Adobe Analytics의 상호 사용자가 [!DNL Marketo Measure] 속성 엔진에서 파생된 중요한 메타데이터와 CRM([!DNL Microsoft Dynamics] 및 [!DNL Salesforce])과의 동기화 기능을 통해 [!DNL Adobe Analytics] 사용자 프로필을 보강할 수 있습니다. [!DNL Adobe Analytics] 및 [!DNL Marketo Measure]을(를) 사용하는 모든 고객에게 무료로 제공됩니다.
 
 >[!PREREQUISITES]
 >
@@ -28,7 +36,7 @@ B2B 고객 특성 통합을 통해 [!DNL Marketo Measure] 및 Adobe Analytics의
 
    * FTP 서버 호스트 이름 및 자격 증명(사용자 이름 및 암호)
 
-1. 고객 특성 데이터 Source이 만들어지면 **[!UICONTROL Integrations]** 관리 메뉴의 **[!UICONTROL Connections]** > [!DNL Marketo Measure] 화면으로 이동하여 구성 프로세스를 계속합니다.
+1. 고객 특성 데이터 Source이 만들어지면 [!DNL Marketo Measure] 관리 메뉴의 **[!UICONTROL Integrations]** > **[!UICONTROL Connections]** 화면으로 이동하여 구성 프로세스를 계속합니다.
 
 1. **[!UICONTROL Set Up New Customer Attributes Connection]** 단추를 클릭하고 지침에 따라 고객 특성 통합을 구성하십시오. 핵심 서비스 콘솔에서 고객 속성 Source을 만들 때 얻은 별칭 ID 및 FTP 연결 정보를 묻는 UI의 메시지가 표시됩니다. [!DNL Adobe Analytics] 계정과 동기화할 계정 특성 집합을 선택하십시오.
 
@@ -64,7 +72,7 @@ B2B 고객 특성 연결을 만들면 [!DNL Marketo Measure]에서 자동으로 
   <tr> 
    <td>속성 수익 - ‹모델›</td> 
    <td>[!DNL Marketo Measure] 속성 엔진에서 계산한 CRM의 비공개 기회와의 연결을 통해 이 고객에게 발생한 매출입니다.<br/>
-   [!DNL Marketo Measure] 구독이 허용하는 각 속성 모델에 대해 이러한 특성 중 하나가 있습니다(예: "속성 수익 - 전체 경로").</td>
+   [!DNL Marketo Measure] 구독이 허용하는 각 속성 모델에 대해 이러한 특성 중 하나가 있습니다(예: "특성 수익 - 전체 경로").</td>
   </tr>
   <tr> 
    <td>가장 깊은 Funnel 단계</td> 

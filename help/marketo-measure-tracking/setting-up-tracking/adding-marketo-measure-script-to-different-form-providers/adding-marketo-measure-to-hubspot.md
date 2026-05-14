@@ -4,18 +4,21 @@ description: ' [!DNL Marketo Measure] to [!DNL Hubspot] - [!DNL Marketo Measure]
 title: ' [!DNL Marketo Measure] to [!DNL Hubspot] 추가 중'
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/3To9-9GZMHJf6vVOUPTedkJBpqU1TZNxKeVBHIm0PKY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: 173
 ht-degree: 1%
 
 ---
 
-# [!DNL Marketo Measure]에 [!DNL Hubspot] 추가 중 {#adding-marketo-measure-to-hubspot}
+# [!DNL Hubspot]에 [!DNL Marketo Measure] 추가 중 {#adding-marketo-measure-to-hubspot}
 
 [!DNL Marketo Measure] JavaScript을 추가하여 [!DNL Hubspot] 랜딩 페이지 및 양식 제출을 추적하는 방법에 대해 알아봅니다.
 
-Hubspot은 랜딩 페이지/양식 및 웹 사이트를 호스팅할 수 있다는 점에서 다른 마케팅 자동화 시스템과 약간 다릅니다. 아래 지침은 [!DNL Marketo Measure] 호스팅 페이지에서 [!DNL Hubspot] 추적 활동을 사용하는 것입니다. 웹 사이트를 [!DNL Hubspot]이(가) 아닌 CMS(예: Wordpress)로 구동하는 경우 해당 CMS에 [!DNL Marketo Measure] JavaScript도 추가해야 합니다.
+Hubspot은 랜딩 페이지/양식 및 웹 사이트를 호스팅할 수 있다는 점에서 다른 마케팅 자동화 시스템과 약간 다릅니다. 아래 지침은 [!DNL Hubspot] 호스팅 페이지에서 [!DNL Marketo Measure] 추적 활동을 사용하는 것입니다. 웹 사이트를 [!DNL Hubspot]이(가) 아닌 CMS(예: Wordpress)로 구동하는 경우 해당 CMS에 [!DNL Marketo Measure] JavaScript도 추가해야 합니다.
 
 >[!NOTE]
 >

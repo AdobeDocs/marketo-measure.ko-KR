@@ -4,10 +4,15 @@ description: ' [!DNL Marketo Measure] A/B 테스트 통합 구성 - [!DNL Market
 title: ' [!DNL Marketo Measure] A/B 테스트 통합 구성'
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/BmZ2KnbTIkhPX1kGTNHMMMfmw7zs3Z1-YLwLIVOhVuk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 0%
+source-wordcount: 122
+ht-degree: 5%
 
 ---
 

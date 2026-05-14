@@ -4,10 +4,13 @@ description: 사용자 지정 수익 금액 필드 사용 - [!DNL Marketo Measur
 title: 사용자 정의 수익 금액 필드 사용
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 0%
+source-wordcount: 602
+ht-degree: 1%
 
 ---
 
@@ -67,7 +70,7 @@ ht-degree: 0%
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 팝업이 나타납니다. 흐름 저장 창에 &quot;흐름 레이블&quot;을 입력합니다(흐름 API 이름이 자동으로 생성됨). **[!UICONTROL Save]**&#x200B;을(를) 다시 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다. 팝업이 나타납니다. 흐름 저장 창에 &quot;흐름 레이블&quot;을 입력합니다(흐름 API 이름이 자동으로 생성됨). **[!UICONTROL Save]**&#x200B;을(를) 다시 클릭합니다.
 
    ![](assets/using-a-custom-revenue-amount-field-8.png)
 

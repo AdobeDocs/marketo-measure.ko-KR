@@ -1,23 +1,29 @@
 ---
 unique-page-id: 18874574
-description: 표준 [!DNL Marketo Measure]개체 - [!DNL Salesforce] 의  [!DNL Marketo Measure] 필드
-title: Standard[!DNL Marketo Measure]개체의  [!DNL Salesforce] 개 필드
+description: 표준  [!DNL Salesforce] 개체 - [!DNL Marketo Measure]의 [!DNL Marketo Measure] 필드
+title: Standard [!DNL Salesforce] 개체의 [!DNL Marketo Measure]개 필드
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/1Md2-2kZ3M-UwHXdED4uKV2PswFenKecJqQZ6ud30Rg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: 667
 ht-degree: 0%
 
 ---
 
-# 표준 [!DNL Marketo Measure] 개체의 [!DNL Salesforce] 필드 {#marketo-measure-fields-on-standard-salesforce-objects}
+# 표준 [!DNL Salesforce] 개체의 [!DNL Marketo Measure] 필드 {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
 >설명서에 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시될 수 있지만 CRM에는 &quot;Bizible&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-[!DNL Marketo Measure] 표준 개체에 추가된 다양한 [!DNL Salesforce] 필드에 대해 알아봅니다.
+[!DNL Salesforce] 표준 개체에 추가된 다양한 [!DNL Marketo Measure] 필드에 대해 알아봅니다.
 
 ## 계정 {#account}
 

@@ -4,16 +4,24 @@ description: 통합 광고 플랫폼 - [!DNL Marketo Measure]
 title: 통합 광고 플랫폼
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+TQID: https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: 1763
 ht-degree: 0%
 
 ---
 
 # 통합 광고 플랫폼 {#integrated-ad-platforms}
 
-[!DNL Marketo Measure]은(는) Google AdWords, Microsoft BingAds, [!DNL Facebook] 광고 및 DoubleClick Campaign Manager와 API 연결을 가지고 있습니다. [!DNL Marketo Measure]은(는) 이러한 API 연결을 통해 데이터를 쉽게 가져와서 외부 구매자 앱과 함께 CRM에 푸시할 수 있습니다. 비용이나 데이터를 수동으로 업로드할 필요가 없습니다. 대신 계정을 [!DNL Marketo Measure] 앱에 연결하고 인증하면 됩니다. [!DNL Marketo Measure] 그러면 플랫폼에서 마케팅 비용을 자동으로 다운로드하고 [!DNL Marketo Measure] 앱에 로드합니다. AdWords, BingAds 또는 [!DNL Facebook] 광고에 대해 자동 태그 지정을 활성화하도록 선택하면 [!DNL Marketo Measure]에서 해당 매개 변수를 자동으로 광고의 URL에 추가합니다.
+[!DNL Marketo Measure]은(는) Google AdWords, Microsoft BingAds, [!DNL Facebook] 광고 및 DoubleClick Campaign Manager와 API 연결을 가지고 있습니다. [!DNL Marketo Measure]은(는) 이러한 API 연결을 통해 데이터를 쉽게 가져와서 외부 구매자 앱과 함께 CRM에 푸시할 수 있습니다. 비용이나 데이터를 수동으로 업로드할 필요가 없습니다. 대신 계정을 [!DNL Marketo Measure] 앱에 연결하고 인증하면 됩니다. 그러면 [!DNL Marketo Measure]이(가) 플랫폼에서 마케팅 비용을 자동으로 다운로드하고 [!DNL Marketo Measure] 앱에 로드합니다. AdWords, BingAds 또는 [!DNL Facebook] 광고에 대해 자동 태그 지정을 활성화하도록 선택하면 [!DNL Marketo Measure]에서 해당 매개 변수를 자동으로 광고의 URL에 추가합니다.
 
 ## 광고 플랫폼을 연결하는 방법 {#how-to-connect-ad-platforms}
 
@@ -41,12 +49,12 @@ ht-degree: 0%
 
 [!DNL Marketo Measure]이(가) [!DNL AdWords] 계정에서 추적 템플릿을 검색합니다.
 
-* *옵션 A*: 추적 템플릿을 찾았습니다. [!DNL Marketo Measure] 는 템플릿에 해당 매개 변수를 추가합니다.
+* *옵션 A*: 추적 템플릿을 찾았습니다. [!DNL Marketo Measure]이(가) 해당 매개 변수를 템플릿에 추가합니다.
 * *옵션 B*: 서드파티 리디렉션을 찾았습니다. 추적 템플릿에 타사 리디렉션이 있으면 [!DNL Marketo Measure]에서 작업을 수행할 수 없습니다. [!DNL Marketo Measure] 태그를 타사 시스템에 수동으로 추가해야 합니다. 서드파티 리디렉션의 예로는 Kenshoo 또는 Marin과 같은 입찰 관리 도구가 있습니다. [입찰 관리 도구의 영향 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}에 대해 자세히 알아보세요.
 
-* *옵션 C*: 추적 템플릿을 찾을 수 없습니다. [!DNL Marketo Measure] [!DNL Marketo Measure] 매개 변수에 대한 모든 광고 대상 URL을 검사합니다. 검사를 기준으로, 다음과 같은 경우
+* *옵션 C*: 추적 템플릿을 찾을 수 없습니다. [!DNL Marketo Measure]에서 [!DNL Marketo Measure] 매개 변수에 대한 모든 광고 대상 URL을 검사합니다. 검사를 기준으로, 다음과 같은 경우
    * 매개 변수를 찾았습니다. 설정이 완료되었습니다.
-   * 매개 변수를 찾을 수 없습니다. [!DNL Marketo Measure]은(는) 광고 대상 URL 끝에 매개 변수를 추가합니다. [!DNL Marketo Measure] 새 광고를 만든 후 2시간 이내에 추가합니다. 매개 변수는 템플릿에 추가되지 않습니다.
+   * 매개 변수를 찾을 수 없습니다. [!DNL Marketo Measure]은(는) 광고 대상 URL 끝에 매개 변수를 추가합니다. [!DNL Marketo Measure]은(는) 새 광고를 만든 후 2시간 이내에 추가합니다. 매개 변수는 템플릿에 추가되지 않습니다.
 
 [[!DNL AdWords] 자동 태그 지정 기능](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}에 대해 자세히 알아보세요.
 
@@ -119,7 +127,7 @@ Rafflecopter에서 만든 스프레드시트는 [!DNL EpikOne's] 스프레드시
 
 ## Bing Ads {#bing-ads}
 
-Bing Ads는 URL에 대해 자동 태그 지정을 활성화하거나 [!DNL Marketo Measure]과(와) 같은 서드파티 도구를 사용하여 광고에 태그를 지정할 수 있는 통합 플랫폼입니다. [!DNL Bing Ads] 는 UTM 매개 변수도 사용합니다.
+Bing Ads는 URL에 대해 자동 태그 지정을 활성화하거나 [!DNL Marketo Measure]과(와) 같은 서드파티 도구를 사용하여 광고에 태그를 지정할 수 있는 통합 플랫폼입니다. [!DNL Bing Ads]은(는) UTM 매개 변수도 사용합니다.
 
 통합은 아래 광고 유형을 지원합니다.
 
@@ -152,7 +160,7 @@ Bing Ads의 자동 태그 지정은 다음 사용자 지정 매개 변수도 추
 
 ## Facebook 광고 {#facebook-ads}
 
-[!DNL Facebook]과(와) [!DNL Marketo Measure]을(를) 통합하면 광고 정보를 자동으로 다운로드하고 해당 매개 변수로 URL에 태그를 지정할 수 있습니다. [!DNL Marketo Measure] 는 자동 태깅을 통해 캠페인 및 광고 세트 정보를 가져옵니다. 광고 세트로 광고 그룹 이름 필드가 채워집니다. [!DNL Facebook] 플랫폼에서 URL 태그를 설정하는 방법에 대한 자세한 내용은 [!DNL Facebook] [비즈니스](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} 페이지를 참조하십시오.
+[!DNL Facebook]과(와) [!DNL Marketo Measure]을(를) 통합하면 광고 정보를 자동으로 다운로드하고 해당 매개 변수로 URL에 태그를 지정할 수 있습니다. [!DNL Marketo Measure]이(가) 자동 태그 지정을 통해 캠페인 및 광고 집합 정보를 가져옵니다. 광고 세트로 광고 그룹 이름 필드가 채워집니다. [!DNL Facebook] 플랫폼에서 URL 태그를 설정하는 방법에 대한 자세한 내용은 [!DNL Facebook] [비즈니스](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} 페이지를 참조하십시오.
 
 [!DNL Facebook Ads]에서 자동 태그 지정을 활성화하기 전에 이전 성능 기록을 CSV로 내보내는 것이 중요합니다. 이 시점에서 _bf 매개 변수가 포함된 [!DNL Marketo Measure] 태그 [!DNL Facebook Ads]이(가) 있으면 [!DNL Facebook]이(가) 광고를 새로 읽고 성능 기록을 지웁니다. 따라서 귀하와 귀하의 조직에 중요한 가치가 있는 경우 이전 성과의 레코드를 내보내는 것이 중요합니다.
 
@@ -162,11 +170,11 @@ Bing Ads의 자동 태그 지정은 다음 사용자 지정 매개 변수도 추
 
 ## LinkedIn 스폰서 콘텐츠 {#linkedin-sponsored-content}
 
-LinkedIn 통합을 통해 [!DNL Marketo Measure]이(가) [!DNL LinkedIn] 후원 콘텐츠의 대상 URL에 태그를 지정할 수 있습니다. 이렇게 하면 [!DNL Marketo Measure]이(가) 전체 터치포인트 여정을 통해 사용자를 추적하고 활동을 다시 특정 [!DNL LinkedIn] Campaign 및 Creative에 매핑할 수 있습니다. 이를 통해 고객에게 [!DNL LinkedIn] 활동의 ROI에 대한 통찰력을 제공합니다. [!DNL Marketo Measure] 고유한 [!DNL LinkedIn] 공유를 사용하여 광고 크리에이티브를 검색하고 끝에 `?_bl={creativeId}` 매개 변수를 추가합니다.
+LinkedIn 통합을 통해 [!DNL Marketo Measure]이(가) [!DNL LinkedIn] 후원 콘텐츠의 대상 URL에 태그를 지정할 수 있습니다. 이렇게 하면 [!DNL Marketo Measure]이(가) 전체 터치포인트 여정을 통해 사용자를 추적하고 활동을 다시 특정 [!DNL LinkedIn] Campaign 및 Creative에 매핑할 수 있습니다. 이를 통해 고객에게 [!DNL LinkedIn] 활동의 ROI에 대한 통찰력을 제공합니다. [!DNL Marketo Measure]이(가) 고유한 [!DNL LinkedIn] 공유를 사용하여 크리에이티브를 검색하고 끝에 `?_bl={creativeId}` 매개 변수를 추가합니다.
 
 [!DNL LinkedIn] 공유는 여러 캠페인 및 크리에이티브 간에 사용할 수 있으므로 고객이 기존 크리에이티브를 복사/복제/복제하지 않도록 하여 고유성을 유지할 수 있도록 합니다. 공유가 발견되고 하나의 Creative에서만 사용되는 것으로 감지되면 [!DNL Marketo Measure]은(는) 광고 기록(노출 횟수, 클릭 수, 공유)이 모두 유지되기 때문에 광고 또는 공유를 다시 만들 필요 없이 공유에 태그를 지정할 수 있습니다.
 
-공유가 여러 크리에이티브 간에 공유되는 경우 [!DNL Marketo Measure]은(는) 고유한 집합을 만들기 위해 일시 중지, 복사 및 다시 태그 지정 프로세스를 실행해야 합니다. [!DNL Marketo Measure] 은 라이브 크리에이티브를 일시 중지하고 보관합니다. 즉, 노출 횟수, 클릭 수 및 소셜 공유가 포함된 크리에이티브도 보관됩니다.
+공유가 여러 크리에이티브 간에 공유되는 경우 [!DNL Marketo Measure]은(는) 고유한 집합을 만들기 위해 일시 중지, 복사 및 다시 태그 지정 프로세스를 실행해야 합니다. [!DNL Marketo Measure]은(는) 라이브 크리에이티브를 일시 중지하고 보관합니다. 즉, 노출 횟수, 클릭 수 및 소셜 공유가 포함된 크리에이티브도 보관됩니다.
 
 ## 통합되지 않은 플랫폼 {#non-integrated-platforms}
 

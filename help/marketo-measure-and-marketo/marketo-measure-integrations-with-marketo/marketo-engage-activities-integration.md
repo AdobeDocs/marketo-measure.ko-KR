@@ -4,9 +4,16 @@ description: '[!DNL Marketo Engage] 활동 통합 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Engage]개 활동 통합'
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/X0GAwexe-IPzGn-ITUglGHhbiwVWtTy1uHEnfDNpQCI
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: 1642
 ht-degree: 0%
 
 ---
@@ -44,13 +51,13 @@ ht-degree: 0%
 
 1. 각 활동 유형에 대해 터치포인트에 적합한 레코드를 결정하는 규칙을 하나 이상 정의해야 합니다. 이 예에서는 Marketo 사용자가 90 이상의 점수에 도달할 때 시스템이 터치포인트를 만들도록 &quot;점수 변경&quot; 활동 유형에 대한 규칙을 추가합니다.
 
-1. 먼저 활동 유형에 따라 나중에 채널 매핑에 사용할 수 있는 [!DNL Marketo Measure] 캠페인 이름을 설정해야 할 수 있습니다. [!DNL Marketo Measure] 캠페인 이름을 여러 규칙에서 다시 사용할 수 있습니다. 이렇게 하면 단일 채널 규칙에서 사용할 수 있는 더 광범위한 이름을 가질 수 있습니다. 일부 활동 유형에는 Marketo 프로그램이 포함되어 있지 않으므로 이 첫 번째 단계로 이름을 지정해야 합니다.
+1. 먼저 활동 유형에 따라 나중에 채널 매핑에 사용할 수 있는 [!DNL Marketo Measure] 캠페인 이름을 설정해야 할 수 있습니다. [!DNL Marketo Measure] 캠페인 이름은 여러 규칙에서 재사용할 수 있습니다. 이렇게 하면 단일 채널 규칙에서 사용할 수 있는 더 광범위한 이름을 가질 수 있습니다. 일부 활동 유형에는 Marketo 프로그램이 포함되어 있지 않으므로 이 첫 번째 단계로 이름을 지정해야 합니다.
 
    다음은 이러한 추가 단계가 어떤 모습인지에 대한 예입니다.
 
    ![](assets/five-1.png)
 
-1. &quot;점수 변경&quot; 예제에서는 Marketo 프로그램에서 해당 정보를 가져왔으므로 캠페인 이름을 입력해야 합니다. 이제 규칙 표현식을 만듭니다. 다음 예제에서는 값이 90인 &quot;[!UICONTROL New Value]&quot; 연산자가 있는 &quot;[!UICONTROL is greater than]&quot; 필드를 선택합니다.
+1. &quot;점수 변경&quot; 예제에서는 Marketo 프로그램에서 해당 정보를 가져왔으므로 캠페인 이름을 입력해야 합니다. 이제 규칙 표현식을 만듭니다. 다음 예제에서는 값이 90인 &quot;[!UICONTROL is greater than]&quot; 연산자가 있는 &quot;[!UICONTROL New Value]&quot; 필드를 선택합니다.
 
    규칙을 확장하고 &quot;and&quot; 또는 &quot;or&quot; 문을 추가하여 필터 또는 기준을 추가하여 결과 범위를 좁힐 수 있습니다.
 
@@ -177,7 +184,7 @@ Mark는 Facebook 광고를 클릭하고 wayneenterprises.com에 도달하여 [!D
 
 Wayne Enterprises 마케팅 팀이 특정 타겟팅된 잠재 고객에게 이메일 전송량을 전송하며, 해당 잠재 고객 중 하나는 `mark@email.com`개입니다.
 
-`mark@email.com`이(가) 전자 메일을 받고 클릭하여 `wayneenterprises.com`에 도착합니다. 쿠키 ID가 동일한 `mark@email.com's`에 대한 `wayneenterprise.com`초 방문이 되지만 양식 채우기가 없으므로 [!DNL Marketo Measure]에게는 여전히 익명 방문자입니다.
+`mark@email.com`이(가) 전자 메일을 받고 클릭하여 `wayneenterprises.com`에 도착합니다. 쿠키 ID가 동일한 `wayneenterprise.com`에 대한 `mark@email.com's`초 방문이 되지만 양식 채우기가 없으므로 [!DNL Marketo Measure]에게는 여전히 익명 방문자입니다.
 
 Wayne Enterprises 마케팅 팀은 &quot;이메일 클릭&quot; 활동 유형에 대한 터치포인트를 생성하는 Marketo 활동 규칙을 만듭니다.
 
@@ -214,4 +221,4 @@ Marketo에서 가져온 사용자 에이전트 값이 더 긴 문자열이지만
 BrowserInfo.Name\
 BrowserInfo.Version\
 PlatformInfo.Name\
-PlatformInfo.Version
+Platform정보.버전

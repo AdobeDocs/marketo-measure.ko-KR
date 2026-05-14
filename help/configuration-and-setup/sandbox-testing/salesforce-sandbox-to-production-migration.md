@@ -4,24 +4,29 @@ description: Salesforce 샌드박스를 프로덕션으로 마이그레이션 - 
 title: Salesforce 샌드박스에서 프로덕션으로 마이그레이션
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/tdO2AE1dXfriuURbldKa0NB6wzc0o6NBH0CdgolkqSc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: 309
 ht-degree: 0%
 
 ---
 
 # Salesforce 샌드박스에서 프로덕션으로 마이그레이션 {#salesforce-sandbox-to-production-migration}
 
-[!DNL Marketo Measure] 샌드박스 환경에서 [!DNL Salesforce]을(를) 테스트하도록 선택한 경우 다음 지침에 따라 준비가 되면 프로덕션으로 마이그레이션하십시오. 다음 지침은 이미 [!DNL Marketo Measure] 패키지를 샌드박스 조직에 다운로드하고 필요한 테스트를 수행했으며 [!DNL Marketo Measure]을(를) 프로덕션에 푸시할 준비가 되었다고 가정합니다.
+[!DNL Salesforce] 샌드박스 환경에서 [!DNL Marketo Measure]을(를) 테스트하도록 선택한 경우 다음 지침에 따라 준비가 되면 프로덕션으로 마이그레이션하십시오. 다음 지침은 이미 [!DNL Marketo Measure] 패키지를 샌드박스 조직에 다운로드하고 필요한 테스트를 수행했으며 [!DNL Marketo Measure]을(를) 프로덕션에 푸시할 준비가 되었다고 가정합니다.
 
-## 1단계: 프로덕션 [!DNL Marketo Measure] 인스턴스에 [!DNL Salesforce] 패키지 설치
+## 1단계: 프로덕션 [!DNL Salesforce] 인스턴스에 [!DNL Marketo Measure] 패키지 설치
 
-* &quot;[!DNL Marketo Measure]&quot; 설정으로 프로덕션에 [!UICONTROL All Users] 패키지 설치
+* &quot;[!UICONTROL All Users]&quot; 설정으로 프로덕션에 [!DNL Marketo Measure] 패키지 설치
 
    * [기본 패키지](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
-* [!DNL Marketo Measure]과(와)의 [!DNL Salesforce] 관계에 대한 자세한 내용은 [이 문서](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)를 참조하세요.
+* [!DNL Salesforce]과(와)의 [!DNL Marketo Measure] 관계에 대한 자세한 내용은 [이 문서](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)를 참조하세요.
 * [!DNL Salesforce] 구성이 필요합니다. 특정 작업 항목은 [아래 4단계](#salesforce-configuration)에서 아래에 요약되어 있습니다.
 
 ## 2단계: [!DNL Marketo Measure] 앱에서 현재 샌드박스 CRM 연결 삭제 {#delete-the-current-sandbox-crm-connection-in-marketo-measure-app}
@@ -42,7 +47,7 @@ ht-degree: 0%
 * [!UICONTROL My Account] >[!UICONTROL Settings] > [!UICONTROL Connections]&#x200B;(으)로 이동
 * 샌드박스 연결 삭제가 정상적으로 삭제되면 연결이 페이지에서 사라집니다. 그렇지 않으면 연결이 여전히 &quot;삭제 진행 중&quot; 상태로 표시됩니다.
 * &quot;[!UICONTROL Set up New CRM connection]&quot; 클릭
-* &quot;[!UICONTROL Select CRM Connection]&quot; 모달 대화 상자에서 [!UICONTROL Connect] 플랫폼 옆의 &quot;[!DNL Salesforce]&quot; 작업을 클릭하고 &quot;[!UICONTROL Production]&quot; 옵션을 선택합니다
+* &quot;[!UICONTROL Select CRM Connection]&quot; 모달 대화 상자에서 [!DNL Salesforce] 플랫폼 옆의 &quot;[!UICONTROL Connect]&quot; 작업을 클릭하고 &quot;[!UICONTROL Production]&quot; 옵션을 선택합니다
 * 자격 증명을 입력하라는 메시지가 표시되면 프로덕션 로그인 세부 정보를 입력해야 합니다.
 
 ## 4단계: Salesforce 구성 {#salesforce-configuration}

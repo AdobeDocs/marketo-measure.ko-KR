@@ -3,9 +3,14 @@ description: 세분화 모범 사례 - [!DNL Marketo Measure]
 title: 세그먼테이션 우수 사례
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/YR-eQXPLgo1FbUk4VXa9cuaAwjiSSVBbSB3ZjAeScaY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: 449
 ht-degree: 0%
 
 ---
@@ -39,7 +44,7 @@ ht-degree: 0%
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}
 
-최소 1년에 두 번 세분화를 검토하면 세분화가 최신 상태로 유지됩니다. 가장 좋은 방법은 [!UICONTROL Segments] 계정 설정의 &#39;[!DNL Marketo Measure]&#39; 탭에서 규칙을 검토하고 [!DNL Salesforce] 내에서 보고서를 가져와 작동 중인 세그먼트를 검토하는 것입니다. 이러한 단계를 통해 귀하와 귀하의 팀이 세분화와 그에 따른 [!DNL Marketo Measure] 보고에 자신감을 가질 수 있습니다.
+최소 1년에 두 번 세분화를 검토하면 세분화가 최신 상태로 유지됩니다. 가장 좋은 방법은 [!DNL Marketo Measure] 계정 설정의 &#39;[!UICONTROL Segments]&#39; 탭에서 규칙을 검토하고 [!DNL Salesforce] 내에서 보고서를 가져와 작동 중인 세그먼트를 검토하는 것입니다. 이러한 단계를 통해 귀하와 귀하의 팀이 세분화와 그에 따른 [!DNL Marketo Measure] 보고에 자신감을 가질 수 있습니다.
 
 세분화 검토를 트리거할 수 있는 다른 이유는 다음과 같습니다.
 

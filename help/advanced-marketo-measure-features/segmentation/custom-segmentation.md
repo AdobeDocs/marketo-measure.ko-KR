@@ -4,9 +4,14 @@ description: 사용자 지정 세분화 - [!DNL Marketo Measure]
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -37,7 +42,7 @@ ht-degree: 0%
 
 * [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}(으)로 이동한 다음 로그인합니다.
 * [!UICONTROL My Account] 탭에서 [!UICONTROL Settings] 선택
-* [!UICONTROL Segments] 섹션 아래의 왼쪽 사이드바의 옵션에서 [!UICONTROL Reporting]을(를) 선택합니다.
+* [!UICONTROL Reporting] 섹션 아래의 왼쪽 사이드바의 옵션에서 [!UICONTROL Segments]을(를) 선택합니다.
 
 3단계 - 구성 요소를 이해합니다.
 

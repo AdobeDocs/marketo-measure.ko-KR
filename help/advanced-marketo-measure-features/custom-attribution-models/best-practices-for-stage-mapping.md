@@ -3,9 +3,14 @@ description: 스테이지 매핑 모범 사례 - [!DNL Marketo Measure]
 title: 스테이지 매핑 우수 사례
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 479
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 이 섹션에서 관리되는 추가 기능은 속성을 적용하지 않고 funnel에 단계를 추가할 수 있는 Funnel 단계입니다. Funnel 단계가 터치포인트로 추적되고 CRM의 터치포인트 위치 필드에 채워집니다. 이러한 Funnel 스테이지는 [!DNL Marketo Measure] Discover의 다양한 여정 보드 내에서도 표시됩니다.
 
-## 우수 사례 {#best-practices}
+## 모범 사례 {#best-practices}
 
 스테이지 매핑을 처음 평가하든 아니면 funnel 순서를 검토하든 관계없이 다음 모범 사례를 염두에 두는 것이 중요합니다.
 

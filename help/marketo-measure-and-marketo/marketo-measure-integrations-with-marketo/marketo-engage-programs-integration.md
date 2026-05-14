@@ -4,16 +4,25 @@ description: '[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure]
 title: '[!DNL Marketo Engage] 프로그램 통합'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/tsJhoMace2jJnRi7-jM-mojkNMSdZlzYKtvk3OVR2A8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 0%
+source-wordcount: 1288
+ht-degree: 1%
 
 ---
 
 # [!DNL Marketo Engage] 프로그램 통합 {#marketo-engage-programs-integration}
 
-[!DNL Marketo Measure] 프로그램과의 [!DNL Marketo Engage] 통합을 통해 고객은 Marketo 프로그램 멤버십에서 속성 추적을 위한 터치포인트를 만들 수 있습니다. 이 기능을 사용하면 마케터는 [!DNL Marketo Measure] javascript에서 볼 수 없으며 속성 여정 내에서 측정해야 하는 전자 메일 또는 참여 프로그램에서 프로그램 멤버십을 추적할 수 있습니다.
+[!DNL Marketo Engage] 프로그램과의 [!DNL Marketo Measure] 통합을 통해 고객은 Marketo 프로그램 멤버십에서 속성 추적을 위한 터치포인트를 만들 수 있습니다. 이 기능을 사용하면 마케터는 [!DNL Marketo Measure] javascript에서 볼 수 없으며 속성 여정 내에서 측정해야 하는 전자 메일 또는 참여 프로그램에서 프로그램 멤버십을 추적할 수 있습니다.
 
 ## 가용성 {#availability}
 
@@ -168,7 +177,7 @@ Marketo 프로그램의 데이터 가져오기를 통해 비용은 기간 원가
   </tr>
   <tr>
     <td>CAMPAIGN_TYPE</td>
-    <td>channel</td>
+    <td>채널</td>
   </tr>
 </tbody>
 </table>
@@ -181,7 +190,7 @@ Marketo 프로그램의 데이터 가져오기를 통해 비용은 기간 원가
 
 Wayne Enterprises 마케팅 팀이 특정 타겟팅된 잠재 고객에게 이메일 전송량을 전송하며, 해당 잠재 고객 중 하나는 `mark@email.com`개입니다.
 
-`mark@email.com`이(가) 이메일을 받고 클릭하여 wayneenterprises.com에 도달합니다. 쿠키 ID가 동일한 `mark@email.com's`에 대한 `wayneenterprise.com`초 방문이 되지만 양식 채우기가 없으므로 [!DNL Marketo Measure]에게는 여전히 익명 방문자입니다.
+`mark@email.com`이(가) 이메일을 받고 클릭하여 wayneenterprises.com에 도달합니다. 쿠키 ID가 동일한 `wayneenterprise.com`에 대한 `mark@email.com's`초 방문이 되지만 양식 채우기가 없으므로 [!DNL Marketo Measure]에게는 여전히 익명 방문자입니다.
 
 Wayne Enterprises 마케팅 팀은 &quot;이메일 클릭&quot; 활동 유형에 대한 터치포인트를 생성하는 Marketo 활동 규칙을 만듭니다.
 

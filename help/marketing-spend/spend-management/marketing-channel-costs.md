@@ -4,16 +4,23 @@ description: 마케팅 채널 비용 - [!DNL Marketo Measure]
 title: 마케팅 채널 비용
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Mjpr4y4vxdeefsbULVxjk3Gf6jdy7Q2ST70gg73dfqk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: 1277
 ht-degree: 0%
 
 ---
 
 # 마케팅 채널 비용 {#marketing-channel-costs}
 
-[!DNL Marketo Measure]을(를) 사용하면 가장 기본적인 이점 중 하나는 마케팅 노력을 매출에 미치는 영향에 직접 연결할 수 있다는 것입니다. 필요한 만큼의 세부기간을 사용해야 합니다. 접점 수준에서 투자 수익률을 볼 수 있다. 이 이점을 활용하려면 채널 비용을 [!DNL Marketo Measure] 앱에 업로드해야 합니다. ROI 보고서는 자동으로 만들어지고 **experience.adobe.com/marketo-measure**&#x200B;의 [마케팅 ROI 대시보드](https://experience.adobe.com/marketo-measure){target="_blank"}에서 사용할 수 있습니다.
+[!DNL Marketo Measure]을(를) 사용하면 가장 기본적인 이점 중 하나는 마케팅 노력을 매출에 미치는 영향에 직접 연결할 수 있다는 것입니다. 필요한 만큼의 세부기간을 사용해야 합니다. 접점 수준에서 투자 수익률을 볼 수 있다. 이 이점을 활용하려면 채널 비용을 [!DNL Marketo Measure] 앱에 업로드해야 합니다. ROI 보고서는 자동으로 만들어지고 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}의 **마케팅 ROI 대시보드**&#x200B;에서 사용할 수 있습니다.
 
 [지침으로 직접 이동하려면 여기를 클릭하십시오.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
@@ -75,13 +82,13 @@ ht-degree: 0%
 
 **1단계: [!DNL Marketo Measure] 앱의 마케팅 지출 페이지로 이동합니다.**
 
-**[!UICONTROL My Account]** 메뉴로 이동하여 **[!UICONTROL Settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Marketing Spend]** 섹션 아래의 왼쪽 사이드바에서 **[!UICONTROL Reporting]** 옵션으로 이동합니다.
+**[!UICONTROL My Account]** 메뉴로 이동하여 **[!UICONTROL Settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Reporting]** 섹션 아래의 왼쪽 사이드바에서 **[!UICONTROL Marketing Spend]** 옵션으로 이동합니다.
 
 ![](assets/1.png)
 
 **2단계: 현재 비용 CSV 다운로드**
 
-화면 오른쪽으로 이동하여 **[!UICONTROL Download Current Costs]을(를) 클릭합니다.** 이 옵션을 사용하면 스프레드시트를 CSV 형식으로 다운로드할 수 있습니다.
+화면 오른쪽으로 이동하여 **[!UICONTROL Download Current Costs].**&#x200B;을(를) 클릭합니다. 이 옵션을 사용하면 스프레드시트를 CSV 형식으로 다운로드할 수 있습니다.
 
 ![](assets/2.png)
 
@@ -91,7 +98,7 @@ ht-degree: 0%
 
 시트를 가져온 후에는 채널 및 하위 채널에 비용을 추가하거나 기존 정보를 업데이트하는 등 원하는 대로 변경합니다.
 
-시트에서 논리 규칙을 확인합니다. 각 행에는 끝에 채널과 그 하위 채널 중 하나를 (.) 점으로 구분하여 포함해야 합니다. 이 형식을 일관되게 사용하는 것이 중요합니다.
+시트에서 논리 규칙을 확인합니다. 각 행에는 채널과 그 하위 채널 중 하나를 (.)로 구분하여 포함해야 합니다. 끝에 점이 있습니다. 이 형식을 일관되게 사용하는 것이 중요합니다.
 
 예를 들어 Facebook을 하위 채널로 표시하고 소셜을 채널로 표시하려면 규칙을 &quot;Social.Facebook&quot;으로 작성해야 합니다. 마찬가지로 오프라인 이벤트를 추적하려면 채널 구문이 &quot;Events.Big Conference&quot;여야 합니다. 아래 이미지에 예가 나와 있습니다.
 
@@ -111,7 +118,7 @@ Google Sheets에서 작업 중인 경우 먼저 파일을 다운로드해야 합
 
 **5단계: CSV 파일 업로드**
 
-**[!UICONTROL Cost]** 앱의 [!DNL Marketo Measure] 섹션으로 이동하여 **[!UICONTROL Upload.CSV]**&#x200B;을(를) 클릭합니다. 시스템이 새로 고침되고 새 정보가 반영됩니다.
+[!DNL Marketo Measure] 앱의 **[!UICONTROL Cost]** 섹션으로 이동하여 **[!UICONTROL Upload.CSV]**&#x200B;을(를) 클릭합니다. 시스템이 새로 고침되고 새 정보가 반영됩니다.
 
 ## FAQ {#faq}
 

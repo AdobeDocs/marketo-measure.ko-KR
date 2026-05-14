@@ -4,9 +4,12 @@ description: 데이터 로더를 사용하여  [!DNL Marketo Measure] 사용자 
 title: 데이터 로더를 사용하여 Marketo Measure 사용자 정의 금액 필드 업데이트
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/5guAGWeWMxJPm-vj8DYyHz2onjh3ERfzKtLcXNr0MM0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -30,4 +33,4 @@ ht-degree: 0%
 1. 모든 기회에 대한 사용자 지정 목록 보기를 만듭니다.
 1. 기본 설정 수익 필드에 대한 필터 추가가 비어 있지 않습니다. _이고_ [!UICONTROL Marketo] [영업 기회 금액 측정] 필드가 비어 있습니다.
 1. **[!UICONTROL Mass Edit]**&#x200B;을(를) 클릭합니다. 실제로 변경하지 마십시오.
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 그러면 워크플로우가 트리거되어 [!DNL Marketo Measure] 영업 기회 금액 필드를 소프트웨어 매출 필드로 채웁니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다. 그러면 워크플로우가 트리거되어 [!DNL Marketo Measure] 영업 기회 금액 필드를 소프트웨어 매출 필드로 채웁니다.

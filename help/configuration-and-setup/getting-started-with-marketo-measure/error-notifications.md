@@ -3,10 +3,21 @@ description: 오류 알림 - [!DNL Marketo Measure]
 title: 오류 알림
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+subfeature_v2:
+  - id: ec526b86-7a6d-4fae-87bd-f61c37b9b506
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 0%
+source-wordcount: 1915
+ht-degree: 1%
 
 ---
 
@@ -124,7 +135,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
-      <td>CRM 내보내기 중 오류 발생: FIELD_INTEGRITY_EXCEPTION : 엔티티 유형 'Lead': CRM 오류 코드: FIELD_INTEGRITY_EXCEPTION, 필드: 국가, CRM 오류 메시지: 이 국가에 문제가 있습니다. 올바른 것처럼 보일 수 있습니다. 유효한 국가 목록에서 국가/지역을 선택하십시오.: 국가, RecordId: 0123456</td>
+      <td>CRM 내보내기 중 오류 발생: FIELD_INTEGRITY_EXCEPTION : 엔티티 유형 'Lead': CRM 오류 코드: FIELD_INTEGRITY_EXCEPTION, 필드: 국가, CRM 오류 메시지: 이 국가에 문제가 있습니다. 올바른 것처럼 보일 수 있습니다. 유효한 국가 목록에서 국가/지역을 선택하십시오.: 국가, 레코드 ID: 0123456</td>
       <td>레코드의 예상 유형이 일치하지 않습니다.</td>
       <td>이 문제의 가장 일반적인 사례는 주/국가 필드가 특정 선택 목록 값만 수락하도록 표준화되었기 때문에 Salesforce 조직에 설정된 주/국가 이름 지정 표준을 따르지 않는 것입니다. 이 문제를 해결하려면 다음을 수행할 수 있습니다.
         <ul>
@@ -184,7 +195,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>CRM 가져오기 중 오류 발생: MISSING_FIELD_READ_PERMISSION : 엔터티 유형 'Event': INVALID_FIELD:<br/>
+      <td>CRM 가져오기 중 오류 발생: MISSING_FIELD_READ_PERMISSION : 엔티티 유형 'Event': INVALID_FIELD:<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure에 필수 필드에 대한 읽기 권한이 없습니다.</td>
       <td>Marketo Measure에 필요한 권한에 대한 지침은 다음 도움말 문서를 참조하십시오.

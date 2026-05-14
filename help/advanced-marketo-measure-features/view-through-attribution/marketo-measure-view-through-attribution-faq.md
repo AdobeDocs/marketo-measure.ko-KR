@@ -4,10 +4,15 @@ description: '[!DNL Marketo Measure] 속성 FAQ를 통해 보기 - [!DNL Marketo
 title: '[!DNL Marketo Measure] 속성 FAQ를 통해 보기'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 3%
+source-wordcount: 500
+ht-degree: 8%
 
 ---
 

@@ -4,9 +4,14 @@ description: 사용자 지정 속성 모델 및 설정 - [!DNL Marketo Measure]
 title: 사용자 지정 속성 모델 및 설정
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Bqvp26IvjPnXom9rfkB2cWtrnrM3Jsz6SQKqDYKp-cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: 826
 ht-degree: 0%
 
 ---
@@ -55,7 +60,7 @@ ht-degree: 0%
 
 1. 사용자 지정 모델의 속성 비율을 결정합니다.
 
-   **[!UICONTROL Attribution Settings]** 앱의 [!DNL Marketo Measure]&#x200B;(으)로 이동합니다. 사용자 지정 단계는 여기에 속성 테이블에 표시됩니다. 속성 테이블에는 모든 [!DNL Marketo Measure] 속성 모델과 각 모델의 속성 가중치가 표시됩니다. 처음 5개 모델의 기여도 분석 비율은 고정되며 변경할 수 없습니다.
+   [!DNL Marketo Measure] 앱의 **[!UICONTROL Attribution Settings]**(으)로 이동합니다. 사용자 지정 단계는 여기에 속성 테이블에 표시됩니다. 속성 테이블에는 모든 [!DNL Marketo Measure] 속성 모델과 각 모델의 속성 가중치가 표시됩니다. 처음 5개 모델의 기여도 분석 비율은 고정되며 변경할 수 없습니다.
 
    레이블이 &quot;**[!UICONTROL Custom]**&quot;인 맨 오른쪽 열에서 사용자 지정 속성 모델의 각 단계에 대한 백분율 가중치를 설정할 수 있습니다. 사용자 지정 열 아래에 각 단계의 값을 입력하고 완료되면 **[!UICONTROL Save and Reprocess]**&#x200B;을(를) 클릭합니다.
 

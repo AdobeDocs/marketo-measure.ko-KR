@@ -4,9 +4,12 @@ description: 오프라인 캠페인 동기화 - [!DNL Marketo Measure]
 title: 오프라인 캠페인 동기화
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: 727
 ht-degree: 0%
 
 ---
@@ -31,7 +34,7 @@ ht-degree: 0%
 
 ## 접점 날짜 벌크 업데이트 {#bulk-update-touchpoint-date}
 
-[!DNL Salesforce]에서 캠페인 멤버 개체의 만든 날짜 필드는 캠페인 멤버가 캠페인에 추가된 날짜를 기록합니다. 동기화 프로세스가 원활하게 진행되도록 하려면 Buyer Touchpoint 날짜 필드에 Salesforce Campaign 멤버 개체의 날짜와 동일한 날짜가 있는지 확인하십시오. 이 단계는 구매자 접점 사용 필드에서 [!UICONTROL Bulk Update Touchpoint Date button] 옵션을 선택한 &quot;_&quot;,_&#x200B;이전[!UICONTROL picklist]을(를) 사용하여 수행됩니다.
+[!DNL Salesforce]에서 캠페인 멤버 개체의 만든 날짜 필드는 캠페인 멤버가 캠페인에 추가된 날짜를 기록합니다. 동기화 프로세스가 원활하게 진행되도록 하려면 Buyer Touchpoint 날짜 필드에 Salesforce Campaign 멤버 개체의 날짜와 동일한 날짜가 있는지 확인하십시오. 이 단계는 구매자 접점 사용 필드에서 [!UICONTROL picklist] 옵션을 선택한 &quot;[!UICONTROL Bulk Update Touchpoint Date button]&quot;, _이전_&#x200B;을(를) 사용하여 수행됩니다.
 
 이것이 중요한 이유는 무엇입니까? 1월에 있을 컨퍼런스에서 귀사가 부스를 후원한다고 잠시 상상해 보세요. 컨퍼런스에서 100명의 개인이 제품에 관심을 보였고 이메일 업데이트를 받기 위해 연락처 정보를 제공했습니다. 3주 후, 마침내 [!DNL Salesforce]에서 전화 회의의 결과를 추적하는 캠페인을 만들었습니다.
 
@@ -70,7 +73,7 @@ ht-degree: 0%
 * **모든 캠페인 구성원을 제외합니다.**
    * 이 옵션은 캠페인의 구성원에 터치포인트를 지정하지 않으며 [!DNL Marketo Measure]에서 캠페인이 의도적으로 제외된 플래그 역할을 합니다. 우연히 구매자 터치포인트와 캠페인을 동기화하는 경우 상태를 &quot;모든 캠페인 멤버 제외&quot;로 변경할 수 있으며 터치포인트가 제거됩니다.
 
-이 선택 항목 중 하나를 선택하면 [!DNL Marketo Measure]에서 해당되는 경우 각 캠페인 멤버에게 터치포인트를 할당합니다. _에서 터치포인트를 만들려면_&#x200B;필수[!DNL Marketo Measure] 캠페인에 추가된 잠재 고객 또는 연락처에 레코드와 연결된 전자 메일 주소가 있어야 합니다. 전자 메일 주소가 없으면 [!DNL Marketo Measure]은(는) 캠페인 멤버에게 터치포인트를 할당하지 않습니다.
+이 선택 항목 중 하나를 선택하면 [!DNL Marketo Measure]에서 해당되는 경우 각 캠페인 멤버에게 터치포인트를 할당합니다. [!DNL Marketo Measure]에서 터치포인트를 만들려면 _필수_ 캠페인에 추가된 잠재 고객 또는 연락처에 레코드와 연결된 전자 메일 주소가 있어야 합니다. 전자 메일 주소가 없으면 [!DNL Marketo Measure]은(는) 캠페인 멤버에게 터치포인트를 할당하지 않습니다.
 
 >[!MORELIKETHIS]
 >
