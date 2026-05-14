@@ -3,10 +3,12 @@ description: Adobe Experience Cloud 인터페이스 개요 - [!DNL Marketo Measu
 title: Adobe Experience Cloud 인터페이스 개요
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: 304
+ht-degree: 24%
 
 ---
 
@@ -24,7 +26,7 @@ Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 
 >
 >구독 중인 Adobe Experience Cloud 제품에 따라 드롭다운 메뉴가 다르게 보일 수 있습니다.
 
-Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measure]https://experience.adobe.com/marketo-measure[에서 &#x200B;](https://experience.adobe.com/marketo-measure)에 직접 로그인하십시오.
+_아직_&#x200B;하지 않은 경우 [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure)에서 [!DNL Marketo Measure]에 직접 로그인하십시오.
 
 ## 새로운 기능 {#new-features}
 
@@ -32,7 +34,7 @@ Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measur
 
 **도메인 관리**
 
-[의 도움 없이  [!DNL Marketo Measure] 도메인](/help/marketo-measure-and-adobe/domain-management.md)관리[!DNL Marketo Measure]를 하세요.
+[!DNL Marketo Measure]의 도움 없이 [도메인 [!DNL Marketo Measure] 관리](/help/marketo-measure-and-adobe/domain-management.md)를 하세요.
 
 ![](assets/unified-shell-overview-5.png)
 
@@ -58,7 +60,7 @@ Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [!DNL Marketo Measur
 
 **Adobe 설정**
 
-언어 또는 기타 Adobe 환경 설정을 변경하려면 프로필 아이콘을 클릭합니다. [!DNL Marketo Measure]내 설정&#x200B;**을 클릭하여**&#x200B;별 변경을 수행할 수도 있습니다.
+언어 또는 기타 Adobe 환경 설정을 변경하려면 프로필 아이콘을 클릭합니다. **내 설정**&#x200B;을 클릭하여 [!DNL Marketo Measure]별 변경을 수행할 수도 있습니다.
 
 ![](assets/unified-shell-overview-10.png)
 

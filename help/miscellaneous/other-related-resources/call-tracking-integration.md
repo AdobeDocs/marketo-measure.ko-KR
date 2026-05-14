@@ -4,9 +4,12 @@ description: 통화 추적 통합 - [!DNL Marketo Measure]
 title: 호출 추적 통합
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 691
 ht-degree: 0%
 
 ---
@@ -33,7 +36,7 @@ ht-degree: 0%
 
 CallTrackingMetrics는 이 기능이 작동하려면 개발 작업을 수행해야 합니다. 사이트에 배치한 JavaScript을 사용하여 CallTrackingMetrics는 [!DNL Marketo Measure] 쿠키에서 _biz_uid를 가져올 수 있습니다. 이 &quot;[!DNL BizibleId]&quot;은(는) CallTrackingMetrics에 의해 저장됩니다.
 
-방문자가 사이트에 와서 전화를 걸면 해당 데이터를 [!DNL Salesforce]에 푸시하는 것은 CallTrackingMetrics의 작업입니다.  일반적으로 전화 번호, 제목, 형식 및 현재 [!DNL Salesforce Task] 등의 데이터를 채우는 [!DNL BizibleId]이(가) 만들어집니다
+방문자가 사이트에 와서 전화를 걸면 해당 데이터를 [!DNL Salesforce]에 푸시하는 것은 CallTrackingMetrics의 작업입니다.  일반적으로 전화 번호, 제목, 형식 및 현재 [!DNL BizibleId] 등의 데이터를 채우는 [!DNL Salesforce Task]이(가) 만들어집니다
 
 [!DNL BizibleId]은(는) [!DNL Marketo Measure] 마케팅 속성 패키지의 버전 6.7 이상에서 설치된 필드입니다.
 

@@ -3,21 +3,25 @@ description: 개인 정보 보호 요청 - [!DNL Marketo Measure]
 title: 개인정보 보호 요청
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 25%
+source-wordcount: 283
+ht-degree: 26%
 
 ---
 
 # 개인정보 보호 요청 {#privacy-requests}
 
-이 문서에서는 [!DNL Marketo Measure] UI 및 [!DNL Privacy Service] API **[!DNL Privacy Service]를 통해**&#x200B;에 보낼 수 있는 개별 데이터 개인 정보 보호 요청 관리에 대한 개요를 제공합니다.
+이 문서에서는 [!DNL Privacy Service] UI 및 **[!DNL Privacy Service]API**&#x200B;를 통해 [!DNL Marketo Measure]에 보낼 수 있는 개별 데이터 개인 정보 보호 요청 관리에 대한 개요를 제공합니다.
 
 다음 두 가지 방법으로 [!DNL Marketo Measure]에서 소비자 데이터에 액세스하고 삭제하도록 개별 요청을 제출할 수 있습니다.
 
-* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ko){target="_blank"}를 통해.
-* **[!DNL Privacy Service]API를 통해**. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ko){target="_blank"} 및 API 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}를 참조하세요.
+* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}를 통해.
+* **[!DNL Privacy Service]API를 통해**. 설명서 [여기](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} 및 API 참조 [여기](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}를 참조하세요.
 
 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko-KR){target="_blank"}은(는) 데이터 액세스 요청과 데이터 삭제, 이렇게 두 가지 유형의 요청을 지원합니다.
 
@@ -31,7 +35,7 @@ ht-degree: 25%
 
    a. IMS 조직 ID
 
-   b. 조치를 취하고자 하는 사람의 이메일 주소
+   b. 작업을 수행할 사람의 이메일 주소
 
    IMS 조직 ID는 @AdobeOrg가 추가된 24자 영숫자 문자열입니다. 마케팅 팀이나 내부 Adobe 시스템 관리자가 조직의 IMS 조직 ID를 모르는 경우에는 Adobe 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오. Privacy API에 요청을 제출하려면 IMS 조직 ID가 필요합니다.
 

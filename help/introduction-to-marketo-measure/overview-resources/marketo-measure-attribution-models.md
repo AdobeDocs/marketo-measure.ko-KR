@@ -4,9 +4,11 @@ description: Marketo Measure 속성 모델 - Marketo Measure - 제품 설명서
 title: Marketo Measure 속성 모델
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/auiVcEzz1L3cujxvhEw6C7gig67ZHZCMKmB87oPxjVo
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 777
 ht-degree: 0%
 
 ---
@@ -31,7 +33,7 @@ Marketo Measure에서는 6가지 유형의 속성 모델을 제공합니다.
 
 ![](assets/1-1.png)
 
-**단일 터치 모델**&#x200B;에서 속성 크레딧은 하나의 마일스톤 접점에만 기여하므로 이름이 &#39;단일 터치&#39;입니다.
+**단일 터치 모델**에서 속성 크레딧은 하나의 마일스톤 접점에만 기여하므로 이름이 &#39;단일 터치&#39;입니다.
 **다중 터치 모델**&#x200B;에서 대부분의 속성 크레딧이 둘 이상의 마일스톤 접점에 할당됩니다. 나머지 크레딧은 이정표 접점 사이에 발생하는 접점에 기인합니다.
 
 다음 몇 섹션에서는 각 속성 모델과 속성 크레딧이 할당되는 방법을 다룹니다.

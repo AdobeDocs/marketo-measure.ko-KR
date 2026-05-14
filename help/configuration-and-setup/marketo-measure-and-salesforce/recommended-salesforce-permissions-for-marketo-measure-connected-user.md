@@ -1,23 +1,26 @@
 ---
 unique-page-id: 18874696
-description: ' [!DNL Salesforce] 연결된 사용자에 대한 권장 [!DNL Marketo Measure] 권한 - [!DNL Marketo Measure]'
-title: ' [!DNL Salesforce] 연결된 사용자에 대해  [!DNL Marketo Measure] 권한 권장'
+description: ' [!DNL Marketo Measure] 연결된 사용자에 대한 권장 [!DNL Salesforce] 권한 - [!DNL Marketo Measure]'
+title: ' [!DNL Marketo Measure] 연결된 사용자에 대해  [!DNL Salesforce] 권한 권장'
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/ImKgikcl5a3LJhBs8VnvWFZAxLkEY0r3Ip0XVZoHE-g
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: 439
+ht-degree: 1%
 
 ---
 
-# 연결된 [!DNL Salesforce]명의 사용자에게 [!DNL Marketo Measure] 권한 권장 {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
+# 연결된 [!DNL Marketo Measure]명의 사용자에게 [!DNL Salesforce] 권한 권장 {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 
-[!DNL Marketo Measure]은(는) [!DNL Salesforce] 앱 내에서 연결된 [!DNL Marketo Measure] 사용자를 통해 데이터를 보내고 받습니다.
+[!DNL Marketo Measure]은(는) [!DNL Marketo Measure] 앱 내에서 연결된 [!DNL Salesforce] 사용자를 통해 데이터를 보내고 받습니다.
 
 터치포인트 데이터를 [!DNL Salesforce] 인스턴스로 푸시하려면 연결된 사용자가 [!DNL Marketo Measure]개의 사용자 지정 개체(즉, Buyer Touchpoint 및 Buyer Attribution Touchpoint)와 리드 및 연락처와 같은 표준 [!DNL Salesforce]개의 개체에 액세스할 수 있어야 합니다. Salesforce에서 [[!DNL Marketo Measure] 을(를) 참조하십시오](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md).
 
-[!DNL Salesforce] 관리자 사용자 라이선스는 기본적으로 필요한 데이터 권한이 있는 경우가 많으므로 연결된 사용자 역할을 할 수 있습니다. 하지만 귀하의 팀은 [!DNL Salesforce]이(가) 인스턴스에 미치는 영향을 추적하기 위해 통합 사용자 또는 전용 [!DNL Marketo Measure] 사용자 라이선스를 사용하는 것을 선호할 수 있습니다.
+[!DNL Salesforce] 관리자 사용자 라이선스는 기본적으로 필요한 데이터 권한이 있는 경우가 많으므로 연결된 사용자 역할을 할 수 있습니다. 하지만 귀하의 팀은 [!DNL Marketo Measure]이(가) 인스턴스에 미치는 영향을 추적하기 위해 통합 사용자 또는 전용 [!DNL Salesforce] 사용자 라이선스를 사용하는 것을 선호할 수 있습니다.
 
 [!DNL Marketo Measure] 데이터가 정확하게 흐르도록 하려면 다음 권한을 사용하는 것이 좋습니다.
 

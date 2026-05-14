@@ -4,9 +4,12 @@ description: Marketo Measure Js - Marketo Measure - 제품 설명서에서 GDPR�
 title: Marketo Measure Js에서 GDPR에 대한 동의 확인
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: 425
 ht-degree: 0%
 
 ---
@@ -48,7 +51,7 @@ GDPR의 목적은 유럽연합(EU) 및 유럽 경제 지역(EEA) 내에서 개�
 
 이렇게 하면 [!DNL bizible.js]이(가) 동의에 도달할 때까지 추적하지 못하도록 합니다. 이는 다음 JS API를 사용하여 수행할 수 있습니다.
 
-*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || { _queue: [], 푸시: 함수(o, p) { 이 항목을 참조하십시오._queue.push({ type: o, data: p }); } };*
+*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || { _queue: [], 푸시: 함수(o, p) { this._queue.push({ type: o, data: p }); } };*
 
 *Bizible입니다. Push(&#39;Consent&#39;, true);*
 

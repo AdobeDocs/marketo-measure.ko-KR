@@ -3,9 +3,12 @@ description: 터치포인트 설정에 대한 우수 사례 - [!DNL Marketo Meas
 title: 접점 설정에 대한 우수 사례
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/57Y-eSngdDje7RcPmmKobrzk2-QWrRyxN2rIVtdrOLQ
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: 651
 ht-degree: 0%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 ## 개요 {#overview}
 
-[!UICONTROL Touchpoint Settings] 앱의 [!DNL Marketo Measure] 섹션에서 [!DNL Marketo Measure] 데이터 및 관련 시스템의 터치포인트를 표시하지 않거나 제거하는 규칙을 설정할 수 있습니다. 이러한 규칙을 사용하면 구매자 접점 데이터에 표시할 필요가 없거나 추적 및 데이터 수집을 방해하지 않고 속성 크레딧을 받고 싶지 않은 특정 데이터 세트를 분리하는 데 도움이 될 수 있습니다.
+[!DNL Marketo Measure] 앱의 [!UICONTROL Touchpoint Settings] 섹션에서 [!DNL Marketo Measure] 데이터 및 관련 시스템의 터치포인트를 표시하지 않거나 제거하는 규칙을 설정할 수 있습니다. 이러한 규칙을 사용하면 구매자 접점 데이터에 표시할 필요가 없거나 추적 및 데이터 수집을 방해하지 않고 속성 크레딧을 받고 싶지 않은 특정 데이터 세트를 분리하는 데 도움이 될 수 있습니다.
 
 **접점 제거**&#x200B;는 [!DNL Marketo Measure]이(가) 규칙 기준에 맞는 CRM의 모든 접점을 제거(즉, 제거)함을 의미합니다. 데이터는 [!DNL Marketo Measure] ROI 대시보드(검색) 내에서 보고할 수 있지만 CRM에는 표시되지 않습니다. CRM 내에서 데이터 스토리지 제한에 대한 스트레스를 완화하는 데 일반적으로 사용됩니다.
 

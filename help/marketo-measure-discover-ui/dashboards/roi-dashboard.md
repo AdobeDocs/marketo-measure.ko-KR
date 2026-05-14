@@ -3,9 +3,12 @@ description: ROI 대시보드 - [!DNL Marketo Measure] - 제품
 title: ROI 대시보드
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/fPjoTK2sNSt8lOg4qePjqJIL8vOPhWy-GK5gQLqeSc4
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: 736
 ht-degree: 0%
 
 ---
@@ -128,7 +131,7 @@ ROI 대시보드는 마케터에게 채널, 하위 채널 및 캠페인의 투�
 
 이 대시보드에는 다음 설정 및 필터가 포함되어 있습니다.
 
-* Date
+* 일자
    * 기준:
       * 생성 일자: 뉴스 리드, 새 기회
       * 비용 발생 일자: 비용

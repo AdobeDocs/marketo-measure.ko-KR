@@ -4,10 +4,12 @@ description: 사용자 지정 수익 금액 필드 사용 - [!DNL Marketo Measur
 title: 사용자 정의 수익 금액 필드 사용
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 0%
+source-wordcount: 602
+ht-degree: 1%
 
 ---
 
@@ -28,7 +30,7 @@ ht-degree: 0%
 
 ## Salesforce Lightning에서 워크플로우 만들기 {#create-the-workflow-in-salesforce-lightning}
 
-다음 단계는 Salesforce Lightning 사용자를 위한 것입니다. 여전히 Salesforce Classic을 사용하는 경우 [&#x200B; 단계는 아래에 나열됩니다](#create-the-workflow-in-salesforce-classic).
+다음 단계는 Salesforce Lightning 사용자를 위한 것입니다. 여전히 Salesforce Classic을 사용하는 경우 [ 단계는 아래에 나열됩니다](#create-the-workflow-in-salesforce-classic).
 
 1. 설정에서 [빠른 찾기] 상자에 &quot;흐름&quot;을 입력하고 **[!UICONTROL Flows]**&#x200B;을(를) 선택하여 흐름 빌더를 시작합니다. 오른쪽 패널에서 **[!UICONTROL New Flow]** 단추를 클릭합니다.
 
@@ -67,7 +69,7 @@ ht-degree: 0%
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 팝업이 나타납니다. 흐름 저장 창에 &quot;흐름 레이블&quot;을 입력합니다(흐름 API 이름이 자동으로 생성됨). **[!UICONTROL Save]**&#x200B;을(를) 다시 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다. 팝업이 나타납니다. 흐름 저장 창에 &quot;흐름 레이블&quot;을 입력합니다(흐름 API 이름이 자동으로 생성됨). **[!UICONTROL Save]**&#x200B;을(를) 다시 클릭합니다.
 
    ![](assets/using-a-custom-revenue-amount-field-8.png)
 
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 ## Salesforce Classic에서 워크플로우 만들기 {#create-the-workflow-in-salesforce-classic}
 
-다음 단계는 Salesforce Classic 사용자를 위한 것입니다. Salesforce Lightning으로 전환한 경우 [&#x200B; 단계는 위에서 찾을 수 있습니다](#create-the-workflow-in-salesforce-lightning).
+다음 단계는 Salesforce Classic 사용자를 위한 것입니다. Salesforce Lightning으로 전환한 경우 [ 단계는 위에서 찾을 수 있습니다](#create-the-workflow-in-salesforce-lightning).
 
 1. **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Workflow & Approvals]** > **[!UICONTROL Workflow Rules]**(으)로 이동합니다.
 

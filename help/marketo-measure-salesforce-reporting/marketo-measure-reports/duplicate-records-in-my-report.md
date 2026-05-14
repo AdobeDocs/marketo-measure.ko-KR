@@ -4,9 +4,12 @@ description: 내 보고서의 중복 레코드 - [!DNL Marketo Measure]
 title: 내 보고서의 레코드 복제
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/jnfw-d0aoXenk-beBuQYFd2IbVZVK4ypvqaOkvpnYxk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 288
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 0%
 >
 >설명서에는 &quot;[!DNL Marketo Measure]&quot;을(를) 지정하는 지침이 표시되지만 CRM에는 여전히 &quot;[!DNL Bizible]&quot;이 표시됩니다. 이를 업데이트하고 리브랜딩이 곧 CRM에 반영되도록 노력하고 있습니다.
 
-[!DNL Marketo Measure]의 [!DNL Salesforce] 보고서를 자세히 살펴보면 보고서에서 &#39;중복&#39; 레코드를 찾을 수 있습니다. [!DNL Marketo Measure]개의 기본 보고서를 검토할 때 이러한 느낌이 들 수 있습니다.
+[!DNL Salesforce]의 [!DNL Marketo Measure] 보고서를 자세히 살펴보면 보고서에서 &#39;중복&#39; 레코드를 찾을 수 있습니다. [!DNL Marketo Measure]개의 기본 보고서를 검토할 때 이러한 느낌이 들 수 있습니다.
 
 구매자 접점 오브젝트 또는 Buyer Attribution Touchpoint 오브젝트로 보고할 때 더 이상 리드, 연락처 또는 기회의 수를 보고하지 않고 해당 표준 오브젝트(리드, 연락처, 기회)에 연결된 구매자 접점 또는 구매자 속성 접점 수를 보고하는 것이 중요합니다.
 
@@ -35,4 +38,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

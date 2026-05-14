@@ -3,10 +3,13 @@ description: '[!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항 
 title: '[!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 17%
+source-wordcount: 1703
+ht-degree: 22%
 
 ---
 
@@ -33,7 +36,7 @@ ht-degree: 17%
     <tr>
       <td rowspan="6">XDM 비즈니스 계정</td>
       <td></td>
-      <td>accountKey.sourceKey</td>
+      <td>계정 키.소스 키</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
@@ -41,11 +44,11 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>accountKey.sourceID</td>
+      <td>accountKey.sourceId</td>
       <td>문자열</td>
       <td>ID</td>
       <td>예</td>
-      <td>예: - 123</td>
+      <td>E.g. - 123</td>
     </tr>
     <tr>
       <td></td>
@@ -53,15 +56,15 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
-      <td>accountKey.sourceType</td>
+      <td>계정 키.소스 유형</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -94,19 +97,19 @@ ht-degree: 17%
     <tr>
       <td rowspan="8">XDM 비즈니스 캠페인</td>
       <td></td>
-      <td>campaignKey.sourceKey</td>
+      <td>campaignKey.소스 키</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>campaignKey.sourceID</td>
+      <td>campaignKey.sourceId</td>
       <td>문자열</td>
       <td>ID</td>
       <td>예</td>
-      <td>예: - 55555</td>
+      <td>E.g. - 55555</td>
     </tr>
     <tr>
       <td></td>
@@ -114,15 +117,15 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
-      <td>campaignKey.sourceType</td>
+      <td>campaignKey.소스 유형</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -183,7 +186,7 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>actualCost.amount</td>
+      <td>actualCost.mount</td>
       <td>번호</td>
       <td>비용</td>
       <td>아니요</td>
@@ -210,7 +213,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 987654321@999-abc-888.Marketo</td>
+      <td>E.g. - 987654321@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -218,7 +221,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td>ID</td>
       <td>예</td>
-      <td>예: - 987654321</td>
+      <td>E.g. - 987654321</td>
     </tr>
     <tr>
       <td></td>
@@ -226,7 +229,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -234,7 +237,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -258,16 +261,16 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 333@999-abc-888.Marketo</td>
+      <td>E.g. - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>personKey.sourceID</td>
+      <td>personKey.sourceId</td>
       <td>문자열</td>
       <td>잠재 고객 ID 또는 연락처 ID</td>
       <td>예</td>
       <td>
-        <p>예: - 333, 데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID입니다.</p>
+        <p>E.g. - 333(데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID)</p>
         <p>리드 또는 연락처에 대한 외래 키</p>
       </td>
     </tr>
@@ -277,7 +280,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -285,24 +288,24 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
-      <td>campaignKey.sourceKey</td>
+      <td>campaignKey.소스 키</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>campaignKey.sourceID</td>
+      <td>campaignKey.sourceId</td>
       <td>문자열</td>
       <td>캠페인 ID</td>
       <td>예</td>
       <td>
-        <p>예: - 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Campaign의 외래 키</p>
       </td>
     </tr>
@@ -312,15 +315,15 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
-      <td>campaignKey.sourceType</td>
+      <td>campaignKey.소스 유형</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -381,7 +384,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -389,7 +392,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -458,7 +461,7 @@ ht-degree: 17%
       <td></td>
       <td>아니요</td>
       <td>
-        <p>예: - 123@999-abc-888.Marketo.</p>
+        <p>E.g. - 123@999-abc-888.Marketo.</p>
         <p>sourceAccountKey 필드 집합은 계정에 연결된 개인 레코드로 정의된 실제 연락처 레코드에 대해서만 "필수"입니다. 누락되어도 데이터 세트가 거부되지 않지만 기여도 분석 결과는 해제됩니다.</p>
         <p>personComponents가 배열이지만 Marketo Measure은 첫 번째 요소 personComponents[0]만 사용합니다.</p>
       </td>
@@ -470,7 +473,7 @@ ht-degree: 17%
       <td>계정 ID</td>
       <td>아니요</td>
       <td>
-        <p>예: - 123.</p>
+        <p>E.g. - 123.</p>
         <p>계정 외래 키</p>
       </td>
     </tr>
@@ -488,7 +491,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>아니요</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td colspan="7"><strong>기회</strong>(Salesforce의 기회, Marketo의 기회)</td>
@@ -504,19 +507,19 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceID</td>
+      <td>영업 기회 키.소스 ID</td>
       <td>문자열</td>
       <td>ID</td>
       <td>예</td>
-      <td>예: - 77777</td>
+      <td>E.g. - 77777</td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceInstanceID</td>
+      <td>opportunityKey.source인스턴스 ID</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -524,7 +527,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -544,7 +547,7 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>accountKey.sourceKey</td>
+      <td>계정 키.소스 키</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
@@ -552,12 +555,12 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>accountKey.sourceID</td>
+      <td>accountKey.sourceId</td>
       <td>문자열</td>
       <td>계정 ID</td>
       <td>예</td>
       <td>
-        <p>예: - 123.</p>
+        <p>E.g. - 123.</p>
         <p>계정 외래 키</p>
       </td>
     </tr>
@@ -567,15 +570,15 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
-      <td>accountKey.sourceType</td>
+      <td>계정 키.소스 유형</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -628,7 +631,7 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>opportunityAmount.amount</td>
+      <td>opportunityMount.amount</td>
       <td>번호</td>
       <td>금액</td>
       <td>예</td>
@@ -659,12 +662,12 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>personKey.sourceID</td>
+      <td>personKey.sourceId</td>
       <td>문자열</td>
       <td>연락처 ID</td>
       <td>예</td>
       <td>
-        <p>예: - 333.</p>
+        <p>e.g. - 333.</p>
         <p>연락처 외래 키</p>
       </td>
     </tr>
@@ -674,7 +677,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -682,7 +685,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -702,22 +705,22 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceID</td>
+      <td>영업 기회 키.소스 ID</td>
       <td>문자열</td>
       <td>기회 ID</td>
       <td>예</td>
       <td>
-        <p>예: - 77777.</p>
+        <p>e.g. - 77777.</p>
         <p>영업 기회에 대한 외래 키</p>
       </td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityKey.sourceInstanceID</td>
+      <td>opportunityKey.source인스턴스 ID</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -725,7 +728,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -737,19 +740,19 @@ ht-degree: 17%
     </tr>
     <tr>
       <td></td>
-      <td>opportunityPersonKey.sourceID</td>
+      <td>opportunityPersonKey.sourceId</td>
       <td>문자열</td>
       <td>ID</td>
       <td>예</td>
-      <td>예: - 222222</td>
+      <td>e.g. - 222222</td>
     </tr>
     <tr>
       <td></td>
-      <td>opportunityPersonKey.sourceInstanceID</td>
+      <td>opportunityPersonKey.source인스턴스 ID</td>
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -757,7 +760,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -801,7 +804,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td>ID</td>
       <td>예</td>
-      <td>예: - 8888</td>
+      <td>e.g. - 8888</td>
     </tr>
     <tr>
       <td></td>
@@ -809,7 +812,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 0x012345</td>
+      <td>E.g. - 0x012345</td>
     </tr>
     <tr>
       <td></td>
@@ -817,7 +820,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Salesforce</td>
+      <td>E.g. - SALESFORCE</td>
     </tr>
     <tr>
       <td></td>
@@ -874,7 +877,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td>ISOCode</td>
       <td>예</td>
-      <td>예: EUR</td>
+      <td>E.g. EUR</td>
     </tr>
     <tr>
       <td></td>
@@ -947,17 +950,17 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 333@999-abc-888.Marketo</td>
+      <td>E.g. - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
-      <td>personKey.sourceID</td>
+      <td>personKey.sourceId</td>
       <td>문자열</td>
       <td>잠재 고객 ID 또는 연락처 ID</td>
       <td>예</td>
       <td>
-        <p>예: - 333, 데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID입니다.</p>
+        <p>E.g. - 333(데이터 소스 테이블에 따라 리드 ID 또는 연락처 ID)</p>
         <p>리드 또는 연락처에 대한 외래 키</p>
       </td>
     </tr>
@@ -968,7 +971,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -977,7 +980,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -986,7 +989,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>leadOperation.addToCampaign 유형에 대해서만 예</td>
-      <td>예: - 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -996,7 +999,7 @@ ht-degree: 17%
       <td>캠페인 ID</td>
       <td>leadOperation.addToCampaign 유형에 대해서만 예</td>
       <td>
-        <p>예: - 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Campaign의 외래 키</p>
       </td>
     </tr>
@@ -1007,7 +1010,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>leadOperation.addToCampaign 유형에 대해서만 예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1016,7 +1019,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>leadOperation.addToCampaign 유형에 대해서만 예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -1025,7 +1028,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>leadOperation.campaignProgression 유형에 대해서만 예</td>
-      <td>예: - 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -1035,7 +1038,7 @@ ht-degree: 17%
       <td>캠페인 ID</td>
       <td>leadOperation.campaignProgression 유형에 대해서만 예</td>
       <td>
-        <p>예: - 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Campaign의 외래 키</p>
       </td>
     </tr>
@@ -1046,7 +1049,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>leadOperation.campaignProgression 유형에 대해서만 예</td>
-      <td>예: - 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1055,7 +1058,7 @@ ht-degree: 17%
       <td>문자열</td>
       <td></td>
       <td>leadOperation.campaignProgression 유형에 대해서만 예</td>
-      <td>예: - Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
   </tbody>
 </table>
@@ -1081,7 +1084,7 @@ ht-degree: 17%
     </tr>
     <tr>
       <td>즐거운 순간</td>
-      <td>leadOperation.interestingMoment</td>
+      <td>leadOperation.interestMoment</td>
       <td>잠재 고객의 가치 높은 활동을 추적하는 데 사용</td>
     </tr>
     <tr>

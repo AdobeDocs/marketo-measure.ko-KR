@@ -4,10 +4,13 @@ description: '[!DNL Marketo Measure] 리소스 목록 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 리소스 목록'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 1%
+source-wordcount: 341
+ht-degree: 3%
 
 ---
 
@@ -32,13 +35,13 @@ ht-degree: 1%
 * [SFDC 캠페인과 구매자 터치포인트 동기화](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [마케팅 비용 업로드](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [광고 계정 다시 연결](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-* [&#x200B; [!DNL Marketo Measure] JavaScript 추가 중](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+* [ [!DNL Marketo Measure] JavaScript 추가 중](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
    * [Forms 제외](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **보고**
 
-* [&#x200B; [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)을(를) 사용하여 사용자 지정 보고서 유형 만들기(사용자 지정 리드/연락처/영업 기회 필드에 대해 보고해야 하는 경우)
-* [&#x200B; [!DNL Marketo Measure] 필드 용어집](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+* [ [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)을(를) 사용하여 사용자 지정 보고서 유형 만들기(사용자 지정 리드/연락처/영업 기회 필드에 대해 보고해야 하는 경우)
+* [ [!DNL Marketo Measure] 필드 용어집](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **문제 해결**
 
@@ -47,12 +50,12 @@ ht-degree: 1%
 
 ## 비디오 {#videos}
 
-다음은 두 개의 비디오입니다    속도를 높이는 데 도움이 됩니다.
+다음은 속도를 높이는 데 도움이 되는 몇 가지 비디오입니다.
 
 * [[!DNL Marketo Measure] 소개 교육](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?)&#x200B;(22분)
-* [[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)&#x200B;(30-45분)
+* [[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)&#x200B;(30-45분)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)&#x200B;(~30분)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)&#x200B;(~30분)**
 
 이 교육 과정 시리즈는 [!DNL Marketo Measure]을(를) 마스터하기 위해 알아야 하는 기본 개념에 대한 일반적인 소개로 설계되었습니다. 속성 개념, [!DNL Marketo Measure]이(가) 도구로 수행하는 작업 및 [!DNL Marketo Measure]이(가) 작동하는 일반 프레임워크에 대한 소개를 제공합니다.
 
@@ -64,7 +67,7 @@ ht-degree: 1%
 * 접점
 * 속성 모델
 
-**[[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)&#x200B;(30~45분)**
+**[[!DNL Marketo Measure] SFDC에서 보고](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)&#x200B;(30~45분)**
 
 이 교육 과정 시리즈는 Salesforce에 설치된 [!DNL Marketo Measure] 스톡 보고서에 대한 소개로 설계되었습니다. 이러한 보고서는 [!DNL Marketo Measure] 데이터로 수행하는 대부분의 보고를 위한 기초 역할을 합니다.
 
@@ -77,7 +80,7 @@ ht-degree: 1%
 * ID별 기회 보고서
 * 채널별 기회 보고서
 
-**[채널 관리](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)**
+**[채널 관리](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
 이 과정에서는 온라인 및 오프라인 추적 측면에서 [!DNL Marketo Measure]을(를) 사용자 지정할 수 있는 다양한 방법을 다룹니다. 이 교육 과정은 보다 고급이며 모든 사용자와 관련이 없을 수 있습니다.
 
@@ -89,4 +92,4 @@ ht-degree: 1%
 * 캠페인 및 캠페인 멤버 필드
 * 오프라인 채널 관리
 
-모든 [초급 전자 학습 동영상](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ko)입니다.
+모든 [초급 전자 학습 동영상](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)입니다.

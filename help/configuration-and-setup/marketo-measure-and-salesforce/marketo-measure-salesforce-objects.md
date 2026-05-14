@@ -4,9 +4,12 @@ description: '[!DNL Marketo Measure] Salesforce 개체 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]개의 Salesforce 개체'
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/JCaHo-8eaHFN-8-nE0mXfgxpxaWP2-cmp-9DwdyW0xk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 927
 ht-degree: 0%
 
 ---
@@ -27,7 +30,7 @@ ht-degree: 0%
 
 추적하려는 항목에서 캡처한 터치포인트는 [!DNL Bizible Salesforce] 패키지 설치에서 만든 사용자 지정 개체에 기록됩니다.
 
-[!DNL Marketo Measure]개의 개체가 특정 표준 [!DNL Salesforce]개의 개체와 관련되어 있습니다. 이를 통해 [!DNL Marketo Measure] 및 [!DNL Salesforce] 개체에 대해 함께 보고할 수 있습니다. 아래 표는 [!DNL Salesforce] 개체와 관련된 [!DNL Marketo Measure] 개체를 보여 줍니다.
+[!DNL Marketo Measure]개의 개체가 특정 표준 [!DNL Salesforce]개의 개체와 관련되어 있습니다. 이를 통해 [!DNL Marketo Measure] 및 [!DNL Salesforce] 개체에 대해 함께 보고할 수 있습니다. 아래 표는 [!DNL Marketo Measure] 개체와 관련된 [!DNL Salesforce] 개체를 보여 줍니다.
 
 ![](assets/1-1.png)
 
@@ -47,7 +50,7 @@ BT 관련 목록에는 잠재 고객 또는 연락처에 속하는 모든 터치
 
 구매자 속성 접점(BAT)은 Buyer Touchpoint(BT) 데이터가 있는 연락처와 관련된 Opportunity가 생성된 후에만 생성됩니다. BAT는 Opportunity 가 없으면 생성되지 않습니다. Opportunity 가 만들어지면 BAT 개체는 Opportunity 의 [!DNL Salesforce] *Amount* 필드를 사용하여 터치 포인트에 지정할 매출액을 파악합니다.
 
-**사용자 지정 금액 필드**&#x200B;를 사용하여 영업 기회 개체에 매출을 표시하는 경우 [워크플로우](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)을(를) 만들어야 합니다. [!DNL Marketo Measure]이(가) 사용자 지정 금액 필드에 표시되는 정보를 읽을 수 없으므로 접점에서 매출 기여도 분석 데이터를 채울 수 없습니다. 이 워크플로에서는 **[!DNL Marketo Measure]사용자 지정 필드 중 하나인** 영업 기회 금액[!DNL Marketo Measure] 필드를 사용하여 사용자 지정 금액 필드의 수익 값을 영업 기회 금액 필드에 매핑합니다.
+[사용자 지정 금액 필드](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)를 사용하여 영업 기회 개체에 매출을 표시하는 경우 **워크플로우**&#x200B;을(를) 만들어야 합니다. [!DNL Marketo Measure]이(가) 사용자 지정 금액 필드에 표시되는 정보를 읽을 수 없으므로 접점에서 매출 기여도 분석 데이터를 채울 수 없습니다. 이 워크플로에서는 [!DNL Marketo Measure] 사용자 지정 필드 중 하나인 **[!DNL Marketo Measure]영업 기회 금액** 필드를 사용하여 사용자 지정 금액 필드의 수익 값을 영업 기회 금액 필드에 매핑합니다.
 
 ![](assets/3-1.png)
 
@@ -69,7 +72,7 @@ BAT 개체가 [!UICONTROL Opportunity], [!UICONTROL Contact] 및 [!UICONTROL Acc
 
 ## [!DNL Marketo Measure] 이벤트 {#marketo-measure-events}
 
-[!DNL Marketo Measure] 이벤트 개체를 사용하면 웹 사이트에서 발생하는 특정 이벤트를 추적할 수 있습니다. 웹 사이트에서 발생하는 특정 이벤트를 추적하려면 [!DNL Marketo Measure] Javascript 외에 사용자 지정 코드를 페이지에 추가해야 합니다. 캡처된 정보는 [!DNL Marketo Measure], [!UICONTROL Leads] 및 [!UICONTROL Contacts] 페이지에서 찾을 수 있는 [!UICONTROL Opportunity] 개체 관련 목록에 표시됩니다. [!DNL Marketo Measure] 이벤트 개체 *은(는) 속성 데이터에 연결되지 않습니다*. 이 개체의 목적은 사람들이 웹 사이트에서 특정 작업을 수행하는지 확인하는 것입니다.
+[!DNL Marketo Measure] 이벤트 개체를 사용하면 웹 사이트에서 발생하는 특정 이벤트를 추적할 수 있습니다. 웹 사이트에서 발생하는 특정 이벤트를 추적하려면 [!DNL Marketo Measure] Javascript 외에 사용자 지정 코드를 페이지에 추가해야 합니다. 캡처된 정보는 [!UICONTROL Leads], [!UICONTROL Contacts] 및 [!UICONTROL Opportunity] 페이지에서 찾을 수 있는 [!DNL Marketo Measure] 개체 관련 목록에 표시됩니다. [!DNL Marketo Measure] 이벤트 개체 *은(는) 속성 데이터에 연결되지 않습니다*. 이 개체의 목적은 사람들이 웹 사이트에서 특정 작업을 수행하는지 확인하는 것입니다.
 
 ## [!DNL Marketo Measure]개 필드 {#marketo-measure-fields}
 
@@ -77,4 +80,4 @@ BAT 개체가 [!UICONTROL Opportunity], [!UICONTROL Contact] 및 [!UICONTROL Acc
 
 ## [!DNL Marketo Measure]개의 보고서 및 대시보드 {#marketo-measure-reports-and-dashboards}
 
-[!DNL Marketo Measure]에 추가된 [!DNL Salesforce] 보고서 및 대시보드는 기본 보고 및 데이터 시각화 기능을 제공합니다. 터치포인트 데이터를 빠르게 구성, 분석 및 이해할 수 있도록 해 주는 기본 [!DNL Marketo Measure] 보고서입니다.
+[!DNL Salesforce]에 추가된 [!DNL Marketo Measure] 보고서 및 대시보드는 기본 보고 및 데이터 시각화 기능을 제공합니다. 터치포인트 데이터를 빠르게 구성, 분석 및 이해할 수 있도록 해 주는 기본 [!DNL Marketo Measure] 보고서입니다.

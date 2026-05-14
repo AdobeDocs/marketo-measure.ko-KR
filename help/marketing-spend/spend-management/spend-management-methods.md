@@ -3,9 +3,13 @@ description: 지출 관리 메서드 - [!DNL Marketo Measure]
 title: 지출 관리 방법
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/HdGBr6tPbjbLrO71Zr1MWN6i19TuDIaqvEhgWcNNxAY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 421
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 **1개의 API 연결 계정**
 
-API를 통해 [!DNL Marketo Measure]에 연결한 모든 광고 계정에서 ROI 보고를 위해 해당 비용을 자동으로 [!DNL Marketo Measure]&#x200B;(으)로 가져옵니다. 연결된 계정을 확인하여 지출을 늘리려면 [!DNL Marketo Measure] 앱으로 이동하여 [!UICONTROL Connections] 섹션 아래의 [!UICONTROL Integrations] 탭을 선택하십시오. API 연결 설정에 대한 자세한 내용은 [통합 광고 플랫폼](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms)을 검토하세요.
+API를 통해 [!DNL Marketo Measure]에 연결한 모든 광고 계정에서 ROI 보고를 위해 해당 비용을 자동으로 [!DNL Marketo Measure]&#x200B;(으)로 가져옵니다. 연결된 계정을 확인하여 지출을 늘리려면 [!DNL Marketo Measure] 앱으로 이동하여 [!UICONTROL Integrations] 섹션 아래의 [!UICONTROL Connections] 탭을 선택하십시오. API 연결 설정에 대한 자세한 내용은 [통합 광고 플랫폼](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms)을 검토하세요.
 
 **2 CRM Campaign 비용 동기화**
 
@@ -28,9 +32,9 @@ API를 통해 [!DNL Marketo Measure]에 연결한 모든 광고 계정에서 ROI
 
 활성화되면 이 기능은 다음 기준을 충족하는 CRM 캠페인/프로그램에서 자동으로 사용됩니다.
 
-i. [!DNL Marketo Measure]은(는) 먼저 캠페인/프로그램이 터치포인트를 만드는 중인지 확인합니다. 일치하는 [캠페인 동기화 규칙](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 또는 일치하는 [프로그램 동기화 규칙](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md)이 만들어졌는지, [구매자 터치포인트 사용](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints)이(가) &quot;모든 캠페인 멤버 포함&quot; 또는 &quot;응답된&quot; 캠페인 멤버 포함&quot;인지.
+난... [!DNL Marketo Measure]은(는) 먼저 캠페인/프로그램이 터치포인트를 만들고 있는지 확인합니다. 만든 일치하는 [캠페인 동기화 규칙](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 또는 만든 일치하는 [프로그램 동기화 규칙](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md)에서 또는 [구매자 터치포인트 사용](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints)이(가) &quot;모든 캠페인 멤버 포함&quot; 또는 &quot;응답된&quot; 캠페인 멤버 포함&quot;인지 확인합니다.
 
-아.. 캠페인/프로그램에 시작 날짜를 채워야 합니다.
+ii. 캠페인/프로그램에 시작 날짜를 채워야 합니다.
 
 iii. 캠페인/프로그램에서 종료 날짜를 채워야 합니다.
 

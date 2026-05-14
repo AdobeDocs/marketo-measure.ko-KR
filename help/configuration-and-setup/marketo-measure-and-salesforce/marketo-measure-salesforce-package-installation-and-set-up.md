@@ -3,9 +3,12 @@ description: '[!DNL Marketo Measure] Salesforce 패키지 설치 및 설정 - [!
 title: '[!DNL Marketo Measure] [!DNL Salesforce] 패키지 설치 및 설정'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: 504
 ht-degree: 0%
 
 ---
@@ -42,7 +45,7 @@ ht-degree: 0%
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-설치를 완료한 후 원하는 경우 [[!DNL Salesforce]  필드로 &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"}페이지 레이아웃[!DNL Marketo Measure]을 업데이트할 수 있습니다.
+설치를 완료한 후 원하는 경우 [!DNL Marketo Measure] 필드로 [[!DNL Salesforce] 페이지 레이아웃](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"}을 업데이트할 수 있습니다.
 
 >[!NOTE]
 >
@@ -50,7 +53,7 @@ ht-degree: 0%
 
 ## [!DNL Marketo Measure] 프로필 및 사용자 만들기 {#creating-a-marketo-measure-profile-and-user}
 
-[!DNL Marketo Measure]은(는) [!DNL Salesforce] 앱 내에서 연결된 [!DNL Marketo Measure] 사용자를 통해 데이터를 보내고 받습니다.
+[!DNL Marketo Measure]은(는) [!DNL Marketo Measure] 앱 내에서 연결된 [!DNL Salesforce] 사용자를 통해 데이터를 보내고 받습니다.
 
 터치포인트 데이터를 [!DNL Salesforce] 인스턴스로 푸시하려면 연결된 사용자가 [!DNL Marketo Measure]개의 사용자 지정 개체(예: Buyer Touchpoint 및 Buyer Attribution Touchpoint)와 리드 및 연락처와 같은 표준 [!DNL Salesforce]개 개체에 액세스할 수 있어야 합니다.
 
@@ -69,7 +72,7 @@ Salesforce으로 데이터를 푸시할 때 유효성 검사 오류가 발생하
 >
 >이 프로필은 시스템 관리자 프로필의 복제본일 수 있습니다.
 
-2단계: [!DNL Marketo Measure]이(가) [!DNL Marketo Measure] 인스턴스에 미치는 영향을 추적할 수 있도록 전용 [!DNL Salesforce] 사용자를 만드십시오.
+2단계: [!DNL Marketo Measure]이(가) [!DNL Salesforce] 인스턴스에 미치는 영향을 추적할 수 있도록 전용 [!DNL Marketo Measure] 사용자를 만드십시오.
 
 1. 해당 사용자에게 새 [!DNL Marketo Measure] 프로필을 할당하십시오.
 
@@ -83,9 +86,9 @@ Salesforce으로 데이터를 푸시할 때 유효성 검사 오류가 발생하
 
 1. apps.bizible.com으로 이동하여 새 사용자 프로덕션 [!DNL Salesforce] 자격 증명으로 로그인합니다.
 
-1. **[!UICONTROL Settings]** 드롭다운에서 **[!UICONTROL My Account]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL My Account]** 드롭다운에서 **[!UICONTROL Settings]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Connections]** 그룹화 내에서 **[!UICONTROL Integrations]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Integrations]** 그룹화 내에서 **[!UICONTROL Connections]**&#x200B;을(를) 선택합니다.
 
 1. 현재 연결된 [!DNL Salesforce] 연결 오른쪽에 있는 키 아이콘을 클릭하고 **프로덕션으로 재인증**&#x200B;을 선택합니다. 새 사용자 자격 증명으로 다시 로그인합니다(메시지가 표시되면).
 

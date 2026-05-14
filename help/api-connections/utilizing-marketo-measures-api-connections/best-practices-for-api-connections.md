@@ -3,9 +3,14 @@ description: API 연결 모범 사례 - [!DNL Marketo Measure]
 title: API 연결 우수 사례
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: 751
 ht-degree: 0%
 
 ---
@@ -35,7 +40,7 @@ ht-degree: 0%
 
 모범 사례 권장 사항에 따라 [!DNL Marketo Measure] [!DNL Facebook] API는 다음을 수행할 수 있습니다.
 
-* 필요한 [!DNL Facebook] 매개 변수 [!DNL Marketo Measure]을(를) 사용하여 모든 `_bf ={creative}` 광고에 자동 태그 지정
+* 필요한 [!DNL Marketo Measure] 매개 변수 `_bf ={creative}`을(를) 사용하여 모든 [!DNL Facebook] 광고에 자동 태그 지정
 * 모든 활성 [!DNL Facebook] 광고에서 광고 비용 정보 다운로드
 
 >[!NOTE]
@@ -48,7 +53,7 @@ ht-degree: 0%
 
 모범 사례 권장 사항에 따라 [!DNL Marketo Measure] AdWords API는 다음을 수행할 수 있습니다.
 
-* [!DNL Marketo Measure]의 `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}` 매개 변수로 모든 AdWords 광고에 자동 태그 지정
+* `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}`의 [!DNL Marketo Measure] 매개 변수로 모든 AdWords 광고에 자동 태그 지정
 * 모든 활성 AdWords 광고에 대한 광고 비용 정보 다운로드
 
 **Bing**: 계정 수준에서 추적 템플릿을 구현하고 자동 태그 지정을 사용하도록 설정합니다.
@@ -74,7 +79,7 @@ ht-degree: 0%
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}
 
-모범 사례를 따르면 연결이 끊어진 경우 데이터가 손실되지 않도록 보호하지만, 가능하면 정기적으로 월별 연결을 검토하는 것이 좋습니다. 이는 [!UICONTROL Connections] 앱의 [!DNL Marketo Measure] 섹션을 간단하게 시각적으로 확인하여 연결이 끊어진 계정에 표시하며 빨간색 키 아이콘이 없는지 확인합니다.
+모범 사례를 따르면 연결이 끊어진 경우 데이터가 손실되지 않도록 보호하지만, 가능하면 정기적으로 월별 연결을 검토하는 것이 좋습니다. 이는 [!DNL Marketo Measure] 앱의 [!UICONTROL Connections] 섹션을 간단하게 시각적으로 확인하여 연결이 끊어진 계정에 표시하며 빨간색 키 아이콘이 없는지 확인합니다.
 
 API 연결 계정의 연결이 끊어진 경우 [!DNL Marketo Measure]에서 지출 데이터를 가져오거나 새 광고에 태그를 지정할 수 없습니다. 가능한 경우 항상 추적 템플릿을 구현하는 것이 좋습니다. 템플릿은 광고 계정 연결이 끊어지더라도 [!DNL Marketo Measure]이(가) 광고에 태그를 지정하고 세분화된 광고 세부 정보를 가져올 수 있도록 합니다. 다시 연결되면 지출 데이터가 다시 채워지고 유료 채널 보고에 미치는 영향이 최소화됩니다.
 

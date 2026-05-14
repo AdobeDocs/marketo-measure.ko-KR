@@ -4,10 +4,13 @@ description: 리드 병합 모범 사례 - [!DNL Marketo Measure]
 title: 리드 병합에 대한 우수 사례
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/VonT7Suvlt5VjzPqZ9UWoVe3ZTpPsk4c-7q-0wLplA0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 0%
+source-wordcount: 200
+ht-degree: 3%
 
 ---
 
@@ -15,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Salesforce]에서 Lead를 병합할 때는 데이터가 손실되지 않도록 항상 주의하는 것이 좋습니다.
 
-[&#x200B; 지원에서 &#x200B;](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5)잠재 고객 병합 방법[!DNL Salesforce]에 대해 설명합니다.
+[!DNL Salesforce] 지원에서 [잠재 고객 병합 방법](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5)에 대해 설명합니다.
 
 [!DNL Marketo Measure]이(가) 들어오는 위치는 병합된 레코드에서 채워지는 필드를 선택할 때입니다. 기본 레코드를 선택하면 [!DNL Marketo Measure] 필드가 새 레코드로 전달되도록 선택되었는지 확인합니다.
 

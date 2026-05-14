@@ -4,10 +4,13 @@ description: 페이지 레이아웃 지침 - [!DNL Marketo Measure]
 title: 페이지 레이아웃 지침
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/KNYz3Z-pabPi2n-QEfpp-tUynRaO22WmEdY27r-amu8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 2%
+source-wordcount: 764
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ ht-degree: 2%
 
 1. 빌드 옵션에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Page Layouts]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Page Layouts]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/1-1.jpg)
 
@@ -45,7 +48,7 @@ ht-degree: 2%
 
    ![](assets/4-1.jpg)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    >[!NOTE]
    >
@@ -55,7 +58,7 @@ ht-degree: 2%
 
 1. 빌드 옵션에서 **[!UICONTROL Leads]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Page Layouts]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Page Layouts]**&#x200B;을(를) 클릭합니다.
 
 1. 업데이트할 페이지 레이아웃 옆에 있는 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다. 여러 페이지 레이아웃에는 구매자 터치포인트 섹션이 포함될 수 있습니다.
 
@@ -95,7 +98,7 @@ ht-degree: 2%
 
 1. 빌드 옵션에서 **[!UICONTROL Contacts]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Page Layouts]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Page Layouts]**&#x200B;을(를) 클릭합니다.
 
 1. 편집할 페이지 레이아웃을 선택합니다.
 
@@ -124,7 +127,7 @@ ht-degree: 2%
 
    * 속성 접점
    * 마케팅 채널
-   * 기회
+   * 영업 기회
    * 광고 캠페인 이름
    * 접점 유형
    * 접점 위치
@@ -136,13 +139,13 @@ ht-degree: 2%
 
 1. 단추 섹션을 확장하고 **[!UICONTROL New]**&#x200B;을(를) 선택 취소합니다.
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## 기회 {#opportunities}
+## 영업 기회 {#opportunities}
 
 1. 빌드 옵션에서 **[!UICONTROL Opportunities]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Page Layouts]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Page Layouts]**&#x200B;을(를) 클릭합니다.
 
 1. 편집할 페이지 레이아웃을 선택합니다.
 
@@ -160,15 +163,15 @@ ht-degree: 2%
 
 1. [!UICONTROL Touchpoint Date] > [!UICONTROL Ascending]을(를) 기준으로 정렬합니다.
 
-1. **[!UICONTROL New]** 섹션 내에서 [!UICONTROL Buttons]을(를) 선택 취소합니다.
+1. [!UICONTROL Buttons] 섹션 내에서 **[!UICONTROL New]**&#x200B;을(를) 선택 취소합니다.
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 계정 {#accounts}
 
 1. 빌드 옵션에서 **[!UICONTROL Accounts]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Page Layouts]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Page Layouts]**&#x200B;을(를) 클릭합니다.
 
 1. 편집할 페이지 레이아웃을 선택합니다.
 
@@ -176,7 +179,7 @@ ht-degree: 2%
 
    * 속성 접점
    * 마케팅 채널
-   * 기회
+   * 영업 기회
    * 광고 캠페인 이름
    * 접점 유형
    * 접점 위치
@@ -186,8 +189,8 @@ ht-degree: 2%
 
 1. 접점 날짜 > 오름차순으로 정렬합니다.
 
-1. **[!UICONTROL New]** 섹션 내에서 [!UICONTROL Buttons]을(를) 선택 취소합니다.
+1. [!UICONTROL Buttons] 섹션 내에서 **[!UICONTROL New]**&#x200B;을(를) 선택 취소합니다.
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 [!DNL Marketo Measure] ABM 기능을 사용하는 경우 [추가 페이지 레이아웃 지침](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)을 검토하십시오.

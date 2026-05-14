@@ -4,9 +4,12 @@ description: 연결된 계정 다시 인증 - [!DNL Marketo Measure]
 title: 연결된 계정 재인증
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/mp53G9-w1l43mBQM1ijW8tTh7rNQ75cPAimZA-kdLvs
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: 188
 ht-degree: 0%
 
 ---
@@ -24,7 +27,7 @@ CRM 플랫폼의 연결이 끊기면 [!DNL Marketo Measure]에서 [!DNL Marketo 
 ## 연결이 끊어진 계정 다시 인증 {#re-authorizing-disconnected-accounts}
 
 1. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}(으)로 이동하여 로그인합니다.
-1. 왼쪽 상단 모서리의 **[!UICONTROL Settings]** 탭에서 [!UICONTROL My Account]을(를) 선택합니다.
+1. 왼쪽 상단 모서리의 [!UICONTROL My Account] 탭에서 **[!UICONTROL Settings]**&#x200B;을(를) 선택합니다.
 1. 왼쪽의 통합 섹션을 찾아 **[!UICONTROL Connections]**&#x200B;을(를) 클릭합니다.
 1. 다시 연결해야 하는 계정 옆의 빨간색 키 기호를 선택합니다.
 1. 계정에 대한 로그인 세부 정보를 입력하라는 팝업 창이 나타납니다.

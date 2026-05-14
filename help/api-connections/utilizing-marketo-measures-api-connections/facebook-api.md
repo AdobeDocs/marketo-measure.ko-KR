@@ -4,9 +4,13 @@ description: '[!DNL Facebook] API - [!DNL Marketo Measure]'
 title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 485
 ht-degree: 0%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 0%
 
 AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 두 가지 기본적인 작업을 수행합니다.
 
-* [!DNL Facebook] 매개 변수(_bf)를 사용하여 모든 [!DNL Marketo Measure] 광고에 자동 태그 지정
+* [!DNL Marketo Measure] 매개 변수(_bf)를 사용하여 모든 [!DNL Facebook] 광고에 자동 태그 지정
 * 모든 활성 Facebook 광고에서 광고 비용 정보 다운로드
 
 ## [!DNL Facebook] 통합을 구성하는 방법 {#how-to-configure-the-facebook-integration}
@@ -34,7 +38,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
    >[!DNL Facebook Ads] 계정을 연결하는 사람은 [!DNL Facebook Ads] 계정 내에서 관리자여야 합니다.
 
 1. [!DNL Marketo Measure]이(가) Facebook 계정에 연결되면 계정 옆에 있는 연필 아이콘을 클릭합니다.
-1. 이 보기 내에서 &#39;자동 태그 지정?&#39;을 이동합니다. &#39;예&#39;로 전환합니다. [!UICONTROL Learn More] 섹션에 있는 확인란을 선택하여 약관에 동의합니다. [!UICONTROL Auto-tagging] 토글이 여전히 &#39;[!UICONTROL Yes]&#39;(으)로 설정되어 있는지 확인하십시오.
+1. 이 보기 내에서 &#39;자동 태그 지정?&#39; 토글을 &#39;예&#39;로 이동합니다. [!UICONTROL Learn More] 섹션에 있는 확인란을 선택하여 약관에 동의합니다. [!UICONTROL Auto-tagging] 토글이 여전히 &#39;[!UICONTROL Yes]&#39;(으)로 설정되어 있는지 확인하십시오.
 
 ## 계정 연결 {#connecting-the-account}
 
@@ -72,7 +76,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr> 
   <tr> 
    <td><p>광고 캠페인 이름 </p></td> 
-   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign] (제공된 경우)</p></td> 
+   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign](제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>광고 그룹 ID</p></td> 
@@ -84,11 +88,11 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr> 
   <tr> 
    <td><p>터치포인트 Source</p></td> 
-   <td><p>"[!DNL Facebook]" 또는 [utm_source] (제공된 경우)</p></td> 
+   <td><p>"[!DNL Facebook]" 또는 [utm_source](제공된 경우)</p></td> 
   </tr> 
   <tr> 
-   <td><p>보통</p></td> 
-   <td><p>"Social" 또는 [utm_medium] (제공된 경우)</p></td> 
+   <td><p>중간</p></td> 
+   <td><p>"Social" 또는 [utm_medium](제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>광고 Id 또는 Creative_Unique_Id(Data Warehouse)</p></td> 
@@ -96,11 +100,11 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr> 
   <tr> 
    <td><p>광고 컨텐츠 또는 Creative_Name(Data Warehouse)</p></td> 
-   <td><p>[utm_content] (제공된 경우)</p></td> 
+   <td><p>[utm_content](제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>키워드 텍스트 또는 Keyword_Name(Data Warehouse)</p></td> 
-   <td><p>[utm_term] (제공된 경우)</p></td> 
+   <td><p>[utm_term](제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>Ad_Unique_Id(Data Warehouse)</p></td> 
@@ -131,7 +135,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
 
 ## FAQ {#faq}
 
-**Q: [!DNL Facebook]에서 지원하는 [!DNL Marketo Measure] 광고는 무엇입니까?**
+**Q: [!DNL Marketo Measure]에서 지원하는 [!DNL Facebook] 광고는 무엇입니까?**
 
 A: 회전 메뉴, 단일 이미지 지금은 비디오, 슬라이드쇼 또는 컬렉션이 아닙니다.
 

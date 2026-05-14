@@ -3,10 +3,13 @@ description: Adobe Launch와 [!DNL Marketo Measure] 통합 - [!DNL Marketo Measu
 title: Adobe Launch와 [!DNL Marketo Measure] 통합
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/5bgXPo2wv7eeJqnrDZkYYasapORBU3V1MxgGOgoKrTw
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 1%
+source-wordcount: 289
+ht-degree: 3%
 
 ---
 
@@ -22,11 +25,11 @@ Adobe Launch에 설치 및 구성할 때 [!DNL Marketo Measure] 확장은 Adobe 
 >
 >Adobe Launch 및 그 확장에 대한 자세한 내용은 다음 링크를 확인하십시오.
 >
->* [[!DNL Marketo Measure] 확장](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=ko#catalog){target="_blank"}
->* [Adobe 시작 개요](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=ko){target="_blank"}
->* [Adobe Launch 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=ko){target="_blank"}
+>* [[!DNL Marketo Measure] 확장](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [Adobe 시작 개요](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+>* [Adobe Launch 확장 개요](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. 이 문서의 [단계에 따라 속성을 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=ko#go-to-the-data-collection-interface){target="_blank"}.
+1. 이 문서의 [단계에 따라 속성을 만듭니다](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
 1. 생성한 속성을 클릭합니다.
 
@@ -56,11 +59,11 @@ Adobe Launch에 설치 및 구성할 때 [!DNL Marketo Measure] 확장은 Adobe 
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-7.png)
 
-1. **[!UICONTROL Add]** 아래의 [!UICONTROL Events] 단추를 클릭합니다.
+1. [!UICONTROL Events] 아래의 **[!UICONTROL Add]** 단추를 클릭합니다.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-8.png)
 
-1. 확장 드롭다운에서 **[!UICONTROL Core]**&#x200B;을(를) 선택합니다. 그런 다음 이벤트 유형 드롭다운에서 **[!UICONTROL Library Loaded (Page Top)]**&#x200B;을(를) 선택합니다. 이벤트에 이름을 지정하지 않으면 기본 이름이 적용됩니다. 완료되면 **[!UICONTROL Keep Changes]**&#x200B;을(를) 클릭합니다.
+1. 확장 드롭다운에서 **[!UICONTROL Core]**&#x200B;을(를) 선택합니다. 그런 다음 이벤트 유형 드롭다운에서 **[!UICONTROL Library Loaded (Page Top)]**&#x200B;을(를) 선택합니다. 이벤트에 이름을 지정하지 않으면 기본 이름이 적용됩니다. 완료되면 **[!UICONTROL Keep Changes]**&#x200B;를 클릭합니다.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-9.png)
 
@@ -68,7 +71,7 @@ Adobe Launch에 설치 및 구성할 때 [!DNL Marketo Measure] 확장은 Adobe 
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-10.png)
 
-1. 확장 드롭다운에서 **[!UICONTROL Bizible Analytics]**&#x200B;을(를) 선택합니다. 그런 다음 작업 유형 드롭다운에서 **[!UICONTROL Initialize]**&#x200B;을(를) 선택합니다. 작업에 이름을 지정하지 않으면 기본 이름이 적용됩니다. 완료되면 **[!UICONTROL Keep Changes]**&#x200B;을(를) 클릭합니다.
+1. 확장 드롭다운에서 **[!UICONTROL Bizible Analytics]**&#x200B;을(를) 선택합니다. 그런 다음 작업 유형 드롭다운에서 **[!UICONTROL Initialize]**&#x200B;을(를) 선택합니다. 작업에 이름을 지정하지 않으면 기본 이름이 적용됩니다. 완료되면 **[!UICONTROL Keep Changes]**&#x200B;를 클릭합니다.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-11.png)
 

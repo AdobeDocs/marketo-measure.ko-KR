@@ -4,9 +4,11 @@ description: 접점 생성 및 매핑 - [!DNL Marketo Measure]
 title: 접점 생성 및 매핑
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/otuePoQBPvb-UEJCTI1CeyA1BYQ7Jn-jZQm63si-6uA
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: 357
 ht-degree: 0%
 
 ---
@@ -40,9 +42,9 @@ ht-degree: 0%
 
 | **상호 작용 유형** | **생성 메서드** | **매핑 메서드** |
 |---|---|---|
-| 온라인, 사이트에서 | [!DNL Marketo Measure] JavaScript | UTM 값, 랜딩 페이지 및 참조 페이지 정보를 참조하여 [!DNL Online Channels]의 [!DNL Marketo Measure] 페이지를 통해 |
-| 오프라인, 사이트가 아닌 온라인 | CRM Campaign 구성원 동기화 | [!UICONTROL Offline Channels]의 [!DNL Marketo Measure] 페이지를 통해 캠페인 유형 참조 |
-| 영업 활동 | CRM 활동 동기화 | [!UICONTROL Online Channels]의 [!DNL Marketo Measure] 페이지에서 [!UICONTROL Activities] 페이지에 지정된 캠페인 이름을 참조하도록 합니다. |
+| 온라인, 사이트에서 | [!DNL Marketo Measure] JavaScript | UTM 값, 랜딩 페이지 및 참조 페이지 정보를 참조하여 [!DNL Marketo Measure]의 [!DNL Online Channels] 페이지를 통해 |
+| 오프라인, 사이트가 아닌 온라인 | CRM Campaign 구성원 동기화 | [!DNL Marketo Measure]의 [!UICONTROL Offline Channels] 페이지를 통해 캠페인 유형 참조 |
+| 영업 활동 | CRM 활동 동기화 | [!DNL Marketo Measure]의 [!UICONTROL Online Channels] 페이지에서 [!UICONTROL Activities] 페이지에 지정된 캠페인 이름을 참조하도록 합니다. |
 
 >[!MORELIKETHIS]
 >

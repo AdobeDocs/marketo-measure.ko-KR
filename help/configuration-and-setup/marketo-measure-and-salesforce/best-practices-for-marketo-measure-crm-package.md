@@ -3,9 +3,12 @@ description: ' [!DNL Marketo Measure] CRM 패키지 - [!DNL Marketo Measure]에 
 title: ' [!DNL Marketo Measure] CRM 패키지 모범 사례'
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/E8LQ0-uUC-xqhG9D7CSuprsjkABJ54azWFSEdiuFABk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: 415
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 ## 개요 {#overview}
 
-[!DNL Marketo Measure]은(는) [!DNL Salesforce] 및 [!DNL Microsoft Dynamics]과(와) 통합됩니다. 이 문서에서는 [!DNL Marketo Measure]용으로 설계된 CRM 패키지에 대한 [!DNL Salesforce] 모범 사례에 중점을 둡니다.
+[!DNL Marketo Measure]은(는) [!DNL Salesforce] 및 [!DNL Microsoft Dynamics]과(와) 통합됩니다. 이 문서에서는 [!DNL Salesforce]용으로 설계된 CRM 패키지에 대한 [!DNL Marketo Measure] 모범 사례에 중점을 둡니다.
 
 구현 중에 다음 두 패키지가 [!DNL Salesforce] 인스턴스에 설치되었을 것입니다.
 

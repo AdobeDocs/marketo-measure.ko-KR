@@ -4,10 +4,13 @@ description: '[!DNL Marketo Measure] 쿠키 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 쿠키'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 10%
+source-wordcount: 409
+ht-degree: 9%
 
 ---
 
@@ -97,7 +100,7 @@ ht-degree: 10%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>타사, 도메인=.<a href="https://business.adobe.com/kr/products/marketo/bizible.html">bizible.com</a></td>
+    <td>타사, 도메인=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
     <td>여러 도메인에서 사용자를 식별하는 범용 사용자 ID입니다.</td>
     <td>1년</td>
     <td>예</td>
@@ -106,7 +109,7 @@ ht-degree: 10%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>타사, 도메인=.<a href="https://bizibly.com/">bizibilly.com</a></td>
+    <td>타사, 도메인=.<a href="https://bizibly.com/">biziblily.com</a></td>
     <td>임차인의 도메인에 있는 Marketo Measure 쿠키 ID와 해당 Doubleclick 노출 쿠키 ID 간의 매핑.</td>
     <td>1년</td>
     <td>예</td>

@@ -4,10 +4,13 @@ description: ' [!DNL Marketo Measure] 프로필 만들기 - [!DNL Marketo Measur
 title: ' [!DNL Marketo Measure] 프로필 만들기'
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/7LvGF-KnE-FAkp1eLwawZUbFqac4cWAH9YmPKXaqKsM
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 0%
+source-wordcount: 185
+ht-degree: 3%
 
 ---
 
@@ -33,8 +36,8 @@ ht-degree: 0%
 1. [!DNL Marketo Measure] 계정에 로그인하고 새 사용자와의 [!DNL Salesforce] 연결을 다시 승인합니다.
 
    * [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}(으)로 이동하여 새 사용자 프로덕션 Salesforce 자격 증명으로 로그인합니다.
-   * &quot;[!UICONTROL Settings]&quot; 드롭다운 내에서 &quot;[!UICONTROL My Account]&quot; 선택
-   * &quot;[!UICONTROL Connections]&quot; 그룹화 내에서 &quot;[!UICONTROL Integrations]&quot; 선택
+   * &quot;[!UICONTROL My Account]&quot; 드롭다운 내에서 &quot;[!UICONTROL Settings]&quot; 선택
+   * &quot;[!UICONTROL Integrations]&quot; 그룹화 내에서 &quot;[!UICONTROL Connections]&quot; 선택
    * 현재 연결된 [!DNL Salesforce] 연결 오른쪽에 있는 키 아이콘을 클릭하고 프로덕션으로 재인증하도록 선택합니다. 그런 다음 메시지가 표시되면 새 사용자 자격 증명으로 다시 로그인합니다
 
    완료!

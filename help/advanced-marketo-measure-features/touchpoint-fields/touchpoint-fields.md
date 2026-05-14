@@ -4,9 +4,12 @@ description: 접점 필드 - [!DNL Marketo Measure]
 title: 접점 필드
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: 1956
 ht-degree: 0%
 
 ---
@@ -44,13 +47,13 @@ ht-degree: 0%
 목표: 보다 쉬운 보고를 위해 사용자 지정 필드의 값을 사용하여 터치포인트 오브젝트에 넣습니다.
 
 * 계산된 필드를 만들고 &quot;Campaign Source&quot;로 레이블 지정
-* Contact.Campaign_Source__c 필드 검색으로 시작하여 규칙을 정의합니다.
+* Contact.Campaign___c 필드 검색으로 시작하여 규칙을 정의합니다.
 * 매개 변수에서 값을 추출해야 하므로 연산자 &quot;extracts&quot;를 사용합니다.
 * 필드에서 전체 문자열을 추출하려면 &quot;(.&#42;)&quot; 식을 사용합니다.
 
    * **(**&#x200B;은(는) 추출 시작을 표시합니다.
    * **)**&#x200B;이(가) 추출 끝을 표시합니다.
-   * **.&#42;**&#x200B;이(가) 전체 문자열을 추출하는 중임을 알려줍니다.
+   * **.&#42;** 는 전체 문자열을 추출하는 중임을 알려줍니다.
 
 ![](assets/two.png)
 
@@ -88,7 +91,7 @@ ht-degree: 0%
    * **(**&#x200B;은(는) 추출 시작을 표시합니다.
    * **)**&#x200B;이(가) 추출 끝을 표시합니다.
    * **\d**&#x200B;이(가) &quot;숫자&quot;를 추출하고 있음을 알려줍니다.
-   * **{6}**&#x200B;은(는) 추출 중인 문자 수입니다
+   * **{6}**&#x200B;은(는) 추출 중인 문자 수입니다.
 
 ![](assets/four.png)
 
@@ -107,7 +110,7 @@ ht-degree: 0%
    * **(**&#x200B;은(는) 추출 시작을 표시합니다.
    * **)**&#x200B;이(가) 추출 끝을 표시합니다.
    * **\w**&#x200B;은(는) &quot;단어&quot;를 추출하고 있음을 알려줍니다.
-   * **{2}**&#x200B;은(는) 추출 중인 문자 수입니다
+   * **{2}**&#x200B;은(는) 추출 중인 문자 수입니다.
 
 * 계산된 필드를 만들고 &quot;사용자 지정 캠페인 ID&quot;로 레이블 지정
 * Touchpoint.Session.LandingPage 필드 검색으로 시작하여 규칙을 정의합니다.
@@ -117,7 +120,7 @@ ht-degree: 0%
    * **(**&#x200B;은(는) 추출 시작을 표시합니다.
    * **)**&#x200B;이(가) 추출 끝을 표시합니다.
    * **\d**&#x200B;이(가) &quot;숫자&quot;를 추출하고 있음을 알려줍니다.
-   * **{6}**&#x200B;은(는) 추출 중인 문자 수입니다
+   * **{6}**&#x200B;은(는) 추출 중인 문자 수입니다.
 
 ![](assets/five.png)
 
@@ -140,7 +143,7 @@ ht-degree: 0%
 * 계산된 필드를 만들고 &quot;지역&quot;으로 레이블 지정
 * Touchpoint.Session.LandingPage 필드 검색으로 시작하여 규칙을 정의합니다.
 * 매개 변수에서 값을 가져와야 하므로 연산자 &quot;[!UICONTROL extracts]&quot;을(를) 사용합니다.
-* &quot;04&quot; 값을 추출하려면 값을 &quot;BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2}&quot;로 정의합니다.
+* &quot;04&quot; 값을 추출하려면 값을 &quot;BZ=(\d)-\d{2}-\d{2}-\d{2}-\d{2}-\d{2}&quot;로 정의합니다.
 
    * **(**&#x200B;은(는) 추출 시작을 표시합니다.
 
@@ -149,11 +152,11 @@ ht-degree: 0%
 
       * 우리는 4만 추출하므로 앞 숫자에만 닫힌 괄호가 있다
    * **\d**&#x200B;이(가) &quot;숫자&quot;를 추출하고 있음을 알려줍니다.
-   * **{2}**&#x200B;은(는) 추출 중인 문자 수입니다
+   * **{2}**&#x200B;은(는) 추출 중인 문자 수입니다.
 
 
 
-* [!UICONTROL Save]을(를) 클릭합니다. 새 필드를 다음 규칙에 사용할 수 있으려면 먼저 저장해야 합니다!
+* [!UICONTROL Save]를 클릭합니다. 새 필드를 다음 규칙에 사용할 수 있으려면 먼저 저장해야 합니다!
 * 다음으로, 우리는 첫 숫자에 대해 가능한 모든 값을 친숙한 이름에 매핑하려고 한다
 * 계산된 필드를 만들고 &quot;Region_Name&quot; 레이블을 지정합니다.
 * 추출된 필드 검색부터 시작하여 규칙을 정의합니다. 이 경우 [!DNL Touchpoint.Region]
@@ -162,7 +165,7 @@ ht-degree: 0%
 * 위의 매핑 및 URL에 따라 이 랜딩 페이지가 있는 터치포인트에 대한 &quot;Region_Value&quot;는 &quot;EMEA&quot;가 됩니다.
 * 나머지 4자리 숫자 세트에 대해 추출과 매핑을 반복합니다
 
-   * 01을 추출하려면 값을 &quot;BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2}&quot;로 정의합니다.
+   * 01을 추출하려면 값을 &quot;BZ=\d-**(\d{2})**-\d{2}-\d{2}-\d{2}-\d{2}&quot;로 정의합니다.
    * 09를 추출하려면 값을 &quot;BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}&quot;로 정의합니다.
    * 03을 추출하려면 값을 &quot;BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;로 정의합니다.
    * 10을 추출하려면 값을 &quot;BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;로 정의합니다.

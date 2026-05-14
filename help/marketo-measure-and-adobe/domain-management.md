@@ -3,9 +3,12 @@ description: 도메인 관리 - [!DNL Marketo Measure]
 title: 도메인 관리
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 559
 ht-degree: 0%
 
 ---
@@ -20,11 +23,11 @@ Adobe Admin Console에 대한 액세스 권한이 있는 IMS 사용자는 자신
 
 ![](assets/domain-management-1.png)
 
-도메인 추가 지침은 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/using/add-domains-directories.html)에서 찾을 수 있습니다. 도메인이 추가되면 [디렉터리에 연결](https://helpx.adobe.com/kr/enterprise/using/add-domains-directories.html#link-domains-to-directoies)되어야 합니다.
+도메인 추가 지침은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/using/add-domains-directories.html)에서 찾을 수 있습니다. 도메인이 추가되면 [디렉터리에 연결](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies)되어야 합니다.
 
 ## [!DNL Marketo Measure]에서 도메인 관리 {#managing-domains-in-marketo-measure}
 
-도메인이 Admin Console에 추가되면 [!DNL Marketo Measure]이(가) 이 레코드를 정기적으로 데이터베이스에 동기화합니다. 이러한 동기화는 매일 밤 수행되며 사용자가 **[!UICONTROL Domains]** UI에서 [!DNL Marketo Measure] 페이지를 방문할 때마다 수행됩니다. 기본적으로 [!DNL Marketo Measure]에서 가져오는 모든 레코드는 비활성화되며 테넌트는 각 도메인을 수동으로 활성화해야 합니다.
+도메인이 Admin Console에 추가되면 [!DNL Marketo Measure]이(가) 이 레코드를 정기적으로 데이터베이스에 동기화합니다. 이러한 동기화는 매일 밤 수행되며 사용자가 [!DNL Marketo Measure] UI에서 **[!UICONTROL Domains]** 페이지를 방문할 때마다 수행됩니다. 기본적으로 [!DNL Marketo Measure]에서 가져오는 모든 레코드는 비활성화되며 테넌트는 각 도메인을 수동으로 활성화해야 합니다.
 
 ![](assets/domain-management-2.png)
 

@@ -4,9 +4,12 @@ description: Salesforce 활동 속성 - [!DNL Marketo Measure]
 title: Salesforce 활동 속성
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/ti99Z40gvNCYWahCq2viPcNh-eAW4-laO3C6fBY7INU
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: 642
 ht-degree: 1%
 
 ---
@@ -42,7 +45,7 @@ ht-degree: 1%
 
 [!DNL Marketo Measure] 캠페인 이름이 설정되면 활동 규칙을 설정할 차례입니다.
 
-규칙은 어떤 레코드가 속성에 적합한지 알려주는 필터 역할을 합니다. 유사한 논리를 사용하여 CRM에서 보고서를 생성하여 해당 보고서를 생성한다고 가정해 보겠습니다. 및/또는 문과 `matches any`, `contains`, `starts with`, `ends with`, `is equal to` 등의 다양한 연산자의 조합을 유연하게 사용할 수 있습니다. 상자 외부의 boxed 규칙 또는 레이어 `and` 문 내에서 `or` 문을 정의합니다.
+규칙은 어떤 레코드가 속성에 적합한지 알려주는 필터 역할을 합니다. 유사한 논리를 사용하여 CRM에서 보고서를 생성하여 해당 보고서를 생성한다고 가정해 보겠습니다. 및/또는 문과 `matches any`, `contains`, `starts with`, `ends with`, `is equal to` 등의 다양한 연산자의 조합을 유연하게 사용할 수 있습니다. 상자 외부의 boxed 규칙 또는 레이어 `or` 문 내에서 `and` 문을 정의합니다.
 
 ![](assets/3.png)
 
@@ -64,7 +67,7 @@ ht-degree: 1%
 
 ![](assets/5.png)
 
-이러한 새로운 접점을 적절한 [마케팅 채널](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20채널){target="_blank"}에 배치하려는 것 같습니다. 방금 만든 새 캠페인 매핑으로 채널을 정의하여 이 작업을 수행합니다.
+이러한 새로운 접점을 적절한 [마케팅 채널](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}에 배치하려는 것 같습니다. 방금 만든 새 캠페인 매핑으로 채널을 정의하여 이 작업을 수행합니다.
 
 >[!TIP]
 >

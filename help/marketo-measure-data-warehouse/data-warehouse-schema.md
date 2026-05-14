@@ -4,10 +4,13 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '21110'
-ht-degree: 3%
+source-wordcount: 21775
+ht-degree: 8%
 
 ---
 
@@ -75,7 +78,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 계정의 마지막 수정 날짜입니다.</td>
-      <td>2018년 8월 1일 17일:38:30년 0월 0일</td>
+      <td>2018-08-01 17:38:30.000</td>
     </tr>
     <tr>
       <td>이름</td>
@@ -180,7 +183,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>0013100001phrBAAY</td>
     </tr>
     <tr>
-      <td>이메일</td>
+      <td>EMAIL</td>
       <td>varchar</td>
       <td>연락처 관계 또는 잠재 고객 대 계정 매핑을 통해 계정에 매핑된 이메일 주소.</td>
       <td>person@adobe.com</td>
@@ -189,7 +192,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>소스 시스템에서 계정의 마지막 수정 날짜입니다.</td>
-      <td>2018년 8월 31일 23일:53:39년 0월</td>
+      <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
@@ -2033,7 +2036,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       </td>
     </tr>
     <tr>
-      <td>이메일</td>
+      <td>EMAIL</td>
       <td>varchar</td>
       <td>BAT과 연계된 이메일 주소.</td>
       <td>person@adobe.com</td>
@@ -3558,7 +3561,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>
@@ -4546,7 +4549,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "Creative"입니다.</p>
       </td>
       <td>
-        <p>Creative</p>
+        <p>창작</p>
       </td>
     </tr>
     <tr>
@@ -4971,7 +4974,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
         <p>소스 시스템에서 작업을 마지막으로 수정한 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 27일 18일:31:53년 0월</p>
+        <p>2018-08-27 18:31:53.000</p>
       </td>
     </tr>
     <tr>
@@ -5703,7 +5706,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>
@@ -5732,7 +5735,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행의 마지막 수정 날짜</p>
       </td>
       <td>
-        <p>2018년 8월 14일 23일:55:03년 0월</p>
+        <p>2018-08-14 23:55:03.000</p>
       </td>
     </tr>
     <tr>
@@ -5742,7 +5745,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>행의 생성 날짜</p>
       </td>
       <td>
-        <p>2018년 8월 14일 23일:55:03년 0월</p>
+        <p>2018-08-14 23:55:03.000</p>
       </td>
     </tr>
     <tr>
@@ -6120,7 +6123,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>날짜</td>
       <td>날짜</td>
       <td>이벤트 발생 날짜.</td>
-      <td>2018년 8월 28일</td>
+      <td>2018-08-28</td>
     </tr>
     <tr>
       <td>타임스탬프</td>
@@ -6321,7 +6324,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>소스 시스템에서 Opportunity 가 생성된 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 31일 15일:45:47년 0월</p>
+        <p>2018-08-31 15:45:47.000</p>
       </td>
     </tr>
     <tr>
@@ -6357,7 +6360,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       </td>
     </tr>
     <tr>
-      <td>이메일</td>
+      <td>EMAIL</td>
       <td>varchar</td>
       <td>레코드에 대한 이메일 주소.</td>
       <td>personb@adobe.com</td>
@@ -6664,7 +6667,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>쿼리 매개 변수를 포함하여 양식이 제출된 URL입니다.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6747,7 +6750,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>
@@ -6918,7 +6921,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>쿼리 매개 변수를 포함하여 노출이 제공된 URL입니다.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzNkhW</td>
     </tr>
     <tr>
       <td>
@@ -8097,7 +8100,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>
@@ -8372,7 +8375,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>
@@ -8937,7 +8940,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>
@@ -9082,7 +9085,7 @@ Opportunity 의 Stage 전환
         <p>단계 순위에 따라 다음 단계에 대한 전환 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 27일 19일:40:52년 0월</p>
+        <p>2018-08-27 19:40:52.000</p>
       </td>
     </tr>
     <tr>
@@ -9333,7 +9336,7 @@ Opportunity 의 Stage 전환
         <p>쿼리 매개 변수를 포함하여 페이지 보기가 시작된 URL입니다.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9350,7 +9353,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>
@@ -9846,7 +9849,7 @@ Opportunity 의 Stage 전환
         <p>세션 날짜.</p>
       </td>
       <td>
-        <p>2016년 8월 1일 14일:24:21년 0월 0일</p>
+        <p>2016-08-01 14:24:21.000</p>
       </td>
     </tr>
     <tr>
@@ -9912,7 +9915,7 @@ Opportunity 의 Stage 전환
         <p>쿼리 매개 변수를 포함한 세션의 첫 번째 페이지 보기 URL</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -10749,7 +10752,7 @@ Opportunity 의 Stage 전환
       <td>
         <p>이 테이블의 주 개체 또는 엔터티입니다. 이 경우 "사이트"입니다.</p>
       </td>
-      <td>위치</td>
+      <td>사이트</td>
     </tr>
     <tr>
       <td>
@@ -10955,7 +10958,7 @@ Opportunity 의 Stage 전환
         <p>행의 마지막 수정 날짜</p>
       </td>
       <td>
-        <p>2018년 8월 2일 06일:36:50년 0월 0일</p>
+        <p>2018-08-02 06:36:50.000</p>
       </td>
     </tr>
     <tr>
@@ -10967,7 +10970,7 @@ Opportunity 의 Stage 전환
         <p>사이트 링크를 처음 다운로드한 날짜 [!DNL Marketo Measure]</p>
       </td>
       <td>
-        <p>2018년 8월 2일 06일:36:50년 0월 0일</p>
+        <p>2018-08-02 06:36:50.000</p>
       </td>
     </tr>
     <tr>
@@ -11302,7 +11305,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>BT와 연계된 이메일 주소.</td>
@@ -11381,7 +11384,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트의 날짜입니다.</p>
       </td>
       <td>
-        <p>2018년 8월 27일 20일:04:40년 0월</p>
+        <p>2018-08-27 20:04:40.000</p>
       </td>
     </tr>
     <tr>
@@ -11613,7 +11616,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. 원시 랜딩 페이지에는 URL의 모든 쿼리 매개 변수가 포함됩니다. CRM에서는 "랜딩 페이지 - 원시"라고 합니다.</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12437,7 +12440,7 @@ Opportunity 의 Stage 전환
     </tr>
     <tr>
       <td>
-        <p>이메일</p>
+        <p>EMAIL</p>
       </td>
       <td>varchar</td>
       <td>
@@ -12532,7 +12535,7 @@ Opportunity 의 Stage 전환
         <p>사용자 터치포인트가 발생한 날짜.</p>
       </td>
       <td>
-        <p>2018년 1월 5일 16일:47:02월 0일</p>
+        <p>2018-01-05 16:47:02.000</p>
       </td>
     </tr>
     <tr>
@@ -12628,7 +12631,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. 원시 랜딩 페이지에는 URL의 모든 쿼리 매개 변수가 포함됩니다. CRM에서는 "랜딩 페이지 - 원시"라고 합니다.</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12676,7 +12679,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트를 초래한 세션에 기록된 첫 번째 양식입니다. 이후 양식 제출은 Attribution_Touchpoints 테이블에 표시되지 않고 Form_Submits 테이블에 표시됩니다. 원시 양식 페이지는 URL에 쿼리 매개 변수를 포함할 수 있습니다. CRM에서 "양식 URL - 원시"라고 합니다.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13265,7 +13268,7 @@ Opportunity 의 Stage 전환
       <td>varchar</td>
       <td>쿼리 매개 변수를 포함한 페이지 보기의 URL.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
