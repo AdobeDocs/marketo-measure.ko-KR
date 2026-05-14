@@ -5,8 +5,11 @@ title: ' [!DNL Marketo Measure] 스크립트 추가 중'
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
 TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1291
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] JavaScript을 배포하는 것 외에도  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"}에서 [모든 적절한 도메인을 요청했는지 확인하십시오.
+>[!DNL Marketo Measure] JavaScript을 배포하는 것 외에도  [!DNL Adobe Admin Console][&#128279;](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"}에서 모든 적절한 도메인을 요청했는지 확인하십시오.
 
 [!DNL Marketo Measure]을(를) 시작할 때 다음 두 가지 방법으로 웹 사이트에 [!DNL Marketo Measure] JavaScript을(를) 추가할 수 있습니다.
 
@@ -61,7 +64,7 @@ JavaScript을 페이지의 `<head>`에 하드코딩하면 [!DNL Marketo Measure]
 
 서드파티 페이지를 사용하는 경우 [!DNL Marketo Measure] 컨설턴트와 사용 사례에 대해 대화합니다. 일반적으로 필요한 경우 [!DNL Marketo Measure] JavaScript의 사용자 지정 버전을 추가하여 해당 페이지를 추적할 수 있는지 알고 싶을 수 있습니다. 가능하지 않은 경우 CRM Campaign 터치포인트를 통한 추적은 [!DNL Marketo Measure] 컨설턴트와 함께 탐색됩니다.
 
-[!DNL Marketo Measure]이(가) 기여도 분석에 적합하지 않으므로 추적하지 말아야 할 양식이 있습니까? 등록 취소 양식, 고객 로그인 등 이 경우 이 문서](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}의 제외 코드 [을(를) 각 양식에 추가합니다.
+[!DNL Marketo Measure]이(가) 기여도 분석에 적합하지 않으므로 추적하지 말아야 할 양식이 있습니까? 등록 취소 양식, 고객 로그인 등 이 경우 이 문서[&#128279;](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}의 제외 코드 을(를) 각 양식에 추가합니다.
 
 비보안 페이지가 있습니까? 보안/비보안 페이지 간을 탐색하면 추적 세션이 중단되므로 이 둘을 보호해야 합니다.
 

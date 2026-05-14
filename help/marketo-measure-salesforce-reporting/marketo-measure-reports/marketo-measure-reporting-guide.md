@@ -4,8 +4,12 @@ title: '[!DNL Marketo Measure] 보고 안내서'
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
 TQID: https://experienceleague.adobe.com/qdhOT569T3OyHBOuwBGbxAV-kYaCJnfP6qJ8Mb-A4Wk
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 5685
@@ -38,7 +42,7 @@ ht-degree: 1%
 1. **구매자 접점**(BT)/개인/총 참여
 
    * _개인_(잠재 고객, 연락처, [!DNL Marketo Measure]명)과 관련된 &#39;funnel 상위&#39;(TOFU) 지표 및 보고에 일반적으로 사용됩니다.
-   * BT는 각 사용자에 대한 전체 접점 기록이 포함되어 있으므로 **사람**과 관련된 모든 마케팅 상호 작용을 이해하는 데 사용됩니다. 다시 말해서 이러한 터치포인트는 익명의 첫 번째 터치, 잠재 고객 만들기 터치 및 동기화하기로 선택한 후속 양식 제출 또는 터치포인트용 CRM에서 만들어집니다
+   * BT는 각 사용자에 대한 전체 접점 기록이 포함되어 있으므로 **사람**&#x200B;과 관련된 모든 마케팅 상호 작용을 이해하는 데 사용됩니다. 다시 말해서 이러한 터치포인트는 익명의 첫 번째 터치, 잠재 고객 만들기 터치 및 동기화하기로 선택한 후속 양식 제출 또는 터치포인트용 CRM에서 만들어집니다
 오프라인 캠페인 또는 활동.
 
 1. **구매자 속성 접점**(BAT)/기회/계정 수준/매출

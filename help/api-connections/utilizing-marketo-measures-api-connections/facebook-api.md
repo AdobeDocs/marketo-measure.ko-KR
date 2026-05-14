@@ -5,9 +5,13 @@ title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
 TQID: https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
-subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 485
@@ -76,7 +80,7 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr> 
   <tr> 
    <td><p>광고 캠페인 이름 </p></td> 
-   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign](제공된 경우)</p></td> 
+   <td><p>[[!DNL Facebook] 캠페인 이름] 또는 [utm_campaign] (제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>광고 그룹 ID</p></td> 
@@ -88,11 +92,11 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr> 
   <tr> 
    <td><p>터치포인트 Source</p></td> 
-   <td><p>"[!DNL Facebook]" 또는 [utm_source](제공된 경우)</p></td> 
+   <td><p>"[!DNL Facebook]" 또는 [utm_source] (제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>중간</p></td> 
-   <td><p>"Social" 또는 [utm_medium](제공된 경우)</p></td> 
+   <td><p>"Social" 또는 [utm_medium] (제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>광고 Id 또는 Creative_Unique_Id(Data Warehouse)</p></td> 
@@ -100,11 +104,11 @@ AdWords 및 [!DNL Bing Ads] 통합과 마찬가지로 [!DNL Facebook] 통합은 
   </tr> 
   <tr> 
    <td><p>광고 컨텐츠 또는 Creative_Name(Data Warehouse)</p></td> 
-   <td><p>[utm_content](제공된 경우)</p></td> 
+   <td><p>[utm_content] (제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>키워드 텍스트 또는 Keyword_Name(Data Warehouse)</p></td> 
-   <td><p>[utm_term](제공된 경우)</p></td> 
+   <td><p>[utm_term] (제공된 경우)</p></td> 
   </tr> 
   <tr> 
    <td><p>Ad_Unique_Id(Data Warehouse)</p></td> 
