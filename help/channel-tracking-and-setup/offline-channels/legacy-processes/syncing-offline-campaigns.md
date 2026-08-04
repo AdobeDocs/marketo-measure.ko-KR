@@ -5,8 +5,7 @@ title: 오프라인 캠페인 동기화
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
 TQID: https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 727
@@ -65,18 +64,18 @@ ht-degree: 0%
 ![](assets/4-3.png)
 
 * **모든 캠페인 멤버 포함**
-   * 이 옵션을 사용하면 [!DNL Marketo Measure]에서 각 캠페인 멤버에 터치포인트를 지정할 수 있습니다.
+  * 이 옵션을 사용하면 [!DNL Marketo Measure]에서 각 캠페인 멤버에 터치포인트를 지정할 수 있습니다.
 
 * **응답한 캠페인 구성원을 포함합니다.**
-   * 이 옵션은 &quot;응답됨&quot; 상태인 캠페인 멤버에게 터치포인트를 적용합니다.
+  * 이 옵션은 &quot;응답됨&quot; 상태인 캠페인 멤버에게 터치포인트를 적용합니다.
 
 * **모든 캠페인 구성원을 제외합니다.**
-   * 이 옵션은 캠페인의 구성원에 터치포인트를 지정하지 않으며 [!DNL Marketo Measure]에서 캠페인이 의도적으로 제외된 플래그 역할을 합니다. 우연히 구매자 터치포인트와 캠페인을 동기화하는 경우 상태를 &quot;모든 캠페인 멤버 제외&quot;로 변경할 수 있으며 터치포인트가 제거됩니다.
+  * 이 옵션은 캠페인의 구성원에 터치포인트를 지정하지 않으며 [!DNL Marketo Measure]에서 캠페인이 의도적으로 제외된 플래그 역할을 합니다. 우연히 구매자 터치포인트와 캠페인을 동기화하는 경우 상태를 &quot;모든 캠페인 멤버 제외&quot;로 변경할 수 있으며 터치포인트가 제거됩니다.
 
 이 선택 항목 중 하나를 선택하면 [!DNL Marketo Measure]에서 해당되는 경우 각 캠페인 멤버에게 터치포인트를 할당합니다. [!DNL Marketo Measure]에서 터치포인트를 만들려면 _필수_ 캠페인에 추가된 잠재 고객 또는 연락처에 레코드와 연결된 전자 메일 주소가 있어야 합니다. 전자 메일 주소가 없으면 [!DNL Marketo Measure]은(는) 캠페인 멤버에게 터치포인트를 할당하지 않습니다.
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->[[!DNL Marketo Measure] 자습서: Campaign 개체 필드](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Campaign 개체 필드](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
