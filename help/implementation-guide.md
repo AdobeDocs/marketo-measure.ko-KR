@@ -45,7 +45,7 @@ Ultimate 사용자는 AEP에서 프로비저닝됩니다. 이미 AEP이 있는 �
 
 >[!NOTE]
 >
->스키마, 클래스 및 필드 그룹에 대한 개요는 [스키마 빌딩 블록](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"}을 확인하십시오.
+>스키마, 클래스 및 필드 그룹에 대한 개요는 [스키마 빌딩 블록](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#building-blocks-of-a-schema){target="_blank"}을 확인하십시오.
 
 **XDM 스키마 = 클래스 + 스키마 필드 그룹&#42;**
 
@@ -56,13 +56,13 @@ Ultimate 사용자는 AEP에서 프로비저닝됩니다. 이미 AEP이 있는 �
 
 ![&42; 스키마가 클래스와 0개 이상의 스키마 필드로 구성됩니다](assets/marketo-guide-1.png)
 
-[데이터 세트 개요](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: AEP에 성공적으로 수집된 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다.
+[데이터 세트 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: AEP에 성공적으로 수집된 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다.
 
 ## 스키마 만들기 {#creating-a-schema}
 
 10개의 표준 B2B 스키마를 만들려면 자동 생성 유틸리티를 사용하는 것이 좋습니다.
 
-* [&#x200B; 유틸리티를 다운로드하고 설정하는 단계는 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}에서 찾을 수 있습니다.
+* [&#x200B; 유틸리티를 다운로드하고 설정하는 단계는 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=ko#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}에서 찾을 수 있습니다.
 
 _&#x200B;**CDP 권한**&#x200B;_&#x200B;이 있는 사용자의 경우: 소스 페이지로 이동하여 스키마를 만드십시오.
 
@@ -80,7 +80,7 @@ _&#x200B;**CDP 권한**&#x200B;_&#x200B;이 있는 사용자의 경우: 소스 �
 >
 >새 데이터 세트를 추가할 때 기존 데이터 세트를 사용하지 않고 플로우를 만드는 것이 좋습니다.
 
-[데이터 흐름 개요](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
+[데이터 흐름 개요](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=ko){target="_blank"}
 
 **데이터 흐름을 만드는 단계:**
 
@@ -95,7 +95,7 @@ _&#x200B;**CDP 권한**&#x200B;_&#x200B;이 있는 사용자의 경우: 소스 �
    >* 하나의 스키마 유형을 다른 동일한 스키마 유형에 매핑하면 자동으로 수행됩니다.
    >* 시스템의 다른 흐름에서 매핑을 가져올 수도 있습니다.
    >* 하나의 Source 필드를 여러 대상 필드에 매핑할 수 있지만 반대는 수행할 수 없습니다.
-   >* 계산된 필드([데이터 준비 매핑 함수](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"})를 만들 수 있습니다.
+   >* 계산된 필드([데이터 준비 매핑 함수](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ko){target="_blank"})를 만들 수 있습니다.
 
    >[!CAUTION]
    >
@@ -123,7 +123,7 @@ _&#x200B;**CDP 권한**&#x200B;_&#x200B;이 있는 사용자의 경우: 소스 �
 
 ![옵션 1: UI에서 직접 쿼리를 실행하려면 쿼리에 액세스하세요](assets/marketo-guide-4.png)
 
-옵션 2: [PSQL 다운로드 및 사용](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"}(더 빠르고 안정적인).
+옵션 2: [PSQL 다운로드 및 사용](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=ko){target="_blank"}(더 빠르고 안정적인).
 
 ## Marketo Measure에 대한 데이터 세트 활성화 {#activate-dataset-for-marketo-measure}
 

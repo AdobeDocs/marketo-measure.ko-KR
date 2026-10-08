@@ -131,6 +131,6 @@ Ultimate에는 직접 CRM 연결이 없으므로 속성 터치포인트는 CRM�
 
 >[!MORELIKETHIS]
 >
->* [Marketo Measure Ultimate 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
+>* [Marketo Measure Ultimate 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ko){target="_blank"}
 >
 >* [비디오: Marketo Measure Ultimate 개요](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
