@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 속성 매핑 방법론 지침
 title: 속성 매핑 방법론
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
-
 ---
-
 # 속성 매핑 방법론 {#attribution-mapping-methodology}
 
 속성 매핑 방법론은 CRM의 특정 개체(연락처, 기회, 계정)를 조회하여 연결된 기회에 속성 접점을 만드는 프로세스입니다. 즉, 현재 CRM의 프로세스를 기반으로 속성 모델에 포함할 터치포인트를 [!DNL Marketo Measure]에서 이해하는 것입니다.

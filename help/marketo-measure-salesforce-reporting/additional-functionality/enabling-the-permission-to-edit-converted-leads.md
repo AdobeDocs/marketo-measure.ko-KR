@@ -4,18 +4,21 @@ description: 전환된 리드를 편집할 수 있는 권한 사용 - [!DNL Mark
 title: 전환된 리드를 편집할 수 있는 권한 활성화
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
 feature: Tracking
-TQID: https://experienceleague.adobe.com/HPiPX-majV643tP2uWodzIjGeAJB0mBSF21d3OPFW9Y
+TQID: 'https://experienceleague.adobe.com/HPiPX-majV643tP2uWodzIjGeAJB0mBSF21d3OPFW9Y'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 147
+source-wordcount: '147'
 ht-degree: 0%
-
 ---
-
 # 전환된 리드를 편집할 수 있는 권한 활성화 {#enabling-the-permission-to-edit-converted-leads}
 
 [!DNL Salesforce]에서 전환된 잠재 고객 레코드를 편집할 수 있는 권한을 활성화하는 방법을 알아봅니다. [!DNL Marketo Measure]은(는) Salesforce의 다양한 개체에 데이터를 푸시할 수 있습니다. Leads 로 푸시할 때 일부 시나리오에서 이미 전환된 Lead 레코드로 다시 푸시해야 할 수 있습니다. 해당 레코드에 데이터를 푸시하려면 연결된 사용자에게 프로필 수준에서 전환된 리드를 보고 편집할 수 있는 권한이 있어야 합니다.

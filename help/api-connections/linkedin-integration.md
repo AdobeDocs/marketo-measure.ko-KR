@@ -3,13 +3,19 @@ description: Marketo Measure 사용자를 위한 LinkedIn 통합 지침
 title: LinkedIn 통합
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2769'
 ht-degree: 0%
-
 ---
-
 # LinkedIn 통합 {#linkedin-integration}
 
 ## 개요 {#overview}
@@ -87,7 +93,7 @@ LinkedIn과의 [!DNL Marketo Measure] 통합은 다음 두 부분으로 구성�
 
 이 [!DNL Marketo Measure/LinkedIn] 통합을 통해 고객은 기존 크리에이티브를 복사/복제/복제하지 마십시오. 공유가 발견되고 하나의 Creative에서만 사용되는 것으로 감지되면 [!DNL Marketo Measure]은(는) 광고 기록(노출 횟수, 클릭 수, 공유)이 모두 유지되기 때문에 광고 또는 공유를 다시 만들 필요 없이 공유에 태그를 지정할 수 있습니다.
 
-공유가 여러 크리에이티브 간에 공유되는 경우 [!DNL Marketo Measure]은(는) 고유한 집합을 만들기 위해 일시 중지, 복사 및 다시 태그 지정 프로세스를 실행해야 합니다. [!DNL Marketo Measure] 는 모든 것을 제대로 자동 태깅하기 위해 라이브 크리에이티브를 일시 중지하고 보관하므로 노출, 클릭 수 및 소셜 공유를 비롯한 광고 내역을 삭제합니다.
+공유가 여러 크리에이티브 간에 공유되는 경우 [!DNL Marketo Measure]은(는) 고유한 집합을 만들기 위해 일시 중지, 복사 및 다시 태그 지정 프로세스를 실행해야 합니다. [!DNL Marketo Measure]은(는) 모든 항목을 제대로 자동 태깅하기 위해 라이브 크리에이티브를 일시 중지하고 보관하므로 노출 횟수, 클릭 수 및 소셜 공유를 포함한 광고 기록을 지웁니다.
 
 앞으로 [!DNL Marketo Measure]은(는) [!DNL LinkedIn] 공유를 복제하지 않고 광고 기록을 삭제하지 않고 추적을 추가할 수 있도록 모든 크리에이티브 및 공유를 가능한 한 고유하게 유지할 것을 권장합니다.
 
@@ -108,7 +114,7 @@ Creative D : 공유 234
 
 ![Creative D : 공유 234](../assets/marketo-engage-activities-05.png)
 
-`1)` [!DNL Marketo Measure]은(는) 먼저 &quot;활성&quot; 상태인 모든 캠페인, 크리에이티브 및 공유를 살펴봅니다. [!DNL Marketo Measure] 일시 중지, 보관 또는 취소된 광고는 태그를 지정하지 않습니다. 광고가 일시 중지된 경우 [!UICONTROL active]&#x200B;(으)로 설정하면 광고가 다시 활성화되면 태깅합니다. 고유한 공유를 찾을 수 있습니다. 즉, 여러 크리에이티브 또는 캠페인(예: Creative A : 공유 123)에서 사용되지 않는 경우 [!DNL Marketo Measure]이(가) 공유 URL에 사용자 지정 매개 변수 `>> ?_bl={creativeId}`을(를) 추가합니다.
+`1)` [!DNL Marketo Measure]은(는) 먼저 &quot;활성&quot; 상태인 모든 캠페인, 크리에이티브 및 공유를 살펴봅니다. [!DNL Marketo Measure]은(는) 일시 중지, 보관 또는 취소된 광고에 태그를 지정하지 않습니다. 광고가 일시 중지된 경우 [!UICONTROL active]&#x200B;(으)로 설정하면 광고가 다시 활성화되면 태깅합니다. 고유한 공유를 찾을 수 있습니다. 즉, 여러 크리에이티브 또는 캠페인(예: Creative A : 공유 123)에서 사용되지 않는 경우 [!DNL Marketo Measure]이(가) 공유 URL에 사용자 지정 매개 변수 `>> ?_bl={creativeId}`을(를) 추가합니다.
 
 `2)` 이제 공유가 공유되어 고유성이 상실된 경우(예: Creative B : Share 234 및 Creative C : Share 234 및 Creative D : Share 234) [!DNL Marketo Measure]은(는) 유사한 모든 크리에이티브(Creative B, Creative C 및 Creative D)를 일시 중지하고 보관합니다.
 
@@ -134,7 +140,7 @@ Creative D : 공유 234
 
 LinkedIn 양식에는 여러 개의 이메일 주소가 포함될 수 있습니다. 양식 응답을 다운로드할 때 작업 이메일, 이메일 주소(기본 양식 필드) 또는 유효한 이메일 값이 있는 사용자 정의 필드 등 우선순위가 있는 이메일 주소를 찾습니다.
 
-Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터치포인트가 생성됩니다. [!DNL Marketo Measure] 90일 전환 확인 제한이 있으므로 [!DNL Marketo Measure]이(가) 90일 넘는 양식 응답에 액세스할 수 없지만 [!DNL Marketo Measure] 및 [!DNL LinkedIn] 통합이 활성화된 기간이 길수록 [!DNL Marketo Measure]을(를) 통해 더 많은 리드 원본 양식 터치포인트가 표시됩니다.
+Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터치포인트가 생성됩니다. [!DNL Marketo Measure]에 90일 전환 확인 제한이 있으므로 [!DNL Marketo Measure]이(가) 90일보다 오래된 양식 응답에 액세스할 수 없지만 [!DNL Marketo Measure] 및 [!DNL LinkedIn] 통합이 활성화된 기간이 길수록 [!DNL Marketo Measure]을(를) 통해 더 많은 잠재 고객 원본 양식 터치포인트가 표시됩니다.
 
 >[!NOTE]
 >
@@ -284,7 +290,7 @@ Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터�
 
 **[!DNL Marketo Measure]에서 실제로 태깅하는 상태는 무엇입니까?**
 
-[!DNL LinkedIn] Campaign 및 Creative에는 활성, 일시 중지됨, 보관됨 및 취소됨의 네 가지 상태가 있습니다. 활성 상태인 캠페인 및 크리에이티브에 태깅합니다. 다른 상태에 태그를 지정하면 해당 상태가 다시 활성으로 설정됩니다. [!DNL Marketo Measure] 일시 중지됨, 보관됨 또는 취소됨 캠페인 또는 크리에이티브에 태깅하지 않지만 상태가 활성으로 변경되면 태깅을 다시 시작합니다.
+[!DNL LinkedIn] Campaign 및 Creative에는 활성, 일시 중지됨, 보관됨 및 취소됨의 네 가지 상태가 있습니다. 활성 상태인 캠페인 및 크리에이티브에 태깅합니다. 다른 상태에 태그를 지정하면 해당 상태가 다시 활성으로 설정됩니다. [!DNL Marketo Measure]은(는) 일시 중지됨, 보관됨 또는 취소됨 캠페인 또는 크리에이티브에 태그를 지정하지 않지만 상태가 활성으로 변경되면 태그 지정을 다시 시작합니다.
 
 **[!DNL Marketo Measure]이(가) 태그에 사용하는 값은 무엇입니까?**
 
@@ -304,11 +310,11 @@ Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터�
 
 **죄송합니다. 내 팀의 누군가가 실수로 주식을 복제했습니다. 일시 중지할 수 있습니까?**
 
-걱정 마 [!DNL Marketo Measure] 은 더 이상 고유하지 않은, 즉 다른 Creative에 복사된 공유를 프로그래밍 방식으로 확인합니다. 복사본이 검색되면 [!DNL Marketo Measure]이(가) 일반적인 흐름을 따라 태그를 지정하고 새 광고를 만듭니다.
+걱정 마 [!DNL Marketo Measure]은(는) 더 이상 고유하지 않은 공유를 프로그래밍 방식으로 확인합니다. 즉, 이후 다른 Creative에 복사되었습니다. 복사본이 검색되면 [!DNL Marketo Measure]이(가) 일반적인 흐름을 따라 태그를 지정하고 새 광고를 만듭니다.
 
 **내 광고가 이전에 검토 보류 중이었습니다. [!DNL Marketo Measure]이(가) 태그를 지정한 후 검토를 다시 보류 중인 이유는 무엇입니까?**
 
-LinkedIn을 사용하려면 만들거나 수정한 모든 광고가 게시되기 전에 일반적인 보안 프로세스를 거쳐야 합니다. [!DNL Marketo Measure] 는 6시간마다 새 광고를 검색하므로 가능한 한 빨리 광고를 가로채려고 하지만 [!DNL LinkedIn's] 추가 단계를 사용하면 시작을 몇 시간 지연시킬 수 있습니다.
+LinkedIn을 사용하려면 만들거나 수정한 모든 광고가 게시되기 전에 일반적인 보안 프로세스를 거쳐야 합니다. [!DNL Marketo Measure]은(는) 6시간마다 새 광고를 검색하므로 가능한 한 빨리 광고를 가로채려고 시도하지만 [!DNL LinkedIn's]개의 추가 단계를 수행하면 몇 시간 지연될 수 있습니다.
 
 **내 광고에 2개의 URL이 있습니다. 태그 지정되는 사람**
 

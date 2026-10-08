@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 터치포인트 설정 지침 �
 title: 접점 설정에 대한 우수 사례
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
-
 ---
-
 # 접점 설정에 대한 우수 사례 {#best-practices-for-touchpoint-settings}
 
 ## 개요 {#overview}
@@ -23,13 +27,13 @@ ht-degree: 0%
 [!DNL Marketo Measure] 앱에서 [!UICONTROL Touchpoint Settings] 섹션은 네 개의 주요 섹션으로 나뉩니다. 각 섹션은 서로 다른 데이터 세트를 억제하거나 제거합니다. 아래 키를 사용하여 규칙이 원하는 터치포인트를 억제 또는 제거하는지 확인하십시오.
 
 * CRM에서 구매자 터치포인트 제거
-   * **CRM**&#x200B;에서 **Buyer Touchpoint 데이터**(기회가 아닌 개인에 연결된 터치포인트)를 제거하는 규칙을 만들려면 이 섹션을 사용하십시오.
+  * **CRM**&#x200B;에서 **Buyer Touchpoint 데이터**(기회가 아닌 개인에 연결된 터치포인트)를 제거하는 규칙을 만들려면 이 섹션을 사용하십시오.
 * CRM에서 구매자 터치포인트 제외
-   * **CRM** 및 **검색**&#x200B;에서 **Buyer Touchpoint 데이터**(기회가 아닌 개인과 연결된 터치포인트)를 제거하는 규칙을 만들려면 이 섹션을 사용하십시오.
+  * **CRM** 및 **검색**&#x200B;에서 **Buyer Touchpoint 데이터**(기회가 아닌 개인과 연결된 터치포인트)를 제거하는 규칙을 만들려면 이 섹션을 사용하십시오.
 * CRM에서 구매자 속성 터치포인트 제거
-   * **CRM**&#x200B;에서 **Buyer Attribution Touchpoint** 데이터(영업 기회 및 매출에 연결된 터치포인트)를 제거하는 규칙을 만들려면 이 섹션을 사용하십시오
+  * **CRM**&#x200B;에서 **Buyer Attribution Touchpoint** 데이터(영업 기회 및 매출에 연결된 터치포인트)를 제거하는 규칙을 만들려면 이 섹션을 사용하십시오
 * CRM에서 구매자 속성 터치포인트 제외
-   * **CRM** 및 **검색**&#x200B;에서 **Buyer Attribution Touchpoint** 데이터(영업 기회 및 매출에 연결된 터치포인트)를 제거하는 규칙을 만들려면 이 섹션을 사용하십시오.
+  * **CRM** 및 **검색**&#x200B;에서 **Buyer Attribution Touchpoint** 데이터(영업 기회 및 매출에 연결된 터치포인트)를 제거하는 규칙을 만들려면 이 섹션을 사용하십시오.
 
 ## 우수 사례 {#best-practice}
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 * 마케팅 팀에서의 이직률
 * 웹 사이트 구조에 대한 주요 업데이트
 * 더 이상 유용하지 않은 접점 데이터 식별
-   * 속성 크레딧을 받지 않아야 한다고 생각하는 터치포인트 데이터를 발견할 때마다 [!DNL touchpoint suppression] 규칙은 데이터를 가능한 한 깨끗하고 정확하게 유지하는 기능입니다.
+  * 속성 크레딧을 받지 않아야 한다고 생각하는 터치포인트 데이터를 발견할 때마다 [!DNL touchpoint suppression] 규칙은 데이터를 가능한 한 깨끗하고 정확하게 유지하는 기능입니다.
 * 제외 또는 제거 규칙을 정의하는 데 사용되는 필드 변경 사항
 
 >[!MORELIKETHIS]

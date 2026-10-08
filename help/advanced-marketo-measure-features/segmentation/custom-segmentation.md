@@ -4,18 +4,21 @@ description: 사용자 지정 세분화 - [!DNL Marketo Measure]
 title: 사용자 정의 세분화
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-TQID: https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM
+TQID: 'https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: '740'
 ht-degree: 0%
-
 ---
-
 # 사용자 정의 세분화 {#custom-segmentation}
 
 세그먼트를 사용하면 특정 데이터 집합을 더 자세히 드릴다운할 수 있도록 [!DNL Marketo Measure] ROI 대시보드의 데이터를 필터링할 수 있습니다. 예를 들어 세그먼트는 지리적 영역 또는 등급 지정 시스템에 의해 정의될 수 있습니다.
@@ -72,9 +75,9 @@ ht-degree: 0%
 * 전체 범주 또는 범주 내의 개별 규칙을 삭제하려면 휴지통 아이콘을 클릭합니다. 또는 연필 아이콘을 클릭하여 범주 또는 규칙을 편집합니다
 * &quot;[!UICONTROL Save]&quot; 단추와 &quot;저장 및 처리&quot; 단추가 있습니다. 저장 버튼을 사용하여 작업 및 시간 경과에 따른 변경 사항을 저장합니다. 다음을 확인한 경우에만 저장 및 처리 단추를 사용합니다.
 
-   * 매핑이 정확합니다
-   * 범주 내에 추적할 모든 세그먼트를 추가했습니다.
-   * 저장 및 처리 단추를 사용하면 [!DNL Marketo Measure]이(가) 모든 터치포인트를 동기화하고 추가한 새 정보를 적용합니다. 이 프로세스는 7일이 소요되며 이 기간 동안 규칙을 변경할 수 없습니다.
+  * 매핑이 정확합니다
+  * 범주 내에 추적할 모든 세그먼트를 추가했습니다.
+  * 저장 및 처리 단추를 사용하면 [!DNL Marketo Measure]이(가) 모든 터치포인트를 동기화하고 추가한 새 정보를 적용합니다. 이 프로세스는 7일이 소요되며 이 기간 동안 규칙을 변경할 수 없습니다.
 
 **_추가 참고:_**
 

@@ -3,18 +3,22 @@ description: Marketo Measure 사용자에 대한 터치포인트 지침을 삭�
 title: 터치포인트를 삭제하지 말아야 하는 이유
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # 터치포인트를 삭제하지 말아야 하는 이유 {#why-you-should-never-delete-touchpoints}
 
 속성 크레딧이 잘못 할당되는 영업 기회에 접점이 있는 경우 계정 관리자에게 연락하여 다음 단계를 결정하십시오. 이러한 상황에서는 구매자의 접점 억제 기능을 사용하여 SFDC 및 ROI 대시보드에서 터치포인트를 제거하는 것이 좋습니다. 계정 관리자가 이러한 규칙을 만드는 데 도움을 줄 수 있습니다. 이러한 터치포인트를 직접 수동으로 삭제하지 마십시오.
 
-[!DNL Marketo Measure] 처리 시스템은 터치포인트가 SFDC에서 수동으로 삭제되었음을 등록하지 않습니다. 오늘날에는 데이터를 조정하기 위해 시스템에 신호를 보내는 트리거가 없습니다. [!DNL Marketo Measure] 다른 터치포인트를 자동으로 푸시하여 삭제된 터치포인트를 바꾸지 않으며 터치포인트 위치 또는 속성을 후속 터치포인트에 재할당하지 않습니다.
+[!DNL Marketo Measure] 처리 시스템은 터치포인트가 SFDC에서 수동으로 삭제되었음을 등록하지 않습니다. 오늘날에는 데이터를 조정하기 위해 시스템에 신호를 보내는 트리거가 없습니다. [!DNL Marketo Measure]은(는) 삭제된 터치포인트를 바꾸기 위해 다른 터치포인트를 자동으로 푸시하지 않으며 터치포인트 위치나 속성을 후속 터치포인트에 다시 할당하지 않습니다.
 
 터치포인트가 삭제되면 속성 데이터에 구멍이 생성됩니다. 일반적으로 이는 Opportunity 의 속성 터치포인트에서 나타납니다. 아래 이미지에서 영업 기회 생성 터치를 받았을 터치포인트가 삭제되었습니다. 결과적으로 이 영업 기회는 OC 접점을 놓치고 이 Opp에 대한 속성 비율이 최대 100%까지 추가되지 않습니다.
 

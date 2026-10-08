@@ -3,13 +3,20 @@ description: '[!DNL Marketo Measure] Salesforce 개체 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure]개의 Salesforce 개체'
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure]개의 Salesforce 개체 {#marketo-measure-salesforce-objects}
 
 >[!NOTE]
@@ -46,7 +53,7 @@ BT 관련 목록에는 잠재 고객 또는 연락처에 속하는 모든 터치
 
 구매자 속성 접점(BAT)은 Buyer Touchpoint(BT) 데이터가 있는 연락처와 관련된 Opportunity가 생성된 후에만 생성됩니다. BAT는 Opportunity 가 없으면 생성되지 않습니다. Opportunity 가 만들어지면 BAT 개체는 Opportunity 의 [!DNL Salesforce] *Amount* 필드를 사용하여 터치 포인트에 지정할 매출액을 파악합니다.
 
-[사용자 지정 금액 필드](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md)를 사용하여 영업 기회 개체에 매출을 표시하는 경우 **워크플로우**&#x200B;을(를) 만들어야 합니다. [!DNL Marketo Measure] 은 사용자 정의 금액 필드에 표시되는 정보를 읽을 수 없으므로, 터치포인트에서 매출 기여도 분석 데이터를 채울 수 없습니다. 이 워크플로에서는 [!DNL Marketo Measure] 사용자 지정 필드 중 하나인 **[!DNL Marketo Measure]영업 기회 금액** 필드를 사용하여 사용자 지정 금액 필드의 수익 값을 영업 기회 금액 필드에 매핑합니다.
+[사용자 지정 금액 필드](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md)를 사용하여 영업 기회 개체에 매출을 표시하는 경우 **워크플로우**&#x200B;을(를) 만들어야 합니다. [!DNL Marketo Measure]이(가) 사용자 지정 금액 필드에 표시되는 정보를 읽을 수 없으므로 접점에서 매출 기여도 분석 데이터를 채울 수 없습니다. 이 워크플로에서는 [!DNL Marketo Measure] 사용자 지정 필드 중 하나인 **[!DNL Marketo Measure]영업 기회 금액** 필드를 사용하여 사용자 지정 금액 필드의 수익 값을 영업 기회 금액 필드에 매핑합니다.
 
 ![사용자 지정 금액 필드를 사용하는 경우 워크플로우를 만들어야 합니다](assets/connect-salesforce-1.png)
 

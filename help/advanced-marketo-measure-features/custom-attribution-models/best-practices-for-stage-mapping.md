@@ -1,20 +1,25 @@
 ---
-description: 스테이지 매핑 모범 사례 - [!DNL Marketo Measure]
+description: 단계 매핑 모범 사례 - [!DNL Marketo Measure]
 title: 스테이지 매핑 우수 사례
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-TQID: https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg
+TQID: 'https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 # 스테이지 매핑 우수 사례 {#best-practices-for-stage-mapping}
 
 ## 개요 {#overview}
@@ -30,17 +35,17 @@ ht-degree: 0%
 스테이지 매핑을 처음 평가하든 아니면 funnel 순서를 검토하든 관계없이 다음 모범 사례를 염두에 두는 것이 중요합니다.
 
 * 질서가 전부입니다!
-   * [!DNL Marketo Measure]이(가) CRM에서 활성 및 비활성 단계를 모두 가져오는 것을 고려하여 잠재 고객/연락처 또는 영업 기회에서 사용할 수 있는 단계를 함께 그룹화하고 그에 따라 순서를 지정하는지 확인하십시오
+  * [!DNL Marketo Measure]이(가) CRM에서 활성 및 비활성 단계를 모두 가져오는 것을 고려하여 잠재 고객/연락처 또는 영업 기회에서 사용할 수 있는 단계를 함께 그룹화하고 그에 따라 순서를 지정하는지 확인하십시오
 * 사용자 지정 단계를 정의할 때 단계를 정의하는 데 사용되는 모든 필드에 필드 내역 추적이 활성화되어 있는지 확인합니다
 * 공식 필드를 사용하여 사용자 정의 단계를 정의하지 않음
-   * 부울 필드는 모범 사례 권장 사항입니다
+  * 부울 필드는 모범 사례 권장 사항입니다
 * 잠재 고객 또는 연락처 단계 섹션은 손실, 열기 및 전환으로 구분되며 단계가 해당 단계 섹션에 있는지 확인합니다
-   * 스테이지가 잘못된 스테이지 섹션에 있으면 [!DNL Marketo Measure] 데이터가 많이 잘못될 수 있습니다.
-   * Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우, 아래 두 필드를 리드와 관련된 것으로 사용하지 마십시오([자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
+  * 스테이지가 잘못된 스테이지 섹션에 있으면 [!DNL Marketo Measure] 데이터가 많이 잘못될 수 있습니다.
+  * Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우, 아래 두 필드를 리드와 관련된 것으로 사용하지 마십시오([자세히 알아보기](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
 * Opportunity 단계 섹션은 Lost, Open 및 Won으로 구분되므로 해당 단계가 적절한 단계 섹션에 있는지 확인합니다.
-   * 스테이지가 잘못된 스테이지 섹션에 있으면 [!DNL Marketo Measure] 매출 또는 파이프라인 매출 데이터가 많이 잘못될 수 있습니다.
+  * 스테이지가 잘못된 스테이지 섹션에 있으면 [!DNL Marketo Measure] 매출 또는 파이프라인 매출 데이터가 많이 잘못될 수 있습니다.
 * 중복 단계 이름을 사용하지 마십시오(시스템에서 단계 이름을 감지하고 자동으로 제거합니다).
 * NULL 값을 확인하는 규칙을 설정하려면 값 텍스트 상자를 비워 둡니다.
 

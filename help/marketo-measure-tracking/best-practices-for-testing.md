@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 테스트 지침 모범 사례
 title: 테스트 우수 사례
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 1%
-
 ---
-
 # 테스트 우수 사례 {#best-practices-for-testing}
 
 [!DNL Marketo Measure] JavaScript이 제대로 작동하는지 확인하려면 다양한 유형의 양식을 모두 테스트해야 합니다.

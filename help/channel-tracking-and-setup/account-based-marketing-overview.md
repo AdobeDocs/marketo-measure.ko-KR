@@ -3,13 +3,17 @@ description: Account-Based Marketing(ABM)에 대해 알아보고 Adobe Marketo M
 title: 계정 기반 마케팅 개요
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 96ef477f-0ffb-5375-8fca-6d27be6b7c00
+    internal-label: Account-based Marketing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '861'
 ht-degree: 0%
-
 ---
-
 # 계정 기반 마케팅 개요 {#account-based-marketing-overview}
 
 다음 섹션에서는 ABM, [!DNL Marketo Measure] ABM 기능의 구성 요소 및 [!DNL Salesforce] 페이지 레이아웃에 추가하는 방법에 대한 간단한 개요를 제공합니다. ABM에 대해 자세히 알아보려면 Adobe의 [ABM 블로그](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}를 검토하세요.
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 ## ABM이란 {#what-is-abm}
 
-계정 기반 마케팅, ABM은 개인뿐만 아니라 기업 및 계정 전체를 대상으로 하여 판매하는 마케팅 전략입니다. [!DNL Marketo Measure] 은 마케팅 및 영업 팀이 리드-계정 매핑 기능과 예측 참여 점수를 통해 성공적인 ABM 전략을 실행하는 데 도움이 됩니다.
+계정 기반 마케팅, ABM은 개인뿐만 아니라 기업 및 계정 전체를 대상으로 하여 판매하는 마케팅 전략입니다. [!DNL Marketo Measure]을(를) 사용하면 마케팅 및 영업 팀이 리드-계정 매핑 기능과 예측 참여 점수를 통해 성공적인 ABM 전략을 실행할 수 있습니다.
 
 계정 기반 마케팅 모델을 CRM에 채우려면 [!DNL Marketo Measure]에서 다음 기준을 충족해야 합니다.
 
@@ -68,8 +72,8 @@ PES를 계산하는 알고리즘에는 많은 구성 요소가 들어갑니다. 
 >
 >일부 계정에 대한 예측 참여 점수에서 &quot;N/A&quot; 또는 &quot;-&quot;(대시 기호)의 등급을 볼 수 있습니다.
 
-_N/A의 등급은 모델에 대한 해당 계정의 데이터가 부족하여 실제 등급을 생성할 수 없다는 것을 의미합니다. 데이터가 많을수록 등급이 부여됩니다._
-_&quot;-&quot; 등급(대시 기호)은 시간 제약, 때때로 누락된 프로세스 등으로 인해 이 계정이 ABM 프로세스에서 아직 처리되지 않았음을 의미합니다. 유사한 다른 계정 또는 일정에 따라 계정에 등급이 있어야 한다고 생각되면 [!DNL Marketo Measure]에게 연락하여 알려 주십시오._
+_N/A의 등급은 모델에 대한 해당 계정의 데이터가 부족하여 실제 등급을 생성할 수 없다는 의미입니다. 데이터가 많을수록 등급이 부여됩니다._
+_등급 &quot;-&quot;(대시 기호)는 시간 제한, 때때로 누락된 프로세스 등으로 인해 이 계정이 ABM 프로세스에서 아직 처리되지 않았음을 의미합니다. 유사한 다른 계정 또는 일정에 따라 계정에 등급이 있어야 한다고 생각되면 [!DNL Marketo Measure]에게 연락하여 알려 주십시오._
 
 ## [!DNL Salesforce]에서 ABM 페이지 레이아웃을 설정하는 중 {#setting-up-abm-page-layout-in-salesforce}
 

@@ -4,18 +4,21 @@ description: Account-Based Marketing(ABM)에 대해 알아보고 Adobe Marketo M
 title: 계정 기반 마케팅 개요
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-TQID: https://experienceleague.adobe.com/iYWfa6eSeqICk5K3p2mVPRf2xt3UybpRFIJxSYzRmAA
+TQID: 'https://experienceleague.adobe.com/iYWfa6eSeqICk5K3p2mVPRf2xt3UybpRFIJxSYzRmAA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 96ef477f-0ffb-5375-8fca-6d27be6b7c00
+    internal-label: Account-based Marketing
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: '829'
 ht-degree: 0%
-
 ---
-
 # 계정 기반 마케팅 개요 {#account-based-marketing-overview}
 
 다음 섹션에서는 ABM, [!DNL Marketo Measure] ABM 기능의 구성 요소 및 [!DNL Salesforce] 페이지 레이아웃에 추가하는 방법에 대한 간단한 개요를 제공합니다. ABM에 대해 자세히 알아보려면 Adobe의 [ABM 블로그](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}를 검토하세요.

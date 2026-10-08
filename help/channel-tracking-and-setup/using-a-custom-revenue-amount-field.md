@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 사용자 정의 수익 금액 
 title: 사용자 정의 수익 금액 필드 사용
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 3%
-
 ---
-
 # 사용자 정의 수익 금액 필드 사용 {#using-a-custom-revenue-amount-field}
 
 기본적으로 구매자 속성 터치포인트는 다음 두 필드 중 하나에서 기회 금액을 가져옵니다.

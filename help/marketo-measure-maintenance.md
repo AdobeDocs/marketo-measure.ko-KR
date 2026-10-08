@@ -3,13 +3,17 @@ description: '[!DNL Marketo Measure] 유지 관리 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 유지 관리'
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 1%
-
 ---
-
 
 # [!DNL Marketo Measure] 유지 관리 {#marketo-measure-maintenance}
 
@@ -42,7 +46,7 @@ Marketo Measure은 Javascript가 활성화된 모든 페이지와 하위 도메�
 
 **접점 비표시 설정 평가(1x/분기)**
 
-속성 스토리(예: [!DNL Login] 또는 [!DNL Unsubscribe forms], 경력 페이지 또는 내부 앱)에서 고려하지 않는 터치포인트가 많이 표시되는 경우 기존 터치포인트 억제 설정을 평가할 수 있습니다. 분기별로 한 번, 불필요한 노이즈를 만드는 터치포인트 그룹을 정확히 파악하고 억제 논리를 적절하게 업데이트합니다. [다음은 방법에 대한 유용한 문서 &#x200B;](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md)입니다.
+속성 스토리(예: [!DNL Login] 또는 [!DNL Unsubscribe forms], 경력 페이지 또는 내부 앱)에서 고려하지 않는 터치포인트가 많이 표시되는 경우 기존 터치포인트 억제 설정을 평가할 수 있습니다. 분기별로 한 번, 불필요한 노이즈를 만드는 터치포인트 그룹을 정확히 파악하고 억제 논리를 적절하게 업데이트합니다. [사용 방법에 대한 유용한 문서](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md)입니다.
 
 **정확성에 대한 사용자 지정 단계 매핑 검토(해당되는 경우 1x/분기)**
 

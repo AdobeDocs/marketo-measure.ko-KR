@@ -3,14 +3,18 @@ description: 시간에 따른 채널 하위 채널 및 캠페인의 비용 매�
 title: ROI 대시보드
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # ROI 대시보드 {#roi-dashboard}
 
 ROI 대시보드는 마케터에게 채널, 하위 채널 및 캠페인의 투자 수익에 대한 세분화된 보기를 제공합니다. 비용 및 매출 패턴을 꼼꼼히 분석하는 동시에 리드당 비용, 거래 및 기회와 같은 지표를 파악하여 마케팅 기여도를 포괄적으로 파악합니다.
@@ -130,11 +134,11 @@ ROI 대시보드는 마케터에게 채널, 하위 채널 및 캠페인의 투�
 이 대시보드에는 다음 설정 및 필터가 포함되어 있습니다.
 
 * 일자
-   * 기준:
-      * 생성 일자: 뉴스 리드, 새 기회
-      * 비용 발생 일자: 비용
-      * 마감일: 속성 매출(단순 ROI), 거래
-      * 접점 날짜: 실현된 속성 매출의 접점(실현된 ROI)
+  * 기준:
+    * 생성 일자: 뉴스 리드, 새 기회
+    * 비용 발생 일자: 비용
+    * 마감일: 속성 매출(단순 ROI), 거래
+    * 접점 날짜: 실현된 속성 매출의 접점(실현된 ROI)
 * 속성 모델
 * 채널, 하위 채널
 * Campaign

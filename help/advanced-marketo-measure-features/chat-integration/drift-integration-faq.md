@@ -4,18 +4,21 @@ description: 드리프트 통합 FAQ - [!DNL Marketo Measure]
 title: 드리프트 통합 FAQ
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 feature: Integration
-TQID: https://experienceleague.adobe.com/RDhpeivSYllzKoOFPjVBH2u-tPPsMUtVT5bS5hME0J8
+TQID: 'https://experienceleague.adobe.com/RDhpeivSYllzKoOFPjVBH2u-tPPsMUtVT5bS5hME0J8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: '357'
 ht-degree: 1%
-
 ---
-
 # 드리프트 통합 FAQ {#drift-integration-faq}
 
 Drift와 [!DNL Marketo Measure] 통합의 일부로 다음과 같은 FAQ가 있습니다. 아래에 요약되지 않은 질문이 있는 경우 Adobe 계정 팀(계정 관리자) 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하십시오.

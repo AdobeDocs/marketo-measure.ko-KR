@@ -4,18 +4,23 @@ description: 마케팅 채널별 기회 - [!DNL Marketo Measure]
 title: 마케팅 채널별 기회
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-TQID: https://experienceleague.adobe.com/UUVK-y5KT4g8YGIwDq1cWi4IU5-s8Ajr41n4pLwsLOU
+TQID: 'https://experienceleague.adobe.com/UUVK-y5KT4g8YGIwDq1cWi4IU5-s8Ajr41n4pLwsLOU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: '198'
 ht-degree: 0%
-
 ---
-
 # 마케팅 채널별 기회 {#opportunities-by-marketing-channel}
 
 이 보고서는 마케팅 채널에서 생성된 기회의 수를 표시합니다. 여기에는 모든 기회가 포함됩니다. 하지만 이 보고서를 필터링하여 특정 유형의 기회를 분석할 수 있습니다.

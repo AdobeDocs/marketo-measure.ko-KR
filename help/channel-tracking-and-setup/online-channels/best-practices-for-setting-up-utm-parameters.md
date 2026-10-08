@@ -4,16 +4,18 @@ description: UTM 매개 변수 설정에 대한 모범 사례 - [!DNL Marketo Me
 title: UTM 매개 변수 설정에 대한 우수 사례
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-TQID: https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM
+TQID: 'https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '453'
 ht-degree: 1%
-
 ---
-
 # UTM 매개 변수 설정에 대한 우수 사례 {#best-practices-for-setting-up-utm-parameters}
 
 UTM 매개 변수는 마케팅 데이터를 분류할 수 있는 좋은 방법입니다. [!DNL Marketo Measure]은(는) 모든 UTM 매개 변수를 사용하고 캡처하여 Salesforce 및 [!DNL Marketo Measure] 앱의 필드를 채웁니다. 이 정보를 통해 잠재 고객, 기회 및 비공개/성공 거래의 출처를 세부적으로 파악할 수 있습니다.

@@ -3,19 +3,23 @@ description: 속성 영업 기회 대시보드 - [!DNL Marketo Measure] - 제품
 title: 속성 영업 기회 대시보드
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-TQID: https://experienceleague.adobe.com/OFUrPoJnkQyZe2PaUzj-byx92ovpbpGuLiW-e7MH6Os
+TQID: 'https://experienceleague.adobe.com/OFUrPoJnkQyZe2PaUzj-byx92ovpbpGuLiW-e7MH6Os'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 # 속성 영업 기회 대시보드 {#attributed-opportunity-dashboard}
 
 속성 영업 기회 대시보드는 마케팅 노력이 초기 및 성숙 파이프라인 기회 모두에 기여하는 방식에 대한 포괄적인 보기를 제공합니다. 영업 기회 단계별로 필터링할 수 있는 유연성과 함께 전략에 기인한 모든 오픈 및 클로즈된 영업 기회에 대한 세부 정보를 살펴보고, 비공개 거래를 넘어 마케팅의 영향력의 전체 범위를 강조합니다.
@@ -77,7 +81,7 @@ ht-degree: 0%
 
 * 일자(영업 기회 생성 일자 기준)
 * 속성 모델
-   * 열려 있는 기회의 경우 &#39;전체 경로&#39; 및 &#39;사용자 지정&#39; 속성 모델은 시점 보기를 제공하며 최종 속성 결과를 나타내지 않습니다.
+  * 열려 있는 기회의 경우 &#39;전체 경로&#39; 및 &#39;사용자 지정&#39; 속성 모델은 시점 보기를 제공하며 최종 속성 결과를 나타내지 않습니다.
 * 영업 기회 단계(현재 단계 기반)
 * 채널, 하위 채널
 * Campaign

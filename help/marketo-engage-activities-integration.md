@@ -3,13 +3,17 @@ description: '[!DNL Marketo Engage] 활동 통합 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Engage]개 활동 통합'
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 1%
-
 ---
-
 # [!DNL Marketo Engage]개 활동 통합 {#marketo-engage-activities-integration}
 
 전체 [!DNL Marketo Measure] 및 [!DNL Marketo Engage] 통합의 일부로 Marketo 활동을 가져오는 이러한 노력이 큰 역할을 합니다. Marketo 활동을 통해 시스템은 `Click Email`, `Change Score` 또는 `Change Status in Progression`과(와) 같은 이벤트를 추적합니다. 이러한 활동 유형은 접점에 적합한 하위 집합을 선택하도록 축소되고 정의될 수 있습니다. 이러한 활동에 대한 터치포인트가 생성되면 참여 여정에서 추적되고 유료 검색 또는 파트너 마케팅과 같은 다른 마케팅 채널과 함께 측정됩니다.

@@ -3,19 +3,23 @@ description: 사용자 지정 모델 설정 - Marketo Measure 사용자에 대�
 title: 사용자 지정 모델 설정 - 필드 내역 추적 활성화
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 모델 설정: 필드 내역 추적 활성화 {#custom-model-setup-enable-field-history-tracking}
 
 ## 필드 내역 추적을 활성화해야 하는 이유 및 시기 {#why-and-when-to-enable-field-history-tracking}
 
-사용자 지정 속성 모델에 사용자 지정 필드를 단계로 포함하려면 이 필드에 대해 필드 기록 추적 **을(를) 활성화**&#x200B;해야 합니다. 필드 기록 추적을 사용하도록 설정하면 [!DNL Salesforce]이(가) 기록 추적 테이블에 레코드를 만들어 사용자 지정 필드를 편집할 때마다 추적할 수 있습니다. [!DNL Marketo Measure] 은 해당 테이블을 다운로드하고 이 정보를 사용하여 &quot;전환&quot;이 발생한 시간 및 일을 측정할 수 있습니다. 필드 기록을 추적하지 않으면 [!DNL Marketo Measure]에서 이 필드와 관련된 변경 내용을 추적할 수 없습니다.
+사용자 지정 속성 모델에 사용자 지정 필드를 단계로 포함하려면 이 필드에 대해 필드 기록 추적 **을(를) 활성화**&#x200B;해야 합니다. 필드 기록 추적을 사용하도록 설정하면 [!DNL Salesforce]이(가) 기록 추적 테이블에 레코드를 만들어 사용자 지정 필드를 편집할 때마다 추적할 수 있습니다. [!DNL Marketo Measure]은(는) 해당 테이블을 다운로드하고 이 정보를 사용하여 &quot;전환&quot;이 발생한 시간과 일을 측정할 수 있습니다. 필드 기록을 추적하지 않으면 [!DNL Marketo Measure]에서 이 필드와 관련된 변경 내용을 추적할 수 없습니다.
 
 사용자 지정 모델에 [!UICONTROL Lead Status] 또는 영업 기회 단계만 사용되는 경우 필드 기록 추적은 단계 전환으로 자동 추적되므로 설정할 필요가 없습니다.
 

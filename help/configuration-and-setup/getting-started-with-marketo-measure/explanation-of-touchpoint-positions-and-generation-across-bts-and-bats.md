@@ -3,18 +3,21 @@ description: BT 및 BAT에 대한 접점 위치 및 생성에 대한 설명 - [!
 title: BT 및 [!DNL BATs]의 접점 위치 및 생성에 대한 설명
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU
+TQID: 'https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 789
+source-wordcount: '789'
 ht-degree: 0%
-
 ---
-
 # BT 및 [!DNL BATs]의 접점 위치 및 생성에 대한 설명 {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **구매자 여정을 통한 접점 위치 및 흐름 생성**
@@ -116,10 +119,10 @@ Buyer Touchpoint 위치와 이러한 위치가 트리거되는 방법을 이해�
 **기회** Buyer Attribution Touchpoint 데이터는 다음과 같이 읽힙니다.
 
 * 첫 번째 터치(FT) - 유료 Social.Facebook - 8/26/2019
-   * (계정/Opp에 대해 **사용자 B**&#x200B;의 실제 _첫 번째 터치_&#x200B;가 있으므로)
+  * (계정/Opp에 대해 **사용자 B**&#x200B;의 실제 _첫 번째 터치_&#x200B;가 있으므로)
 * 잠재 고객 생성(LC) - Organic Search.Google - 11/20/2019
-   * (계정/Opp에 대한 실제 _잠재 고객 생성_&#x200B;이 있으므로 **사용자 A**&#x200B;부터)
+  * (계정/Opp에 대한 실제 _잠재 고객 생성_&#x200B;이 있으므로 **사용자 A**&#x200B;부터)
 * OC(Opportunity Creation) - 웨비나 - 2020년 3월 4일
-   * (2020년 3월 7일에 만들어지는 Opportunity에 대한 가장 최근 상호 작용이었으므로 **개인 A**&#x200B;의 Post LC 터치 포인트는 _OC 터치 포인트_&#x200B;가 됩니다.)
+  * (2020년 3월 7일에 만들어지는 Opportunity에 대한 가장 최근 상호 작용이었으므로 **개인 A**&#x200B;의 Post LC 터치 포인트는 _OC 터치 포인트_&#x200B;가 됩니다.)
 * 마감일 - 이메일 - 2020년 5월 1일
-   * (2020년 5월 6일에 마감된 Opportunity에 대한 가장 최근 상호 작용이므로 **개인 B**&#x200B;의 Post LC 터치포인트는 _마감된 완료 터치포인트_&#x200B;가 됩니다.)
+  * (2020년 5월 6일에 마감된 Opportunity에 대한 가장 최근 상호 작용이므로 **개인 B**&#x200B;의 Post LC 터치포인트는 _마감된 완료 터치포인트_&#x200B;가 됩니다.)

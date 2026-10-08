@@ -3,19 +3,23 @@ description: 참여 대시보드 - [!DNL Marketo Measure] - 제품
 title: 참여 대시보드
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-TQID: https://experienceleague.adobe.com/m5XdQV-IiIUddL3-YPcne1yf-ORR4ZdbxHzAf5wSADM
+TQID: 'https://experienceleague.adobe.com/m5XdQV-IiIUddL3-YPcne1yf-ORR4ZdbxHzAf5wSADM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: '507'
 ht-degree: 0%
-
 ---
-
 # 참여 대시보드 {#engagement-dashboard}
 
 참여 대시보드 는 사용자 참여 지표를 세심하게 추적합니다. 터치포인트, 참여 인원 수, 1인당 평균 터치포인트를 소개합니다. 월별, 분기별 또는 연간 보기에는 시계열 막대 차트를 활용하고 세부 채널, 하위 채널 및 캠페인 인사이트는 막대 차트를 활용합니다. 이 도구는 참여 패턴을 이해하고 참여 전략을 세밀하게 조정하는 데 필수적입니다.
@@ -43,7 +47,7 @@ BT 또는 BAT만 사용하여 참여를 측정하면 참여가 기여도 분석�
 ### KPI 타일 {#kpi-tiles}
 
 * 접점: 생성된 총 원시 접점 수입니다.
-   * 구매자 접점 및 구매자 속성 접점은 크레딧에 대한 특정 접점을 선택하여 생성되는 속성 결과입니다. 모든 터치포인트가 BT 및 BAT로 선택되는 것은 아닙니다.
+  * 구매자 접점 및 구매자 속성 접점은 크레딧에 대한 특정 접점을 선택하여 생성되는 속성 결과입니다. 모든 터치포인트가 BT 및 BAT로 선택되는 것은 아닙니다.
 * 터치한 사람: 터치포인트가 있는 총 사람 수입니다.
 * 사람당 터치포인트: 터치한 사람당 평균 터치포인트 수
 

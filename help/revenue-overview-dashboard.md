@@ -3,14 +3,18 @@ description: 시간 경과에 따른 총 및 속성 매출과 거래 건수를 �
 title: 수익 개요 대시보드
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 # 수익 개요 대시보드 {#revenue-overview-dashboard}
 
 매출 개요 대시보드는 CRM에서 파생된 총 매출에 대한 통찰력을 제공하여 마케팅 전략의 역할을 조명합니다. 마케팅이 전체 매출에 어떻게 영향을 미치며 성공적인 거래 종결에 기여하는지에 대한 개요를 제공합니다.

@@ -3,18 +3,23 @@ description: '[!DNL Marketo Measure] Salesforce 패키지 설치 및 설정 - [!
 title: '[!DNL Marketo Measure] [!DNL Salesforce] 패키지 설치 및 설정'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-TQID: https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g
+TQID: 'https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] Salesforce 패키지 설치 및 설정 {#marketo-measure-salesforce-package-installation-and-set-up}
 
 [!DNL Marketo Measure] [!DNL Salesforce] 기본 패키지를 설치하기 전에 Salesforce 프로덕션 인스턴스로 이동하기 전에 먼저 [!DNL Salesforce] 샌드박스에 기본 패키지를 설치하는지 확인해야 합니다.
@@ -66,9 +71,9 @@ Salesforce으로 데이터를 푸시할 때 유효성 검사 오류가 발생하
 1. 다음 권한을 할당합니다.
 
 * &quot;[!DNL Marketo Measure] 관리자 권한 집합&quot;
-   * 관리되는 사용 권한 집합을 사용하면 SFDC 관리자는 [!DNL Marketo Measure] 개체에서 레코드를 만들고, 읽고, 쓰고, 삭제할 수 있습니다.
+  * 관리되는 사용 권한 집합을 사용하면 SFDC 관리자는 [!DNL Marketo Measure] 개체에서 레코드를 만들고, 읽고, 쓰고, 삭제할 수 있습니다.
 * &quot;전환된 잠재 고객 권한 집합 보기 및 편집&quot;
-   * 이를 통해 [!DNL Marketo Measure]이(가) 연락처로 전환된 후 리드를 장식할 수 있습니다. 이 권한 집합을 활성화하지 않으면 상당한 데이터 추적 간격이 발생할 수 있습니다.
+  * 이를 통해 [!DNL Marketo Measure]이(가) 연락처로 전환된 후 리드를 장식할 수 있습니다. 이 권한 집합을 활성화하지 않으면 상당한 데이터 추적 간격이 발생할 수 있습니다.
 
 >[!NOTE]
 >

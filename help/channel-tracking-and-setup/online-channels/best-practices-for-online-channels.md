@@ -3,21 +3,25 @@ description: 온라인 채널 모범 사례 - [!DNL Marketo Measure]
 title: 온라인 채널에 대한 우수 사례
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-TQID: https://experienceleague.adobe.com/USJRMuxX8gBPFwCYWb5ujG-158EWyVpwwy47studXK0
+TQID: 'https://experienceleague.adobe.com/USJRMuxX8gBPFwCYWb5ujG-158EWyVpwwy47studXK0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 # 온라인 채널에 대한 우수 사례 {#best-practices-for-online-channels}
 
 ## 개요 {#overview}
@@ -37,16 +41,16 @@ ht-degree: 0%
 명심해야 할 사항:
 
 * 모든 디지털 채널과 하위 채널은 하나 이상의 규칙으로 표시되어야 합니다
-   * 채널이 사람들을 사이트로 유도하지 않는 경우 온라인 채널이 아닙니다
+  * 채널이 사람들을 사이트로 유도하지 않는 경우 온라인 채널이 아닙니다
 * 하나의 채널/하위 채널에 여러 개의 규칙이 있어도 됩니다.
-   * 여러 규칙을 &quot;더 넓은 네트 주조&quot;로 간주하여 각 터치포인트가 올바르게 매핑되도록 할 수 있습니다. 종종 매개 변수가 잘못 추가되거나 완전히 누락될 수 있으므로 매핑 정확성을 보장하기 위해 채널/하위 채널을 캡처하는 여러 규칙을 사용하는 것이 좋습니다.
+  * 여러 규칙을 &quot;더 넓은 네트 주조&quot;로 간주하여 각 터치포인트가 올바르게 매핑되도록 할 수 있습니다. 종종 매개 변수가 잘못 추가되거나 완전히 누락될 수 있으므로 매핑 정확성을 보장하기 위해 채널/하위 채널을 캡처하는 여러 규칙을 사용하는 것이 좋습니다.
 * [!DNL Marketo Measure] 논리는 스프레드시트의 맨 위 행부터 시작하여 아래로 내려가는 내림차순으로 터치포인트 매핑의 우선 순위를 지정합니다.
-   * [!DNL Marketo Measure]은(는) 각 규칙(행)을 읽고 true와 first fit을 찾습니다. 그런 다음 터치포인트가 해당 채널/하위 채널에 매핑됩니다
-   * 시트가 논리 규칙을 방해하므로 시트를 알파벳순으로 정렬하지 마십시오.
+  * [!DNL Marketo Measure]은(는) 각 규칙(행)을 읽고 true와 first fit을 찾습니다. 그런 다음 터치포인트가 해당 채널/하위 채널에 매핑됩니다
+  * 시트가 논리 규칙을 방해하므로 시트를 알파벳순으로 정렬하지 마십시오.
 * 대괄호로 묶인 규칙을 유지하고 대괄호로 묶인 규칙을 편집하거나 추가하지 마십시오(예: [AdWords 유료 검색] 또는 [Facebook 유료 검색] ).
-   * 기본 제공 논리가 있으며 [!DNL Marketo Measure] 통합과 연결된 기본 제공 [!DNL Marketo Measure] 규칙이 있습니다. [!DNL Marketo Measure] 통합이 설계된 대로 작동할 수 있도록 하려면 해당 채널/하위 채널 섹션에 대해 이러한 규칙을 최우선으로 적용하십시오.
+  * 기본 제공 논리가 있으며 [!DNL Marketo Measure] 통합과 연결된 기본 제공 [!DNL Marketo Measure] 규칙이 있습니다. [!DNL Marketo Measure] 통합이 설계된 대로 작동할 수 있도록 하려면 해당 채널/하위 채널 섹션에 대해 이러한 규칙을 최우선으로 적용하십시오.
 * 파일이 업로드되면 7일 동안 규칙을 변경할 수 없습니다
-   * [!DNL Marketo Measure]은(는) 이 시간을 사용하여 터치포인트를 처리하고 업데이트하므로 업로드하기 전에 규칙을 다시 확인하십시오.
+  * [!DNL Marketo Measure]은(는) 이 시간을 사용하여 터치포인트를 처리하고 업데이트하므로 업로드하기 전에 규칙을 다시 확인하십시오.
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenace}
 

@@ -1,21 +1,25 @@
 ---
-description: 새로운 Discover Dashboard 안내서 - [!DNL Marketo Measure] - 제품
+description: 새 대시보드 검색 안내서 - [!DNL Marketo Measure] - 제품
 title: 새로운 Discover Dashboard 안내서
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-TQID: https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8
+TQID: 'https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1057'
 ht-degree: 0%
-
 ---
-
 # 새로운 Discover Dashboard 안내서 {#new-discover-dashboard-guide}
 
 Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다. 당사의 기본 목표는 보다 능률적이고 직관적인 경험을 제공하는 것입니다. 더 깔끔한 비주얼과 더 간단한 탐색으로, 이 개정은 기존 지표의 대부분을 유지할 뿐만 아니라 새로운 통찰력을 제공합니다. 향상된 명확성과 부가가치를 탐색해 보십시오.
@@ -350,7 +354,7 @@ Discover 대시보드 재설계를 소개하게 되어 기쁘게 생각합니다
   <tbody>
     <tr>
       <th scope="col">더 이상 사용되지 않는 지표</th>
-      <th scope="col">추론</th>
+      <th scope="col">추론 중</th>
     </tr>
     <tr>
       <td>

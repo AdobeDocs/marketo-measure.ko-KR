@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 이전 데이터 지침 동기�
 title: 이전 데이터 동기화
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 1%
-
 ---
-
 # 이전 데이터 동기화 {#syncing-historical-data}
 
 [!DNL Marketo Measure]은(는) 가장 세분화되고 실행 가능한 데이터를 제공하는 솔루션입니다. 그러나 기여도 분석이 필요한 기존 데이터가 있을 수 있음을 이해합니다. 이전 데이터에 대한 터치포인트를 생성할 수 있지만 이 프로세스를 진행하기 전에 몇 가지 요소를 고려하는 것이 중요합니다.
@@ -24,7 +28,7 @@ ht-degree: 1%
 
 a. 터치포인트를 생성하려면 데이터를 캠페인으로 구성하여 [!DNL Marketo Measure]에 동기화해야 합니다. 현재 캠페인으로 구성되지 않은 경우 데이터를 적절한 캠페인으로 세그먼트화하는 데 필요한 시간 및 리소스가 가치 있는지 평가할 수 있습니다.
 
-b. 멤버가 캠페인에 추가되거나 응답됨으로 표시된 날짜가 터치포인트 날짜에 사용되므로 이 날짜도 정확해야 합니다. [!DNL Marketo Measure] 에서는 SFDC과 MSD 모두에서 해결 방법을 제공하여 날짜를 업데이트하지만, 볼륨에 따라 시간이 오래 걸릴 수 있습니다.
+b. 멤버가 캠페인에 추가되거나 응답됨으로 표시된 날짜가 터치포인트 날짜에 사용되므로 이 날짜도 정확해야 합니다. [!DNL Marketo Measure]은(는) SFDC과 MSD 모두에서 해결 방법을 제공하여 날짜를 업데이트하지만 볼륨에 따라 시간이 오래 걸릴 수 있습니다.
 
 **모든 채널(유료 검색, 이벤트, 유기 등)의 캠페인으로 구성된 데이터의 양이 같습니까?**
 

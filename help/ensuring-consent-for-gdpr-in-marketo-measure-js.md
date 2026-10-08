@@ -3,13 +3,17 @@ description: 쿠키를 설정하거나 데이터를 보내기 전에 GDPR에 대
 title: Marketo Measure Js에서 GDPR에 대한 동의 확인
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
-
 ---
-
 # Marketo Measure Js에서 GDPR에 대한 동의 확인 {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 GDPR(General Data Protection Regulation)은 2018년 5월 25일에 발효된 유럽 연합 법률입니다.
@@ -47,7 +51,7 @@ GDPR의 목적은 유럽연합(EU) 및 유럽 경제 지역(EEA) 내에서 개�
 
 이렇게 하면 [!DNL bizible.js]이(가) 동의에 도달할 때까지 추적하지 못하도록 합니다. 이는 다음 JS API를 사용하여 수행할 수 있습니다.
 
-*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || { _queue: [], 푸시: 함수(o, p) { this._queue.push({ type: o, data: p }); } } &rbrace;;*
+*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || { _queue: [], 푸시: 함수(o, p) { this._queue.push({ type: o, data: p }); } };*
 
 *Bizible입니다. Push(&#39;Consent&#39;, true);*
 

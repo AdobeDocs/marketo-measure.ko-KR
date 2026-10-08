@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 활동 속성 FAQ 지침
 title: 활동 속성 FAQ
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '747'
 ht-degree: 0%
-
 ---
-
 # 활동 속성 FAQ {#activities-attribution-faq}
 
 [!DNL Marketo Measure] 활동이 모든 활동 레코드를 가져오고 터치포인트를 생성하므로 이러한 활동이 속성 크레딧을 받을 수 있습니다. 가장 일반적인 사용 사례는 잠재 고객에게 전송된 전화 통화 또는 이메일 기록을 생성하는 영업 팀의 활동을 추적하는 것입니다. 추적할 수 있는 다른 고유한 사항은 에셋 다운로드나 비디오 보기와 같은 콘텐츠 상호 작용입니다.
@@ -68,6 +72,6 @@ CRM의 Activity 개체를 사용하여 먼저 필터를 설정하는 것이 좋�
 
 **이 활동을 수행할 채널은 무엇입니까?**
 
-활동 규칙과 해당 [!DNL Marketo Measure] 캠페인 이름이 만들어지면 온라인 채널 정의를 사용하여 해당 캠페인을 올바른 마케팅 채널 아래에 배치합니다. [!DNL Marketo Measure] 은 중간 및 소스뿐만 아니라 캠페인을 사용하여 채널을 정의할 수 있습니다.
+활동 규칙과 해당 [!DNL Marketo Measure] 캠페인 이름이 만들어지면 온라인 채널 정의를 사용하여 해당 캠페인을 올바른 마케팅 채널 아래에 배치합니다. [!DNL Marketo Measure]은(는) 중간 및 소스뿐만 아니라 캠페인을 사용하여 채널을 정의할 수 있습니다.
 
 위의 예에서 &quot;아웃바운드 호출 {Assigned To}&quot; 캠페인을 BDR 채널에 할당하려면 캠페인 정의가 &quot;아웃바운드 호출&#42;&quot;인 BDR 채널의 온라인 채널 CSV에 행을 삽입합니다. 별표는 와일드카드 값을 나타내므로 &quot;아웃바운드 호출&quot;로 시작하는 모든 캠페인은 각 캠페인 이름에 대해 별도의 행을 만들지 않고 BDR 채널에 속합니다.

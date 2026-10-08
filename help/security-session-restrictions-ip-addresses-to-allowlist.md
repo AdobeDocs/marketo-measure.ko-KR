@@ -3,13 +3,17 @@ description: 세션 제한이 적용될 때 Marketo Measure이 연결할 수 있
 title: 보안 세션 제한 - IP 주소 허용 목록
 exl-id: aaf5190f-893c-4872-8d03-93f516e70a59
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 0%
-
+source-wordcount: '98'
+ht-degree: 6%
 ---
-
 # 보안 세션 제한: IP 주소 허용 목록 {#security-session-restrictions-ip-addresses-to-allowlist}
 
 특정 IP 주소가 데이터를 [!DNL Salesforce] 인스턴스로 푸시하거나 가져오지 못하게 하는 [세션 보안 설정](https://help.salesforce.com/articleView?id=admin_sessions.htm&type=0){target="_blank"}이 있는 경우 [!DNL Marketo Measure]에서 데이터를 [!DNL Salesforce]으로 푸시할 수 있도록 하려면 다음 IP 범위를 허용 목록에추가된으로 설정해야 합니다.

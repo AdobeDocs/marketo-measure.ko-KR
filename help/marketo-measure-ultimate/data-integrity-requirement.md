@@ -3,19 +3,27 @@ description: '[!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항 
 title: '[!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-TQID: https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E
+TQID: 'https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: '1703'
 ht-degree: 22%
-
 ---
-
 # [!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항 {#marketo-measure-ultimate-data-integrity-requirement}
 
 [!DNL Marketo Measure]은(는) 들어오는 AEP 데이터 세트의 유효성을 검사하여 데이터가 속성에 대해 충분하고 일관성이 있는지 확인합니다. 데이터 무결성 요구 사항을 충족하지 못하면 [!DNL Marketo Measure] 시스템에서 데이터 세트가 거부됩니다. 이 문서에서는 데이터 무결성 요구 사항에 대해 자세히 설명하고 데이터 검사를 위한 쿼리 예를 제공하며 null 값이 있는 필수 필드에 대한 솔루션을 권장합니다.
@@ -888,14 +896,14 @@ ht-degree: 22%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>Marketo Measure의 기본 통화 코드 세트(예: USD)</td>
+      <td>Marketo Measure에 설정된 기본 통화 코드(예: USD)</td>
     </tr>
   </tbody>
 </table>
 
 ## 통화 전환 데이터 요구 사항 {#currency-conversion-data-requirements}
 
-**기본 통화**: Marketo Measure에서 모든 매출과 비용은 보고 시 기본 통화로 전환됩니다. 전환율이 1인 대상 통화 자체에 대한 날짜 범위가 동일한 레코드가 하나 있어야 합니다(예: USD에서 USD로의 전환).
+**기본 통화**: Marketo Measure에서 모든 매출과 비용은 보고 시 기본 통화로 전환됩니다. 전환율이 1인 대상 통화 자체(예: USD에서 USD으로)에 대해 날짜 범위가 동일한 레코드가 하나 있어야 합니다.
 
 **전환율**: 각(원본 통화, 대상 통화) 쌍은 서로 다른 날짜 기간에 대해 여러 전환율을 가질 수 있습니다. 이 비율은 Salesforce DatedConversionRate 개체에 따라 0001-01-01부터 9999-12-31까지의 전체 시간 범위를 포함해야 합니다.
 
@@ -1384,7 +1392,7 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 필드 매핑에서 계산된 필드를 사용하여 필드를 NULL이 아닌 값으로 기본 설정하는 것이 좋습니다. 다음은 두 가지 예입니다.
 
 * 일부 영업 기회 레코드의 opportunityName이 null인 경우 필드 매핑에서 다음 계산된 필드를 만들어 사용합니다.
-   * `iif(name != null && trim(name) != "", name, "Unknown")`
+  * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * 일부 experienceevent 레코드의 leadOperation.campaignProgression.campaignID가 null이면 필드 매핑에서 다음 계산된 필드를 만들어 사용합니다
-   * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
+  * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

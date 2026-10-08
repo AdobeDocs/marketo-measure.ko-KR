@@ -4,20 +4,23 @@ description: 온라인 사용자 지정 채널 설정 - [!DNL Marketo Measure]
 title: 온라인 사용자 지정 채널 설정
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-TQID: https://experienceleague.adobe.com/8mxa4BFlZDGPRecGF-ZYDIf5pzPpistFv2kOUF0Se88
+TQID: 'https://experienceleague.adobe.com/8mxa4BFlZDGPRecGF-ZYDIf5pzPpistFv2kOUF0Se88'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1219
+source-wordcount: '1219'
 ht-degree: 0%
-
 ---
-
 # 온라인 사용자 지정 채널 설정 {#online-custom-channel-setup}
 
 정확한 보고를 위해 조직의 UTM 전략을 반영하도록 마케팅 채널을 설정해야 합니다. 이 안내서에서는 사용자 지정 채널 규칙을 구성하는 가장 좋은 방법을 안내합니다.

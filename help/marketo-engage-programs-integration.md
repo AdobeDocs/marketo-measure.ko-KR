@@ -3,13 +3,17 @@ description: '[!DNL Marketo Engage] 프로그램 통합 - [!DNL Marketo Measure]
 title: '[!DNL Marketo Engage] 프로그램 통합'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
-
 ---
-
 # [!DNL Marketo Engage] 프로그램 통합 {#marketo-engage-programs-integration}
 
 [!DNL Marketo Engage] 프로그램과의 [!DNL Marketo Measure] 통합을 통해 고객은 Marketo 프로그램 멤버십에서 속성 추적을 위한 터치포인트를 만들 수 있습니다. 이 기능을 사용하면 마케터는 [!DNL Marketo Measure] javascript에서 볼 수 없으며 속성 여정 내에서 측정해야 하는 전자 메일 또는 참여 프로그램에서 프로그램 멤버십을 추적할 수 있습니다.

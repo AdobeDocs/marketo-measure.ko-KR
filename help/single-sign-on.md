@@ -2,13 +2,14 @@
 description: Marketo Measure 사용자를 위한 단일 사인온 지침
 title: 단일 사인온
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
-
 ---
-
 # 단일 사인온 {#single-sign-on}
 
 SSO(Single Sign-On)를 위한 SAML(보안 설정 마크업 언어)을 사용하면 사용자가 [!DNL Marketo Measure] 앱에 로그인할 때 회사 ID 공급자를 통해 인증할 수 있습니다. SSO를 통해 사용자는 별도의 앱을 인증할 필요 없이 한 번만 인증할 수 있습니다. 모든 사용자가 조직 내에 [!DNL Salesforce] 또는 [!DNL Google] 계정을 가지고 있지 않으므로 기업 고객은 SAML을 사용해야 합니다. 확장을 위해 [!DNL Marketo Measure]에서 회사 ID 공급자를 지원할 수 있는 SAML 솔루션을 개발했습니다.

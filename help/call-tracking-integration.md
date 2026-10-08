@@ -3,13 +3,19 @@ description: Marketo Measure 사용자를 위한 호출 추적 통합 지침
 title: 호출 추적 통합
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # 호출 추적 통합 {#call-tracking-integration}
 
 [!DNL CallTrackingMetrics]과(와)의 통합은 웹 세션을 전화 통화와 병합하기 위한 것입니다. 전화 통화가 [!DNL Marketo Measure]에 대한 양식 제출로 처리됩니다. 실제 양식 제출이 없었기 때문에 웹 방문으로만 간주되었을 웹 세션에 크레딧을 제공합니다.
@@ -70,7 +76,7 @@ Marketo Measure에서 일반적으로 푸시하는 ![접점 유형 값은 웹 �
 
 먼저 작업을 확인하여 [!DNL BizibleId]이(가) 채워져 있는지 확인하십시오. 값이 없으면 터치포인트를 만들 수 없습니다. CallTrackingMetrics를 사용하여 이를 에스컬레이션해야 합니다.
 
-값이 있는 경우 모든 웹 세션은 30분으로만 간주됩니다. 12:17pm(웹 사이트의 세션 시작)에 Google 광고를 클릭했지만 1:05pm까지 통화가 발생하지 않은 경우 웹 세션과 전화를 병합하지 않습니다. 대신 [!DNL Marketo Measure]은(는) 별도의 [!DNL Salesforce Task] 접점을 만들어 전화 통화를 추적하지만 웹 세션 데이터는 없습니다.
+값이 있는 경우 모든 웹 세션은 30분으로만 간주됩니다. 오후 12시 17분(웹 사이트에서 세션 시작)에 Google 광고를 클릭했지만 오후 1시 5분이 되어서야 통화가 이루어진 경우, 웹 세션과 전화를 병합하지 않습니다. 대신 [!DNL Marketo Measure]은(는) 별도의 [!DNL Salesforce Task] 접점을 만들어 전화 통화를 추적하지만 웹 세션 데이터는 없습니다.
 
 ![값이 있으면 모든 웹만 고려합니다](assets/other-resources-2.png)
 

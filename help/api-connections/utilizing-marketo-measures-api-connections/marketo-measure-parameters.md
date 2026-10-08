@@ -4,20 +4,25 @@ description: '[!DNL Marketo Measure] 매개 변수 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 매개 변수'
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
-TQID: https://experienceleague.adobe.com/IurdaUgr2R1vxfOP4bcXp8TSUj4ymkA-R9kZ9put4Ug
+TQID: 'https://experienceleague.adobe.com/IurdaUgr2R1vxfOP4bcXp8TSUj4ymkA-R9kZ9put4Ug'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
 subfeature_v2:
   - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Facebook API
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '243'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] 매개 변수 {#marketo-measure-parameters}
 
 ## [!DNL Marketo Measure] 매개 변수 설명 {#marketo-measure-parameters-explained}
@@ -35,28 +40,28 @@ UTM을 사용하여 추가 insight을 얻으려면 [!DNL Marketo Measure]에서 
 ## AdWords 매개변수 {#adwords-parameters}
 
 * `_bk={keyword}`
-   * 검색 엔진에서 개인이 사용한 키워드를 나타냅니다.
-   * 이는 UTM 용어 매개 변수와 유사합니다.
+  * 검색 엔진에서 개인이 사용한 키워드를 나타냅니다.
+  * 이는 UTM 용어 매개 변수와 유사합니다.
 
 * `_bt={creative}`
-   * 크리에이티브 ID 또는 이름을 나타냅니다.
-   * 이는 UTM 콘텐츠 매개 변수와 유사합니다.
+  * 크리에이티브 ID 또는 이름을 나타냅니다.
+  * 이는 UTM 콘텐츠 매개 변수와 유사합니다.
 
 * `_bm={matchtype}`
-   * 키워드가 얼마나 가깝게 일치했는지 나타냅니다.
-   * 키워드 일치 유형은 광고를 트리거하는 검색을 제어하는 데 도움이 됩니다. 예를 들어 광범위한 일치 를 사용하여 광고를 광범위한 대상자에게 표시하거나 정확한 일치 를 사용하여 특정 고객 그룹에 대해 경고할 수 있습니다.
-   * 세 가지 일치 유형은 넓음, 흐릿함 및 정확함입니다.
+  * 키워드가 얼마나 가깝게 일치했는지 나타냅니다.
+  * 키워드 일치 유형은 광고를 트리거하는 검색을 제어하는 데 도움이 됩니다. 예를 들어 광범위한 일치 를 사용하여 광고를 광범위한 대상자에게 표시하거나 정확한 일치 를 사용하여 특정 고객 그룹에 대해 경고할 수 있습니다.
+  * 세 가지 일치 유형은 넓음, 흐릿함 및 정확함입니다.
 
 >[!TIP]
 >
 >일치 유형에 대한 자세한 내용은 [관련 AdWords 문서를 참조하십시오](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
 * `_bn={network}`
-   * 광고 네트워크 유형([디스플레이 또는 검색](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"})을 나타냅니다.
-   * 이는 UTM Source 매개 변수와 유사합니다.
+  * 광고 네트워크 유형([디스플레이 또는 검색](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"})을 나타냅니다.
+  * 이는 UTM Source 매개 변수와 유사합니다.
 
 * `_bg={adgroupID}`
-   * 광고가 속한 광고 그룹의 ID를 나타냅니다
+  * 광고가 속한 광고 그룹의 ID를 나타냅니다
 
 >[!NOTE]
 >
@@ -72,4 +77,4 @@ UTM을 사용하여 추가 insight을 얻으려면 [!DNL Marketo Measure]에서 
 ## Facebook 매개 변수 {#facebook-parameters}
 
 * `_bf ={creative}`
-   * 크리에이티브 ID 또는 이름을 나타냅니다
+  * 크리에이티브 ID 또는 이름을 나타냅니다

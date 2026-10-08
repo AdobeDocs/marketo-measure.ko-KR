@@ -3,14 +3,18 @@ description: Marketo Measure 사용자를 위한 온라인 사용자 지정 채�
 title: 온라인 사용자 지정 채널 설정
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1287'
 ht-degree: 0%
-
 ---
-
 # 온라인 사용자 지정 채널 설정 {#online-custom-channel-setup}
 
 정확한 보고를 위해 조직의 UTM 전략을 반영하도록 마케팅 채널을 설정해야 합니다. 이 안내서에서는 사용자 지정 채널 규칙을 구성하는 가장 좋은 방법을 안내합니다.
@@ -26,7 +30,7 @@ ht-degree: 0%
 * 데이터의 각 컬렉션 또는 버킷에는 데이터 구성 방법을 지정하는 자체 규칙(스프레드시트의 행)이 필요합니다. 가능한 한 구체적이어야 합니다.
 * [!DNL Marketo Measure] 논리는 스프레드시트의 맨 위 행부터 시작하여 내림차순으로 데이터의 우선 순위를 지정합니다. 첫 번째 맞춤을 찾기 위해 각 버킷 또는 셀을 행별로 읽습니다. 그런 다음 데이터는 이러한 버킷의 값에 따라 정렬됩니다. 자세한 내용은 아래를 참조하십시오.
 * 시트가 논리 규칙을 방해하므로 시트를 알파벳순으로 정렬하지 마십시오.
-* 파일이 업로드되면 7일 동안 규칙을 변경할 수 없습니다. [!DNL Marketo Measure] 은 이 시간을 활용하여 터치포인트를 처리하고 업데이트합니다.
+* 파일이 업로드되면 7일 동안 규칙을 변경할 수 없습니다. [!DNL Marketo Measure]은(는) 이 시간을 사용하여 터치포인트를 처리하고 업데이트합니다.
 
 ## [!DNL Marketo Measure] 논리 및 우선 순위 {#marketo-measure-logic-and-priorities}
 
@@ -46,7 +50,7 @@ ht-degree: 0%
 * **랜딩 페이지:** 여기에 랜딩 페이지 추가
 * **참조 웹 사이트:** 페이지 또는 기본 제공 [!DNL Marketo Measure] 논리에 대한 트래픽을 참조하는 웹 사이트의 URL(대괄호로 표시)
 
-여덟 번째 열은 &quot;제거하지 않음&quot;을 사용하여 스프레드시트에서 삭제할 수 없는 규칙을 기록합니다. 스프레드시트의 맨 위에는 [!DNL Marketo Measure]이(가) 이러한 채널을 사용하지 않더라도 변경하거나 제거하지 않도록 권장하는 기본 채널 규칙이 있습니다. [!DNL Marketo Measure] 에는 이러한 플랫폼과 깊은 통합이 있으므로 기본적으로 포함됩니다.
+여덟 번째 열은 &quot;제거하지 않음&quot;을 사용하여 스프레드시트에서 삭제할 수 없는 규칙을 기록합니다. 스프레드시트의 맨 위에는 [!DNL Marketo Measure]이(가) 이러한 채널을 사용하지 않더라도 변경하거나 제거하지 않도록 권장하는 기본 채널 규칙이 있습니다. [!DNL Marketo Measure]은(는) 이러한 플랫폼과 깊은 통합을 하므로 기본적으로 포함됩니다.
 
 행은 규칙과 [!DNL Marketo Measure]이(가) 데이터를 우선 순위를 지정하는 순서를 나타냅니다. 첫 번째 행이 두 번째 행보다 우선하고, 두 번째 행이 세 번째 행보다 우선하는 식이다. 마케팅 채널 및 하위 채널을 버킷에 연결하는 터치포인트를 결정할 때 [!DNL Marketo Measure]은(는) 터치포인트의 기준을 충족하는 행을 찾을 때까지 하향식, 왼쪽에서 오른쪽으로 읽습니다. (터치포인트에 `utm_source=Facebook`이(가) 있는 경우, 터치포인트는 스크린샷의 규칙 15로 인해 Social.Facebook 채널에 그룹화됩니다.)
 

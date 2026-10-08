@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 지출 관리 방법 지침
 title: 지출 관리 방법
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
-
 ---
-
 # 지출 관리 방법 {#spend-management-methods}
 
 지출 데이터는 [!DNL Marketo Measure]을(를) 통한 ROI 보고의 성공에 중요한 요소입니다. 모든 채널 및 하위 채널에서 정확하고 포괄적인 ROI 보고를 수행하려면 [!DNL Marketo Measure]&#x200B;(으)로 가져올 적절한 지출 데이터가 있는지 확인해야 합니다.
@@ -28,7 +32,7 @@ API를 통해 [!DNL Marketo Measure]에 연결한 모든 광고 계정에서 ROI
 
 활성화되면 이 기능은 다음 기준을 충족하는 CRM 캠페인/프로그램에서 자동으로 사용됩니다.
 
-i. [!DNL Marketo Measure] 먼저 캠페인/프로그램이 터치포인트를 만드는 중인지 확인합니다. 일치하는 [캠페인 동기화 규칙](/help/channel-tracking-and-setup/custom-campaign-sync.md) 또는 일치하는 [프로그램 동기화 규칙](/help/marketo-engage-programs-integration.md)이 만들어졌는지 [구매자 터치포인트 사용](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)이(가) &quot;모든 캠페인 멤버 포함&quot; 또는 &quot;응답한 캠페인 멤버 포함&quot;인지 확인합니다.
+난... [!DNL Marketo Measure]은(는) 먼저 캠페인/프로그램이 터치포인트를 만들고 있는지 확인합니다. 만든 일치하는 [캠페인 동기화 규칙](/help/channel-tracking-and-setup/custom-campaign-sync.md) 또는 만든 일치하는 [프로그램 동기화 규칙](/help/marketo-engage-programs-integration.md)에서 또는 [구매자 터치포인트 사용](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)이(가) &quot;모든 캠페인 멤버 포함&quot; 또는 &quot;응답된&quot; 캠페인 멤버 포함&quot;인지 확인합니다.
 
 ii. 캠페인/프로그램에 시작 날짜를 채워야 합니다.
 

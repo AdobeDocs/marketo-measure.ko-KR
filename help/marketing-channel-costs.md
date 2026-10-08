@@ -3,14 +3,20 @@ description: Marketo Measure 사용자를 위한 마케팅 채널 비용 지침
 title: 마케팅 채널 비용
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
-
 ---
-
 # 마케팅 채널 비용 {#marketing-channel-costs}
 
 [!DNL Marketo Measure]을(를) 사용하면 가장 기본적인 이점 중 하나는 마케팅 노력을 매출에 미치는 영향에 직접 연결할 수 있다는 것입니다. 필요한 만큼의 세부기간을 사용해야 합니다. 접점 수준에서 투자 수익률을 볼 수 있다. 이 이점을 활용하려면 채널 비용을 [!DNL Marketo Measure] 앱에 업로드해야 합니다. ROI 보고서는 자동으로 만들어지고 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}의 **마케팅 ROI 대시보드**&#x200B;에서 사용할 수 있습니다.
@@ -87,7 +93,7 @@ ht-degree: 0%
 
 **3단계: CSV 파일을 열고 변경**
 
-파일을 가져와 Google Sheets, Apple Numbers, Microsoft Excel 또는 선택한 소프트웨어를 사용하여 열 수 있습니다. [!DNL Marketo Measure] 는 Google Sheets 사용을 권장합니다.
+파일을 가져와 Google Sheets, Apple Numbers, Microsoft Excel 또는 선택한 소프트웨어를 사용하여 열 수 있습니다. [!DNL Marketo Measure]에서는 Google 시트를 사용할 것을 권장합니다.
 
 시트를 가져온 후에는 채널 및 하위 채널에 비용을 추가하거나 기존 정보를 업데이트하는 등 원하는 대로 변경합니다.
 

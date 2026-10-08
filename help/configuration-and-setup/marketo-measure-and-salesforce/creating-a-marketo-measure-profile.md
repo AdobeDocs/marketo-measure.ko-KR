@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874698
-description: ' [!DNL Marketo Measure] 프로필 만들기 - [!DNL Marketo Measure]'
-title: ' [!DNL Marketo Measure] 프로필 만들기'
+description: '[!DNL Marketo Measure] 프로필 만들기 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] 프로필 만들기'
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/7LvGF-KnE-FAkp1eLwawZUbFqac4cWAH9YmPKXaqKsM
+TQID: 'https://experienceleague.adobe.com/7LvGF-KnE-FAkp1eLwawZUbFqac4cWAH9YmPKXaqKsM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: '187'
 ht-degree: 3%
-
 ---
-
 # [!DNL Marketo Measure] 프로필 만들기 {#creating-a-marketo-measure-profile}
 
 [!DNL Marketo Measure] 프로필을 만드는 방법을 알아봅니다. [!DNL Marketo Measure] 프로필을 만들면 CRM으로 데이터를 푸시할 때 유효성 검사 오류가 발생하지 않습니다.

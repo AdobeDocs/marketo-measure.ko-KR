@@ -1,16 +1,23 @@
 ---
-description: Marketo Measure 사용자를 위한 Marketo Measure 지원 지침에 대한  [!DNL Salesforce] 액세스 권한 부여
-title: Marketo Measure 지원에 대한  [!DNL Salesforce] 액세스 권한 부여
+description: Marketo Measure 사용자를 위한 Marketo Measure 지원 지침에 대한 [!DNL Salesforce] 액세스 권한 부여
+title: Marketo Measure 지원에 대한 [!DNL Salesforce] 액세스 권한 부여
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '169'
 ht-degree: 2%
-
 ---
-
 # Marketo Measure 지원에 대한 [!DNL Salesforce] 액세스 권한 부여 {#granting-salesforce-access-to-marketo-measure-support}
 
 경우에 따라 [!DNL Marketo Measure] 지원에서 구현 중에 진단 문제 해결 또는 Salesforce 구성을 지원하기 위해 [!DNL Salesforce] 환경에 대한 액세스를 요청할 수 있습니다.

@@ -3,19 +3,23 @@ description: 잠재 고객 속도 대시보드 - [!DNL Marketo Measure] - 제품
 title: 리드 속도 대시보드
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-TQID: https://experienceleague.adobe.com/uuQ2MDoDrYfOEPFs5hNpW6upYZQ3Vs2-4sciJOWV74s
+TQID: 'https://experienceleague.adobe.com/uuQ2MDoDrYfOEPFs5hNpW6upYZQ3Vs2-4sciJOWV74s'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '364'
 ht-degree: 1%
-
 ---
-
 # 리드 속도 대시보드 {#lead-velocity-dashboard}
 
 Velocity 대시보드는 잠재 고객이 판매 funnel을 통해 이동하는 속도에 대한 동적 보기를 제공하여 마케터와 영업 팀이 다양한 채널에서 전환 시간에 대한 중요한 통찰력을 얻을 수 있습니다. 이 도구는 잠재 고객 전환 기간 및 판매 단계 진행 효율성에 대한 주요 질문에 답하는 데 유용하며, 이를 통해 성장 및 전환 가속화를 위한 참여 전략을 최적화할 수 있습니다.
@@ -72,7 +76,7 @@ Velocity 대시보드는 잠재 고객이 판매 funnel을 통해 이동하는 �
 이 대시보드에는 다음 설정 및 필터가 포함되어 있습니다.
 
 * 일자
-   * 기준: 날짜 전환
+  * 기준: 날짜 전환
 * 단계
 * 채널
 * 부채널

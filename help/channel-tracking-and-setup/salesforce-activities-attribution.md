@@ -3,13 +3,22 @@ description: Marketo Measure 사용자를 위한 Salesforce 활동 속성 지침
 title: Salesforce 활동 속성
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 0%
-
 ---
-
 # Salesforce 활동 속성 {#salesforce-activities-attribution}
 
 [!DNL Marketo Measure] Salesforce 활동 통합은 특정 작업 및 이벤트 레코드를 속성 모델로 가져옵니다. 적법한 크레딧을 받지 못한 판매 이메일 또는 판매 전화 등의 항목을 추적하기 시작합니다. 활동 규칙을 구성하려면 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}(으)로 이동하십시오. 여기에서 **[!UICONTROL Settings]** 탭으로 이동하여 **[!UICONTROL Activities]** 탭을 클릭합니다.
@@ -23,11 +32,11 @@ ht-degree: 0%
 이 계층 구조에 익숙해지십시오.
 
 * 채널
-   * 부채널
-      * Campaign
-      * Campaign
-   * 부채널
-      * Campaign
+  * 부채널
+    * Campaign
+    * Campaign
+  * 부채널
+    * Campaign
 
 >[!TIP]
 >
@@ -45,7 +54,7 @@ ht-degree: 0%
 >
 >공식 필드는 규칙 내에서 사용할 수 없으며 선택 목록에 표시되지 않습니다. 수식은 백그라운드에서 계산되며 레코드를 수정하지 않으므로 [!DNL Marketo Measure]은(는) 레코드가 규칙에 맞는지 여부를 검색할 수 없습니다.
 >
->CrmEvent.CreatedById와 같은 ID 필드에 올바른 값을 사용해야 합니다. [!DNL Salesforce IDs] 길이는 18자(0054H000007WmrfQAC)입니다.
+>CrmEvent.CreatedById와 같은 ID 필드에 올바른 값을 사용해야 합니다. [!DNL Salesforce IDs]은(는) 18자 길이(0054H000007WmrfQAC)입니다.
 
 마지막으로 Buyer Touchpoint 날짜로 활용할 날짜 또는 날짜/시간 필드 중 하나를 선택합니다. 표준 및 사용자 정의 필드 중 하나를 선택할 수 있습니다.
 
@@ -80,7 +89,7 @@ ht-degree: 0%
 | 임의 항목 일치 | 여러 값 - 정확한 일치 |
 | 모두 일치(포함) | 여러 값 - &#42;값&#42;, &#42;값, &#42;값&#42; |
 
-![| 모두 일치(포함) | 다중 값 - &42;value&42;, &42;value, &42;value&42; |](assets/activities-attribution-8.png)
+![|모든 항목(포함)과 일치 | 다중 값 - &42;value&42;, &42;value, &42;value&42; |](assets/activities-attribution-8.png)
 
 마지막으로, 새 채널에 대한 비용을 입력할 수 있습니다. [마케팅 지출 업로드](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spent){target="_blank"}를 통해 채널 수준, 하위 채널 수준 또는 캠페인 수준에서 지출을 입력할 수 있습니다. 새 [!DNL Marketo Measure] 캠페인을 사용하면 월별로 이러한 관련 비용을 추가한 다음 각 캠페인에 대한 ROI를 확인할 수 있습니다.
 

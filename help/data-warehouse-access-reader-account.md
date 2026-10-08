@@ -3,13 +3,17 @@ description: 판독기 계정을 설정하고 사용하여 Marketo Measure Data 
 title: Data Warehouse 액세스 - Reader 계정
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 1%
-
 ---
-
 # Data Warehouse 액세스 - Reader 계정 {#data-warehouse-access-reader-account}
 
 ## Snowflake 액세스 링크 {#snowflake-access-link}
@@ -32,7 +36,7 @@ Snowflake 데이터 웨어하우스에 액세스하려면 Snowflake 계정의 �
    >
    >이는 개별 사용자가 아닌 조직에서 사용할 수 있는 읽기 전용 계정입니다. 조직 내에서 [!DNL Marketo Measure]에 액세스할 수 있는 모든 사용자는 이 계정을 사용하여 Snowflake Data Warehouse 리더 계정에 로그인할 수 있습니다.
 
-1. Snowflake URL에 제공된 링크를 클릭하면 사용자 이름과 암호를 입력하는 Snowflake 로그인 페이지로 이동합니다. _암호가 없으면 아래 단계를 참조하여 암호를 재설정하십시오._.
+1. Snowflake URL에 제공된 링크를 클릭하면 사용자 이름과 암호를 입력하는 Snowflake 로그인 페이지로 이동합니다. _암호가 없는 경우 아래 단계를 참조하여 암호를 재설정하십시오_.
 
    ![1. Snowflake URL에 제공된 링크를 클릭하면 &#x200B;](assets/data-account-5.png)(으)로 이동합니다.
 
@@ -66,14 +70,14 @@ Snowflake 데이터 웨어하우스를 서드파티 도구에 연결하려면 �
 >각 도구에는 서로 다른 연결 요구 사항이 있습니다. 연결하려는 특정 도구에 대한 설명서를 참조하는 것이 좋습니다.
 
 * **URI**(항상 필요)
-   * Snowflake 계정의 도메인 이름입니다. Snowflake 로그인 링크의 일부에 포함되어 있습니다.
+  * Snowflake 계정의 도메인 이름입니다. Snowflake 로그인 링크의 일부에 포함되어 있습니다.
 * **사용자 이름**(항상 필요)
-   * [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 사용자 이름이 나열됩니다.
+  * [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 사용자 이름이 나열됩니다.
 * **암호**(항상 필요)
-   * Snowflake 계정에 처음 로그인할 때 설정한 암호입니다. 암호를 재설정하려면 위에 설명된 단계를 참조하십시오.
+  * Snowflake 계정에 처음 로그인할 때 설정한 암호입니다. 암호를 재설정하려면 위에 설명된 단계를 참조하십시오.
 * **데이터베이스 이름**(항상 필요한 것은 아님)
-   * 데이터베이스는 Snowflake에 데이터를 저장하는 것입니다. 스토리지 리소스입니다. 데이터베이스 이름이 [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 나열됩니다.
+  * 데이터베이스는 Snowflake에 데이터를 저장하는 것입니다. 스토리지 리소스입니다. 데이터베이스 이름이 [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 나열됩니다.
 * **웨어하우스 이름**(항상 필요한 것은 아님)
-   * 웨어하우스는 Snowflake에서 쿼리를 실행하는 것입니다. 계산된 리소스입니다. [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 웨어하우스 이름이 나열됩니다.
+  * 웨어하우스는 Snowflake에서 쿼리를 실행하는 것입니다. 계산된 리소스입니다. [!DNL Marketo Measure]의 Data Warehouse 정보 페이지에 웨어하우스 이름이 나열됩니다.
 
   ![웨어하우스는 Snowflake에서 쿼리를 실행합니다. 계산됨](assets/data-account-2.png)

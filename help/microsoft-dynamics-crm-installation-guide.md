@@ -3,14 +3,23 @@ description: Microsoft Dynamics CRM에 Marketo Measure 패키지를 설치하고
 title: '[!DNL Microsoft Dynamics] CRM 설치 안내서'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 1%
-
 ---
-
 # [!DNL Microsoft Dynamics] CRM 설치 안내서 {#microsoft-dynamics-crm-installation-guide}
 
 >[!NOTE]
@@ -72,7 +81,7 @@ Dynamics 표준 엔터티의 경우 [!DNL Marketo Measure] Dynamics 스키마 �
 1. 서브그리드에서 렌더링해야 하는 개체(구매자 속성 접점 또는 구매자 접점)를 선택합니다. 이는 개체 관계에 따라 다릅니다. 필요한 경우 [편집] 단추를 눌러 표시되는 열을 변경합니다. 기본 레이아웃은 관리되는 솔루션에 의해 설정됩니다.
 
    Buyer Attribution Touchpoint 하위 그리드 - 계정, 기회 및 연락처
-Buyer Touchpoint 하위 그리드 - 리드 및 연락처
+   Buyer Touchpoint 하위 그리드 - 리드 및 연락처
 
 1. 양식 업데이트가 완료되면 변경 사항을 게시하고 저장합니다.
 

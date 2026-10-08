@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 FAQ(다중 통화) 지침
 title: FAQ (다중 통화)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
-
 ---
-
 # FAQ (다중 통화) {#faq-multi-currency}
 
 **사용할 기능 비트를 어떻게 알 수 있습니까?**
@@ -52,7 +56,7 @@ Marketo Measure은 고객의 CRM에서 통화 설정을 자동으로 가져옵�
 
 [!DNL Salesforce]의 오랜 제한으로 인해 [!DNL Salesforce] 고급 통화 관리 사용자의 경우 이 기능이 어떻게 작동하는지 알 수 없습니다. &quot;이 경우 어떻게 해야 합니까&quot;에 대한 짧은 대답은 기본(즉, 비고급) &quot;통화 관리&quot; 탭에 정의된 고정 환율을 사용하여 수익 금액을 변환한다는 것입니다. 즉, 고객이 기일환율을 정의했음에도 불구하고 우리는 기일환율을 완전히 무시한다.
 
-관심있는 독자를 위해, 이것이 이렇게 작동하는 이유가 여기에 있다. 터치포인트는 공식 필드를 사용하여 매출을 계산합니다(관련 기회 금액에서 파생). [!DNL Salesforce] 기본적으로 이러한 공식 계산에 대해 통화 변환을 지원하지만, 통화 지원의 기본 취향에 대해서만 지원됩니다. 우리가 날짜의 환율을 참조하는 공식 필드를 정의하는 것은 불가능하다. [!DNL Salesforce] 이 기능은 지원되지 않으므로, 오래된 환율이 [!DNL Salesforce]에 존재함에도 불구하고 매출액 계산에서 오래된 환율을 참조할 방법이 없습니다(이상하게 들리지만 그렇게 작동하는 방식).
+관심있는 독자를 위해, 이것이 이렇게 작동하는 이유가 여기에 있다. 터치포인트는 공식 필드를 사용하여 매출을 계산합니다(관련 기회 금액에서 파생). [!DNL Salesforce]은(는) 이러한 수식 계산에 대해 기본적으로 통화 변환을 지원하지만 통화 지원의 기본 기능에만 사용됩니다. 우리가 날짜의 환율을 참조하는 공식 필드를 정의하는 것은 불가능하다. [!DNL Salesforce]은(는) 해당 기능을 지원하지 않기 때문에 날짜가 지정된 요금이 [!DNL Salesforce]에 존재함에도 불구하고 수익 계산에 포함된 날짜가 지정된 요금을 참조할 방법이 없습니다(이상하게 들리지만 그렇게 작동하는 방식).
 
 **고객이 워크플로우를 사용하여 변환된 필드를 채운 경우 앞으로 이 필드를 어떻게 사용해야 합니까?**
 

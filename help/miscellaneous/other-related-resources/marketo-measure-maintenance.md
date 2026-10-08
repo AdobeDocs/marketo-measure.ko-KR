@@ -4,20 +4,25 @@ description: '[!DNL Marketo Measure] 유지 관리 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 유지 관리'
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-TQID: https://experienceleague.adobe.com/VEBJQ-MEYJv0wmkGV9kcLO42qQ25ibwinCGYOP5Kk-k
+TQID: 'https://experienceleague.adobe.com/VEBJQ-MEYJv0wmkGV9kcLO42qQ25ibwinCGYOP5Kk-k'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 1%
-
 ---
-
 # [!DNL Marketo Measure] 유지 관리 {#marketo-measure-maintenance}
 
 [!DNL Marketo Measure]은(는) 매일 CRM에서 필요한 거의 모든 것을 가져오지만, [!DNL Marketo Measure]을(를) 계속 최신 상태로 유지하고 가능한 가장 정확한 정보를 출력하는 데 정기적으로 예약해야 하는 몇 가지 유지 관리 작업이 있습니다.

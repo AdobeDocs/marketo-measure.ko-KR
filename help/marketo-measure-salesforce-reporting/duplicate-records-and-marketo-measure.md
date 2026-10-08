@@ -1,15 +1,19 @@
 ---
-description: 중복 레코드 및 Marketo Measure 사용자를 위한  [!DNL Marketo Measure] 지침
-title: 중복 레코드 및  [!DNL Marketo Measure]
+description: Marketo Measure 사용자를 위한 중복 레코드 및 [!DNL Marketo Measure] 지침
+title: 중복 레코드 및 [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
-
 ---
-
 # 중복 레코드 및 [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
@@ -28,5 +32,5 @@ kelsey@adobe.com 의 [!DNL Marketo Measure] 개인 ID에 대해 해당 이메일
 
 **권장 사항**
 
-* 보고서에서 반환을 극대화하려면 CRM 내에서 중복 제거 도구를 사용하여 새로운 고유 레코드만 만들 수 있도록 하는 것이 좋습니다. 이 작업은 마케팅 자동화 도구 또는 CRM에 설치된 별도의 소프트웨어를 사용하여 수행할 수 있습니다. [!DNL Marketo Measure] 는 레코드를 자동으로 중복 제거하지 않으며 당사의 소프트웨어를 통해 이 서비스를 제공하지 않습니다.
+* 보고서에서 반환을 극대화하려면 CRM 내에서 중복 제거 도구를 사용하여 새로운 고유 레코드만 만들 수 있도록 하는 것이 좋습니다. 이 작업은 Marketing Automation 도구 또는 CRM 내에 설치된 별도의 소프트웨어를 사용하여 수행할 수 있습니다. [!DNL Marketo Measure]은(는) 레코드를 자동으로 중복 제거하지 않으며 소프트웨어를 통해 이 서비스를 제공하지 않습니다.
 * 중복 항목을 식별할 때 레코드를 수동으로 병합하는 방법도 있습니다. 이 프로세스는 시간이 많이 소요되고 지루할 수 있지만, 정확한 보고 결과를 도출하는 것은 시간 투자할 가치가 있습니다.

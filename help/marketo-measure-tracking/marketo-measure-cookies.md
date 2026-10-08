@@ -3,14 +3,18 @@ description: '[!DNL Marketo Measure] 쿠키 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 쿠키'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 10%
-
 ---
-
 # Marketo Measure 쿠키 {#marketo-measure-cookies}
 
 랜딩 페이지에 [!DNL Marketo Measure] JavaScript을 적용할 때 사이트에 로드되는 다양한 [!DNL Marketo Measure] 쿠키에 대해 알아봅니다. 이 정보는 구현 중에 웹 개발 팀에 유용할 수 있습니다.

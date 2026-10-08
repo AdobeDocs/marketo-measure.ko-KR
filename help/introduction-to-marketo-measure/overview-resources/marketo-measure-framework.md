@@ -4,20 +4,23 @@ description: Marketo Measure 프레임워크 - Marketo Measure - 제품 설명�
 title: Marketo Measure 프레임워크
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-TQID: https://experienceleague.adobe.com/jXanQ2O2lHunlg-PtFF9ot3WACHxu8ZA1sc9klyaXwo
+TQID: 'https://experienceleague.adobe.com/jXanQ2O2lHunlg-PtFF9ot3WACHxu8ZA1sc9klyaXwo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '393'
 ht-degree: 0%
-
 ---
-
 # Marketo Measure 프레임워크 {#marketo-measure-framework}
 
 Marketo Measure 프레임워크를 구성하는 4가지 주요 구성 요소에 대해 자세히 알아보십시오. Marketo Measure은 이러한 애플리케이션을 사용하여 데이터를 추적, 구성 및 관리하고 보고 기능을 제공합니다. Marketo Measure 프레임워크를 구성하는 네 가지 구성 요소는 다음과 같습니다.

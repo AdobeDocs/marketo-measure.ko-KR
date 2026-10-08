@@ -3,13 +3,19 @@ description: Marketo Measure 사용자를 위한 개인 정보 보호 요청 지
 title: 개인정보 보호 요청
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 26%
-
 ---
-
 
 # 개인정보 보호 요청 {#privacy-requests}
 
@@ -49,9 +55,9 @@ ht-degree: 26%
 
 * &quot;action&quot;: [!UICONTROL access] 또는 delete
 * &quot;userIDs&quot;:
-   * &quot;namespace&quot;: 이메일
-   * &quot;type&quot;: standard
-   * &quot;value&quot;: `<Data Subject's Email Address>`
+  * &quot;namespace&quot;: 이메일
+  * &quot;type&quot;: standard
+  * &quot;value&quot;: `<Data Subject's Email Address>`
 
 &quot;include&quot;:
 

@@ -3,13 +3,17 @@ description: '[!DNL Marketo Measure] 101 보고서 개요 - [!DNL Marketo Measur
 title: '[!DNL Marketo Measure] 101 보고서 개요'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '949'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] 101 보고서 개요 {#marketo-measure-101-reports-overview}
 
 >[!NOTE]
@@ -34,8 +38,8 @@ _구매자 터치포인트 보고서 폴더 또는 해당 폴더 내에 있는 6
 
 **구매자 터치포인트로 리드** | 다음 두 가지 변형, 리드 및 구매자 터치포인트에 대해 보고합니다. 이 보고서는 동일한 기본 보고서 유형을 사용하지만 다른 지표(잠재 고객 ID와 마케팅 채널)로 그룹화하여 데이터에 대한 두 가지 주요 보기를 제공합니다. 이 보고서 유형은 최상의 funnel 보고를 위해 설계되었으며 리드가 마케팅 활동에 어떻게 기여하고 있는지 살펴볼 때 이상적입니다. 사용자 지정 전에 아래 두 보고서에 다음이 표시됩니다.
 
-**[!DNL Marketo Measure]101: 채널별 잠재 고객** | 마케팅 채널이 리드 및 추가 참여 생성에 어떤 영향을 미치는지에 대한 높은 수준의 보기.
-**[!DNL Marketo Measure]101: ID**&#x200B;별 잠재 고객 | 여기에는 잠재 고객 스토리가 표시되며, 보다 세분화된 보고서로서 각 개별 잠재 고객과 관련 구매자 터치포인트를 보여 줍니다.
+**[!DNL Marketo Measure]101: 채널별 잠재 고객** | 마케팅 채널이 리드 및 추가 참여 만들기에 어떻게 영향을 미치는지에 대한 높은 수준의 보기.
+**[!DNL Marketo Measure]101: ID별 리드** | 잠재 고객 스토리를 표시하고 훨씬 세분화된 보고서로서 각 개별 잠재 고객 및 관련 구매자 접점을 표시합니다.
 
 **구매자 터치포인트와의 리드/연락처** | 이러한 보고서를 일반적으로 [!DNL Marketo Measure] 개인 보고서라고 합니다. 위에서 언급한 보고서의 잠재 고객 개체가 아닌 [!DNL Marketo Measure] 사용자 지정 개체 _[!DNL Marketo Measure]Person_&#x200B;을(를) 사용합니다.
 
@@ -43,13 +47,13 @@ _구매자 터치포인트 보고서 폴더 또는 해당 폴더 내에 있는 6
 
 다음 두 보고서 변형은 동일한 보고서 유형을 사용하지만 개인 ID(이메일)와 마케팅 채널 등 다른 지표로 그룹화됩니다. 리드 및 연락처가 마케팅 활동에 어떻게 참여하는지를 살펴볼 때 유용한 funnel/funnel 중간 보고서의 맨 위입니다. 사용자 지정 전에 아래 두 보고서에 다음이 표시됩니다.
 
-**[!DNL Marketo Measure]101: 채널별 잠재 고객/연락처** | 마케팅 채널이 리드 또는 연락처 생성 및 추가 참여에 어떤 영향을 미치는지에 대한 높은 수준의 보기. 이 보고서는 마케팅 채널 전반의 총 참여 수와 Salesforce 인스턴스 내에서 새로운 이름을 만들어내는 마케팅 채널을 파악하고자 할 때 이상적입니다.
-**[!DNL Marketo Measure]101: ID**&#x200B;별 잠재 고객/연락처 | 여기에는 각 [!DNL Marketo Measure]명의 스토리가 표시되며, 훨씬 세분화된 보고서로서 잠재 고객 또는 연락처일 때 터치포인트가 발생했는지 여부에 관계없이 각 개인과 구매자 터치포인트를 표시합니다.
+**[!DNL Marketo Measure]101: 채널별 잠재 고객/연락처** | 마케팅 채널이 리드 또는 연락처 만들기 및 추가 참여에 어떻게 영향을 주는지에 대한 높은 수준의 보기. 이 보고서는 마케팅 채널 전반의 총 참여 수와 Salesforce 인스턴스 내에서 새로운 이름을 만들어내는 마케팅 채널을 파악하고자 할 때 이상적입니다.
+**[!DNL Marketo Measure]101: ID별 잠재 고객/연락처** | 각 [!DNL Marketo Measure]명의 스토리를 표시하며 보다 세분화된 보고서입니다. 잠재 고객 또는 연락처일 때 터치포인트가 발생했는지 여부에 관계없이 각 개인과 구매자 터치포인트를 표시합니다.
 
 **구매자 속성 터치포인트를 사용하는 기회** | 마지막 두 개의 &quot;_[!DNL Marketo Measure]101..._&quot; 보고서는 Opportunity와 관련된 Buyer Attribution Touchpoint 데이터를 표시하는 funnel 보고서의 맨 아래에 있습니다. 이러한 보고서의 주요 차별화 요소는 매출과 같은 영업 기회 및 영업 기회 수준 데이터와 관련된 _구매자 속성 접점_&#x200B;을 기반으로 구축되었다는 것입니다. Opportunity 또는 Attribute 수익에 대해 보고하려는 경우 항상 이 보고서 유형을 사용해야 합니다. 아래 두 보고서는 동일한 보고서 유형을 사용하지만, 영업 기회 ID와 마케팅 채널이라는 서로 다른 지표로 그룹화됩니다. 사용자 지정 전에 아래 두 보고서에 다음이 표시됩니다.
 
 **[!DNL Marketo Measure]101: 채널별 기회** | 마케팅 채널이 Opportunity 전반에서 기여하는 매출에 어떤 영향을 주고 받는지에 대한 높은 수준의 관점.
-**[!DNL Marketo Measure]101: ID**&#x200B;별 기회 | 이 세분화된 보고서 버전은 Opportunity 의 전체 여정을 보여 줍니다. 이 보고서에서는 다양한 속성 모델을 통해 Opportunity 와 관련된 모든 Buyer Attribution Touchpoint 및 해당 속성 매출을 볼 수 있습니다.
+**[!DNL Marketo Measure]101: ID별 기회** | 이 세분화된 보고서 버전은 Opportunity 의 전체 여정을 보여 줍니다. 이 보고서에서는 다양한 속성 모델을 통해 Opportunity 와 관련된 모든 Buyer Attribution Touchpoint 및 해당 속성 매출을 볼 수 있습니다.
 
 &quot;_[!DNL Marketo Measure]101..._&quot; 보고서를 보고 요구 사항에 대한 템플릿으로 처리하는 것이 좋습니다. 위의 보고서 중 하나로 시작하면 시간을 절약하고 [!DNL Marketo Measure] 데이터와 관련된 올바른 필드를 사용하여 작업하고 있는지 확인합니다. 보고서의 원래 변형을 유지하기 위해 &quot;_[!DNL Marketo Measure]101..._&quot; 템플릿을 사용자 지정할 때마다 항상 &quot;다른 이름으로 저장&quot;하도록 하십시오.
 

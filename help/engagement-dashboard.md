@@ -3,13 +3,17 @@ description: 사람들이 터치한 터치포인트와 채널별 참여를 추�
 title: 참여 대시보드
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 
 # 참여 대시보드 {#engagement-dashboard}
 
@@ -37,7 +41,7 @@ BT 또는 BAT만 사용하여 참여를 측정하면 참여가 기여도 분석�
 ### KPI 타일 {#kpi-tiles}
 
 * 접점: 생성된 총 원시 접점 수입니다.
-   * 구매자 접점 및 구매자 속성 접점은 크레딧에 대한 특정 접점을 선택하여 생성되는 속성 결과입니다. 모든 터치포인트가 BT 및 BAT로 선택되는 것은 아닙니다.
+  * 구매자 접점 및 구매자 속성 접점은 크레딧에 대한 특정 접점을 선택하여 생성되는 속성 결과입니다. 모든 터치포인트가 BT 및 BAT로 선택되는 것은 아닙니다.
 * 터치한 사람: 터치포인트가 있는 총 사람 수입니다.
 * 사람당 터치포인트: 터치한 사람당 평균 터치포인트 수
 

@@ -1,15 +1,21 @@
 ---
-description: Marketo Measure 사용자를 위한 Adobe Experience Cloud 인터페이스 개요 지침
+description: Adobe Experience Cloud 인터페이스 개요 Marketo Measure 사용자를 위한 지침
 title: Adobe Experience Cloud 인터페이스 개요
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 18%
-
 ---
-
 # Adobe Experience Cloud 인터페이스 개요 {#experience-cloud-interface-overview}
 
 Adobe Experience Cloud 인터페이스는 Adobe Experience Cloud 애플리케이션 및 서비스의 모양과 느낌을 조정합니다. 하지만 단순한 새로운 디자인 그 이상입니다. 단일 인스턴스에서 사용자 경험을 제공하는 단일 페이지 애플리케이션입니다.
@@ -24,7 +30,7 @@ Adobe Experience Cloud 제품에 이미 로그인한 경우 메뉴 아이콘을 
 >
 >구독 중인 Adobe Experience Cloud 제품에 따라 드롭다운 메뉴가 다르게 보일 수 있습니다.
 
-Adobe Experience Cloud _아직_&#x200B;하지 않은 경우 [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure)에서 [!DNL Marketo Measure]에 직접 로그인하십시오.
+_아직_&#x200B;이(가) Adobe Experience Cloud 제품에 로그인하지 않은 경우 [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure)에서 [!DNL Marketo Measure]에 직접 로그인하십시오.
 
 ## 새로운 기능 {#new-features}
 

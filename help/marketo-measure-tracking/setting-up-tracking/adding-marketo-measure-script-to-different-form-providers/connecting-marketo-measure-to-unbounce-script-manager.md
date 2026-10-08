@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874743
-description: 언바운스 스크립트 관리자에  [!DNL Marketo Measure] 연결 - [!DNL Marketo Measure]
-title: 언바운스 스크립트 관리자에  [!DNL Marketo Measure] 연결 중
+description: '[!DNL Marketo Measure]을(를) 언바운스 스크립트 관리자에 연결 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure]을(를) 언바운스 스크립트 관리자에 연결 중'
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-TQID: https://experienceleague.adobe.com/Bo0BFhBLbNfX89BScumswE7WvVzztOak1P38xcXdk1M
+TQID: 'https://experienceleague.adobe.com/Bo0BFhBLbNfX89BScumswE7WvVzztOak1P38xcXdk1M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: '111'
 ht-degree: 3%
-
 ---
-
 # [!DNL Marketo Measure]을(를) 언바운스 스크립트 관리자에 연결 중 {#connecting-marketo-measure-to-unbounce-script-manager}
 
 [!DNL Marketo Measure]은(는) 언바운스와 직접 통합되므로 [!DNL Salesforce]에서 랜딩 페이지 전환의 디지털 마케팅 소스를 직접 추적할 수 있습니다. 연결하려면 [!DNL Marketo Measure] 스크립트를 [언바운스 스크립트 관리자]에 추가하면 됩니다. 방법은 다음과 같습니다.

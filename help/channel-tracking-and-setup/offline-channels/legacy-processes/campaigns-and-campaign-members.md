@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874578
-description: 캠페인 및 캠페인 구성원 - [!DNL Marketo Measure]
+description: 캠페인 및 캠페인 멤버 - [!DNL Marketo Measure]
 title: 캠페인 및 캠페인 멤버
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-TQID: https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU
+TQID: 'https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1183
+source-wordcount: '1183'
 ht-degree: 0%
-
 ---
-
 # 캠페인 및 캠페인 멤버 {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] 캠페인은 마케팅 프로그램 또는 활동과 연결된 잠재 고객 및 연락처 목록을 추적하기 위한 것입니다. 예를 들어 이것은 일반적으로 웨비나 등록 또는 부스 방문입니다. 마케터는 터치포인트 여정에서 캠페인이 크레딧을 받아야 하는지 여부를 선택할 수 있습니다.
@@ -83,7 +85,7 @@ Buyer Touchpoint 날짜를 사용해야 하는지 여부를 확인하려면 캠�
 
 * Buyer Touchpoint 날짜
 * 첫 번째 응답일
-   * 첫 번째 응답한 날짜는 상태가 &quot;응답됨&quot;으로 바뀌자마자 자동으로 설정되며 변경할 수 없는 표준 [!DNL Salesforce] 필드입니다
+  * 첫 번째 응답한 날짜는 상태가 &quot;응답됨&quot;으로 바뀌자마자 자동으로 설정되며 변경할 수 없는 표준 [!DNL Salesforce] 필드입니다
 
 * 캠페인 멤버 생성 날짜
 

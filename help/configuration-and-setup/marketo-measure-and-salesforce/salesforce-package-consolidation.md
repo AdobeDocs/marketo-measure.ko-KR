@@ -3,20 +3,28 @@ description: '[!DNL Salesforce] 패키지 통합 - [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] 패키지 통합'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0
+TQID: 'https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
 # [!DNL Salesforce] 패키지 통합 {#salesforce-package-consolidation}
 
 사용자 경험을 향상시키고 사용을 단순화하기 위해 기존 패키지를 포괄적인 단일 패키지로 컴파일하고 있습니다.
@@ -43,16 +51,16 @@ ht-degree: 4%
 * V2 패키지가 이미 설치되어 있는 경우 새 통합 버전으로 업데이트해야 합니다.
 * 보고 패키지의 보고서나 대시보드가 있는 경우 모든 필드가 통합 패키지에 있으므로 수정하지 않고도 쉽게 다시 만들 수 있습니다.
 * V2_EXT 패키지의 필드를 사용하는 보고서가 있는 경우 아래 단계를 통해 통합 패키지에서 보고서를 다시 만들 수 있습니다.
-   * V2_EXT 필드의 모든 데이터는 터치포인트 필드에서 사용할 수 있으므로, 터치포인트 위치에 필터를 추가하여 해당 V2 터치포인트 필드에서 데이터를 가져오도록 보고서를 수정할 수 있습니다.
-   * &quot;Outreach&quot; 텍스트가 포함된 광고 콘텐츠 FT를 사용하는 모든 리드를 가져오는 보고서 예.
-      * V2_EXT 쿼리:
-         * bizible2_ext__Ad_Content_FT__c에 Outreach 포함
+  * V2_EXT 필드의 모든 데이터는 터치포인트 필드에서 사용할 수 있으므로, 터치포인트 위치에 필터를 추가하여 해당 V2 터치포인트 필드에서 데이터를 가져오도록 보고서를 수정할 수 있습니다.
+  * &quot;Outreach&quot; 텍스트가 포함된 광고 콘텐츠 FT를 사용하는 모든 리드를 가져오는 보고서 예.
+    * V2_EXT 쿼리:
+      * bizible2_ext__Ad_Content_FT__c에 Outreach 포함
 
 ![](assets/package-consolidation-1.png)
 
 * 통합 패키지의 해당 쿼리:
-   * bizible2__Touchpoint_Position__c에 FT 및
-   * bizible2__Ad_Content__c에 Outreach 포함
+  * bizible2__Touchpoint_Position__c에 FT 및
+  * bizible2__Ad_Content__c에 Outreach 포함
 
 ![](assets/salesforce-package-consolidation-2.png)
 

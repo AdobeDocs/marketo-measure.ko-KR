@@ -1,24 +1,33 @@
 ---
-description: ' [!DNL Marketo Measure] 계층화된 구독에서  [!DNL Marketo Measure] Ultimate으로 이동할 때의 마이그레이션 프로세스에 대해 알아봅니다.'
-title: 계층에서  [!DNL Marketo Measure] Ultimate(으)로 마이그레이션
+description: '[!DNL Marketo Measure] 계층화된 구독에서 [!DNL Marketo Measure] Ultimate으로 이동할 때의 마이그레이션 프로세스에 대해 알아봅니다.'
+title: 계층에서 [!DNL Marketo Measure] Ultimate으로 마이그레이션
 feature: Integration, Tracking, Attribution
 exl-id: 828c9bba-3835-484a-bd80-84b5a6b67e22
-TQID: https://experienceleague.adobe.com/Q-VV8-RWaGb-lk-vr3y9KK9SjTlsugPJ-N4HrSH5uxA
+TQID: 'https://experienceleague.adobe.com/Q-VV8-RWaGb-lk-vr3y9KK9SjTlsugPJ-N4HrSH5uxA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Data collection
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: '286'
 ht-degree: 1%
-
 ---
-
 # 계층 1-2에서 [!DNL Marketo Measure] Ultimate으로 마이그레이션 {#migration-from-tier-to-marketo-measure-ultimate}
 
 Tier 1 또는 Tier 2 구독에서 [!DNL Marketo Measure] Ultimate으로 이동하는 사용자의 마이그레이션 프로세스에 대해 간략하게 설명합니다(영문).
@@ -51,16 +60,16 @@ CRM 및 Marketo Engage 연결을 포함하여 AEP의 모든 소스 데이터 연
 
 * 리드-계정 일치 및 예측 참여 점수를 포함한 Account-Based Marketing 기능은 Ultimate에서 사용할 수 없습니다.
 
-   * 그러나 AEP을 통해 리드-계정 일치 결과를 가져와 플랫폼 내에서 사용할 수 있습니다.
+  * 그러나 AEP을 통해 리드-계정 일치 결과를 가져와 플랫폼 내에서 사용할 수 있습니다.
 
 * Ultimate에서 CRM 직접 연결은 없으므로 CRM 기록 단계 전환이 직접 읽히지 않고 추론됩니다.
 
-   * 영업 기회 기록과 타임스탬프를 읽고 현재 단계를 확인한 다음 과거 단계를 추론합니다.
+  * 영업 기회 기록과 타임스탬프를 읽고 현재 단계를 확인한 다음 과거 단계를 추론합니다.
 
 ## 보고 {#reporting}
 
 * Ultimate은 데이터를 CRM으로 다시 푸시하지 않습니다.
 
-   * 데이터를 CRM으로 다시 푸시하려는 경우 Marketo Measure Snowflake에서 CRM으로 데이터를 추출하려면 사용자 지정 ETL 파이프라인이 필요합니다. CRM에서 사용자 지정 데이터 모델을 설정해야 합니다.
+  * 데이터를 CRM으로 다시 푸시하려는 경우 Marketo Measure Snowflake에서 CRM으로 데이터를 추출하려면 사용자 지정 ETL 파이프라인이 필요합니다. CRM에서 사용자 지정 데이터 모델을 설정해야 합니다.
 
 * 모든 Discover 대시보드는 Attribution AI 대시보드의 추가를 통해 계층형 솔루션과 동일하게 유지됩니다.

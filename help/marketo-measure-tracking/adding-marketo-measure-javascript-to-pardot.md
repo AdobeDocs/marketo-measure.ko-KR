@@ -1,15 +1,19 @@
 ---
-description: Marketo Measure 사용자를 위한  [!DNL Pardot] 지침에  [!DNL Marketo Measure] JavaScript 추가 중
-title: ' [!DNL Pardot]에  [!DNL Marketo Measure] JavaScript 추가 중'
+description: Marketo Measure 사용자를 위한 [!DNL Pardot] 지침에 [!DNL Marketo Measure] JavaScript 추가
+title: '[!DNL Pardot]에 [!DNL Marketo Measure] JavaScript 추가 중'
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '241'
 ht-degree: 2%
-
 ---
-
 # [!DNL Pardot]에 [!DNL Marketo Measure] JavaScript 추가 중 {#adding-marketo-measure-javascript-to-pardot}
 
 [!DNL Pardot]개 양식을 사용하려면 양식 제출을 인식하기 위해 [!DNL Marketo Measure]을(를) 위해 사이트에 스크립트를 추가하는 것 외에 양식 서식 파일 내에서 추가 처리가 필요합니다. 프로세스는 간단합니다. [!DNL Marketo Measure] 추적 스크립트를 [!DNL Pardot] 양식 템플릿에 배치하기만 하면 됩니다.

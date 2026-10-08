@@ -3,13 +3,17 @@ description: Adobe Admin Console 프로필을 통한 Marketo Measure 액세스 �
 title: Adobe Admin Console 설정
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 5%
-
 ---
-
 # Adobe Admin Console 설정 {#adobe-admin-console-setup}
 
 [!DNL Marketo Measure]을(를) 사용하는 첫 번째 단계는 프로비저닝된 Adobe Admin Console을 만들고 로그인하는 것입니다. 로그인 지침이 포함된 전자 메일을 받지 못한 경우 [!DNL Marketo Measure] 계정 담당자에게 문의하십시오.

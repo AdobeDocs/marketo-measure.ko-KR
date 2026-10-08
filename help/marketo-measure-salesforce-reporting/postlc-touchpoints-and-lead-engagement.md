@@ -3,13 +3,17 @@ description: PostLC 터치포인트를 만드는 방법을 리드 및 연락처�
 title: PostLC 접점 및 리드 참여
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
-
 ---
-
 # PostLC 접점 및 리드 참여 {#postlc-touchpoints-and-lead-engagement}
 
 [!DNL Marketo Measure] PostLC(Post-Lead Creation) 터치포인트는 멀티 터치 속성 모델(W자형 이상)을 사용하는 고객에게 제공됩니다. 잠재 고객 또는 연락처가 웹 사이트로 돌아가 양식을 계속 작성하면 이러한 양식 제출이 PostLC 터치포인트로 등록됩니다. 이러한 터치포인트를 사용하면 리드가 첫 번째 전환 후 한참 동안 사이트에 계속 참여하도록 유도하는 콘텐츠를 확인할 수 있습니다. PostLC 터치포인트는 Opportunity 내의 모든 중개 터치포인트와 속성 크레딧을 공유합니다. 10% 속성 크레딧은 중개 터치포인트에 할당되며 모든 터치 간에 균등하게 분배됩니다.

@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 오류 알림 지침
 title: 오류 알림
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1944'
 ht-degree: 1%
-
 ---
-
 # 오류 알림 {#error-notifications}
 
 다음은 인앱 알림 또는 이메일을 통해 받을 수 있는 오류 목록입니다. 이러한 메시지가 표시되면 각각의 문제 해결 단계를 따르십시오. 이 단계를 수행해도 문제가 해결되지 않으면 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support)에 문의하십시오.
@@ -184,7 +188,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>CRM 가져오기 중 오류 발생: MISSING_FIELD_READ_PERMISSION : 엔터티 유형 'Event': INVALID_FIELD:<br/>
+      <td>CRM 가져오기 중 오류 발생: MISSING_FIELD_READ_PERMISSION : 엔티티 유형 'Event': INVALID_FIELD:<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure에 필수 필드에 대한 읽기 권한이 없습니다.</td>
       <td>Marketo Measure에 필요한 권한에 대한 지침은 다음 도움말 문서를 참조하십시오.

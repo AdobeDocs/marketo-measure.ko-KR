@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 Marketo 연결 지침 설정
 title: Marketo 연결 설정
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 4%
-
 ---
-
 # Marketo 연결 설정 {#set-up-marketo-connection}
 
 Marketo에 대한 연결을 설정하는 방법은 다음과 같습니다.

@@ -1,15 +1,22 @@
 ---
 description: 내보내기 권한 및 배치 설정을 포함하여 Marketo Measure이 Salesforce과 데이터를 교환하는 방법에 대한 개요
-title: ' [!DNL Marketo Measure] 및 [!DNL Salesforce] 상호 작용 방법'
+title: '[!DNL Marketo Measure]과(와) [!DNL Salesforce]이(가) 상호 작용하는 방법'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1267'
 ht-degree: 19%
-
 ---
-
 # [!DNL Marketo Measure]과(와) [!DNL Salesforce]이(가) 상호 작용하는 방법 {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
@@ -837,7 +844,7 @@ Buyer Touchpoint은 연락처, 잠재 고객 및 서비스 케이스에 대한 �
    <td>x</td>
   </tr>
   <tr>
-   <td>bizible2__Medium__c</td>
+   <td>bizible2____c</td>
    <td>사용자 정의</td>
    <td>x</td>
    <td>x</td>
@@ -1157,7 +1164,7 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
    <td>x</td>
   </tr>
   <tr>
-   <td>bizible2__Medium__c</td>
+   <td>bizible2____c</td>
    <td>사용자 정의</td>
    <td>x</td>
    <td>x</td>

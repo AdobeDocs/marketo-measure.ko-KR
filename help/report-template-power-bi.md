@@ -3,13 +3,17 @@ description: '[!DNL Marketo Measure] 보고서 템플릿 - Power BI - [!DNL Mark
 title: '[!DNL Marketo Measure] 보고서 템플릿 - Power BI'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2721'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] 보고서 템플릿 - Power BI {#marketo-measure-report-template-power-bi}
 
 ## 시작하기 {#getting-started}
@@ -99,7 +103,7 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 ### 이름이 변경된 세그먼트 {#renamed-segments}
 
-세그먼트 이름은 사용자 지정할 수 있으므로 Snowflake 데이터 웨어하우스에 일반 열 이름이 있습니다. [!DNL BIZ_SEGMENT_NAMES] [!DNL Marketo Measure] UI의 세그먼트 섹션에 정의된 일반 세그먼트 이름과 매핑된 사용자 지정 세그먼트 이름을 나열하는 매핑 테이블입니다. 세그먼트 이름 테이블은 리드 접점 및 속성 접점 테이블에서 세그먼트 열의 이름을 바꾸는 데 사용됩니다. 사용자 정의된 세그먼트가 없으면 일반 세그먼트 이름은 유지됩니다.
+세그먼트 이름은 사용자 지정할 수 있으므로 Snowflake 데이터 웨어하우스에 일반 열 이름이 있습니다. [!DNL BIZ_SEGMENT_NAMES]은(는) [!DNL Marketo Measure] UI의 세그먼트 섹션에 정의된 일반 세그먼트 이름과 매핑된 사용자 지정 세그먼트 이름을 나열하는 매핑 테이블입니다. 세그먼트 이름 테이블은 리드 접점 및 속성 접점 테이블에서 세그먼트 열의 이름을 바꾸는 데 사용됩니다. 사용자 정의된 세그먼트가 없으면 일반 세그먼트 이름은 유지됩니다.
 
 ![세그먼트 이름을 사용자 지정할 수 있으므로 &#x200B;](assets/marketo-bi-4.png)에 일반 열 이름이 있습니다.
 

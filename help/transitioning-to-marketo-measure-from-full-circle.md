@@ -1,15 +1,21 @@
 ---
-description: Marketo Measure 사용자를 위해 전체 서클 지침에서  [!DNL Marketo Measure] 로 전환
-title: 전체 서클에서  [!DNL Marketo Measure] 로 전환
+description: Marketo Measure 사용자를 위한 전체 서클 지침에서 [!DNL Marketo Measure] (으)로 전환
+title: 전체 서클에서 [!DNL Marketo Measure] (으)로 전환
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 0%
-
 ---
-
 # 전체 서클에서 [!DNL Marketo Measure]&#x200B;(으)로 전환 {#transitioning-to-marketo-measure-from-full-circle}
 
 전체 동그라미에서 [!DNL Marketo Measure]&#x200B;(으)로 이동하시겠습니까? 넌 혼자가 아니야. 다음은 명심해야 할 가장 큰 고려 사항과 전환을 수행한 다른 고객으로부터 얻은 교훈입니다.
@@ -30,7 +36,7 @@ CRM 캠페인 관리에 익숙하고 기존 프로세스를 제자리에 유지�
 
 ## 가시성과 기여도 비교 {#visibility-vs-attribution}
 
-대부분의 전체 원 설정을 사용하면 마케팅 또는 판매 노력과 관련하여 개인이 수행하는 모든 상호 작용을 볼 수 있습니다. 페이지 보기 수, 반복된 페이지 방문 수, 세 가지 캠페인의 멤버십 - 전체 원이 이러한 모든 항목을 표시합니다. 페이지를 300번 보면, 전체 원은 300개의 중복 캠페인을 만들고 각 캠페인에 멤버십을 부여합니다. [!DNL Marketo Measure] 그렇지 않습니다. 그것은 우리 측의 의식적인 설계 결정이었습니다.
+대부분의 전체 원 설정을 사용하면 마케팅 또는 판매 노력과 관련하여 개인이 수행하는 모든 상호 작용을 볼 수 있습니다. 페이지 보기 수, 반복된 페이지 방문 수, 세 가지 캠페인의 멤버십 - 전체 원이 이러한 모든 항목을 표시합니다. 페이지를 300번 보면, 전체 원은 300개의 중복 캠페인을 만들고 각 캠페인에 멤버십을 부여합니다. [!DNL Marketo Measure]은(는) 그렇지 않습니다. 이는 우리 측의 의식적인 설계 결정이었습니다.
 
 [!DNL Marketo Measure]은(는) 의미 있는 상호 작용을 노출하고 가장 영향력 있는 터치포인트 간에 가중치를 적절하게 분배하는 기여도 분석 스토리를 제공하는 것을 목표로 합니다. 예를 들어 [!DNL Marketo Measure] 프레임워크는 페이지 보기(양식 채우기 없음)를 일상적인 터치포인트로 표시하지 않습니다. 독립형 페이지 보기는 구매 여정을 앞당기는 데 영향을 주지 않지만, 지정된 CRM 마일스톤(예: 리드 또는 영업 기회 생성) 이전의 가장 최근 상호 작용인 경우 접점을 만듭니다. 모든 것을 보여 주고 싶지는 않습니다. 기여도 분석의 관점에서 중요한 사항을 보여 드리겠습니다.
 

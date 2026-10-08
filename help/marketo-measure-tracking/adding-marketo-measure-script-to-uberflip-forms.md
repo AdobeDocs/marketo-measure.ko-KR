@@ -1,15 +1,19 @@
 ---
-description: Marketo Measure 사용자를 위한  [!DNL Uberflip] Forms 지침에  [!DNL Marketo Measure] 스크립트 추가 중
-title: ' [!DNL Uberflip] Forms에  [!DNL Marketo Measure] 스크립트 추가 중'
+description: Marketo Measure 사용자를 위한 [!DNL Uberflip] Forms 지침에 [!DNL Marketo Measure] 스크립트 추가 중
+title: '[!DNL Uberflip] Forms에 [!DNL Marketo Measure] 스크립트 추가 중'
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '209'
 ht-degree: 0%
-
 ---
-
 # [!DNL Uberflip] Forms에 [!DNL Marketo Measure] 스크립트 추가 중 {#adding-marketo-measure-script-to-uberflip-forms}
 
 현재 [!DNL Uberflip]을(를) 사용하여 콘텐츠를 관리하고 있는 경우 [!DNL Marketo Measure]이(가) 이러한 양식 제출을 추적하고 있는지 확인하기 위해 필요한 단계를 수행하는 것이 중요합니다. [!DNL Uberflip]의 Success Manager도 이 작업에 대한 지원을 제공할 수 있습니다.

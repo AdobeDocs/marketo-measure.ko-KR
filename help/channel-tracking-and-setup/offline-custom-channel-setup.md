@@ -3,14 +3,18 @@ description: Marketo Measure 사용자를 위한 오프라인 사용자 지정 �
 title: 오프라인 사용자 지정 채널 설정
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 0%
-
 ---
-
 # 오프라인 사용자 지정 채널 설정 {#offline-custom-channel-setup}
 
 ## 시작하기 {#getting-started}
@@ -45,7 +49,7 @@ SFDC 캠페인 유형은 [!DNL Salesforce] 캠페인 유형 아래에 나열된 
 
 예를 들어, 1년에 두 개의 [!DNL Salesforce] 회의에 참석한다고 가정해 보겠습니다. 그러나 각 컨퍼런스는 매우 다르고 고유한 타겟 대상자가 있습니다. 둘 중 어떤 것이 더 많은 가치를 가져오는지 알고 싶을 것이다. [!DNL Salesforce] 환경에서는 1월 이벤트에 캠페인 유형 &quot;Conference&quot;를 지정하고 채널 이름을 &quot;[!DNL Salesforce]&quot;로 지정하고 하위 채널 &quot;January Conference&quot;를 지정할 수 있습니다.
 
-이제 당신은 6월 학회에도 같은 것을 하기를 원합니다. 이것은 또한 회의이므로 동일한 캠페인 유형(이 경우 &quot;회의&quot;라고 함)이 제공될 수 있습니다. 채널은 동일한 [!DNL Salesforce]이며 이 두 번째 전화 회의의 하위 채널은 &quot;6월 전화 회의&quot;입니다. 이는 조직적 관점에서 의미가 있다. 그러나 두 캠페인의 캠페인 유형이 동일하기 때문에 이러한 규칙을 읽고 적용하는 것은 [!DNL Marketo Measure] 논리에 매우 혼란스럽습니다. [!DNL Marketo Measure] 스크립트는 한 유형의 데이터를 두 개의 다른 하위 채널에 매핑할 수 없습니다. 즉, 각 하위 채널에 대해 새 캠페인 유형을 만들어야 하지만 하위 채널은 동일한 채널을 가질 수 있습니다.
+이제 당신은 6월 학회에도 같은 것을 하기를 원합니다. 이것은 또한 회의이므로 동일한 캠페인 유형(이 경우 &quot;회의&quot;라고 함)이 제공될 수 있습니다. 채널은 동일한 [!DNL Salesforce]이며 이 두 번째 전화 회의의 하위 채널은 &quot;6월 전화 회의&quot;입니다. 이는 조직적 관점에서 의미가 있다. 그러나 두 캠페인의 캠페인 유형이 동일하기 때문에 이러한 규칙을 읽고 적용하는 것은 [!DNL Marketo Measure] 논리에 매우 혼란스럽습니다. [!DNL Marketo Measure] 스크립트는 한 형식의 데이터를 두 개의 다른 하위 채널에 매핑할 수 없습니다. 즉, 각 하위 채널에 대해 새 캠페인 유형을 만들어야 하지만 하위 채널은 동일한 채널을 가질 수 있습니다.
 
 다음은 [!DNL Marketo Measure]에서 읽을 수 없는 논리의 예입니다.
 

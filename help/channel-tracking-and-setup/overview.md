@@ -3,16 +3,20 @@ description: Marketo Measure 사용자를 위한 개요 지침
 title: 개요
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 1%
-
 ---
-
 # 개요 {#overview}
 
-현재 [!DNL Marketo Measure] 응용 프로그램은 단일 통화(USD로 가정)만 지원하지만 전 세계 고객이 회사 및 사용자 통화를 보고해야 한다는 것을 알고 있습니다. 이 기능을 사용하면 사용자가 [!DNL Marketo Measure]에서 보고된 지출 또는 판매 매출을 볼 때 CRM에서 사용되는 것과 동일한 통화 간에 전환할 수 있습니다.
+현재 [!DNL Marketo Measure] 응용 프로그램은 단일 통화(USD으로 가정)만 지원하지만, 전 세계 고객이 회사 및 사용자 통화를 보고해야 한다는 것을 알고 있습니다. 이 기능을 사용하면 사용자가 [!DNL Marketo Measure]에서 보고된 지출 또는 판매 매출을 볼 때 CRM에서 사용되는 것과 동일한 통화 간에 전환할 수 있습니다.
 
 ## 가용성 {#availability}
 
@@ -31,7 +35,7 @@ Dynamics에서 고객은 여러 통화에 대한 설정에서 정적 환율을 �
 | **용어** | 설명 |
 |---|---|
 | **고급 통화** | 이 고객은 고급 통화 관리 및 복수 통화를 사용할 수 있습니다. 즉, 서로 다른 기간에 대해 서로 다른 전환율을 사용할 수 있습니다. |
-| **회사 통화** | CRM의 조직에서 나열하고 선언하는 다양한 통화이며, 모두 전환율과 함께 사용됩니다. [!DNL Marketo Measure] 은(는) 이러한 값을 가져와 제품 내에서 사용자가 이러한 통화를 사용할 수 있도록 합니다. |
+| **회사 통화** | CRM의 조직에서 나열하고 선언하는 다양한 통화이며, 모두 전환율과 함께 사용됩니다. [!DNL Marketo Measure]은(는) 이러한 값을 가져와서 제품 내에서 사용자가 사용할 수 있도록 합니다. |
 | **통화 로케일** | 회사 정보 페이지에서 설정한 조직에 사용되는 단일 통화입니다. |
 | **로컬 통화(또는 사용자 통화)** | 사용자 프로필의 단일 사용자에 대해 설정된 통화로서, 자신의 로컬 통화로 모든 금액을 볼 수 있습니다. 사용자가 현지 통화를 선택하기 전에 조직에서 통화를 선언하고 설정해야 합니다. |
 | **단일 통화** | CRM에서 여러 통화를 사용하지 않는 고객에 사용되지만, 조직은 다른 통화로 실행되므로 &quot;통화 로케일&quot;이 있습니다. 이는 조직에 대해 여전히 단일 통화이지만 전환은 없습니다. |

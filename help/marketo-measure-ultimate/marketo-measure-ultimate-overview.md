@@ -3,22 +3,33 @@ description: '[!DNL Marketo Measure] Ultimate 개요 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate 개요'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-TQID: https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M
+TQID: 'https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: '726'
 ht-degree: 6%
-
 ---
-
 # [!DNL Marketo Measure] Ultimate 개요 {#marketo-measure-ultimate-overview}
 
 [!DNL Marketo Measure]&#x200B;(이전의 Bizible)는 마케터에게 매출을 늘리고 기업 투자 수익률을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 인사이트를 제공합니다. [!DNL Marketo Measure]은(는) 채널 성과를 자동으로 추적 및 보고하여 가장 고객 참여를 유도하는 채널에 대한 가시성을 제공하고 그에 따라 마케팅 지출을 최적화할 수 있는 마케팅 속성 솔루션입니다.
@@ -26,9 +37,9 @@ ht-degree: 6%
 [!DNL Marketo Measure Ultimate]에 추가 기능이 포함되어 있습니다.
 
 * 거의 모든 데이터 소스 및 동일한 유형의 여러 데이터 소스에서 수집하여 속성을 위해 모든 데이터를 가져옵니다.
-   * Salesforce 및 Dynamics뿐만 아니라 거의 모든 CRM에 사용할 수 있습니다.
-   * 여러 CRM 인스턴스 및/또는 MAP 인스턴스를 하나의 [!DNL Marketo Measure] 인스턴스에 연결합니다.
-   * 타사 웨비나 등록 및 참가 데이터를 가져옵니다.
+  * Salesforce 및 Dynamics뿐만 아니라 거의 모든 CRM에 사용할 수 있습니다.
+  * 여러 CRM 인스턴스 및/또는 MAP 인스턴스를 하나의 [!DNL Marketo Measure] 인스턴스에 연결합니다.
+  * 타사 웨비나 등록 및 참가 데이터를 가져옵니다.
 
 * 필드 매핑 및 변환 기능을 통해 데이터를 유연하게 변환하여 올바른 데이터 모양을 확보할 수 있습니다.
 
@@ -54,7 +65,7 @@ ht-degree: 6%
 
 **기본 통화 설정**
 
-[!DNL Marketo Measure Ultimate]은(는) 사용자가 변경할 때까지 기본 통화를 USD로 설정합니다. 새 기본 통화를 설정하면 재처리 없이 데이터가 업데이트됩니다. 선택한 통화가 대상 ISO 코드로 존재하는 한 전환율을 제출할 필요가 없습니다.
+[!DNL Marketo Measure Ultimate]은(는) 사용자가 변경할 때까지 기본 통화를 USD으로 설정합니다. 새 기본 통화를 설정하면 재처리 없이 데이터가 업데이트됩니다. 선택한 통화가 대상 ISO 코드로 존재하는 한 전환율을 제출할 필요가 없습니다.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 

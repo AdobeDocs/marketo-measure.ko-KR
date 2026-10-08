@@ -3,18 +3,21 @@ description: 대시보드 데이터 가시성 정책 - [!DNL Marketo Measure] - 
 title: 대시보드 데이터 가시성 정책
 feature: Reporting
 exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
-TQID: https://experienceleague.adobe.com/BoS1frFIuxKjaHbi9FkI5lgtBbjMqYo3-4AFliP9ehc
+TQID: 'https://experienceleague.adobe.com/BoS1frFIuxKjaHbi9FkI5lgtBbjMqYo3-4AFliP9ehc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: '239'
 ht-degree: 6%
-
 ---
-
 # 대시보드 데이터 가시성 정책 {#dashboard-data-visibility-policy}
 
 대시보드에서 더 나은 경험을 제공하기 위해 보고하는 객체에 대한 데이터 가시성 정책을 수립했습니다. 새로운 Discover 대시보드에 익숙해지면 이전 대시보드와 비교하여 숫자가 낮을 수 있습니다. 이는 이제 새 대시보드에 특정 가시성 지침이 있는 데이터 표시 방법론이 변경되었기 때문입니다. 사용 가능한 모든 데이터를 표시하는 이전 Discover 대시보드와 달리 새 버전은 가시성 정책에 따른 데이터만 표시합니다. 이 문서에서는 다양한 데이터 객체에 대한 가시성 정책이 어떻게 적용되는지 명확히 하고 보고서로부터의 투명성과 정확한 데이터 해석을 보장하는 것을 목표로 합니다.

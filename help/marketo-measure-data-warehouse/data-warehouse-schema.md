@@ -4,20 +4,25 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+TQID: 'https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 21775
+source-wordcount: '21775'
 ht-degree: 8%
-
 ---
-
 # Data Warehouse 스키마 {#data-warehouse-schema}
 
 Data Warehouse을 사용하면 원하는 만큼 추적하고, 원하는 위치에 속성 데이터를 보고하고, 다른 데이터 세트에 연결할 수 있습니다.
@@ -913,7 +918,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
         <p>소스 시스템에서 광고 계정에 사용되는 통화 코드.</p>
       </td>
       <td>
-        <p>미국 달러</p>
+        <p>USD</p>
       </td>
     </tr>
     <tr>
@@ -3747,7 +3752,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>SOURCE_ISO_CODE</td>
       <td>varchar</td>
       <td>소스 시스템의 통화 ISO 코드.</td>
-      <td>미국 달러</td>
+      <td>USD</td>
     </tr>
     <tr>
       <td>START_DATE</td>
@@ -4236,7 +4241,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>ISO_CURRENCY_CODE</td>
       <td>varchar</td>
       <td>소스 시스템에서 가져온 통화의 ISO 코드.</td>
-      <td>미국 달러</td>
+      <td>USD</td>
     </tr>
     <tr>
       <td>SOURCE_ID</td>
@@ -5124,7 +5129,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>ISO_CODE</td>
       <td>varchar</td>
       <td>통화에 대한 ISO 코드.</td>
-      <td>미국 달러</td>
+      <td>USD</td>
     </tr>
     <tr>
       <td>IS_CORPORATION</td>
@@ -8842,7 +8847,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>CURRENCY_ISO_CODE</td>
       <td>varchar</td>
       <td>소스 시스템에서 가져온 통화의 ISO 코드.</td>
-      <td>미국 달러</td>
+      <td>USD</td>
     </tr>
     <tr>
       <td>CURRENCY_ID</td>

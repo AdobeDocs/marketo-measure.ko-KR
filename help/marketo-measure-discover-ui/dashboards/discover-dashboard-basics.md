@@ -1,21 +1,25 @@
 ---
-description: 대시보드 기본 사항 살펴보기 - [!DNL Marketo Measure]  - 제품
+description: 대시보드 기본 사항 살펴보기 - [!DNL Marketo Measure] - 제품
 title: 대시보드 기본 사항 살펴보기
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-TQID: https://experienceleague.adobe.com/8BzKWeGZnFCIl-FMrY727kJgu4cw7oOOZMdqWEBRv9o
+TQID: 'https://experienceleague.adobe.com/8BzKWeGZnFCIl-FMrY727kJgu4cw7oOOZMdqWEBRv9o'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 400
+source-wordcount: '400'
 ht-degree: 0%
-
 ---
-
 # 대시보드 기본 사항 살펴보기 {#discover-dashboard-basics}
 
 이 문서는 다시 설계된 인터페이스의 기본 기능을 안내하므로 데이터를 쉽게 액세스하고 해석할 수 있습니다. 필터 창의 역학을 자세히 살펴보고 드릴 기능, 교차 필터링 및 툴팁과 같은 향상된 보고 기능의 복잡성을 찾아냅니다.
