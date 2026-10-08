@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874736
-description: Google Analytics - [!DNL Marketo Measure]의 랜딩 페이지 URL에서  [!DNL Marketo Measure] 추적 매개 변수 제거
-title: Google Analytics의 랜딩 페이지 URL에서  [!DNL Marketo Measure] 추적 매개 변수 제거
+description: Google Analytics의 랜딩 페이지 URL에서 [!DNL Marketo Measure] 추적 매개 변수 제거 - [!DNL Marketo Measure]
+title: Google Analytics의 랜딩 페이지 URL에서 [!DNL Marketo Measure] 추적 매개 변수 제거
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-TQID: https://experienceleague.adobe.com/vKhwWUT0VQ1Kr-3-dWVWt08S4848Q0Bn4HYrGgHawb8
+TQID: 'https://experienceleague.adobe.com/vKhwWUT0VQ1Kr-3-dWVWt08S4848Q0Bn4HYrGgHawb8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: '111'
 ht-degree: 0%
-
 ---
-
 # Google Analytics의 랜딩 페이지 URL에서 [!DNL Marketo Measure] 추적 매개 변수 제거 {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 
 [!DNL Google Analytics]에서 랜딩 페이지를 볼 때 URL에서 추적 매개 변수를 제거할 수 있습니다. 그렇지 않으면 개별 행으로 분할됩니다.

@@ -1,15 +1,19 @@
 ---
-description: Marketo Measure 사용자를 위한  [!DNL Salesforce] 캠페인 지침을 위한 캠페인 목록 보기 만들기
-title: ' [!DNL Salesforce] 캠페인에 대한 캠페인 목록 보기 만들기'
+description: Marketo Measure 사용자를 위한 [!DNL Salesforce] 캠페인 지침을 위한 캠페인 목록 보기 만들기
+title: '[!DNL Salesforce]개 캠페인에 대한 캠페인 목록 보기 만들기'
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
-
+source-wordcount: '454'
+ht-degree: 1%
 ---
-
 # [!DNL Salesforce]개 캠페인에 대한 캠페인 목록 보기 만들기 {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 구매자 터치포인트와 동기화하려는 캠페인에 대한 목록 보기를 만드는 방법을 알아봅니다.
@@ -26,7 +30,7 @@ ht-degree: 0%
 
    * **유형** [EQUALS] &#39;오프라인 채널에 매핑된 모든 캠페인 유형&#39;. 구현 계획이나 [!DNL Marketo Measure]의 오프라인 채널 탭([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> 내 계정 -> 설정 -> 오프라인 채널)을 참조하십시오. 돋보기 아이콘을 통해 원하는 유형(오프라인 마케팅 채널에 매핑된 유형)을 선택할 수 있습니다.
 
-      * 각 필터에 대해 최대 3개의 유형을 선택합니다. 필터 필드에는 포함할 수 있는 문자 수가 제한됩니다. 필터당 3개의 유형으로 시작하고 필요한 경우 &#39;유형&#39; 필터의 행을 더 추가합니다.
+     * 각 필터에 대해 최대 3개의 유형을 선택합니다. 필터 필드에는 포함할 수 있는 문자 수가 제한됩니다. 필터당 3개의 유형으로 시작하고 필요한 경우 &#39;유형&#39; 필터의 행을 더 추가합니다.
 
    * [!DNL Marketo Measure] 시작 날짜의 **만든 날짜** [크거나 같음]. [!DNL Marketo Measure] 앱 내의 ROI 대시보드에서 시작 날짜를 찾을 수 있습니다. 대시의 날짜 범위에서 &#39;생성 날짜 이후&#39;를 선택하면 시작 날짜가 표시됩니다.
    * **&#42;레코드 종류&#42;** - 목록 보기에서 편집하려면 레코드 종류에 대한 필터를 추가해야 합니다. 편집해야 할 각 캠페인 레코드는 동일한 레코드 유형이어야 합니다.

@@ -1,15 +1,19 @@
 ---
-description: Marketo Measure 사용자를 위한 언바운스 스크립트 관리자에  [!DNL Marketo Measure] 연결
-title: 언바운스 스크립트 관리자에  [!DNL Marketo Measure] 연결 중
+description: Marketo Measure 사용자를 위한 언바운스 스크립트 관리자 지침에 [!DNL Marketo Measure]을(를) 연결하는 중
+title: '[!DNL Marketo Measure]을(를) 언바운스 스크립트 관리자에 연결 중'
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '116'
 ht-degree: 3%
-
 ---
-
 
 # [!DNL Marketo Measure]을(를) 언바운스 스크립트 관리자에 연결 중 {#connecting-marketo-measure-to-unbounce-script-manager}
 

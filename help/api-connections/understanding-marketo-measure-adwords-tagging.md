@@ -1,15 +1,23 @@
 ---
-description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] AdWords 태그 지정 지침 이해
-title: ' [!DNL Marketo Measure] AdWords 태그 지정 이해'
+description: Marketo Measure 사용자를 위한 [!DNL Marketo Measure] AdWords 태그 지정 지침 이해
+title: '[!DNL Marketo Measure]개 AdWords 태그 지정 이해'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '656'
 ht-degree: 2%
-
 ---
-
 # [!DNL Marketo Measure]개 AdWords 태그 지정 이해 {#understanding-marketo-measure-adwords-tagging}
 
 광고를 세분화된 수준에서 추적하려면 광고 대상 URL이 고유해야 합니다. 이를 위해 [!DNL Marketo Measure] 자동 태깅은 [!DNL AdWords] 광고의 광고 대상 URL에 추적 매개 변수를 자동으로 추가합니다. 아래의 예를 살펴보겠습니다.
@@ -40,7 +48,7 @@ ht-degree: 2%
 
 ## 추적 템플릿 {#tracking-templates}
 
-[!DNL Google AdWords]에서 설명한 대로 추적 템플릿은 랜딩 페이지에 연결하는 데 사용되는 URL입니다. 수집된 추적 정보는 광고 트래픽을 이해하는 데 사용됩니다. [Google에서 자세한 내용을 보려면 여기](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"}를 클릭하십시오.
+[!DNL Google AdWords]에서 설명한 대로 추적 템플릿은 랜딩 페이지에 연결하는 데 사용되는 URL입니다. 수집된 추적 정보는 광고 트래픽을 이해하는 데 사용됩니다. Google에서 자세한 내용을 보려면 [여기를 클릭하세요](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"}.
 
 [!DNL Marketo Measure]은(는) 계정 수준, 캠페인 수준 또는 광고 그룹 수준 추적 템플릿을 사용하는 것을 권장합니다. 광고 기록이 중단되거나 삭제될 위험 없이 모든 광고에 대한 매개 변수를 추가하거나 뺄 수 있습니다.
 
@@ -84,7 +92,7 @@ ht-degree: 2%
 
 1. 확장 창에서 **[!UICONTROL All campaigns]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
 
-   ![1. 모든 캠페인을 클릭한 다음 &#x200B;](assets/api-connections-01.png)에서 광고 그룹을 클릭합니다.
+   ![1. 모든 캠페인을 클릭한 다음 ](assets/api-connections-01.png)에서 광고 그룹을 클릭합니다.
 
 1. 적용 가능한 광고 그룹을 모두 선택하거나 모두 선택을 클릭하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Change Tracking Templates]**&#x200B;을(를) 클릭합니다.
 

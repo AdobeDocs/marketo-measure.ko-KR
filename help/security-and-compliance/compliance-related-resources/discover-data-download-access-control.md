@@ -3,18 +3,21 @@ description: '[!UICONTROL Discover Data Download] 액세스 제어 - Marketo Mea
 title: '[!UICONTROL Discover Data Download] 액세스 제어'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
-TQID: https://experienceleague.adobe.com/2YVVNhKoF6y3xqmblpxJ2VmXByEuCPS4KR-Ij-PZT14
+TQID: 'https://experienceleague.adobe.com/2YVVNhKoF6y3xqmblpxJ2VmXByEuCPS4KR-Ij-PZT14'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 12b64954-e901-54a3-a305-e8e9aa516eb3
+    internal-label: Discover
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 110
+source-wordcount: '110'
 ht-degree: 3%
-
 ---
-
 # [!UICONTROL Discover Data Download] 액세스 제어 {#discover-data-download-access-control}
 
 [!UICONTROL Discover Data Download] 컨트롤을 사용하면 [!DNL Marketo Measure] 관리자가 사용자의 역할에 따라 검색 대시보드에 대한 데이터 다운로드 정책을 설정할 수 있습니다. 이 컨트롤은 Discover 대시보드의 모든 데이터 다운로드 작업을 다룹니다.

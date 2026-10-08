@@ -3,19 +3,23 @@ description: 키워드 ROI 대시보드 - [!DNL Marketo Measure] - 제품
 title: 키워드 ROI 대시보드
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-TQID: https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw
+TQID: 'https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
-
 # 키워드 ROI 대시보드 {#keyword-roi-dashboard}
 
 키워드 ROI 대시보드는 유료 검색 캠페인의 성능에 대한 자세한 인사이트를 제공합니다. 키워드 수준의 비용, 수익, 생성된 새로운 리드 및 기회에 대한 포괄적인 분석을 제공하여 키워드 ROI를 명확하게 파악할 수 있습니다.
@@ -74,11 +78,11 @@ ht-degree: 0%
 이 대시보드에는 다음 설정 및 필터가 포함되어 있습니다.
 
 * 일자
-   * 기준:
-      * 생성 일자: 뉴스 리드, 새 기회
-      * 비용 발생 일자: 비용
-      * 마감일: 속성 매출(단순 ROI), 거래
-      * 접점 날짜: 실현된 속성 매출의 접점(실현된 ROI)
+  * 기준:
+    * 생성 일자: 뉴스 리드, 새 기회
+    * 비용 발생 일자: 비용
+    * 마감일: 속성 매출(단순 ROI), 거래
+    * 접점 날짜: 실현된 속성 매출의 접점(실현된 ROI)
 * 속성 모델
 * 키워드
 * Campaign

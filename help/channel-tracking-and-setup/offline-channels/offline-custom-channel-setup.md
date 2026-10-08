@@ -4,20 +4,23 @@ description: 오프라인 사용자 지정 채널 설정 - [!DNL Marketo Measure
 title: 오프라인 사용자 지정 채널 설정
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-TQID: https://experienceleague.adobe.com/L-mkNzo9yTir-EzNiX-a9ylKKZoKAs0nIXdu39YnLT4
+TQID: 'https://experienceleague.adobe.com/L-mkNzo9yTir-EzNiX-a9ylKKZoKAs0nIXdu39YnLT4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 0%
-
 ---
-
 # 오프라인 사용자 지정 채널 설정 {#offline-custom-channel-setup}
 
 ## 시작하기 {#getting-started}
@@ -90,8 +93,8 @@ SFDC 캠페인 유형은 [!DNL Salesforce] 캠페인 유형 아래에 나열된 
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>* [[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] 튜토리얼: 오프라인 캠페인 동기화](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] 튜토리얼: 오프라인 캠페인 동기화](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Marketo Engage 프로그램 통합](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

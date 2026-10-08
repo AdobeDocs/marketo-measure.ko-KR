@@ -3,24 +3,28 @@ description: Marketo Measure 사용자를 위한 Marketo 연결 지침 설정
 title: Marketo 연결 설정
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 4%
-
 ---
-
 # Marketo 연결 설정 {#set-up-marketo-connection}
 
 Marketo에 대한 연결을 설정하는 방법은 다음과 같습니다.
 
 >[!PREREQUISITES]
 >
->[!DNL Marketo Measure]/Marketo Engage 연결에 대해 [API 전용 사용자 역할을 만듭니다](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ko).
+>[!DNL Marketo Measure]/Marketo Engage 연결에 대해 [API 전용 사용자 역할을 만듭니다](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html).
 
 1. [!DNL Marketo Measure]에서 **[!UICONTROL My Account]** 드롭다운을 클릭하고 **[!UICONTROL Settings]**&#x200B;을(를) 선택합니다.
 
-   ![1. Marketo Measure에서 내 계정 드롭다운을 클릭하고 &#x200B;](assets/set-connection-7.png)
+   ![1. Marketo Measure에서 내 계정 드롭다운을 클릭하고 ](assets/set-connection-7.png)
 
 1. [!UICONTROL Integrations]에서 **[!UICONTROL Connections]**&#x200B;을(를) 클릭합니다.
 
@@ -40,7 +44,7 @@ Marketo에 대한 연결을 설정하는 방법은 다음과 같습니다.
 
 1. Marketo Engage에서 왼쪽의 트리에서 **LaunchPoint**&#x200B;을(를) 선택하십시오. Marketo Measure에 연결할 사용자 지정 서비스를 찾은 다음 **세부 정보 보기**&#x200B;를 클릭합니다.
 
-   ![1. Marketo Engage에서 &#x200B;](assets/set-connection-4.png)의 트리에서 LaunchPoint를 선택하십시오.
+   ![1. Marketo Engage에서 ](assets/set-connection-4.png)의 트리에서 LaunchPoint를 선택하십시오.
 
 1. 클라이언트 ID 및 클라이언트 암호를 강조 표시하고 저장합니다. Click **Close**.
 

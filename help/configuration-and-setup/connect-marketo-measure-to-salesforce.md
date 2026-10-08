@@ -3,13 +3,20 @@ description: Marketo Measure 사용자를 위해 Marketo Measure을 Salesforce�
 title: Marketo Measure을 Salesforce에 연결
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 1%
-
 ---
-
 # Marketo Measure을 Salesforce에 연결 {#connect-marketo-measure-to-salesforce}
 
 이 문서에서는 [!DNL Salesforce] 계정을 [!DNL Marketo Measure] 계정에 연결하는 방법에 대한 개요를 제공합니다.
@@ -22,7 +29,7 @@ ht-degree: 1%
 
 1. 왼쪽의 설정 옵션 열에서 [!UICONTROL Integrations] 섹션 아래에 있는 **[!UICONTROL Connections]**&#x200B;을(를) 클릭합니다.
 
-   ![1. 왼쪽의 설정 옵션 열에서 &#x200B;](assets/bizible-full-1.png)을(를) 클릭합니다.
+   ![1. 왼쪽의 설정 옵션 열에서 ](assets/bizible-full-1.png)을(를) 클릭합니다.
 
 1. 연결의 CRM 섹션 아래에서 **[!UICONTROL Set Up New CRM Connection]**&#x200B;을(를) 클릭합니다.
 
@@ -30,7 +37,7 @@ ht-degree: 1%
 
 1. CRM 연결을 선택하라는 팝업 창이 나타납니다. [!DNL Salesforce] 로고 옆의 **[!UICONTROL Connect]**&#x200B;을(를) 클릭합니다.
 
-   ![1. CRM 연결을 선택하라는 팝업 창이 나타납니다. &#x200B;](assets/connect-salesforce-1.png) 클릭
+   ![1. CRM 연결을 선택하라는 팝업 창이 나타납니다. ](assets/connect-salesforce-1.png) 클릭
 
 1. [!DNL Salesforce] 자격 증명, 샌드박스 또는 프로덕션을 묻는 마지막 팝업 창이 나타납니다. 정보를 입력하고 **[!UICONTROL Authorize]**&#x200B;을(를) 클릭하여 계정을 [!DNL Marketo Measure]에 연결합니다.
 
@@ -62,7 +69,7 @@ Marketo Measure은 CRM 통합 작업을 사용하여 통합 사용자를 통해 
 
 1. 원하는 제한을 100,000보다 크거나 같게 입력합니다. 완료되면 **저장**&#x200B;을 클릭합니다.
 
-   ![1. 원하는 제한을 100,000보다 크거나 같게 입력합니다. &#x200B;](assets/connect-salesforce-1.png) 클릭
+   ![1. 원하는 제한을 100,000보다 크거나 같게 입력합니다. ](assets/connect-salesforce-1.png) 클릭
 
 >[!NOTE]
 >

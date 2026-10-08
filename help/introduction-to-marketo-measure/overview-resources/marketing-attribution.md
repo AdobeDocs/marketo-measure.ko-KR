@@ -4,23 +4,26 @@ description: 마케팅 속성 - Marketo Measure - 제품 설명서
 title: 마케팅 속성
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-TQID: https://experienceleague.adobe.com/KmQcMmJ5n6h1cHZcG-GtJPhMT9gt3BzNqGr4gRoytzQ
+TQID: 'https://experienceleague.adobe.com/KmQcMmJ5n6h1cHZcG-GtJPhMT9gt3BzNqGr4gRoytzQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Customer engagement
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 0%
-
+source-wordcount: '465'
+ht-degree: 4%
 ---
-
 # 마케팅 속성 {#marketing-attribution}
 
 ## Marketo Measure 시작 {#welcome-to-marketo-measure}
 
-Marketo Measure은 마케팅 활동을 통해 회사의 매출을 증대시키는 데 가장 효과적인 방법을 찾는 insight에게 를 제공합니다. Marketo Measure은 채널 성과를 자동으로 추적 및 보고하는 마케팅 속성 솔루션으로, 가장 많은 고객 참여를 유도하는 채널에 대한 가시성을 제공하고 그에 따라 마케팅 지출을 최적화할 수 있습니다.
+Marketo Measure는 마케터에게 기업의 매출을 증대시키는 데 가장 효과적인 마케팅 활동을 파악하는 데 도움이 됩니다. Marketo Measure은 채널 성과를 자동으로 추적 및 보고하는 마케팅 속성 솔루션으로, 가장 많은 고객 참여를 유도하는 채널에 대한 가시성을 제공하고 그에 따라 마케팅 지출을 최적화할 수 있습니다.
 
 ## 마케팅 속성 {#marketing-attribution-1}
 

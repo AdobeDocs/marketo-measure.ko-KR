@@ -4,20 +4,25 @@ description: Data Warehouse 스키마 - Marketo Measure - 제품 설명서
 title: Data Warehouse 스키마
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+TQID: 'https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 21775
+source-wordcount: '21775'
 ht-degree: 8%
-
 ---
-
 # Data Warehouse 스키마 {#data-warehouse-schema}
 
 Data Warehouse을 사용하면 원하는 만큼 추적하고, 원하는 위치에 속성 데이터를 보고하고, 다른 데이터 세트에 연결할 수 있습니다.
@@ -913,7 +918,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
         <p>소스 시스템에서 광고 계정에 사용되는 통화 코드.</p>
       </td>
       <td>
-        <p>미국 달러</p>
+        <p>USD</p>
       </td>
     </tr>
     <tr>
@@ -3747,7 +3752,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>SOURCE_ISO_CODE</td>
       <td>varchar</td>
       <td>소스 시스템의 통화 ISO 코드.</td>
-      <td>미국 달러</td>
+      <td>USD</td>
     </tr>
     <tr>
       <td>START_DATE</td>
@@ -4236,7 +4241,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>ISO_CURRENCY_CODE</td>
       <td>varchar</td>
       <td>소스 시스템에서 가져온 통화의 ISO 코드.</td>
-      <td>미국 달러</td>
+      <td>USD</td>
     </tr>
     <tr>
       <td>SOURCE_ID</td>
@@ -5124,7 +5129,7 @@ _전체 크기 버전에 대한 이미지를 클릭하십시오_
       <td>ISO_CODE</td>
       <td>varchar</td>
       <td>통화에 대한 ISO 코드.</td>
-      <td>미국 달러</td>
+      <td>USD</td>
     </tr>
     <tr>
       <td>IS_CORPORATION</td>
@@ -6671,7 +6676,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
         <p>쿼리 매개 변수를 포함하여 양식이 제출된 URL입니다.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6925,7 +6930,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>
         <p>쿼리 매개 변수를 포함하여 노출이 제공된 URL입니다.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzNkhW</td>
     </tr>
     <tr>
       <td>
@@ -8842,7 +8847,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
       <td>CURRENCY_ISO_CODE</td>
       <td>varchar</td>
       <td>소스 시스템에서 가져온 통화의 ISO 코드.</td>
-      <td>미국 달러</td>
+      <td>USD</td>
     </tr>
     <tr>
       <td>CURRENCY_ID</td>
@@ -9340,7 +9345,7 @@ Opportunity 의 Stage 전환
         <p>쿼리 매개 변수를 포함하여 페이지 보기가 시작된 URL입니다.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9919,7 +9924,7 @@ Opportunity 의 Stage 전환
         <p>쿼리 매개 변수를 포함한 세션의 첫 번째 페이지 보기 URL</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -11620,7 +11625,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. 원시 랜딩 페이지에는 URL의 모든 쿼리 매개 변수가 포함됩니다. CRM에서는 "랜딩 페이지 - 원시"라고 합니다.</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12635,7 +12640,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트가 발생한 세션의 첫 번째 랜딩 페이지입니다. 원시 랜딩 페이지에는 URL의 모든 쿼리 매개 변수가 포함됩니다. CRM에서는 "랜딩 페이지 - 원시"라고 합니다.</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12683,7 +12688,7 @@ Opportunity 의 Stage 전환
         <p>터치포인트를 초래한 세션에 기록된 첫 번째 양식입니다. 이후 양식 제출은 Attribution_Touchpoints 테이블에 표시되지 않고 Form_Submits 테이블에 표시됩니다. 원시 양식 페이지는 URL에 쿼리 매개 변수를 포함할 수 있습니다. CRM에서 "양식 URL - 원시"라고 합니다.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13272,7 +13277,7 @@ Opportunity 의 Stage 전환
       <td>varchar</td>
       <td>쿼리 매개 변수를 포함한 페이지 보기의 URL.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>

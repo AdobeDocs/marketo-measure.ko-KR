@@ -3,13 +3,17 @@ description: Snowflake에서 Marketo Measure 데이터 웨어하우스에 직접
 title: Data Warehouse 액세스 - 직접 공유
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
-
 ---
-
 # Data Warehouse 액세스 - 직접 공유 {#data-warehouse-access-direct-share}
 
 ## 요구 사항 {#requirements}
@@ -28,7 +32,7 @@ ht-degree: 0%
 
 Marketo Measure 앱에서 **설정** 섹션을 열고 **Data Warehouse** 페이지로 이동합니다. **직접 공유** 섹션에서 제공된 상자에 [Snowflake 계정 ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"}를 입력하고 **연결**&#x200B;을 클릭합니다.
 
-![Marketo Measure 앱에서 설정 섹션을 열고 &#x200B;](assets/data-share-1.png)(으)로 이동합니다.
+![Marketo Measure 앱에서 설정 섹션을 열고 ](assets/data-share-1.png)(으)로 이동합니다.
 
 ## 공유 액세스 {#accessing-the-share}
 

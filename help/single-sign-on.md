@@ -2,13 +2,14 @@
 description: Marketo Measure 사용자를 위한 단일 사인온 지침
 title: 단일 사인온
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
-
 ---
-
 # 단일 사인온 {#single-sign-on}
 
 SSO(Single Sign-On)를 위한 SAML(보안 설정 마크업 언어)을 사용하면 사용자가 [!DNL Marketo Measure] 앱에 로그인할 때 회사 ID 공급자를 통해 인증할 수 있습니다. SSO를 통해 사용자는 별도의 앱을 인증할 필요 없이 한 번만 인증할 수 있습니다. 모든 사용자가 조직 내에 [!DNL Salesforce] 또는 [!DNL Google] 계정을 가지고 있지 않으므로 기업 고객은 SAML을 사용해야 합니다. 확장을 위해 [!DNL Marketo Measure]에서 회사 ID 공급자를 지원할 수 있는 SAML 솔루션을 개발했습니다.
@@ -30,7 +31,7 @@ SSO(Single Sign-On)를 위한 SAML(보안 설정 마크업 언어)을 사용하�
 
 시작하려면 [!DNL Marketo Measure] 응용 프로그램의 설정 > 보안 > 인증 페이지로 이동합니다. 그런 다음 로그인 유형을 사용자 정의 SSO로 전환하여 구성 옵션을 확인합니다. 인증을 테스트하고 페이지 맨 아래에 있는 **[!UICONTROL Save]** 단추를 클릭해야 변경 내용이 적용됩니다.
 
-![시작하려면 &#x200B;](assets/compliance-resources-1.png)의 설정 보안 인증 페이지로 이동하세요.
+![시작하려면 ](assets/compliance-resources-1.png)의 설정 보안 인증 페이지로 이동하세요.
 
 ## 프로세스 {#process}
 
@@ -72,7 +73,7 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
     
     b. 힌트: 지금 SAML 구성을 테스트하면 이 섹션에 사용할 수 있는 이메일, 이름 및 성 특성을 구문 분석합니다.
 
-![b. 힌트: 지금 SAML 구성을 테스트하면 &#x200B;](assets/discover-control-1.png) 구문을 분석합니다.
+![b. 힌트: 지금 SAML 구성을 테스트하면 ](assets/discover-control-1.png) 구문을 분석합니다.
 
 사용자 역할 설정을 설정하여 IdP에서 분류된 해당 역할 또는 그룹에 매핑합니다.
 
@@ -86,7 +87,7 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
     
     c. 여러 역할 또는 그룹을 역할에 매핑해야 하는 경우 각 값을 쉼표로 구분하여 입력하십시오.
 
-![c입니다. 여러 역할 또는 그룹을 역할에 매핑해야 하는 경우 &#x200B;](assets/discover-control-2.png)
+![c입니다. 여러 역할 또는 그룹을 역할에 매핑해야 하는 경우 ](assets/discover-control-2.png)
 
 단일 사인온 구성 테스트
 
@@ -94,13 +95,13 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
     
     b. &quot;실패&quot; 오류가 표시되면 메시지를 팔로우하고 다시 시도하십시오.
 
-![b. &quot;실패&quot; 오류가 표시되면 메시지를 팔로우하고 &#x200B;](assets/discover-control-3.png)을(를) 시도합니다
+![b. &quot;실패&quot; 오류가 표시되면 메시지를 팔로우하고 ](assets/discover-control-3.png)을(를) 시도합니다
 
 설정을 저장하고 새 사용자 지정 로그인 URL로 [!UICONTROL Single Sign On]을(를) 사용하도록 동료에게 안내합니다.
 
     a. 중요: 새 인증 설정을 저장하면 CRM 사용자의 로그인을 사용하지 않도록 설정하고 사용자 지정 SSO를 사용하도록 설정했기 때문에 새 페이지로 이동하면 세션이 종료될 수 있습니다.
 
-![a. 중요: 새 인증 설정을 저장하면 &#x200B;](assets/discover-control-3.png)할 수 있습니다.
+![a. 중요: 새 인증 설정을 저장하면 ](assets/discover-control-3.png)할 수 있습니다.
 
 사용해 보세요!
 
@@ -110,7 +111,7 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
     
     c와 같이 표시됩니다. 축하합니다! 계정에 대한  [!DNL Marketo Measure] 응용 프로그램에 SSO(Single Sign-On)를 설정했습니다!
 
-![c입니다. 축하합니다! &#x200B;](assets/discover-control-3.png)에 Single Sign-On을 설정했습니다.
+![c입니다. 축하합니다! ](assets/discover-control-3.png)에 Single Sign-On을 설정했습니다.
 
 >[!NOTE]
 >
@@ -145,7 +146,7 @@ ID 공급자 구성에 대한 연결 설정을 입력합니다
 
 사용자 지정 SSO가 설정되면 [!UICONTROL Users] 페이지가 업데이트되어 Google 로그인과 함께 추가된 외부 사용자만 표시합니다. 액세스 권한이 있는 모든 사용자는 SSO 구성을 통해 정의되므로 여기에 추가 외부 사용자가 나열됩니다.
 
-![사용자 지정 SSO가 설정되면 [사용자] 페이지가 &#x200B;](assets/discover-control-3.png)입니다.
+![사용자 지정 SSO가 설정되면 [사용자] 페이지가 ](assets/discover-control-3.png)입니다.
 
 올바른 [!DNL Google] 계정만 추가할 수 있으며 사용자 역할이 정의되어 있어야 합니다.
 

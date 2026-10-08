@@ -3,14 +3,18 @@ description: 시간 경과에 따라 채널 하위 채널 및 캠페인별로 �
 title: 속성 수익 대시보드
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
-
 ---
-
 # 속성 수익 대시보드 {#attributed-revenue-dashboard}
 
 속성 매출 대시보드는 마케팅 노력과 직접 연결된 매출에 초점을 맞춘 관점을 제공합니다. 마케팅 전략이 계약을 체결하는 데 어떻게 중요했는지 살펴보십시오.
@@ -59,7 +63,7 @@ ht-degree: 0%
 * 표 형식 뷰에서는 속성 매출 분포에 대한 명확하고 체계적인 통찰력을 제공합니다. 사용자는 데이터를 채널, 하위 채널 및 캠페인으로 분류하여 성능 패턴을 빠르게 식별하고 영향력이 큰 마케팅 전략을 정확하게 파악할 수 있습니다.
 * 각 채널 옆의 &quot;+&quot; 아이콘을 클릭하여 하위 채널 및 캠페인별로 분류를 표시합니다.
 
-![각 채널 옆의 &quot;+&quot; 아이콘을 클릭하여 &#x200B;](assets/attributed-dashboard-5.png)의 분류를 표시합니다.
+![각 채널 옆의 &quot;+&quot; 아이콘을 클릭하여 ](assets/attributed-dashboard-5.png)의 분류를 표시합니다.
 
 **트리 보기**
 

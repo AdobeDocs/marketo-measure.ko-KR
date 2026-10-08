@@ -3,18 +3,22 @@ description: 도메인 관리 - [!DNL Marketo Measure]
 title: 도메인 관리
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY
+TQID: 'https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 559
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 # 도메인 관리 {#domain-management}
 
 Experience Cloud 인터페이스에서 [!DNL Marketo Measure]을(를) 실행하는 IMS 사용 테넌트의 경우 [!DNL Marketo Measure]은(는) 사용자가 자신의 도메인 목록을 관리할 수 있는 인터페이스를 제공합니다. [!DNL Marketo Measure] 사용자는 먼저 [Adobe Admin Console](https://adminconsole.adobe.com/)에서 추적할 도메인을 확인해야 합니다. Admin Console에서 도메인이 확인되면 [!DNL Marketo Measure]에서 웹 사이트 트래픽을 추적하는 데 이러한 도메인을 사용하는지 여부를 사용자가 관리할 수 있습니다.
@@ -25,7 +29,7 @@ Adobe Admin Console에 대한 액세스 권한이 있는 IMS 사용자는 자신
 
 ![](assets/domain-management-1.png)
 
-도메인 추가 지침은 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/using/add-domains-directories.html)에서 찾을 수 있습니다. 도메인이 추가되면 [디렉터리에 연결](https://helpx.adobe.com/kr/enterprise/using/add-domains-directories.html#link-domains-to-directoies)되어야 합니다.
+도메인 추가 지침은 [Admin Console 설명서](https://helpx.adobe.com/enterprise/using/add-domains-directories.html)에서 찾을 수 있습니다. 도메인이 추가되면 [디렉터리에 연결](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies)되어야 합니다.
 
 ## [!DNL Marketo Measure]에서 도메인 관리 {#managing-domains-in-marketo-measure}
 

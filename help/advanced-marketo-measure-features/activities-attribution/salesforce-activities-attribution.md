@@ -4,18 +4,26 @@ description: Salesforce 활동 속성 - [!DNL Marketo Measure]
 title: Salesforce 활동 속성
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-TQID: https://experienceleague.adobe.com/ti99Z40gvNCYWahCq2viPcNh-eAW4-laO3C6fBY7INU
+TQID: 'https://experienceleague.adobe.com/ti99Z40gvNCYWahCq2viPcNh-eAW4-laO3C6fBY7INU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 1%
-
 ---
-
 # Salesforce 활동 속성 {#salesforce-activities-attribution}
 
 [!DNL Marketo Measure] Salesforce 활동 통합은 특정 작업 및 이벤트 레코드를 속성 모델로 가져옵니다. 적법한 크레딧을 받지 못한 판매 이메일 또는 판매 전화 등의 항목을 추적하기 시작합니다. 활동 규칙을 구성하려면 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}(으)로 이동하십시오. 여기에서 **[!UICONTROL Settings]** 탭으로 이동하여 **[!UICONTROL Activities]** 탭을 클릭합니다.
@@ -33,11 +41,11 @@ ht-degree: 1%
 이 계층 구조에 익숙해지십시오.
 
 * 채널
-   * 부채널
-      * Campaign
-      * Campaign
-   * 부채널
-      * Campaign
+  * 부채널
+    * Campaign
+    * Campaign
+  * 부채널
+    * Campaign
 
 >[!TIP]
 >

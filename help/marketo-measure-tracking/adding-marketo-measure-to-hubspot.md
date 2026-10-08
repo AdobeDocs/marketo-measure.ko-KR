@@ -1,15 +1,19 @@
 ---
-description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] to [!DNL Hubspot] 지침 추가 중
-title: ' [!DNL Marketo Measure] to [!DNL Hubspot] 추가 중'
+description: Marketo Measure 사용자에 대한 [!DNL Hubspot] 지침에 [!DNL Marketo Measure]을(를) 추가하는 중
+title: '[!DNL Hubspot]에 [!DNL Marketo Measure] 추가 중'
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '180'
 ht-degree: 1%
-
 ---
-
 # [!DNL Hubspot]에 [!DNL Marketo Measure] 추가 중 {#adding-marketo-measure-to-hubspot}
 
 [!DNL Marketo Measure] JavaScript을 추가하여 [!DNL Hubspot] 랜딩 페이지 및 양식 제출을 추적하는 방법에 대해 알아봅니다.

@@ -3,13 +3,20 @@ description: Marketo Measure 사용자를 위한 Salesforce 샌드박스와 Mark
 title: Salesforce 샌드박스와 Marketo Measure 통합 테스트
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 1%
-
 ---
-
 # Salesforce 샌드박스와 Marketo Measure 통합 테스트 {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
@@ -18,7 +25,7 @@ ht-degree: 1%
 
 [!DNL Marketo Measure] 핵심 기능 중 하나는 웹 사이트에서의 작업을 통해 디지털 마케팅 노력을 추적한 다음 리드 및 연락처를 통해 해당 데이터를 프로덕션 [!DNL Salesforce org]에 푸시하는 기능입니다. 그러나 일반적으로 샌드박스 통합 내에는 웹 사이트에서 생성된 인바운드 리드가 없으므로 데이터에 대한 초점은 완전히 오프라인 관점에서 비롯됩니다.
 
-다음은 테스트의 두 단계에 대해 참조되는 두 가지 소스입니다. [1-4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5)단계 및 [5-6](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)단계. 이러한 문서는 일부 영역에서 보다 자세한 정보를 제공하므로 검토하는 것이 좋습니다.
+다음은 테스트의 두 단계에 대해 참조되는 두 가지 소스입니다. [1~4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5)단계 및 [5~6](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)단계. 이러한 문서는 일부 영역에서 보다 자세한 정보를 제공하므로 검토하는 것이 좋습니다.
 
 1. Campaign에 업로드할 수 있도록 CSV로 몇 가지 잠재 고객을 만들어야 합니다. 이렇게 하는 방법은 프로덕션 Salesforce에서 보고서를 통해 일부 Lead 를 내보내는 것입니다. 그렇지 않으면 Excel 파일에서 리드를 수동으로 만든 다음 가져오기를 위해 CSV로 저장할 수 있습니다. 약 20개의 레코드만 있으면 됩니다. 파일에는 다음 열이 있어야 합니다.
 

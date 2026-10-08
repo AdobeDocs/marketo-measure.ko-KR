@@ -3,14 +3,18 @@ description: Discover 대시보드 인터페이스, 필터, 드릴 작업, 교�
 title: 대시보드 기본 사항 살펴보기
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-hidefromtoc: true
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 0%
-
+source-wordcount: '576'
+ht-degree: 3%
 ---
-
 # 대시보드 기본 사항 살펴보기 {#discover-dashboard-basics}
 
 이 문서는 다시 설계된 인터페이스의 기본 기능을 안내하므로 데이터를 쉽게 액세스하고 해석할 수 있습니다. 필터 창의 역학을 자세히 살펴보고 드릴 기능, 교차 필터링 및 툴팁과 같은 향상된 보고 기능의 복잡성을 찾아냅니다.
@@ -54,7 +58,7 @@ ht-degree: 0%
 
 포크와 유사한 아이콘을 사용하여 현재 보기에 추가적인 계층 수준을 추가할 수 있습니다.
 
-![포크와 같은 아이콘을 사용하여 &#x200B;](assets/discover-basics-12.gif)에 계층 수준을 추가하십시오.
+![포크와 같은 아이콘을 사용하여 ](assets/discover-basics-12.gif)에 계층 수준을 추가하십시오.
 
 ### 드릴스루 {#drill-through}
 
@@ -65,13 +69,13 @@ ht-degree: 0%
 ### 데이터 내보내기 {#export-data}
 
 시각화에서 기본 데이터를 내보내려면 오른쪽 상단 모서리로 마우스를 가져갑니다. &quot;기타 옵션&quot; 버튼을 클릭하고 &quot;데이터 내보내기&quot;를 선택한 다음 선호하는 형식을 선택한 다음 &quot;내보내기&quot;를 클릭합니다.
-![시각화에서 기본 데이터를 내보내려면 오른쪽 상단으로 마우스를 가져갑니다](assets/discover-basics-6.gif)
+![기본 데이터를 시각화에서 내보내려면 오른쪽 위로 마우스를 가져갑니다](assets/discover-basics-6.gif)
 
 ### 포커스 모드 {#focus-mode}
 
 특정 시각적 또는 타일을 확대하려면 오른쪽 상단 모서리로 마우스를 가져간 후 &quot;포커스&quot; 버튼을 선택합니다.
 
-![특정 시각적 또는 타일을 확대하려면 &#x200B;](assets/discover-basics-5.gif) 위로 마우스를 가져갑니다.
+![특정 시각적 또는 타일을 확대하려면 ](assets/discover-basics-5.gif) 위로 마우스를 가져갑니다.
 
 ### 교차 필터링 {#cross-filtering}
 

@@ -2,13 +2,20 @@
 description: CRM 내보내기에서 오류를 처리하는 방법에 대해 알아보기
 title: CRM 내보내기에 대한 오류 처리
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # CRM 내보내기에 대한 오류 처리
 
 내보내기 오류 일시 중지 설정은 **내 계정** > **설정** > **CRM** > **일반**&#x200B;에서 찾을 수 있습니다. 레코드 수준 오류가 발생할 때 CRM 내보내기 작업을 일시 중지할지 여부를 제어할 수 있습니다.

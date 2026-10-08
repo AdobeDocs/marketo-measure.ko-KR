@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 Boomerang 단계 지침 설정
 title: 부메랑 단계 설정
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 6%
-
 ---
-
 # 부메랑 단계 설정 {#setting-up-boomerang-stages}
 
 >[!AVAILABILITY]
@@ -22,7 +26,7 @@ ht-degree: 6%
 
 1. [!UICONTROL Stage Mapping] 으로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
 
-   ![1. 스테이지 매핑으로 이동합니다. 제목이 &quot;Boomerang&quot;인 열 아래 &#x200B;](assets/boomerang-stages-18.png)
+   ![1. 스테이지 매핑으로 이동합니다. 제목이 &quot;Boomerang&quot;인 열 아래 ](assets/boomerang-stages-18.png)
 
 1. [!UICONTROL Attribution Settings] 탭으로 이동하여 보려는 각 단계의 터치포인트 수를 입력합니다. 최대 10개까지 가능합니다. 기본값은 1로 설정되어 있습니다.
 
@@ -38,15 +42,15 @@ ht-degree: 6%
 
 1. [!UICONTROL Stage Mapping] 으로 이동합니다. &quot;[!UICONTROL Boomerang]&quot;이라는 열 아래에서 추적할 단계 옆의 상자를 선택합니다.
 
-   ![1. 스테이지 매핑으로 이동합니다. 제목이 &quot;Boomerang&quot;인 열 아래 &#x200B;](assets/boomerang-stages-20.png)
+   ![1. 스테이지 매핑으로 이동합니다. 제목이 &quot;Boomerang&quot;인 열 아래 ](assets/boomerang-stages-20.png)
 
 1. 이러한 부메랑 단계를 사용자 지정 모델에 포함하고 속성 크레딧을 받으려면 &quot;[!UICONTROL Custom Model]&quot; 열 아래의 상자도 선택해야 합니다.
 
-   ![1. 이러한 부메랑 단계도 포함하려면 &#x200B;](assets/boomerang-stages-21.png)
+   ![1. 이러한 부메랑 단계도 포함하려면 ](assets/boomerang-stages-21.png)
 
 1. [!UICONTROL Attribution Settings] 탭으로 이동합니다. 부메랑 단계에 대한 기여도 분석을 가중하는 방법을 결정합니다. 옵션은 첫 번째 발생 횟수나 마지막 발생 횟수에 대해 기여도 분석을 가중하거나 모든 발생 횟수에 걸쳐 균등하게 분할하도록 하는 것입니다.
 
-   ![1. 속성 설정 탭으로 이동합니다. &#x200B;](assets/boomerang-stages-22.png)의 추천 방법 결정
+   ![1. 속성 설정 탭으로 이동합니다. ](assets/boomerang-stages-22.png)의 추천 방법 결정
 
 1. 보려는 각 단계의 발생 횟수를 입력합니다. 최대 10개까지만 허용됩니다. 기본값은 1로 설정되어 있습니다.
 
@@ -54,7 +58,7 @@ ht-degree: 6%
 
 1. 사용자 지정 모델에 포함한 부메랑 단계에 할당할 속성 비율을 설정합니다. 모든 단계에 대한 전체 속성이 최대 100%까지 추가되는지 확인합니다. **[!UICONTROL Save and Process]**&#x200B;를 클릭합니다.
 
-   ![1. &#x200B;](assets/boomerang-stages-24.png)에 할당할 속성 비율을 설정합니다.
+   ![1. ](assets/boomerang-stages-24.png)에 할당할 속성 비율을 설정합니다.
 
    >[!NOTE]
    >

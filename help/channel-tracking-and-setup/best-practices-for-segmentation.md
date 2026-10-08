@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 세그멘테이션 지침 모�
 title: 세그먼테이션 우수 사례
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
-
 ---
-
 # 세그먼테이션 우수 사례 {#best-practices-for-segmentation}
 
 ## 개요 {#overview}
@@ -30,11 +34,11 @@ ht-degree: 0%
 * 세그먼트 이름을 조직의 명명법에 맞게 정렬합니다(예: 범주 = 필터 이름, 세그먼트 = 필터 값).
 * 규칙에 공식 필드 사용 안 함
 * 가능하면 전체 funnel에서 사용할 수 있도록 리드/연락처 및 영업 기회 모두에 세분화를 구축하십시오
-   * Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 아래 두 필드를 리드와 관련된 것으로 사용하지 마십시오([자세히 알아보기](/help/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
-   * 모든 세그먼트 범주가 전체 funnel에 걸쳐 정렬되는 것은 아닙니다.
-      * 예를 들어 &#39;영업 기회 유형&#39;의 세그먼트 카테고리는 리드와 관련이 없지만 &#39;지역&#39;과 관련된 세그먼트는 funnel 전체에서 정의할 수 있는 카테고리일 수 있습니다
+  * Marketo Measure Ultimate 고객이고 기본 대시보드 개체를 연락처로 설정한 경우 아래 두 필드를 리드와 관련된 것으로 사용하지 마십시오([자세히 알아보기](/help/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
+  * 모든 세그먼트 범주가 전체 funnel에 걸쳐 정렬되는 것은 아닙니다.
+    * 예를 들어 &#39;영업 기회 유형&#39;의 세그먼트 카테고리는 리드와 관련이 없지만 &#39;지역&#39;과 관련된 세그먼트는 funnel 전체에서 정의할 수 있는 카테고리일 수 있습니다
 * CRM이든 BI 도구이든 현재 데이터를 분할하는 방법을 생각해 보고, [!DNL Marketo Measure]에서 세그먼트로 빌드하여 Discover에서 동일한 보고를 수행할 수 있도록 하십시오.
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}

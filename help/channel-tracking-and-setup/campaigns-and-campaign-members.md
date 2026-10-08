@@ -3,14 +3,18 @@ description: Marketo Measure 사용자를 위한 캠페인 및 캠페인 멤버 
 title: 캠페인 및 캠페인 멤버
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
-
 ---
-
 # 캠페인 및 캠페인 멤버 {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] 캠페인은 마케팅 프로그램 또는 활동과 연결된 잠재 고객 및 연락처 목록을 추적하기 위한 것입니다. 예를 들어 이것은 일반적으로 웨비나 등록 또는 부스 방문입니다. 마케터는 터치포인트 여정에서 캠페인이 크레딧을 받아야 하는지 여부를 선택할 수 있습니다.
@@ -59,7 +63,7 @@ ht-degree: 0%
 
 활성화된 경우 [!DNL Marketo Measure]은(는) 설치된 패키지에 포함된 4개의 다른 필드(접점 상태(리드), 접점 상태(연락처), 접점 상태(기회) 및 접점 상태 날짜)에 걸쳐 캠페인 멤버에 상태 값을 푸시합니다. 이렇게 하면 고객이 터치포인트가 관련된 오브젝트에 따라 Buyer Touchpoint 또는 Buyer Attribution Touchpoint으로 만들어졌는지 여부를 감사하는 데 도움이 됩니다. 접점 상태 날짜는 캠페인 멤버에서 상태가 마지막으로 업데이트된 날짜일 뿐입니다.
 
-![활성화된 경우 Marketo Measure이 상태 값을 &#x200B;](assets/dynamics-lists-3.png)에 푸시합니다.
+![활성화된 경우 Marketo Measure이 상태 값을 ](assets/dynamics-lists-3.png)에 푸시합니다.
 
 ## Buyer Touchpoint 날짜 {#buyer-touchpoint-date}
 
@@ -80,7 +84,7 @@ Buyer Touchpoint 날짜를 사용해야 하는지 여부를 확인하려면 캠�
 
 * Buyer Touchpoint 날짜
 * 첫 번째 응답일
-   * 첫 번째 응답한 날짜는 상태가 &quot;응답됨&quot;으로 바뀌자마자 자동으로 설정되며 변경할 수 없는 표준 [!DNL Salesforce] 필드입니다
+  * 첫 번째 응답한 날짜는 상태가 &quot;응답됨&quot;으로 바뀌자마자 자동으로 설정되며 변경할 수 없는 표준 [!DNL Salesforce] 필드입니다
 
 * 캠페인 멤버 생성 날짜
 
@@ -100,7 +104,7 @@ Buyer Touchpoint 날짜를 사용해야 하는지 여부를 확인하려면 캠�
 >
 >작동하지 않는 검색이 한 개 있으며 이는 아래 예에 표시됩니다. UI는 null Buyer Touchpoint 날짜 검색을 지원하지 않습니다(아래 검색은 작동하지 않음).
 
-![작동하지 않는 검색이 한 개 있습니다. &#x200B;](assets/legacy-processes-10.png)에 표시됩니다.
+![작동하지 않는 검색이 한 개 있습니다. ](assets/legacy-processes-10.png)에 표시됩니다.
 
 검색을 사용하지 않고 모든 캠페인 멤버 레코드에 날짜를 적용할 필요가 없는 경우 모든 페이지의 모든 레코드를 확인하는 &quot;[!UICONTROL Include All Records]&quot; 확인란(아래 스크린샷 참조)을 사용합니다.
 
@@ -112,13 +116,13 @@ Buyer Touchpoint 날짜를 사용해야 하는지 여부를 확인하려면 캠�
 
 ## 캠페인 비용 {#campaign-costs}
 
-이 문서[&#128279;](/help/crm-campaign-costs.md){target="_blank"}에서 캠페인 비용 에 대해 모두 알아보세요.
+이 문서](/help/crm-campaign-costs.md){target="_blank"}에서 캠페인 비용 [에 대해 모두 알아보세요.
 
 ## 캠페인 멤버 제거 {#campaign-member-removal}
 
 [!DNL Marketo Measure]이(가) 삭제된 리드, 계정 또는 기회인지 여부에 관계없이 Salesforce에서 삭제된 레코드를 유지하는 방법은 API에서 해당 레코드를 보고 항목이 &quot;IsDeleted&quot;로 표시되는지 추적하는 것입니다. 불행히도 캠페인 멤버와 함께 Salesforce은 캠페인에서 이러한 캠페인 멤버를 삭제하는 다른 방법을 도입했으며 실제로 &quot;삭제됨&quot;이 아닌 &quot;제거됨&quot;으로 표시되므로 터치포인트가 삭제된 캠페인 멤버와 관련된 Salesforce에 여전히 존재한다는 문제가 있습니다.
 
-이 문제를 해결하기 위해 [!DNL Marketo Measure]은(는) 캠페인 멤버가 제거될 때마다 추적할 [!DNL Marketo Measure] 기록 개체와 트리거를 만든 다음 해당 터치포인트를 삭제합니다. **이 기능을 사용하려면 [!DNL Marketo Measure] Marketing Analytics 패키지 V6.15 이상**&#x200B;이 필요합니다.
+이 문제를 해결하기 위해 [!DNL Marketo Measure]은(는) 캠페인 멤버가 제거될 때마다 추적할 [!DNL Marketo Measure] 기록 개체와 트리거를 만든 다음 해당 터치포인트를 삭제합니다. **이 기능을 사용하려면 [!DNL Marketo Measure] Marketing Analytics 패키지 V6.15 이상이 필요합니다**.
 
 >[!CAUTION]
 >
@@ -126,6 +130,6 @@ Buyer Touchpoint 날짜를 사용해야 하는지 여부를 확인하려면 캠�
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 자습서: Campaign 개체 필드](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Campaign 개체 필드](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

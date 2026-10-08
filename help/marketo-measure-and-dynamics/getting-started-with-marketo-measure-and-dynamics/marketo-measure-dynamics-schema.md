@@ -4,16 +4,21 @@ description: '[!DNL Marketo Measure] 동적 스키마 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 동적 스키마'
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-TQID: https://experienceleague.adobe.com/8Naefwjo6LIx7ovwcm95E06yReRQeoXGNqIfRisfRgQ
+TQID: 'https://experienceleague.adobe.com/8Naefwjo6LIx7ovwcm95E06yReRQeoXGNqIfRisfRgQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1086
+source-wordcount: '1086'
 ht-degree: 23%
-
 ---
-
 # [!DNL Marketo Measure] 동적 스키마 {#marketo-measure-dynamics-schema}
 
 >[!NOTE]
@@ -42,265 +47,265 @@ Buyer Touchpoint은 연락처 및 리드에 대한 마케팅 상호 작용을 �
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Campaign_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Campaign_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Content</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Destination_URL</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Group_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Group_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_TouchpointId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Browser</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_CampaignId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_ContactId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_First_Touch</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_Lead_Conversion_Touch</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_U_Shaped</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Form_URL</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Form_URL_Raw</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Geo_City</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Geo_Country</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Geo_Region</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Keyword_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Keyword_MatchType</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Keyword_Text</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Landing_Page</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Landing_Page_Raw</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_LeadId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Marketing_Channel</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Marketing_Channel_Path</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Medium</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Placement_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Placement_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Platform</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Referrer_Page</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_레퍼러_페이지 원시</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Search_Phrase</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Segment</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Site_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Site_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Date</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Position</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Source</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Type</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_UniqueId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Account</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -327,391 +332,391 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_AccountId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Campaign_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Campaign_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Content</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Destination_URL</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Group_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Group_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Ad_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Attribution_Custom_Model</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Attribution_Custom_Model_2</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Attribution_First_Touch</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Attribution_Lead_Conversion_Touch</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Attribution_U_Shaped</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Attribution_W_Shaped</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_Attribution_TouchpointId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Browser</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_CampaignId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_ContactId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_Custom_Model</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_Custom_Model_2</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_First_Touch</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_Lead_Creation_Touch</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_U_Shaped</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Count_W_Shaped</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Form_URL</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Form_URL_Raw</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Geo_City</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Geo_Country</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Geo_Region</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Keyword_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Keyword_MatchType</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Keyword_Text</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Landing_Page</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Landing_Page_Raw</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Marketing_Channel</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Marketing_Channel_Path</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Medium</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_OpportunityId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Placement_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Placement_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Platform</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Referrer_Page</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_레퍼러_페이지 원시</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Revenue_Custom_Model</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Revenue_Custom_Model_2</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_revenue_custom_model_2_Base</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_revenue_custom_model_Base</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Revenue_First_Touch</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_revenue_first_touch_Base</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Revenue_Lead_Conversion_Touch</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_revenue_lead_conversion_Base</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Revenue_U_Shaped</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_revenue_u_shaped_Base</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Revenue_W_Shaped</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_revenue_w_shaped_Base</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Search_Phrase</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Segment</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Site_Id</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Site_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Date</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Position</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Source</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Type</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_UniqueId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -730,73 +735,73 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_ABTestId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_BizibleId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_ContactId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_DateReported</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Experiment</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_ExperimentId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_LeadId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_OpportunityId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_UserId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Variation</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_VariationId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -815,55 +820,55 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_EventId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_BizibleId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_ContactId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_DateReported</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_EventName</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_EventValue</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_LeadId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_OpportunityId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -882,31 +887,31 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_HistoryId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Entity_Type</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_EntityId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_EntityLogicalName</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Name</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -989,13 +994,13 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Account</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_BizibleId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -1044,7 +1049,7 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_BizibleId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -1087,7 +1092,7 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Engagement_Score</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -1166,13 +1171,13 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_Opportunity_Amount</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_bizible_opportunity_amount_Base</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -1223,31 +1228,31 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_Attribution_SyncType</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Marketing_Lists_Sync</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_UniqueId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_End_Date</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Start_Date</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -1320,31 +1325,31 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_Touchpoint_Date</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Status_Date</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Status_Contact</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Status_Leade</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_Touchpoint_Status_Opportunity</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -1393,7 +1398,7 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_Touchpoint_Date</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
@@ -1497,13 +1502,13 @@ Buyer Attribution Touchpoint은 Opportunity에 대한 마케팅의 영향을 캡
   </tr> 
   <tr> 
    <td><p>bizible2_Bizible_Touchpoint_Date</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
    <td><p>bizible2_BizibleId</p></td> 
-   <td><p>맞춤형</p></td> 
+   <td><p>사용자 정의</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 

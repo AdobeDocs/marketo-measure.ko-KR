@@ -3,13 +3,19 @@ description: Marketo Measure 사용자를 위한 마케팅 채널 지침별 기�
 title: 마케팅 채널별 기회
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
-
 ---
-
 # 마케팅 채널별 기회 {#opportunities-by-marketing-channel}
 
 이 보고서는 마케팅 채널에서 생성된 기회의 수를 표시합니다. 여기에는 모든 기회가 포함됩니다. 하지만 이 보고서를 필터링하여 특정 유형의 기회를 분석할 수 있습니다.
@@ -18,7 +24,7 @@ ht-degree: 1%
 
 1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 **[!UICONTROL Bizible Attribution Touchpoint with Opportunity]** 보고서 유형을 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다.
 
-   ![1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 &#x200B;](assets/bizible-guide-1.png)을(를) 선택합니다.
+   ![1. &quot;Bizible 속성&quot;의 빠른 찾기 유형에서 ](assets/bizible-guide-1.png)을(를) 선택합니다.
 
 1. 보고서 맨 위부터 **[!UICONTROL All Bizible Attribution Touchpoints]**&#x200B;을(를) 표시하고 보고할 일정에 따라 날짜 필드를 조정합니다. 이 예제에서는 All Time을 살펴보겠습니다. 또한 보고서 형식을 [!UICONTROL Tabular]에서 **[!UICONTROL Summary]**(으)로 변경하십시오.
 
@@ -26,7 +32,7 @@ ht-degree: 1%
 
 1. 이제 보고서에 필드를 추가하겠습니다. 왼쪽의 빠른 찾기에 &quot;마케팅 채널&quot;을 입력하고 보고서의 요약 그룹화에 추가합니다.
 
-   ![1. 이제 보고서에 필드를 추가하겠습니다. &#x200B;](assets/marketo-reports-10.jpg)에서
+   ![1. 이제 보고서에 필드를 추가하겠습니다. ](assets/marketo-reports-10.jpg)에서
 
 1. 이제 보고서를 실행하고 분석하십시오!
 
@@ -34,4 +40,4 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

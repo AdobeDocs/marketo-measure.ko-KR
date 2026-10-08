@@ -4,20 +4,25 @@ description: 보고서 마케팅 지출 - [!DNL Marketo Measure]
 title: 보고서 마케팅 지출
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-TQID: https://experienceleague.adobe.com/xdj3h4D3SQtHJkxyBAHjlqdLY2I1tQCzZEDyX06o9bE
+TQID: 'https://experienceleague.adobe.com/xdj3h4D3SQtHJkxyBAHjlqdLY2I1tQCzZEDyX06o9bE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '342'
 ht-degree: 0%
-
 ---
-
 # 보고서 마케팅 지출 {#report-marketing-spend}
 
 ## 마케팅 지출 테이블 {#marketing-spend-table}
@@ -38,7 +43,7 @@ ht-degree: 0%
 
 ## 변환된 마케팅 지출로 마이그레이션 {#migrate-to-converted-marketing-spend}
 
-마케팅 지출은 지금까지 단일 (USD) 통화로만 수행되었기 때문에 보고된 모든 지출을 새 통화로 변경하는 데 필요한 작업이 적습니다. 계정에 여러 통화가 활성화되지 않았더라도 USD가 아닌 단일 법인 통화가 있다면 이 마이그레이션을 수행해야 합니다.
+마케팅 지출은 지금까지 단일(USD) 통화로만 이루어졌으므로 보고된 모든 지출을 새 통화로 변경하는 데 필요한 작업이 적습니다. 계정에 여러 통화가 활성화되지 않았더라도 USD 이외의 단일 회사 통화가 있다면 이 마이그레이션을 수행해야 합니다.
 
 1. 현재 지출 파일을 CSV로 다운로드
 1. 통화 열에 가정된 통화로 &quot;[!UICONTROL USD]&quot;이(가) 표시됩니다. 모든 &quot;[!UICONTROL USD]&quot;을(를) 수동으로 바꾸거나 Find+Replace를 사용하여 모든 &quot;[!UICONTROL USD]&quot; 인스턴스를 &quot;[!UICONTROL EUR]&quot; 또는 &quot;[!UICONTROL GBP]&quot;과(와) 같은 회사 통화로 변경할 수 있습니다.

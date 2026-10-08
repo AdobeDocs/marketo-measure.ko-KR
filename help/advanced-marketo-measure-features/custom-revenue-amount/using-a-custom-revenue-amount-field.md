@@ -4,16 +4,18 @@ description: 사용자 지정 수익 금액 필드 사용 - [!DNL Marketo Measur
 title: 사용자 정의 수익 금액 필드 사용
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+TQID: 'https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: '602'
 ht-degree: 1%
-
 ---
-
 # 사용자 정의 수익 금액 필드 사용 {#using-a-custom-revenue-amount-field}
 
 기본적으로 구매자 속성 터치포인트는 다음 두 필드 중 하나에서 기회 금액을 가져옵니다.
@@ -31,7 +33,7 @@ ht-degree: 1%
 
 ## Salesforce Lightning에서 워크플로우 만들기 {#create-the-workflow-in-salesforce-lightning}
 
-다음 단계는 Salesforce Lightning 사용자를 위한 것입니다. 여전히 Salesforce Classic을 사용하는 경우 [&#x200B; 단계는 아래에 나열됩니다](#create-the-workflow-in-salesforce-classic).
+다음 단계는 Salesforce Lightning 사용자를 위한 것입니다. 여전히 Salesforce Classic을 사용하는 경우 [ 단계는 아래에 나열됩니다](#create-the-workflow-in-salesforce-classic).
 
 1. 설정에서 [빠른 찾기] 상자에 &quot;흐름&quot;을 입력하고 **[!UICONTROL Flows]**&#x200B;을(를) 선택하여 흐름 빌더를 시작합니다. 오른쪽 패널에서 **[!UICONTROL New Flow]** 단추를 클릭합니다.
 
@@ -80,7 +82,7 @@ ht-degree: 1%
 
 ## Salesforce Classic에서 워크플로우 만들기 {#create-the-workflow-in-salesforce-classic}
 
-다음 단계는 Salesforce Classic 사용자를 위한 것입니다. Salesforce Lightning으로 전환한 경우 [&#x200B; 단계는 위에서 찾을 수 있습니다](#create-the-workflow-in-salesforce-lightning).
+다음 단계는 Salesforce Classic 사용자를 위한 것입니다. Salesforce Lightning으로 전환한 경우 [ 단계는 위에서 찾을 수 있습니다](#create-the-workflow-in-salesforce-lightning).
 
 1. **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Workflow & Approvals]** > **[!UICONTROL Workflow Rules]**(으)로 이동합니다.
 

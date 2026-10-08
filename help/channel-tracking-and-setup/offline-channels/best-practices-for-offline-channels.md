@@ -3,18 +3,21 @@ description: 오프라인 채널에 대한 모범 사례 - [!DNL Marketo Measure
 title: 오프라인 채널에 대한 우수 사례
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-TQID: https://experienceleague.adobe.com/p-xffnDY4cbrbz4dH1Z4MgWCOwuoP-IjDHU4YdTww8o
+TQID: 'https://experienceleague.adobe.com/p-xffnDY4cbrbz4dH1Z4MgWCOwuoP-IjDHU4YdTww8o'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1053
+source-wordcount: '1053'
 ht-degree: 0%
-
 ---
-
 # 오프라인 채널에 대한 우수 사례 {#best-practices-for-offline-channels}
 
 ## 개요 {#overview}
@@ -37,24 +40,24 @@ ht-degree: 0%
 오프라인 채널을 처음 매핑하거나 검토하여 정확성을 확인하는 방법 간에 다음 모범 사례를 참고하십시오.
 
 * 오프라인 채널을 위한 숙고된 프레임워크 만들기
-   * 마케팅 캠페인의 구성과 [!DNL Marketo Measure] 프레임워크에 어떻게 적합한지 생각해 보십시오. 오프라인 채널에서 표시할 채널과 하위 채널 및 이러한 채널을 서로 구별하는 CRM Campaign 유형을 결정합니다
+  * 마케팅 캠페인의 구성과 [!DNL Marketo Measure] 프레임워크에 어떻게 적합한지 생각해 보십시오. 오프라인 채널에서 표시할 채널과 하위 채널 및 이러한 채널을 서로 구별하는 CRM Campaign 유형을 결정합니다
 * 현재 CRM 캠페인 &#39;유형&#39; 값을 먼저 활용하도록 작업
-   * 오프라인 채널은 CRM Campaign &#39;Type&#39;에 의해 정의되지만, 이상적인 오프라인 채널 및 하위 채널 값을 수용하도록 사용자 지정 CRM Campaign &#39;Type&#39; 값을 만들어야 할 수 있습니다. 이상적인 사용자 지정 CRM 캠페인 &#39;유형&#39; 값에는 아래에 표시된 명명 규칙이 적용되어야 합니다.
-      * 채널 - 서브채널
-      * 예: Event - Tradeshow
-      * 이렇게 하면 서브채널 수준에 대한 매핑이 가능한 한 쉽고 깔끔하게 됩니다
+  * 오프라인 채널은 CRM Campaign &#39;Type&#39;에 의해 정의되지만, 이상적인 오프라인 채널 및 하위 채널 값을 수용하도록 사용자 지정 CRM Campaign &#39;Type&#39; 값을 만들어야 할 수 있습니다. 이상적인 사용자 지정 CRM 캠페인 &#39;유형&#39; 값에는 아래에 표시된 명명 규칙이 적용되어야 합니다.
+    * 채널 - 서브채널
+    * 예: Event - Tradeshow
+    * 이렇게 하면 서브채널 수준에 대한 매핑이 가능한 한 쉽고 깔끔하게 됩니다
 * 하나의 하위 채널만 하나의 CRM 캠페인 &#39;유형&#39;에 매핑될 수 있음
-   * 여러 CRM 캠페인 &#39;유형&#39;을 단일 채널에 매핑할 수 있지만 각 채널 내의 각 하위 채널에는 하나의 CRM 캠페인 &#39;유형&#39;만 매핑할 수 있습니다
+  * 여러 CRM 캠페인 &#39;유형&#39;을 단일 채널에 매핑할 수 있지만 각 채널 내의 각 하위 채널에는 하나의 CRM 캠페인 &#39;유형&#39;만 매핑할 수 있습니다
 * 오프라인 캠페인만 [!DNL Marketo Measure]과(와) 동기화하여 터치포인트를 만들 수 있으므로 오프라인 CRM 캠페인 &#39;유형&#39;만 오프라인 채널에 매핑해야 합니다.
-   * 온라인 CRM 캠페인 &#39;유형&#39;은 [!UICONTROL Marketing Channel] = &quot;NULL&quot;에 매핑되어야 합니다. 이 값은 오프라인 채널이 검토되었음을 나타내는 &#39;빨간색 플래그&#39; 역할을 하며 &quot;NULL&quot;에 매핑된 CRM Campaign &#39;Type&#39;이(가) 온라인 &#39;Type&#39;이므로 [!DNL Marketo Measure]과(와) 동기화해서는 안 됩니다. 온라인 CRM 캠페인 &#39;유형&#39;과 관련된 접점은 [!DNL Marketo Measure] 온라인 기능 및 채널을 통해 이미 추적됩니다. 이러한 캠페인을 동기화하면 &quot;중복&quot; 터치포인트/더블 카운트가 발생할 수 있습니다.
+  * 온라인 CRM 캠페인 &#39;유형&#39;은 [!UICONTROL Marketing Channel] = &quot;NULL&quot;에 매핑되어야 합니다. 이 값은 오프라인 채널이 검토되었음을 나타내는 &#39;빨간색 플래그&#39; 역할을 하며 &quot;NULL&quot;에 매핑된 CRM Campaign &#39;Type&#39;이(가) 온라인 &#39;Type&#39;이므로 [!DNL Marketo Measure]과(와) 동기화해서는 안 됩니다. 온라인 CRM 캠페인 &#39;유형&#39;과 관련된 접점은 [!DNL Marketo Measure] 온라인 기능 및 채널을 통해 이미 추적됩니다. 이러한 캠페인을 동기화하면 &quot;중복&quot; 터치포인트/더블 카운트가 발생할 수 있습니다.
 
 ## 우수 사례 | 오프라인 Campaign 동기화 {#best-practice-offline-campaign-sync}
 
 * &#39;유형&#39; 필드가 각 CRM 캠페인에 대해 정확한지 확인합니다.
-   * &#39;유형&#39;은 동기화된 후 캠페인에서 가져온 모든 터치포인트에 대한 마케팅 채널 및 하위 채널을 결정합니다
+  * &#39;유형&#39;은 동기화된 후 캠페인에서 가져온 모든 터치포인트에 대한 마케팅 채널 및 하위 채널을 결정합니다
 * CRM 기반 캠페인 동기화 메서드(구매자 터치포인트 활성화) 또는 [!DNL Marketo Measure] 앱 기반 동기화 메서드([!UICONTROL Marketo Measure] 계정 설정의 &#39;[!UICONTROL Campaigns]&#39; 탭 내 사용자 지정 캠페인 동기화)를 사용하든 관계없이, 오프라인 터치포인트는 캠페인 구성원이 캠페인 및 브랜드와 실제 오프라인 참여를 한 경우에만 만들어야 합니다.
-   * 이벤트 또는 웨비나와 같은 오프라인 채널의 경우: &quot;등록&quot;은 일반적으로 웹 사이트의 양식 제출 및 [!DNL Marketo Measure] 온라인 기능을 통해 추적됩니다. 따라서 &quot;등록됨&quot; 상태의 캠페인 멤버는 이중 계산을 방지하기 위해 Campaign에서 오프라인 터치포인트를 받지 않아야 합니다. 오프라인 터치포인트는 이벤트 또는 웨비나에 대한 &quot;출석&quot;만 나타냅니다.
-   * 콘텐츠 신디케이션 같은 일부 오프라인 채널은 모든 캠페인 멤버가 실제로 캠페인에 반응했음을 나타내는 동일한 &#39;응답됨&#39; 상태를 가진다는 점에서 더 간단합니다. 이 경우 타사 사이트의 콘텐츠를 다운로드하므로 오프라인 터치포인트를 받아야 합니다
+  * 이벤트 또는 웨비나와 같은 오프라인 채널의 경우: &quot;등록&quot;은 일반적으로 웹 사이트의 양식 제출 및 [!DNL Marketo Measure] 온라인 기능을 통해 추적됩니다. 따라서 &quot;등록됨&quot; 상태의 캠페인 멤버는 이중 계산을 방지하기 위해 Campaign에서 오프라인 터치포인트를 받지 않아야 합니다. 오프라인 터치포인트는 이벤트 또는 웨비나에 대한 &quot;출석&quot;만 나타냅니다.
+  * 콘텐츠 신디케이션 같은 일부 오프라인 채널은 모든 캠페인 멤버가 실제로 캠페인에 반응했음을 나타내는 동일한 &#39;응답됨&#39; 상태를 가진다는 점에서 더 간단합니다. 이 경우 타사 사이트의 콘텐츠를 다운로드하므로 오프라인 터치포인트를 받아야 합니다
 * [!DNL Marketo Measure] 앱에서 사용자 지정 캠페인 동기화 방법을 사용하는 경우 &#39;접점 날짜&#39; 필드가 실제로 접점 상호 작용이 발생한 시기를 가장 잘 나타내는 캠페인 또는 캠페인 멤버의 날짜 필드를 기반으로 하는지 확인하십시오
 * CRM Campaign에서 가져온 오프라인 터치포인트에 대한 &#39;터치포인트 날짜&#39;를 재정의해야 하는 경우 &#39;터치포인트 날짜 벌크 업데이트&#39; 버튼을 사용합니다. &quot;접점 날짜&quot;는 가능한 한 정확해야 접점이 가장 정확한 &quot;접점 위치&quot;를 보유하여 적절한 속성 크레딧을 받을 수 있습니다
 

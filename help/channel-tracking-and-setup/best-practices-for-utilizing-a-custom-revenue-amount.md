@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 사용자 지정 수익 금액 
 title: 사용자 지정 수익 금액 활용에 대한 우수 사례
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 수익 금액 활용에 대한 우수 사례 {#best-practices-for-utilizing-a-custom-revenue-amount}
 
 ## 개요 {#overview}
@@ -25,10 +29,10 @@ ht-degree: 0%
 명심해야 할 사항:
 
 * 모든 Opportunity에 대해 정확하고 활용도가 높은 Revenue 필드 선택
-   * ARR 또는 총 계약 금액 권장
+  * ARR 또는 총 계약 금액 권장
 * 공식 필드 사용 안 함
 * 통화 전환에 사용자 지정 수익 금액을 사용하는 경우 대신 [!UICONTROL Marketo Measure Multiple Currencies] 기능이 기본 방법입니다.
-   * [!DNL Marketo Measure] 복수 통화 기능은 통화 전환 간의 정렬을 가장 잘 보장하기 위해 [!DNL Salesforce]에서 설정된 전환율을 참조합니다. 이렇게 하면 표준 &#39;금액&#39;(SFDC 기본값) 또는 [!DNL Salesforce] 전환율과 관련된 다른 모든 사용자 지정 금액 필드를 계속 사용할 수 있습니다.
+  * [!DNL Marketo Measure] 복수 통화 기능은 통화 전환 간의 정렬을 가장 잘 보장하기 위해 [!DNL Salesforce]에서 설정된 전환율을 참조합니다. 이렇게 하면 표준 &#39;금액&#39;(SFDC 기본값) 또는 [!DNL Salesforce] 전환율과 관련된 다른 모든 사용자 지정 금액 필드를 계속 사용할 수 있습니다.
 * [!DNL Marketo Measure]에서 참조할 금액 필드를 업데이트하는 경우 데이터 로더를 사용하여 과거 기회를 업데이트하여 매출 데이터가 일관되고 워크플로우를 통해 적절한 필드가 채워지도록 합니다
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}

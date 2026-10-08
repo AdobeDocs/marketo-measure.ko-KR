@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 리드 병합 지침 모범 사
 title: 리드 병합에 대한 우수 사례
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 3%
-
 ---
-
 # 리드 병합에 대한 우수 사례 {#best-practices-for-merging-leads}
 
 [!DNL Salesforce]에서 Lead를 병합할 때는 데이터가 손실되지 않도록 항상 주의하는 것이 좋습니다.
@@ -24,4 +28,4 @@ ht-degree: 3%
 
 질문이 있는 경우 주저하지 말고 Adobe 계정 팀(계정 관리자) 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하십시오.
 
-![질문이 있는 경우 주저하지 말고 &#x200B;](assets/additional-functionality-8.jpg)에 문의하세요
+![질문이 있는 경우 주저하지 말고 ](assets/additional-functionality-8.jpg)에 문의하세요

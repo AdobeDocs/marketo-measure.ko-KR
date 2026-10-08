@@ -3,13 +3,21 @@ description: '''[!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사�
 title: '[!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 21%
-
+ht-degree: 22%
 ---
-
 
 # [!DNL Marketo Measure] Ultimate 데이터 무결성 요구 사항 {#marketo-measure-ultimate-data-integrity-requirement}
 
@@ -883,14 +891,14 @@ ht-degree: 21%
       <td>문자열</td>
       <td></td>
       <td>예</td>
-      <td>Marketo Measure의 기본 통화 코드 세트(예: USD)</td>
+      <td>Marketo Measure에 설정된 기본 통화 코드(예: USD)</td>
     </tr>
   </tbody>
 </table>
 
 ## 통화 전환 데이터 요구 사항 {#currency-conversion-data-requirements}
 
-**기본 통화**: Marketo Measure에서 모든 매출과 비용은 보고 시 기본 통화로 전환됩니다. 전환율이 1인 대상 통화 자체에 대한 날짜 범위가 동일한 레코드가 하나 있어야 합니다(예: USD에서 USD로의 전환).
+**기본 통화**: Marketo Measure에서 모든 매출과 비용은 보고 시 기본 통화로 전환됩니다. 전환율이 1인 대상 통화 자체(예: USD에서 USD으로)에 대해 날짜 범위가 동일한 레코드가 하나 있어야 합니다.
 
 **전환율**: 각(원본 통화, 대상 통화) 쌍은 서로 다른 날짜 기간에 대해 여러 전환율을 가질 수 있습니다. 이 비율은 Salesforce DatedConversionRate 개체에 따라 0001-01-01부터 9999-12-31까지의 전체 시간 범위를 포함해야 합니다.
 
@@ -1378,7 +1386,7 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 필드 매핑에서 계산된 필드를 사용하여 필드를 NULL이 아닌 값으로 기본 설정하는 것이 좋습니다. 다음은 두 가지 예입니다.
 
 * 일부 영업 기회 레코드 `opportunityName`개가 null이면 필드 매핑에서 다음 계산된 필드를 만들어 사용하십시오.
-   * `iif(name != null && trim(name) != "", name, "Unknown")`
+  * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * 일부 경험 이벤트 레코드 `leadOperation.campaignProgression.campaignID`이(가) null이면 필드 매핑에서 다음 계산된 필드를 만들어 사용하십시오.
-   * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
+  * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

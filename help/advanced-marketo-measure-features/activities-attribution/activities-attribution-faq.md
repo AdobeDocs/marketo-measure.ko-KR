@@ -4,16 +4,18 @@ description: 활동 속성 FAQ - [!DNL Marketo Measure]
 title: 활동 속성 FAQ
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-TQID: https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo
+TQID: 'https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '765'
 ht-degree: 0%
-
 ---
-
 # 활동 속성 FAQ {#activities-attribution-faq}
 
 [!DNL Marketo Measure] 활동이 모든 활동 레코드를 가져오고 터치포인트를 생성하므로 이러한 활동이 속성 크레딧을 받을 수 있습니다. 가장 일반적인 사용 사례는 잠재 고객에게 전송된 전화 통화 또는 이메일 기록을 생성하는 영업 팀의 활동을 추적하는 것입니다. 추적할 수 있는 다른 고유한 사항은 에셋 다운로드나 비디오 보기와 같은 콘텐츠 상호 작용입니다.

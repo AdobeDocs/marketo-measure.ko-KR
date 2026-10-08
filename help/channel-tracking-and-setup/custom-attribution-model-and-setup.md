@@ -3,13 +3,19 @@ description: Marketo Measure 사용자를 위한 사용자 지정 속성 모델 
 title: 사용자 지정 속성 모델 및 설정
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 속성 모델 및 설정 {#custom-attribution-model-and-setup}
 
 [!DNL Marketo Measure] 사용자 지정 속성 모델에 대한 개요와 설정 방법은 아래를 참조하십시오.
@@ -44,7 +50,7 @@ ht-degree: 0%
 
    아래 예에서는 날짜 필드를 사용하여 사용자 정의 &quot;MQL&quot; 단계를 정의합니다. 규칙은 단순히 MQL 날짜 필드가 비어 있지 않으면 MQL로 간주해야 하고 사용자 지정 모델에 포함되어야 한다고 명시합니다. 또한 사용자 정의 단계가 만들어지면 이를 정렬하여 판매 주기의 진행을 따르도록 하는 것이 중요합니다.
 
-   ![아래 예제에서 사용자 지정 &quot;MQL&quot; 단계는 &#x200B;](assets/custom-models-10.png)을(를) 사용하여 정의됩니다.
+   ![아래 예제에서 사용자 지정 &quot;MQL&quot; 단계는 ](assets/custom-models-10.png)을(를) 사용하여 정의됩니다.
 
    >[!CAUTION]
    >
@@ -66,7 +72,7 @@ ht-degree: 0%
 
 속성 백분율이 저장되고 처리되면 터치포인트가 업데이트되어 새 단계 및 위치를 수신하게 됩니다. 단계 전환 전에 가장 최근에 발생한 접점은 해당 단계에 대한 크레딧을 받습니다(아래 참조). 사용자 정의 가중치 및 매출도 재분배됩니다.
 
-![속성 비율이 저장되고 처리되면 터치포인트가 &#x200B;](assets/custom-models-3.png)됩니다.
+![속성 비율이 저장되고 처리되면 터치포인트가 ](assets/custom-models-3.png)됩니다.
 
 ## funnel 단계와 사용자 정의 모델 단계의 차이점 {#the-difference-between-funnel-stages-and-custom-model-stages}
 

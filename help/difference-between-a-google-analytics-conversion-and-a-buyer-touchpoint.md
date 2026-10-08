@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 Google Analytics 전환과 Buye
 title: Google Analytics 전환과 Buyer Touchpoint의 차이점
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 1%
-
 ---
-
 # Google Analytics 전환과 Buyer Touchpoint의 차이점 {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
 [!DNL Google Analytics (GA)] 목표가 무엇인지, 그리고 이 목표가 Buyer Touchpoint과 어떻게 다른지 알아봅니다.
@@ -63,7 +67,7 @@ ht-degree: 1%
 
 **구매자 터치포인트는 어떻게 다릅니까?**
 
-[!DNL Marketo Measure] JavaScript은 특정 사이트의 모든 양식에서 세션 데이터 및 양식 제출을 추적합니다. [!DNL Marketo Measure] 관점에서 목표를 코딩할 필요가 없습니다. 이 프로세스는 자동입니다. 양식 제출을 위해 [!DNL Marketo Measure]은(는) 익명 사용자가 특정 양식의 정보 필드를 작성하고 양식 제출 버튼을 클릭할 때마다 양식 완료를 보고합니다. [!DNL Marketo Measure] 양식 제출을 기록하는 데 감사 페이지가 필요하지 않습니다.
+[!DNL Marketo Measure] JavaScript은 특정 사이트의 모든 양식에서 세션 데이터 및 양식 제출을 추적합니다. [!DNL Marketo Measure] 관점에서 목표를 코딩할 필요가 없습니다. 이 프로세스는 자동입니다. 양식 제출을 위해 [!DNL Marketo Measure]은(는) 익명 사용자가 특정 양식의 정보 필드를 작성하고 양식 제출 버튼을 클릭할 때마다 양식 완료를 보고합니다. [!DNL Marketo Measure]은(는) 양식 제출을 기록하는 데 감사 페이지가 필요하지 않습니다.
 
 [!DNL Marketo Measure]은(는) 다음 경우에 양식 터치포인트를 만듭니다.
 
@@ -74,8 +78,8 @@ ht-degree: 1%
 [!DNL Marketo Measure]은(는) 다음과 같은 경우 대상 Google 분석 변환을 무시합니다.
 
 * 봇은 웹 사이트에서 양식을 제출합니다(이러한 봇은 일반적으로 클라이언트의 CRM으로 만들지 않음).
-* 사용자가 첫 번째 양식 제출 후 더 많은 양식을 제출합니다. [!DNL Marketo Measure] 는 해당 세션의 첫 번째 변환만 푸시합니다.
-* 사용자가 양식 제출을 여러 번 클릭합니다. [!DNL Marketo Measure] 는 첫 번째 양식 제출만 고려합니다.
+* 사용자가 첫 번째 양식 제출 후 더 많은 양식을 제출합니다. [!DNL Marketo Measure]은(는) 해당 세션의 첫 번째 변환만 푸시합니다.
+* 사용자가 양식 제출을 여러 번 클릭합니다. [!DNL Marketo Measure]은(는) 첫 번째 양식 제출만 고려합니다.
 * 사용자가 감사 페이지를 여러 번 다시 로드합니다.
 * 사용자가 광고 차단 도구를 사용하고 있습니다.
 

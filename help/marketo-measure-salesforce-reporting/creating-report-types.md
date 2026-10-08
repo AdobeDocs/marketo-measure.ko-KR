@@ -1,16 +1,20 @@
 ---
-description: Marketo Measure 사용자를 위한 사용자 지정 [!DNL Marketo Measure] 보고서 유형 지침 만들기
+description: Marketo Measure 사용자에 대한 사용자 지정 [!DNL Marketo Measure] 보고서 유형 지침을 만드는 중
 title: 사용자 지정 [!DNL Marketo Measure] 보고서 유형을 만드는 중
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '333'
 ht-degree: 1%
-
 ---
-
 # 사용자 지정 [!DNL Marketo Measure] 보고서 유형을 만드는 중 {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
@@ -92,8 +96,8 @@ ht-degree: 1%
 
 1. 보고서가 생성되면 보고서 유형 개요로 리디렉션됩니다. **[!UICONTROL Edit Layout]**&#x200B;를 클릭합니다.
 
-   ![1. 보고서가 만들어지면 &#x200B;](assets/new-types-2.png)(으)로 리디렉션됩니다.
+   ![1. 보고서가 만들어지면 ](assets/new-types-2.png)(으)로 리디렉션됩니다.
 
 1. 보고서에 추가하려는 사용자 정의 필드가 필드 레이아웃 속성 섹션에 나타나는지 확인합니다. 추가할 다른 필드가 있으면 &quot;[!UICONTROL Add fields related via lookup]&quot; 옵션을 사용하십시오.
 
-   ![1. &#x200B;](assets/new-types-3.png)에 추가할 사용자 지정 필드를 확인하십시오.
+   ![1. ](assets/new-types-3.png)에 추가할 사용자 지정 필드를 확인하십시오.

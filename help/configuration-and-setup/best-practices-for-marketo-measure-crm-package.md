@@ -1,15 +1,22 @@
 ---
-description: Marketo Measure 사용자를 위한  [!DNL Marketo Measure] CRM 패키지 지침 모범 사례
-title: ' [!DNL Marketo Measure] CRM 패키지 모범 사례'
+description: Marketo Measure 사용자를 위한 [!DNL Marketo Measure] CRM 패키지 지침 모범 사례
+title: '[!DNL Marketo Measure] CRM 패키지에 대한 모범 사례'
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 0%
-
 ---
-
 
 # [!DNL Marketo Measure] CRM 패키지에 대한 모범 사례 {#best-practices-for-marketo-measure-crm-package}
 
@@ -32,9 +39,9 @@ Dashboard Extension Package: 3개의 사전 설치된 대시보드가 포함된 
 [!DNL Marketo Measure] [!DNL Salesforce] 패키지를 구현하고 관리할 때는 다음 모범 사례를 염두에 두십시오.
 
 * 필요한 모든 팀원이 [!DNL Marketo Measure] 보고서 폴더에 액세스할 수 있는지 확인하십시오. 1-3개의 [!DNL Marketo Measure] 폴더가 있어야 합니다(아래에 설명되어 있음). 액세스 권한을 열려면 패키지를 설치한 사람이 보고서 폴더를 적절한 사용자 또는 역할과 공유해야 합니다.
-   * **Buyer Touchpoint 보고서** - 모든 사용자가 사용 가능
-   * **[!DNL Marketo Measure]계정 기반 마케팅 보고서** - 보고서는 계층 2 이상의 고객에게만 채워집니다.
-   * **Buyer Touchpoint 대시보드** - 이 패키지는 선택 사항이지만 모든 사용자가 사용할 수 있습니다.
+  * **Buyer Touchpoint 보고서** - 모든 사용자가 사용 가능
+  * **[!DNL Marketo Measure]계정 기반 마케팅 보고서** - 보고서는 계층 2 이상의 고객에게만 채워집니다.
+  * **Buyer Touchpoint 대시보드** - 이 패키지는 선택 사항이지만 모든 사용자가 사용할 수 있습니다.
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}
 
@@ -53,6 +60,6 @@ CRM 패키지 설정은 초기 구현 중에 포함되지만 1년에 한 번 CRM
 
 >[!MORELIKETHIS]
 > [Buyer Touchpoint 패키지 업데이트](/help/configuration-and-setup/install-set-up.md)
-> [[!DNL Marketo Measure] 권한 집합](/help/configuration-and-setup/marketo-measure-permission-sets.md)
+> [[!DNL Marketo Measure] 사용 권한 집합](/help/configuration-and-setup/marketo-measure-permission-sets.md)
 > [보고서 및 대시보드 폴더 공유](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 > [Salesforce에 Marketo Measure 연결](/help/configuration-and-setup/connect-marketo-measure-to-salesforce.md)

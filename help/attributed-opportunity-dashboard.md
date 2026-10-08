@@ -3,14 +3,18 @@ description: 채널 하위 채널 및 캠페인별로 시간 경과에 따른 �
 title: 속성 영업 기회 대시보드
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
-
 ---
-
 # 속성 영업 기회 대시보드 {#attributed-opportunity-dashboard}
 
 속성 영업 기회 대시보드는 마케팅 노력이 초기 및 성숙 파이프라인 기회 모두에 기여하는 방식에 대한 포괄적인 보기를 제공합니다. 영업 기회 단계별로 필터링할 수 있는 유연성과 함께 전략에 기인한 모든 오픈 및 클로즈된 영업 기회에 대한 세부 정보를 살펴보고, 비공개 거래를 넘어 마케팅의 영향력의 전체 범위를 강조합니다.
@@ -56,7 +60,7 @@ ht-degree: 0%
 
 각 채널 옆의 **+** 아이콘을 클릭하여 하위 채널 및 캠페인별로 분류를 표시합니다.
 
-![각 채널 옆에 있는 + 아이콘을 클릭하여 &#x200B;](assets/attributed-dashboard-1.png) 기준으로 분류를 표시합니다.
+![각 채널 옆에 있는 + 아이콘을 클릭하여 ](assets/attributed-dashboard-1.png) 기준으로 분류를 표시합니다.
 
 #### 트리 보기 {#tree-view}
 
@@ -72,7 +76,7 @@ ht-degree: 0%
 
 * 일자(영업 기회 생성 일자 기준)
 * 속성 모델
-   * 열려 있는 기회의 경우 &#39;전체 경로&#39; 및 &#39;사용자 지정&#39; 속성 모델은 시점 보기를 제공하며 최종 속성 결과를 나타내지 않습니다.
+  * 열려 있는 기회의 경우 &#39;전체 경로&#39; 및 &#39;사용자 지정&#39; 속성 모델은 시점 보기를 제공하며 최종 속성 결과를 나타내지 않습니다.
 * 영업 기회 단계(현재 단계 기반)
 * 채널, 하위 채널
 * Campaign

@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 Campaign 동기화 날짜 지�
 title: Campaign 동기화 날짜
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%
-
 ---
-
 # Campaign 동기화 날짜 {#campaign-sync-dates}
 
 Campaign 동기화 날짜 기능이 수행하는 작업을 알아보고 이 기능에 대한 사용 사례를 제공합니다.
@@ -25,7 +29,7 @@ Campaign 동기화 날짜 기능이 수행하는 작업을 알아보고 이 기�
 * 접점 시작일
 * 접점 종료 날짜
 
-특정 캠페인에서 구매자 터치포인트를 활성화하면 캠페인 동기화 날짜를 사용하여 개별 캠페인에서 터치포인트 날짜 매개 변수를 설정할 수 있습니다. 따라서 터치포인트 종료 날짜를 2017년 3월 1일로 추가하는 경우 [!DNL Marketo Measure]은(는) 해당 날짜 이전에 캠페인에 추가된 캠페인 멤버에만 터치포인트를 만듭니다. [!DNL Marketo Measure] 은 2017년 3월 1일 이후에 추가된 캠페인 멤버에 대한 터치포인트를 만들지 않습니다.
+특정 캠페인에서 구매자 터치포인트를 활성화하면 캠페인 동기화 날짜를 사용하여 개별 캠페인에서 터치포인트 날짜 매개 변수를 설정할 수 있습니다. 따라서 터치포인트 종료 날짜를 2017년 3월 1일로 추가하는 경우 [!DNL Marketo Measure]은(는) 해당 날짜 이전에 캠페인에 추가된 캠페인 멤버에만 터치포인트를 만듭니다. [!DNL Marketo Measure]은(는) 2017년 3월 1일 이후에 추가된 캠페인 멤버에 대한 터치포인트를 만들지 않습니다.
 
 ![구매자 접점이 특정 캠페인에 대해 활성화되면 캠페인 동기화 날짜](assets/legacy-processes-3.gif)
 

@@ -2,14 +2,15 @@
 description: Adobe Marketo Measure 소개
 title: Adobe Marketo Measure란?
 hide: true
-hidefromtoc: true
-source-git-commit: 3f04c21a6990f61000418642713217a490d10f86
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '654'
 ht-degree: 0%
-
 ---
-
 # Adobe Marketo Measure란? {#what-is-adobe-marketo-measure}
 
 Adobe Marketo Measure(이전의 Bizible)는 선도적인 다중 터치 속성 플랫폼입니다.

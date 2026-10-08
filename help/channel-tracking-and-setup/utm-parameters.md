@@ -3,14 +3,18 @@ description: Marketo Measure 사용자를 위한 UTM 매개 변수 지침
 title: UTM 매개 변수
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
-
 ---
-
 # UTM 매개 변수 {#utm-parameters}
 
 URL 태깅은 디지털 마케팅 활동에 대한 데이터를 캡처하는 간단하고 효과적인 방법입니다. 데이터를 수집하고 기록하는 URL 끝에 매개 변수를 추가하는 프로세스입니다. 가장 일반적으로 사용되는 매개 변수는 Google에서 지원하는 UTM(Urchin Tracking Module)입니다. 사용 가능한 UTM 매개 변수는 5가지 주요 UTM 매개 변수인 Medium, Source, 캠페인, 컨텐츠 및 용어입니다. 이에 대해서는 다음 절에서 보다 자세히 논의한다.
@@ -45,7 +49,7 @@ UTM 매개 변수가 작동하는 방식을 이해하기 위해 UTM이 없는 �
 * Source은 트래픽의 소스인 하위 채널을 식별합니다.
 * 그것은 질문에 답합니다: &quot;이 사람은 어디에서 오는가?&quot;
 * 소셜 미디어 예제에서 트래픽의 소스는 사용 중인 소셜 미디어 플랫폼입니다.
-   * 이 예제에서 [!DNL Facebook]은(는) Source 값입니다. Twitter와 Instagram이 다른 예입니다. UTM Medium이 [!DNL Paid Search]이고 UTM Source은 AdWords 또는 BingAds일 수 있습니다.
+  * 이 예제에서 [!DNL Facebook]은(는) Source 값입니다. Twitter와 Instagram이 다른 예입니다. UTM Medium이 [!DNL Paid Search]이고 UTM Source은 AdWords 또는 BingAds일 수 있습니다.
 
 * 이 매개 변수는 SFDC의 [!DNL Marketo Measure] &#39;터치포인트 Source&#39; 필드에 매핑됩니다.
 * _[!DNL Marketo Measure] 모범 사례&#x200B;:_이 매개 변수는 트래픽 소스를 추적하므로 재타겟팅, 스폰서 등과 같은 광고 유형을 나타내는 데 이 매개 변수를 사용하는 것은 적합하지 않습니다. 이 메서드는 상위 수준의 하위 채널을 추적하는 데 가장 적합합니다. 기억하십시오. 여러분은 &quot;내 트래픽이 어디서 오는가?&quot;라는 질문에 답하고 있습니다. 레퍼러를 찾고 있습니다. 이 예에서 UTM Source은 광고가 있는 위치입니다(태그 외부에서 자동으로 추적되므로 실제 웹 페이지가 아님). 드립 이메일 캠페인을 추적하는 경우 드립 이메일이 소스입니다.

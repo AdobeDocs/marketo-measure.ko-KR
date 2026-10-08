@@ -4,25 +4,32 @@ description: LinkedIn 통합 - [!DNL Marketo Measure]
 title: LinkedIn 통합
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-TQID: https://experienceleague.adobe.com/q-asa3ypcHJV5cuXj7IeZfsDoDqy6lQsl9agSLVj-lc
+TQID: 'https://experienceleague.adobe.com/q-asa3ypcHJV5cuXj7IeZfsDoDqy6lQsl9agSLVj-lc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 subfeature_v2:
   - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+    internal-label: Facebook API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 2720
+source-wordcount: '2720'
 ht-degree: 0%
-
 ---
-
 # LinkedIn 통합 {#linkedin-integration}
 
 ## 개요 {#overview}
@@ -308,7 +315,7 @@ Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터�
 
 대상 URL의 끝에 [!DNL Marketo Measure]이(가) `&_bl={creativeId}` 매개 변수를 추가하고 있습니다. 여기서 `{creativeId}`은(는) LinkedIn의 Creative ID입니다. 각 Creative은 하나의 캠페인에 속할 수 있으므로 [!DNL LinkedIn]은(는) 매우 기본적인 광고 구조를 가지고 있으므로 Creative ID를 사용하여 [!DNL Marketo Measure]에서 캠페인 ID를 확인할 수도 있습니다.
 
-**새 버전을 만든 후 이전 창작물에 무슨 일이 발생합니까?**&#x200B;[!DNL Marketo Measure]
+**새 버전을 만든 후 이전 창작물에 무슨 일이 발생합니까?**[!DNL Marketo Measure]
 
 [!DNL Marketo Measure]이(가) 공유를 다시 만들어 새 Creative에 배치하면 이전 Creative이 보관됩니다. [!DNL Marketo Measure]이(가) 보관된 캠페인이나 광고 활동에 태그를 지정하지 않는 이유이기도 합니다. 그렇지 않으면 [!DNL Marketo Measure]이(가) 무기한 태그를 지정하려고 하면서 반복됩니다.
 

@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874519
-description: Lightbox Forms에  [!DNL Marketo Measure] 스크립트 추가 - [!DNL Marketo Measure]
-title: Lightbox Forms에  [!DNL Marketo Measure] 스크립트 추가 중
+description: Lightbox Forms에 [!DNL Marketo Measure] 스크립트 추가 - [!DNL Marketo Measure]
+title: Lightbox Forms에 [!DNL Marketo Measure] 스크립트 추가 중
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-TQID: https://experienceleague.adobe.com/FGsXJ6c98YinAH4rgzfySe0wNCkHb5AWH1KcZ6whnjA
+TQID: 'https://experienceleague.adobe.com/FGsXJ6c98YinAH4rgzfySe0wNCkHb5AWH1KcZ6whnjA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: '189'
 ht-degree: 0%
-
 ---
-
 # Lightbox Forms에 [!DNL Marketo Measure] 스크립트 추가 중 {#adding-marketo-measure-script-to-lightbox-forms}
 
 Lightbox 내의 양식에 [!DNL Marketo Measure] JavaScript을 올바르게 추가하는 방법을 알아봅니다.

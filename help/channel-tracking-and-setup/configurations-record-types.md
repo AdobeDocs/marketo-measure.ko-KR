@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 여러 Campaign 레코드 유�
 title: 여러 캠페인 레코드 유형에 대한 구성
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 2%
-
 ---
-
 # 여러 캠페인 레코드 유형에 대한 구성 {#configurations-for-multiple-campaign-record-types}
 
 **구매자 접점 사용 필드에 선택 목록 값이 없음**
@@ -26,10 +30,10 @@ SFDC 조직에서 여러 캠페인 레코드 유형을 사용하는 경우 각 �
 
 1. 여기에서 해당 레코드 유형에 사용할 수 있는 선택 목록이 표시됩니다. &quot;구매자 접점 사용&quot; 필드 옆에 있는 **[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
-   ![1. &#x200B;](assets/offline-channels-18.jpg)에 사용할 수 있는 선택 목록이 있는 화면이 표시됩니다.
+   ![1. ](assets/offline-channels-18.jpg)에 사용할 수 있는 선택 목록이 있는 화면이 표시됩니다.
 
 1. &quot;사용 가능한 값&quot; 그룹화의 세 값을 모두 &quot;선택된 값&quot; 그룹화에 추가합니다.
 
-   ![1. &quot;사용 가능한 값&quot; 그룹화의 세 값을 모두 &#x200B;](assets/offline-channels-10.jpg)에 추가합니다.
+   ![1. &quot;사용 가능한 값&quot; 그룹화의 세 값을 모두 ](assets/offline-channels-10.jpg)에 추가합니다.
 
 1. 기본값을 &quot;없음&quot;으로 설정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 추가 캠페인 레코드 유형에 대해 이 작업을 반복합니다.

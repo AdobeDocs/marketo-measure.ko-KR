@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874771
-description: 데이터 로더를 사용하여  [!DNL Marketo Measure] 사용자 지정 금액 필드 - [!DNL Marketo Measure] 업데이트
+description: 데이터 로더를 사용하여 [!DNL Marketo Measure] 사용자 지정 금액 필드 업데이트 - [!DNL Marketo Measure]
 title: 데이터 로더를 사용하여 Marketo Measure 사용자 정의 금액 필드 업데이트
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-TQID: https://experienceleague.adobe.com/5guAGWeWMxJPm-vj8DYyHz2onjh3ERfzKtLcXNr0MM0
+TQID: 'https://experienceleague.adobe.com/5guAGWeWMxJPm-vj8DYyHz2onjh3ERfzKtLcXNr0MM0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '192'
 ht-degree: 0%
-
 ---
-
 # 데이터 로더를 사용하여 [!DNL Marketo Measure] 사용자 정의 금액 필드 업데이트 {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
 [!DNL Marketo Measure]에서는 [!DNL Marketo Measure]에서 사용자 지정 매출 필드(기본 금액 필드 사용)를 사용할 때 영업 기회 값을 업데이트할 수 있는 편리한 옵션으로 [데이터 로더]를 사용하는 것이 좋습니다. 스크립트는 사용자가 [!DNL Marketo Measure] 스크립트가 실행되는 동안 모든 Salesforce 유효성 검사 규칙을 비활성화해야 하므로 [!DNL Marketo Measure] 업데이트 스크립트를 사용하는 것보다 데이터 로더를 사용하는 것이 좋습니다.

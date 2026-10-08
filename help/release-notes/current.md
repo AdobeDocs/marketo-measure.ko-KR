@@ -1,24 +1,31 @@
 ---
-description: 현재 릴리스 정보 - [!DNL Marketo Measure]
+description: 최신 릴리스 정보 - [!DNL Marketo Measure]
 title: 최신 릴리스 정보
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-TQID: https://experienceleague.adobe.com/WCmnCEZ-aUK4OODKYLymgD8-Ohb6k-AIcJMVrBHMm2Y
+TQID: 'https://experienceleague.adobe.com/WCmnCEZ-aUK4OODKYLymgD8-Ohb6k-AIcJMVrBHMm2Y'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: ffecc0ee-70f2-5687-bca0-deee982ffbfa
+    internal-label: Release Notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: '1464'
 ht-degree: 0%
-
 ---
-
 # 릴리스 노트: 2024 {#release-notes-2024}
 
 2024 릴리스의 모든 새로운 기능 및 업데이트된 기능은 아래를 참조하십시오.
@@ -33,13 +40,13 @@ ht-degree: 0%
 
 신규 고객의 경우 이제 세션 채널 이월이 기본 동작입니다. 기존 고객은 설정 > 모든 터치 속성에서 세션 채널 이월 토글을 켜서 이 기능을 활성화할 수 있습니다. 활성화되면 이 설정을 취소할 수 없습니다.
 
-설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+설명서: [Marketo Measure 웹 세션의 정의](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### 키워드 ROI 대시보드
 
 새로운 키워드 ROI 대시보드는 유료 검색 캠페인의 성과에 대한 자세한 통찰력을 제공하며 키워드 수준의 비용, 속성 수익, 생성된 리드 및 기회에 대한 포괄적인 보기를 제공합니다. 이 대시보드는 Google Adwords, LinkedIn 및 Bing Ads 등에서 각 키워드의 ROI를 평가하는 데 도움이 됩니다.
 
-설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/ko/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+설명서: [키워드 ROI 대시보드](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### 향상된 세그먼트 규칙
 

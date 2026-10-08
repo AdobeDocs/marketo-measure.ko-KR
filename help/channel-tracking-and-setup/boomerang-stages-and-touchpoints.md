@@ -3,13 +3,19 @@ description: Marketo Measure 사용자를 위한 부메랑 단계 및 터치포�
 title: 부메랑 스테이지 및 터치포인트
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
-
 ---
-
 # 부메랑 스테이지 및 터치포인트 {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]
@@ -59,7 +65,7 @@ MQL-02 **(마지막)**
 
 **&quot;equals [Touchpoint Position]&quot;을(를) 사용하는 모든 보고서**
 
-* 부메랑 단계에서는 데이터에 새로운 터치포인트 위치를 도입합니다. [!DNL Marketo Measure] 은(는) &quot;MQL-01&quot; 또는 &quot;MQL-05(마지막)&quot;와 같은 단계의 발생을 포함하도록 터치포인트 위치의 형식을 변경합니다. 이 예를 사용하면 부메랑 단계는 &quot;터치포인트 위치가 MQL과 같음&quot;을 사용하는 모든 보고서에 영향을 줍니다. 이러한 보고서를 조정하려면 필터가 대신 &quot;포함&quot; 연산자를 사용해야 합니다.
+* 부메랑 단계에서는 데이터에 새로운 터치포인트 위치를 도입합니다. [!DNL Marketo Measure]이(가) &quot;MQL-01&quot; 또는 &quot;MQL-05(마지막)&quot;와 같은 단계의 발생을 포함하도록 터치포인트 위치의 형식을 변경하고 있습니다. 이 예를 사용하면 부메랑 단계는 &quot;터치포인트 위치가 MQL과 같음&quot;을 사용하는 모든 보고서에 영향을 줍니다. 이러한 보고서를 조정하려면 필터가 대신 &quot;포함&quot; 연산자를 사용해야 합니다.
 
 ## FAQ {#faq}
 

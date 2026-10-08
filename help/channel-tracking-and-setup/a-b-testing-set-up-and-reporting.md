@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 A/B 테스트 설정 및 보고
 title: A/B 테스트 설정 및 보고
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 2%
-
 ---
-
 # A/B 테스트 설정 및 보고 {#a-b-testing-set-up-and-reporting}
 
 [!DNL Marketo Measure] A/B 테스트 통합을 통해 [최적](https://www.optimizely.com/){target="_blank"} 및 VWO 사이트 실험의 매출 영향을 추적할 수 있습니다. 이 문서에서는 리드, [!UICONTROL Contact], 사례 및 [!UICONTROL Opportunity] 페이지 레이아웃에 [!DNL Marketo Measure] A/B 테스트 섹션을 추가하는 방법에 대한 지침을 제공합니다. 또한 [!DNL Marketo Measure] A/B 보고서 유형을 실행하기 위한 일반적인 보고 사례 및 권장 사항도 다룹니다.
@@ -21,11 +25,11 @@ ht-degree: 2%
 1. 패키지 [!DNL Marketo Measure] v3.9 이상을 사용 중인지 확인하십시오. [!UICONTROL Salesforce] >[!UICONTROL Set Up] > [!UICONTROL Installed packages]&#x200B;(으)로 이동하여 이 작업을 수행할 수 있습니다.
 1. 리드 페이지 레이아웃을 편집하고 **[!DNL Marketo Measure]A/B 테스트** 관련 목록을 페이지에 추가하십시오.
 
-   ![1. 리드 페이지 레이아웃을 편집하고 Marketo Measure &#x200B;](assets/advanced-features-2.png) 추가
+   ![1. 리드 페이지 레이아웃을 편집하고 Marketo Measure ](assets/advanced-features-2.png) 추가
 
 1. [!UICONTROL Wrench] 단추를 클릭합니다. 선택한 필드 목록에서 스톡 &quot;ID&quot; 필드를 제거합니다. **[!UICONTROL Experiment]**, **[!UICONTROL Variation]** 및 **[!UICONTROL DateReported]** 필드를 추가합니다. &quot;[!UICONTROL Sort by]&quot;을(를) **[!UICONTROL Date Reported]**(으)로 변경하고 드롭다운에서 **[!UICONTROL Descending]**&#x200B;을(를) 선택합니다.
 
-   ![1. 렌치 버튼을 클릭합니다. &#x200B;](assets/advanced-features-3.png)에서 Stock &quot;ID&quot; 필드 제거
+   ![1. 렌치 버튼을 클릭합니다. ](assets/advanced-features-3.png)에서 Stock &quot;ID&quot; 필드 제거
 
 1. [!UICONTROL Buttons]에서 **[!UICONTROL New]** 선택을 취소합니다.
 

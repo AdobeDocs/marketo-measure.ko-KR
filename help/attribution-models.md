@@ -3,13 +3,17 @@ description: Marketo Measure 속성 모델
 title: Marketo Measure 속성 모델
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '841'
 ht-degree: 0%
-
 ---
-
 
 # Marketo Measure 속성 모델 {#marketo-measure-attribution-models}
 
@@ -31,7 +35,7 @@ Marketo Measure에서는 6가지 유형의 속성 모델을 제공합니다.
 
 ![비공개 거래(CW)](assets/overview-resources-8.png)
 
-**단일 터치 모델**&#x200B;에서 속성 크레딧은 하나의 마일스톤 접점에만 기여하므로 이름이 &#39;단일 터치&#39;입니다.
+**단일 터치 모델**에서 속성 크레딧은 하나의 마일스톤 접점에만 기여하므로 이름이 &#39;단일 터치&#39;입니다.
 **다중 터치 모델**&#x200B;에서 대부분의 속성 크레딧이 둘 이상의 마일스톤 접점에 할당됩니다. 나머지 크레딧은 이정표 접점 사이에 발생하는 접점에 기인합니다.
 
 다음 몇 섹션에서는 각 속성 모델과 속성 크레딧이 할당되는 방법을 다룹니다.
@@ -52,7 +56,7 @@ Kate가 Adwords 광고를 통해 `www.adobe.com`을(를) 처음 방문하고 백
 
 이전 예제를 계속 진행하여 Adwords를 통해 Kate가 `www.adobe.com`을(를) 처음 방문한 후 Austin은 Linkedin 게시물을 통해 웹 사이트를 방문합니다. Austin은 양식을 작성하고 단서가 됩니다. 이 모델에서 Linkedin은 속성 크레딧의 100%를 받습니다.
 
-![Kate가 www.adobe.com을 처음 방문한 후 &#x200B;](assets/overview-resources-10.png)을(를) 통해 이전 예제를 계속 진행합니다.
+![Kate가 www.adobe.com을 처음 방문한 후 ](assets/overview-resources-10.png)을(를) 통해 이전 예제를 계속 진행합니다.
 
 ## 멀티 터치 모델 {#multi-touch-models}
 

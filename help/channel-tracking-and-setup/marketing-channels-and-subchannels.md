@@ -3,14 +3,18 @@ description: Marketo Measure 사용자를 위한 마케팅 채널 및 하위 채
 title: 마케팅 채널 및 하위 채널
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
-
 ---
-
 # 마케팅 채널 및 하위 채널 {#marketing-channels-and-subchannels}
 
 ## 용도 {#purpose}
@@ -19,7 +23,7 @@ ht-degree: 2%
 
 ## 개요 {#overview}
 
-마케팅 채널은 [!DNL Marketo Measure] ROI 대시 및 CRM에서 쉽게 보고할 수 있도록 마케팅 활동을 분류(또는 &quot;버킷&quot;)하는 데 사용됩니다. [!DNL Marketo Measure] 에는 12개의 기본 제공 채널(조직의 규칙에 맞게 사용자 지정/이름 변경할 수 있음)과 함께 제공되며, 보다 세분화된 필터링을 위해 사용자 지정 채널을 추가로 만들 수 있는 기능도 있습니다.
+마케팅 채널은 [!DNL Marketo Measure] ROI 대시와 CRM에서 쉽게 보고할 수 있도록 마케팅 활동을 분류(또는 &quot;버킷&quot;)하는 데 사용됩니다. [!DNL Marketo Measure]에는 12개의 기본 채널이 포함되어 있으며(조직의 규칙에 맞게 사용자 지정/이름 변경을 수행할 수 있음), 더 세분화된 필터링을 위해 사용자 지정 채널을 추가로 만들 수도 있습니다.
 
 사이트에서 컨텐츠 페이지(해당 컨텐츠가 웹 페이지, 백서 다운로드, 페이지 URL 등이든)에 대한 방문자를 받을 때마다 리드는 URL에 있는 여러 UTM 매개 변수를 기반으로 채널/하위 채널에 &quot;그룹화됩니다.
 
@@ -45,11 +49,11 @@ UTM 매개 변수를 기반으로 리드가 포함될 &quot;버킷&quot;을 사�
 
 아래 다이어그램은 다음 URL을 사용하는 웹 페이지를 기반으로 하는 마케팅 채널, 하위 채널 및 컨텐츠의 예를 보여 줍니다.
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
-이 경우 사용자가 액세스하려는 콘텐츠는 B2B 마케팅 속성에 대한 소개 안내서입니다. [!DNL Marketo Measure] 은(는) 이 조직에 설정된 채널 규칙을 사용하여 이 컨텐츠로 이어지는 URL을 분석하고 이를 사용하여 마케팅 채널 &quot;유료 소셜&quot; 및 하위 채널 &quot;LinkedIn&quot;으로 이어지는 &quot;버킷&quot;을 만듭니다.
+이 경우 사용자가 액세스하려는 콘텐츠는 B2B 마케팅 속성에 대한 소개 안내서입니다. [!DNL Marketo Measure]은(는) 이 조직에 설정된 채널 규칙을 사용하여 이 콘텐츠로 이어지는 URL을 분석하고 이를 사용하여 마케팅 채널 &quot;유료 소셜&quot; 및 하위 채널 &quot;LinkedIn&quot;으로 이어지는 &quot;버킷&quot;을 만듭니다.
 
-![이 경우 사용자가 액세스하려는 콘텐츠는 &#x200B;](assets/online-channels-1.png)입니다.
+![이 경우 사용자가 액세스하려는 콘텐츠는 ](assets/online-channels-1.png)입니다.
 
 추가 예...
 

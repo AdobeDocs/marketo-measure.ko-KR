@@ -1,23 +1,31 @@
 ---
 unique-page-id: 18874791
-description: ' [!DNL Marketo Measure] 지원 - [!DNL Marketo Measure]에 대한  [!DNL Salesforce] 액세스 권한 부여'
-title: Marketo Measure 지원에 대한  [!DNL Salesforce] 액세스 권한 부여
+description: '[!DNL Marketo Measure] 지원에 대한 [!DNL Salesforce] 액세스 권한 부여 - [!DNL Marketo Measure]'
+title: Marketo Measure 지원에 대한 [!DNL Salesforce] 액세스 권한 부여
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/tdDicEb3UhCWF4-EUIbkc-zLK4z7ho8iccmiSgaVfzk
+TQID: 'https://experienceleague.adobe.com/tdDicEb3UhCWF4-EUIbkc-zLK4z7ho8iccmiSgaVfzk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: '162'
 ht-degree: 2%
-
 ---
-
 # Marketo Measure 지원에 대한 [!DNL Salesforce] 액세스 권한 부여 {#granting-salesforce-access-to-marketo-measure-support}
 
 경우에 따라 [!DNL Marketo Measure] 지원에서 구현 중에 진단 문제 해결 또는 Salesforce 구성을 지원하기 위해 [!DNL Salesforce] 환경에 대한 액세스를 요청할 수 있습니다.

@@ -1,22 +1,29 @@
 ---
 unique-page-id: 37357059
-description: Dynamics CRM용  [!DNL Azure Active Directory] 이(가) 있는 OAuth - [!DNL Marketo Measure]
-title: Dynamics CRM용  [!DNL Azure Active Directory] 이(가) 있는 OAuth
+description: Dynamics CRM용 [!DNL Azure Active Directory]이(가) 포함된 OAuth - [!DNL Marketo Measure]
+title: Dynamics CRM용 [!DNL Azure Active Directory]이(가) 있는 OAuth
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-TQID: https://experienceleague.adobe.com/fwFE85VMaQdXhF-w28PofUHxOLR39lb60zLMzEo2GnM
+TQID: 'https://experienceleague.adobe.com/fwFE85VMaQdXhF-w28PofUHxOLR39lb60zLMzEo2GnM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Taxonomy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '771'
 ht-degree: 0%
-
 ---
-
 # Dynamics CRM용 [!DNL Azure Active Directory]이(가) 있는 OAuth {#oauth-with-azure-active-directory-for-dynamics-crm}
 
 ## 영향을 받는 사용자 {#who-s-affected}
@@ -50,7 +57,7 @@ ht-degree: 0%
 1. 프롬프트에 따라 응용 프로그램을 만듭니다. 웹 응용 프로그램이든 공용 클라이언트(모바일 및 데스크톱) 응용 프로그램이든 상관없지만 웹 응용 프로그램이나 공용 클라이언트 응용 프로그램에 대한 특정 예제를 보려면 [빠른 시작](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview)을 확인하십시오.\
    a. 이름 은 애플리케이션 이름이며 최종 사용자에게 애플리케이션에 대해 설명합니다.\
    b. 지원되는 계정 유형에서 조직 디렉터리 및 개인 Microsoft 계정의 계정을 선택합니다.\
-   c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용자가 로그인할 수 있는 앱의 기본 URL입니다. 예: `http://localhost:12345`. 공개 클라이언트(모바일 및 데스크탑)의 경우 Azure AD는 토큰 응답을 반환하는 데 이 토큰을 사용합니다. 응용 프로그램에 해당하는 값을 입력합니다. 예: `http://MyFirstAADApp`.
+   c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용자가 로그인할 수 있는 앱의 기본 URL입니다. 예, `http://localhost:12345`. 공개 클라이언트(모바일 및 데스크탑)의 경우 Azure AD는 토큰 응답을 반환하는 데 이 토큰을 사용합니다. 응용 프로그램에 해당하는 값을 입력합니다. 예: `http://MyFirstAADApp`.
 
 1. 등록을 완료하면 Azure AD는 애플리케이션에 고유한 클라이언트 식별자(애플리케이션 ID)를 할당합니다. 다음 섹션에서 이 값이 필요하므로 애플리케이션 페이지에서 이 값을 복사합니다.
 
@@ -78,7 +85,7 @@ ht-degree: 0%
 
    ![](assets/setup-13a.png)
 
-1. **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Accept]**&#x200B;를 클릭합니다.
 
    ![](assets/setup-13b.png)
 

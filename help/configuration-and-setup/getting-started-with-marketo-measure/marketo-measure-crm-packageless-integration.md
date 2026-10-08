@@ -4,20 +4,25 @@ description: '[!DNL Marketo Measure] CRM 패키지 없는 통합 - [!DNL Marketo
 title: '[!DNL Marketo Measure] CRM 패키지 없는 통합'
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
-TQID: https://experienceleague.adobe.com/j6O5OYfDAcSSTe9JWDODFN7kbXYjOxwPNL3uU5dSDHI
+TQID: 'https://experienceleague.adobe.com/j6O5OYfDAcSSTe9JWDODFN7kbXYjOxwPNL3uU5dSDHI'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '311'
 ht-degree: 2%
-
 ---
-
 # [!DNL Marketo Measure] CRM 패키지 없는 통합 {#marketo-measure-crm-packageless-integration}
 
 제한된 액세스, CRM 소유권, 가치 창출 시간 연장 또는 법적 영향 등 모든 마케팅 팀이 CRM에서 마케팅 보고를 실행하고자 하거나 액세스 권한이 있는 것은 아닙니다. [!DNL Marketo Measure] 빠른 시작의 경로를 계속 진행하면 가능한 한 CRM에 거의 의존하지 않고 [!DNL Marketo Measure]을(를) 효과적으로 구현하고 실행할 수 있습니다.

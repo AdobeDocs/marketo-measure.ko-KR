@@ -4,18 +4,21 @@ description: 사용자 지정 캠페인 동기화 - [!DNL Marketo Measure]
 title: 사용자 지정 캠페인 동기화
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-TQID: https://experienceleague.adobe.com/Sjq6LW7276xADXbs8qEZc-J2spPrhDwPIGLP7-MsePk
+TQID: 'https://experienceleague.adobe.com/Sjq6LW7276xADXbs8qEZc-J2spPrhDwPIGLP7-MsePk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: '650'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 캠페인 동기화 {#custom-campaign-sync}
 
 오늘 설치된 [!DNL Marketo Measure] 패키지를 통해 적격 접점으로 포함할 캠페인을 표시할 수 있습니다. 여기에는 이전에 존재했던 것처럼 여러 가지 장애물이 있다. [!DNL Marketo Measure] 패키지가 CRM에 설치되면 보안 팀에서 승인하는 데 시간이 걸릴 수 있습니다. 또한 Campaign 개체에서 단일 선택 목록을 사용할 때 유연성이 부족합니다. 이 새로운 기능을 사용하면 Campaign 및 캠페인 멤버 레코드를 사용하기 시작할 때 패키지를 설치할 필요가 없습니다. 규칙을 작성하여 적격한 레코드를 정확히 정의하기 위해 작성할 수 있는 레코드를 정확하게 정의할 수 있습니다.

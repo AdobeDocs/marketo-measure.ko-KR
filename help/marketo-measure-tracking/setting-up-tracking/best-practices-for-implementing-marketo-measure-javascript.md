@@ -1,21 +1,25 @@
 ---
-description: 구현 모범 사례 [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
-title: ' [!DNL Marketo Measure] JavaScript 구현을 위한 모범 사례'
+description: '[!DNL Marketo Measure] JavaScript 구현 모범 사례 - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] JavaScript 구현을 위한 모범 사례'
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-TQID: https://experienceleague.adobe.com/Hr98nEk-MyqnwmS4piEFxfFKUEyEaZwcNH-OuTxFzE8
+TQID: 'https://experienceleague.adobe.com/Hr98nEk-MyqnwmS4piEFxfFKUEyEaZwcNH-OuTxFzE8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 370
+source-wordcount: '372'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] JavaScript 구현을 위한 모범 사례 {#best-practices-for-implementing-marketo-measure-javascript}
 
 ## 개요 {#overview}
@@ -36,16 +40,16 @@ ht-degree: 0%
 [!DNL Marketo Measure] JavaScript을 구현하고 관리하는 방법은 다음 모범 사례를 참고하십시오.
 
 * 모든 도메인이 [!DNL Marketo Measure] 계정에 나열되는지 확인
-   * 도메인과 관련하여 문제가 있는 경우 지원 센터에 문의하십시오.
+  * 도메인과 관련하여 문제가 있는 경우 지원 센터에 문의하십시오.
 * 모든 페이지에 JavaScript을 배포합니다.
-   * 특정 페이지에만 JavaScript을 배치하면 세션 데이터가 중단되어 [!DNL Marketo Measure] 데이터가 올바르지 않게 됩니다.
+  * 특정 페이지에만 JavaScript을 배치하면 세션 데이터가 중단되어 [!DNL Marketo Measure] 데이터가 올바르지 않게 됩니다.
 * 사이트에서 터치포인트를 만들지 않으려는 양식의 경우 [!DNL Marketo Measure] 제외 스크립트를 추가해야 합니다
-   * 이 제외 스크립트는 [!DNL Marketo Measure] 세션 데이터가 중단되지 않고 원본 데이터가 그대로 유지되도록 합니다
-      * 제외할 일반적인 양식의 예는 다음과 같습니다.
-         * 고객 로그인
-         * 암호 찾기 양식
-         * 양식 구독 취소
-         * 경력 지원 양식
+  * 이 제외 스크립트는 [!DNL Marketo Measure] 세션 데이터가 중단되지 않고 원본 데이터가 그대로 유지되도록 합니다
+    * 제외할 일반적인 양식의 예는 다음과 같습니다.
+      * 고객 로그인
+      * 암호 찾기 양식
+      * 양식 구독 취소
+      * 경력 지원 양식
 * 아래 나열된 [!DNL Marketo Measure] 스크립트 리소스 추가 섹션의 &quot;추가 고려 사항&quot; 및 &quot;특별히 주의할 Forms&quot; 섹션을 검토하여 특별한 처리가 필요할 수 있는 시나리오를 확인하십시오
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}

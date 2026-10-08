@@ -3,14 +3,18 @@ description: 방문 방문자 페이지 보기 수 양식 및 시간 경과에 �
 title: 웹 트래픽 대시보드
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 2%
-
 ---
-
 # 웹 트래픽 대시보드 {#web-traffic-dashboard}
 
 웹 트래픽 대시보드는 사이트 방문자의 상호 작용을 종합적으로 보여 줍니다. 특정 양식 URL 또는 랜딩 페이지에서 URL당 고유 방문자 수, 전체 방문, 페이지 보기 및 양식 제출과 같은 지표를 살펴봅니다. 월별 트래픽 트렌드를 모니터링하고 성과가 좋은 유료 미디어를 식별하여 최적의 수익 생성을 위한 전략을 구체화할 수 있습니다.
@@ -89,7 +93,7 @@ ht-degree: 2%
 * 어떤 채널/하위 채널/캠페인이 가장 많은 방문 횟수 또는 고유 방문자를 유도합니까?
 * 특정 채널/부채널/캠페인 내의 총 방문 수에 대한 고유 방문자 수는 어떻게 됩니까?
 
-![고유 방문자 수를 &#x200B;](assets/web-dashboard-4.png) 내의 총 방문 횟수와 어떻게 비교합니까?
+![고유 방문자 수를 ](assets/web-dashboard-4.png) 내의 총 방문 횟수와 어떻게 비교합니까?
 
 ## 필터 창 {#filter-pane}
 

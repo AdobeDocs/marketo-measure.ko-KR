@@ -3,13 +3,21 @@ description: Marketo Measure 사용자를 위한 구매자 속성 터치포인�
 title: 구매자 속성 터치포인트가 있거나 없는 기회 보고
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 3%
-
+ht-degree: 4%
 ---
-
 # 구매자 속성 터치포인트가 있거나 없는 기회 보고 {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
 
 >[!NOTE]
@@ -32,7 +40,7 @@ ht-degree: 3%
    * 보고서 유형 이름에 동일한 이름을 사용합니다. 설명 입력 내에서 &quot;구매자 속성 터치포인트가 있거나 없는 기회&quot;가 표시됩니다.
    * 보고서를 &quot;[!UICONTROL Other]&quot; 내에 저장하고 &quot;[!UICONTROL Deployed]&quot;(으)로 설정하십시오.
 
-   ![보고서를 &quot;기타&quot; 내에 저장하고 &#x200B;](assets/bizible-guide-3.png)(으)로 설정합니다.
+   ![보고서를 &quot;기타&quot; 내에 저장하고 ](assets/bizible-guide-3.png)(으)로 설정합니다.
 
 1. 거기에서 기회 객체를 구매자 속성 터치포인트 객체에 연결합니다. &quot;&#39;A&#39; 레코드 관련 &#39;B&#39; 레코드가 있을 수도 있고 없을 수도 있습니다.&quot; 버튼을 선택해야 합니다. 완료되면 **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
@@ -40,4 +48,4 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 자습서: 추가 SFDC 보고서](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] 자습서: 추가 SFDC 보고서](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

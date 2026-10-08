@@ -4,21 +4,25 @@ description: 통합 광고 플랫폼 - [!DNL Marketo Measure]
 title: 통합 광고 플랫폼
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-TQID: https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0
+TQID: 'https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1763
+source-wordcount: '1763'
 ht-degree: 0%
-
 ---
-
 # 통합 광고 플랫폼 {#integrated-ad-platforms}
 
 [!DNL Marketo Measure]은(는) Google AdWords, Microsoft BingAds, [!DNL Facebook] 광고 및 DoubleClick Campaign Manager와 API 연결을 가지고 있습니다. [!DNL Marketo Measure]은(는) 이러한 API 연결을 통해 데이터를 쉽게 가져와서 외부 구매자 앱과 함께 CRM에 푸시할 수 있습니다. 비용이나 데이터를 수동으로 업로드할 필요가 없습니다. 대신 계정을 [!DNL Marketo Measure] 앱에 연결하고 인증하면 됩니다. 그러면 [!DNL Marketo Measure]이(가) 플랫폼에서 마케팅 비용을 자동으로 다운로드하고 [!DNL Marketo Measure] 앱에 로드합니다. AdWords, BingAds 또는 [!DNL Facebook] 광고에 대해 자동 태그 지정을 활성화하도록 선택하면 [!DNL Marketo Measure]에서 해당 매개 변수를 자동으로 광고의 URL에 추가합니다.
@@ -53,8 +57,8 @@ ht-degree: 0%
 * *옵션 B*: 서드파티 리디렉션을 찾았습니다. 추적 템플릿에 타사 리디렉션이 있으면 [!DNL Marketo Measure]에서 작업을 수행할 수 없습니다. [!DNL Marketo Measure] 태그를 타사 시스템에 수동으로 추가해야 합니다. 서드파티 리디렉션의 예로는 Kenshoo 또는 Marin과 같은 입찰 관리 도구가 있습니다. [입찰 관리 도구의 영향 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}에 대해 자세히 알아보세요.
 
 * *옵션 C*: 추적 템플릿을 찾을 수 없습니다. [!DNL Marketo Measure]에서 [!DNL Marketo Measure] 매개 변수에 대한 모든 광고 대상 URL을 검사합니다. 검사를 기준으로, 다음과 같은 경우
-   * 매개 변수를 찾았습니다. 설정이 완료되었습니다.
-   * 매개 변수를 찾을 수 없습니다. [!DNL Marketo Measure]은(는) 광고 대상 URL 끝에 매개 변수를 추가합니다. [!DNL Marketo Measure]은(는) 새 광고를 만든 후 2시간 이내에 추가합니다. 매개 변수는 템플릿에 추가되지 않습니다.
+  * 매개 변수를 찾았습니다. 설정이 완료되었습니다.
+  * 매개 변수를 찾을 수 없습니다. [!DNL Marketo Measure]은(는) 광고 대상 URL 끝에 매개 변수를 추가합니다. [!DNL Marketo Measure]은(는) 새 광고를 만든 후 2시간 이내에 추가합니다. 매개 변수는 템플릿에 추가되지 않습니다.
 
 [[!DNL AdWords] 자동 태그 지정 기능](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}에 대해 자세히 알아보세요.
 

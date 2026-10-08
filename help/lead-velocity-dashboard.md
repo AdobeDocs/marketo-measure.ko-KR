@@ -3,13 +3,17 @@ description: 각 funnel 단계의 시간을 측정하고, 시간에 따른 채�
 title: 리드 속도 대시보드
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
-
 ---
-
 # 리드 속도 대시보드 {#lead-velocity-dashboard}
 
 Velocity 대시보드는 잠재 고객이 판매 funnel을 통해 이동하는 속도에 대한 동적 보기를 제공하여 마케터와 영업 팀이 다양한 채널에서 전환 시간에 대한 중요한 통찰력을 얻을 수 있습니다. 이 도구는 잠재 고객 전환 기간 및 판매 단계 진행 효율성에 대한 주요 질문에 답하는 데 유용하며, 이를 통해 성장 및 전환 가속화를 위한 참여 전략을 최적화할 수 있습니다.
@@ -32,7 +36,7 @@ Velocity 대시보드는 잠재 고객이 판매 funnel을 통해 이동하는 �
 * 일반적으로 잠재 고객/연락처의 지속 시간이 가장 긴 판매 단계는 무엇입니까?
 * 첫 번째 터치 단계에서 보낸 시간은 &#39;MQL&#39; 단계와 어떻게 비교됩니까?
 
-![첫 번째 터치 단계에서 사용한 시간과 &#x200B;](assets/lead-dashboard-1.png)의 비교
+![첫 번째 터치 단계에서 사용한 시간과 ](assets/lead-dashboard-1.png)의 비교
 
 ### 시간 경과에 따른 리드/연락처 속도 {#lead-contact-velocity-over-time}
 
@@ -66,7 +70,7 @@ Velocity 대시보드는 잠재 고객이 판매 funnel을 통해 이동하는 �
 이 대시보드에는 다음 설정 및 필터가 포함되어 있습니다.
 
 * 일자
-   * 기준: 날짜 전환
+  * 기준: 날짜 전환
 * 단계
 * 채널
 * 부채널

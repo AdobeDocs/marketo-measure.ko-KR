@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874783
-description: 특정 Forms에서  [!DNL Marketo Measure] 제외 - [!DNL Marketo Measure]
-title: 특정 Forms에서  [!DNL Marketo Measure] 개 제외
+description: 특정 Forms에서 [!DNL Marketo Measure] 제외 - [!DNL Marketo Measure]
+title: 특정 Forms에서 [!DNL Marketo Measure] 제외
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-TQID: https://experienceleague.adobe.com/RtGjsV86NEJPvUpFGnthwVGsQVpX0LqMQdC2xBSFwZc
+TQID: 'https://experienceleague.adobe.com/RtGjsV86NEJPvUpFGnthwVGsQVpX0LqMQdC2xBSFwZc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 93
+source-wordcount: '95'
 ht-degree: 0%
-
 ---
-
 # 특정 Forms에서 [!DNL Marketo Measure] 제외 {#excluding-marketo-measure-from-specific-forms}
 
 기본적으로 [!DNL Marketo Measure]은(는) 사이트의 모든 양식에 연결됩니다. 그러나 모든 양식 제출을 반드시 추적하거나 속성 모델에 포함해야 하는 것은 아닙니다. 모든 양식 채우기가 &#39;양호&#39;로 여겨지는 것은 아니기 때문이다. 예를 들면 구독 취소 페이지/양식이 있습니다. 또한 기여도 분석 모델을 희석하므로 로그인 양식은 일반적으로 추적되지 않습니다.

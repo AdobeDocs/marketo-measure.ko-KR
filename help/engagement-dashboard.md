@@ -3,13 +3,17 @@ description: 사람들이 터치한 터치포인트와 채널별 참여를 추�
 title: 참여 대시보드
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 
 # 참여 대시보드 {#engagement-dashboard}
 
@@ -37,7 +41,7 @@ BT 또는 BAT만 사용하여 참여를 측정하면 참여가 기여도 분석�
 ### KPI 타일 {#kpi-tiles}
 
 * 접점: 생성된 총 원시 접점 수입니다.
-   * 구매자 접점 및 구매자 속성 접점은 크레딧에 대한 특정 접점을 선택하여 생성되는 속성 결과입니다. 모든 터치포인트가 BT 및 BAT로 선택되는 것은 아닙니다.
+  * 구매자 접점 및 구매자 속성 접점은 크레딧에 대한 특정 접점을 선택하여 생성되는 속성 결과입니다. 모든 터치포인트가 BT 및 BAT로 선택되는 것은 아닙니다.
 * 터치한 사람: 터치포인트가 있는 총 사람 수입니다.
 * 사람당 터치포인트: 터치한 사람당 평균 터치포인트 수
 
@@ -53,7 +57,7 @@ BT 또는 BAT만 사용하여 참여를 측정하면 참여가 기여도 분석�
 * 터치한 터치포인트와 피플 수는 시간이 지남에 따라 어떻게 진화했습니까?
 * 한 분기/달에서 다음 분기/달까지 1인당 터치포인트를 어떻게 비교합니까?
 
-![한 분기/달과 &#x200B;](assets/engagement-dashboard-1.png) 간의 개인당 터치포인트를 어떻게 비교합니까?
+![한 분기/달과 ](assets/engagement-dashboard-1.png) 간의 개인당 터치포인트를 어떻게 비교합니까?
 
 ### 채널이 터치한 터치포인트/사람 {#touchpoints-people-touched-by-channel}
 
@@ -67,7 +71,7 @@ BT 또는 BAT만 사용하여 참여를 측정하면 참여가 기여도 분석�
 * 가장 많은 참여를 유도한 채널/하위 채널/캠페인은 무엇입니까?
 * 특정 채널/하위 채널/캠페인 내에서 터치된 사람과 터치포인트 수는 어떻게 비교됩니까?
 
-![터치포인트 수는 &#x200B;](assets/engagement-dashboard-2.png)에서 터치한 사람과 어떻게 비교됩니까?
+![터치포인트 수는 ](assets/engagement-dashboard-2.png)에서 터치한 사람과 어떻게 비교됩니까?
 
 ## 필터 창 {#filter-pane}
 

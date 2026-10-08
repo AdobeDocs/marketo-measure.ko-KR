@@ -3,13 +3,17 @@ description: Marketo Measure 필드 용어집
 title: Marketo Measure 필드 용어집
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '3236'
-ht-degree: 0%
-
+source-wordcount: '3254'
+ht-degree: 1%
 ---
-
 
 # Marketo Measure 필드 용어집 {#glossary}
 
@@ -17,11 +21,11 @@ ht-degree: 0%
 
 각 Marketo Measure 필드와 관련된 개체의 맵을 보려면 [여기를 클릭](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md)하십시오.
 
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [&#x200B; u](#u) · [V](#v) · 너비 · X · Y · Z
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [ u](#u) · [V](#v) · 너비 · X · Y · Z
 
 ## A {#a}
 
-**계정** | Buyer Attribution Touchpoint에서 발견
+**계정** | Buyer Attribution Touchpoint에서 찾음
 
 이 필드는 BAT과 연결된 계정 이름으로 채워집니다.
 
@@ -53,11 +57,11 @@ e.g. `http://info.marketomeasure.com/adwords-for-lead-generation?utm_source=Even
 
 위의 어느 것도 해당되지 않으면 이 필드는 비어 있습니다.
 
-**광고 캠페인 이름(FT)** | Buyer Touchpoint
+**광고 캠페인 이름(FT)** | BUYER TOUCHPOINT
 
 이 필드는 광고 캠페인 이름과 동일한 방식으로 채워집니다. 그러나 이 필드에는 첫 번째 터치 터치포인트를 생성한 광고 캠페인의 이름이 구체적으로 표시됩니다.
 
-**광고 캠페인 이름(LC)** | Buyer Touchpoint
+**광고 캠페인 이름(LC)** | BUYER TOUCHPOINT
 
 이 필드는 광고 캠페인 이름과 동일한 방식으로 채워집니다. 그러나 이 필드에는 리드 생성 터치포인트를 생성한 광고 캠페인의 이름이 구체적으로 표시됩니다.
 
@@ -97,29 +101,29 @@ e.g. `http://info.marketomeasure.com/adwords-for-lead-generation?utm_source=Even
 
 터치포인트가 유료 검색에서 오지 않은 경우 필드가 비어 있습니다.
 
-**속성 % 사용자 지정 모델** | Buyer Attribution Touchpoint
+**속성 % 사용자 지정 모델** | BUYER ATTRIBUTION TOUCHPOINT
 
 사용자 지정 속성 모델을 사용하는 경우 이 필드에는 사용자 지정 모델에 설정된 값에 따라 터치포인트에 속하는 매출의 백분율이 표시됩니다.
 
 사용자 지정 모델을 사용하지 않는 경우 이 필드는 비어 있습니다.
 
-**속성 % 첫 번째 터치** | Buyer Attribution Touchpoint
+**속성 % 첫 번째 터치** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 첫 번째 터치 모델에 따라 접점에 속하는 매출률이 표시됩니다.
 
-**기여도 분석 % 전체** | Buyer Attribution Touchpoint
+**기여도 분석 % 전체** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 전체 경로 모델에 따라 터치포인트에 속하는 매출의 백분율이 표시됩니다.
 
-**속성 % 잠재 고객 생성** | Buyer Attribution Touchpoint
+**속성 % 잠재 고객 생성** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 리드 생성 모델에 따라 접점에 속하는 매출률이 표시됩니다.
 
-**속성 % U자형** | Buyer Attribution Touchpoint
+**속성 % U자형** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 U자형 모델에 따라 접점으로 인한 매출액 비율이 표시됩니다.
 
-**기여도 분석 % W자형** | Buyer Attribution Touchpoint
+**기여도 분석 % W자형** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 W자형 모델에 따라 접점에 속하는 매출률이 표시됩니다.
 
@@ -143,53 +147,53 @@ e.g. `http://info.marketomeasure.com/adwords-for-lead-generation?utm_source=Even
 
 필드에는 터치포인트가 속한 연락처 가 표시됩니다.
 
-**Count - 사용자 지정 모델** | Buyer Attribution Touchpoint
+**Count - 사용자 지정 모델** | BUYER ATTRIBUTION TOUCHPOINT
 
 사용자 지정 속성 모델을 사용하는 경우 이 필드에는 사용자 지정 모델에 설정된 값에 따라 접점에 부여되는 수익 크레딧의 백분율이 십진수 형식으로 표시됩니다.
 
 사용자 지정 모델을 사용하지 않는 경우 이 필드는 비어 있습니다.
 
-**Count - 사용자 지정 모델** | Buyer Touchpoint
+**Count - 사용자 지정 모델** | BUYER TOUCHPOINT
 
 사용자 지정 속성 모델을 사용하는 경우 이 필드에는 사용자 지정 모델에 설정된 값에 따라 접점에 부여되는 속성 크레딧의 백분율이 십진수 형식으로 표시됩니다. 이 필드는 Buyer Touchpoint 오브젝트와 관련이 있으므로 매출 크레딧의 반영이 아니라 속성 크레딧만 반영합니다.
 
 사용자 지정 모델을 사용하지 않는 경우 이 필드는 비어 있습니다.
 
-**카운트 - 첫 번째 터치** | Buyer Attribution Touchpoint
+**카운트 - 첫 번째 터치** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 첫 번째 터치 모델에 따라 접점에 부여되는 매출 크레딧의 백분율이 십진수 형식으로 표시됩니다.
 
-**카운트 - 첫 번째 터치** | Buyer Touchpoint
+**카운트 - 첫 번째 터치** | BUYER TOUCHPOINT
 
 이 필드에는 첫 번째 터치 모델에 따라 접점에 주어진 속성 크레딧의 백분율이 십진수 형식으로 표시됩니다. 접점이 첫 번째 터치인 경우 이 필드는 항상 1.0(100% 속성 크레딧을 나타냄)이 됩니다. 접점이 첫 번째 터치가 아닌 경우 이 필드는 항상 0(0% 속성 크레딧을 나타냄)이 됩니다.
 
 이 필드는 Buyer Touchpoint 오브젝트와 관련이 있으므로 매출 크레딧의 반영이 아니라 속성 크레딧만 반영합니다.
 
-**Count - 전체 경로** | Buyer Attribution Touchpoint
+**Count - 전체 경로** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 전체 경로 모델에 따라 접점에 주어진 매출의 백분율이 십진수 형식으로 표시됩니다.
 
-**개수 - 잠재 고객 생성 터치** | Buyer Attribution Touchpoint
+**개수 - 잠재 고객 생성 터치** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 잠재 고객 생성 모델에 따라 접점에 제공된 수익 크레딧의 백분율이 십진수 형식으로 표시됩니다.
 
-**개수 - 잠재 고객 생성 터치** | Buyer Touchpoint
+**개수 - 잠재 고객 생성 터치** | BUYER TOUCHPOINT
 
 이 필드에는 리드 생성 모델에 따라 접점에 부여되는 속성 크레딧의 백분율이 소수점 형식으로 표시됩니다. 접점이 잠재 고객 생성 터치인 경우 이 필드는 항상 1.0(100% 속성 크레딧을 나타냄)입니다. 접점이 잠재 고객 생성 터치가 아닌 경우 이 필드는 항상 0(0% 속성 크레딧을 나타냄)이 됩니다.
 
 이 필드는 Buyer Touchpoint 오브젝트와 관련이 있으므로 매출 크레딧의 반영이 아니라 속성 크레딧만 반영합니다.
 
-**개수 - U자형** | Buyer Attribution Touchpoint
+**개수 - U자형** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드는 U자형 모델에 따라 접점에 부여되는 수익 크레딧의 백분율을 소수점 형식으로 표시합니다.
 
-**개수 - U자형** | Buyer Touchpoint
+**개수 - U자형** | BUYER TOUCHPOINT
 
 이 필드에는 U자형 모델에 따라 접점에 부여된 속성 크레딧의 백분율이 십진수 형식으로 표시됩니다. U자형 모델에서 크레딧은 첫 번째 터치, 리드 생성 터치 및 첫 번째 터치와 리드 생성 터치 간에 발생한 중간 양식 제출로 나눠집니다.
 
 이 필드는 Buyer Touchpoint 오브젝트와 관련이 있으므로 매출 크레딧의 반영이 아니라 속성 크레딧만 반영합니다.
 
-**개수 - W자형** | Buyer Attribution Touchpoint
+**개수 - W자형** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 W자형 모델에 따라 접점에 제공된 크레딧의 백분율이 십진수 형식으로 표시됩니다.
 
@@ -215,7 +219,7 @@ Marketo Measure ABTest - 사용자가 웹 사이트에서 A/B 테스트에 참�
 
 이벤트(즉, 홈 페이지)에 대한 설명
 
-**실험 이름** | Marketo Measure ABest
+**실험 이름** | Marketo Measure ABTest
 
 이 필드에는 실험의 이름(예: 체험판 단추)이 표시됩니다.
 
@@ -305,7 +309,7 @@ e.g. `http://info.marketomeasure.com/intro-guide-b2b-marketing-attribution?_bt=1
 
 이 필드에는 마케팅 채널과 터치포인트가 속한 하위 채널이 표시됩니다. 아래 예에서 마케팅 채널 - 경로는 Social.Linkedin입니다. 여기서 마케팅 채널은 Social이고 하위 채널은 LinkedIn입니다.
 
-![이 필드에는 마케팅 채널과 &#x200B;](assets/overview-resources-16.png)의 하위 채널이 표시됩니다.
+![이 필드에는 마케팅 채널과 ](assets/overview-resources-16.png)의 하위 채널이 표시됩니다.
 
 **Medium** | Buyer Touchpoint, Buyer Attribution Touchpoint
 
@@ -323,7 +327,7 @@ e.g. `http://info.marketomeasure.com/intro-guide-b2b-marketing-attribution?_bt=1
 
 O
 
-**기회** | Buyer Attribution Touchpoint
+**기회** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 BAT이 속한 영업 기회가 표시됩니다.
 
@@ -353,29 +357,29 @@ R
 
 이 필드는 전체 참조 URL(UTM 매개 변수 포함)을 표시한다는 점을 제외하면 레퍼러 페이지와 동일한 정보를 표시합니다.
 
-**매출 - 사용자 지정 모델** | Buyer Attribution Touchpoint
+**매출 - 사용자 지정 모델** | BUYER ATTRIBUTION TOUCHPOINT
 
 사용자 지정 속성 모델을 사용하는 경우 이 필드에는 사용자 지정 모델에 설정된 속성 비율에 따라 터치포인트에 속하는 달러 수익 금액이 표시됩니다.
 
 사용자 지정 모델을 사용하지 않는 경우 달러 금액은 0이 됩니다.
 
-**매출 - 첫 번째 터치** | Buyer Attribution Touchpoint
+**매출 - 첫 번째 터치** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 첫 번째 터치 모델에서 속성 비율에 따라 접점에 속하는 달러 매출액이 표시됩니다.
 
-**매출 - 전체 경로** | Buyer Attribution Touchpoint
+**매출 - 전체 경로** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 전체 경로 모델에서 기여도 분석에 따라 접점에 속하는 달러 매출액이 표시됩니다.
 
-**매출 - 잠재 고객 생성 터치** | Buyer Attribution Touchpoint
+**매출 - 잠재 고객 생성 터치** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 잠재 고객 생성 모델의 속성 비율에 따라 터치포인트에 속하는 달러 수익 금액이 표시됩니다.
 
-**매출 - U자형** | Buyer Attribution Touchpoint
+**매출 - U자형** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 U자형 모델의 기여도 분석에 따라 접점에 의한 달러 수익 금액이 표시됩니다.
 
-**매출 - W자형** | Buyer Attribution Touchpoint
+**매출 - W자형** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 W자형 모델의 기여도 분석에 따라 접점에 의한 달러 수익 금액이 표시됩니다.
 
@@ -391,7 +395,7 @@ S
 
 터치포인트가 유료 또는 유기 검색에서 온 경우 이 필드에 검색 엔진에 입력한 검색 구문이 표시됩니다. 그러나 개인 정보 보호 문제로 인해 이 정보는 일반적으로 사용할 수 없습니다.
 
-**세그먼트** | Buyer Attribution Touchpoint
+**세그먼트** | BUYER ATTRIBUTION TOUCHPOINT
 
 이 필드에는 터치포인트가 속한 세그먼트가 표시됩니다. 이는 Marketo Measure 앱에서 세그멘테이션 규칙을 구성한 방식에 따라 달라집니다.
 
@@ -407,11 +411,11 @@ T
 
 `3)` 터치포인트가 활동에서 온 경우 이 필드에는 활동 규칙에서 터치포인트 날짜로 선택한 필드의 날짜 및 시간이 표시됩니다.
 
-**접점 날짜(FT)** | Buyer Touchpoint
+**접점 날짜(FT)** | BUYER TOUCHPOINT
 
 터치포인트 날짜와 동일한 필드이지만 이 필드에는 첫 번째 터치 터치포인트가 발생한 날짜와 시간이 구체적으로 표시됩니다.
 
-**터치포인트 날짜(LC)** | Buyer Touchpoint
+**터치포인트 날짜(LC)** | BUYER TOUCHPOINT
 
 접점 날짜와 동일한 필드이지만 이 필드에는 잠재 고객 생성 접점이 발생한 날짜와 시간이 구체적으로 표시됩니다.
 
@@ -443,11 +447,11 @@ OC(Opportunity Creation) - Opp 생성 시 가장 가까운 마케팅 상호 작�
 
 위의 필드가 없으면 이 필드는 &#39;Web Direct&#39; 또는 &#39;Web&#39;으로 채워집니다.
 
-**터치포인트 Source(FT)** | Buyer Touchpoint
+**터치포인트 Source(FT)** | BUYER TOUCHPOINT
 
 이 필드는 터치포인트 Source과 동일하지만 이 필드에는 첫 번째 터치 터치포인트의 소스가 구체적으로 표시됩니다.
 
-**터치포인트 Source(LC)** | Buyer Touchpoint
+**터치포인트 Source(LC)** | BUYER TOUCHPOINT
 
 이 필드는 터치포인트 Source과 동일하지만 이 필드에는 특별히 리드 만들기 터치포인트의 소스가 표시됩니다.
 
@@ -463,7 +467,7 @@ U
 
 각 터치포인트에 연결된 고유 ID
 
-**사용자 ID** | Marketo Measure ABest
+**사용자 ID** | Marketo Measure ABTest
 
 각 사용에 대한 Optimizely의 고유 식별 코드
 
@@ -471,11 +475,11 @@ U
 
 ## V {#v}
 
-**변형** | Marketo Measure ABest
+**변형** | Marketo Measure ABTest
 
 A/B 테스트의 변형 이름
 
-**변형 ID** | Marketo Measure ABest
+**변형 ID** | Marketo Measure ABTest
 
 각 A/B 테스트 변형에 대한 고유한 식별 코드.
 

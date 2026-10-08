@@ -3,16 +3,18 @@ description: 활동 속성 모범 사례 - [!DNL Marketo Measure]
 title: 활동 기여도 분석에 대한 우수 사례
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-TQID: https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84
+TQID: 'https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: '515'
 ht-degree: 0%
-
 ---
-
 # 활동 기여도 분석에 대한 우수 사례 {#best-practices-for-activities-attribution}
 
 ## 개요 {#overview}
@@ -28,8 +30,8 @@ ht-degree: 0%
 활동 규칙을 처음 정의하거나 이전에 설정된 활동 규칙을 검토하는 경우 다음 모범 사례를 염두에 두십시오.
 
 * 단순 시작
-   * [!DNL Marketo Measure] 데이터에 통합할 몇 가지 주요 활동 유형을 식별한 다음, 이러한 터치포인트의 특성 지정 방식에 익숙해지면 유형을 더 추가하십시오
-   * 언급한 바와 같이, 이 기능의 주요 사용 사례는 판매 개발 팀의 효율성, 특히 아웃바운드 전화 및 아웃바운드 이메일을 추적하는 접점을 만드는 것입니다
+  * [!DNL Marketo Measure] 데이터에 통합할 몇 가지 주요 활동 유형을 식별한 다음, 이러한 터치포인트의 특성 지정 방식에 익숙해지면 유형을 더 추가하십시오
+  * 언급한 바와 같이, 이 기능의 주요 사용 사례는 판매 개발 팀의 효율성, 특히 아웃바운드 전화 및 아웃바운드 이메일을 추적하는 접점을 만드는 것입니다
 
 >[!NOTE]
 >
@@ -37,11 +39,11 @@ ht-degree: 0%
 
 * 공식 필드를 사용하여 규칙을 정의하지 않음
 * 구체적이고 정확한 규칙 만들기
-   * 활동 터치포인트를 만드는 임계값은 양식 채우기 또는 캠페인 멤버십과 동일(또는 유사)해야 합니다. 아웃바운드 이메일 또는 완료된 전화 대화에 답글 남김
+  * 활동 터치포인트를 만드는 임계값은 양식 채우기 또는 캠페인 멤버십과 동일(또는 유사)해야 합니다. 아웃바운드 이메일 또는 완료된 전화 대화에 답글 남김
 * 저장 및 처리 전에 항상 [!DNL Salesforce]에서 새 규칙의 유효성을 검사하십시오.
-   * 작업 및 이벤트 보고서 유형에서 활동 규칙을 복제하면 규칙에서 터치 포인트 수를 정확하게 파악할 수 있습니다
+  * 작업 및 이벤트 보고서 유형에서 활동 규칙을 복제하면 규칙에서 터치 포인트 수를 정확하게 파악할 수 있습니다
 * 영업 운영 팀과 협력
-   * 활동 레코드 또는 판매 지원 도구와 가장 가까운 작업을 하는 팀을 연결하면 올바른 필드를 사용하여 규칙을 정의할 수 있습니다
+  * 활동 레코드 또는 판매 지원 도구와 가장 가까운 작업을 하는 팀을 연결하면 올바른 필드를 사용하여 규칙을 정의할 수 있습니다
 
 ## 유지 관리에 대한 우수 사례 {#best-practice-for-maintenance}
 

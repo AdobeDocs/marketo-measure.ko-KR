@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 AJAX 양식 처리 지침
 title: AJAX 양식 처리
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
-
 ---
-
 # AJAX 양식 처리 {#ajax-form-handling}
 
 [!DNL Marketo Measure]에 대한 고객 전환을 수동으로 보고하려면 사용할 수 있는 간단한 API가 있습니다. 이러한 JavaScript API는 추적 코드가 있는 경우 사이트에서 자동으로 사용할 수 있습니다. 액세스하려면 특별한 작업을 수행할 필요가 없습니다.
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 AJAX이 포함된 양식(또는 다른 메커니즘)을 사용하여 클라이언트에서 서버로 전환 날짜를 제출할 때 [!DNL Marketo Measure]에서 모니터링하는 표준 경로를 통해 고객 전환을 인식하지 못할 수 있습니다. 이 시나리오에서는 간단한 API(아래에 제공됨)를 사용할 수 있습니다.
 
-자신의 양식 제출을 처리하는 경우 JavaScript에서 [!DNL Marketo Measure]을(를) 명시적으로 호출할 수 있습니다. [!DNL Marketo Measure] 양식에서 모든 관련 정보를 수집하여 서버에 비동기적으로 게시합니다.
+자신의 양식 제출을 처리하는 경우 JavaScript에서 [!DNL Marketo Measure]을(를) 명시적으로 호출할 수 있습니다. [!DNL Marketo Measure]은(는) 양식에서 모든 관련 정보를 수집하여 서버에 비동기적으로 게시합니다.
 
 **다음은 JQuery를 사용하는 코드 샘플입니다(양식의 ID가 &quot;formId&quot;라고 가정).**
 
@@ -57,7 +61,7 @@ eMail: 'user@gmail.com' // required
 });
 ```
 
-이 코드에서는 [!UICONTROL email] 필드가 필요합니다. [!DNL Marketo Measure] 이 데이터를 서버에 비동기적으로 게시합니다.
+이 코드에서는 [!UICONTROL email] 필드가 필요합니다. [!DNL Marketo Measure]이(가) 이 데이터를 서버에 비동기적으로 게시합니다.
 
 ## 시나리오 3 - 감사 페이지에서 사용자 정보 보고 {#scenario-report-user-information-from-the-thank-you-page}
 
@@ -70,4 +74,4 @@ eMail: 'user@gmail.com' // required
 data-email="user@gmail.com">
 ```
 
-숨겨진 요소가 div, script 또는 기타 태그 유형인지는 중요하지 않습니다. [!DNL Marketo Measure] 정보를 읽을 id=&quot;bizible.reportUser&quot;를 찾습니다.
+숨겨진 요소가 div, script 또는 기타 태그 유형인지는 중요하지 않습니다. [!DNL Marketo Measure]이(가) id=&quot;bizible.reportUser&quot;를 찾아 정보를 읽습니다.

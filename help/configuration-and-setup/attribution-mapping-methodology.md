@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 속성 매핑 방법론 지침
 title: 속성 매핑 방법론
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
-
 ---
-
 # 속성 매핑 방법론 {#attribution-mapping-methodology}
 
 속성 매핑 방법론은 CRM의 특정 개체(연락처, 기회, 계정)를 조회하여 연결된 기회에 속성 접점을 만드는 프로세스입니다. 즉, 현재 CRM의 프로세스를 기반으로 속성 모델에 포함할 터치포인트를 [!DNL Marketo Measure]에서 이해하는 것입니다.
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 기본적으로 [!DNL Marketo Measure]은(는) 계정 ID 매핑을 제공합니다. 즉, [!DNL Marketo Measure]이(가) 거래처 및 해당 연락처 마케팅 정보를 보고 해당 기회에 연결된 속성 접점을 만듭니다. 다음은 그 과정을 간단하게 표현한 것입니다.
 
-![즉시 사용할 수 있도록 Marketo Measure에서 계정 ID 매핑을 제공합니다. 이 &#x200B;](assets/adobe-setup-1.png)
+![즉시 사용할 수 있도록 Marketo Measure에서 계정 ID 매핑을 제공합니다. 이 ](assets/adobe-setup-1.png)
 
 연락처의 **일부**&#x200B;개 터치포인트가 기여도 분석 터치포인트로 영업 기회에 푸시되지 않는다는 점을 유의하십시오. Opportunity 의 타임라인 (첫 번째 터치 날짜 - 종료 날짜)은 터치 포인트가 Opportunity에 영향을 주는지 여부를 결정합니다. 따라서 Opportunity Closed Won/Lost 후에 연락처 A에 대한 터치포인트가 발생한 경우 [!DNL Marketo Measure]은(는) 해당 터치포인트를 Opportunity에 푸시하지 않습니다. 이 타임라인 절차는 다른 모든 속성 객체 매핑에서 수행됩니다.
 

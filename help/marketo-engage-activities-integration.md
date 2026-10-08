@@ -3,13 +3,17 @@ description: '[!DNL Marketo Engage] 활동 통합 - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Engage]개 활동 통합'
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 1%
-
 ---
-
 # [!DNL Marketo Engage]개 활동 통합 {#marketo-engage-activities-integration}
 
 전체 [!DNL Marketo Measure] 및 [!DNL Marketo Engage] 통합의 일부로 Marketo 활동을 가져오는 이러한 노력이 큰 역할을 합니다. Marketo 활동을 통해 시스템은 `Click Email`, `Change Score` 또는 `Change Status in Progression`과(와) 같은 이벤트를 추적합니다. 이러한 활동 유형은 접점에 적합한 하위 집합을 선택하도록 축소되고 정의될 수 있습니다. 이러한 활동에 대한 터치포인트가 생성되면 참여 여정에서 추적되고 유료 검색 또는 파트너 마케팅과 같은 다른 마케팅 채널과 함께 측정됩니다.
@@ -39,7 +43,7 @@ ht-degree: 1%
 
 1. 필요한 모든 활동을 선택하면 [!UICONTROL Selected Activities List] 및 [!UICONTROL Define Rules]에서 채워진 활동을 볼 수 있습니다.
 
-   ![1. 필요한 모든 활동을 선택하면 &#x200B;](assets/marketo-engage-activities-04.png)이(가) 표시됩니다.
+   ![1. 필요한 모든 활동을 선택하면 ](assets/marketo-engage-activities-04.png)이(가) 표시됩니다.
 
 1. 각 활동 유형에 대해 터치포인트에 적합한 레코드를 결정하는 규칙을 하나 이상 정의해야 합니다. 이 예에서는 Marketo 사용자가 90 이상의 점수에 도달할 때 시스템이 터치포인트를 만들도록 &quot;점수 변경&quot; 활동 유형에 대한 규칙을 추가합니다.
 
@@ -63,7 +67,7 @@ ht-degree: 1%
 
 1. 변경 내용이 손실되지 않도록 도중에 **[!UICONTROL Save As Draft]**&#x200B;을(를) 클릭하십시오.
 
-   ![1. &#x200B;](assets/marketo-engage-activities-09.png)을(를) 따라 초안으로 저장을 클릭하세요.
+   ![1. ](assets/marketo-engage-activities-09.png)을(를) 따라 초안으로 저장을 클릭하세요.
 
 1. **[!UICONTROL Attribute Mapping]** 탭으로 이동합니다.
 

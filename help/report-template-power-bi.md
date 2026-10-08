@@ -3,13 +3,17 @@ description: '[!DNL Marketo Measure] 보고서 템플릿 - Power BI - [!DNL Mark
 title: '[!DNL Marketo Measure] 보고서 템플릿 - Power BI'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2721'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] 보고서 템플릿 - Power BI {#marketo-measure-report-template-power-bi}
 
 ## 시작하기 {#getting-started}
@@ -44,7 +48,7 @@ QueryFilterStartDate 및 QueryFilterEndDate 매개 변수는 가져온 데이터
 >
 >날짜 필터는 행의 수정된 날짜에 적용되므로 제한된 날짜 범위를 벗어나는 날짜에 대해 보고할 때는 주의하십시오. 예를 들어 수정된 날짜 범위는 지난 2년으로 제한됩니다. 여기에는 이벤트 날짜가 3년 전이지만 최근에 수정된 이벤트가 포함될 수 있습니다. 그러나 모든 행이 2년 기간 내에 수정되지 않았기 때문에 3년 전의 이벤트에 대한 보고는 불완전한 결과를 반환합니다.
 
-![날짜 필터가 &#x200B;](assets/marketo-bi-3.png)의 수정된 날짜에 적용되기 때문에
+![날짜 필터가 ](assets/marketo-bi-3.png)의 수정된 날짜에 적용되기 때문에
 
 다음 테이블은 팩트 테이블로 처리됩니다. 이러한 쿼리에 수정된 날짜에 대한 날짜 제한을 추가했습니다.
 
@@ -95,13 +99,13 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 표 및 열의 이름을 사용자 친화적으로 변경하고 이름 지정 규칙을 표준화하기 위해 변경했습니다. 열 이름 변경 사항을 보려면 테이블의 &quot;제거된 다른 열&quot; 단계 뒤에 있는 &quot;이름이 변경된 열&quot; 단계로 이동합니다.
 
-![테이블 및 열의 이름을 변경하여 사용자에게 친숙한 다음 &#x200B;](assets/marketo-bi-5.png)
+![테이블 및 열의 이름을 변경하여 사용자에게 친숙한 다음 ](assets/marketo-bi-5.png)
 
 ### 이름이 변경된 세그먼트 {#renamed-segments}
 
-세그먼트 이름은 사용자 지정할 수 있으므로 Snowflake 데이터 웨어하우스에 일반 열 이름이 있습니다. [!DNL BIZ_SEGMENT_NAMES] [!DNL Marketo Measure] UI의 세그먼트 섹션에 정의된 일반 세그먼트 이름과 매핑된 사용자 지정 세그먼트 이름을 나열하는 매핑 테이블입니다. 세그먼트 이름 테이블은 리드 접점 및 속성 접점 테이블에서 세그먼트 열의 이름을 바꾸는 데 사용됩니다. 사용자 정의된 세그먼트가 없으면 일반 세그먼트 이름은 유지됩니다.
+세그먼트 이름은 사용자 지정할 수 있으므로 Snowflake 데이터 웨어하우스에 일반 열 이름이 있습니다. [!DNL BIZ_SEGMENT_NAMES]은(는) [!DNL Marketo Measure] UI의 세그먼트 섹션에 정의된 일반 세그먼트 이름과 매핑된 사용자 지정 세그먼트 이름을 나열하는 매핑 테이블입니다. 세그먼트 이름 테이블은 리드 접점 및 속성 접점 테이블에서 세그먼트 열의 이름을 바꾸는 데 사용됩니다. 사용자 정의된 세그먼트가 없으면 일반 세그먼트 이름은 유지됩니다.
 
-![세그먼트 이름을 사용자 지정할 수 있으므로 &#x200B;](assets/marketo-bi-4.png)에 일반 열 이름이 있습니다.
+![세그먼트 이름을 사용자 지정할 수 있으므로 ](assets/marketo-bi-4.png)에 일반 열 이름이 있습니다.
 
 ### 대/소문자 ID 변환 {#case-sensitive-id-conversion}
 
@@ -117,7 +121,7 @@ Power Query의 데이터에 몇 가지 변형이 적용되었습니다. 테이�
 
 모델의 계산에 통화 변환 기능을 추가하기 위해 Opportunity 테이블과 Cost 테이블 모두에 기업 변환율 열을 추가했습니다. 이 열의 값은 행 수준에서 추가되며 날짜 및 통화 ID의 전환율 테이블에 연결하여 평가됩니다. 이 모델에서 통화 전환이 작동하는 방식에 대한 자세한 내용은 이 설명서의 [통화 전환](#currency-conversion) 섹션을 참조하십시오.
 
-![통화 변환 기능을 모델의 계산에 추가하려면 &#x200B;](assets/marketo-bi-10.png)을(를) 수행합니다.
+![통화 변환 기능을 모델의 계산에 추가하려면 ](assets/marketo-bi-10.png)을(를) 수행합니다.
 
 [!DNL Snowflake]에 저장된 전환율 테이블에 각 전환에 대한 날짜 범위가 포함되어 있습니다. Power BI에서는 계산에 대한 조인 기준(즉, 날짜 범위 사이)을 허용하지 않습니다. 날짜에 조인하기 위해 전환율 테이블에 단계를 추가하여 행을 확장했습니다. 그러면 전환 날짜 범위에 있는 각 날짜에 대해 하나의 행이 있습니다.
 

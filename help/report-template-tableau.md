@@ -3,13 +3,17 @@ description: '[!DNL Marketo Measure] 보고서 템플릿 - 타블로 - [!DNL Mar
 title: '[!DNL Marketo Measure] 보고서 템플릿 - 타블로'
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] 보고서 템플릿 - 타블로 {#marketo-measure-report-template-tableau}
 
 ## 시작하기 {#getting-started}
@@ -30,7 +34,7 @@ Snowflake 인스턴스에 데이터 연결을 설정해야 합니다. 이를 위
 
 초기 SQL 명령도 입력해야 합니다. 이렇게 하면 이 데이터 모델에서 사용자 지정 쿼리를 사용할 수 있습니다. 입력할 명령은 &quot;스키마 `<your schema name>` 사용&quot;입니다. [!UICONTROL data warehouse connections] 페이지에서 스키마 이름을 찾을 수 있습니다. 위에서 참조한 설명서를 참조하십시오.
 
-![초기 SQL 명령도 입력해야 합니다. &#x200B;](assets/marketo-tableau-6.png)을(를) 지원합니다.
+![초기 SQL 명령도 입력해야 합니다. ](assets/marketo-tableau-6.png)을(를) 지원합니다.
 
 ### 사용자 지정 SQL 쿼리 {#custom-sql-queries}
 
@@ -84,7 +88,7 @@ Snowflake의 원래 상태에서 [!DNL Tableau]의 데이터에 몇 가지 변�
 
 모델의 계산에 통화 변환 기능을 추가하기 위해 회사 변환율과 대상 변환율 열을 영업 기회 및 비용 테이블 모두에 추가했습니다. 이 열의 값은 행 수준에서 추가되며 날짜 및 통화 ID의 전환율 테이블에 연결하여 평가됩니다. Tableau에서는 팩트 테이블이 두 개 이상의 차원 테이블을 공유할 수 없으므로 변환율은 이를 사용하는 테이블에 직접 추가되었습니다. 이 모델에서 통화 전환이 작동하는 방식에 대한 자세한 내용은 이 설명서의 [통화 전환](#currency-conversion) 섹션을 참조하십시오.
 
-![통화 변환 기능을 모델의 계산에 추가하려면 &#x200B;](assets/marketo-tableau-4.png)을(를) 수행합니다.
+![통화 변환 기능을 모델의 계산에 추가하려면 ](assets/marketo-tableau-4.png)을(를) 수행합니다.
 
 [!DNL Snowflake]의 테이블 두 개를 유니온과 결합하여 [!DNL Tableau] 데이터 모델에서 하나의 테이블을 만든 위치가 있습니다. 이러한 경우 &quot;Type&quot; 열이 추가되어 원본 [!DNL Snowflake] 테이블을 표시하고 행이 나타내는 엔터티를 지정합니다. 결합된 테이블에 대한 자세한 내용은 이 설명서의 관계 및 데이터 흐름 섹션을 참조하십시오.
 
@@ -92,19 +96,19 @@ Snowflake의 원래 상태에서 [!DNL Tableau]의 데이터에 몇 가지 변�
 
 ### 세그먼트 이름 {#segment-names}
 
-세그먼트 이름은 사용자 지정할 수 있으므로 Snowflake 데이터 웨어하우스에 일반 열 이름이 있습니다. [!DNL BIZ_SEGMENT_NAMES] [!DNL Marketo Measure] UI의 세그먼트 섹션에 정의된 대로 매핑되는 사용자 지정된 세그먼트 이름과 일반 세그먼트 이름을 나열하는 매핑 테이블입니다. 사용자 지정 세그먼트 이름을 사용하고 이러한 이름을 통합하기 위해 [!DNL Tableau] 모델을 업데이트하려면 이 표를 사용하고 Tableau 모델 내의 열 이름을 수동으로 바꾸십시오. 세그먼트 열은 리드 및 속성 접점 테이블에 있으며, 이름을 한 번만 변경하면 됩니다.
+세그먼트 이름은 사용자 지정할 수 있으므로 Snowflake 데이터 웨어하우스에 일반 열 이름이 있습니다. [!DNL BIZ_SEGMENT_NAMES]은(는) [!DNL Marketo Measure] UI의 세그먼트 섹션에 정의된 대로 매핑되는 사용자 지정된 세그먼트 이름과 일반 세그먼트 이름을 나열하는 매핑 테이블입니다. 사용자 지정 세그먼트 이름을 사용하고 이러한 이름을 통합하기 위해 [!DNL Tableau] 모델을 업데이트하려면 이 표를 사용하고 Tableau 모델 내의 열 이름을 수동으로 바꾸십시오. 세그먼트 열은 리드 및 속성 접점 테이블에 있으며, 이름을 한 번만 변경하면 됩니다.
 
 [!UICONTROL CATEGORY] 열에는 범주 번호가 나열되며 SEGMENT_NAME 열에는 매핑되는 사용자 지정된 세그먼트 이름이 있습니다.
 
-![CATEGORY 열에 범주 번호와 SEGMENTNAME 열이 나열됩니다.1&rbrace;](assets/marketo-tableau-13.png)
+![CATEGORY 열에 범주 번호와 SEGMENTNAME 열이 나열됩니다.1}](assets/marketo-tableau-13.png)
 
 이름은 두 가지 방법으로 업데이트할 수 있습니다. 첫 번째 옵션은 사용자 지정 SQL을 업데이트하는 것입니다. 이 예에서 카테고리 1-6의 이름은 세그먼트 이름 테이블의 매핑을 기반으로 변경되었습니다.
 
-![이름은 두 가지 방법으로 업데이트할 수 있습니다. 첫 번째 옵션은 &#x200B;](assets/marketo-tableau-14.png)입니다.
+![이름은 두 가지 방법으로 업데이트할 수 있습니다. 첫 번째 옵션은 ](assets/marketo-tableau-14.png)입니다.
 
 다른 옵션은 [!DNL Tableau] 테이블에서 직접 열 이름을 바꾸는 것입니다.
 
-![다른 옵션은 &#x200B;](assets/marketo-tableau-9.png)에서 직접 열 이름을 바꾸는 것입니다.
+![다른 옵션은 ](assets/marketo-tableau-9.png)에서 직접 열 이름을 바꾸는 것입니다.
 
 ## 데이터 모델 {#data-model}
 

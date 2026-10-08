@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 내 보고서 안내서의 레�
 title: 내 보고서의 레코드 복제
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
-
 ---
-
 # 내 보고서의 레코드 복제 {#duplicate-records-in-my-report}
 
 >[!NOTE]
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 **구매자 접점 연락처** 보고서입니다. 다시 말하지만, 이것은 우리가 개별 연락처와 연관된 터치포인트의 개수를 보고 있다는 것을 의미합니다.
 
-![구매자 접점 보고서입니다. 다시 말하지만, 이는 &#x200B;](assets/marketo-reports-1.gif)을(를) 의미합니다.
+![구매자 접점 보고서입니다. 다시 말하지만, 이는 ](assets/marketo-reports-1.gif)을(를) 의미합니다.
 
 보시다시피, 보고서에 세 명의 James Williams 연락처가 있는 것 같습니다. 따라서 &quot;중복됩니다!&quot; 라고 생각할 수 있습니다.
 
@@ -34,4 +38,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Stock SFDC 보고서](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

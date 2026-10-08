@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 IfRame Forms 및 [!DNL Marketo 
 title: IFrame Forms 및 [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '208'
 ht-degree: 3%
-
 ---
-
 # IFrame Forms 및 [!DNL Marketo Measure] {#iframe-forms-and-marketo-measure}
 
 [!DNL Marketo Measure]을(를) 사용하면 핵심 기능 중 하나가 사이트 및 양식 제출에 대한 세션을 통해 디지털 마케팅 활동을 추적하는 것입니다. 일반적으로 Marketo JavaScript이 사이트에 배치되면 사이트의 모든 양식에 자동으로 첨부됩니다. 그러나 양식이 IFrame에 포함된 경우에는 이 기능의 제한 사항이 있습니다.
@@ -20,6 +24,6 @@ IFrame을 페이지 내의 페이지로 생각해 보십시오. 스크립트가 
 
 IFrame의 헤드 내에 JavaScript을 배치하는 것이 좋으며, 여기서 해당 프레임 내의 양식에 자동으로 첨부됩니다.
 
-![JavaScript을 &#x200B;](assets/adding-pages-1.png)의 헤드에 배치하는 것이 좋습니다.
+![JavaScript을 ](assets/adding-pages-1.png)의 헤드에 배치하는 것이 좋습니다.
 
 IFrame 양식에 JavaScript을 추가하는 것과 관련하여 질문이 있는 경우 Adobe 계정 팀(계정 관리자) 또는 [Marketo 지원](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 문의하십시오.

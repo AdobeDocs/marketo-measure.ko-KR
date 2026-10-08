@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874797
-description: ' [!DNL Google Tag Manager] - [!DNL Marketo Measure]을(를) 통해  [!DNL Marketo Measure] 스크립트 추가 중'
-title: ' [!DNL Google Tag Manager]을(를) 통해  [!DNL Marketo Measure] 스크립트 추가'
+description: '[!DNL Google Tag Manager] - [!DNL Marketo Measure]을(를) 통해 [!DNL Marketo Measure] 스크립트 추가'
+title: '[!DNL Google Tag Manager]을(를) 통해 [!DNL Marketo Measure] 스크립트 추가'
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-TQID: https://experienceleague.adobe.com/g3PTxiShipF9q79oIAWKZIUU-YFMarLEDeKknaPiHck
+TQID: 'https://experienceleague.adobe.com/g3PTxiShipF9q79oIAWKZIUU-YFMarLEDeKknaPiHck'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 190
+source-wordcount: '192'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Tag Manager]을(를) 통해 [!DNL Marketo Measure] 스크립트 추가 {#adding-marketo-measure-script-via-google-tag-manager}
 
 [!DNL Marketo Measure] JavaScript을 설치할 때는 사이트에 직접 [스크립트를 하드 코딩](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"}하는 것이 좋습니다. 불가능한 경우 [!DNL Google Tag Manager]&#x200B;(GTM)을 사용하여 [!DNL Marketo Measure] JS를 로드할 수도 있습니다. GTM을 통해 로드된 [!DNL Marketo Measure] JS는 지연되기 쉽습니다. 지연으로 인해 스크립트 로드 시간이 지연되어 모든 양식 제출의 약 3~5%가 누락될 수 있습니다.

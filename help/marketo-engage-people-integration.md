@@ -3,13 +3,17 @@ description: '[!DNL Marketo Engage]명의 사용자 통합 - [!DNL Marketo Measu
 title: '[!DNL Marketo Engage]명의 사용자 통합'
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 1%
-
+ht-degree: 2%
 ---
-
 # [!DNL Marketo Engage]명의 사용자 통합 {#marketo-engage-people-integration}
 
 Marketo 사용자 통합을 사용하면 [!DNL Marketo Measure]이(가) Marketo에서 사용자를 다운로드하고 추적된 세션을 개인에게 연결하고 접점을 참여에 매핑할 수 있습니다. 이전에는 [!DNL Marketo Measure]에서 터치포인트를 CRM의 사용자에게 매핑할 수만 있었지만, 이렇게 하면 마케터가 단계나 트리거를 기다리지 않고 마케팅 노력을 더 빨리 측정하여 CRM에 동기화할 수 있습니다.
@@ -41,9 +45,9 @@ Marketo 사용자 다운로드를 도입하면서 [!DNL Marketo Measure]은(는)
 
 [!DNL Marketo Measure Discover]의 리드(사람)에 대해 보고할 때 총 Marketo 및 CRM 리드가 표시됩니다. Marketo 직원만 보고하거나 CRM 리드만 보고하려면 소스에 대한 세그먼트 범주를 만든 다음 &quot;Source 시스템&quot; 필드를 사용하여 Marketo 및 CRM에 대한 세그먼트 규칙을 만들어 규칙을 정의합니다. 세그먼트가 만들어지면 [!DNL Marketo Measure Discover] 대시보드에서 필터링할 수 있는 Source 범주가 표시됩니다.
 
-![Marketo Measure Discover에서 잠재 고객(사람)에 대해 보고할 때 &#x200B;](assets/bizible-discover-1.png)을(를) 하게 됩니다.
+![Marketo Measure Discover에서 잠재 고객(사람)에 대해 보고할 때 ](assets/bizible-discover-1.png)을(를) 하게 됩니다.
 
-![Marketo Measure Discover에서 잠재 고객(사람)에 대해 보고할 때 &#x200B;](assets/bizible-discover-2.png)을(를) 하게 됩니다.
+![Marketo Measure Discover에서 잠재 고객(사람)에 대해 보고할 때 ](assets/bizible-discover-2.png)을(를) 하게 됩니다.
 
 ## 필드 매핑 {#field-mappings}
 

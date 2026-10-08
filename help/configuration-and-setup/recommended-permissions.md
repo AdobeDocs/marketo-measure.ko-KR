@@ -1,15 +1,22 @@
 ---
-description: Marketo Measure 사용자를 위한 권장 [!DNL Salesforce] 권한 [!DNL Marketo Measure] 연결된 사용자 지침
-title: ' [!DNL Marketo Measure] 연결된 사용자에 대해  [!DNL Salesforce] 권한 권장'
+description: Marketo Measure 사용자를 위한 연결된 사용자 지침 [!DNL Marketo Measure]에 대한 권장 [!DNL Salesforce] 권한
+title: 연결된 [!DNL Marketo Measure]명의 사용자에게 [!DNL Salesforce] 권한 권장
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '448'
 ht-degree: 1%
-
 ---
-
 # 연결된 [!DNL Marketo Measure]명의 사용자에게 [!DNL Salesforce] 권한 권장 {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 
 [!DNL Marketo Measure]은(는) [!DNL Marketo Measure] 앱 내에서 연결된 [!DNL Salesforce] 사용자를 통해 데이터를 보내고 받습니다.
@@ -30,7 +37,7 @@ ht-degree: 1%
 
 * [!DNL Salesforce] 마케팅 사용자 확인란
 
-[!UICONTROL Marketing User] 확인란을 통해 사용자는 캠페인을 만들고 캠페인 가져오기 마법사를 사용할 수 있습니다. 이 옵션을 선택하지 않으면 사용자는 캠페인 및 고급 캠페인 설정만 보고, 단일 리드 또는 연락처에 대한 캠페인 내역을 편집하고, 캠페인 보고서를 실행할 수 있습니다. [!DNL Marketo Measure] 캠페인 개체를 읽고 쓸 수 있어야 합니다.
+[!UICONTROL Marketing User] 확인란을 통해 사용자는 캠페인을 만들고 캠페인 가져오기 마법사를 사용할 수 있습니다. 이 옵션을 선택하지 않으면 사용자는 캠페인 및 고급 캠페인 설정만 보고, 단일 리드 또는 연락처에 대한 캠페인 내역을 편집하고, 캠페인 보고서를 실행할 수 있습니다. [!DNL Marketo Measure]은(는) campaign 개체를 읽고 쓸 수 있어야 합니다.
 
 **추가 문제 해결**
 
@@ -42,6 +49,6 @@ ht-degree: 1%
 
 * 필드 수준 보안 및 접근성
 
-필드 수준 보안과 필드 접근성은 관련되지만 몇 가지 주요 차이점이 있습니다. 필드 수준 보안은 지정된 프로필에 대한 필드 가시성을 정의하는 반면 필드 접근성은 필드 수준 보안 및 페이지 레이아웃 구성을 기반으로 필드를 편집할 수 있는지 여부를 결정합니다. [!DNL Marketo Measure] 패키지의 사용 권한 집합을 사용하여 필요한 필드 개체 보안 설정을 받습니다. 경우에 따라 올바른 필드 액세스 가능성을 가지려면 연결된 사용자가 페이지 레이아웃에 [!DNL Marketo Measure] 필드를 보유해야 합니다. [!DNL Marketo Measure] 레이아웃의 필드를 사용하면 [!DNL Marketo Measure] 데이터를 [!DNL Salesforce]에 매핑할 수 있습니다. 이는 특정 [!DNL Salesforce] 환경에 따라 다릅니다.
+필드 수준 보안과 필드 접근성은 관련되지만 몇 가지 주요 차이점이 있습니다. 필드 수준 보안은 지정된 프로필에 대한 필드 가시성을 정의하는 반면 필드 접근성은 필드 수준 보안 및 페이지 레이아웃 구성을 기반으로 필드를 편집할 수 있는지 여부를 결정합니다. [!DNL Marketo Measure] 패키지의 사용 권한 집합을 사용하여 필요한 필드 개체 보안 설정을 받습니다. 경우에 따라 올바른 필드 액세스 가능성을 가지려면 연결된 사용자가 페이지 레이아웃에 [!DNL Marketo Measure] 필드를 보유해야 합니다. 레이아웃의 [!DNL Marketo Measure] 필드를 통해 [!DNL Marketo Measure] 데이터를 [!DNL Salesforce]에 매핑할 수 있습니다. 이는 특정 [!DNL Salesforce] 환경에 따라 다릅니다.
 
 모든 조직의 [!DNL Salesforce]에는 개별 요구 사항이 있지만 [!DNL Marketo Measure] 액세스 요구 사항과 보안 프로토콜의 균형을 맞추기 위한 요구 사항을 제공합니다. [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}에 언제든지 문의하세요.

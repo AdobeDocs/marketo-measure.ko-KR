@@ -3,13 +3,20 @@ description: Marketo Measure 보고를 위한 Dynamics 매출 및 마감 날짜 
 title: Dynamics용 수익 워크플로 [!DNL Marketo Measure]개
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
-
 ---
-
 # Dynamics용 수익 워크플로 [!DNL Marketo Measure]개 {#marketo-measure-revenue-workflows-for-dynamics}
 
 ## 1부: 예상 수익 대 실제 수익 {#part-estimated-revenue-vs-actual-revenue}
@@ -42,7 +49,7 @@ ht-degree: 0%
 
 ## 2부: 예상 마감 일자 대 실제 마감 일자 {#part-estimated-close-date-vs-actual-close-date}
 
-기본적으로 Dynamics에는 예상 마감 일자 및 실제 마감 일자의 두 가지 재고 마감 일자 필드가 있으므로 기본적으로 파이프라인 매출 데이터를 대시보드에서 사용할 수 없습니다. [!DNL Marketo Measure] 은 대시보드의 하나의 종료 날짜 필드만 지정할 수 있으며 실제 종료 날짜를 가리킵니다.
+기본적으로 Dynamics에는 예상 마감 일자 및 실제 마감 일자의 두 가지 재고 마감 일자 필드가 있으므로 기본적으로 파이프라인 매출 데이터를 대시보드에서 사용할 수 없습니다. [!DNL Marketo Measure]은(는) 대시보드에 있는 하나의 종료 날짜 필드만 지정할 수 있으며 실제 종료 날짜를 가리키고 있습니다.
 
 개설 기회에 실제 마감 일자 필드에 데이터가 없는 경우 대시보드에 개설 기회에 대한 데이터가 없습니다. 즉, 두 날짜 필드를 모두 지원하려면 영업 기회 단계를 기반으로 한 워크플로우가 필요합니다.
 

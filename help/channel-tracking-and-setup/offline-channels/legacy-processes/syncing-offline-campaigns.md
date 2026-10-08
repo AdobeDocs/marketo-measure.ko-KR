@@ -4,16 +4,18 @@ description: 오프라인 캠페인 동기화 - [!DNL Marketo Measure]
 title: 오프라인 캠페인 동기화
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-TQID: https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo
+TQID: 'https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 727
+source-wordcount: '727'
 ht-degree: 0%
-
 ---
-
 # 오프라인 캠페인 동기화 {#syncing-offline-campaigns}
 
 오프라인 캠페인을 정확하게 추적하고 이러한 캠페인이 디지털 마케팅 활동과 어떻게 다른지 이해하는 것은 어려울 수 있습니다. [!DNL Marketo Measure]을(를) 사용하면 이벤트 후 몇 주가 지나서야 [!DNL Salesforce] 캠페인이 만들어지는 경우에도 [!DNL Salesforce]에서 오프라인 캠페인에 터치포인트를 추적하고 연결할 수 있습니다.
@@ -77,6 +79,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] 튜토리얼: 오프라인 채널 매핑](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->[[!DNL Marketo Measure] 자습서: Campaign 개체 필드](https://experienceleague.adobe.com/ko/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] 자습서: Campaign 개체 필드](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

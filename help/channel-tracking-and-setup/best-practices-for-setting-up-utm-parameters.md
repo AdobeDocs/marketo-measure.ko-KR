@@ -3,17 +3,21 @@ description: Marketo Measure 사용자를 위한 UTM 매개 변수 지침 설정
 title: UTM 매개 변수 설정에 대한 우수 사례
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
-
 ---
-
 # UTM 매개 변수 설정에 대한 우수 사례 {#best-practices-for-setting-up-utm-parameters}
 
-UTM 매개 변수는 마케팅 데이터를 분류할 수 있는 좋은 방법입니다. [!DNL Marketo Measure] 모든 UTM 매개 변수를 사용하고 캡처하여 Salesforce 및 [!DNL Marketo Measure] 앱의 필드를 채웁니다. 이 정보를 통해 잠재 고객, 기회 및 비공개/성공 거래의 출처를 세부적으로 파악할 수 있습니다.
+UTM 매개 변수는 마케팅 데이터를 분류할 수 있는 좋은 방법입니다. [!DNL Marketo Measure]은(는) 모든 UTM 매개 변수를 사용하고 캡처하여 Salesforce 및 [!DNL Marketo Measure] 앱의 필드를 채웁니다. 이 정보를 통해 잠재 고객, 기회 및 비공개/성공 거래의 출처를 세부적으로 파악할 수 있습니다.
 
 [Google URL 빌더](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}를 사용하여 UTM 매개 변수를 설정하고 마케팅 활동 내에서 링크에 추가할 수 있습니다. 모든 UTM 링크를 더 쉽게 추적하려면 이 [Google 스프레드시트](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}를 사용하십시오.
 
@@ -29,7 +33,7 @@ UTM 매개 변수는 마케팅 데이터를 분류할 수 있는 좋은 방법�
 
 예: Facebook, Twitter, Linkedin, Drip_email, Email_blast, 뉴스레터.
 
-단순하게 유지하십시오. 이 매개 변수를 사용하여 리타겟팅 또는 스폰서와 같은 광고 유형을 표시하지 마십시오. utm_source = homepage, webdirect, website를 추가하지 마십시오. [!DNL Marketo Measure] 자동으로 이 정보를 채웁니다.
+단순하게 유지하십시오. 이 매개 변수를 사용하여 리타겟팅 또는 스폰서와 같은 광고 유형을 표시하지 마십시오. utm_source = homepage, webdirect, website를 추가하지 마십시오. [!DNL Marketo Measure]이(가) 자동으로 이 정보를 채웁니다.
 
 **utm_campaign**: 이 필드는 광고 캠페인 이름에 매핑됩니다. utm_campaign을 사용하여 광고 플랫폼에 있거나 내부적으로 지칭되는 캠페인의 제목을 나타냅니다.
 

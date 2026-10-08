@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874755
-description: ' [!DNL Marketo Measure] to [!DNL Marketo] 랜딩 페이지 추가 - [!DNL Marketo Measure]'
-title: Marketo 랜딩 페이지에  [!DNL Marketo Measure] 을(를) 추가하는 중
+description: '[!DNL Marketo] 랜딩 페이지에 [!DNL Marketo Measure]을(를) 추가하는 중 - [!DNL Marketo Measure]'
+title: Marketo 랜딩 페이지에 [!DNL Marketo Measure]을(를) 추가하는 중
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-TQID: https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U
+TQID: 'https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '228'
 ht-degree: 1%
-
 ---
-
 # Marketo 랜딩 페이지에 [!DNL Marketo Measure]을(를) 추가하는 중 {#adding-marketo-measure-to-marketo-landing-pages}
 
 추가 처리가 필요하므로 [!DNL Marketo Engage] 랜딩 페이지에 추적을 추가하는 방법을 알아봅니다. [!DNL Marketo Measure] JavaScript은 랜딩 페이지와 [!DNL Marketo Engage] 양식 자체에 모두 있어야 합니다. 이렇게 하려면 다음 지침에 설명된 대로 [!DNL Marketo Measure] JavaScript을 [!DNL Marketo Engage]에 로드해야 합니다.
@@ -45,4 +47,4 @@ ht-degree: 1%
 
 * 여러 랜딩 페이지 템플릿이 사용 중일 수 있습니다. 양식이 있는 모든 템플릿에 코드를 추가해야 합니다.
 
-* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=ko){target="_blank"}에 대해 설명합니다.
+* 랜딩 페이지의 템플릿을 편집할 때 랜딩 페이지를 사용하는 페이지를 다시 승인해야 하는 경우가 있습니다. 이 문서에서는 [일괄 승인 방법](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}에 대해 설명합니다.

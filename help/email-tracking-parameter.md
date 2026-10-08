@@ -3,13 +3,17 @@ description: Marketo Measure 사용자를 위한 이메일 추적 매개 변수 
 title: 이메일 추적 매개 변수
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 2%
-
 ---
-
 # 이메일 추적 매개 변수 {#email-tracking-parameter}
 
 [!DNL Marketo Measure] 전자 메일 추적 매개 변수를 사용하면 마케터가 전자 메일 클릭을 양식 제출로 취급하여 해당 작업에 대한 터치포인트를 생성할 수 있습니다. 이메일 추적 매개 변수를 사용하지 않으면 사용자가 양식 제출 또는 웹 채팅을 통해 사이트에 실제로 관여할 때까지 이메일의 클릭스루는 &quot;웹 방문&quot;으로만 처리됩니다.
@@ -32,7 +36,7 @@ Marketo Measure은 이메일 주소, Salesforce 잠재 고객 ID 또는 Salesfor
 
 | 마케팅 자동화 | 토큰/태그/매크로 | 예 | 지원 자료 |
 | --- | --- | --- | --- |
-| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [토큰 개요](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=ko) |
+| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [토큰 개요](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html) |
 | 파르도 | %%email%% 또는 %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Pardot 변수 태그 참조](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
 | Hubspot | (편집기를 통해 삽입됨) | 해당 사항 없음 | [HubSpot 콘텐츠 개인화](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
 | 실제 | (메시지 작성기를 통해 삽입됨) | 해당 사항 없음 | [실제 전자 메일 콘텐츠 개인화](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
