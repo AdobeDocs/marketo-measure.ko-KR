@@ -117,7 +117,7 @@ Buyer Touchpoint 날짜를 사용해야 하는지 여부를 확인하려면 캠�
 
 ## 캠페인 비용 {#campaign-costs}
 
-이 문서](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}에서 캠페인 비용 [에 대해 모두 알아보세요.
+이 문서[&#128279;](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}에서 캠페인 비용 에 대해 모두 알아보세요.
 
 ## 캠페인 멤버 제거 {#campaign-member-removal}
 

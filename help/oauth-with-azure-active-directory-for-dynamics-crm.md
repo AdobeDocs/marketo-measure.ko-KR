@@ -34,11 +34,11 @@ ht-degree: 1%
 
 1. 페이지 오른쪽 상단에 있는 계정을 클릭한 다음, 디렉터리 전환 탐색을 클릭하고 적절한 테넌트를 선택하여 Azure AD 테넌트를 선택합니다. 계정에 Azure AD 테넌트가 하나만 있거나 이미 적절한 Azure AD 테넌트를 선택한 경우 이 단계를 건너뜁니다.
 
-   ![1. ](assets/bizible-taxonomy-1.png)에서 계정을 클릭하여 Azure AD 테넌트를 선택합니다.
+   ![1. &#x200B;](assets/bizible-taxonomy-1.png)에서 계정을 클릭하여 Azure AD 테넌트를 선택합니다.
 
 1. 검색 창에서 &quot;[!DNL Azure Active Directory]&quot;을(를) 검색하고 열 이름을 클릭합니다.
 
-   ![1. 검색 창에서 &quot;Azure Active Directory&quot;를 검색하고 ](assets/microsoft-guide-1.png)
+   ![1. 검색 창에서 &quot;Azure Active Directory&quot;를 검색하고 &#x200B;](assets/microsoft-guide-1.png)
 
 1. 왼쪽 메뉴에서 **[!UICONTROL App Registrations]**&#x200B;을(를) 클릭합니다.
 
@@ -63,15 +63,15 @@ c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용�
 
 1. [!DNL Marketo Measure] 리디렉션 URL: `https://apps.bizible.com/OAuth2` 및 `https://apps.bizible.com/OAuth2?identityOnly=true`을(를) 리디렉션 URL 목록에 추가합니다.
 
-   ![1. ](assets/microsoft-guide-5.png)에 Marketo Measure 리디렉션 URL https://apps.bizible.com/OAuth2 및 https://apps.bizible.com/OAuth2?identityOnly=true 추가
+   ![1. &#x200B;](assets/microsoft-guide-5.png)에 Marketo Measure 리디렉션 URL https://apps.bizible.com/OAuth2 및 https://apps.bizible.com/OAuth2?identityOnly=true 추가
 
 1. API 권한 탭으로 이동하여 애플리케이션에 올바른 권한이 할당되었는지 확인합니다.
 
-   ![1. API 권한 탭으로 이동하여 ](assets/microsoft-guide-6.png)이(가)
+   ![1. API 권한 탭으로 이동하여 &#x200B;](assets/microsoft-guide-6.png)이(가)
 
 1. 여기에서 검색 상자에 &quot;[!UICONTROL enterprise]&quot;을(를) 입력하고 **[!UICONTROL Enterprise Applications]**&#x200B;을(를) 클릭합니다.
 
-   ![1. 여기에서 검색 상자에 &quot;enterprise&quot;를 입력하고 ](assets/microsoft-guide-7.png)을(를) 클릭합니다.
+   ![1. 여기에서 검색 상자에 &quot;enterprise&quot;를 입력하고 &#x200B;](assets/microsoft-guide-7.png)을(를) 클릭합니다.
 
 1. 다시, 응용 프로그램 목록에서 새 응용 프로그램을 찾아 엽니다.
 
@@ -85,7 +85,7 @@ c. 리디렉션 URI를 제공합니다. 웹 애플리케이션의 경우 사용�
 
 1. &quot;[!UICONTROL Users and Groups]&quot; 탭에서 올바른 &quot;사용자 및 그룹&quot;이 응용 프로그램에 할당되었는지 확인하십시오.
 
-   ![1. &quot;사용자 및 그룹&quot; 탭에서 ](assets/microsoft-guide-10.png)이(가)
+   ![1. &quot;사용자 및 그룹&quot; 탭에서 &#x200B;](assets/microsoft-guide-10.png)이(가)
 
 ## 응용 프로그램 사용자 생성 {#creating-an-application-user}
 
@@ -135,6 +135,6 @@ c. 애플리케이션 ID URI는 대상 웹 API(보안 리소스)의 URL입니다
 
 1. 키를 클릭하면 팝업이 나타나고 등록 흐름과 유사하게 클라이언트 ID, 클라이언트 암호 및 애플리케이션 ID URI를 입력하라는 메시지가 표시됩니다.
 
-   ![1. 키를 클릭하면 팝업이 나타나고 ](assets/microsoft-guide-12.png)됩니다.
+   ![1. 키를 클릭하면 팝업이 나타나고 &#x200B;](assets/microsoft-guide-12.png)됩니다.
 
 1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭하면 [!DNL Azure Active Directory]&#x200B;(으)로 로그인하라는 메시지가 표시됩니다. 인증에 성공하면 [!DNL Marketo Measure] 내에 Dynamics 계정이 다시 인증됩니다.

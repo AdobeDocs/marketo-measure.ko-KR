@@ -54,7 +54,7 @@ CallTrackingMetrics는 이 기능이 작동하려면 개발 작업을 수행해�
 
 [!UICONTROL Touchpoint] 유형 &quot;Call&quot;을 작업에서 위의 스크린샷으로 가져옵니다. 이 스크린샷은 작업을 만들 때 CallTrackingMetrics로도 채워집니다.
 
-![터치포인트 유형 &quot;호출&quot;을 작업에서 ](assets/marketo-engage-activities-01.png)에서 가져옵니다.
+![터치포인트 유형 &quot;호출&quot;을 작업에서 &#x200B;](assets/marketo-engage-activities-01.png)에서 가져옵니다.
 
 ## 보고 {#reporting}
 

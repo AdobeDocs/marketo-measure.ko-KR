@@ -22,7 +22,7 @@ Snowflake 데이터 웨어하우스에 액세스하려면 Snowflake 계정의 �
 
 1. [!DNL Marketo Measure]의 페이지 맨 위에서 **[!UICONTROL My Account]** > **[!UICONTROL Settings]**&#x200B;을(를) 클릭합니다.
 
-   ![1. Marketo Measure의 페이지 맨 위에서 ](assets/data-account-7.png)을(를) 클릭합니다.
+   ![1. Marketo Measure의 페이지 맨 위에서 &#x200B;](assets/data-account-7.png)을(를) 클릭합니다.
 
 1. 왼쪽 메뉴에서 보안 아래의 **[!UICONTROL Data Warehouse]**&#x200B;을(를) 클릭합니다.
 
@@ -30,7 +30,7 @@ Snowflake 데이터 웨어하우스에 액세스하려면 Snowflake 계정의 �
 
 1. 이 페이지에는 Snowflake Data Warehouse 및 사용자 이름에 대한 링크가 있습니다.
 
-   ![1. 이 페이지에는 Snowflake 데이터 웨어하우스 및 ](assets/data-account-9.png) 링크가 있습니다.
+   ![1. 이 페이지에는 Snowflake 데이터 웨어하우스 및 &#x200B;](assets/data-account-9.png) 링크가 있습니다.
 
    >[!NOTE]
    >
@@ -38,15 +38,15 @@ Snowflake 데이터 웨어하우스에 액세스하려면 Snowflake 계정의 �
 
 1. Snowflake URL에 제공된 링크를 클릭하면 사용자 이름과 암호를 입력하는 Snowflake 로그인 페이지로 이동합니다. _암호가 없는 경우 아래 단계를 참조하여 암호를 재설정하십시오_.
 
-   ![1. Snowflake URL에 제공된 링크를 클릭하면 ](assets/data-account-5.png)(으)로 이동합니다.
+   ![1. Snowflake URL에 제공된 링크를 클릭하면 &#x200B;](assets/data-account-5.png)(으)로 이동합니다.
 
 1. 로그인하고 나면 페이지 상단의 **[!UICONTROL Worksheets]**&#x200B;을(를) 클릭합니다.
 
-   ![1. 로그인하고 나면 ](assets/data-account-6.png) 상단의 워크시트를 클릭합니다.
+   ![1. 로그인하고 나면 &#x200B;](assets/data-account-6.png) 상단의 워크시트를 클릭합니다.
 
 1. BIZIBLE_ROI_V3 데이터베이스 개체는 화면 왼쪽에 있습니다. 쿼리 창 상단의 드롭다운 옵션에서 웨어하우스, 데이터베이스 및 스키마를 입력합니다. 각 옵션에는 하나만 있어야 합니다. 이제 Snowflake 쿼리 편집기 내에서 쿼리를 실행할 준비가 되었습니다.
 
-   ![1. BIZIBLEROIV3 데이터베이스 개체는 ](assets/data-account-4.png)의 왼쪽에 있습니다.
+   ![1. BIZIBLEROIV3 데이터베이스 개체는 &#x200B;](assets/data-account-4.png)의 왼쪽에 있습니다.
 
 ## 암호 재설정 {#reset-your-password}
 
@@ -57,9 +57,9 @@ Snowflake 데이터 웨어하우스에 액세스하려면 Snowflake 계정의 �
 >* 암호를 재설정하면 현재 로그인한 사용자뿐만 아니라 조직의 모든 [!DNL Marketo Measure] 사용자에 대해 재설정됩니다.
 >* UI에는 임시 암호만 표시됩니다. 이메일이 전송되지 않습니다.
 
-![UI에 임시 암호만 표시됩니다. 전자 메일은 ](assets/data-account-3.png)입니다.
+![UI에 임시 암호만 표시됩니다. 전자 메일은 &#x200B;](assets/data-account-3.png)입니다.
 
-![UI에 임시 암호만 표시됩니다. 전자 메일은 ](assets/data-account-1.png)입니다.
+![UI에 임시 암호만 표시됩니다. 전자 메일은 &#x200B;](assets/data-account-1.png)입니다.
 
 ## 서드파티 도구를 통해 Snowflake에 연결 {#connecting-to-snowflake-via-third-party-tools}
 

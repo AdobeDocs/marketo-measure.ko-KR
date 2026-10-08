@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874535
-description: 전체 서클에서 [!DNL Marketo Measure](으)로 전환 - [!DNL Marketo Measure]
-title: 전체 서클에서 [!DNL Marketo Measure](으)로 전환
+description: 전체 서클에서 [!DNL Marketo Measure] (으)로 전환 - [!DNL Marketo Measure]
+title: 전체 서클에서 [!DNL Marketo Measure] (으)로 전환
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
 TQID: 'https://experienceleague.adobe.com/OhedmCiywt5OWRw1EMsLdnLs-Sxv4DWNpZdwXqHok9E'

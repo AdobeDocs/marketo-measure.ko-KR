@@ -24,4 +24,4 @@ CRM의 [!UICONTROL General Settings] 탭에 있는 이 기능에 연결된 두 �
 
 [!DNL Marketo Measure] 응용 프로그램의 [!UICONTROL User Settings] 아래에 회사 통화 및 CRM에서 가져온 지원되는 모든 통화가 표시됩니다. 이러한 값은 모두 CRM에서 가져오므로 이러한 필드는 읽기 전용이며 변경할 수 없습니다. 대시보드 통화는 대시보드가 로드될 때마다 표시되는 기본 통화입니다. 필요하시면 다시 오셔서 환전하시면 됩니다.
 
-![Marketo Measure 응용 프로그램의 사용자 설정에서 ](assets/multi-currency-1.png)을(를) 실행합니다.
+![Marketo Measure 응용 프로그램의 사용자 설정에서 &#x200B;](assets/multi-currency-1.png)을(를) 실행합니다.

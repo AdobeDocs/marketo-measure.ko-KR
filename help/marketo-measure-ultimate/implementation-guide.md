@@ -72,9 +72,9 @@ Ultimate 사용자는 AEP에서 프로비저닝됩니다. 이미 AEP이 있는 �
 
 10개의 표준 B2B 스키마를 만들려면 자동 생성 유틸리티를 사용하는 것이 좋습니다.
 
-* [ 유틸리티를 다운로드하고 설정하는 단계는 ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}에서 찾을 수 있습니다.
+* [&#x200B; 유틸리티를 다운로드하고 설정하는 단계는 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}에서 찾을 수 있습니다.
 
-_**CDP 권한**_&#x200B;이 있는 사용자의 경우: 소스 페이지로 이동하여 스키마를 만드십시오.
+_&#x200B;**CDP 권한**&#x200B;_&#x200B;이 있는 사용자의 경우: 소스 페이지로 이동하여 스키마를 만드십시오.
 
 * 소스에서 데이터 추가 > 템플릿 사용을 선택합니다.
 

@@ -1,6 +1,6 @@
 ---
-description: Marketo Measure 사용자를 위한 전체 서클 지침에서 [!DNL Marketo Measure](으)로 전환
-title: 전체 서클에서 [!DNL Marketo Measure](으)로 전환
+description: Marketo Measure 사용자를 위한 전체 서클 지침에서 [!DNL Marketo Measure] (으)로 전환
+title: 전체 서클에서 [!DNL Marketo Measure] (으)로 전환
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
 product_v2:

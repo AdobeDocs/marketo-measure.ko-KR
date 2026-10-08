@@ -36,7 +36,7 @@ Velocity 대시보드는 잠재 고객이 판매 funnel을 통해 이동하는 �
 * 일반적으로 잠재 고객/연락처의 지속 시간이 가장 긴 판매 단계는 무엇입니까?
 * 첫 번째 터치 단계에서 보낸 시간은 &#39;MQL&#39; 단계와 어떻게 비교됩니까?
 
-![첫 번째 터치 단계에서 사용한 시간과 ](assets/lead-dashboard-1.png)의 비교
+![첫 번째 터치 단계에서 사용한 시간과 &#x200B;](assets/lead-dashboard-1.png)의 비교
 
 ### 시간 경과에 따른 리드/연락처 속도 {#lead-contact-velocity-over-time}
 

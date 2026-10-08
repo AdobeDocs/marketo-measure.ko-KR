@@ -86,12 +86,12 @@ PES를 사용하려면 PES 필드 및 관련 목록을 [!DNL Salesforce]의 해�
 
 1. 마지막으로 [!UICONTROL Related Lists]&#x200B;(으)로 이동하여 &quot;잠재 고객&quot; 관련 목록을 페이지 레이아웃으로 이동합니다.
 
-   ![1. 마지막으로 관련 목록으로 이동하여 &quot;잠재 고객&quot; 관련 ](assets/account-marketing-4.jpg)을(를) 이동합니다.
+   ![1. 마지막으로 관련 목록으로 이동하여 &quot;잠재 고객&quot; 관련 &#x200B;](assets/account-marketing-4.jpg)을(를) 이동합니다.
 
 1. 그런 다음 **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Leads]** > **[!UICONTROL Page Layout]**(으)로 이동하여 편집할 페이지 레이아웃을 선택합니다.
 1. **[!UICONTROL Fields]**&#x200B;을(를) 클릭하고 페이지에 맞는 [!UICONTROL Account] 필드를 추가합니다.
 
-   ![1. 필드를 클릭하고 ](assets/account-marketing-5.png)에 계정 필드를 추가합니다.
+   ![1. 필드를 클릭하고 &#x200B;](assets/account-marketing-5.png)에 계정 필드를 추가합니다.
 
 준비가 완료되었습니다!
 

@@ -54,7 +54,7 @@ Ultimate 사용자는 AEP에서 프로비저닝됩니다. 이미 AEP이 있는 �
 
 &#42; _스키마가 클래스와 0개 이상의 스키마 필드 그룹으로 구성되어 있습니다. 즉, 필드 그룹을 사용하지 않고 데이터 집합 스키마를 구성할 수 있습니다._
 
-![&amp;42; 스키마가 클래스와 0개 이상의 스키마 필드로 구성됩니다](assets/marketo-guide-1.png)
+![&42; 스키마가 클래스와 0개 이상의 스키마 필드로 구성됩니다](assets/marketo-guide-1.png)
 
 [데이터 세트 개요](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: AEP에 성공적으로 수집된 모든 데이터는 데이터 세트로 Data Lake 내에 보관됩니다. 데이터 세트는 스키마(열) 및 필드(행)를 포함하는 데이터 수집을 위한 저장소 및 관리 구조입니다.
 
@@ -62,9 +62,9 @@ Ultimate 사용자는 AEP에서 프로비저닝됩니다. 이미 AEP이 있는 �
 
 10개의 표준 B2B 스키마를 만들려면 자동 생성 유틸리티를 사용하는 것이 좋습니다.
 
-* [ 유틸리티를 다운로드하고 설정하는 단계는 ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}에서 찾을 수 있습니다.
+* [&#x200B; 유틸리티를 다운로드하고 설정하는 단계는 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}에서 찾을 수 있습니다.
 
-_**CDP 권한**_&#x200B;이 있는 사용자의 경우: 소스 페이지로 이동하여 스키마를 만드십시오.
+_&#x200B;**CDP 권한**&#x200B;_&#x200B;이 있는 사용자의 경우: 소스 페이지로 이동하여 스키마를 만드십시오.
 
 * 소스에서 데이터 추가 > 템플릿 사용을 선택합니다.
 

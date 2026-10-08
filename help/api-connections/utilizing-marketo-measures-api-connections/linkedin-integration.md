@@ -315,7 +315,7 @@ Campaign 또는 Creative 상태에 관계없이 모든 양식 응답으로 터�
 
 대상 URL의 끝에 [!DNL Marketo Measure]이(가) `&_bl={creativeId}` 매개 변수를 추가하고 있습니다. 여기서 `{creativeId}`은(는) LinkedIn의 Creative ID입니다. 각 Creative은 하나의 캠페인에 속할 수 있으므로 [!DNL LinkedIn]은(는) 매우 기본적인 광고 구조를 가지고 있으므로 Creative ID를 사용하여 [!DNL Marketo Measure]에서 캠페인 ID를 확인할 수도 있습니다.
 
-**새 버전을 만든 후 이전 창작물에 무슨 일이 발생합니까?**[!DNL Marketo Measure]
+**새 버전을 만든 후 이전 창작물에 무슨 일이 발생합니까?**&#x200B;[!DNL Marketo Measure]
 
 [!DNL Marketo Measure]이(가) 공유를 다시 만들어 새 Creative에 배치하면 이전 Creative이 보관됩니다. [!DNL Marketo Measure]이(가) 보관된 캠페인이나 광고 활동에 태그를 지정하지 않는 이유이기도 합니다. 그렇지 않으면 [!DNL Marketo Measure]이(가) 무기한 태그를 지정하려고 하면서 반복됩니다.
 

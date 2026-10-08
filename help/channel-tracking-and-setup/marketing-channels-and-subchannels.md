@@ -49,11 +49,11 @@ UTM 매개 변수를 기반으로 리드가 포함될 &quot;버킷&quot;을 사�
 
 아래 다이어그램은 다음 URL을 사용하는 웹 페이지를 기반으로 하는 마케팅 채널, 하위 채널 및 컨텐츠의 예를 보여 줍니다.
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
 이 경우 사용자가 액세스하려는 콘텐츠는 B2B 마케팅 속성에 대한 소개 안내서입니다. [!DNL Marketo Measure]은(는) 이 조직에 설정된 채널 규칙을 사용하여 이 콘텐츠로 이어지는 URL을 분석하고 이를 사용하여 마케팅 채널 &quot;유료 소셜&quot; 및 하위 채널 &quot;LinkedIn&quot;으로 이어지는 &quot;버킷&quot;을 만듭니다.
 
-![이 경우 사용자가 액세스하려는 콘텐츠는 ](assets/online-channels-1.png)입니다.
+![이 경우 사용자가 액세스하려는 콘텐츠는 &#x200B;](assets/online-channels-1.png)입니다.
 
 추가 예...
 

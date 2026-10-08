@@ -21,7 +21,7 @@ ht-degree: 5%
 
 ## Adobe Admin Console 및 ID 공급자 설정 {#set-up-your-adobe-admin-console-and-identity-provider}
 
-Adobe Suite의 제품으로서 [!DNL Marketo Measure]은(는) Identity Management용 Adobe Admin Console의 모든 기능을 사용합니다. [여기에서 ](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)개의 리소스를 더 찾을 수 있습니다.
+Adobe Suite의 제품으로서 [!DNL Marketo Measure]은(는) Identity Management용 Adobe Admin Console의 모든 기능을 사용합니다. [여기에서 &#x200B;](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)개의 리소스를 더 찾을 수 있습니다.
 
 [Identity Management](https://helpx.adobe.com/kr/enterprise/using/set-up-identity.html)에서 사용할 수 있는 리소스, 모범 사례 및 옵션을 검토하는 것이 좋습니다.
 
@@ -58,7 +58,7 @@ Adobe Admin Console에 액세스하면 개요 섹션에 [!DNL Marketo Measure] �
 >
 >[!DNL Marketo Measure] 관리자([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}에서)가 되려면 사용자가 [!DNL Marketo Measure] 제품 카드 내의 [!DNL Marketo Measure] 제품 프로필에 사용자 _및_ 관리자로 추가되어 있어야 합니다.
 
-[!DNL Marketo Measure]**에**&#x200B;로그인 중
+[!DNL Marketo Measure]&#x200B;**에**&#x200B;로그인 중
 
 사용자가 제품 프로필에 추가되면 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}에서 **Adobe ID으로 로그인** 옵션을 선택하여 [!DNL Marketo Measure] 인스턴스에 액세스할 수 있습니다.
 

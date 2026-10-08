@@ -63,7 +63,7 @@ ht-degree: 0%
 
 활성화된 경우 [!DNL Marketo Measure]은(는) 설치된 패키지에 포함된 4개의 다른 필드(접점 상태(리드), 접점 상태(연락처), 접점 상태(기회) 및 접점 상태 날짜)에 걸쳐 캠페인 멤버에 상태 값을 푸시합니다. 이렇게 하면 고객이 터치포인트가 관련된 오브젝트에 따라 Buyer Touchpoint 또는 Buyer Attribution Touchpoint으로 만들어졌는지 여부를 감사하는 데 도움이 됩니다. 접점 상태 날짜는 캠페인 멤버에서 상태가 마지막으로 업데이트된 날짜일 뿐입니다.
 
-![활성화된 경우 Marketo Measure이 상태 값을 ](assets/dynamics-lists-3.png)에 푸시합니다.
+![활성화된 경우 Marketo Measure이 상태 값을 &#x200B;](assets/dynamics-lists-3.png)에 푸시합니다.
 
 ## Buyer Touchpoint 날짜 {#buyer-touchpoint-date}
 
@@ -104,7 +104,7 @@ Buyer Touchpoint 날짜를 사용해야 하는지 여부를 확인하려면 캠�
 >
 >작동하지 않는 검색이 한 개 있으며 이는 아래 예에 표시됩니다. UI는 null Buyer Touchpoint 날짜 검색을 지원하지 않습니다(아래 검색은 작동하지 않음).
 
-![작동하지 않는 검색이 한 개 있습니다. ](assets/legacy-processes-10.png)에 표시됩니다.
+![작동하지 않는 검색이 한 개 있습니다. &#x200B;](assets/legacy-processes-10.png)에 표시됩니다.
 
 검색을 사용하지 않고 모든 캠페인 멤버 레코드에 날짜를 적용할 필요가 없는 경우 모든 페이지의 모든 레코드를 확인하는 &quot;[!UICONTROL Include All Records]&quot; 확인란(아래 스크린샷 참조)을 사용합니다.
 
@@ -116,7 +116,7 @@ Buyer Touchpoint 날짜를 사용해야 하는지 여부를 확인하려면 캠�
 
 ## 캠페인 비용 {#campaign-costs}
 
-이 문서](/help/crm-campaign-costs.md){target="_blank"}에서 캠페인 비용 [에 대해 모두 알아보세요.
+이 문서[&#128279;](/help/crm-campaign-costs.md){target="_blank"}에서 캠페인 비용 에 대해 모두 알아보세요.
 
 ## 캠페인 멤버 제거 {#campaign-member-removal}
 

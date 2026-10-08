@@ -55,7 +55,7 @@ ht-degree: 0%
   * **)**&#x200B;이(가) 추출 끝을 표시합니다.
   * **.&#42;** 는 전체 문자열을 추출하는 중임을 알려줍니다.
 
-![.&amp;42; 전체 문자열을 추출하는 중임을 알려줍니다.](assets/touchpoint-fields-10.png)
+![.&42; 전체 문자열을 추출하는 중임을 알려줍니다.](assets/touchpoint-fields-10.png)
 
 **예 #2**
 
@@ -75,7 +75,7 @@ ht-degree: 0%
   * **+**&#x200B;이(가) 문자 제한 없이 매개 변수의 전체 값을 추출합니다.
   * 백슬래시가 아닌 슬래시를 사용하고 있다는 점을 유의하십시오
 
-![슬래시를 사용하고 있으며 ](assets/touchpoint-fields-11.png)이(가) 아닙니다.
+![슬래시를 사용하고 있으며 &#x200B;](assets/touchpoint-fields-11.png)이(가) 아닙니다.
 
 **예 #3**
 
@@ -198,7 +198,7 @@ Segment__c 및 Grade__c에 대한 Opportunity 객체에는 보고 목적으로 �
 
 규칙은 동일한 접점 필드를 참조하고 &quot;null과 같지 않음&quot;인 값을 검색합니다.
 
-![규칙이 동일한 터치포인트 필드를 참조하고 ](assets/touchpoint-fields-7.png) 값을 검색합니다.
+![규칙이 동일한 터치포인트 필드를 참조하고 &#x200B;](assets/touchpoint-fields-7.png) 값을 검색합니다.
 
 ## FAQ {#faq}
 

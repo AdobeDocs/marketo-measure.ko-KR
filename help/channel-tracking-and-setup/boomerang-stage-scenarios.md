@@ -52,7 +52,7 @@ SQL 단계는 Boomerang 터치포인트로 추적되며 3개의 터치포인트�
 
 이 시나리오에서는 시나리오 2와 동일한 기준을 사용합니다. 고객은 부메랑 접점을 사용하여 SQL 단계만 추적하도록 선택했습니다. MQL 및 SAL이 계속 추적되고 있지만 [!DNL Marketo Measure] 사용자 지정 단계 기능이 있습니다.
 
-![이 시나리오에서는 시나리오 2와 같은 기준을 사용합니다. 고객의 ](assets/boomerang-stages-20.png)
+![이 시나리오에서는 시나리오 2와 같은 기준을 사용합니다. 고객의 &#x200B;](assets/boomerang-stages-20.png)
 
 이 시나리오에서 Lead 는 실제로 SAL 단계로 전환되지 않습니다. SAL 단계에 도달하기 전에 Contact 로 변환되며, 기본적으로 SAL 단계는 &quot;건너뜀&quot;입니다. 이 상황에서 [!DNL Marketo Measure]은(는) SAL이 OC 터치포인트와 함께 발생하고 SAL 및 OC 위치가 모두 동일한 터치포인트에 나타난다고 가정합니다.
 
