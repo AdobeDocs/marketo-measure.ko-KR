@@ -25,11 +25,11 @@ UTM 매개 변수는 URL에 수동으로 추가하거나 광고 단어 와 같�
 
 UTM 매개 변수가 작동하는 방식을 이해하기 위해 UTM이 없는 일반적인 URL을 살펴보겠습니다.
 
-`http://www.adobe.com`
+`http://www.adobe.com/kr`
 
 이제 UTM이 있는 URL을 확인해 보겠습니다.
 
-`http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
+`http://www.adobe.com/kr?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
 두 번째 링크에 텍스트가 더 있습니다. UTM 매개 변수는 항상 최상위 도메인( 이 예에서는 .com) 뒤에 있으며 물음표로 시작합니다. 이 후에는 매개 변수의 순서가 중요하지 않지만 일관된 명명 규칙을 따르는 것이 좋습니다. 앰퍼샌드는 각 UTM을 구분하려면 각 매개 변수 사이에 배치해야 합니다. 이제 각 매개 변수가 나타내는 것에 대해 더 자세히 살펴볼 수 있습니다.
 
