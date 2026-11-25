@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
+source-git-commit: 85b421a896fb78f5469a41c8d11131802d08910c
 workflow-type: tm+mt
-source-wordcount: '21775'
+source-wordcount: '21772'
 ht-degree: 8%
 ---
 # Data Warehouse 스키마 {#data-warehouse-schema}
@@ -5804,7 +5804,7 @@ Javascript에서 사용자 지정 이벤트를 사용하여 기록된 웹 이벤
 
 >[!IMPORTANT]
 >
->Marketo Measure은 2024년 중반에 이 표를 더 이상 사용하지 않을 예정입니다. 사용자 측에서 생성하려는 경우 [이 SQL 쿼리](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql)를 실행하십시오.
+>Marketo Measure은 2024년에 이 테이블을 더 이상 사용하지 않습니다. 사용자 측에서 생성하려는 경우 [이 SQL 쿼리](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.txt)를 실행하십시오.
 
 <table>
   <tbody>
